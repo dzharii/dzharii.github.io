@@ -1,0 +1,15 @@
+---
+layout: post
+title:  "Best of July 2021"
+date:   2021-07-26 22:56 -0700
+categories: links
+---
+
+- [Dmitry Dolgov: Evolution of tree data structures for indexing: more exciting than it sounds · Erthalion's blog](https://erthalion.info/2020/11/28/evolution-of-btree-index-am/) - Data Structures and well-crafted blog
+- [map string interface{} in Go — Bitfield Consulting](https://bitfieldconsulting.com/golang/map-string-interface) - Go! lang
+- [Guides for reaching Staff-plus engineering roles - StaffEng | StaffEng](https://staffeng.com/guides/) - For the aspiring aristocrats
+- [What I Wish I Knew About CSS When Starting Out As A Frontender - Kablamo Engineering Blog](https://engineering.kablamo.com.au/posts/2021/my-first-css) - CSS
+
+
+
+
