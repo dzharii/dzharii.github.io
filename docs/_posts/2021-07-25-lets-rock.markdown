@@ -7,19 +7,19 @@ categories: jekyll update
 
 Dear Diary,
 
-I remember, 8 years ago, back in Ukraine I’ve used to run even several blogs.
-Blogging were super useful, since I’ve been able to post my new findings or the results of my research and than find that note after some time. I’ve met a few like-minded friends because of my posts. This is a great tool. But then… I’ve stopped.
+I remember, 8 years ago, back in Ukraine, I've used to run even several blogs.
+Blogging was super helpful since I've been able to blog about my findings or results of my research and then find that note after some time. I've met a few like-minded friends because of my posts. This is a great tool. But then… I've stopped.
 
-Because of my English isn’t perfect…
+Because my English isn't perfect…
 Because of lack of time, other things, video games…
 
 Finally: the circle is now complete. I have not fixed all my issues before I have re-started the blogging, but, really, should I?
 
-This is my official first post. I don’t know what I am going to do in the future, but I am gonna publish this right now.
+This is my official first post. I don't know what I will do in the future, but I am going to publish this right now.
 
-Thanks to github pages:
+Thanks to GitHub pages:
 
-- [GitHub Pages Websites for you and your](https://pages.github.com/)
+- [GitHub Pages Websites for you](https://pages.github.com/)
 - [Setting up a GitHub Pages site with Jekyll](https://docs.github.com/en/pages/
 setting-up-a-github-pages-site-with-jekyll)
 - [Creating a GitHub Pages site with Jekyll - GitHub Docs](https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/creating-a-github-pages-site-with-jekyll)
