@@ -1,0 +1,11 @@
+---
+layout: post
+title:  "Best of August 2021"
+date:   2021-08-02 10:54 -0700
+categories: links
+---
+
+
+## Typescript
+ - New blog: [catchts: Typescript blog, dedicated to static typings](https://catchts.com/)
+
