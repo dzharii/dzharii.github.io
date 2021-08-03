@@ -1,0 +1,14 @@
+﻿---
+layout: post
+title:  "Seattle"
+date:   2021-08-03 07:47 -0700
+categories: links
+---
+
+- [Directory: Non-emergency police phone numbers](https://www.police1.com/resources/articles/non-emergency-police-phone-numbers-6MpSCmo7w3SdRciS/)
+Seattle PD	Seattle, Washington	206-625-5011
+- [NWS Seattle  @NWSSeattle  / Twitter](https://twitter.com/NWSSeattle) Weather forecast
+- [Seattle Fire Real-Time 911](http://www2.seattle.gov/fire/realtime911/getRecsForDatePub.asp?action=Today&incDate=&rad1=des)
+- [Seattle](https://www.reddit.com/r/Seattle/)
+
+
