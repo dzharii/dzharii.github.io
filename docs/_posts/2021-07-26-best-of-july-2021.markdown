@@ -17,7 +17,7 @@ categories: links
 
 - [US Taxes](https://ustaxes.org/start) UsTaxes is an open source tax filing application that can be used to file the Form 1040 United States individual income tax return. Unlike paid tax preparation software, UsTaxes both protects user privacy and is provided free of charge.
 But:
-    - [Free File: Do your Federal Taxes for Free | Internal Revenue Service](https://www.irs.gov/filing/free-file-do-your-federal-taxes-for-free)
+    - [Free File: Do your Federal Taxes for Free Internal Revenue Service](https://www.irs.gov/filing/free-file-do-your-federal-taxes-for-free)
     - [Federal Income Tax Spreadsheet Form 1040  Excel Spreadsheet  Income Tax Calculator](https://sites.google.com/view/incometaxspreadsheet/home)
 
 
