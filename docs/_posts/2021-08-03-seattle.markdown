@@ -9,6 +9,8 @@ categories: links
 Seattle PD	Seattle, Washington	206-625-5011
 - [NWS Seattle  @NWSSeattle  / Twitter](https://twitter.com/NWSSeattle) Weather forecast
 - [Seattle Fire Real-Time 911](http://www2.seattle.gov/fire/realtime911/getRecsForDatePub.asp?action=Today&incDate=&rad1=des)
-- [Seattle](https://www.reddit.com/r/Seattle/)
+- [Seattle Reddit](https://www.reddit.com/r/Seattle/)
+- [King County Department of Assessments: eReal Property](https://blue.kingcounty.com/Assessor/eRealProperty/Detail.aspx?ParcelNbr=3123089027)
+
 
 
