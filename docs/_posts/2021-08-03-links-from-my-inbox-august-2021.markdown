@@ -35,6 +35,8 @@ Once in a while, the time comes to clean all the links I've saved in my email in
 
 ## Money
 - [An Intern's Guide to Trading  Nasdaq](https://www.nasdaq.com/articles/an-interns-guide-to-trading-2021-07-01)
+- [An Engineer's guide to Stock Options](https://blog.alexmaccaw.com/an-engineers-guide-to-stock-options/#)
+
 
 ## Algorithms, data structures, software design
 
@@ -52,6 +54,12 @@ Once in a while, the time comes to clean all the links I've saved in my email in
 - [How Browsers Work: Behind the scenes of modern web browsers - HTML5 Rocks](https://www.html5rocks.com/en/tutorials/internals/howbrowserswork/)
 - [The Tech Stack of a One-Man SaaS](https://panelbear.com/blog/tech-stack/)
 - [Streams—The definitive guide](https://web.dev/streams/)
+- [Fantasy UIs](https://www.pushing-pixels.org/fui/)
+- [The Big Little Guide to Message Queues](https://sudhir.io/the-big-little-guide-to-message-queues/)
+- [Things I Wished More Developers Knew About Databases   by Jaana Dogan   Medium](https://rakyll.medium.com/things-i-wished-more-developers-knew-about-databases-2d0178464f78)
+- [goldbergyoni/nodebestpractices: The Node.js best practices list  August 2021 ](https://github.com/goldbergyoni/nodebestpractices#readme)
+
+
 
 ## Security
 
@@ -129,6 +137,23 @@ Once in a while, the time comes to clean all the links I've saved in my email in
 - [Using Windows 10 Built-in OCR With C#   by Jung-Hyun Nam   DataSeries   Medium](https://medium.com/dataseries/using-windows-10-built-in-ocr-with-c-b5ca8665a14e)
 - [OCR sample - Code Samples   Microsoft Docs](https://docs.microsoft.com/en-us/samples/microsoft/windows-universal-samples/ocr/)
 - [microsoft/Windows-universal-samples: API samples for the Universal Windows Platform.](https://github.com/microsoft/Windows-universal-samples)
+- [Platform Conditional Compilation in .NET Core Magnus Montin](https://blog.magnusmontin.net/2018/11/05/platform-conditional-compilation-in-net-core/)
+```cs
+#if Linux
+Console.WriteLine("Built on Linux!");
+#elif OSX
+Console.WriteLine("Built on macOS!");
+#elif Windows
+Console.WriteLine("Built in Windows!");
+#endif
+```
+- [Service registry pattern](https://microservices.io/patterns/service-registry.html)
+- [ASP.NET Core RESTful Web API versioning made easy - Scott Hanselman's Blog](https://www.hanselman.com/blog/aspnet-core-restful-web-api-versioning-made-easy)
+
+## Subscribe!
+- [Morning Dew by Alvin Ashcraft – Daily links for Windows and .NET developers.](https://www.alvinashcraft.com/)
+
+
 
 ## Story
 - [012. I Shipped, Therefore I Am - by Steven Sinofsky - Hardcore Software](https://hardcoresoftware.learningbyshipping.com/p/012-i-shipped-therefore-i-am)

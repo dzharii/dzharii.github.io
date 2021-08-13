@@ -13,6 +13,70 @@ categories: links
 - [FFmpeg Threads Command: How it Affects Quality and Performance - Streaming Learning Center](https://streaminglearningcenter.com/blogs/ffmpeg-command-threads-how-it-affects-quality-and-performance.html)
 - [Galène videoconference server](https://galene.org/)
 - [Show HN: Owncast – An open-source, self-hosted live streaming server Hacker News](https://news.ycombinator.com/item?id=25484133)
+- [Camera Stabilisation with FFmpeg](http://blog.gregzaal.com/2014/05/30/camera-stabilisation-with-ffmpeg/)
+- [Stabilizing GoPro Video with FFmpeg and vid.stab Important Bits](https://www.imakewebsites.ca/posts/2018/02/17/stabilizing-gopro-video-with-ffmpeg-and-vid.stab/)
 
 
+Make a clip
 
+```sh
+ffmpeg -i i.mp4 -ss 00:01:00 -t 00:02:00 -c copy o.mp4
+```
+Group photos into video
+
+```sh
+ffmpeg -framerate 10 -pattern_type glob -i '*.jpg' -c:v libx264 o.mp4
+```
+
+Get a screenshot from a video.
+```sh
+ffmpeg -i o.mp4 -r 1 -q:v 2 -f image2 img-3%d.jpeg
+```
+Concatenate videos
+
+```sh
+file 'video1.mp4'
+file 'video2.mp4'
+file 'videoN.mp4'
+```
+
+```sh
+ffmpeg -f concat -i list.txt -c copy o.mp4
+```
+Remove audio from video
+```sh
+ffmpeg -i i.mp4 -c:v copy -an o.mp4
+```
+Extract audio from video
+```sh
+ffmpeg -i i.mp4 -vn 0.wav
+```
+
+Crop video
+```sh
+ffmpeg -i i.mp4 -filter:v "crop=w:h:x:y" o.mp4
+```
+
+Stack videos horizontaly
+```sh
+ffmpeg -i i0.mp4 -i i1.mp4 -filter_complex hstack=inputs=2 o.mp4
+```
+Vertical
+```sh
+ffmpeg -i i0.mp4 -i i1.mp4 -filter_complex vstack=inputs=2 o.mp4
+```
+
+Grid 2x2
+```sh
+ffmpeg \ -i i0.mp4 -i i1.mp4 -i i2.mp4 -i i3.mp4 \ -filter_complex \ "[0:v][1:v]hstack=inputs=2[top]; \ [2:v][3:v]hstack=inputs=2[bottom]; \ [top][bottom]vstack=inputs=2[v]" \ -map "[v]" \ o.mp4
+```
+
+Grid 3x2
+```sh
+ffmpeg \ -i i0.mp4 -i i1.mp4 \ -i i2.mp4 -i i3.mp4 \ -i i4.mp4 -i i5.mp4 \ -filter_complex \ "[0:v][1:v][2:v]hstack=inputs=3[top];\ [3:v][4:v][5:v]hstack=inputs=3[bottom];\ [top][bottom]vstack=inputs=2[v]" \ -map "[v]" \ o.mp4
+```
+
+Rotate:
+```sh
+ffmpeg -i i.mp4 -vf "transpose=0" o.mp4
+```
