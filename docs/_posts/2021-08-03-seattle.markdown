@@ -11,6 +11,10 @@ Seattle PD	Seattle, Washington	206-625-5011
 - [Seattle Fire Real-Time 911](http://www2.seattle.gov/fire/realtime911/getRecsForDatePub.asp?action=Today&incDate=&rad1=des)
 - [Seattle Reddit](https://www.reddit.com/r/Seattle/)
 - [King County Department of Assessments: eReal Property](https://blue.kingcounty.com/Assessor/eRealProperty/Detail.aspx?ParcelNbr=3123089027)
+- [Washington Smoke Information](https://wasmoke.blogspot.com/)
+
+## Real Estate news and articles
+- [Real Estate  The Seattle Times](https://www.seattletimes.com/business/real-estate/)
 
 
 

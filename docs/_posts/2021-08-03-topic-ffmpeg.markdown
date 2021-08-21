@@ -15,6 +15,7 @@ categories: links
 - [Show HN: Owncast – An open-source, self-hosted live streaming server Hacker News](https://news.ycombinator.com/item?id=25484133)
 - [Camera Stabilisation with FFmpeg](http://blog.gregzaal.com/2014/05/30/camera-stabilisation-with-ffmpeg/)
 - [Stabilizing GoPro Video with FFmpeg and vid.stab Important Bits](https://www.imakewebsites.ca/posts/2018/02/17/stabilizing-gopro-video-with-ffmpeg-and-vid.stab/)
+- [Anime Encoding Guide for x265  HEVC  & AAC/OPUS  and Why to Never Use FLAC  – Kokomins](https://kokomins.wordpress.com/2019/10/10/anime-encoding-guide-for-x265-and-why-to-never-use-flac/)
 
 
 Make a clip

@@ -39,7 +39,7 @@ Once in a while, the time comes to clean all the links I've saved in my email in
 
 
 ## Algorithms, data structures, software design
-
+- [Dmitry Dolgov: Evolution of tree data structures for indexing: more exciting than it sounds · Erthalion's blog](https://erthalion.info/2020/11/28/evolution-of-btree-index-am/) - Data Structures and well-crafted blog
 - [labuladong/fucking-algorithm at english](https://github.com/labuladong/fucking-algorithm/tree/english)
 - [dbartolini/data-oriented-design: A curated list of data oriented design resources.](https://github.com/dbartolini/data-oriented-design)
 - [Introduction   Tech Interview Handbook](https://techinterviewhandbook.org/introduction/)
@@ -50,6 +50,10 @@ Once in a while, the time comes to clean all the links I've saved in my email in
 - [Hashids - generate short unique ids from integers](https://hashids.org/)
 - [API pagination design](https://solovyov.net/blog/2020/api-pagination-design/)
 
+## Career
+
+- [Guides for reaching Staff-plus engineering roles - StaffEng StaffEng](https://staffeng.com/guides/) - For the aspiring aristocrats
+
 ## How the things work
 - [How Browsers Work: Behind the scenes of modern web browsers - HTML5 Rocks](https://www.html5rocks.com/en/tutorials/internals/howbrowserswork/)
 - [The Tech Stack of a One-Man SaaS](https://panelbear.com/blog/tech-stack/)
@@ -58,6 +62,8 @@ Once in a while, the time comes to clean all the links I've saved in my email in
 - [The Big Little Guide to Message Queues](https://sudhir.io/the-big-little-guide-to-message-queues/)
 - [Things I Wished More Developers Knew About Databases   by Jaana Dogan   Medium](https://rakyll.medium.com/things-i-wished-more-developers-knew-about-databases-2d0178464f78)
 - [goldbergyoni/nodebestpractices: The Node.js best practices list  August 2021 ](https://github.com/goldbergyoni/nodebestpractices#readme)
+- [Last Mile Redis · Fly](https://fly.io/blog/last-mile-redis/)
+
 
 
 
@@ -76,7 +82,7 @@ Once in a while, the time comes to clean all the links I've saved in my email in
 
 
 ## Projects
-
+- [randomwraith.com - LEGO logic gates and mechanical computing](https://www.randomwraith.com/logic.html) - Lego! Logic
 - [duckdb/duckdb: DuckDB is an in-process SQL OLAP Database Management System](https://github.com/duckdb/duckdb)
 - [naver/billboard.js: Re-usable, easy interface JavaScript chart library based on D3.js](https://github.com/naver/billboard.js)
 ![picture 1](../../images/1e27db92f9e991111045f7847969df4f99daeaf755fee626669916189159dc23.png)
@@ -105,7 +111,11 @@ Once in a while, the time comes to clean all the links I've saved in my email in
 - [Fast and Reliable Schema-Agnostic Log Analytics Platform   Uber Engineering Blog](https://eng.uber.com/logging/)
 - [pavlobu/deskreen: Deskreen turns any device with a web browser into a secondary screen for your computer](https://github.com/pavlobu/deskreen)
 - [PeerJS - Simple peer-to-peer with WebRTC](https://peerjs.com/)
+- [typesense/typesense: Fast, typo tolerant, fuzzy search engine for building delightful search experiences ⚡ 🔍 ✨ An Open Source alternative to Algolia and an Easier-to-Use alternative to ElasticSearch.](https://github.com/typesense/typesense)
 
+## Tools
+
+- [WiFi Card](https://wificard.io/)
 
 ## Android Dev
 - [Run Android Emulator on Docker. How to build and run Android Emulator…   by Andres Sandoval   Medium](https://andresand.medium.com/android-emulator-on-docker-container-f20c49b129ef)
@@ -119,6 +129,7 @@ Once in a while, the time comes to clean all the links I've saved in my email in
 
 ## Javascript CSS HTML
 
+- [What I Wish I Knew About CSS When Starting Out As A Frontender - Kablamo Engineering Blog](https://engineering.kablamo.com.au/posts/2021/my-first-css) - CSS
 - [Use a Green Screen in Javascript With Vonage Video » Developer Content from Vonage ♥](https://learn.vonage.com/blog/2020/06/24/use-a-green-screen-in-javascript-with-vonage-video/)
 - [Graphery SVG](https://www.graphery.org/svg/)
 - [Manipulating video using canvas - Web APIs   MDN](https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API/Manipulating_video_using_canvas)
@@ -131,6 +142,8 @@ Once in a while, the time comes to clean all the links I've saved in my email in
 
 ## C++
 - [The LLVM Project Blog](https://blog.llvm.org/posts/2020-12-21-interactive-cpp-for-data-science/)
+- [Modern C++ for C Programmers: part 1 - Bert Hubert's writings](https://berthub.eu/articles/posts/c++-1/)
+
 
 ## C# / NET
 - [Record Audio in .NET Core](https://www.xspdf.com/resolution/52444748.html)
@@ -150,15 +163,27 @@ Console.WriteLine("Built in Windows!");
 - [Service registry pattern](https://microservices.io/patterns/service-registry.html)
 - [ASP.NET Core RESTful Web API versioning made easy - Scott Hanselman's Blog](https://www.hanselman.com/blog/aspnet-core-restful-web-api-versioning-made-easy)
 
+## Performance!
+- [DragonSpit/HPCsharp: High performance algorithms in C#: SIMD/SSE, multi-core and faster](https://github.com/DragonSpit/HPCsharp)
+- [adamsitnik/awesome-dot-net-performance: A curated list of awesome .NET Performance books, courses, trainings, conference talks, blogs and most inspiring open source contributors. Inspired by awesome-... stuff.](https://github.com/adamsitnik/awesome-dot-net-performance)
+
+
+
 ## Subscribe!
 - [Morning Dew by Alvin Ashcraft – Daily links for Windows and .NET developers.](https://www.alvinashcraft.com/)
-
+- [.NET Reddit](https://www.reddit.com/r/dotnet/)
+- [quozd/awesome-dotnet: A collection of awesome .NET libraries, tools, frameworks and software](https://github.com/quozd/awesome-dotnet)
 
 
 ## Story
 - [012. I Shipped, Therefore I Am - by Steven Sinofsky - Hardcore Software](https://hardcoresoftware.learningbyshipping.com/p/012-i-shipped-therefore-i-am)
 - [Folklore.org: Mister Macintosh](https://www.folklore.org/StoryView.py?project=Macintosh&story=Mister_Macintosh.txt&sortOrder=Sort+by+Date)
+- [3 Programmers Got Fired  Including Me  Due to a Single App Crash | by The woman | Jul, 2021 | Better Programming](https://betterprogramming.pub/3-programmers-got-fired-including-me-due-to-a-single-app-crash-35d4c94555da)
 
+
+## Books to read... Maybe... some day
+
+- [Atomic Habits: James Clear: 9781847941831: Amazon.com: Books](https://www.amazon.com/gp/product/1847941834/ref=as_li_tl?ie=UTF8&tag=trmsme-20&camp=1789&creative=9325&linkCode=as2&creativeASIN=1847941834&linkId=d8c47cc34750296a8f27df0a156af96c)
 
 ## Snippets
 - [FLEX: A simple visual cheatsheet for flexbox](https://flexbox.malven.co/)
@@ -194,3 +219,10 @@ Browser Speech API
 
 })();
 ```
+
+## For later...
+
+- [US Taxes](https://ustaxes.org/start) UsTaxes is an open source tax filing application that can be used to file the Form 1040 United States individual income tax return. Unlike paid tax preparation software, UsTaxes both protects user privacy and is provided free of charge.
+But:
+    - [Free File: Do your Federal Taxes for Free Internal Revenue Service](https://www.irs.gov/filing/free-file-do-your-federal-taxes-for-free)
+    - [Federal Income Tax Spreadsheet Form 1040  Excel Spreadsheet  Income Tax Calculator](https://sites.google.com/view/incometaxspreadsheet/home)
