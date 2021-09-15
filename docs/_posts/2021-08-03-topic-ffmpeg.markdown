@@ -81,3 +81,25 @@ Rotate:
 ```sh
 ffmpeg -i i.mp4 -vf "transpose=0" o.mp4
 ```
+
+## FFmpeg: convert for android
+
+- (2021-09-15) [Converting Video for Android using FFMPEG - Stack Overflow](https://stackoverflow.com/questions/14171826/converting-video-for-android-using-ffmpeg)
+
+```sh
+ffmpeg -i <input> -c:v libx264 -c:a aac -movflags +faststart output.mp4
+```
+
+```sh
+ffmpeg -i <input> -s 480x320 -vcodec mpeg4 -acodec aac -strict -2 -ac 1 -ar 16000 -r 13 -ab 32000 -aspect 3:2 <output>
+```
+
+```sh
+ffmpeg -y -i input_file.mp4 -s 352x288 -b:v 384k -flags +loop+mv4 -cmp 256 -partitions +parti4x4+parti8x8+partp4x4+partp8x8 -subq 6 -trellis 0 -refs 5 -bf 0 -coder 0 -me_range 16 -g 250 -keyint_min 25 -sc_threshold 40 -i_qfactor 0.71 -qmin 10 -qmax 51 -qdiff 4 -c:a aac -ac 1 -ar 16000 -r 13 -ab 32000 -aspect 3:2 -strict experimental output_file.3gp
+```
+
+```sh
+ffmpeg -i <INPUT_VIDEO> -c:v libx264 -profile:v baseline -c:a libvo_aacenc -ar 44100 -ac 2 -b:a 128k -movflags faststart output.mp4
+```
+
+
