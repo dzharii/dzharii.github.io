@@ -102,4 +102,21 @@ ffmpeg -y -i input_file.mp4 -s 352x288 -b:v 384k -flags +loop+mv4 -cmp 256 -part
 ffmpeg -i <INPUT_VIDEO> -c:v libx264 -profile:v baseline -c:a libvo_aacenc -ar 44100 -ac 2 -b:a 128k -movflags faststart output.mp4
 ```
 
+Powershell: Convert files in the current folder for mobile upload
 
+```powershell
+$files = Get-ChildItem
+New-Item  -Name "out" -ItemType "directory"
+foreach($file in $files) {
+    $file.Extension
+    if ($file.Extension -cin ('.webm', '.mp4', '.mkv')) {
+        $fn = '"out/' + $file.BaseName + '.mp4'
+        ffmpeg -i "$file" -c:v libx264 -c:a aac -movflags +faststart $fn
+    }
+}
+```
+
+
+## Tools / Other
+
+- (2021-09-26) [jely2002/youtube-dl-gui: A cross-platform GUI for youtube-dl made in Electron and node.js - open video downloader](https://github.com/jely2002/youtube-dl-gui)
