@@ -53,8 +53,43 @@ app.Run();
 
 ## NES
 
-- (2021-09-26) [ NES  Testing CPU without graphical output : EmuDev](https://www.reddit.com/r/EmuDev/comments/81inos/nes_testing_cpu_without_graphical_output/)
+### Videos
+- (2021-09-26) ✨ [NES Assembly on an Apple II: 'Hello World' with Merlin - YouTube](https://www.youtube.com/watch?v=kyN9BZiKqJQ)
+- (2021-09-26) [Hello, NES! - "Hello, World!" on a Nintendo? A little easier? - YouTube](https://www.youtube.com/watch?v=eMw_QGwJsb4)
 
+### Gadgets
+- (2021-09-26) [PowerPak - retroUSB](https://www.retrousb.com/product_info.php?products_id=34) The NES flash cart is finally here and it couldn't be easier. Just copy your games onto one compact flash card, insert into the PowerPak, and play!
+
+
+
+### Emulators
+- (2021-09-26) ✨ [bfirsh/jsnes: A JavaScript NES emulator.](https://github.com/bfirsh/jsnes)
+- (2021-09-26) [bokuweb/rustynes: 👾 An NES emulator by Rust and WebAssembly](https://github.com/bokuweb/rustynes)
+- (2021-09-26) [nfam/nes-web: Turn classic NES games to Multiplayer Online Games.](https://github.com/nfam/nes-web)
+- (2021-09-26) [Pinky - an NES emulator](https://koute.github.io/pinky-web/) webassembly / rust
+- (2021-09-26) [amhndu/SimpleNES: An NES emulator in C++](https://github.com/amhndu/SimpleNES)
+
+### ROMs
+- (2021-09-26) [NES ROMs FREE - Nintendo ROMs - Emulator Games](https://www.emulatorgames.net/roms/nintendo/)
+
+### Tutorials
+- (2021-09-26) [NES 6502 Programming Tutorial - Part 1: Getting Started-VBForums](https://www.vbforums.com/showthread.php?858389-NES-6502-Programming-Tutorial-Part-1-Getting-Started)
+- (2021-09-26) [Programming NES games in C](https://shiru.untergrund.net/articles/programming_nes_games_in_c.htm)
+- (2021-09-26) ✨ [Easy 6502 by skilldrick](http://skilldrick.github.io/easy6502/)
+- (2021-09-26) [Programming Basics - Nesdev wiki](https://wiki.nesdev.org/w/index.php/Programming_Basics)
+- (2021-09-26) ✨ [Programming M.C. Kids](https://games.greggman.com/game/programming_m_c__kids/)
+- (2021-09-26) [nesdoug – How to Program an NES game in C. NES Programming with cc65](https://nesdoug.com/)
+
+### Ref
+- (2021-09-26) [6502 Instruction Set](https://www.masswerk.at/6502/6502_instruction_set.html)
+- (2021-09-26) [DOWNLOADS-ARCHIVE/assembly.md at a58ef41a0acca83ab4aba8bc3bf359d24e91c67d · ArjunBEG/DOWNLOADS-ARCHIVE](https://github.com/ArjunBEG/DOWNLOADS-ARCHIVE/blob/a58ef41a0acca83ab4aba8bc3bf359d24e91c67d/knowledge-master/programming-languages/assembly.md)
+
+
+### Samples
+- (2021-09-26) [jmk/cc65-nes-examples: Shiru's NES programming examples  with Makefiles for macOS ](https://github.com/jmk/cc65-nes-examples)
+
+### Other
+- (2021-09-26) [ NES  Testing CPU without graphical output : EmuDev](https://www.reddit.com/r/EmuDev/comments/81inos/nes_testing_cpu_without_graphical_output/)
 
 
 ## Projects
@@ -76,6 +111,9 @@ app.Run();
     Video Conference Mute (Experimental) - Quickly mute your microphone (audio) and turn off your camera (video) with a single keystroke while on a conference call, regardless of what application has focus on your computer.
 - (2021-09-26) [markedjs/marked: A markdown parser and compiler. Built for speed.](https://github.com/markedjs/marked)
 - (2021-09-26) [google/highway: Performance-portable, length-agnostic SIMD with runtime dispatch](https://github.com/google/highway)
+- (2021-09-26) [Seeded Procedural Music Generator](https://codepen.io/jakealbaugh/pen/EKRarY)
+- (2021-09-26) [maximecb/Turing-Tunes: Procedural music generation engine using Turing machines.](https://github.com/maximecb/Turing-Tunes)
+
 
 ## The Spellcheck manifesto...
 
@@ -107,7 +145,9 @@ So I have started working on pull request spell check bookmarklet, this is some 
 
 - (2021-09-26) [Ondřej Žára – Homepage - Opensource JavaScript Developer (my-mind) ](https://ondras.zarovi.cz/#projects)
 
+## Making...
 
+- (2021-09-26) [Maker.js - Create parametric CNC drawings using JavaScript](https://maker.js.org/#content)
 
 ## Misc.
 - (2021-09-26) [Why Don’t Tech Companies Pay Their Engineers to Stay?   by Matthew Dean   Jul, 2021   Marker](https://marker.medium.com/why-dont-tech-companies-pay-their-engineers-to-stay-b9c7e4b751e9)
