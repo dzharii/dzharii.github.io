@@ -14,6 +14,8 @@ categories: links
     * [Add support for reproducible builds by clairernovotny · Pull Request #778 · reactiveui/splat](https://github.com/reactiveui/splat/pull/778/files) Original pull request
     * [DNF and its relationship with member projects · Discussion #38 · dotnet-foundation/Home](https://github.com/dotnet-foundation/Home/discussions/38)
     * [Glenn Watson - .NET Foundation problems and solutions](https://www.glennwatson.net/posts/dnf-problems-solutions)
+- (2021-10-08) [20 Things I've Learned in my 20 Years as a Software Engineer - Simple Thread](https://www.simplethread.com/20-things-ive-learned-in-my-20-years-as-a-software-engineer/)
+
 
 ## Azure
 
