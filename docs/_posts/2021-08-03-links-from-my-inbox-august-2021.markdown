@@ -43,7 +43,7 @@ Once in a while, the time comes to clean all the links I've saved in my email in
 - [labuladong/fucking-algorithm at english](https://github.com/labuladong/fucking-algorithm/tree/english)
 - [dbartolini/data-oriented-design: A curated list of data oriented design resources.](https://github.com/dbartolini/data-oriented-design)
 - [Introduction   Tech Interview Handbook](https://techinterviewhandbook.org/introduction/)
-![picture 3](../../images/8b27636a0bfe43ab9d9a455c8826e96664aa69a0e5e3ba021d44acd1fbf07adc.png)
+![picture 3](/images/8b27636a0bfe43ab9d9a455c8826e96664aa69a0e5e3ba021d44acd1fbf07adc.png)
 - [Constant Time LFU   Arpit Bhayani](https://arpitbhayani.me/blogs/lfu) Caching algorithm
 - [syncthing/syncthing: Open Source Continuous File Synchronization](https://github.com/syncthing/syncthing)
 - [LZ4 is lossless compression algorithm, providing compression speed > 500 MB/s per core](https://lz4.github.io/lz4/)
@@ -85,10 +85,10 @@ Once in a while, the time comes to clean all the links I've saved in my email in
 - [randomwraith.com - LEGO logic gates and mechanical computing](https://www.randomwraith.com/logic.html) - Lego! Logic
 - [duckdb/duckdb: DuckDB is an in-process SQL OLAP Database Management System](https://github.com/duckdb/duckdb)
 - [naver/billboard.js: Re-usable, easy interface JavaScript chart library based on D3.js](https://github.com/naver/billboard.js)
-![picture 1](../../images/1e27db92f9e991111045f7847969df4f99daeaf755fee626669916189159dc23.png)
+![picture 1](/images/1e27db92f9e991111045f7847969df4f99daeaf755fee626669916189159dc23.png)
 - [alixaxel/chrome-aws-lambda: Chromium Binary for AWS Lambda and Google Cloud Functions](https://github.com/alixaxel/chrome-aws-lambda)
 - [Arwes](https://arwes.dev/)
-![picture 2](../../images/3a4edc6afa26387eb13c6c93e566130ef0440a646e0ef11a336cf5ad6d8c1767.png)
+![picture 2](/images/3a4edc6afa26387eb13c6c93e566130ef0440a646e0ef11a336cf5ad6d8c1767.png)
 - [augmented-ui - Integrate your apps with technology](http://augmented-ui.com/)
 - [delabj/ggCyberPunk: A "Geom" for creating charts with a cyberpunk aesthetic](https://github.com/delabj/ggCyberPunk)
 - [NES.css - NES-style CSS Framework](https://nostalgic-css.github.io/NES.css/)
@@ -106,7 +106,7 @@ Once in a while, the time comes to clean all the links I've saved in my email in
   * secp256k1 EC Key curve support - JOSE Registrations for WebAuthn Algorithms
 - [Data Visualization With ApexCharts — Smashing Magazine](https://www.smashingmagazine.com/2020/11/data-visualization-apexcharts/)
 - [Charts.css](https://chartscss.org/)
-![picture 4](../../images/860790fe1c5656a6df9dbccea3f8516eee4a2f0b27f6d3e4f683290844a39521.png)
+![picture 4](/images/860790fe1c5656a6df9dbccea3f8516eee4a2f0b27f6d3e4f683290844a39521.png)
 - [Cockpit Project — Cockpit Project](https://cockpit-project.org/)
 - [Fast and Reliable Schema-Agnostic Log Analytics Platform   Uber Engineering Blog](https://eng.uber.com/logging/)
 - [pavlobu/deskreen: Deskreen turns any device with a web browser into a secondary screen for your computer](https://github.com/pavlobu/deskreen)

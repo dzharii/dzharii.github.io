@@ -50,9 +50,9 @@ categories: links
 - (2021-10-06) [lvgl/lvgl: Powerful and easy-to-use embedded GUI library with many widgets, advanced visual effects  opacity, antialiasing, animations  and low memory requirements  16K RAM, 64K Flash .](https://github.com/lvgl/lvgl)
 ![](https://camo.githubusercontent.com/b9f59645f486900c0f75fb74b2af9fefbda3575ead45de9194d60e8176c02f40/68747470733a2f2f6c76676c2e696f2f6173736574732f696d616765732f6c76676c5f776964676574735f64656d6f2e676966)
 - (2021-10-09) [VanillaTreeViewer](https://abhchand.me/vanilla-tree-viewer/)
-![picture 1](../../images/0c87a2a2adbf85dbf78696d17fff56e14b22ec34f439fe960325c255e89969f9.png)
+![picture 1](/images/0c87a2a2adbf85dbf78696d17fff56e14b22ec34f439fe960325c255e89969f9.png)
 - (2021-10-10) [After Dark in CSS](https://www.bryanbraun.com/after-dark-css/#)
-![picture 1](../../images/c35c7f080467cfd3c6a0926b562ba1d4c75c69065e8d3f6f511d61a8d1e39b04.png)
+![picture 1](/images/c35c7f080467cfd3c6a0926b562ba1d4c75c69065e8d3f6f511d61a8d1e39b04.png)
 
 
 ## JavaScript
@@ -67,7 +67,7 @@ categories: links
 ## Images
 
 - (2021-10-11) [ImageMagick v6 Examples -- Color Quantization and Dithering](https://legacy.imagemagick.org/Usage/quantize/#dither)
-![picture 1](../../images/78461cc95f7dbba1480164a23a3d07f0b48b5191633eb3dc070dd1d295fbf050.png)
+![picture 1](/images/78461cc95f7dbba1480164a23a3d07f0b48b5191633eb3dc070dd1d295fbf050.png)
 
 
 
