@@ -67,7 +67,7 @@ categories: links
 ## Images
 
 - (2021-10-11) [ImageMagick v6 Examples -- Color Quantization and Dithering](https://legacy.imagemagick.org/Usage/quantize/#dither)
-![picture 1](/images/78461cc95f7dbba1480164a23a3d07f0b48b5191633eb3dc070dd1d295fbf050.png)
+
 
 
 
