@@ -116,6 +116,31 @@ foreach($file in $files) {
 }
 ```
 
+## GoPRO Camera
+
+Reddit Thread: [No longer free: Windows 10 HEVC Video Extensions from Device Manufacturer : Windows10](https://www.reddit.com/r/Windows10/comments/j58y6f/no_longer_free_windows_10_hevc_video_extensions/)
+workaround
+```
+start ms-windows-store://pdp/?ProductId=9n4wgh0z6vhq
+```
+
+
+Downscale 4K video example
+
+```bash
+ffmpeg -i input.MP4 -c:v libx264 -crf 19 -preset slow -c:a aac -b:a 192k -ac 2 -vf scale=1920:1080 output_4k_to_1080p_converted.MP4
+```
+
+Convert h.264 to h.265 (no change in resolution)
+
+```bash
+ffmpeg -i input.mp4 -c:v libx265 -vtag hvc1 -vf scale=1920:1080 -crf 20 -c:a copy output.mp4
+```
+
+crf:
+- `-crf 0` high-quality, low compression, large file
+- `-crf 23` default
+- `-crf 51` low-quality, high compression, small file
 
 ## Tools / Other
 
