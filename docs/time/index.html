@@ -60,9 +60,11 @@
 
     const tzs = document.getElementById('tzs');
 
+    let smileCode = "😀".codePointAt(0);
+
     const timeZones = ['America/Los_Angeles', 'Europe/Kiev'];
 
-    const headers = addHeader(timeZones);
+    const headers = addHeader([''].concat(timeZones));
     tzs.append(headers);
 
     let dt = new Date();
@@ -78,9 +80,11 @@
 
     for (let vu = 0; vu < 1000; vu++) {
         const timeStrings = timeZones.map(timeZone =>  dt.toLocaleString('en-US', makeOpts(timeZone)));
-        const row = addRow(timeStrings);
+        const emoji = String.fromCodePoint(smileCode);
+        const row = addRow([emoji].concat(timeStrings));
         tzs.append(row);
         dt.setHours( dt.getHours() + 1 );
+        smileCode++;
     }
 </script>
 
