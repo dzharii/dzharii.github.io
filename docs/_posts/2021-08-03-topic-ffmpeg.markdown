@@ -17,6 +17,27 @@ categories: links
 - [Stabilizing GoPro Video with FFmpeg and vid.stab Important Bits](https://www.imakewebsites.ca/posts/2018/02/17/stabilizing-gopro-video-with-ffmpeg-and-vid.stab/)
 - [Anime Encoding Guide for x265  HEVC  & AAC/OPUS  and Why to Never Use FLAC  – Kokomins](https://kokomins.wordpress.com/2019/10/10/anime-encoding-guide-for-x265-and-why-to-never-use-flac/)
 
+## Tools
+
+- [FFmpeg Commander](https://alfg.dev/ffmpeg-commander/)
+    * [github: alfg/ffmpeg-commander: 🛠️ FFmpeg Command Generator Web UI](https://github.com/alfg/ffmpeg-commander) - generates commandline for the workload!
+
+## Snippets
+
+Audio - increase volume:
+[AudioVolume – FFmpeg](https://trac.ffmpeg.org/wiki/AudioVolume) Audio Volume Manipulation
+
+```sh
+ffmpeg -i VID_20211212_130236045.mp4  -c:v copy -filter:a loudnorm VID_20211212_130236045_vol_50.mp4
+```
+
+Add sound wave on top of video (under construction):
+
+```sh
+ffmpeg -i in.mp4 -filter_complex "[0:a]showwaves=s=1920x300:mode=line:colors=red|yellow[sw];[0][sw]overlay=(W-w)/2:(H-h)/2:format=auto,format=yuv420p[v]" -map "[v]" -map 0:a -movflags +faststart output.mp4
+```
+
+
 
 Make a clip
 

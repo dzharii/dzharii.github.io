@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vutime</title>
+    <style>
+        table {
+            font-family: Arial, Helvetica, sans-serif;
+            border-collapse: collapse;
+            width: 100%;
+        }
+
+        td, th {
+            border: 1px solid #ddd;
+            padding: 8px;
+        }
+
+        tr:nth-child(even){background-color: #f2f2f2;}
+
+        tr:hover {background-color: #ddd;}
+
+        th {
+            padding-top: 12px;
+            padding-bottom: 12px;
+            text-align: left;
+            background-color: #04AA6D;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <table id="tzs">
+
+    </table>
+</body>
+
+<script>
+
+    function addRow(arr) {
+        const tr = document.createElement('tr');
+        arr.forEach(content =>  {
+            const td = document.createElement('td');
+            td.innerText = content;
+            tr.append(td);
+        });
+        return tr;
+    }
+
+    function addHeader(arr) {
+        const tr = document.createElement('tr');
+        arr.forEach(content =>  {
+            const th = document.createElement('th');
+            th.innerText = content;
+            tr.append(th);
+        });
+        return tr;
+    }
+
+    const tzs = document.getElementById('tzs');
+
+    const timeZones = ['America/Los_Angeles', 'Europe/Kiev'];
+
+    const headers = addHeader(timeZones);
+    tzs.append(headers);
+
+    let dt = new Date();
+
+    const makeOpts = (timeZone) => { return {
+        weekday: 'long',
+        year: 'numeric',
+        month: 'long',
+        day: 'numeric',
+        hour: 'numeric',
+        timeZone: timeZone
+    } };
+
+    for (let vu = 0; vu < 1000; vu++) {
+        const timeStrings = timeZones.map(timeZone =>  dt.toLocaleString('en-US', makeOpts(timeZone)));
+        const row = addRow(timeStrings);
+        tzs.append(row);
+        dt.setHours( dt.getHours() + 1 );
+    }
+</script>
+
+</html>
