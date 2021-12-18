@@ -28,6 +28,16 @@
             background-color: #04AA6D;
             color: white;
         }
+
+        td.dark {
+            background-color: darkslateblue;
+            color: orange;
+        }
+
+        tr:hover td.dark {
+            background-color: black;
+            color: orangered;
+        }
     </style>
 </head>
 <body>
@@ -43,6 +53,12 @@
         arr.forEach(content =>  {
             const td = document.createElement('td');
             td.innerText = content;
+            /* Not the best place for this logic.. but... */
+
+            if (content.match(/ 12 AM| 1 AM| 2 AM| 3 AM| 4 AM| 5 AM| 6 AM| 7 AM/)) {
+                td.className = 'dark';
+            }
+
             tr.append(td);
         });
         return tr;
