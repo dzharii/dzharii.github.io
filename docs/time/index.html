@@ -60,7 +60,10 @@
 
     const tzs = document.getElementById('tzs');
 
-    let smileCode = "😀".codePointAt(0);
+    const magicNumber = 455499;
+    const emojiDiff = Math.floor(new Date().valueOf() / (60 * 60 * 1000)) - magicNumber;
+
+    let smileCode = "😀".codePointAt(0) + emojiDiff;
 
     const timeZones = ['America/Los_Angeles', 'Europe/Kiev'];
 
