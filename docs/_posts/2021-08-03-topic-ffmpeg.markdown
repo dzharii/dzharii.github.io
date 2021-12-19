@@ -137,6 +137,25 @@ foreach($file in $files) {
 }
 ```
 
+## Webcam Streaming
+
+[Stream camera video and audio with FFmpeg](http://4youngpadawans.com/stream-camera-video-and-audio-with-ffmpeg/)
+
+```bash
+ffmpeg -list_devices true -f dshow -i dummy
+```
+
+> "HD Pro Webcam C920"
+> "Microphone (TKGOU PnP USB Microphone)"
+
+
+```bash
+ffmpeg -f dshow -i video="HD Pro Webcam C920":audio="Microphone (TKGOU PnP USB Microphone)" -profile:v high -pix_fmt yuvj420p -level:v 4.1 -preset ultrafast -tune zerolatency -vcodec libx264 -r 10 -b:v 512k -s 640x360 -acodec aac -ac 2 -ab 32k -ar 44100 -f mpegts -flush_packets 0 udp://192.168.1.101:5666?pkt_size=1316
+```
+
+
+VLC -> Open Network Stream: `udp://@192.168.1.101:5666`
+
 ## GoPRO Camera
 
 Reddit Thread: [No longer free: Windows 10 HEVC Video Extensions from Device Manufacturer : Windows10](https://www.reddit.com/r/Windows10/comments/j58y6f/no_longer_free_windows_10_hevc_video_extensions/)
@@ -166,3 +185,4 @@ crf:
 ## Tools / Other
 
 - (2021-09-26) [jely2002/youtube-dl-gui: A cross-platform GUI for youtube-dl made in Electron and node.js - open video downloader](https://github.com/jely2002/youtube-dl-gui)
+
