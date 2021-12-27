@@ -98,9 +98,27 @@ Grid 3x2
 ffmpeg \ -i i0.mp4 -i i1.mp4 \ -i i2.mp4 -i i3.mp4 \ -i i4.mp4 -i i5.mp4 \ -filter_complex \ "[0:v][1:v][2:v]hstack=inputs=3[top];\ [3:v][4:v][5:v]hstack=inputs=3[bottom];\ [top][bottom]vstack=inputs=2[v]" \ -map "[v]" \ o.mp4
 ```
 
-Rotate:
+Rotate (re-encode):
 ```sh
 ffmpeg -i i.mp4 -vf "transpose=0" o.mp4
+```
+
+[How To Rotate Videos Using FFMpeg From Commandline](https://ostechnix.com/how-to-rotate-videos-using-ffmpeg-from-commandline/)
+
+transpose=...
+- 0 - Rotate by 90 degrees counter-clockwise and flip vertically. This is the default.
+- 1 - Rotate by 90 degrees clockwise.
+- 2 - Rotate by 90 degrees counter-clockwise.
+- 3 - Rotate by 90 degrees clockwise and flip vertically.
+
+Rotate 180 dec:
+```sh
+ffmpeg -i input.mp4 -vf "transpose=2,transpose=2" output.mp4
+```
+
+Rotate (metadata only):
+```sh
+ffmpeg -i inp.mp4  -c copy -metadata:s:v:0 rotate=180 output.mp4
 ```
 
 ## FFmpeg: convert for android
