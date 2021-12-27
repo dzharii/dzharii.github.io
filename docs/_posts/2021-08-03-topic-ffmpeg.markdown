@@ -185,6 +185,7 @@ crf:
 ### GoPro Tools and Code
 
 - (2021-12-26) [GoPro Open Sources Video Metadata](https://gopro.com/en/us/news/gopro-video-metadata-open-source-explained)
+- (2021-12-26) [TestDisk - CGSecurity](https://www.cgsecurity.org/wiki/TestDisk) - Open source SD Card recovery tool
 
 ## Tools / Other
 
