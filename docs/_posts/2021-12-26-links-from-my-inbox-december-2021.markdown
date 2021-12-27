@@ -12,12 +12,15 @@ Once in a while, the time comes to clean all the links I've saved in my email in
 ## You can't take the sky from me.
 
 Take my love, take my land,
+
 Take me where I cannot stand.
+
 I don't care, I'm still free,
+
 You can't take the sky from me.
 
 
-- (2021-12-26) [MIT Private Pilot Ground School, Lecture 1  Introduction  - YouTube](https://www.youtube.com/watch?v=-gJaYKwreEc&list=PLF-k_OIEn_PMQ4bYJGD1Jx1OUAM7zwaEH&index=1) I've been wondering about difficult it is to fly small aircraft like Cessna 172 or Piper PA-28 Cherokee. The curiosity led me to this course. The lectures are excellent. You'll get all info you need to make your mind.
+- (2021-12-26) [MIT Private Pilot Ground School, Lecture 1  Introduction  - YouTube](https://www.youtube.com/watch?v=-gJaYKwreEc&list=PLF-k_OIEn_PMQ4bYJGD1Jx1OUAM7zwaEH&index=1) I've been wondering about how difficult it is to fly small aircraft like Cessna 172 or Piper PA-28 Cherokee. The curiosity led me to this course. The lectures are excellent. You'll get all info you need to make your mind.
 - (2021-12-26) [LSX Kit - Progressive Aerodyne Inc SeaRey](https://www.searey.com/aircraft/kit/) -- build your airplane in a year or sooner in the garage; unfortunately, I don't have my own garage yet.
 - (2021-12-26) [RPi Stratux ADS-B - DIY/Low-cost Portable ADS-B](http://stratux.me/) Stratux is free software that enables DIY and low cost ADS-B receivers for pilots. Yep, I just leave it here
 - (2021-12-26) [AWC - Aviation Weather Center www.aviationweather.gov](https://www.aviationweather.gov/) National Weater Service
