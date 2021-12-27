@@ -182,6 +182,10 @@ crf:
 - `-crf 23` default
 - `-crf 51` low-quality, high compression, small file
 
+### GoPro Tools and Code
+
+- (2021-12-26) [GoPro Open Sources Video Metadata](https://gopro.com/en/us/news/gopro-video-metadata-open-source-explained)
+
 ## Tools / Other
 
 - (2021-09-26) [jely2002/youtube-dl-gui: A cross-platform GUI for youtube-dl made in Electron and node.js - open video downloader](https://github.com/jely2002/youtube-dl-gui)
