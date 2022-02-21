@@ -16,6 +16,9 @@ const config = {
   organizationName: 'dzharii', // Usually your GitHub org/user name.
   projectName: 'dzharii.github.io', // Usually your repo name.
 
+  deploymentBranch: 'gh-pages',
+  trailingSlash: false,
+
   plugins: [require.resolve("@cmfcmf/docusaurus-search-local")],
 
   presets: [
