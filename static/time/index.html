@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vutime</title>
+    <style>
+        table {
+            font-family: Arial, Helvetica, sans-serif;
+            border-collapse: collapse;
+            width: 100%;
+        }
+
+        td, th {
+            border: 1px solid #ddd;
+            padding: 8px;
+        }
+
+        tr:nth-child(even){background-color: #f2f2f2;}
+
+        tr:hover {
+            background-color: #ddd;
+            outline: 3px solid orangered;
+            border-radius: 3px;
+        }
+
+        th {
+            padding-top: 12px;
+            padding-bottom: 12px;
+            text-align: left;
+            background-color: #04AA6D;
+            color: white;
+        }
+
+        td.dark {
+            background-color: darkslateblue;
+            color: orange;
+        }
+
+        tr:hover td.dark {
+            background-color: black;
+            color: orangered;
+        }
+    </style>
+</head>
+<body>
+    <table id="tzs">
+
+    </table>
+</body>
+
+<script>
+
+    function addRow(arr) {
+        const tr = document.createElement('tr');
+        arr.forEach(content =>  {
+            const td = document.createElement('td');
+            td.innerText = content;
+            /* Not the best place for this logic.. but... */
+
+            if (content.match(/ 12 AM| 1 AM| 2 AM| 3 AM| 4 AM| 5 AM| 6 AM| 7 AM/)) {
+                td.className = 'dark';
+            }
+
+            tr.append(td);
+        });
+        return tr;
+    }
+
+    function addHeader(arr) {
+        const tr = document.createElement('tr');
+        arr.forEach(content =>  {
+            const th = document.createElement('th');
+            th.innerText = content;
+            tr.append(th);
+        });
+        return tr;
+    }
+
+    const tzs = document.getElementById('tzs');
+
+    const magicNumber = 455499;
+    const emojiDiff = Math.floor(new Date().valueOf() / (60 * 60 * 1000)) - magicNumber;
+
+    let smileCode = "😀".codePointAt(0) + emojiDiff;
+
+    const timeZones = ['America/Los_Angeles', 'Europe/Kiev'];
+
+    const headers = addHeader([''].concat(timeZones));
+    tzs.append(headers);
+
+    let dt = new Date();
+
+    const makeOpts = (timeZone) => { return {
+        weekday: 'long',
+        year: 'numeric',
+        month: 'long',
+        day: 'numeric',
+        hour: 'numeric',
+        timeZone: timeZone
+    } };
+
+    for (let vu = 0; vu < 1000; vu++) {
+        const timeStrings = timeZones.map(timeZone =>  dt.toLocaleString('en-US', makeOpts(timeZone)));
+        const emoji = String.fromCodePoint(smileCode);
+        const row = addRow([emoji].concat(timeStrings));
+        tzs.append(row);
+        dt.setHours( dt.getHours() + 1 );
+        smileCode++;
+    }
+</script>
+
+</html>
