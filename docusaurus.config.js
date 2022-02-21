@@ -106,7 +106,10 @@ const config = {
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+        copyright: `Please, remind me to put some good description here!
+        Write an awesome description for your new site here. You can edit this
+        line in _config.yml. It will appear in your document head meta (for
+        Google search results) and in your feed.xml site description.`,
       },
       prism: {
         theme: lightCodeTheme,
