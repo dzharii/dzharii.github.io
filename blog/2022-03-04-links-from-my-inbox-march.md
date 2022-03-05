@@ -14,6 +14,15 @@ categories: links
 > I sometimes find myself in a position of needing to write some code that I’m just not sure how to write. Been there have you? Here are the steps I take when I’m stumped. No huge revelations here, just hard-earned advice.
 - 2022-03-05 [Design: #noFramework. Is it as hard as you think? by Jérôme Beau Feb, 2022 Medium](https://javarome.medium.com/design-noframework-bbc00a02d9b3)
 > Actually the idea is now new. As back as 2017, Adrian Holovaty, co-creator of the Django web framework, spoke about his own frameworks fatigue and why he left Django to build his own vanilla JS project.
+- 2022-02-16 [Imitate, then Innovate - David Perell](https://perell.com/essay/imitate-then-innovate/)
+> Imitate, then Innovate is my motto for improving at any skill.
+> It’s counterintuitive, but the more we imitate others, the faster we can discover our unique style. In the entertainment world, there’s a long lineage of comedians who tried to copy each other, failed, and became great themselves: Johnny Carson tried to copy Jack Benny, but failed and won six Emmy awards. Then, David Letterman tried to copy Johnny Carson, but failed and became one of America’s great television hosts.
+- 2022-02-13 [The Life of MS-DOS · Brendan's Website](https://b13rg.github.io/Life-of-MS-DOS/)
+> First released on August 12, 1981, MS-DOS became the foundation for business computing for almost two decades. MS-DOS stood for Microsoft Disk Operating System and was often referred to simply as “DOS”.
+
+## How the things work
+- 2022-02-13 [Paul Butler – What does it mean to listen on a port?](https://paulbutler.org/2022/what-does-it-mean-to-listen-on-a-port/)
+> In the corner of the student union building there is a coffee shop, and in the corner of the coffee shop are two students. Liz taps away at the keyboard of the battered hand-me-down MacBook her brother gave her when she moved away to college. To her left on the bench seat, Tim scrawls equations on a coil-bound notebook. Between them is a half-empty cup of room temperature coffee that Liz sporadically sips from to stay awake.
 
 
 ## Projects
@@ -68,8 +77,10 @@ int main(int argc, char** argv) {
 - 2022-02-20 [microsoft/reverse-proxy: A toolkit for developing high-performance HTTP reverse proxy applications.](https://github.com/microsoft/reverse-proxy)
 YARP (which stands for "Yet Another Reverse Proxy") is a project to create a reverse proxy server. We found a bunch of internal teams at Microsoft who were either building a reverse proxy for their service or had been asking about APIs and tech for building one, so we decided to get them all together to work on a common solution, this project.
 - 2022-02-19 [React Native for Windows + macOS · Build native Windows & macOS apps with Javascript and React](https://microsoft.github.io/react-native-windows/)
-- 2022-02-18  [6 Months of Working at a Hypergrowth Startup – Jacob Brazeal](https://jacobbrazeal.wordpress.com/2022/02/16/lessons-from-6-months-at-a-hypergrowth-startup-100-prs-40-interviews/)
+- 2022-02-18 ⭐ [6 Months of Working at a Hypergrowth Startup – Jacob Brazeal](https://jacobbrazeal.wordpress.com/2022/02/16/lessons-from-6-months-at-a-hypergrowth-startup-100-prs-40-interviews/)
 > I joined Scale AI late last summer. It’s been a crazy experience — Scale is growing incredibly fast right now, hitting a valuation of over $7 billion last year and recently signing a $250 million contract with the DoD. Personally, I’ve made over 100 PRs and conducted about 40 interviews already! It’s also by far the largest company I’ve worked for. Here are some lessons I’ve learned
+- 2022-02-10 [Testing Distributed Systems Curated list of resources on testing distributed systems](https://asatarin.github.io/testing-distributed-systems/)
+
 
 ## Dev Design
 - 2022-02-27 [Logging at Twitter: Updated](https://blog.twitter.com/engineering/en_us/topics/infrastructure/2021/logging-at-twitter-updated?utm_source=programmingdigest&utm_medium=email&utm_campaign=461)
@@ -95,6 +106,7 @@ YARP (which stands for "Yet Another Reverse Proxy") is a project to create a rev
 ## CSS HTML SVG
 - 2022-03-01 [5 things you don't need Javascript for](https://lexoral.com/blog/you-dont-need-js/)
 > Every day, I see people use Javascript to do things that are supported by default in good old HTML & CSS.
+- 2022-02-18 [Yqnn/svg-path-editor: Online editor to create and manipulate SVG paths](https://github.com/Yqnn/svg-path-editor)
 
 
 ## Azure Active Directory and Friends
