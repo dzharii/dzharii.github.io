@@ -27,7 +27,7 @@ categories: links
 > I have ADHD. It's my superpower. Because brains with ADHD find games hard to resist. And I — an engineer — love building games that make it fun to do unfun things.
 > So naturally, as an entrepreneur with full autonomy over my own schedule, I've applied gamification principles to innovate my own work schedule from the ground up rather than lazily adopting norms from the 9-to-5 world.
 
-## Holy War
+## The endless dispute
 - 2022-01-19 [The truth about starting with microservices – Arnold Galovics](https://arnoldgalovics.com/truth-about-microservices/)
 - 2022-01-19 [Don’t start with microservices in production – monoliths are your friend – Arnold Galovics](https://arnoldgalovics.com/microservices-in-production/)
 
