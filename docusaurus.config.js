@@ -60,7 +60,7 @@ const config = {
             label: 'Personal Wiki',
           },
           {to: '/blog', label: 'Blog', position: 'left'},
-          {to: '/blog/rss.xml', label: '[RSS]', position: 'left'},
+          {to: 'https://blog.zharii.com/blog/rss.xml', label: '[RSS]', position: 'left'},
           {
             href: 'https://github.com/dzharii/dzharii.github.io',
             label: 'GitHub',

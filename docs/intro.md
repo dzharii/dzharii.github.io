@@ -2,7 +2,11 @@
 sidebar_position: 1
 ---
 
-## Welcome to the New Era!
+## Hello!
 
-- Please visit [Blog](/blog)
-- Resubscribe to new [RSS feed](/blog/rss.xml)
+This is my Personal Wiki.
+
+The idea is to collect and categorize my knowledge, save it here and maybe recall it later.
+- I use blog [Blog](https://blog.zharii.com/blog) to publish the updates [RSS feed](https://blog.zharii.com/blog/rss.xml)
+- I [Personal Wiki](https://blog.zharii.com/docs/intro) to collect the knowledge
+
