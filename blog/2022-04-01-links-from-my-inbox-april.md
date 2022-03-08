@@ -27,6 +27,12 @@ categories: links
 - 2022-03-06 [Modelling workflows with Finite State Machines in .NET - Lloyd Atkinson](https://www.lloydatkinson.net/posts/2022/modelling-workflows-with-finite-state-machines-in-dotnet/)
 > How to implement complex logic as a FSA
 
+## Projects
+- 2022-03-07 [TomWright/dasel: Select, put and delete data from JSON, TOML, YAML, XML and CSV files with a single tool. Supports conversion between formats and can be used as a Go package.](https://github.com/TomWright/dasel)
+> Comparable to jq / yq, but supports JSON, YAML, TOML, XML and CSV with zero runtime dependencies.
+- 2022-03-07 [clibs/clib: C package manager-ish](https://github.com/clibs/clib)
+> Package manager for the C programming language.
+
 
 ## .NET/ C#
 - 2022-03-06 [Image Style Transfer With C#, ONNX, and ImageSharp Khalid Abuhakmeh](https://khalidabuhakmeh.com/image-style-transfer-with-csharp-onnx-and-imagesharp?utm_source=csharpdigest&utm_medium=email&utm_campaign=405)
