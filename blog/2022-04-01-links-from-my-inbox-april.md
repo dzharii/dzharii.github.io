@@ -25,8 +25,9 @@ categories: links
 >
 >Surely, this humble starting-point program should be bug free, right?
 
-
-
+## Fun
+- 2022-03-06 [UserFriendly Comic](http://ars.userfriendly.org/)
+> Host is down at the moment [web.archive.org: UserFriendly Strip Comments](https://web.archive.org/web/20220228205859/http://ars.userfriendly.org/cartoons/?id=20220226)
 
 ## Design Patterns
 - 2022-03-06 [Modelling workflows with Finite State Machines in .NET - Lloyd Atkinson](https://www.lloydatkinson.net/posts/2022/modelling-workflows-with-finite-state-machines-in-dotnet/)
@@ -55,10 +56,26 @@ console.log(1); <!-- log 1 -->
 - 2022-03-06 [Image Style Transfer With C#, ONNX, and ImageSharp Khalid Abuhakmeh](https://khalidabuhakmeh.com/image-style-transfer-with-csharp-onnx-and-imagesharp?utm_source=csharpdigest&utm_medium=email&utm_campaign=405)
 > Image processing with SixLabors.ImageSharp and ONNX.FastNeuralStyleTransfer
 ![](_img/2022-03-06-15-11-cat.webp)
+- 2022-03-10 [8 Techniques to Avoid GC Pressure and Improve Performance in C# .NET - Michael's Coding Spot](https://michaelscodingspot.com/avoid-gc-pressure/)
+> .NET provides a lot of great collections types like `List<T>`, `Dictionary<T>`, and `HashSet<T>`. All those collections have dynamic size capacity. That means they automatically expand in size as you add more items.
+- Set initial capacity for dynamic collections
+- Use ArrayPool for short-lived large arrays
+- Use Structs instead of Classes (sometimes)
+- Avoid Finalizers
+- Use StackAlloc for short-lived array allocations
+- Use StringBuilder, but not always
+- Use String Interning in very specific cases
+- Avoid memory leaks
+- Summary:
+    - Allocations should be avoided if possible.
+    - Reusing memory is better than allocating new memory.
+    - Allocating on the Stack is faster than allocating on the Heap.
 
 ## Authorization & Authentication
 - 2022-03-06 [Advanced techniques around ASP.NET Core Users and their claims – The Reformed Programmer](https://www.thereformedprogrammer.net/advanced-techniques-around-asp-net-core-users-and-their-claims/?utm_source=csharpdigest&utm_medium=email&utm_campaign=405)
 > This article describes some advanced techniques around adding or updating claims of users when building ASP.NET Core applications. These advanced techniques are listed below with examples taken from the AuthPermissions.AspNetCore library / repo.
-
+- 2022-03-10 [The Modern Guide to OAuth - FusionAuth](https://fusionauth.io/learn/expert-advice/oauth/modern-guide-to-oauth)
+> I know what you are thinking, is this really another guide to OAuth 2.0?
+> Well, yes and no. This guide is different than most of the others out there because it covers all of the ways that we actually use OAuth. It also covers all of the details you need to be an OAuth expert without reading all the specifications or writing your own OAuth server. This document is based on hundreds of conversations and client implementations as well as our experience building FusionAuth, an OAuth server which has been downloaded over a million times.
 
 
