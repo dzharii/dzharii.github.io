@@ -20,6 +20,11 @@ categories: links
 - 2022-03-06 [How to create technical conceptual diagrams](https://krutiepatel.com/blog/how-to-create-technical-conceptual-diagrams?utm_source=programmingdigest&utm_medium=email&utm_campaign=462)
 > Conceptual diagrams have two key building blocks: concepts and connecting lines with words.
 ![](_img/20220306152256.png)
+- 2022-03-09 [Bugs in Hello World · sunfishcode's blog](https://blog.sunfishcode.online/bugs-in-hello-world/)
+> Hello World might be the most frequently written computer program. For decades, it's been the first program many people write, when getting started in a new programming language.
+>
+>Surely, this humble starting-point program should be bug free, right?
+
 
 
 
@@ -32,7 +37,19 @@ categories: links
 > Comparable to jq / yq, but supports JSON, YAML, TOML, XML and CSV with zero runtime dependencies.
 - 2022-03-07 [clibs/clib: C package manager-ish](https://github.com/clibs/clib)
 > Package manager for the C programming language.
+- 2022-03-07 [kaissaroj/chrome-newtab: A simple new tab page replacement for Google Chrome.](https://github.com/kaissaroj/chrome-newtab)
+> A simple new tab page replacement for Google Chrome.
 
+## JavaScript
+- 2022-03-09 [HTML comments work in JavaScript too](https://smitop.com/post/js-html-comments/)
+> Here’s some obscure trivia about JavaScript: you can use HTML comments in JavaScript. Not just in script tags: you can use them in included standalone files, and even in Node.js and Deno. Syntax highlighters, on the other hand, do not have great support
+```js
+// below statement logs 1
+console.log(1); <!-- log 1 -->
+<!-- above statement logs 1 -->
+```
+- 2022-03-09 [QuickJS Javascript Engine](https://bellard.org/quickjs/)
+> QuickJS is a small and embeddable Javascript engine. It supports the ES2020 specification including modules, asynchronous generators, proxies and BigInt.
 
 ## .NET/ C#
 - 2022-03-06 [Image Style Transfer With C#, ONNX, and ImageSharp Khalid Abuhakmeh](https://khalidabuhakmeh.com/image-style-transfer-with-csharp-onnx-and-imagesharp?utm_source=csharpdigest&utm_medium=email&utm_campaign=405)
@@ -41,7 +58,7 @@ categories: links
 
 ## Authorization & Authentication
 - 2022-03-06 [Advanced techniques around ASP.NET Core Users and their claims – The Reformed Programmer](https://www.thereformedprogrammer.net/advanced-techniques-around-asp-net-core-users-and-their-claims/?utm_source=csharpdigest&utm_medium=email&utm_campaign=405)
-> The AuthP library provides three main extra authorization features to a ASP.NET Core application. They are...
+> This article describes some advanced techniques around adding or updating claims of users when building ASP.NET Core applications. These advanced techniques are listed below with examples taken from the AuthPermissions.AspNetCore library / repo.
 
 
 
