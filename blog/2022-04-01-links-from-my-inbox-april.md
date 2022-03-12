@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Links from my inbox March 2022"
+title:  "Links from my inbox April 2022"
 date:   2022-04-01T23:22:39.5273071-08:00
 categories: links
 ---
@@ -24,6 +24,10 @@ categories: links
 > Hello World might be the most frequently written computer program. For decades, it's been the first program many people write, when getting started in a new programming language.
 >
 >Surely, this humble starting-point program should be bug free, right?
+- 2022-03-12 [Teaching is a slow process of becoming everything you hate](https://dynomight.net/teaching/)
+> In a recent post, Parrhesia suggested that course grades should be 100% determined by performance on a final exam—an exam that could be taken repeatedly, with the last attempt being the course grade. (See also the discussion at r/slatestarcodex.) The idea is that grades are supposed to measure what you know, and if you do well on a final, then you know the material.
+>
+>Ha. Haha. Hahahahahahahaha.
 
 ## Fun
 - 2022-03-06 [UserFriendly Comic](http://ars.userfriendly.org/)
