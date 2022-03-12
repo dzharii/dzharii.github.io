@@ -29,6 +29,11 @@ categories: links
 - 2022-03-06 [UserFriendly Comic](http://ars.userfriendly.org/)
 > Host is down at the moment [web.archive.org: UserFriendly Strip Comments](https://web.archive.org/web/20220228205859/http://ars.userfriendly.org/cartoons/?id=20220226)
 
+## Work
+- 2022-03-11 [jwasham/coding-interview-university: A complete computer science study plan to become a software engineer.](https://github.com/jwasham/coding-interview-university)
+> I originally created this as a short to-do list of study topics for becoming a software engineer, but it grew to the large list you see today. After going through this study plan, I got hired as a Software Development Engineer at Amazon! You probably won'; 230,000 ⭐s on Github ;)
+
+
 ## Design Patterns
 - 2022-03-06 [Modelling workflows with Finite State Machines in .NET - Lloyd Atkinson](https://www.lloydatkinson.net/posts/2022/modelling-workflows-with-finite-state-machines-in-dotnet/)
 > How to implement complex logic as a FSA
@@ -40,6 +45,8 @@ categories: links
 > Package manager for the C programming language.
 - 2022-03-07 [kaissaroj/chrome-newtab: A simple new tab page replacement for Google Chrome.](https://github.com/kaissaroj/chrome-newtab)
 > A simple new tab page replacement for Google Chrome.
+- 2022-03-10 [public-apis/public-apis: A collective list of free APIs](https://github.com/public-apis/public-apis)
+> A collective list of free APIs for use in software and web development
 
 ## JavaScript
 - 2022-03-09 [HTML comments work in JavaScript too](https://smitop.com/post/js-html-comments/)
@@ -78,4 +85,7 @@ console.log(1); <!-- log 1 -->
 > I know what you are thinking, is this really another guide to OAuth 2.0?
 > Well, yes and no. This guide is different than most of the others out there because it covers all of the ways that we actually use OAuth. It also covers all of the details you need to be an OAuth expert without reading all the specifications or writing your own OAuth server. This document is based on hundreds of conversations and client implementations as well as our experience building FusionAuth, an OAuth server which has been downloaded over a million times.
 
+## Video Editing/ GoPro / ffmpeg
+- 2022-03-11 [mifi/lossless-cut: The swiss army knife of lossless video/audio editing](https://github.com/mifi/lossless-cut)
+> LosslessCut aims to be the ultimate cross platform FFmpeg GUI for extremely fast and lossless operations on video, audio, subtitle and other related media files. The main feature is lossless trimming and cutting of video and audio files, which is great for saving space by rough-cutting your large video files taken from a video camera.
 
