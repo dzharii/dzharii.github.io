@@ -47,6 +47,8 @@ categories: links
 > A simple new tab page replacement for Google Chrome.
 - 2022-03-10 [public-apis/public-apis: A collective list of free APIs](https://github.com/public-apis/public-apis)
 > A collective list of free APIs for use in software and web development
+- 2022-03-11 [Freeplane - free mind mapping and knowledge management software](https://www.freeplane.org/wiki/index.php/Home)
+> Freeplane is a free and open source software application that supports thinking, sharing information and getting things done at work, in school and at home. The software can be used for mind mapping and analyzing the information contained in mind maps. Freeplane runs on any operating system that has a current version of Java installed. It can be run locally or portably from removable storage like a USB drive.
 
 ## JavaScript
 - 2022-03-09 [HTML comments work in JavaScript too](https://smitop.com/post/js-html-comments/)
