@@ -12,7 +12,6 @@ The idea is to collect and categorize my knowledge, save it here and maybe recal
 
 ## About
 
--  LinkedIn [Dmytro Zharii](https://www.linkedin.com/in/dmytrozharii/)
 -  Github [dzharii](https://github.com/dzharii)
     - [dzharii/dzharii.github.io](https://github.com/dzharii/dzharii.github.io)
     > This wiki!
@@ -26,3 +25,4 @@ The idea is to collect and categorize my knowledge, save it here and maybe recal
        > Selenium WebDriver Page Recorder Page Objects
         - [dzharii/Swd.StarterJ](https://github.com/dzharii/Swd.StarterJ) (Java) A minimalistic Selenium WebDriver Starter Kit with PageObjects support in Java
         - [dzharii/SWD.Starter](https://github.com/dzharii/SWD.Starter) (C#) Use this Selenium WebDriver framework starter kit with SWD Page Recorder.
+-  LinkedIn [Dmytro Zharii](https://www.linkedin.com/in/dmytrozharii/)

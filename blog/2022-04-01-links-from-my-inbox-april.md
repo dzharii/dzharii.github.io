@@ -53,6 +53,8 @@ categories: links
 > A collective list of free APIs for use in software and web development
 - 2022-03-11 [Freeplane - free mind mapping and knowledge management software](https://www.freeplane.org/wiki/index.php/Home)
 > Freeplane is a free and open source software application that supports thinking, sharing information and getting things done at work, in school and at home. The software can be used for mind mapping and analyzing the information contained in mind maps. Freeplane runs on any operating system that has a current version of Java installed. It can be run locally or portably from removable storage like a USB drive.
+- 2022-03-13 [Show HN: I made my personal website a Pokémon-style minigame using Phaser 3 Hacker News](https://news.ycombinator.com/item?id=30656961)
+> [Ariel Roffé Game](https://arielroffe.quest/)
 
 ## JavaScript
 - 2022-03-09 [HTML comments work in JavaScript too](https://smitop.com/post/js-html-comments/)
@@ -71,18 +73,31 @@ console.log(1); <!-- log 1 -->
 ![](_img/2022-03-06-15-11-cat.webp)
 - 2022-03-10 [8 Techniques to Avoid GC Pressure and Improve Performance in C# .NET - Michael's Coding Spot](https://michaelscodingspot.com/avoid-gc-pressure/)
 > .NET provides a lot of great collections types like `List<T>`, `Dictionary<T>`, and `HashSet<T>`. All those collections have dynamic size capacity. That means they automatically expand in size as you add more items.
-- Set initial capacity for dynamic collections
-- Use ArrayPool for short-lived large arrays
-- Use Structs instead of Classes (sometimes)
-- Avoid Finalizers
-- Use StackAlloc for short-lived array allocations
-- Use StringBuilder, but not always
-- Use String Interning in very specific cases
-- Avoid memory leaks
-- Summary:
-    - Allocations should be avoided if possible.
-    - Reusing memory is better than allocating new memory.
-    - Allocating on the Stack is faster than allocating on the Heap.
+    - Set initial capacity for dynamic collections
+    - Use ArrayPool for short-lived large arrays
+    - Use Structs instead of Classes (sometimes)
+    - Avoid Finalizers
+    - Use StackAlloc for short-lived array allocations
+    - Use StringBuilder, but not always
+    - Use String Interning in very specific cases
+    - Avoid memory leaks
+    - Summary:
+        - Allocations should be avoided if possible.
+        - Reusing memory is better than allocating new memory.
+        - Allocating on the Stack is faster than allocating on the Heap.
+    - 2022-03-13 [6 .NET Myths Dispelled — Celebrating 21 Years of .NET by Charles Chen Jan, 2022 Dev Genius](https://blog.devgenius.io/6-net-myths-dispelled-celebrating-21-years-of-net-652795c2ea27)
+> In celebration of .NET reaching Minimum Legal Drinking Age here in the US, grab a cold one and let’s dispel 6 common myths about .NET!
+    - .NET is for Windows
+    - It’s slower than Node/Python/Go/Rust
+    - It’s a legacy platform
+    - The tooling is expensive
+    - .NET isn’t open source friendly
+    - It’s for boomer enterprise development
+- 2022-03-13 Go vs C# (by Alex Yakunin) I am going to write a series of posts comparing some features of Go and C#. The core feature of Go — goroutines — is actually a very good point to start from. C#’s alternative for this is Task Parallel Library (TPL) and async-await support.
+    - [Go vs C#, part 1: Goroutines vs Async-Await](https://alexyakunin.medium.com/go-vs-c-part-1-goroutines-vs-async-await-ac909c651c11)
+    - [Go vs C#, part 2: Garbage Collection](https://medium.com/servicetitan-engineering/go-vs-c-part-2-garbage-collection-9384677f86f1)
+    - [Go vs C#, Part 3: Compiler, Runtime, Type System, Modules, and Everything Else](https://medium.com/servicetitan-engineering/go-vs-c-part-3-compiler-runtime-type-system-modules-and-everything-else-faa423dddb34)
+
 
 ## Authorization & Authentication
 - 2022-03-06 [Advanced techniques around ASP.NET Core Users and their claims – The Reformed Programmer](https://www.thereformedprogrammer.net/advanced-techniques-around-asp-net-core-users-and-their-claims/?utm_source=csharpdigest&utm_medium=email&utm_campaign=405)
@@ -90,6 +105,8 @@ console.log(1); <!-- log 1 -->
 - 2022-03-10 [The Modern Guide to OAuth - FusionAuth](https://fusionauth.io/learn/expert-advice/oauth/modern-guide-to-oauth)
 > I know what you are thinking, is this really another guide to OAuth 2.0?
 > Well, yes and no. This guide is different than most of the others out there because it covers all of the ways that we actually use OAuth. It also covers all of the details you need to be an OAuth expert without reading all the specifications or writing your own OAuth server. This document is based on hundreds of conversations and client implementations as well as our experience building FusionAuth, an OAuth server which has been downloaded over a million times.
+- 2022-03-13 [An introduction to OpenID Connect in ASP.NET Core](https://andrewlock.net/an-introduction-to-openid-connect-in-asp-net-core/)
+> Explains how OpenID Connect works and how it differs from OAuth2.
 
 ## Video Editing/ GoPro / ffmpeg
 - 2022-03-11 [mifi/lossless-cut: The swiss army knife of lossless video/audio editing](https://github.com/mifi/lossless-cut)
