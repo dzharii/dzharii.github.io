@@ -26,3 +26,10 @@ int main(int argc, char** argv) {
   return 0;
 }
 ```
+- 2022-03-16 [libmill](http://libmill.org/index.html) Libmill is a library that introduces Go-style concurrency to C
+```c
+go(foo(arg1, arg2, arg3));
+chan ch = chmake(int, 0);
+chan ch = chmake(int, 1000);
+chs(ch, int, 42);
+```

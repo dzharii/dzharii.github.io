@@ -55,6 +55,13 @@ categories: links
 > Freeplane is a free and open source software application that supports thinking, sharing information and getting things done at work, in school and at home. The software can be used for mind mapping and analyzing the information contained in mind maps. Freeplane runs on any operating system that has a current version of Java installed. It can be run locally or portably from removable storage like a USB drive.
 - 2022-03-13 [Show HN: I made my personal website a Pokémon-style minigame using Phaser 3 Hacker News](https://news.ycombinator.com/item?id=30656961)
 > [Ariel Roffé Game](https://arielroffe.quest/)
+- 2022-03-15 [RP2040 Doom rp2040-doom](https://kilograham.github.io/rp2040-doom/)
+> Given a new platform it is only natural to think of porting Doom to it. With 264K of RAM, two CortexM0+ CPUs and a decent clock speed, the RP2040 is certainly not the tightest platform Doom has ever been ported to - although at <$1 it is probably one of the cheapest - so I wanted to set my self a more aggressive set of goals...
+![](_img/2022-03-15-rp-doom.png)
+- 2022-03-15 [🌭 HOT DOG Linux 🌭](https://hotdoglinux.com/)
+> HOT DOG Linux is an acronym that stands for Horrible Obsolete Typeface and Dreadful Onscreen Graphics for Linux.
+![](_img/20220315175451.png)
+
 
 ## JavaScript
 - 2022-03-09 [HTML comments work in JavaScript too](https://smitop.com/post/js-html-comments/)
@@ -99,6 +106,15 @@ console.log(1); <!-- log 1 -->
     - [Go vs C#, Part 3: Compiler, Runtime, Type System, Modules, and Everything Else](https://medium.com/servicetitan-engineering/go-vs-c-part-3-compiler-runtime-type-system-modules-and-everything-else-faa423dddb34)
 
 
+# C
+- 2022-03-16 [libmill](http://libmill.org/index.html) Libmill is a library that introduces Go-style concurrency to C
+```c
+go(foo(arg1, arg2, arg3));
+chan ch = chmake(int, 0);
+chan ch = chmake(int, 1000);
+chs(ch, int, 42);
+```
+
 ## Authorization & Authentication
 - 2022-03-06 [Advanced techniques around ASP.NET Core Users and their claims – The Reformed Programmer](https://www.thereformedprogrammer.net/advanced-techniques-around-asp-net-core-users-and-their-claims/?utm_source=csharpdigest&utm_medium=email&utm_campaign=405)
 > This article describes some advanced techniques around adding or updating claims of users when building ASP.NET Core applications. These advanced techniques are listed below with examples taken from the AuthPermissions.AspNetCore library / repo.
@@ -107,6 +123,17 @@ console.log(1); <!-- log 1 -->
 > Well, yes and no. This guide is different than most of the others out there because it covers all of the ways that we actually use OAuth. It also covers all of the details you need to be an OAuth expert without reading all the specifications or writing your own OAuth server. This document is based on hundreds of conversations and client implementations as well as our experience building FusionAuth, an OAuth server which has been downloaded over a million times.
 - 2022-03-13 [An introduction to OpenID Connect in ASP.NET Core](https://andrewlock.net/an-introduction-to-openid-connect-in-asp-net-core/)
 > Explains how OpenID Connect works and how it differs from OAuth2.
+- 2022-03-16 [Architecture overview - Azure Active Directory Microsoft Docs](https://docs.microsoft.com/en-us/azure/active-directory/fundamentals/active-directory-architecture#data-consistency)
+> Azure Active Directory (Azure AD) enables you to securely manage access to Azure services and resources for your users. Included with Azure AD is a full suite of identity management capabilities. For information about Azure AD features, see What is Azure Active Directory?
+    Service architecture design
+    Primary replica
+    Secondary replicas
+    Scalability
+    Continuous availability
+    Fault tolerance
+    Data durability
+    Data consistency
+    Service-level backup
 
 ## Video Editing/ GoPro / ffmpeg
 - 2022-03-11 [mifi/lossless-cut: The swiss army knife of lossless video/audio editing](https://github.com/mifi/lossless-cut)
