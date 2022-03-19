@@ -26,8 +26,16 @@ categories: links
 >Surely, this humble starting-point program should be bug free, right?
 - 2022-03-12 [Teaching is a slow process of becoming everything you hate](https://dynomight.net/teaching/)
 > In a recent post, Parrhesia suggested that course grades should be 100% determined by performance on a final exam—an exam that could be taken repeatedly, with the last attempt being the course grade. (See also the discussion at r/slatestarcodex.) The idea is that grades are supposed to measure what you know, and if you do well on a final, then you know the material.
->
 >Ha. Haha. Hahahahahahahaha.
+>
+- 2022-03-18 [How Zillow's homebuying scheme lost $881 million](https://fullstackeconomics.com/why-zillow-is-like-my-bad-fantasy-football-team/)
+> Zillow made news last week as it reported a loss of $881 million on its house-buying business last year⁠. That’s especially remarkable because house prices rose dramatically for much of the year.
+> Naturally, this got me thinking about fantasy football. I’ll get to that later. But first, let’s back up and talk about what the business idea⁠—often called iBuying⁠—is actually about.
+- 2022-03-19 [Bicycling Street Smarts - Table of Contents](https://www.bikexprt.com/streetsmarts/usa/index.htm)
+> Bicycling Street Smarts:
+> Riding Confidently, Legally and Safely
+- 2022-03-19 [How NAT traversal works · Tailscale](https://tailscale.com/blog/how-nat-traversal-works/)
+> We covered a lot of ground in our post about How Tailscale Works. However, we glossed over how we can get through NATs (Network Address Translators) and connect your devices directly to each other, no matter what’s standing between them. Let’s talk about that now!
 
 ## Fun
 - 2022-03-06 [UserFriendly Comic](http://ars.userfriendly.org/)
@@ -36,7 +44,6 @@ categories: links
 ## Work
 - 2022-03-11 [jwasham/coding-interview-university: A complete computer science study plan to become a software engineer.](https://github.com/jwasham/coding-interview-university)
 > I originally created this as a short to-do list of study topics for becoming a software engineer, but it grew to the large list you see today. After going through this study plan, I got hired as a Software Development Engineer at Amazon! You probably won'; 230,000 ⭐s on Github ;)
-
 
 ## Design Patterns
 - 2022-03-06 [Modelling workflows with Finite State Machines in .NET - Lloyd Atkinson](https://www.lloydatkinson.net/posts/2022/modelling-workflows-with-finite-state-machines-in-dotnet/)
@@ -61,7 +68,9 @@ categories: links
 - 2022-03-15 [🌭 HOT DOG Linux 🌭](https://hotdoglinux.com/)
 > HOT DOG Linux is an acronym that stands for Horrible Obsolete Typeface and Dreadful Onscreen Graphics for Linux.
 ![](_img/20220315175451.png)
-
+- 2022-03-18 [MadRabbit/halmak: The final version of the AI designed keyboard layout](https://github.com/MadRabbit/halmak)
+> This is an AI designed keyboard layout that was built within the keyboard-genetics project. More details and a documented process can be found on the blog Nikolay Rocks.
+![](_img/20220318135632.png)
 
 ## JavaScript
 - 2022-03-09 [HTML comments work in JavaScript too](https://smitop.com/post/js-html-comments/)
@@ -73,6 +82,11 @@ console.log(1); <!-- log 1 -->
 ```
 - 2022-03-09 [QuickJS Javascript Engine](https://bellard.org/quickjs/)
 > QuickJS is a small and embeddable Javascript engine. It supports the ES2020 specification including modules, asynchronous generators, proxies and BigInt.
+
+## Denoland
+- 2022-03-16 [Deno by Example](https://examples.deno.land/)
+> Deno is a simple, modern and secure runtime for JavaScript and TypeScript that uses V8 and is built in Rust.
+> Deno by example is a collection of annotated examples for how to use Deno, and the various features it provides. It acts as a reference for how to do various things in Deno, but can also be used as a guide to learn about many of the features Deno provides.
 
 ## .NET/ C#
 - 2022-03-06 [Image Style Transfer With C#, ONNX, and ImageSharp Khalid Abuhakmeh](https://khalidabuhakmeh.com/image-style-transfer-with-csharp-onnx-and-imagesharp?utm_source=csharpdigest&utm_medium=email&utm_campaign=405)
@@ -104,9 +118,11 @@ console.log(1); <!-- log 1 -->
     - [Go vs C#, part 1: Goroutines vs Async-Await](https://alexyakunin.medium.com/go-vs-c-part-1-goroutines-vs-async-await-ac909c651c11)
     - [Go vs C#, part 2: Garbage Collection](https://medium.com/servicetitan-engineering/go-vs-c-part-2-garbage-collection-9384677f86f1)
     - [Go vs C#, Part 3: Compiler, Runtime, Type System, Modules, and Everything Else](https://medium.com/servicetitan-engineering/go-vs-c-part-3-compiler-runtime-type-system-modules-and-everything-else-faa423dddb34)
+- 2022-03-16 [A Thorough Guide to Bond for C#](https://microsoft.github.io/bond/manual/bond_cs.html)
+> Bond is an extensible framework for working with schematized data. It is suitable for scenarios ranging from service communications to Big Data storage and processing.
+> Github: [microsoft/bond](https://github.com/microsoft/bond/); Supports C++, C#, Java, Python
 
-
-# C
+# C / CPP
 - 2022-03-16 [libmill](http://libmill.org/index.html) Libmill is a library that introduces Go-style concurrency to C
 ```c
 go(foo(arg1, arg2, arg3));
@@ -114,6 +130,9 @@ chan ch = chmake(int, 0);
 chan ch = chmake(int, 1000);
 chs(ch, int, 42);
 ```
+- 2022-03-19 [magiblot/tvision: A modern port of Turbo Vision 2.0, the classical framework for text-based user interfaces. Now cross-platform and with Unicode support.](https://github.com/magiblot/tvision)
+> A modern port of Turbo Vision 2.0, the classical framework for text-based user interfaces. Now cross-platform and with Unicode support.
+
 
 ## Authorization & Authentication
 - 2022-03-06 [Advanced techniques around ASP.NET Core Users and their claims – The Reformed Programmer](https://www.thereformedprogrammer.net/advanced-techniques-around-asp-net-core-users-and-their-claims/?utm_source=csharpdigest&utm_medium=email&utm_campaign=405)
