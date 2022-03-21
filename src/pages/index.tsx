@@ -4,7 +4,9 @@ import Layout from '@theme/Layout';
 import Link from '@docusaurus/Link';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import styles from './index.module.css';
-import HelloWorld from '../../docs/intro.md';
+import HelloWorld from '@site/docs/intro.md';
+
+import WatchListDoc from '@site/docs/a-watch-reading-list/my-watch-reading-list-now.md';
 
 
 export default function Home(): JSX.Element {
@@ -20,6 +22,9 @@ export default function Home(): JSX.Element {
           paddingRight: '5vw',
         }}>
             <HelloWorld />
+
+            <h2>📺 My watching/reading list</h2>
+            <WatchListDoc />
         </div>
       </main>
     </Layout>
