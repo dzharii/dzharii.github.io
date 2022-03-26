@@ -26,6 +26,9 @@ categories: links
 > Defense Solutions division, a leading supplier of modular open systems approach (MOSA) solutions engineered to succeed, today introduced the Parvus® DuraCOR® Pi, the embedded industry’s first Raspberry Pi (RPi) powered mission computer for defense and aerospace applications.  The ultra-small form factor (USFF) DuraCOR Pi, fully ruggedized to deliver optimal performance in harsh operating environments, is the first mission computer to deliver 100% compatibility with the vast Pi Developer Ecosystem in a fully MIL-STD rugged sealed housing.
 - 2022-03-21 [Introduction Plaintext Productivity](https://plaintext-productivity.net/)
 > This guide is meant to document the things I have done, the software I have used, and the decisions I have made to be really fast and really well-organized at work, and to help prioritize and maintain focus on my current activities. One key decision, made for speed above all else, is to capture as much of my thinking and work in plaintext as I can. Thus the name: Plaintext Productivity. I will explain my reasoning behind choosing plaintext in each section in which it is relevant.
+- 2022-03-23 [jgraph/drawio-desktop: Official electron build of diagrams.net](https://github.com/jgraph/drawio-desktop)
+> drawio-desktop is a diagramming and whiteboarding desktop app based on Electron that wraps the core draw.io editor.
+![]( _img/20220323130236.png)
 
 ## JavaScript
 
