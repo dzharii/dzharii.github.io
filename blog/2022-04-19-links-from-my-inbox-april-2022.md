@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Links from my inbox March 13 2022"
+title:  "Links from my inbox April 13 2022"
 date:   2022-04-01T10:41:17.0199183-07:00
 categories: links
 ---
@@ -14,6 +14,8 @@ categories: links
 > It lacks features.
 > It lacks a community.
 > ...
+- 2022-03-26 [What made the NES so interesting?](https://nicole.express/2022/the-nes-as-an-artifact.html)
+> I often like to cover oddities here; details of computers and arcade systems people may not have heard of, that didn’t sell well but had unique or interesting characteristics. But focusing on oddities like that can disguise the fact that sometimes, even systems that were very popular can stand out for unique design. Such be it with the Nintendo Entertainment System: had Nintendo’s console flopped, it’d definitely have a post already. But it doesn’t. Let’s fix that! And answer a simple question I was asked: what’s the deal with special chip games?
 
 ## Fun
 
@@ -32,6 +34,15 @@ categories: links
 - 2022-03-25 [Home React Flow](https://reactflow.dev/)
 > A highly customizable React component for building node-based editors and interactive diagrams
 ![](_img/20220325195419.png)
+- 2022-03-26 [Running GUI apps within Docker containers – Trickster Dev](https://www.trickster.dev/post/running-gui-apps-within-docker-containers/)
+> Suppose we have Docker installed on macOS or other Unix/Linux system. How do we run Firefox within Docker container? For a first attempt, let us consider the following Dockerfile:
+```bash
+FROM ubuntu:latest
+RUN apt-get update && apt-get install -y firefox x11vnc xvfb
+RUN echo "exec firefox" > ~/.xinitrc && chmod +x ~/.xinitrc
+CMD ["x11vnc", "-create", "-noxrecord", "-noxfixes", "-noxdamage", "-forever", "-passwd", "trustno1"]
+```
+
 
 ## JavaScript
 
