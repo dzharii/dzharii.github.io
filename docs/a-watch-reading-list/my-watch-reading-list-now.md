@@ -7,4 +7,8 @@
 > This show follows the life of a family of dinosaurs, living in a modern world. They have televisions, refrigerators, et cetera. The only humans around are cavemen, who are viewed as pets and wild animals.
 
 ## Watched
-- [ ] 2022-03-27 [Игра. Фильм Алексея Учителя. Комедия. Рок. StarMedia. Rockfilms - YouTube](https://www.youtube.com/watch?v=ra3-Yper1ug&ab_channel=StarMedia)
+- [X] 2022-03-27 [Игра. Фильм Алексея Учителя. Комедия. Рок. StarMedia. Rockfilms - YouTube](https://www.youtube.com/watch?v=ra3-Yper1ug&ab_channel=StarMedia)
+
+## Reading
+- [ ] 2022-03-29 [The Now Habit: A Strategic Program for Overcoming Procrastination and Enjoying Guilt-Free Play: Fiore, Neil: 8601400338544: Amazon.com: Books](https://www.amazon.com/Now-Habit-Overcoming-Procrastination-Guilt-Free/dp/1585425524/ref=tmm_pap_swatch_0?_encoding=UTF8&qid=&sr=) `Neil Fiore`
+- 2022-03-29 [Articles and Tips > Fiore Productivity](https://www.neilfiore.com/articles-and-tips/) `Neil Fiore`
