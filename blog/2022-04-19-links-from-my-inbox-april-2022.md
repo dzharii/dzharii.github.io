@@ -47,6 +47,9 @@ CMD ["x11vnc", "-create", "-noxrecord", "-noxfixes", "-noxdamage", "-forever", "
 ## JavaScript
 
 ## .NET/ C#
+- 2022-04-06 [.NET type for personally identifiable information PII](https://gaevoy.com/2022/03/18/personally-identifiable-information-data-types.html?utm_source=csharpdigest&utm_medium=email&utm_campaign=408)
+> According to the law in many countries, you must treat PII data in a special way. For example, there is a number of restrictions on the use of personal data according to GDPR regulation in the European Union. I’m going to list some requirements based on t
+> What if we introduce an explicit type for PII, like `PiiString`. The idea is to have `PiiString` type as much interchangeable with String as possible to simplify refactoring existing code which uses the String. Then, within the application boundary it should behave like usual String, however crossing application boundaries it should be encoded/encrypted/hashed.
 
 # C / CPP
 
