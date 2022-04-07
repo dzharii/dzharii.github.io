@@ -51,6 +51,15 @@ CMD ["x11vnc", "-create", "-noxrecord", "-noxfixes", "-noxdamage", "-forever", "
 # C / CPP
 
 ## Authorization & Authentication
+- 2022-04-03 [Combining Bearer Token and Cookie Authentication in ASP.NET - Rick Strahl's Web Log](https://weblog.west-wind.com/posts/2022/Mar/29/Combining-Bearer-Token-and-Cookie-Auth-in-ASPNET?utm_source=csharpdigest&utm_medium=email&utm_campaign=409)
+> And we're back for another episode in the seedy TV drama that is ASP.NET Authentication. In today's show we'll discuss the mysterious case of combining multiple authentication schemes in a single application. Tune in at 11 for the scary conclusion...
+>
+> In this post I'll talk about:
+> - Combining JWT Bearer Token and Cookie Authentication
+> - Using Manual JWT Tokens
+> - Using Manual Cookies
+> - Using only ASP.NET's low level Auth features - not using ASP.NET Core Identity
+
 
 ## Video Editing/ GoPro / ffmpeg
 
