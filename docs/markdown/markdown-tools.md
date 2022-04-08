@@ -7,3 +7,6 @@
 - 2022-02-27 [icoxfog417/awesome-text-summarization: The guide to tackle with the Text Summarization](https://github.com/icoxfog417/awesome-text-summarization#libraries)
 > To take the appropriate action, we need latest information.
 But on the contrary, the amount of the information is more and more growing. There are many categories of information (economy, sports, health, technology...) and also there are many sources (news site, blog, SNS...).
+- 2022-04-07 [showdownjs/showdown: A bidirectional Markdown to HTML to Markdown converter written in Javascript](https://github.com/showdownjs/showdown)
+> Showdown is a JavaScript Markdown to HTML converter, based on the original works by John Gruber. Showdown can be used client side (in the browser) or server side (with Node.js).
+> Check out a live demo here: http://demo.showdownjs.com/
