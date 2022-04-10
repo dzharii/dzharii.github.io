@@ -4,6 +4,10 @@ title:  "Links from my inbox April 13 2022"
 date:   2022-04-01T10:41:17.0199183-07:00
 categories: links
 ---
+## Good old news!
+- 2022-04-07 [An update to Raspberry Pi OS Bullseye - Raspberry Pi](https://www.raspberrypi.com/news/raspberry-pi-bullseye-update-april-2022/)
+> Raspberry PI drops the default user and allows the user and SSH configuration via Imager.
+> Long time awaited feature!
 
 ## Good Reads
 - 2022-03-21 [Why Don't You Use ...](https://www.brendangregg.com/blog/2022-03-19/why-dont-you-use.html)
@@ -18,6 +22,10 @@ categories: links
 > I often like to cover oddities here; details of computers and arcade systems people may not have heard of, that didn’t sell well but had unique or interesting characteristics. But focusing on oddities like that can disguise the fact that sometimes, even systems that were very popular can stand out for unique design. Such be it with the Nintendo Entertainment System: had Nintendo’s console flopped, it’d definitely have a post already. But it doesn’t. Let’s fix that! And answer a simple question I was asked: what’s the deal with special chip games?
 
 ## Fun
+
+- 2022-04-07 [Using Windows after 15 years on Linux · duncanlock.net](https://duncanlock.net/blog/2022/04/06/using-windows-after-15-years-on-linux/)
+> Windows is such a mess! It’s sort of shocking how much of a mess it is. Desktop Linux is often criticized for this, but Windows is much worse, somehow! It’s really inconsistent. Half of it is “new” UI and half of it is old Win32/GDI type UI - just as bad
+> 🧸
 
 ## Work
 
