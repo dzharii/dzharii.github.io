@@ -26,8 +26,30 @@ categories: links
 - 2022-04-07 [Using Windows after 15 years on Linux · duncanlock.net](https://duncanlock.net/blog/2022/04/06/using-windows-after-15-years-on-linux/)
 > Windows is such a mess! It’s sort of shocking how much of a mess it is. Desktop Linux is often criticized for this, but Windows is much worse, somehow! It’s really inconsistent. Half of it is “new” UI and half of it is old Win32/GDI type UI - just as bad
 > 🧸
+- 2022-04-10 [RFC9225 - Software Defects Considered Harmful](https://www.rfc-editor.org/rfc/rfc9225.txt)
+> Best Current Practises:
+>
+> 1. Authors MUST NOT implement bugs.
+> 2. If bugs are introduced in code, they MUST be clearly documented.
+> 3. When implementing specifications that are broken by design, it is
+>       RECOMMENDED to aggregate multiple smaller bugs into one larger
+>       bug.  This will be easier to document: rather than having a lot
+>       of hard-to-track inconsequential bugs, there will be only a few
+>       easy-to-recognise significant bugs.
+> 4. The aphorism "It's not a bug, it's a feature" is considered rude.
+> 5. Assume all external input is the result of (a series of) bugs.
+>     (Especially in machine-to-machine applications such as
+>     implementations of network protocols.)
+> 6. In fact, assume all internal inputs also are the result of bugs.
 
-## Work
+
+## Watch
+- 2022-04-10 [#icepilots - YouTube](https://www.youtube.com/hashtag/icepilots)
+> Ice Pilots NWT is a reality television documentary series that portrays Buffalo Airways, an airline based in Yellowknife, Northwest Territories, Canada. Buffalo flies WWII-era propeller planes year-round in the Canadian North.
+> - 2022-04-10 [Ice Pilots NWT TV Series 2009–2014 - IMDb](https://www.imdb.com/title/tt1542981/)
+> - 2022-04-10 [GALLERY - BUFFALO AIRWAYS](https://buffaloairways.com/gallery/#iLightbox[gallery_image_1]/33)
+> - 2022-04-10 [C-47 Pilot and Maintenance Manuals](https://www.usaf-sig.org/index.php/references/downloads/category/41-c-47)
+
 
 ## Design Patterns
 
