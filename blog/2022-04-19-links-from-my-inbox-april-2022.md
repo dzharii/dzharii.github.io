@@ -85,7 +85,9 @@ CMD ["x11vnc", "-create", "-noxrecord", "-noxfixes", "-noxdamage", "-forever", "
 > According to the law in many countries, you must treat PII data in a special way. For example, there is a number of restrictions on the use of personal data according to GDPR regulation in the European Union. I’m going to list some requirements based on t
 > What if we introduce an explicit type for PII, like `PiiString`. The idea is to have `PiiString` type as much interchangeable with String as possible to simplify refactoring existing code which uses the String. Then, within the application boundary it should behave like usual String, however crossing application boundaries it should be encoded/encrypted/hashed.
 
-# C / CPP
+# PowerShell
+- 2022-04-11 [PowerShell - Aliases](https://devtut.github.io/powershell/aliases.html#get-alias)
+> about PowerShell aliases
 
 ## Authorization & Authentication
 - 2022-04-03 [Combining Bearer Token and Cookie Authentication in ASP.NET - Rick Strahl's Web Log](https://weblog.west-wind.com/posts/2022/Mar/29/Combining-Bearer-Token-and-Cookie-Auth-in-ASPNET?utm_source=csharpdigest&utm_medium=email&utm_campaign=409)
