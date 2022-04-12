@@ -24,10 +24,10 @@ categories: links
 > In February, I wrote about getting rid of my iPhone and replacing it with a Nokia 6300 4G. I am incredibly happy with the results of this experience. I gained a new sense of presence with the real world and killed some bad scrolling habits. Unfortunately, KaiOS on the Nokia left much to be desired and our current society makes it very difficult to live without a smart phone.
 >
 > ![](_img/1649606064087-A7R08696.jpeg)
-
+- 2022-04-11 [NodeJS packages don't deserve your trust](https://josephg.com/blog/node-sandbox/)
+> Another week, another npm supply chain attack. Yikes! People on hacker news are wringing their hands about what should be done. The problem seems dire. [EventSource/eventsource.js at de137927e13d8afac153d2485152ccec48948a7a · Yaffle/EventSource](https://github.com/Yaffle/EventSource/blob/de137927e13d8afac153d2485152ccec48948a7a/src/eventsource.js#L1047-L1090)
 
 ## Fun
-
 - 2022-04-07 [Using Windows after 15 years on Linux · duncanlock.net](https://duncanlock.net/blog/2022/04/06/using-windows-after-15-years-on-linux/)
 > Windows is such a mess! It’s sort of shocking how much of a mess it is. Desktop Linux is often criticized for this, but Windows is much worse, somehow! It’s really inconsistent. Half of it is “new” UI and half of it is old Win32/GDI type UI - just as bad
 > 🧸
@@ -48,7 +48,12 @@ categories: links
 > 6. In fact, assume all internal inputs also are the result of bugs.
 - 2022-04-11 [Weightless Cats - Do Space Cats Land On Their Feet? - YouTube](https://www.youtube.com/watch?v=O9XtK6R1QAk)
 > Cats in zero-g lose their auto-righting reflex; 🙀
-
+- 2022-04-11 🍄 Mushrooms! I trust Bloomberg, BBC and NY Times!
+  - 2022-04-11 [Effect of Magic Mushrooms Improves Brain Connections to Ease Depression: Study - Bloomberg](https://www.bloomberg.com/news/articles/2022-04-11/magic-mushrooms-improve-brain-connections-to-ease-depression)
+  > Magic mushrooms connect regions of the brain that are more segregated in people with depression, paving the way to treat the condition differently than with conventional medications.
+  - 2022-04-11 [Psilocybin Helps Alleviate Depression Symptoms, Small Study Says - The New York Times](https://www.nytimes.com/2022/04/11/health/psilocybin-depression.html)
+  > The chemical derived from psychedelic mushrooms helped alleviate symptoms of depression and generated detectable neural responses that lasted weeks.
+  - 2022-04-11 [Psychedelic frees up depressed brain, study shows - BBC News](https://www.bbc.com/news/health-61070591)
 
 ## Watch
 - 2022-04-10 [#icepilots - YouTube](https://www.youtube.com/hashtag/icepilots)
@@ -56,7 +61,6 @@ categories: links
 > - 2022-04-10 [Ice Pilots NWT TV Series 2009–2014 - IMDb](https://www.imdb.com/title/tt1542981/)
 > - 2022-04-10 [GALLERY - BUFFALO AIRWAYS](https://buffaloairways.com/gallery/#iLightbox[gallery_image_1]/33)
 > - 2022-04-10 [C-47 Pilot and Maintenance Manuals](https://www.usaf-sig.org/index.php/references/downloads/category/41-c-47)
-
 
 ## Design Patterns
 
@@ -116,7 +120,6 @@ CMD ["x11vnc", "-create", "-noxrecord", "-noxfixes", "-noxdamage", "-forever", "
 > - Using Manual JWT Tokens
 > - Using Manual Cookies
 > - Using only ASP.NET's low level Auth features - not using ASP.NET Core Identity
-
 
 ## Video Editing/ GoPro / ffmpeg
 
