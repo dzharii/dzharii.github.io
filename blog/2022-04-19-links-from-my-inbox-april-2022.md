@@ -31,6 +31,9 @@ categories: links
 - 2022-04-07 [Using Windows after 15 years on Linux · duncanlock.net](https://duncanlock.net/blog/2022/04/06/using-windows-after-15-years-on-linux/)
 > Windows is such a mess! It’s sort of shocking how much of a mess it is. Desktop Linux is often criticized for this, but Windows is much worse, somehow! It’s really inconsistent. Half of it is “new” UI and half of it is old Win32/GDI type UI - just as bad
 > 🧸
+- 2022-04-11 [Impressions from a first-time Mac user Logan Marchione](https://loganmarchione.com/2022/04/impressions-from-a-first-time-mac-user/)
+> ⚠️ Warning Apple fanboys: this is a rant ⚠️
+> 🧸🧸
 - 2022-04-10 [RFC9225 - Software Defects Considered Harmful](https://www.rfc-editor.org/rfc/rfc9225.txt)
 > Best Current Practises:
 >
