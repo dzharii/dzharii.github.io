@@ -41,6 +41,8 @@ categories: links
 >     (Especially in machine-to-machine applications such as
 >     implementations of network protocols.)
 > 6. In fact, assume all internal inputs also are the result of bugs.
+- 2022-04-11 [Weightless Cats - Do Space Cats Land On Their Feet? - YouTube](https://www.youtube.com/watch?v=O9XtK6R1QAk)
+> Cats in zero-g lose their auto-righting reflex; 🙀
 
 
 ## Watch
@@ -75,8 +77,10 @@ CMD ["x11vnc", "-create", "-noxrecord", "-noxfixes", "-noxdamage", "-forever", "
 - 2022-04-07 [showdownjs/showdown: A bidirectional Markdown to HTML to Markdown converter written in Javascript](https://github.com/showdownjs/showdown)
 > Showdown is a JavaScript Markdown to HTML converter, based on the original works by John Gruber. Showdown can be used client side (in the browser) or server side (with Node.js).
 > Check out a live demo here: http://demo.showdownjs.com/
-
-
+- 2022-04-11 [ern0/howto-wasm-minimal: How to create minimal wasm module](https://github.com/ern0/howto-wasm-minimal)
+> How to create minimal wasm module - PoC
+> Why WASM?
+> 😵‍💫 Writing web app in any language which is not JavaScript is just pure joy.
 
 ## JavaScript
 
