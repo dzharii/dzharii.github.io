@@ -20,6 +20,11 @@ categories: links
 > ...
 - 2022-03-26 [What made the NES so interesting?](https://nicole.express/2022/the-nes-as-an-artifact.html)
 > I often like to cover oddities here; details of computers and arcade systems people may not have heard of, that didn’t sell well but had unique or interesting characteristics. But focusing on oddities like that can disguise the fact that sometimes, even systems that were very popular can stand out for unique design. Such be it with the Nintendo Entertainment System: had Nintendo’s console flopped, it’d definitely have a post already. But it doesn’t. Let’s fix that! And answer a simple question I was asked: what’s the deal with special chip games?
+- 2022-04-11 [Taking Flight Without a Smart Phone dev/tails](https://devtails.xyz/taking-flight-without-a-smart-phone)
+> In February, I wrote about getting rid of my iPhone and replacing it with a Nokia 6300 4G. I am incredibly happy with the results of this experience. I gained a new sense of presence with the real world and killed some bad scrolling habits. Unfortunately, KaiOS on the Nokia left much to be desired and our current society makes it very difficult to live without a smart phone.
+>
+> ![](_img/1649606064087-A7R08696.jpeg)
+
 
 ## Fun
 
@@ -81,6 +86,15 @@ CMD ["x11vnc", "-create", "-noxrecord", "-noxfixes", "-noxdamage", "-forever", "
 > How to create minimal wasm module - PoC
 > Why WASM?
 > 😵‍💫 Writing web app in any language which is not JavaScript is just pure joy.
+
+## 🥑 Rust
+- 2022-04-11 [What I learned from making a DNS client in Rust](https://blog.adamchalmers.com/making-a-dns-client/)
+> Over the last few weeks I built my own DNS client. Mostly because I thought dig (the standard DNS client) was kinda clunky. Partly because I wanted to learn more about DNS. So here's how I built it, and how you can build your own too. It's a great weekend project, and I learned a lot from finishing it.
+> ![](_img/2022-04-11-julia-evans-dns-packet.png)
+- 2022-04-11 [What Is Rust's unsafe? Nora Codes](https://nora.codes/post/what-is-rusts-unsafe/)
+> Rust promises safety as one of its core tenets; it is, in some ways, the raison d'être of the language. It does not, however, go about providing that safety in the traditional way, using a runtime and a garbage collector; rather, Rust uses a very advanced
+- 2022-04-11 [iced-rs/iced: A cross-platform GUI library for Rust, inspired by Elm](https://github.com/iced-rs/iced)
+> iced is currently experimental software. A cross-platform GUI library for Rust focused on simplicity and type-safety.
 
 ## JavaScript
 
