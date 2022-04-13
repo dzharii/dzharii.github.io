@@ -56,3 +56,9 @@ if(-not $Success){
 ```
 but relies on there not being any pipeline output
 
+- 2022-04-12 [How to Use PowerShell's Grep Select-String](https://adamtheautomator.com/powershell-grep/)
+> One of the first Linux commands that many system administrators learn is grep. This venerable tool has been around for decades and is crucial to any administrator’s toolbelt. Grep’s core is simply the ability to search plain text for a RegEx pattern. Grep can search files in a given directory or streamed input to output matches. Did you know PowerShell has grep? Well..almost.
+```ps1
+Select-String -Path "Users\*.csv" -Pattern "Joe","Marti","Jerry"
+```
+

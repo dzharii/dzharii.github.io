@@ -65,8 +65,6 @@ categories: links
 > - 2022-04-10 [GALLERY - BUFFALO AIRWAYS](https://buffaloairways.com/gallery/#iLightbox[gallery_image_1]/33)
 > - 2022-04-10 [C-47 Pilot and Maintenance Manuals](https://www.usaf-sig.org/index.php/references/downloads/category/41-c-47)
 
-## Design Patterns
-
 ## Projects
 - 2022-03-21 [Curtiss-Wright Debuts First Raspberry Pi Powered Ultra-Small Form Factor Rugged Mission Computer for Defense and Aerospace Applications](https://www.curtisswrightds.com/news/press-release/raspberry-pi-powered-ultra-small-form-factor-rugged-mission-computer.html)
 > Defense Solutions division, a leading supplier of modular open systems approach (MOSA) solutions engineered to succeed, today introduced the Parvus® DuraCOR® Pi, the embedded industry’s first Raspberry Pi (RPi) powered mission computer for defense and aerospace applications.  The ultra-small form factor (USFF) DuraCOR Pi, fully ruggedized to deliver optimal performance in harsh operating environments, is the first mission computer to deliver 100% compatibility with the vast Pi Developer Ecosystem in a fully MIL-STD rugged sealed housing.
@@ -103,8 +101,6 @@ CMD ["x11vnc", "-create", "-noxrecord", "-noxfixes", "-noxdamage", "-forever", "
 - 2022-04-11 [iced-rs/iced: A cross-platform GUI library for Rust, inspired by Elm](https://github.com/iced-rs/iced)
 > iced is currently experimental software. A cross-platform GUI library for Rust focused on simplicity and type-safety.
 
-## JavaScript
-
 ## .NET/ C#
 - 2022-04-06 [.NET type for personally identifiable information PII](https://gaevoy.com/2022/03/18/personally-identifiable-information-data-types.html?utm_source=csharpdigest&utm_medium=email&utm_campaign=408)
 > According to the law in many countries, you must treat PII data in a special way. For example, there is a number of restrictions on the use of personal data according to GDPR regulation in the European Union. I’m going to list some requirements based on t
@@ -113,6 +109,11 @@ CMD ["x11vnc", "-create", "-noxrecord", "-noxfixes", "-noxdamage", "-forever", "
 # PowerShell
 - 2022-04-11 [PowerShell - Aliases](https://devtut.github.io/powershell/aliases.html#get-alias)
 > about PowerShell aliases
+- 2022-04-12 [How to Use PowerShell's Grep Select-String](https://adamtheautomator.com/powershell-grep/)
+> One of the first Linux commands that many system administrators learn is grep. This venerable tool has been around for decades and is crucial to any administrator’s toolbelt. Grep’s core is simply the ability to search plain text for a RegEx pattern. Grep can search files in a given directory or streamed input to output matches. Did you know PowerShell has grep? Well..almost.
+```ps1
+Select-String -Path "Users\*.csv" -Pattern "Joe","Marti","Jerry"
+```
 
 ## Authorization & Authentication
 - 2022-04-03 [Combining Bearer Token and Cookie Authentication in ASP.NET - Rick Strahl's Web Log](https://weblog.west-wind.com/posts/2022/Mar/29/Combining-Bearer-Token-and-Cookie-Auth-in-ASPNET?utm_source=csharpdigest&utm_medium=email&utm_campaign=409)
@@ -124,5 +125,4 @@ CMD ["x11vnc", "-create", "-noxrecord", "-noxfixes", "-noxdamage", "-forever", "
 > - Using Manual Cookies
 > - Using only ASP.NET's low level Auth features - not using ASP.NET Core Identity
 
-## Video Editing/ GoPro / ffmpeg
 
