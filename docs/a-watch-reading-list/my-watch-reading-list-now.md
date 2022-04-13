@@ -6,9 +6,16 @@
 
 > This show follows the life of a family of dinosaurs, living in a modern world. They have televisions, refrigerators, et cetera. The only humans around are cavemen, who are viewed as pets and wild animals.
 
-## Watched
-- [X] 2022-03-27 [Игра. Фильм Алексея Учителя. Комедия. Рок. StarMedia. Rockfilms - YouTube](https://www.youtube.com/watch?v=ra3-Yper1ug&ab_channel=StarMedia)
-
 ## Reading
 - [ ] 2022-03-29 [The Now Habit: A Strategic Program for Overcoming Procrastination and Enjoying Guilt-Free Play: Fiore, Neil: 8601400338544: Amazon.com: Books](https://www.amazon.com/Now-Habit-Overcoming-Procrastination-Guilt-Free/dp/1585425524/ref=tmm_pap_swatch_0?_encoding=UTF8&qid=&sr=) `Neil Fiore`
 - 2022-03-29 [Articles and Tips > Fiore Productivity](https://www.neilfiore.com/articles-and-tips/) `Neil Fiore`
+
+## Recommend
+- 2022-04-12 [Hellraiser 1987 - IMDb](https://www.imdb.com/title/tt0093177/)
+> We have such sights to show you!
+- 2022-04-12 [Millennium TV Series 1996–1999 - IMDb](https://www.imdb.com/title/tt0115270/)
+> 3 days left...
+
+## Watched
+- 2022-03-12 [Scream 2022 - IMDb](https://www.imdb.com/title/tt11245972/?ref_%3Dplg_rt_1)
+> Not too bad... Could be worse
