@@ -31,7 +31,10 @@ Add sound wave on top of video (under construction):
 ffmpeg -i in.mp4 -filter_complex "[0:a]showwaves=s=1920x300:mode=line:colors=red|yellow[sw];[0][sw]overlay=(W-w)/2:(H-h)/2:format=auto,format=yuv420p[v]" -map "[v]" -map 0:a -movflags +faststart output.mp4
 ```
 
-
+Reduce frame rate:
+```
+ffmpeg -i one.mkv -movflags +faststart -filter:v fps=24 two.mp4
+```
 
 Make a clip
 
