@@ -1,9 +1,3 @@
-﻿---
-layout: post
-title:  "FFmpeg links"
-date:   2021-08-03 07:47 -0700
-categories: links
----
 
 - [Using FFmpeg with NVIDIA GPU Hardware Acceleration :: NVIDIA Video Codec SDK Documentation](https://docs.nvidia.com/video-technologies/video-codec-sdk/ffmpeg-with-nvidia-gpu/index.html)
 - [FFmpeg.wasm, a pure WebAssembly / JavaScript port of FFmpeg  TechBlog](https://jeromewu.github.io/ffmpeg-wasm-a-pure-webassembly-javascript-port-of-ffmpeg/)
@@ -208,4 +202,8 @@ crf:
 ## Tools / Other
 
 - (2021-09-26) [jely2002/youtube-dl-gui: A cross-platform GUI for youtube-dl made in Electron and node.js - open video downloader](https://github.com/jely2002/youtube-dl-gui)
+
+
+
+
 
