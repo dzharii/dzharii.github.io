@@ -201,6 +201,16 @@ crf:
 
 - (2021-12-26) [GoPro Open Sources Video Metadata](https://gopro.com/en/us/news/gopro-video-metadata-open-source-explained)
 - (2021-12-26) [TestDisk - CGSecurity](https://www.cgsecurity.org/wiki/TestDisk) - Open source SD Card recovery tool
+- 2022-05-13 [destroyedlolo/GPMFMetersGenerator: Generate skickers from GoPro's GPMF](https://github.com/destroyedlolo/GPMFMetersGenerator)
+> Generate skickers from GoPro's GPMF
+> Try it 🍎🍎🍎
+- 2022-05-13 [gyroflow/gyroflow: Video stabilization using gyroscope data](https://github.com/gyroflow/gyroflow)
+> Video stabilization using gyroscope data Homepage • Download • Documentation • Discord • Report bug • Request feature
+- 2022-05-13 [KonradIT/goprowifihack: Unofficial GoPro WiFi API Documentation - HTTP GET requests for commands, status, livestreaming and media query.](https://github.com/KonradIT/goprowifihack)
+> The unofficial API for GoPro cameras (The WiFi enabled models)
+- 2022-05-13 [gopro/gpmf-parser: Parser for GPMF™ formatted telemetry data used within GoPro® cameras.](https://github.com/gopro/gpmf-parser)
+> The GPMF structured storage format was originally proposed to store high-frequency periodic sensor data within a video file like an MP4. Action cameras, like that from GoPro, have limited computing resources beyond that needed to store video and audio, so
+
 
 ## Youtube
 - 2022-05-08 [Encode/YouTube – FFmpeg](https://trac.ffmpeg.org/wiki/Encode/YouTube)

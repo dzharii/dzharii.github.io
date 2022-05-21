@@ -62,3 +62,4 @@ but relies on there not being any pipeline output
 Select-String -Path "Users\*.csv" -Pattern "Joe","Marti","Jerry"
 ```
 
+- 2022-05-21 [Sample of making a simple webserver in PowerShell. If you have more complex needs checkout Pode https://github.com/Badgerati/Pode as a fully fledged PowerShell web server. · GitHub](https://gist.github.com/Tiberriver256/868226421866ccebd2310f1073dd1a1e)
