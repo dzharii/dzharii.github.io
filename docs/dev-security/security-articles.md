@@ -1,4 +1,10 @@
 # Security engineering articles
+- 2022-04-23 [How SHA-256 Works Step-By-Step Boot.dev](https://blog.boot.dev/cryptography/how-sha-2-works-step-by-step-sha-256/)
+- 2022-04-23 [Very Basic Intro to Hash Functions SHA-256, MD5, etc Boot.dev](https://blog.boot.dev/cryptography/very-basic-intro-to-hash-functions-sha-256-md-5-etc/)
+- 2022-04-23 [Basic Intro to Key Derivation Functions Boot.dev](https://blog.boot.dev/cryptography/key-derivation-functions/)
+> By Lane Wagner on Dec 30, 2019
+- 2022-04-20 [What an X.509 Certificate Is & How It Works Sectigo® Official](https://sectigo.com/resource-library/what-is-x509-certificate)
+- 2022-04-20 [What is an X.509 certificate?](https://www.techtarget.com/searchsecurity/definition/X509-certificate)
 
 
 ## Books and Courses
