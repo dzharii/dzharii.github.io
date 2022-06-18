@@ -58,7 +58,6 @@ categories: links
 ![](./_img/2022-06-18-redneck-red-hat/05.png) <br />
 ![](./_img/2022-06-18-redneck-red-hat/06.png) <br />
 ![](./_img/2022-06-18-redneck-red-hat/07.png) <br />
-![](./_img/2022-06-18-redneck-red-hat/08.png) <br />
 ![](./_img/2022-06-18-redneck-red-hat/09.png) <br />
 ![](./_img/2022-06-18-redneck-red-hat/10.png) <br />
 ![](./_img/2022-06-18-redneck-red-hat/11.png) <br />
@@ -85,7 +84,9 @@ categories: links
 
 
 ## The X-Files
-> Disclaimer: unverified controversy.
+:::danger
+Disclaimer: unverified controversy.
+:::
 
 - 2022-06-16 [The Cult in Google](https://medium.com/@kwilliamlloyd/the-cult-in-google-3c1a910214d1)
 > I worked for Google for about three and a half years as a video producer. I was fired because I raised alarm about a doomsday cult that dominated my former team there.
@@ -105,7 +106,6 @@ categories: links
 ## Algorithms
 - 2022-06-15 [That XOR Trick](https://florian.github.io//xor-trick/)
 > There are a whole bunch of popular interview questions that can be solved in one of two ways: Either using common data structures and algorithms in a sensible manner, or by using some properties of XOR in a seemingly hard to understand way.
-
 
 ## Security/Cryptography
 - 2022-06-14 [How to encrypt a big file using OpenSSL and someone's public key](https://www.czeskis.com/random/openssl-encrypt-file.html)
@@ -132,7 +132,6 @@ Gitea is a community managed lightweight code hosting solution written in Go. It
 - 2022-05-26 [Lee Holmes WebSockets from Scratch](https://www.leeholmes.com/websockets-from-scratch/)
 > A bag pack with WebSockets!
 
-
 ## Markdown Chrome Extensions
 - 2022-06-11 [Copy as Markdown - Chrome Web Store](https://chrome.google.com/webstore/detail/copy-as-markdown/nlaionblcaejecbkcillglodmmfhjhfi)
 > Browser extension to copy hyperlinks, images, and selected text as Markdown
@@ -150,7 +149,6 @@ Gitea is a community managed lightweight code hosting solution written in Go. It
 > tRPC allows you to easily build & consume fully typesafe APIs, without schemas or code generation.
 - 2022-06-07 [BuilderIO/partytown: Relocate resource intensive third-party scripts off of the main thread and into a web worker. 🎉](https://github.com/BuilderIO/partytown)
 > Partytown is a lazy-loaded library to help relocate resource intensive scripts into a web worker, and off of the main thread. Its goal is to help speed up sites by dedicating the main thread to your code, and offloading third-party scripts to a web worker.
-
 
 ## Identity Management
 - 2022-06-07 [supertokens/supertokens-core: Open source alternative to Auth0 / Firebase Auth / AWS Cognito](https://github.com/supertokens/supertokens-core)
@@ -172,16 +170,8 @@ Gitea is a community managed lightweight code hosting solution written in Go. It
 > The OS/2 Museum has made available the first version of a display driver disk for Windows 9x running on VirtualBox. The driver uses a linear framebuffer and supports 8/16/24/32bpp modes with resolutions up to 1920×1200 pixels (see more below). The driver
 - 2022-05-28 [Running Windows 3.x - DOSBox Part 4](https://www.linuxandubuntu.com/home/running-windows-3x-dosbox-part-4)
 
-
-## SIMD
-## Resilience
-
 ## PowerShell
 - 2022-05-29 [Base64 Encoder and Decoder Algorithm in PowerShell - with Examples - OpenTechTips](https://opentechtips.com/base64-algorithm-in-powershell-with-examples/)
-
-## CSharp
-
-## FFmpeg
 
 ## Watch me ;)
 - 2022-06-02 [Priest 2011 film - Wikipedia](https://en.wikipedia.org/wiki/Priest_(2011_film))
