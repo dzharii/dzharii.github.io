@@ -63,3 +63,86 @@ Select-String -Path "Users\*.csv" -Pattern "Joe","Marti","Jerry"
 ```
 
 - 2022-05-21 [Sample of making a simple webserver in PowerShell. If you have more complex needs checkout Pode https://github.com/Badgerati/Pode as a fully fledged PowerShell web server. · GitHub](https://gist.github.com/Tiberriver256/868226421866ccebd2310f1073dd1a1e)
+
+
+- 2022-05-29 [Base64 Encoder and Decoder Algorithm in PowerShell - with Examples - OpenTechTips](https://opentechtips.com/base64-algorithm-in-powershell-with-examples/)
+
+### Encoder Script
+
+```ps1
+function Base64Encode($s) {
+$i = 0
+$base64 = $ending = ''
+$base64chars = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/'
+
+# Add padding if string is not dividable by 3
+$pad = 3 - ($s.length % 3)
+if ($pad -ne 3) {
+        $s += "A" * $pad
+        $ending = "=" * $pad
+    }
+# Iterate though the whole input string
+while ($i -lt $s.length) {
+    # Take 3 characters at a time, convert them to 4 base64 chars
+    $b = 0
+    for ($j=0; $j -lt 3; $j++) {
+
+        # get ASCII code of the next character in line
+        $ascii = [int][char]$s[$i]
+        $i++
+
+        # Concatenate the three characters together
+        $b += $ascii -shl 8 * (2-$j)
+        }
+
+    # Convert the 3 chars to four Base64 chars
+    $base64 += $base64chars[ ($b -shr 18) -band 63 ]
+    $base64 += $base64chars[ ($b -shr 12) -band 63 ]
+    $base64 += $base64chars[ ($b -shr 6) -band 63 ]
+    $base64 += $base64chars[ $b -band 63 ]
+    }
+# Add the actual padding to the end after removing the same number of characters
+if ($pad -ne 3) {
+        $base64 = $base64.SubString(0, $base64.length - $pad)
+        $base64 += $ending
+        }
+# Return the Base64 encoded result
+return $base64
+}
+```
+
+### Decoder Script
+
+```ps1
+function Base64Decode($s) {
+$i = 0
+$base64 = $decoded = ''
+$base64chars = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/'
+# Replace padding with "A" characters for the decoder to work and save the length of the padding to be dropped from the end later
+if ($s.substring($s.length - 2,2) -like "==") {
+    $s = $s.substring(0, $s.length - 2) + "AA"
+    $padd = 2
+    }
+elseif ($s.substring($s.length - 1,1) -like "=") {
+    $s = $s.substring(0, $s.length - 1) + "A"
+    $padd = 1
+}
+# Take 4 characters at a time
+while ($i -lt $s.length) {
+    $d = 0
+
+    for ($j=0; $j -lt 4; $j++) {
+        $d += $base64chars.indexof($s[$i]) -shl (18 - $j * 6)
+        $i++
+        }
+    # Convert the 4 chars back to ASCII
+    $decoded += [char](($d -shr 16) -band 255)
+    $decoded += [char](($d -shr 8) -band 255)
+    $decoded += [char]($d -band 255)
+}
+# Remove padding
+$decoded = $decoded.substring(0, $decoded.length - $padd)
+# Return the Base64 encoded result
+return $decoded
+}
+```

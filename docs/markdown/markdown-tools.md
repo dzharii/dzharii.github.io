@@ -10,3 +10,12 @@ But on the contrary, the amount of the information is more and more growing. The
 - 2022-04-07 [showdownjs/showdown: A bidirectional Markdown to HTML to Markdown converter written in Javascript](https://github.com/showdownjs/showdown)
 > Showdown is a JavaScript Markdown to HTML converter, based on the original works by John Gruber. Showdown can be used client side (in the browser) or server side (with Node.js).
 > Check out a live demo here: http://demo.showdownjs.com/
+
+## Markdown Chrome Extensions
+- 2022-06-11 [Copy as Markdown - Chrome Web Store](https://chrome.google.com/webstore/detail/copy-as-markdown/nlaionblcaejecbkcillglodmmfhjhfi)
+> Browser extension to copy hyperlinks, images, and selected text as Markdown
+- 2022-06-11 [Copy as Markdown - Chrome Web Store](https://chrome.google.com/webstore/detail/copy-as-markdown/fkeaekngjflipcockcnpobkpbbfbhmdn)
+> Copy as Markdown is a Chrome extension which can help you copy the following things as Markdown to your system clipboard
+- 2022-06-11 [Copycat - Chrome Web Store](https://chrome.google.com/webstore/detail/copycat/jdjbiojkklnaeoanimopafmnmhldejbg)
+> This extension creates a right-click menu to provide copy functionality, which is used by right-clicking on the supported content of pages.
+

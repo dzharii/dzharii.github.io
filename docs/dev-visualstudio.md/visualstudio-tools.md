@@ -1,6 +1,9 @@
 # VisualStudio Tools
 
-- 2022-02-08 [Editor Guidelines - Visual Studio Marketplace](https://marketplace.visualstudio.com/items?itemName=PaulHarrington.EditorGuidelines)
+## Favorites VS 2019
+- [Trailing Whitespace Visualizer](https://marketplace.visualstudio.com/items?itemName=MadsKristensen.TrailingWhitespaceVisualizer)
+- [Editor Guidelines](https://marketplace.visualstudio.com/items?itemName=PaulHarrington.EditorGuidelines)
+- [Visual Studio Spell Checker (VS2017 and VS2019)](https://marketplace.visualstudio.com/items?itemName=EWoodruff.VisualStudioSpellCheckerVS2017andLater)
 
 - Visual Studio Powershell Control:
     - (2022-01-20) [open-in-msvs.el/open-in-msvs.vbs at master · evgeny-panasyuk/open-in-msvs.el](https://github.com/evgeny-panasyuk/open-in-msvs.el/blob/master/open-in-msvs.vbs)

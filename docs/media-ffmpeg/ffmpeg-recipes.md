@@ -118,6 +118,31 @@ Rotate (metadata only):
 ffmpeg -i inp.mp4  -c copy -metadata:s:v:0 rotate=180 output.mp4
 ```
 
+## Audio filter loudnorm
+
+- 2022-06-12 [FFmpeg How to normalize audio? - John Riselvato](http://johnriselvato.com/ffmpeg-how-to-normalize-audio/)
+```
+ffmpeg -i input.mp3 -af loudnorm=I=-16:LRA=11:TP=-1.5 output.mp3
+```
+
+```
+loudnorm
+	Indicates the name of the normalization filter
+
+I, i
+	Indicates the integrated loudness (-70 to -5.0 with default -24.0)
+
+LRA, lra
+	Indicates the loudness range (1.0 to 20.0 with default 7.0)
+
+TP, tp
+	Indicates the max true peak (-9.0 to 0.0 with default -2.0)
+```
+See also: [loudnorm](http://k.ylo.ph/2016/04/04/loudnorm.html)
+> Loudness Normalization. The algorithm goes like this: Measure the integrated loudness of the source file, calculate an appropriate offset gain, and then apply makeup gain. It’s a pretty simple algorithm, but what about when there’s nowhere near enough headroom for a simple upwards linear gain adjustment? And how should we handle the loudness normalization of livestreams?
+
+
+
 ## FFmpeg: convert for android
 
 - (2021-09-15) [Converting Video for Android using FFMPEG - Stack Overflow](https://stackoverflow.com/questions/14171826/converting-video-for-android-using-ffmpeg)
