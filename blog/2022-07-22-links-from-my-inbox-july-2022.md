@@ -15,6 +15,10 @@ categories: links
 > I’ve been confused about what’s going on with terminals for a long time.
 > But this past week I was using xterm.js to display an interactive terminal in a browser and I finally thought to ask a pretty basic question: when you press a key on your keyboard in a terminal (like Delete, or Escape, or a), which bytes get sent?
 > As usual we’ll answer that question by doing some experiments and seeing what happens :)
+- 2022-07-20 [Beej's Guides](https://beej.us/guide/)
+> These guides look nice and clean
+- [Beej's Guide to C](https://beej.us/guide/bgc/) [WIP]\
+> This is a rather comprehensive guide to C for folks who already know how to program in another language. The first half of the book is written in a tutorial style, while the second half is a reference section complete with examples (inspired by the incomparable *Turbo C Bible*). The goal is to keep this up-to-date with the latest C standards.
 
 ## Fun
 - 2022-07-20 [A Little Story About the `yes` Unix Command Matthias Endler](https://endler.dev/2017/yes/)
