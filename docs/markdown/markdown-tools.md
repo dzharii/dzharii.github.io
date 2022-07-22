@@ -10,6 +10,8 @@ But on the contrary, the amount of the information is more and more growing. The
 - 2022-04-07 [showdownjs/showdown: A bidirectional Markdown to HTML to Markdown converter written in Javascript](https://github.com/showdownjs/showdown)
 > Showdown is a JavaScript Markdown to HTML converter, based on the original works by John Gruber. Showdown can be used client side (in the browser) or server side (with Node.js).
 > Check out a live demo here: http://demo.showdownjs.com/
+- 2022-07-18 [marktext/marktext: 📝A simple and elegant markdown editor, available for Linux, macOS and Windows.](https://github.com/marktext/marktext)
+> MarkText is an MIT licensed open source project, and the latest version will always be downloadable for free from the GitHub release page.
 
 ## Markdown Chrome Extensions
 - 2022-06-11 [Copy as Markdown - Chrome Web Store](https://chrome.google.com/webstore/detail/copy-as-markdown/nlaionblcaejecbkcillglodmmfhjhfi)

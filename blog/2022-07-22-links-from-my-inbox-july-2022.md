@@ -32,6 +32,25 @@ categories: links
 
 ## Games
 
+### Emacs Games abd fun stuff
+- 2022-07-10 [Fun and Games in Emacs - Mastering Emacs](https://www.masteringemacs.org/article/fun-games-in-emacs)
+> It’s yet another Monday and you’re hard at work on those TPS reports for your boss, Lumbergh. Why not play Emacs’s Zork-like text adventure game to take your mind off the tedium of work?
+- `M-x hanoi-unix`
+- `5x5`
+- `M-x animate-birthday-present`
+- `C-h f blackbox`
+- `M-x bubbles-set-game-...`: (easy, medium, difficult, hard)
+- `M-x doctor`
+- `M-x dunnet` Emacs’s very own Zork-like text adventure game.
+- `M-x gomoku`
+- `M-x life`
+- `M-x pong`
+- `M-x snake`
+- `M-x tetris`
+- `M-x morse-region` and `M-x unmorse-region` -  translate a region into morse code
+- `M-x dissociated-press` The Dissociated Press is a very simple command that applies something like a random walk markov-chain generator to a body of text in a buffer and generates nonsensical text from the source body.
+- `M-x spook` - command inserts random words (usually into emails) designed to confuse/overload
+- 2022-07-10 [EmacsWiki: Category Games](https://www.emacswiki.org/emacs/CategoryGames)
 
 ## The X-Files
 :::danger
@@ -41,6 +60,7 @@ Disclaimer: unverified controversy.
 - 2022-07-20 [Microsoft investigates Teams outage as services drop for thousands of users Reuters](https://www.reuters.com/article/microsoft-outages-idCAKBN2OW03G)
 > on a recent deployment that contained a broken connection to an internal storage service
 > - really bad outage, but my Teams worked fine on that day
+- 2022-07-11 [Did People Used To Look Older? - YouTube](https://www.youtube.com/watch?v=vjqt8T3tJIE)
 
 
 ## TTY Linux
@@ -56,12 +76,34 @@ Disclaimer: unverified controversy.
 > Just a drawing app!
 - 2022-07-20 [StereoKit/StereoKit: An easy-to-use mixed reality library for building HoloLens and VR applications with C# and OpenXR!](https://github.com/StereoKit/StereoKit)
 > StereoKit is an easy-to-use open source mixed reality library for building HoloLens and VR applications with C# and OpenXR! Inspired by libraries like XNA and Processing, StereoKit is meant to be fun to use and easy to develop with, yet still quite capable of creating professional and business ready software.
+- 2022-07-18 [marktext/marktext: 📝A simple and elegant markdown editor, available for Linux, macOS and Windows.](https://github.com/marktext/marktext)
+> MarkText is an MIT licensed open source project, and the latest version will always be downloadable for free from the GitHub release page.
 
+### C# and PowerShell OCR with IronTesseract and Windows.Media.Ocr
+- 2022-07-10 [C# OCR Image to Text Generator 125 Languages Pack IronOCR](https://ironsoftware.com/csharp/ocr/tutorials/how-to-read-text-from-an-image-in-csharp-net/)
+```
+using IronOcr;
+var Result = new IronTesseract().Read(@"img\Screenshot.png");
+Console.WriteLine(Result.Text);
+```
+- 2022-07-10 [OCR sample - Code Samples Microsoft Docs](https://docs.microsoft.com/en-us/samples/microsoft/windows-universal-samples/ocr/)
+> Shows how to use Windows.Media.Ocr API. Optical character recognition (OCR) API allows for application developer to extract text in the specific language from an image.
 
-
-## Markdown Chrome Extensions
-
-## Fitness
+- 2022-07-10 📌 [PowerShell-Misc/Get-Win10OcrTextFromImage.ps1 at master · HumanEquivalentUnit/PowerShell-Misc](https://github.com/HumanEquivalentUnit/PowerShell-Misc/blob/master/Get-Win10OcrTextFromImage.ps1)
+> ! It worked!
+- 2022-07-10 [ocr - call external powershell script using variables for script location and parameters - Stack Overflow](https://stackoverflow.com/questions/67129906/call-external-powershell-script-using-variables-for-script-location-and-paramete)
+- 2022-07-10 [PowerShell Gallery root.psm1 1.1.0](https://www.powershellgallery.com/packages/PsOcr/1.1.0/Content/root.psm1)
+```
+ Add-Type -AssemblyName System.Runtime.WindowsRuntime
+    
+  # WinRT assemblies are loaded indirectly:
+  $null = [Windows.Storage.StorageFile, Windows.Storage, ContentType = WindowsRuntime]
+  $null = [Windows.Media.Ocr.OcrEngine, Windows.Foundation, ContentType = WindowsRuntime]
+  $null = [Windows.Foundation.IAsyncOperation`1, Windows.Foundation, ContentType = WindowsRuntime]
+  $null = [Windows.Graphics.Imaging.SoftwareBitmap, Windows.Foundation, ContentType = WindowsRuntime]
+  $null = [Windows.Storage.Streams.RandomAccessStream, Windows.Storage.Streams, ContentType = WindowsRuntime]
+  $null = [WindowsRuntimeSystemExtensions]
+```
 
 ## Typescript/JavaScript
 
@@ -70,6 +112,16 @@ Disclaimer: unverified controversy.
 ## Security / Cryptography
 
 ## Retro
+### Random Retro Neko!
+- 2022-07-11 [*NEKO* Welcome to the Web Neko Server!](https://webneko.net/?rose)
+> It's Neko! (3.0)
+> Hi, I'm Neko. If you want to play chase the mouse, just click on me..
+> To stop playing, click me again.
+- 2022-07-11 [Linux / Unix Desktop Fun: Cat And Mouse Chase All Over Your Screen - nixCraft](https://www.cyberciti.biz/open-source/oneko-app-creates-cute-cat-chasing-around-your-mouse/)
+> Oneko is a little fun app. It will change your cursor into mouse and creates a little cute cat and the cat start chasing around your mouse cursor. The word “neko” means “cat” in Japanese and it was originally written by a Japanese author as a Macintosh desktop accessory.
+- 2022-07-11 [leiqunni/Neko98: Neko for Windows is a little white cat who runs around on the desktop and chases the mouse cursor.](https://github.com/leiqunni/Neko98)
+> Neko for Windows is a little white cat who runs around on the desktop and chases the mouse cursor. You can customize how Neko appears in many ways, and can even make him run on top of all other windows. Neko was ported by me from the original X-Windows source code that was written by Masayuki Koba.
+- 2022-07-11 [crgimenes/neko: Neko is a cross-platform open-source animated cursor-chasing cat. This is the reimplementation write in Go.](https://github.com/crgimenes/neko)
 
 ## PowerShell
 
