@@ -12,7 +12,8 @@ categories: links
 - 2022-07-22 [What I don’t like about working at a remote job](https://www.priconceptions.com/notebook/remote-jobs-bad)
 > Working remotely permanently had been my wish ever since my managers started calling me back into the office. There was no possible way I would suffer through hours of commuting to feel awkward in an office again.
 > However, with time came getting used to my situation. Even in the best possible world, your brain is always seeking something better. Although I really, really love remote work (please don’t take it away from me), I’ve noticed some things that make me sad about it.
-
+- 2022-06-28 [The Grug Brained Developer](https://grugbrain.dev/)
+> A layman's guide to thinking like the self-aware smol brained
 
 ## How the things work
 - 2022-07-20 [What happens when you press a key in your terminal?](https://jvns.ca/blog/2022/07/20/pseudoterminals/)
@@ -32,6 +33,37 @@ categories: links
 > Among the series of simple Unix commands, there's also yes. If you execute it without arguments, you get an infinite stream of y's, separated by a newline:
 - 2022-07-20 [MegaPortraits: One-shot Megapixel Neural Head Avatars](https://samsunglabs.github.io/MegaPortraits/)
 ![](_img/20220722093613.png)
+- 2022-06-22 [commitment/commit_messages.txt at master · ngerakines/commitment](https://github.com/ngerakines/commitment/blob/master/commit_messages.txt)
+> Random commit messages
+```
+Derp
+Derp search/replace fuckup
+Derp, asset redirection in dev mode
+Derp. Fix missing constant post rename
+Derpy hooves
+Do things better, faster, stronger
+Does anyone read this? I'll be at the coffee shop accross the street.
+Does not work.
+Does this work
+Don't Ask Me, I Have No Idea Why This Works Either
+Don't push this commit
+Don't tell me you're too blind to see
+Done, to whoever merges this, good luck.
+Don’t even try to refactor it.
+Don’t mess with Voodoo
+Duh
+Easteregg
+Either Hot Shit or Total Bollocks
+Errare humanum est.
+FONDLED THE CODE
+FOR REAL.
+FUCKING XUPPERNAMEX
+Feed. You. Stuff. No time.
+Final commit, ready for tagging
+Fingers crossed!
+Finished fondling.
+First Blood
+```
 
 
 ## Games
@@ -65,15 +97,7 @@ Disclaimer: unverified controversy.
 > on a recent deployment that contained a broken connection to an internal storage service
 > - really bad outage, but my Teams worked fine on that day
 - 2022-07-11 [Did People Used To Look Older? - YouTube](https://www.youtube.com/watch?v=vjqt8T3tJIE)
-
-
-## TTY Linux
-
-## Algorithms
-
-## Security/Cryptography
-
-## Job hunt/interviews
+- 2022-06-22 [The REAL Story On Why Space Cadet Pinball Was Removed ft. Windows on Itanium - YouTube](https://www.youtube.com/watch?v=3EPTfOTC4Jw)
 
 ## Projects
 - 2022-07-20 ✏️ [Ok! So...](https://okso.app/)
@@ -109,11 +133,50 @@ Console.WriteLine(Result.Text);
   $null = [WindowsRuntimeSystemExtensions]
 ```
 
-## Typescript/JavaScript
-
-## Identity Management
-
 ## Security / Cryptography
+### X.509
+- 2022-07-03 [Understanding X.509 digital certificate thumbprints Morgan Simonsen's Blog](https://morgansimonsen.com/2013/04/16/understanding-x-509-digital-certificate-thumbprints/#comments)
+> I got an interesting question about X.509 certificate thumbprints today from a colleague. Specifically, he wanted to know if you could renew a certificate and keep the thumbprint. The answer is no, unfortunately. So I thought I would explain why you can’t.
+- 2022-07-03 [How Certificates Work: Public Key; Security Services Microsoft Docs](https://docs.microsoft.com/en-us/previous-versions/windows/it-pro/windows-server-2003/cc776447(v=ws.10)?redirectedfrom=MSDN)
+> Digital certificates are electronic credentials that are used to assert the online identities of individuals, computers, and other entities on a network. Digital certificates function similarly to identification cards such as passports and drivers licenses. They are issued by certification authorities (CAs) that must validate the identity of the certificate-holder both before the certificate is issued and when the certificate is used. Common uses include business scenarios requiring authentication, encryption, and digital signing.
+- 2022-07-03 [Cryptography - Win32 apps Microsoft Docs](https://docs.microsoft.com/en-us/windows/win32/seccrypto/cryptography-portal?redirectedfrom=MSDN)
+> Microsoft cryptographic technologies include CryptoAPI, Cryptographic Service Providers (CSP), CryptoAPI Tools, CAPICOM, WinTrust, issuing and managing certificates, and developing customizable public key infrastructures. Certificate and smart card enrollment, certificate management, and custom module development are also described.
+
+### Web Authentication API
+- 2022-06-26 [Web Authentication API - Web APIs MDN](https://developer.mozilla.org/en-US/docs/Web/API/Web_Authentication_API)
+> Secure context: This feature is available only in secure contexts (HTTPS), in some or all supporting browsers.
+- 2022-06-26 [Guide to Web Authentication](https://webauthn.guide/?utm_source=programmingdigest&utm_medium=email&utm_campaign=478)
+> While Web Authentication is an important tool, it is always important to remember that security is not a single technology; it is a way of thinking that should be incorporated into every step of how software is designed and developed.
+
+## HTML to Markdown
+- 2022-07-03 [mysticmind/reversemarkdown-net: ReverseMarkdown.Net is a Html to Markdown converter library in C#. Conversion is very reliable since HtmlAgilityPack HAP library is used for traversing the Html DOM](https://github.com/mysticmind/reversemarkdown-net)
+>ReverseMarkdown is a Html to Markdown (http://daringfireball.net/projects/markdown/syntax) converter library in C#. Conversion is very reliable since
+>HtmlAgilityPack (HAP) library is used for traversing the Html DOM.
+- 2022-07-03 [breakdance/breakdance: It's time for your markup to get down! HTML to markdown converter. Breakdance is a highly pluggable, flexible and easy to use.](https://github.com/breakdance/breakdance)
+> Breakdance is a node.js library for converting HTML to markdown. Highly pluggable, flexible and easy to use. It's time for your markup to get down.
+- 2022-07-03 [Malabarba/html-to-markdown: HTML to Markdown converter written in emacs-lisp.](https://github.com/Malabarba/html-to-markdown)
+> HTML to Markdown converter written in Emacs-lisp.
+> This package defines two main functions: html-to-markdown and html-to-markdown-string.
+> The functions are written entirely in Emacs-lisp (which means they'll work on any platform with no external dependencies), and they convert HTML source code into Markdown format. Of course, HTML has many more features than Markdown, so any tags that can't be converted are left as-is (or deleted, if the user so requests).
+- 2022-07-03 📌 [island205/h2m: Tool for converting HTML to Markdown, like html2markdown.](https://github.com/island205/h2m)
+> Tool for converting HTML to Markdown, like html2markdown.
+> online converter: http://island205.github.io/h2m/
+- 2022-07-03 [netgusto/upndown: HTML to Markdown javascript converter](https://github.com/netgusto/upndown)
+> JavaScript HTML to Markdown converter, for Node.js and the browser.
+- 2022-07-03 [mixmark-io/turndown: 🛏 An HTML to Markdown converter written in JavaScript](https://github.com/mixmark-io/turndown)
+> Convert HTML into Markdown with JavaScript.
+- 2022-07-03 [kates/html2markdown: Converts HTML to Markdown](https://github.com/kates/html2markdown)
+> HTML2Markdown
+> JavaScript implementation for converting HTML to Markdown text. Browser and Node.js support.
+- 2022-07-03 [showdownjs/showdown: A bidirectional Markdown to HTML to Markdown converter written in Javascript](https://github.com/showdownjs/showdown)
+> Showdown is a JavaScript Markdown to HTML converter, based on the original works by John Gruber. Showdown can be used client side (in the browser) or server side (with Node.js).
+
+## TTY UI
+- 2022-06-25 [ggerganov/imtui: ImTui: Immediate Mode Text-based User Interface C++ Library](https://github.com/ggerganov/imtui)
+> Use Git or checkout with SVN using the web URL.
+- 2022-06-25 [ArthurSonzogni/FTXUI: C++ Functional Terminal User Interface.](https://github.com/ArthurSonzogni/FTXUI)
+> Use Git or checkout with SVN using the web URL.
+- 2022-07-07 [migueldeicaza/gui.cs: Console-based user interface toolkit for .NET applications.](https://github.com/migueldeicaza/gui.cs)
 
 ## Retro
 ### Random Retro Neko!
@@ -127,6 +190,26 @@ Console.WriteLine(Result.Text);
 > Neko for Windows is a little white cat who runs around on the desktop and chases the mouse cursor. You can customize how Neko appears in many ways, and can even make him run on top of all other windows. Neko was ported by me from the original X-Windows source code that was written by Masayuki Koba.
 - 2022-07-11 [crgimenes/neko: Neko is a cross-platform open-source animated cursor-chasing cat. This is the reimplementation write in Go.](https://github.com/crgimenes/neko)
 
-## PowerShell
+###  Nyan Cat
+
+![](./_img/2022-07-23NyanCat/nyan-cat.gif)
+
+- 2022-06-26 [cristurm/nyan-cat: Nyan Cat made with HTML5+CSS3+JavaScript](https://github.com/cristurm/nyan-cat)
+> Use Git or checkout with SVN using the web URL.
+- 2022-06-26 [Nyan Cat - HTML5+CSS3+JS](http://cristurm.github.io/nyan-cat/)
+- 2022-06-25 [koron/nyancat-vim](https://github.com/koron/nyancat-vim)
+- 2022-06-25 [NYAN.CAT!](https://www.nyan.cat/index.php?cat=elevator)
+- 2022-06-25 [Thailand Nyan Cat Emojis & Text Copy & Paste](https://emojicombos.com/thailand-nyan-cat)
+- 2022-07-07 [nyan/nyanCat/Resources at master · SFFan123/nyan](https://github.com/SFFan123/nyan/tree/master/nyanCat/Resources)
 
 ## Watch me ;)
+
+- 2022-07-23 [Richard Stallman Free Software and the GNU General Public License - YouTube](https://www.youtube.com/watch?v=VpCfN5NSIcQ)
+- 2022-06-26 [Sorting Algorithms: Speed Is Found In The Minds of People - Andrei Alexandrescu - CppCon 2019 - YouTube](https://www.youtube.com/watch?v=FJJTYQYB1JQ)
+> [SHEDLOAD](https://dictionary.cambridge.org/us/dictionary/english/shedload)
+>  Don't do extra work. Extra work is not compensated in computer science, it is not like in school.
+> This `goto` is the most honorable thing I've done in my life! So I stand by it!
+> Always* use infinite loops.
+> *except in most cases
+- 2022-06-24 [Branchless Programming in C++ - Fedor Pikus - CppCon 2021 - YouTube](https://www.youtube.com/watch?v=g-WPhYREFjk)
+- 2022-07-07 [Scott Hanselman - Developing for Linux on Windows - NDC Porto 2022 - YouTube](https://www.youtube.com/watch?v=tuhzVDc0Slg)
