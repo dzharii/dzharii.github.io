@@ -9,6 +9,10 @@ categories: links
 - 2022-07-20 [Being on-call sucks — Bobbie Chen](https://bobbiechen.com/blog/2022/7/20/being-on-call-sucks)
 > At tech companies, it is fairly common for developers to be "on-call". As Increment magazine (published by Stripe, a leading payment-processing software company) explains...
 > ... A bit of on-call wisdom
+- 2022-07-22 [What I don’t like about working at a remote job](https://www.priconceptions.com/notebook/remote-jobs-bad)
+> Working remotely permanently had been my wish ever since my managers started calling me back into the office. There was no possible way I would suffer through hours of commuting to feel awkward in an office again.
+> However, with time came getting used to my situation. Even in the best possible world, your brain is always seeking something better. Although I really, really love remote work (please don’t take it away from me), I’ve noticed some things that make me sad about it.
+
 
 ## How the things work
 - 2022-07-20 [What happens when you press a key in your terminal?](https://jvns.ca/blog/2022/07/20/pseudoterminals/)
