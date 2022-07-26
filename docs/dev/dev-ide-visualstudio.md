@@ -1,4 +1,4 @@
-# VisualStudio Tools
+## VisualStudio Tools
 
 ## Favorites VS 2019
 - [Trailing Whitespace Visualizer](https://marketplace.visualstudio.com/items?itemName=MadsKristensen.TrailingWhitespaceVisualizer)

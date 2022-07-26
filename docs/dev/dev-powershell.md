@@ -1,4 +1,4 @@
-# Dev. PowerShell random solutions
+## Dev. PowerShell random solutions
 
 - 2022-02-24 [powershell - How to get status of "Invoke-Expression", successful or failed? - Stack Overflow](https://stackoverflow.com/questions/32348794/how-to-get-status-of-invoke-expression-successful-or-failed)
 > Invoke-Expression will return all the text of the command being invoked.
@@ -146,3 +146,29 @@ $decoded = $decoded.substring(0, $decoded.length - $padd)
 return $decoded
 }
 ```
+
+## Aliases
+
+From 2022-04-11 [PowerShell - Aliases](https://devtut.github.io/powershell/aliases.html#get-alias)
+
+| alias | cmdlet |
+| --- | --- |
+| %, foreach | For-EachObject |
+| ?, where | Where-Object |
+| cat, gc, type | Get-Content |
+| cd, chdir, sl | Set-Location |
+| cls, clear | Clear-Host |
+| cp, copy, cpi | Copy-Item |
+| dir/ls/gci | Get-ChildItem |
+| echo, write | Write-Output |
+| fl | Format-List |
+| ft | Format-Table |
+| fw | Format-Wide |
+| gc, pwd | Get-Location |
+| gm | Get-Member |
+| iex | Invoke-Expression |
+| ii | Invoke-Item |
+| mv, move | Move-Item |
+| rm, rmdir, del, erase, rd, ri | Remove-Item |
+| sleep | Start-Sleep |
+| start, saps | Start-Process |

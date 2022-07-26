@@ -1,4 +1,4 @@
-# Dev C# Articles
+## Dev C# Articles
 
 ## Garbage Collector
 - 2022-03-10 [8 Techniques to Avoid GC Pressure and Improve Performance in C# .NET - Michael's Coding Spot](https://michaelscodingspot.com/avoid-gc-pressure/)
