@@ -21,6 +21,20 @@ const config = {
 
   plugins: [require.resolve("@cmfcmf/docusaurus-search-local")],
 
+  scripts: [
+    // Clippy.JS
+    '/clippy.js/jquery-3.6.0.min.js',
+    '/clippy.js/clippy.js',
+  ],
+
+  stylesheets: [
+    '/clippy.js/clippy.css'
+  ],
+
+  clientModules: [
+    require.resolve('./src/modules/clippy-module.js'),
+  ],
+
   presets: [
     [
       'classic',
