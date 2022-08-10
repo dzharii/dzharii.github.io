@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clippy</title>
+    <!-- Add the stylesheet to the head -->
+    <link rel="stylesheet" type="text/css" href="clippy.css" media="all">
+
+</head>
+<body>
+
+<!-- Add these scripts to  the bottom of the page -->
+<!-- jQuery 1.7+ -->
+<script src="jquery-3.6.0.min.js"></script>
+
+<!-- Clippy.js -->
+<script src="clippy.js"></script>
+
+<!-- Init script -->
+<script type="text/javascript">
+    clippy.load('Clippy', function(agent){
+        // do anything with the loaded agent
+        agent.show();
+        agent.speak('When all else fails, bind some paper together. My name is Clippy.');
+    });
+</script>
+</body>
+</html>
