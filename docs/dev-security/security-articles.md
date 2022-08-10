@@ -21,3 +21,9 @@
 
 ## NGINX
 - 2022-02-22 [Avoiding the Top 10 NGINX Configuration Mistakes - NGINX](https://www.nginx.com/blog/avoiding-top-10-nginx-configuration-mistakes/)
+
+## TLS
+
+- 2022-08-03 [The Illustrated TLS 1.3 Connection: Every Byte Explained](https://tls13.xargs.org/)
+> Every byte explained and reproduced
+> In this demonstration a client connects to a server, negotiates a TLS 1.3 session, sends "ping", receives "pong", and then terminates the session. Click below to begin exploring.
