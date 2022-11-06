@@ -21,7 +21,7 @@ categories: links
 - Added [docs/self-hosted/video-streaming-owncast.md](/docs/self-hosted/video-streaming-owncast)
 > **Owncast** is a self-hosted live video and web chat server for use with existing popular broadcasting software.
 
-- Added  [docs/dev/dev-c_plus_plus.md](/docs/dev/dev-c_plus_plus)
+- Added  [docs/dev/dev-cpp.md](/docs/dev/dev-cpp)
 > **C++** knowledge base
 
 
@@ -138,7 +138,7 @@ Summary of the results (page 137):
 - 2022-09-29 [Why you should not use JWT](https://apibakery.com/blog/tech/no-jwt/)
 > about challenging it is to log-out a user or validate that the user token has been disabled.
 
-## Azure 
+## Azure
 
 - 2022-10-07 [Managed Identities with Azure AD Active Directory Tutorial - YouTube](https://www.youtube.com/watch?v=sA_mXKy_dKU)
 
