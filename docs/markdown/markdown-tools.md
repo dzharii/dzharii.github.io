@@ -13,6 +13,19 @@ But on the contrary, the amount of the information is more and more growing. The
 - 2022-07-18 [marktext/marktext: 📝A simple and elegant markdown editor, available for Linux, macOS and Windows.](https://github.com/marktext/marktext)
 > MarkText is an MIT licensed open source project, and the latest version will always be downloadable for free from the GitHub release page.
 
+## Editors
+
+- 2022-11-05 [Typora — a markdown editor, markdown reader.](https://typora.io/)
+
+  > ![img](./markdown-tools.assets/math.png)
+
+- 2022-10-16 [marktext/marktext: 📝A simple and elegant markdown editor, available for Linux, macOS and Windows.](https://github.com/marktext/marktext)
+
+> MarkText is an MIT licensed open source project, and the latest version will always be downloadable for free from the GitHub release page. 
+> ![img](./markdown-tools.assets/marktext.png)
+
+
+
 ## Markdown Chrome Extensions
 - 2022-06-11 [Copy as Markdown - Chrome Web Store](https://chrome.google.com/webstore/detail/copy-as-markdown/nlaionblcaejecbkcillglodmmfhjhfi)
 > Browser extension to copy hyperlinks, images, and selected text as Markdown
