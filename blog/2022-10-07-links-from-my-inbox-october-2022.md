@@ -14,14 +14,14 @@ categories: links
 
 ## Wiki Updates:
 
-- Added [docs/psy/Nonviolent Communication.md](/docs/psy/Nonviolent%20Communication)
+- Added [docs/psy/Nonviolent Communication.md](/docs/psy-Nonviolent%20Communication)
 > **Nonviolent Communication (NVC)** is an approach to communication based on principles of nonviolence. It is not a technique to end disagreements, but rather a method designed to increase empathy and improve the quality of life of those who utilize the method and the people around them.
 
 
-- Added [docs/self-hosted/video-streaming-owncast.md](/docs/self-hosted/video-streaming-owncast)
+- Added [docs/self-hosted/video-streaming-owncast.md](/docs/self-hosted-video-streaming-owncast)
 > **Owncast** is a self-hosted live video and web chat server for use with existing popular broadcasting software.
 
-- Added  [docs/dev/dev-cpp.md](/docs/dev/dev-cpp)
+- Added  [docs/dev/dev-cpp.md](/docs/dev-cpp)
 > **C++** knowledge base
 
 

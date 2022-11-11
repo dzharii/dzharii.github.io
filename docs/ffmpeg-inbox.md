@@ -1,0 +1,18 @@
+- 2022-03-10 [video editing - FFMPEG - Interpolate frames or add motion blur - Unix & Linux Stack Exchange](https://unix.stackexchange.com/questions/178503/ffmpeg-interpolate-frames-or-add-motion-blur)
+> I just watched the trailer for the hobbit, and a trailer for the avengers which both feature an increased framerate. A lot of the comments state that this isn't "true" 60fps since it was not shot at 60fps, but actually a lower frame-rate that has been interpolated.
+- 2022-03-11 [mifi/lossless-cut: The swiss army knife of lossless video/audio editing](https://github.com/mifi/lossless-cut)
+> LosslessCut aims to be the ultimate cross platform FFmpeg GUI for extremely fast and lossless operations on video, audio, subtitle and other related media files. The main feature is lossless trimming and cutting of video and audio files, which is great for saving space by rough-cutting your large video files taken from a video camera.
+
+# ffmpeg and tools
+
+- 2022-01-20 [FFQueue - Free & comprehensive GUI for FFMpeg](http://ffqueue.bruchhaus.dk/Default.aspx)
+> ffmpeg experimentation UI
+
+- 2022-04-18 [FFmpeg Audio Filters Gallery](https://www.vacing.com/ffmpeg_audio_filters/index.html)
+> Welcome to add new effects with a Merge Request , or send email to vacingfangATqq.com
+
+# GoPro Video Processing Tools
+
+- 2022-02-08 [Gyroflow](https://gyroflow.xyz/)
+> Gyroflow is an application that can stabilize your video by using motion data from a gyroscope and optionally an accelerometer. Modern cameras record that data internally (GoPro, Sony, Insta360 etc), and this application stabilizes the captured footage precisely by using them. It can also use gyro data from an external source (eg. from Betaflight blackbox). Github: [gyroflow/gyroflow: Video stabilization using gyroscope data](https://github.com/gyroflow/gyroflow)
+
