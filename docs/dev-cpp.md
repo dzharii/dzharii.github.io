@@ -93,7 +93,6 @@ This online tutorial continues with more advanced concepts - please read Part II
   > ![img](./dev-cpp.assets/combinations.png)
 
 
-
 ## Codding Style
 
 - 2022-10-17  [C++ Core Guidelines](https://isocpp.github.io/CppCoreGuidelines/CppCoreGuidelines) by Bjarne Stroustrup, Herb Sutter
@@ -143,6 +142,10 @@ This online tutorial continues with more advanced concepts - please read Part II
 > Ninja is a small build system with a focus on speed
 - 2022-10-03 [Cmake](https://cmake.org/)
 > CMake is an open-source, cross-platform family of tools designed to build, test and package software. CMake is used to control the software compilation process using simple platform and compiler independent configuration files
+
+## C++ profiling tools
+- 2022-11-12 [Measuring the memory usage of your C++ program – Daniel Lemire's blog](https://lemire.me/blog/2022/11/10/measuring-the-memory-usage-of-your-c-program/)
+
 
 ## C++ and Unicode
 - 2022-09-29 [c++ - Is there a preprocessor define that is defined if the compiler is MSVC? - Stack Overflow](https://stackoverflow.com/questions/5850358/is-there-a-preprocessor-define-that-is-defined-if-the-compiler-is-msvc)
