@@ -19,7 +19,7 @@ categories: links
 
   > ![image-20221113130643000](./2022-11-13-links-from-my-inbox.assets/image-20221113130643000.png)
 
-- 2022-11-12 [secureworks/chaosbernie: Azure as an external process source for psDoom-ng](https://github.com/secureworks/chaosbernie) - Kill ur klaud! 
+- 2022-11-12 [secureworks/chaosbernie: Azure as an external process source for psDoom-ng](https://github.com/secureworks/chaosbernie) - Kill ur klaud!
 
   >  Chaos Bernie implements Azure as an external process source for psDoom-ng.
   > Warning Azure resources will be permanently and irrevocably destroyed: use at your own risk!
@@ -46,7 +46,7 @@ categories: links
 
   > ![image-20221113133236256](./2022-11-13-links-from-my-inbox.assets/image-20221113133236256.png)
 
-- 2022-11-06 [The Bézier Game](https://bezier.method.ac/) 
+- 2022-11-06 [The Bézier Game](https://bezier.method.ac/)
 
   > Learn how to use Bezier curves
   > ![image-20221113133425125](./2022-11-13-links-from-my-inbox.assets/image-20221113133425125.png)
@@ -61,12 +61,12 @@ categories: links
 > I heard about VHS recently. It’s a tool for creating recordings of command-line tools, so you can create little demos and tutorials about how to use them.
 >  You can write a script to run commands, manipulate and theme the ter
 > Github:  [charmbracelet/vhs: Your CLI home video recorder 📼](https://github.com/charmbracelet/vhs)![vhs](./2022-11-13-links-from-my-inbox.assets/vhs.gif)
-- 2022-11-06 [gchq/CyberChef: The Cyber Swiss Army Knife - a web app for encryption, encoding, compression and data analysis](https://github.com/gchq/CyberChef) 
+- 2022-11-06 [gchq/CyberChef: The Cyber Swiss Army Knife - a web app for encryption, encoding, compression and data analysis](https://github.com/gchq/CyberChef)
 
   >  ![image-20221113132606353](./2022-11-13-links-from-my-inbox.assets/image-20221113132606353.png)
 
 - 2022-11-06 [yeemachine/kalidoface-3d: Face and Body Tracking for VRM 3D models on the web.](https://github.com/yeemachine/kalidoface-3d)
-  
+
   > Kalidoface 3D - Face and Full-Body tracking for Vtubing on the web!
   > A sequal to Kalidoface which supports Live2D avatars, Kalidoface 3D is a web app that brings support for 3D Vtuber avatars. It now features more dynamic camera angles, and even full-body tracking options using the latest Mediapipe human pose detection models. Add the web app to your homescreen to use it in standalone full screen or even use it in OBS as a browser object directly.![kalido3d](./2022-11-13-links-from-my-inbox.assets/kalido3d.gif)
   >
@@ -100,7 +100,7 @@ categories: links
 
 - 2022-11-06 [PowerShell: Getting Started - Utilizing the Web: Part 4 Controlling Internet Explorer via IE COM Object — The Ginger Ninja](https://www.gngrninja.com/script-ninja/2016/9/25/powershell-getting-started-controlling-internet-explorer)
 
-  > In case you are missing Internet Explorer 11... it is still there! 
+  > In case you are missing Internet Explorer 11... it is still there!
 
 ```powershell
 
@@ -110,9 +110,9 @@ $ieObject.Visible = $true
 ```
 
 ## CMAKE
-- 2022-11-06 [cmake_templates/normal/library at master · acdemiralp/cmake_templates](https://github.com/acdemiralp/cmake_templates/tree/master/normal/library) 
+- 2022-11-06 [cmake_templates/normal/library at master · acdemiralp/cmake_templates](https://github.com/acdemiralp/cmake_templates/tree/master/normal/library)
 
-  > random CMake templates 
+  > random CMake templates
 
 
 ## Tools
@@ -125,11 +125,11 @@ $ieObject.Visible = $true
 
 ## X-Files
 
-\- 2022-11-12 [Man who lived in Charles de Gaulle airport for 18 years dies in airport France The Guardian](https://www.theguardian.com/world/2022/nov/12/iranian-man-who-lived-in-paris-charles-de-gaulle-airport-for-18-years-dies)
+- 2022-11-12 [Man who lived in Charles de Gaulle airport for 18 years dies in airport France The Guardian](https://www.theguardian.com/world/2022/nov/12/iranian-man-who-lived-in-paris-charles-de-gaulle-airport-for-18-years-dies)
 
 > Man, you will be remembered
 
-\- 2022-11-12 [Changing times or, why is every layoff 10-15%?](https://blog.eladgil.com/p/changing-times-or-why-is-every-layoff)
+- 2022-11-12 [Changing times or, why is every layoff 10-15%?](https://blog.eladgil.com/p/changing-times-or-why-is-every-layoff)
 
 > A discussion on Hacker News
 
