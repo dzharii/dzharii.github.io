@@ -24,6 +24,10 @@ Audio - increase volume:
 ffmpeg -i VID_20211212_130236045.mp4  -c:v copy -filter:a loudnorm VID_20211212_130236045_vol_50.mp4
 ```
 
+```sh
+ffmpeg -i 2022-12-04-11-45-31.mkv -vcodec copy -af "volume=3.0" output.mkv
+```
+
 Add sound wave on top of video (under construction):
 
 ```sh
