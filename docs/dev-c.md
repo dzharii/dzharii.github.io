@@ -3,6 +3,14 @@
 - 2022-03-05 [Beginner's Guide to Linkers](https://www.lurklurk.org/linkers/linkers.html)
 > This article is intended to help C & C++ programmers understand the essentials of what the linker does. I've explained this to a number of colleagues over the years, so I decided it was time to write it down so that it's more widely available.
 
+- 2022-11-28 [Everything I wish I knew when learning C - Tom M](https://tmewett.com/c-tips/)
+> Learning C was quite difficult for me. The basics of the language itself weren’t so bad, but “programming in C” requires a lot of other kinds of knowledge which aren’t as easy to pick up on:
+>
+> - C has no environment which smooths out platform or OS differences; you need to know about your platform too
+> - there are many C compiler options and build tools, making even running a simple program involve lots of decisions
+> - there are important concepts related to CPUs, OSes, compiled code in general
+> - it’s used in such varied ways that there’s far less a centralised “community” or style than other languages
+
 
 ## Dev C Tools
 

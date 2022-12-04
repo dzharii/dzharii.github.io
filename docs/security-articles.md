@@ -27,3 +27,17 @@
 - 2022-08-03 [The Illustrated TLS 1.3 Connection: Every Byte Explained](https://tls13.xargs.org/)
 > Every byte explained and reproduced
 > In this demonstration a client connects to a server, negotiates a TLS 1.3 session, sends "ping", receives "pong", and then terminates the session. Click below to begin exploring.
+
+## Notes
+- 2022-11-28 [Downloading the official binaries — Tabletop Club master documentation](https://tabletop-club.readthedocs.io/en/latest/general/download/downloading_binaries.html)
+
+```sh
+# Windows
+certutil -hashfile TabletopClub_vX.X.X_Windows_64.zip SHA512
+
+# macOS
+shasum -a 512 TabletopClub_vX.X.X_OSX_Universal.zip
+
+# Linux / *BSD
+sha512sum TabletopClub_vX.X.X_Linux_64.zip
+```
