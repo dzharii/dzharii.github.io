@@ -13,6 +13,8 @@ The idea is to collect and categorize my knowledge, save it here and maybe recal
 ## About
 
 -  Github [dzharii](https://github.com/dzharii)
+    - [dzharii/awwtools: Aww for Awwesome!](https://github.com/dzharii/awwtools)
+      > Cross-platform tools for boosting your productivity!
     - [dzharii/dzharii.github.io](https://github.com/dzharii/dzharii.github.io)
     > This wiki!
     - [dzharii/awesome-typescript](https://github.com/dzharii/awesome-typescript)
