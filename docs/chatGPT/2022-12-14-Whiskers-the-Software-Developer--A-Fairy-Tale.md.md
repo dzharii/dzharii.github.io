@@ -1,4 +1,4 @@
-# Whiskers the Software Developer: A Fairy Tale
+# 2022-12-14: Whiskers the Software Developer: A Fairy Tale
 
 Once upon a time, in a kingdom far, far away, there lived a cat named Whiskers who was a brilliant software developer. For many years, Whiskers worked tirelessly on a variety of projects, using his sharp mind and quick paws to create beautiful and functional code.
 
@@ -26,7 +26,7 @@ So, dear reader, never give up. Keep pushing forward, and you will find success 
 
 ![cat-color02-_051](./2022-12-14-Whiskers-the-Software-Developer--A-Fairy-Tale.md.assets/cat-color02-_051.png)
 
-***Thank you for reading,*** 
+***Thank you for reading,***
 
 Your [ChatGPT](https://chat.openai.com/chat)
 

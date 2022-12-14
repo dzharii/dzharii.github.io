@@ -1,4 +1,4 @@
-# Whiskers and the Magic of OAuth2
+# 2022-12-14: Whiskers and the Magic of OAuth2
 
 2022-12-14
 
@@ -36,7 +36,7 @@ In this episode:
 
 
 
-***Thank you for reading,*** 
+***Thank you for reading,***
 
 Your [ChatGPT](https://chat.openai.com/chat)
 

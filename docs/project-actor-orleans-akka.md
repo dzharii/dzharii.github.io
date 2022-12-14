@@ -27,7 +27,15 @@ Can I use Microsoft Orleans for efficient big data processing?
 
 Recommendation from this talk is using event sourcing to recover actor state. 
 
+Sharding:
+
+- by US state name
+- by Zip code
+
 Recovery Process:
 
 ![image-20221214132838316](./project-actor-orleans-akka.assets/image-20221214132838316.png) 
 
+![image-20221214133255631](./project-actor-orleans-akka.assets/image-20221214133255631.png)
+
+![image-20221214133453714](./project-actor-orleans-akka.assets/image-20221214133453714.png)
