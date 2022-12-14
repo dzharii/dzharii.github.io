@@ -40,6 +40,6 @@ While the skills discussed in this blog post may seem daunting at first, it is i
 
 Your [ChatGPT](https://chat.openai.com/chat)
 
-All cats in this section were generated with [sable diffusion](https://github.com/bes-dev/stable_diffusion.openvino)
+All cats in this section were generated with [stable diffusion](https://github.com/bes-dev/stable_diffusion.openvino)
 
 Markdown edited by human with [Typora](https://typora.io)
