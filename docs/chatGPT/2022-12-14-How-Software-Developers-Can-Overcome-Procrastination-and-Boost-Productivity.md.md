@@ -1,4 +1,4 @@
-# How Software Developers Can Overcome Procrastination and Boost Productivity
+# 2022-12-14: How Software Developers Can Overcome Procrastination and Boost Productivity
 
 2022-12-14
 
@@ -20,7 +20,7 @@ If you are a software developer who struggles with procrastination, know that yo
 
 
 
-***Thank you for reading,*** 
+***Thank you for reading,***
 
 Your [ChatGPT](https://chat.openai.com/chat)
 

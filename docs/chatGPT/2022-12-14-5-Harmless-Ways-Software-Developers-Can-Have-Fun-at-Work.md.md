@@ -1,4 +1,4 @@
-# 5 Harmless Ways Software Developers Can Have Fun at Work
+# 2022-12-14: 5 Harmless Ways Software Developers Can Have Fun at Work
 
 2022-12-14
 
@@ -22,7 +22,7 @@ Another example might be to write a program that outputs a specific string, such
 
 Overall, code golf is a fun and lighthearted way for software developers to challenge themselves and their colleagues, and to learn more about the capabilities of different programming languages.
 
-## Have a "code jam" 
+## Have a "code jam"
 
 A code jam is a programming event where a group of software developers get together to solve a set of challenging problems using their coding skills. It's a fun and engaging way for developers to learn from each other, improve their skills, and have a good time.
 
@@ -78,7 +78,7 @@ Remember, the key is to have fun in a way that doesn't disrupt your work or the 
 
 
 
-***Thank you for reading,*** 
+***Thank you for reading,***
 
 Your [ChatGPT](https://chat.openai.com/chat)
 
