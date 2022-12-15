@@ -11,20 +11,6 @@ categories: links
 ![](./ai-aww/2022-10/puff_b_cute_a1026.jpg)![](./ai-aww/2022-10/puff_b_cute_a2016.jpg)![](./ai-aww/2022-10/puff_b_cute_a2023.jpg)![](./ai-aww/2022-10/puff_b_cute_a4001.jpg)
 
 
-
-## Wiki Updates:
-
-- Added [docs/psy/Nonviolent Communication.md](/docs/psy-Nonviolent%20Communication)
-> **Nonviolent Communication (NVC)** is an approach to communication based on principles of nonviolence. It is not a technique to end disagreements, but rather a method designed to increase empathy and improve the quality of life of those who utilize the method and the people around them.
-
-
-- Added [docs/self-hosted/video-streaming-owncast.md](/docs/self-hosted-video-streaming-owncast)
-> **Owncast** is a self-hosted live video and web chat server for use with existing popular broadcasting software.
-
-- Added  [docs/dev/dev-cpp.md](/docs/dev-cpp)
-> **C++** knowledge base
-
-
 ## Good Reads / Videos
 
 - 2022-09-29 [Here’s how one of Atlassian's critical services consistently gets above 99.9999% of availability - Atlassian Engineering](https://www.atlassian.com/engineering/atlassian-critical-services-above-six-nines-of-availability)

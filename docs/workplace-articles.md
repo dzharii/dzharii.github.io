@@ -11,3 +11,27 @@
     - Tactic 4: Find Common Ground
     - Tactic 5: End Gracefully
     - Tactic 6: Follow Up (No one does this!)
+
+- 2022-08-07 [Oncall Compensation for Software Engineers - The Pragmatic Engineer](https://blog.pragmaticengineer.com/oncall-compensation/)
+> This issue is the second part and final article in a series about oncall. Part 1 – published last week – covers healthy oncall practices. In this issue
+
+## Software Engineering interview resources
+
+- 2022-03-11 [jwasham/coding-interview-university: A complete computer science study plan to become a software engineer.](https://github.com/jwasham/coding-interview-university)
+> I originally created this as a short to-do list of study topics for becoming a software engineer, but it grew to the large list you see today. After going through this study plan, I got hired as a Software Development Engineer at Amazon! You probably won'
+
+## Coding interview
+- 2022-05-22 [Dictionary implementation in C# - Dotnetos - courses & conferences about .NET](https://dotnetos.org/blog/2022-03-28-dictionary-implementation/)
+> In the previous post we explained the [implementation details](https://dotnetos.org/blog/2022-03-07-list-implementation/) of `List<T>`. This time we will look at another generic collection defined in `System.Collection.Generic` namespace which is `Dictionary<TKey TValue>`.
+- 2022-05-21 [gouthampradhan/leetcode: Leetcode solutions](https://github.com/gouthampradhan/leetcode)
+> Leetcode solutions in Java. My accepted leetcode solutions to some of the common interview problems.
+- 2022-05-22 [Lessons learned from the recent job hunt · Jamie Tanna Software Engineer](https://www.jvt.me/posts/2022/05/02/lessons-learned-job-hunt/)
+- 2022-05-08 [Interview Process mishnit.github.io](https://mishnit.github.io/System_Design.html)
+> System Design interview advices and learning materials
+
+## Remote Work Tools
+
+- 2022-02-02 [Home - Sococo Online Workplace for Distributed Teams](https://www.sococo.com/)
+    - [Briefing](https://alternativeto.net/software/brie-fi-ng/about/)
+    - [My Digital Office A Virtual Office For Distributed Teams](https://www.mydigitaloffice.io/)
+    - [Free Virtual Workspace for Remote Teams Virtual Office Software](https://wurkr.io/)

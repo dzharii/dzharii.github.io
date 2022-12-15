@@ -13,3 +13,19 @@
 - 2022-03-10 [Syncthing](https://syncthing.net/)
 > Syncthing is a continuous file synchronization program. It synchronizes files between two or more computers in real time, safely protected from prying eyes. Your data is your data alone and you deserve to choose where it is stored, whether it is shared with some third party, and how it's transmitted over the internet.
 
+## Peer to peer projects
+
+- 2022-02-23 [JoinPeerTube](https://joinpeertube.org/)
+> Free software to take back control of your videos
+> Our aim is not to replace them, but rather to simultaneously offer something else, with different values.
+
+## Owncast
+
+### Home
+
+https://owncast.online/
+> Owncast is a self-hosted live video and web chat server for use with existing popular broadcasting software.
+
+
+### Links
+- 2022-10-04 [Video - Owncast](https://owncast.online/docs/video/)

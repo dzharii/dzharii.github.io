@@ -23,3 +23,21 @@ you could also add this to your .xinitrc / .xsession file:
 
 exec /usr/bin/google-chrome --kiosk
 ```
+
+## Bash Snippets
+
+- 2022-05-21 [Bash trap for debugging bash scripts](https://www.onlinegdb.com/1h1BpiINv)
+```bash
+trap 'echo "# $BASH_COMMAND";read' DEBUG
+echo line1
+echo line2
+echo line3
+echo "Hello World";
+```
+
+## Tools 
+
+### Data processing
+- 2022-03-07 [TomWright/dasel: Select, put and delete data from JSON, TOML, YAML, XML and CSV files with a single tool. Supports conversion between formats and can be used as a Go package.](https://github.com/TomWright/dasel)
+> Comparable to jq / yq, but supports JSON, YAML, TOML, XML and CSV with zero runtime dependencies.
+
