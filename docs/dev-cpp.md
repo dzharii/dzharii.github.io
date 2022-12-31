@@ -195,16 +195,22 @@ int main(){
 - 2022-11-10 [CppNorth - YouTube](https://www.youtube.com/channel/UCGWAlXciy785Iog-X7247Hw)
   > Winter is coming!
 
-
 ### Talks
 
-\- 2022-11-03 [Typical C++, But Why? - Björn Fahller - NDC TechTown 2022 - YouTube](https://www.youtube.com/watch?v=PmVmaT1JNbw)
+2022-12-28 [Concurrency Patterns - Rainer Grimm - CppCon 2021 - YouTube](https://www.youtube.com/watch?v=A3DQxZCtKqo&list=PLHTh1InhhwT6bY4nS4p7f5b_754myC3ze&index=4)
+
+>  This one is about the OOP C++ Concurrency patterns, like this one for locks:
+>
+>  ![image-20221228132809167](./dev-cpp.assets/image-20221228132809167.png)
+
+
+2022-11-03 [Typical C++, But Why? - Björn Fahller - NDC TechTown 2022 - YouTube](https://www.youtube.com/watch?v=PmVmaT1JNbw)
 
 > some advice on writing more strongly-typed code, not only in C++
 >
 > ![image-20221105170012423](./dev-cpp.assets/image-20221105170012423.png)
 
-- 2022-10-14 [Dependency management in C++ - Xavier Bonaventura - code::dive 2019 - YouTube](https://www.youtube.com/watch?v=dJpAppmRWVI)
+2022-10-14 [Dependency management in C++ - Xavier Bonaventura - code::dive 2019 - YouTube](https://www.youtube.com/watch?v=dJpAppmRWVI)
   - 2022-10-14 [CppCon 2017: James McNellis “Everything You Ever Wanted to Know about DLLs” - YouTube](https://www.youtube.com/watch?v=JPQWQfDhICA)
 
 
