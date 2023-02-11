@@ -174,20 +174,16 @@ int main(){
 }
 ```
 
-### CMAKE
+## CMAKE
 
 - 2022-09-29 [Debugging – More Modern CMake](https://hsf-training.github.io/hsf-training-cmake-webpage/08-debugging/index.html)
 > Cmake article on debugging
-
-
 
 ## C++ Libraries and Lib Collections
 
 - 2023-02-02 [A list of open source C++ libraries - cppreference.com](https://en.cppreference.com/w/cpp/links/libs) 
 
 > The objective of this page is to build a comprehensive list of open source C++ libraries, so that when one needs an implementation of particular functionality, one needn't to waste time searching on web.
-
-
 
 ## C++ Machine Learning
 
@@ -224,6 +220,10 @@ int main(){
 
 - 2022-11-10 [CppNorth - YouTube](https://www.youtube.com/channel/UCGWAlXciy785Iog-X7247Hw)
   > Winter is coming!
+
+- 2023-02-02 [Meeting Cpp - YouTube](https://www.youtube.com/@MeetingCPP/videos) 
+
+  > Hi C++!
 
 ### Talks
 
