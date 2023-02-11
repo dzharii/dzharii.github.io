@@ -1,4 +1,4 @@
-# The United Hollywood Republic
+# 2023-02-11 The United Hollywood Republic
 The United Hollywood Republic was at the brink of war with Soviet Union 2, and the fate of their world hung in the balance. In a desperate attempt to secure their victory, Emperor Joe made a bold decision to summon the help of a powerful being from a galaxy far, far away.
 
 The emperor tasked his elite Stargate squad with the perilous mission of retrieving a Sith Lord from the depths of the unknown. The squad teleported through the wormhole, their bodies straining under the immense pressure as they crossed the vast expanse of space.
