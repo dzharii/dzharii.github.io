@@ -2,13 +2,15 @@
 
 Something that I use too often...
 
-
-
 ## Apps
 
 - [Grammarly](https://app.grammarly.com) - proofreading tool
 - [Google Messages for Web](https://messages.google.com/web/conversations)
 - [ChatGPT](https://chat.openai.com/chat)
+
+### C++
+
+- [Compiler Explorer](https://godbolt.org/)
 
 ## What's new?
 
