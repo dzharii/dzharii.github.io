@@ -39,3 +39,28 @@
   * The Biggest Problem (Sync-Over-Async)
   * What is Thread-Pool Starvation?
   * Full Async Reading List
+
+## Performance measurement in C#
+
+2023-02-05 Video [A mortal's guide to making a pig run faster - Richard Banks - NDC Sydney 2022 - YouTube](https://www.youtube.com/watch?v=onpBW9b8bMs) 
+
+  > The talk about performance optimization in .NET
+  > Tools:
+  >
+  > - PerfView
+  >   https://github.com/microsoft/perfview
+  > - BenchmarkDotNet
+  >   https://benchmarkdotnet.org/
+  > - Speedscope
+  >   https://www.speedscope.app/
+  > - DotNet Source Code
+  > - https://source.dot.net/
+
+ ## Tools
+
+2023-02-05 [Generating Sample Data with Bogus](https://wildermuth.com/2023/01/29/generating-sample-data-with-bogus/) 
+
+> dotnet add package Bogus
+>
+> Bogus is a library that works with C#, F# and VB.NET that can be used to create repeatable, fake data for applications. It is somewhat a port of a similar library Bogus.js. It accomplished this by creating generators (called Fakers) that have a set of rules for generating one or more fake objects. Built-into Bogus is a set of generalized rules for common data categories (i.e. Addresses, Companies, People, Phone Numbers, etc.). Enough talk, let’s see how it works. The full repo is at:
+

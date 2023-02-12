@@ -41,12 +41,40 @@ categories: links
 >
 >   *This article first appeared on [Code4IT 🐧](https://www.code4it.dev/)*
 
-- 2023-01-26 [Resilience and Waste in Software Teams – Jessitron](https://jessitron.com/2023/01/16/resilience-and-waste-in-software-teams/)
-  > Keeping libraries and components up-to-date, keeping code readable, updating our automations, improving our observability, bringing other developers up to speed– these are a few of the tasks developers need to do regularly. Any one of these tasks could have no noticeable impact in the future, and any one of them could prevent the next big security incident. The most likely outcome of each is a smoothing of future work, a decrease in unpleasant surprise.
-  >
-  > Last time I implemented a feature in the Honeycomb UI, I needed some React functionality that was only in the latest version. I looked at our package.json, and lo! We were on the latest version! I rejoiced, and my work proceeded.
-  >
-  > Many of these tasks don’t make it onto the roadmap, because when I look at the overhead of creating a ticket, discussing it in planning, advocating for it–then I can’t. It isn’t worth that. I can’t justify any particular one. Instead, these are best done as we go. Oh look, this test is in the old framework, let’s update it. This name confused me, let’s change it. In the kitchen, I always wash the knives and put them away immediately as soon as I’m done chopping.
+2023-01-26 [Resilience and Waste in Software Teams – Jessitron](https://jessitron.com/2023/01/16/resilience-and-waste-in-software-teams/)
+
+> Keeping libraries and components up-to-date, keeping code readable, updating our automations, improving our observability, bringing other developers up to speed– these are a few of the tasks developers need to do regularly. Any one of these tasks could have no noticeable impact in the future, and any one of them could prevent the next big security incident. The most likely outcome of each is a smoothing of future work, a decrease in unpleasant surprise.
+>
+> Last time I implemented a feature in the Honeycomb UI, I needed some React functionality that was only in the latest version. I looked at our package.json, and lo! We were on the latest version! I rejoiced, and my work proceeded.
+>
+> Many of these tasks don’t make it onto the roadmap, because when I look at the overhead of creating a ticket, discussing it in planning, advocating for it–then I can’t. It isn’t worth that. I can’t justify any particular one. Instead, these are best done as we go. Oh look, this test is in the old framework, let’s update it. This name confused me, let’s change it. In the kitchen, I always wash the knives and put them away immediately as soon as I’m done chopping.
+
+2023-02-04 [I Hired 5 People to Sit Behind Me and Make Me Productive for a Month — Simon Berens](https://simonberens.me/blog/i-hired-5-people) 
+
+> I decided it was time to try the nuclear option: having people physically sit behind me to keep me on task. And if I was going to do that I was going to do it right: they’d be there 16 hours a day and only leave for me to sleep. (I have an endlessly growing list of projects I want to make, books I want to read, and skills I want to learn, so productivity means a lot to me!)
+
+2023-01-18 [20 Things I've Learned in my 20 Years as a Software Engineer - Simple Thread](https://www.simplethread.com/20-things-ive-learned-in-my-20-years-as-a-software-engineer/) 
+
+> 1. I still don’t know very much
+> 2. The hardest part of software is building the right thing
+> 3. The best software engineers think like designers
+> 4. The best code is no code, or code you don’t have to maintain
+> 5. Software is a means to an end
+> 6. Sometimes you have to stop sharpening the saw, and just start cutting shit
+> 7. If you don’t have a good grasp of the universe of what’s possible, you can’t design a good system
+> 8. Every system eventually sucks, get over it
+> 9. Nobody asks “why” enough
+> 10. We should be far more focused on avoiding 0.1x programmers than finding 10x programmers
+> 11. One of the biggest differences between a senior engineer and a junior engineer is that they’ve formed opinions about the way things should be
+> 12. People don’t really want innovation
+> 13. Your data is the most important part of your system
+> 14. Look for technological sharks
+> 15. Don’t mistake humility for ignorance
+> 16. Software engineers should write regularly
+> 17. Keep your processes as lean as possible
+> 18. Software engineers, like all humans, need to feel ownership
+> 19. Interviews are almost worthless for telling how good of a team member someone will be
+> 20. Always strive to build a smaller system
 
 ## Wow!
 
@@ -58,6 +86,12 @@ categories: links
 
 
 
+## Games
+
+2023-01-20 [Ain't it funny how the knight moves?](https://www.funnyhowtheknightmoves.com/)
+
+> ![image-20230210234843543](./2023-02-02-links-from-my-inbox.assets/image-20230210234843543.png)
+
 ## Retro
 
 2023-01-29 [A Calculated Move: Calculators Now Emulated at Internet Archive - Internet Archive Blogs](https://blog.archive.org/2023/01/29/a-calculated-move-calculators-now-emulated-at-internet-archive/) 
@@ -68,11 +102,35 @@ categories: links
 
 ## The X-Files
 
-2023-02-02 [Google layoffs Jan 20, 2023- California WARN public records — Powered by Airtable.cool](https://airtable.cool/shrF23JdDHMQ3QDyw)
+2023-02-02 [Google layoffs Jan 20, 2023- California WARN public records](https://www.warntracker.com/)
 
+2023-01-18 [What explains recent tech layoffs, and why should we be worried? Stanford News](https://news.stanford.edu/2022/12/05/explains-recent-tech-layoffs-worried/) 
 
+> jonathankoren: They’re laying people off because it’s cool to lay people off. Layoffs are social, not economical. 
 
 ## Videos
+
+2023-02-05 [Handling JWTs: Understanding Common Pitfalls - Bruce MacDonald, InfraHQ - YouTube](https://www.youtube.com/watch?v=7ybmox6KQ8c)
+  > Ensure that the JWT is:
+  > - signed with a strong algorithm (e.g. RS256)
+  > - not expired
+  > - `typ` claim is not set to `None`
+  > it is difficult to revoke a JWT, not until it expires.
+  > some teams use a block-list of revoked JWTs, but this is not a good solution.
+
+2023-02-05 [A mortal's guide to making a pig run faster - Richard Banks - NDC Sydney 2022 - YouTube](https://www.youtube.com/watch?v=onpBW9b8bMs) 
+
+  > The talk about performance optimization in .NET
+  > Tools:
+  >
+  > - PerfView
+  > https://github.com/microsoft/perfview
+  > - BenchmarkDotNet
+  > https://benchmarkdotnet.org/
+  > - Speedscope
+  > https://www.speedscope.app/
+  > - DotNet Source Code
+  > https://source.dot.net/
 
 2023-02-02 [You Shall Not Password: Modern Authentication for Web Apps - Eli Holderness - NDC Sydney 2022 - YouTube](https://www.youtube.com/watch?v=XeC2vLp1BV4) 
 
@@ -105,7 +163,25 @@ categories: links
 
 >  ![image-20230202215404689](./2023-02-02-links-from-my-inbox.assets/image-20230202215404689.png)
 
+2023-01-20 [Kody Tools – I developed 300 tools in 6 months](https://www.kodytools.com/)
 
+> Great job!
+>
+> ![image-20230210235040577](./2023-02-02-links-from-my-inbox.assets/image-20230210235040577.png)
+
+2023-02-10 [Markably Online Markdown Editor](https://app.markably.io/) 
+
+>  This is awesome work, but it is not possible to simultaneously edit HTML / Markdown and 
+> switch between modes.
+> ![image-20230210235449922](./2023-02-02-links-from-my-inbox.assets/image-20230210235449922.png)
+
+## C#
+
+2023-02-05 [Generating Sample Data with Bogus](https://wildermuth.com/2023/01/29/generating-sample-data-with-bogus/) 
+
+> dotnet add package Bogus
+>
+> Bogus is a library that works with C#, F# and VB.NET that can be used to create repeatable, fake data for applications. It is somewhat a port of a similar library Bogus.js. It accomplished this by creating generators (called Fakers) that have a set of rules for generating one or more fake objects. Built-into Bogus is a set of generalized rules for common data categories (i.e. Addresses, Companies, People, Phone Numbers, etc.). Enough talk, let’s see how it works. The full repo is at:
 
 ## C++
 
@@ -130,8 +206,6 @@ categories: links
 > - [The 9 Books Each Machine Learning Developer Must Read.](https://medium.com/ml2b/the-9-books-each-machine-learning-developer-must-read-e6ef8c0fb384)
 
 2023-01-30 [PortAudio/portaudio: PortAudio is a cross-platform, open-source C language library for real-time audio input and output.](https://github.com/PortAudio/portaudio)
-
-
 
 ## GameDev
 

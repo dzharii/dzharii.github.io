@@ -77,6 +77,15 @@ JSON Web Token
 > Here’s a JSON Web Token, freshly minted. Newlines have been added for clarity, but they are typically not present.
 > And overview of JSON Web Token structure
 
+2023-02-05 [Handling JWTs: Understanding Common Pitfalls - Bruce MacDonald, InfraHQ - YouTube](https://www.youtube.com/watch?v=7ybmox6KQ8c)
+
+  > Ensure that the JWT is:
+  > - signed with a strong algorithm (e.g. RS256)
+  > - not expired
+  > - `typ` claim is not set to `None`
+  > it is difficult to revoke a JWT, not until it expires.
+  > some teams use a block-list of revoked JWTs, but this is not a good solution.
+
 ## OAuth 2.0 / OpenID Connect
 
 - 2022-03-10 [The Modern Guide to OAuth - FusionAuth](https://fusionauth.io/learn/expert-advice/oauth/modern-guide-to-oauth)
