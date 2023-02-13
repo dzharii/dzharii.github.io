@@ -58,6 +58,12 @@
 
  ## Tools
 
+2023-01-10 [SharpLab](https://sharplab.io/) 
+
+> Online tool to explore compiled .NET code
+>
+> ![image-20230212191123327](./dev-csharp.assets/image-20230212191123327.png)
+
 2023-02-05 [Generating Sample Data with Bogus](https://wildermuth.com/2023/01/29/generating-sample-data-with-bogus/) 
 
 > dotnet add package Bogus

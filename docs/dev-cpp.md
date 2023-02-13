@@ -27,6 +27,7 @@ These two are very good beginner resources:
 - 2022-10-03 [Interactive C++ with Cling - The LLVM Project Blog](https://blog.llvm.org/posts/2020-11-30-interactive-cpp-with-cling/)
 
 ## C++ Other learning resources
+- 2023-02-12 [Learn C++ – Skill up with our free tutorials](https://www.learncpp.com/)
 - 2022-10-02 [C++ By Example Code Examples with Simple Explanations](https://cppbyexample.com/)
 - 2022-10-02 [My tutorial and take on C++20 coroutines](https://www.scs.stanford.edu/~dm/blog/c++-coroutines.html)
 - 2022-10-02 [uhub/awesome-cpp: A curated list of awesome C++ frameworks, libraries and software.](https://github.com/uhub/awesome-cpp)
@@ -134,6 +135,7 @@ This online tutorial continues with more advanced concepts - please read Part II
 ## Cross-platform testing
 
 - 2022-10-30 [sickcodes/Docker-OSX: Run macOS VM in a Docker! Run near native OSX-KVM in Docker! X11 Forwarding! CI/CD for OS X Security Research! Docker mac Containers.](https://github.com/sickcodes/Docker-OSX)
+- 2023-02-12 💥 [GitHub - foxlet/macOS-Simple-KVM: Tools to set up a quick macOS VM in QEMU, accelerated by KVM.](https://github.com/foxlet/macOS-Simple-KVM)
 
 ## C++ Build tools
 - 2022-10-03 [Ninja](https://ninja-build.org/)
