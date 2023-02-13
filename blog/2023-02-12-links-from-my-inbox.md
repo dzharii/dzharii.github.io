@@ -5,6 +5,10 @@ date:   2023-02-12T14:14:00-08:00
 categories: links
 ---
 
+
+
+> These links got out of hand... I thought I should read more Hacker News... No, I should not read MORE Hacker News.
+
 ## Good Reads
 
 2023-02-12 [How a single line of code brought down a half-billion euro rocket launch](https://jam.dev/blog/famous-bugs-rocket-launch/)
@@ -30,6 +34,12 @@ categories: links
 > What I didn’t count on when I took the job was that it was also a ministry. Because I drove the night shift, my cab became a rolling confessional. Passengers would climb in, sit behind me in total anonymity and tell me of their lives.
 
 
+
+## Game(s)!
+
+2023-02-06 [Flappy Birdle - Flappy Bird meets Wordle by AE Studio](https://flappybirdle.com/)
+
+> ![image-20230212194026617](./2023-02-12-links-from-my-inbox.assets/image-20230212194026617.png)
 
 ## Apache Spark, SQL, BigData
 
@@ -130,7 +140,15 @@ categories: links
 2023-02-10 [Logic Gate Simulator Academo.org - Free, interactive, education.](https://academo.org/demos/logic-gate-simulator/)
 
 > A free, simple, online logic gate simulator. Investigate the behaviour of AND, OR, NOT, NAND, NOR and XOR gates. Select gates from the dropdown list and click "add node" to add more gates. Drag from the hollow circles to the solid circles to make connections. Right click connections to delete them. See below for more detailed instructions.
-> 
+
+2023-02-12 [`GitHub - brycedrennan/imaginAIry: AI imagined images. Pythonic generation of stable diffusion images.`](https://github.com/brycedrennan/imaginAIry) 
+
+>  AI imagined images. Pythonic generation of stable diffusion images.
+>
+> "just works" on Linux and macOS(M1) (and maybe windows?).
+> ![image-20230212193735159](./2023-02-12-links-from-my-inbox.assets/image-20230212193735159.png)
+>
+> ![image-20230212193755182](./2023-02-12-links-from-my-inbox.assets/image-20230212193755182.png)
 
 ## Work and Planning
 
