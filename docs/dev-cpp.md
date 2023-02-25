@@ -189,6 +189,10 @@ int main(){
 
 ## C++ Machine Learning
 
+2023-02-18 [Introduction to Machine Learning using C++ Engineering Education EngEd Program Section](https://www.section.io/engineering-education/an-introduction-to-machine-learning-using-c++/)
+
+> The article aims to teach beginners how to use C++ for machine learning by providing a clear and concise tutorial with code examples. It also encourages readers to explore more advanced topics and applications of machine learning using C++
+
 2023-02-01 [C++ Neural Network in a Weekend – Jeremy's Blog](https://www.jeremyong.com/cpp/machine-learning/2020/10/23/cpp-neural-network-in-a-weekend/) 
 
 > Would you like to write a neural network from start to finish? Are you perhaps shaky on some of the fundamental concepts and derivations, such as categorical cross-entropy loss or backpropagation? Alternatively, would you like an introduction to machine learning without relying on “magical” frameworks that seem to perform AI miracles with only a few lines of code (and just as little intuition)? If so, this article was written for you.
