@@ -8,6 +8,10 @@ Something that I use too often...
 - [Google Messages for Web](https://messages.google.com/web/conversations)
 - [ChatGPT](https://chat.openai.com/chat)
 
+## Cheat-sheets 
+
+- [How to professionally say](https://howtoprofessionallysay.akashrajpurohit.com/)
+
 ### C++
 
 - [Compiler Explorer](https://godbolt.org/)
