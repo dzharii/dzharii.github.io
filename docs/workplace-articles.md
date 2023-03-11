@@ -28,6 +28,8 @@
 - 2022-05-22 [Lessons learned from the recent job hunt · Jamie Tanna Software Engineer](https://www.jvt.me/posts/2022/05/02/lessons-learned-job-hunt/)
 - 2022-05-08 [Interview Process mishnit.github.io](https://mishnit.github.io/System_Design.html)
 > System Design interview advices and learning materials
+- 2023-03-03 [viraptor/reverse-interview: Questions to ask the company during your interview](https://github.com/viraptor/reverse-interview)
+  > This is a list of questions which may be interesting to a tech job applicant. The points are not ordered and many may not apply to a given position or work type. It was started as my personal list of questions, which grew over time to include both things I'd like to see more of and red flags which I'd like to avoid. I've also noticed how few questions were asked by people I interviewed and I think those were missed opportunities.
 
 ## Remote Work Tools
 

@@ -23,7 +23,9 @@ But on the contrary, the amount of the information is more and more growing. The
 
 > MarkText is an MIT licensed open source project, and the latest version will always be downloadable for free from the GitHub release page.
 > ![img](./markdown-tools.assets/marktext.png)
-
+- 2023-03-02 [AppFlowy.IO](https://appflowy.io/)
+- 2023-03-02 [A Markdown Editor for the 21st Century Zettlr](https://www.zettlr.com/)
+- 2023-03-02 [ghostwriter - No excuses. No distractions. Just write.](https://ghostwriter.kde.org/)
 
 
 ## Markdown Chrome Extensions
