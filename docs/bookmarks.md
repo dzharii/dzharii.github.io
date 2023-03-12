@@ -28,3 +28,11 @@ Something that I use too often...
 ## Memory
 
 - [Europe Lyrics - "Carrie"](https://www.azlyrics.com/lyrics/europe/carrie.html) - that song
+
+## Music
+
+- [Metal: Hellsinger — The Hellsinger](https://www.youtube.com/watch?v=vaErlmbQh2A&list=PLJQHL1SwXgq0m1LuxDGHDEWnBDFdYc2Vk&index=1)
+- [Ori and the Will of the Wisps: Original Soundtrack Full Album - Gareth Coker - YouTube](https://www.youtube.com/watch?v=eCbyqm9jcBA)
+- [Metallica The Instrumentals 1983-2008 - YouTube](https://www.youtube.com/watch?v=XNRwOtIpR10)
+- [No leaf clover - Metallica instrumental - YouTube](https://www.youtube.com/watch?v=lqVuLwD73e0&list=PLyjQg7klNUF7d6E7FNxM9uL318NuhJXpD)
+
