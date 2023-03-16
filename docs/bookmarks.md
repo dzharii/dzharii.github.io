@@ -5,12 +5,20 @@ Something that I use too often...
 ## Apps
 
 - [Grammarly](https://app.grammarly.com) - proofreading tool
+
 - [Google Messages for Web](https://messages.google.com/web/conversations)
+
 - [ChatGPT](https://chat.openai.com/chat)
+
+- [Bing Chat](https://www.bing.com/search?q=Bing+AI&showconv=1)
+
+  
 
 ## Cheat-sheets 
 
 - [How to professionally say](https://howtoprofessionallysay.akashrajpurohit.com/)
+- [PromptHero - Search prompts for Stable Diffusion, ChatGPT & Midjourney](https://www.prompthero.com/)
+- [GitHub - danohu/awesome_prompt_design: Curated list of resources about writing prompts for AI: Stable Diffusion, ChatGPT, etc](https://github.com/danohu/awesome_prompt_design)
 
 ### C++
 
@@ -19,6 +27,7 @@ Something that I use too often...
 ## What's new?
 
 - [Hacker News](https://news.ycombinator.com/news)
+- [Lobsters](https://lobste.rs/)
 
 ## Programming
 
