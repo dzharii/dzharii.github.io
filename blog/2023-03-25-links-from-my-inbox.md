@@ -41,15 +41,55 @@ categories: links
 > ![image-20230325113726597](./2023-03-25-links-from-my-inbox.assets/image-20230325113726597.png)
 > This article discusses the benefits and downsides of code reviews and pull requests. The author argues that git has greatly improved the code review process, but also acknowledges that developers can be snarky and opinionated. The author shares their own “Pull Request Rules” to help mitigate these downsides, including defining/enforcing code styling in the linter and being cautious when making bold statements on someone’s pull request. See also from this series: [Codility === Sadness - DEV Community](https://dev.to/bytebodger/codility-sadness-4of0)
 
+2023-02-27 [Writing an engineering strategy. Irrational Exuberance](https://lethain.com/eng-strategies/)
+
+> A guide on how to write an effective engineering **strategy** that aligns with the business goals and communicates clearly to stakeholders.
+
+> **strategy**, strategy, **strategy**, strat...
 
 
-## Fun
+
+## Fun / Games
 
 2023-03-25 [Floor796](https://floor796.com/#t1l1,312,25)
 
 > Animated isometric madness
 >
 > ![image-20230325112439688](./2023-03-25-links-from-my-inbox.assets/image-20230325112439688.png)
+
+> 
+
+
+
+## Retro
+
+2023-03-16 [After Dark Screensavers in CSS](https://www.bryanbraun.com/after-dark-css/)
+
+> ![image-20230325123928664](./2023-03-25-links-from-my-inbox.assets/image-20230325123928664.png)
+>
+> ![image-20230325123939176](./2023-03-25-links-from-my-inbox.assets/image-20230325123939176.png)
+
+2023-03-16 [Rotating Sandwiches – that's it](https://rotatingsandwiches.com/)
+
+> And they rotate! 
+>
+> ![image-20230325124044861](./2023-03-25-links-from-my-inbox.assets/image-20230325124044861.png)
+
+2023-03-16 [Lander](https://ehmorris.com/lander/)
+
+> Lander, a lunar lander style web game
+
+>  ![image-20230325124131127](./2023-03-25-links-from-my-inbox.assets/image-20230325124131127.png)
+
+2023-03-16 [Digger](https://lutzroeder.github.io/digger/)
+
+> ![image-20230325124235221](./2023-03-25-links-from-my-inbox.assets/image-20230325124235221.png)
+
+2023-03-25 [Wolfenstein 3D](https://wolfenstein.netlify.app/)
+
+> 2023-03-16 [midzer/wolf4sdl: Emscripten-Port of Wolfenstein 3D and Spear of Destiny](https://github.com/midzer/wolf4sdl/)
+>
+> ![image-20230325124412750](./2023-03-25-links-from-my-inbox.assets/image-20230325124412750.png)
 
 
 
@@ -153,6 +193,40 @@ function saveTextAsFile(textToWrite, fileNameToSaveAs, fileType) {
 
 2023-03-18 [promptslab/Awesome-Prompt-Engineering: This repository contains a hand-curated resources for Prompt Engineering with a focus on Generative Pre-trained Transformer (GPT), ChatGPT, PaLM etc](https://github.com/promptslab/Awesome-Prompt-Engineering)
 
+2023-03-15 [A weapon to surpass Metal Gear - Xe Iaso](https://xeiaso.net/blog/a-weapon-to-surpass-metal-gear)
+
+2023-03-14 [cogentapps/chat-with-gpt: An open-source ChatGPT app with a voice](https://github.com/cogentapps/chat-with-gpt)
+
+2023-03-14 [GPT-4](https://openai.com/research/gpt-4)
+
+### Copilot prompt samples / cheat sheet
+
+2023-03-01 [Using Copilot to review code and fund Open-Source projects : GithubCopilot](https://www.reddit.com/r/GithubCopilot/comments/11ddaf0/using_copilot_to_review_code_and_fund_opensource/)
+> A Reddit post that introduces a new project called Copilot Reviewer, which uses GitHub Copilot to automatically generate code reviews and donate the proceeds to open-source projects.
+
+2023-03-01 ❤ [Using Copilot to Review Code And Fund Open-Source Projects](https://marmelab.com/blog/2023/02/27/copilot-code-review.html)
+> You are a senior web developer with lots of experience writing full-stack applications. Your main job is to do code reviews, i.e. to spot in code diffs the potential bugs, or refactorings that could make the code more secure, performant, or maintainable. Your comments are cheerful, informative, and take the shape of suggestions, not orders. Let me give you a diff to comment on.
+
+2023-03-01 [11 GitHub Copilot Examples : Can A.I. Actually Help You Code? - MLK - Machine Learning Knowledge](https://machinelearningknowledge.ai/github-copilot-examples-can-ai-actually-help-you-code/)
+> An article that showcases 11 GitHub Copilot examples that demonstrate how the AI-powered tool can help you code faster and better. It covers various use cases such as writing tests, documentation, algorithms, web apps, data analysis and more.
+
+2023-03-01 [8 things you didn’t know you could do with GitHub Copilot The GitHub Blog](https://github.blog/2022-09-14-8-things-you-didnt-know-you-could-do-with-github-copilot/)
+> A blog post that reveals some of the hidden features and tips for using GitHub Copilot effectively. It includes how to use different languages, frameworks, libraries, APIs, snippets, comments and more with Copilot.
+
+2023-03-01 [1 week with GitHub Copilot: Building an app using only Copilot - LogRocket Blog](https://blog.logrocket.com/building-github-copilot-app/)
+> A blog post that documents the experience of building a full-stack web app using only GitHub Copilot as a guide. It describes the challenges, surprises and learnings from using the AI assistant for every step of the development process.
+
+2023-03-01 [Why Use GitHub Copilot And Copilot Labs: Practical Use Cases for the AI Pair Programmer - DEV Community](https://dev.to/github/why-use-github-copilot-and-copilot-labs-practical-use-cases-for-the-ai-pair-programmer-4hf4)
+> A blog post that explains why GitHub Copilot is a useful tool for developers of all levels and backgrounds. It also introduces Copilot Labs, a new feature that allows users to experiment with different scenarios and domains with Copilot.
+
+## LLAMA
+
+2023-03-17 [antimatter15/alpaca.cpp: Locally run an Instruction-Tuned Chat-Style LLM](https://github.com/antimatter15/alpaca.cpp)
+
+2023-03-15 [ggerganov/llama.cpp: Port of Facebook's LLaMA model in C/C++](https://github.com/ggerganov/llama.cpp)
+
+2023-03-15 [setzer22/llama-rs: Run LLaMA inference on CPU, with Rust 🦀🚀🦙](https://github.com/setzer22/llama-rs/)
+
 
 
 ## Azure Active Directory
@@ -172,7 +246,35 @@ function saveTextAsFile(textToWrite, fileNameToSaveAs, fileType) {
 
 > ![image-20230325114051664](./2023-03-25-links-from-my-inbox.assets/image-20230325114051664.png)
 
-## Video
+## Tools
+
+2023-03-17 [johnkerl/miller: Miller is like awk, sed, cut, join, and sort for name-indexed data such as CSV, TSV, and tabular JSON](https://github.com/johnkerl/miller)
+
+> ![image-20230325123715554](./2023-03-25-links-from-my-inbox.assets/image-20230325123715554.png)
+
+2023-03-14 [Release scrcpy v2.0 · Genymobile/scrcpy](https://github.com/Genymobile/scrcpy/releases/tag/v2.0)
+
+> *pronounced "**scr**een **c**o**py**"*
+>
+> This application mirrors Android devices (video and audio) connected via USB or [over TCP/IP](https://github.com/Genymobile/scrcpy/blob/master/doc/device.md#tcpip-wireless), and allows to control the device with the keyboard and the mouse of the computer. It does not require any *root* access. It works on *Linux*, *Windows* and *macOS*.
+>
+> ![image-20230325125015581](./2023-03-25-links-from-my-inbox.assets/image-20230325125015581.png)
+
+
+
+### Emacs
+2023-03-12 [emacs-tw/awesome-emacs: A community driven list of useful Emacs packages, libraries and other items.](https://github.com/emacs-tw/awesome-emacs)
+
+### Emacs / Windows remap CapsLock to Ctrl
+
+```
+Windows Registry Editor Version 5.00
+
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Keyboard Layout]
+"Scancode Map"=hex:00,00,00,00,00,00,00,00,02,00,00,00,1d,00,3a,00,00,00,00,00
+```
+
+## Video processing 
 
 2023-03-23 [mifi/lossless-cut: The swiss army knife of lossless video/audio editing](https://github.com/mifi/lossless-cut)
 
@@ -181,4 +283,16 @@ function saveTextAsFile(textToWrite, fileNameToSaveAs, fileType) {
 > ![image-20230325102905129](./2023-03-25-links-from-my-inbox.assets/image-20230325102905129.png)
 
 
+
+## Watch me!
+
+2023-03-17 [How Discord Stores Trillions of Messages | Deep Dive - YouTube](https://www.youtube.com/watch?v=xynXjChKkJc)
+
+> Video review for article [How Discord Stores Trillions of Messages](https://discord.com/blog/how-discord-stores-trillions-of-messages)
+>
+> In 2017, we wrote a blog post on [how we store billions of messages.](https://discord.com/blog/how-discord-stores-billions-of-messages) We shared our journey of how we started out using MongoDB but migrated our data to Cassandra because we were looking for a database that was scalable, fault-tolerant, and relatively low maintenance. We knew we’d be growing, and we did!
+>
+> We wanted a database that grew alongside us, but hopefully, its maintenance needs wouldn’t grow alongside our storage needs. Unfortunately, we found that to not be the case — our Cassandra cluster exhibited serious performance issues that required increasing amounts of effort to just maintain, not improve.
+>
+> Almost six years later, we’ve changed a lot, and how we store messages has changed as well.
 
