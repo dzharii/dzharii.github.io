@@ -8,7 +8,7 @@ This is a collection of JavaScript bookmarklets to assist in everyday life copy 
 
 ## Copy markdown link to this page
 
-Copies link to the current page in clipboard in Markdown format: 
+Copies link to the current page in clipboard in Markdown format:
 
 ```
 2023-03-12 [Hello from Dmytro Zharii | Dmytro Zharii](https://blog.zharii.com/)
@@ -16,7 +16,7 @@ Copies link to the current page in clipboard in Markdown format:
 
 2023-03-12 [Hello from Dmytro Zharii | Dmytro Zharii](https://blog.zharii.com/)
 
-Name: 
+Name:
 
 `🥧 Copy as MD Link`
 
@@ -24,7 +24,9 @@ Revision:
 
 2023-03-12
 
-Code:
+<details>
+
+<summary> Code:  </summary>
 
 ```js
 javascript:(function() {
@@ -40,7 +42,7 @@ javascript:(function() {
       toast.style.opacity = 0;
     }, 3000);
   }
- 
+
   document.body.focus();
   var title = document.title;
   /* remove [ and ] from title */
@@ -65,11 +67,12 @@ javascript:(function() {
 })();
 ```
 
+</details>
 
 
 ## Content editable
 
-Flips contentEditable on body to make copy-paste on laptop from keyboard easier. 
+Flips contentEditable on body to make copy-paste on laptop from keyboard easier.
 
 Name:
 
@@ -85,3 +88,161 @@ Code:
 javascript: document.body.contentEditable = (document.body.contentEditable === 'true') ? false : true;
 ```
 
+## Export ChatGPT
+
+Exports ChatGPT chat as HTML content into clipboard.
+
+Name:
+
+`📤 Export ChatGPT`
+
+Revision:
+
+2023-03-30
+
+
+<details>
+
+<summary> Code:  </summary>
+
+```js
+javascript: (() => {
+    const allItemsSelector = '.items-start';
+    const allItems = Array.from(document.querySelectorAll(allItemsSelector));
+
+    if (allItems.length === 0) {
+        console.error('Bookmarklet: No items found');
+        return;
+    }
+
+    console.log(allItems);
+
+    resultHtml = [];
+    let i = 0;
+    for (const element of allItems) {
+        i++;
+        if (i % 2 === 1) {
+            resultHtml.push(`<div class="bookmarklet-my-prompt"><pre>${element.textContent}</pre></div>`);
+        } else if (i % 2 === 0) {
+            resultHtml.push(`<div class="bookmarklet-chat-response">${element.innerHTML}</div>`);
+        } else {
+            console.error('Bookmarklet: Unknown element type:');
+            console.error(element);
+        }
+    }
+
+    const resultHtmlString = wrapHtml(resultHtml.join('\n'));
+
+    console.log('Bookmarklet: Result:');
+    console.log(resultHtmlString);
+
+    navigator.clipboard.writeText(resultHtmlString).then(() => {
+        console.log('Bookmarklet: Copied to clipboard');
+        showToast('Copied to clipboard', 'black', 'lightgreen');
+    }, (err) => {
+        console.error('Bookmarklet: Failed to copy to clipboard');
+        console.error(err);
+        showToast('Failed to copy to clipboard', 'white', 'brown');
+    });
+
+    function wrapHtml(html) {
+        const header = `<!DOCTYPE html>
+        <html lang="en">
+        <head>
+            <meta charset="UTF-8">
+            <meta http-equiv="X-UA-Compatible" content="IE=edge">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <title>I am too lazy to set the title</title>
+            <style>
+
+        body {
+          font-family: Arial, sans-serif;
+          font-size: 20px;
+          line-height: 1.5;
+          color: #333;
+        }
+
+        article {
+          margin-left: 10%;
+          margin-right: 10%
+        }
+
+        h1, h2, h3 {
+          font-weight: bold;
+        }
+
+        h1 {
+          font-size: 2em;
+        }
+
+        h2 {
+          font-size: 1.5em;
+        }
+
+        h3 {
+          font-size: 1.17em;
+        }
+
+        p, ul, ol {
+          margin-bottom: 1.5em;
+        }
+
+        pre {
+            white-space: pre-wrap;
+        }
+
+        pre code {
+          display: block;
+          padding: .5em;
+          background-color: #f5f5f5;
+          border-radius: .3em;
+        }
+        .bookmarklet-my-prompt::first-letter {
+            font-size: 1.5rem;
+            font-weight: bold;
+            color: brown;
+            font-family: Georgia, 'Times New Roman', Times, serif
+        }
+
+        .bookmarklet-chat-response::first-letter {
+            font-size: 1.5rem;
+            font-weight: bold;
+            color: blue;
+            font-family: Georgia, 'Times New Roman', Times, serif
+        }
+
+            </style>
+        </head>
+        <body>
+            <article>
+            <h1>I am too lazy to set the title</h1>
+        `;
+
+        const footer = `
+                    </article>
+            </body>
+        </html>`;
+        return header + "\n" +  html + "\n" + footer;
+    }
+
+    function showToast(message, textColor, backgroundColor) {
+        var toast = document.createElement("div");
+        toast.style.cssText = "position: fixed; top: 0; left: 0; background-color: " + backgroundColor + "; color: " + textColor + "; padding: 10px; font-family: Arial, Verdana; font-size: 16px; font-weight: bold;  z-index: 9999; opacity: 0; transition: opacity 0.3s ease-in-out;";
+        toast.innerHTML = message;
+        document.body.appendChild(toast);
+        setTimeout(function() {
+          toast.style.opacity = 1;
+        }, 100);
+        setTimeout(function() {
+          toast.style.opacity = 0;
+        }, 3000);
+      }
+})();
+```
+
+</details>
+
+
+## Next, please!
+
+Placeholder.
