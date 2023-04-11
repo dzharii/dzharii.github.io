@@ -243,6 +243,45 @@ javascript: (() => {
 </details>
 
 
+
+## Rubber Duck
+
+Adds rubber duck to chatGPT chats. Made by GPT4.
+
+![image-20230410201808149](./bookmarklets.assets/image-20230410201808149.png)
+
+Name:
+
+`🔛 Rubber Duck GPT5`
+
+Revision:
+
+2023-04-10
+
+Code:
+
+```js
+javascript:(function() {
+  const duckId = 'duckContainer-55555';
+  if (document.getElementById(duckId)) {
+      return;
+  }
+  const duckSVG = `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="100" height="100"><circle cx="30" cy="60" r="30" fill="yellow" /><circle cx="70" cy="60" r="30" fill="yellow" /><circle cx="50" cy="40" r="30" fill="yellow" /><ellipse cx="40" cy="40" rx="6" ry="10" fill="white" /><ellipse cx="60" cy="40" rx="6" ry="10" fill="white" /><circle cx="40" cy="40" r="4" fill="black" /><circle cx="60" cy="40" r="4" fill="black" /><path d="M 35 65 Q 50 75, 65 65" stroke="orange" stroke-width="5" fill="none" /></svg>`;
+  const mainElement = document.querySelector('main') || document.querySelector('body');
+  const duckContainer = document.createElement('div');
+  duckContainer.innerHTML = duckSVG;
+  duckContainer.id = duckId;
+  mainElement.insertBefore(duckContainer, mainElement.firstChild);
+})();
+
+```
+
+## 
+
+
+
+
+
 ## Next, please!
 
 Placeholder.

@@ -220,3 +220,134 @@ Random pick, not the best samples:
 ![012_very_complex_hyper_maximalist_overdetailed_cinemat_062](./dev-stable-diffusion-cpu.assets/012_very_complex_hyper_maximalist_overdetailed_cinemat_062.png)
 
 ![012_very_complex_hyper_maximalist_overdetailed_cinemat_071](./dev-stable-diffusion-cpu.assets/012_very_complex_hyper_maximalist_overdetailed_cinemat_071.png)
+
+## Stable diffusion bash script with checkpoints
+
+2023-04-10
+
+Many times I've been faced with an issue: I wanted to do something resource heavy on that machine while it is running a long, stable diffusion job. Long, meaning it may run for four days already. I could take note of current progress, do another task and then edit and restart the script... but it is not convenient. Automated checkpointing makes it possible to abort the bash script and then restart it from the latest checkpoint. 
+Here is an overengineered bash script that makes me happy. 
+
+
+
+```sh
+#!/bin/env bash
+
+currentBashFile=$(basename "$0")
+echo "currentBashFile: $currentBashFile"
+
+checkPointFile=$currentBashFile"_checkpoint.txt"
+
+useCheckpoint=0
+checkPointIndex=0
+currentIndex_i=0
+currentIndex_j=0
+
+# subroutine to read checkpoint file and initialize variables:
+# currentIndex_i - index of the last completed outer loop
+# currentIndex_j - index of the last completed inner loop
+function readCheckpointFile() {
+  if [ -f "$checkPointFile" ]; then
+    echo "Reading checkpoint file: $checkPointFile"
+    while IFS= read -r line; do
+      if [[ $line == *"currentIndex_i"* ]]; then
+        currentIndex_i=${line#*=}
+      elif [[ $line == *"currentIndex_j"* ]]; then
+        currentIndex_j=${line#*=}
+      fi
+    done < "$checkPointFile"
+    echo "currentIndex_i: $currentIndex_i"
+    echo "currentIndex_j: $currentIndex_j"
+    useCheckpoint=1
+  else
+    echo "Checkpoint file not found: $checkPointFile"
+  fi
+}
+
+# input parameters: index_i, index_j
+function writeCheckpointFile(){
+  local index_i=$1
+  local index_j=$2
+  echo "Writing checkpoint file: $checkPointFile"
+  echo "currentIndex_i=$index_i" > "$checkPointFile"
+  echo "currentIndex_j=$index_j" >> "$checkPointFile"
+}
+
+readCheckpointFile
+
+echo "useCheckpoint: $useCheckpoint"
+echo "currentIndex_i: $currentIndex_i"
+echo "currentIndex_j: $currentIndex_j"
+echo "checkPointFile: $checkPointFile"
+echo "=============================="
+
+
+dateAsYYYYMMDD=$(date +%Y-%m-%d)
+
+outFolder=$dateAsYYYYMMDD"-hero-ink-world/"
+
+# create folder if it doesn't exist
+mkdir -p $outFolder
+
+prompts=(
+  "A captivatingly intricate monochromatic vector illustration of a superhero harnessing the power of the elements to save a city, in the style of Philip Bond, full-body shot, inked outline, comic book drawing, character design, high detail, on white background."
+  "An engagingly detailed monochromatic vector illustration of a brave explorer and their loyal animal companion discovering a hidden treasure, in the style of Philip Bond, full-body shot, inked outline, comic book drawing, character design, high detail, on white background."
+  "A visually striking monochromatic vector illustration of an anthropomorphic rabbit detective solving a mysterious crime, in the style of Philip Bond, full-body shot, inked outline, comic book drawing, character design, high detail, on white background."
+)
+
+
+# for each item in the array, take 50 characters from the beginning and save into variable short_prompt
+
+for i in ${!prompts[@]}; do
+  
+  # if useCheckpoint and currentIndex_i is greater than i, skip
+  if [ $useCheckpoint -eq 1 ] && [ $currentIndex_i -gt $i ]; then
+    echo "CHECKPOINT: skipping $i because checkpoint currentIndex_i is $currentIndex_i"
+    continue
+  fi
+  
+  prompt=${prompts[$i]}
+  short_prompt=${prompt:0:50}
+
+  # make short_prompt file name safe: replace all non-letters with underscores
+  short_prompt=${short_prompt//[^a-zA-Z]/_}
+
+  numWithLeadingZeros=$(printf "%03d" $i)
+
+  # make numWithLeadingZeros prefix for short_prompt
+  short_prompt=$numWithLeadingZeros"_"$short_prompt
+
+  # nested for loop from 1 to 100:
+  promptFile=$outFolder$short_prompt".txt"
+  
+  if [ ! -f "$promptFile" ]; then
+        echo $prompt | tee $promptFile
+  fi
+
+  for j in {1..100}; do
+    echo "Running prompt $i, image $j; file: $currentBashFile "
+
+    # if useCheckpoint and currentIndex_i is equal to i and currentIndex_j is greater than j, skip
+    if [ $useCheckpoint -eq 1 ] && [ $currentIndex_i -eq $i ] && [ $currentIndex_j -ge $j ]; then
+      echo "CHECKPOINT: skipping $j because checkpoint currentIndex_j is $currentIndex_j"
+      continue
+    fi
+
+    useCheckpoint=0
+
+    nameWithLeadingZeros=$(printf "%03d" $j)
+    image_file_name=$short_prompt"_"$nameWithLeadingZeros".png"
+    outputFile=$outFolder$image_file_name
+    echo $outputFile
+    
+    python ./demo.py --output "$outputFile" --prompt "$prompt"
+
+    writeCheckpointFile $i $j
+
+    sleep 3
+    echo "sleeping 3 seconds"
+  done
+done
+
+```
+
