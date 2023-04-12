@@ -344,8 +344,6 @@ for i in ${!prompts[@]}; do
 
     writeCheckpointFile $i $j
 
-    sleep 3
-    echo "sleeping 3 seconds"
   done
 done
 
