@@ -276,7 +276,42 @@ javascript:(function() {
 
 ```
 
-## 
+
+
+## ChatGPT Typing indicator
+
+Adds `"typing ||| "` to the window title (browser tab) while chatGPT is typing
+
+Name:
+
+`⌛ Chat GPT Typing...`
+
+Revision:
+
+2023-04-12
+
+Code:
+
+```js
+(function () {
+    setInterval(() => {
+        const el = document.querySelector('.text-2xl');
+    
+        const typingMessage = "typing ||| ";
+        if (el) {
+          console.log(el.textContent);
+          if (!(document.title.startsWith(typingMessage))) {
+              document.title =typingMessage + document.title;
+          }
+        } else {
+          if (document.title.startsWith(typingMessage)) {
+              document.title = document.title.substr(typingMessage.length)
+          }
+        }
+    }, 1000)
+    
+})();
+```
 
 
 
