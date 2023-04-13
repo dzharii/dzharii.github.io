@@ -1,0 +1,27 @@
+
+/* 3 column list; large font */
+.legendList {
+    list-style-type: none;
+    margin: 0;
+    padding: 10pt;
+    overflow: hidden;
+    font-size: 3rem;
+    columns: 25vw;
+
+}
+
+.legendList li {
+    border: 1px solid silver;
+    margin-bottom: 2px;
+}
+
+.legendList span.active {
+    font-weight: bold;
+    color: blueviolet;
+}
+
+
+.pattern  span:nth-of-type(2) {
+    position: relative;
+    top: 5pt;
+}
