@@ -1,5 +1,9 @@
 ## C++ learning resources
 
+[[_TOC_]]
+
+
+
 ## Books
 
 - 2022-10-30 [Stroustrup: A Tour of C++ Third edition](https://www.stroustrup.com/tour3.html)
@@ -232,6 +236,10 @@ int main(){
   > Hi C++!
 
 ### Talks
+
+2023-03-25 [CSE325 Lecture Videos - YouTube](https://www.youtube.com/playlist?list=PL3GWPKM6L17H0RyU2o7p9gCnepjSTaHia)
+
+> Low-Level C Programming – CSE 325 Lecture Videos
 
 2022-12-28 [Concurrency Patterns - Rainer Grimm - CppCon 2021 - YouTube](https://www.youtube.com/watch?v=A3DQxZCtKqo&list=PLHTh1InhhwT6bY4nS4p7f5b_754myC3ze&index=4)
 

@@ -9,3 +9,11 @@
 
 
 
+2023-04-09 [Seattle Space Needle Panocam | Space Needle](https://www.spaceneedle.com/webcam)
+
+> ![image-20230413180419206](./seattle.assets/image-20230413180419206.png)
+
+2023-04-13 [Secret Seattle - Your Complete Guide To Things To Do In Seattle](https://secretseattle.co/)
+
+> ![image-20230413184523091](./seattle.assets/image-20230413184523091.png)
+

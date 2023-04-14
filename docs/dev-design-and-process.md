@@ -20,6 +20,23 @@ consistency, replication, and database sharding for linear read and write latenc
 - 2022-05-08 [Modern Microprocessors - A 90-Minute Guide!](https://www.lighterra.com/papers/modernmicroprocessors/)
 > A brief, pulls-no-punches, fast-paced introduction to the main design aspects of modern processor microarchitecture.
 
+- 2023-04-07 [How does database sharding work?](https://planetscale.com/blog/how-does-database-sharding-work)
+
+> 2023-04-07 [Database “sharding” came from UO? – Raph's Website](https://www.raphkoster.com/2009/01/08/database-sharding-came-from-uo/)
+> ![image-20230413181213837](./dev-design-and-process.assets/image-20230413181213837.png)
+
+- 2023-04-03 [Database Sharding Explained](https://architecturenotes.co/database-sharding-explained/)
+
+> This article explains what database sharding is, how it works, and the best ways to use it. It also talks about the potential server architectures and data layout. The article is written in a clear and concise manner with examples and comparisons to help readers understand the concept of database sharding better.
+
+> ![image-20230413185111688](./dev-design-and-process.assets/image-20230413185111688.png)
+
+- 2023-04-01 [Clocks and Causality - Ordering Events in Distributed Systems](https://www.exhypothesi.com/clocks-and-causality/)
+
+> ![image-20230413183701886](./dev-design-and-process.assets/image-20230413183701886.png)
+
+## 
+
 ## Some good Articles
 
 - 2022-02-27 [Practical Guide to Solving Hard Problems](https://praeclarum.org/2022/02/19/hard-problems.html?utm_source=programmingdigest&utm_medium=email&utm_campaign=461)

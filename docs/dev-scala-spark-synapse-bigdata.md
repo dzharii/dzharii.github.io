@@ -66,6 +66,14 @@
 
 ### Links
 
+2023-03-13 [Add ALL the Things: Abstract Algebra Meets Analytics](https://www.infoq.com/presentations/abstract-algebra-analytics/)
+>
+> 2013-03-07 [AK Tech Blog](https://web.archive.org/web/20130307235411/http://blog.aggregateknowledge.com/)
+> 2023-03-14 [GitHub - avibryant/simmer: Reduce your data. A unix filter for algebird-powered aggregation.](https://github.com/avibryant/simmer)
+> 2023-03-14 [GitHub - twitter/algebird: Abstract Algebra for Scala](https://github.com/twitter/algebird)
+
+2023-03-13 [Apache Spark Fundamentals | Pluralsight](https://app.pluralsight.com/course-player?clipId=da79701c-5b62-4649-a366-686c471f0934)
+
 2023-02-12 [awesome-spark/awesome-spark: A curated list of awesome Apache Spark packages and resources.](https://github.com/awesome-spark/awesome-spark) 
 
 > ![image-20230212113428859](./dev-spark.assets/image-20230212113428859.png)
@@ -158,6 +166,50 @@ Main features of Azure Synapse include:
 2023-02-07 [microsoft/AzureSynapseEndToEndDemo](https://github.com/microsoft/AzureSynapseEndToEndDemo) Github
 
 > This repository provides one-click infrastructure and artifact deployment for Azure Synapse Analytics to get you started with Big Data Analytics on a large sized Health Care sample data. You will learn how to ingest, process and serve large volumes of data using various components of Synapse.
+
+2023-04-09 [Azure Synapse Spark with Scala | DUSTIN VANNOY](https://dustinvannoy.com/2021/02/03/azure-synapse-spark-with-scala/)
+
+> ![image-20230413184249520](./dev-scala-spark-synapse-bigdata.assets/image-20230413184249520.png)
+
+
+
+```scala
+val inputDF = spark.read.parquet(yellowSourcePath)
+
+// Take your pick on how to transform, withColumn or SQL Expressions. Only one of these is needed.
+
+// Option A
+// val transformedDF = {
+//     inputDF
+//      .withColumn("yearMonth", regexp_replace(substring("tpepPickupDatetime",1,7), '-', '_'))
+//      .withColumn("pickupDt", to_date("tpepPickupDatetime", dateFormat)) 
+//      .withColumn("dropoffDt", to_date("tpepDropoffDatetime", dateFormat))
+//      .withColumn("tipPct", col("tipAmount") / col("totalAmount"))
+// }
+
+// Option B
+val transformedDF = inputDF.selectExpr(
+                  "*",
+                  "replace(left(tpepPickupDatetime, 7),'-','_') as yearMonth",
+                  s"to_date(tpepPickupDatetime, '$dateFormat') as pickupDt",
+                  s"to_date(tpepDropoffDatetime, '$dateFormat') as dropoffDt",
+                  "tipAmount/totalAmount as tipPct")
+
+val zoneDF = spark.read.format("delta").load(taxiZonePath)
+
+// Join to bring in Taxi Zone data
+val tripDF = {
+    transformedDF.as("t")
+        .join(zoneDF.as("z"), expr("t.PULocationID == z.LocationID"), joinType="left").drop("LocationID")
+        .withColumnRenamed("Burough", "PickupBurrough")
+        .withColumnRenamed("Zone", "PickupZone")
+        .withColumnRenamed("ServiceZone", "PickupServiceZone")
+}
+
+tripDF.write.mode("overwrite").partitionBy("yearMonth").format("delta").save(yellowDeltaPath)
+```
+
+
 
 ## Azure Data Lake Storage Gen 2
 
