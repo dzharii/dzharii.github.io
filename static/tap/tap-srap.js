@@ -1,8 +1,8 @@
-const Key_Space =  32;
-const Key_J = 74;
-const Key_K = 75;
-const Key_L = 76;
-const Key_Semicolon = 186;
+const Key_Space =  "Space";
+const Key_J = "KeyJ";
+const Key_K = "KeyK";
+const Key_L = "KeyL";
+const Key_Semicolon = "Semicolon";
 
 let PreviousGlobalKeyPressed = {};
 const GlobalKeyPressed = {};
@@ -183,7 +183,7 @@ function areEqual(current, previous) {
 
 function handleKeyPress(onKeyPressCb) {
     document.addEventListener('keydown', function (e) {
-        const kw = e.which;
+        const kw = e.code;
         console.log(kw);
 
         const supportedKeyPressed =
@@ -203,7 +203,7 @@ function handleKeyPress(onKeyPressCb) {
     });
 
     document.addEventListener('keyup', function (e) {
-        delete GlobalKeyPressed[e.which];
+        delete GlobalKeyPressed[e.code];
         PreviousGlobalKeyPressed = Object.assign({}, GlobalKeyPressed);
     });
 }
