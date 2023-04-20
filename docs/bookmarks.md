@@ -48,4 +48,5 @@ Something that I use too often...
 - [Metallica The Instrumentals 1983-2008 - YouTube](https://www.youtube.com/watch?v=XNRwOtIpR10)
 - [No leaf clover - Metallica instrumental - YouTube](https://www.youtube.com/watch?v=lqVuLwD73e0&list=PLyjQg7klNUF7d6E7FNxM9uL318NuhJXpD)
 - [Metal: The Hellsinger Playlist - YouTube](https://www.youtube.com/watch?v=vaErlmbQh2A&list=PLJQHL1SwXgq0m1LuxDGHDEWnBDFdYc2Vk&index=2)
+- [Miss Monique - Siona Records: 3rd Anniversary @ Ibiza  Melodic Techno/Progressive House DJ Mix  4K - YouTube](https://www.youtube.com/watch?v=YHDansdSzrE)
 
