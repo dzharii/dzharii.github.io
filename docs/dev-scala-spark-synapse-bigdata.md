@@ -43,6 +43,10 @@
 
 >  .NET for Apache Spark makes Apache Spark easily accessible to .NET developers.
 
+2023-05-03 [Databricks Scala Spark API - org.apache.spark.sql.Dataset](https://api-docs.databricks.com/scala/spark/latest/org/apache/spark/sql/Dataset.html)
+
+> ![image-20230502225512421](./dev-scala-spark-synapse-bigdata.assets/image-20230502225512421.png)
+
 
 
 ### Java Docs
