@@ -4,6 +4,25 @@
 
 
 
+## New Project Templates
+
+2023-05-17 [cpp-best-practices/cmake_template](https://github.com/cpp-best-practices/cmake_template)
+
+> "cmake_template" is a C++ Best Practices GitHub template designed for quick C++ project setups. Currently undergoing a major update, it enables Address Sanitizer, Undefined Behavior Sanitizer, treats warnings as errors, and performs static analysis using clang-tidy and cppcheck. It uses CPM for dependencies and provides a basic CLI example, testing examples, and a large Github action testing matrix. It requires cmake and a compiler to use. The project includes a simple usage example of FTXUI, featuring a game.
+
+2023-05-17  [bsamseth/cpp-project: Boiler plate template for C++ projects, with CMake, Doctest, Travis CI, Appveyor, Github Actions and coverage reports.](https://github.com/bsamseth/cpp-project)
+
+> This is a boiler plate for C++ projects. What you get:
+>
+> - Sources, headers and mains separated in distinct folders
+> - Use of modern [CMake](https://cmake.org/) for much easier compiling
+> - Setup for tests using [doctest](https://github.com/onqtam/doctest)
+> - Continuous testing with [Travis-CI](https://travis-ci.org/), [Appveyor](https://www.appveyor.com/) and [GitHub Actions](https://github.com/features/actions), with support for C++17.
+> - Code coverage reports, including automatic upload to [Coveralls.io](https://coveralls.io/) and/or [Codecov.io](https://codecov.io/)
+> - Code documentation with [Doxygen](http://www.stack.nl/~dimitri/doxygen/)
+>
+> ![image-20230519215754359](./dev-cpp.assets/image-20230519215754359.png)
+
 ## Books
 
 - 2022-10-30 [Stroustrup: A Tour of C++ Third edition](https://www.stroustrup.com/tour3.html)
@@ -187,9 +206,14 @@ int main(){
 
 ## C++ Libraries and Lib Collections
 
-- 2023-02-02 [A list of open source C++ libraries - cppreference.com](https://en.cppreference.com/w/cpp/links/libs) 
+2023-02-02 [A list of open source C++ libraries - cppreference.com](https://en.cppreference.com/w/cpp/links/libs) 
 
 > The objective of this page is to build a comprehensive list of open source C++ libraries, so that when one needs an implementation of particular functionality, one needn't to waste time searching on web.
+
+2023-05-10 [DNedic/lockfree: A collection of lock-free data structures written in standard C++11](https://github.com/DNedic/lockfree)
+
+> What are lock-free data structures?
+> Lock-free data structures are data structures that are thread and interrupt safe without having to use mutual exclusion mechanisms. Lock-free data structures are most useful for inter process communication, but due to the efficiency of lockfree, it can safely be used for single threaded uses as well, making it good for general purpose use.
 
 ## C++ Machine Learning
 
@@ -294,7 +318,19 @@ int main(){
 > Package manager for the C programming language.
 
 ## Dev C Libs
-# C language development
+
+### Net
+
+2023-05-17 [Home - DPDK](https://www.dpdk.org/)
+
+> 2023-05-17 [DPDK/dpdk: Data Plane Development Kit](https://github.com/DPDK/dpdk)
+>
+> DPDK (Data Plane Development Kit) is an open-source software project that provides a set of libraries and drivers for fast packet processing in user space. Its main goal is to increase the performance of packet processing applications running on standard computing platforms. The project is hosted and can be accessed at [www.dpdk.org](http://www.dpdk.org/). It's widely used in network interface cards, routers, firewalls, and other networking appliances.
+
+
+
+
+### C language development
 
 - 2022-03-05 [Cello • High Level C](https://libcello.org/)
 > Cello is a library that brings higher level programming to C.
@@ -330,7 +366,7 @@ chan ch = chmake(int, 1000);
 chs(ch, int, 42);
 ```
 
-## SIMD
+### SIMD
 - 2022-05-01 `simd` [Removing characters from strings faster with AVX-512 – Daniel Lemire's blog](https://lemire.me/blog/2022/04/28/removing-characters-from-strings-faster-with-avx-512/)
 > A computer science professor at the University of Quebec (TELUQ). View all posts by Daniel Lemire
 - [DragonSpit/HPCsharp: High performance algorithms in C#: SIMD/SSE, multi-core and faster](https://github.com/DragonSpit/HPCsharp)
