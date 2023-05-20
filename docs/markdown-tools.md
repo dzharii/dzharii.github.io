@@ -52,3 +52,10 @@ But on the contrary, the amount of the information is more and more growing. The
 
 > This extension creates a right-click menu to provide copy functionality, which is used by right-clicking on the supported content of pages.
 
+
+
+## Vale Proofreading 
+
+2023-05-20 [Vale.sh](https://vale.sh/)
+
+Vale is an open-source, command-line tool used for syntax-aware text proofreading. It can help enforce style and consistency across various types of content.
