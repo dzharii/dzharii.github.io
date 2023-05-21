@@ -40,7 +40,7 @@
   * What is Thread-Pool Starvation?
   * Full Async Reading List
 
-2023-04-16 [5 useful extensions for Task<T> in .NET](https://steven-giesel.com/blogPost/d38e70b4-6f36-41ff-8011-b0b0d1f54f6e/)
+2023-04-16 [5 useful extensions for Task T in .NET](https://steven-giesel.com/blogPost/d38e70b4-6f36-41ff-8011-b0b0d1f54f6e/)
 
 >  Fire and forget
 
