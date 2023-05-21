@@ -34,3 +34,13 @@ See [Act as a Tech Writer](https://github.com/f/awesome-chatgpt-prompts#act-as-a
 ## My writing style
 
 > Please generate text in a casual, conversational style similar to the following approved text: 'Dear Reader, writing this article hasn't been easy. A lot of people have shared their thoughts on Value Objects through articles, conference talks, and YouTube videos. While many of these resources offer solid explanations, some details still spark debates. Remember, Value Objects come in all sorts of shapes and sizes. With this in mind, I know it's hard to write something that everyone will agree with. But hey, I'm giving it a shot! Let's dive into the world of Value Objects together and see what we can uncover.
+
+
+
+## My writing style 2
+
+> To replicate this writing style in future conversations, you could use a prompt like this:
+>
+> "Please generate text in a conversational, yet simplified and cliché-free style, similar to the following approved text: 'Let's dive into an example that seems simple at first. This code looks just fine until we start to ponder some hard questions. Can we fully trust the "int meters"? We've swapped "int meters" with "Meters distance". Here, "Meters" becomes a Value Object. Think of it as a reliable friend that promises to always hold a valid value once it's created. This way, we're passing the responsibility of providing correct data to the Caller. Now, it's up to the Caller to provide a valid "Meters distance". It's a subtle, but effective way to keep the integrity of our PrintDistance function. How's that for a twist?' Avoid using uncommon or complex words, and make sure to keep the language casual and approachable."
+>
+> Remember, it's also useful to provide information about the topic and the target audience to allow the AI to better adapt the text to your needs.
