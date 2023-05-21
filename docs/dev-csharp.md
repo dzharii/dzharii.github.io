@@ -40,6 +40,51 @@
   * What is Thread-Pool Starvation?
   * Full Async Reading List
 
+2023-04-16 [5 useful extensions for Task<T> in .NET](https://steven-giesel.com/blogPost/d38e70b4-6f36-41ff-8011-b0b0d1f54f6e/)
+
+>  Fire and forget
+
+```cs
+public static void FireAndForget(
+  this Task task,
+  Action<Exception> errorHandler = null)
+{
+    task.ContinueWith(t =>
+    {
+        if (t.IsFaulted && errorHandler != null)
+            errorHandler(t.Exception);
+    }, TaskContinuationOptions.OnlyOnFaulted);
+}
+```
+
+> Retry
+
+```cs
+var result = await (() => GetResultAsync()).Retry(3, TimeSpan.FromSeconds(1));
+```
+
+>  OnFailure
+
+```cs
+await GetResultAsync().OnFailure(ex => Console.WriteLine(ex.Message));
+```
+
+> 4. Timeout
+
+```cs
+await GetResultAsync().WithTimeout(TimeSpan.FromSeconds(1));
+```
+
+> 5. Fallback
+
+```cs
+var result = await GetResultAsync().Fallback("fallback");
+```
+
+
+
+
+
 ## Performance measurement in C#
 
 2023-02-05 Video [A mortal's guide to making a pig run faster - Richard Banks - NDC Sydney 2022 - YouTube](https://www.youtube.com/watch?v=onpBW9b8bMs) 
