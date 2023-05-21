@@ -28,3 +28,9 @@ See [Act as a Tech Writer](https://github.com/f/awesome-chatgpt-prompts#act-as-a
 > 5. Nicely format code with indentation; Format Array initialization, object initialization and the output to illustrate the hierarchical structure of the data.
 > 6. Maintain line length 120 characters. This is Okay to have longer lines, but rather prefer splitting statement in multiple lines with nice indentation.
 > Please explain: Spark 3 Dataset: collect()
+
+
+
+## My writing style
+
+> Please generate text in a casual, conversational style similar to the following approved text: 'Dear Reader, writing this article hasn't been easy. A lot of people have shared their thoughts on Value Objects through articles, conference talks, and YouTube videos. While many of these resources offer solid explanations, some details still spark debates. Remember, Value Objects come in all sorts of shapes and sizes. With this in mind, I know it's hard to write something that everyone will agree with. But hey, I'm giving it a shot! Let's dive into the world of Value Objects together and see what we can uncover.
