@@ -1,7 +1,15 @@
 # Mental Health / ADHD
 Date: 2023-05-21
 
-This text was compiled from different sources. 
+## Disclaimer 🧠
+
+Please be aware that the information provided on this page is for informational purposes only and should not be used as a substitute for professional advice. While I have made every effort to present accurate and reliable information, you should understand that the information provided is subject to change and may not apply to all situations or individuals.
+
+I do not guarantee or warrant the accuracy, completeness, or timeliness of the information contained on this page. The information provided is provided "as is" without any warranties of any kind, express or implied, including but not limited to the implied warranties of merchantability, fitness for a particular purpose, or non-infringement.
+
+Reading, using, or relying on the information on this page is done at your own risk. I disclaim all responsibility and liability for any harm, loss, damage, or injury arising out of or in connection with your use of or reliance on the information provided on this page.
+
+It is your responsibility to evaluate the accuracy, completeness, or usefulness of any information or any content available on this page. Please consult with a qualified healthcare professional for any medical or health-related advice.
 
 
 ## Blogs and Articles
@@ -18,7 +26,20 @@ This text was compiled from different sources.
 
 ## Key Facts
 
-ADHD, short for attention-deficit/hyperactivity disorder, is a kind of brain disorder. Let's see who it affects:
+Attention Deficit Hyperactivity Disorder, commonly known as ADHD, is a neurodevelopmental disorder that affects both children and adults. While symptoms often begin in childhood, many individuals carry these symptoms into adulthood. Here are some key facts about ADHD:
+
+1. **Prevalence**: According to the Centers for Disease Control and Prevention (CDC), as of 2016, approximately 6.1 million children in the United States had been diagnosed with ADHD. In adults, it's estimated that 2.5% of the global population has ADHD.
+2. **Symptoms**: ADHD is characterized by symptoms of inattention, hyperactivity, and impulsivity. Inattention can manifest as difficulties in maintaining focus, forgetfulness, and easily being sidetracked. Hyperactivity can look like constant movement, restlessness, or talking excessively. Impulsivity may involve interrupting others, struggling with patience, and making hasty decisions without thinking through the consequences.
+3. **Subtypes**: ADHD has three primary subtypes: predominantly inattentive presentation, predominantly hyperactive-impulsive presentation, and combined presentation. The symptoms can change over time, and an individual’s classification might shift.
+4. **Diagnosis**: ADHD is diagnosed using criteria established by the American Psychiatric Association in the Diagnostic and Statistical Manual of Mental Disorders (DSM-5). Diagnosis involves gathering information from multiple sources, including parents, teachers, and in the case of adults, from the individuals themselves.
+5. **Treatment**: ADHD treatment typically involves a combination of medication, psychoeducation, behavior therapy, and lifestyle changes. Stimulant medications are often effective in reducing ADHD symptoms, but each individual's response to medication varies. Non-stimulant medications are also available.
+6. **Co-existing conditions**: Many people with ADHD also have co-existing conditions, such as learning disabilities, anxiety disorder, depression, bipolar disorder, and oppositional defiant disorder.
+7. **Impact**: ADHD can significantly impact various areas of life, including academic performance, employment, and interpersonal relationships. However, with proper support and accommodations, individuals with ADHD can thrive.
+8. **Strengths**: Despite the challenges associated with ADHD, many individuals with this condition exhibit unique strengths, including creativity, problem-solving abilities, a high energy level, and the ability to hyperfocus on tasks they find interesting.
+
+The understanding and treatment of ADHD have come a long way, but it’s crucial to continue fostering an environment of acceptance and support for those with ADHD. By understanding ADHD better, we can better accommodate those with the condition in the workplace and society at large.
+
+Let's see who it affects:
 
 - Around 11% of school-aged kids in the US and 7.2% worldwide.
 - About 3.4% of adults.
@@ -35,6 +56,31 @@ And here's a little extra: Women and people identified as female at birth who ar
 ADHD symptoms come from difficulties with something called executive functioning skills. To get a better idea of what ADHD can look like in a person, take a peek at this  [comic by Dani Donovan](https://www.adhddd.com/wp-content/uploads/2020/10/AlsoADHD-1.png).
 
 ![image-20230523153341820](./psy-ADHD.assets/image-20230523153341820.png)
+
+
+
+## ADHD and Procrastination
+
+ADHD and procrastination often go hand in hand. The difficulty that individuals with ADHD have in managing and organizing time, also known as time blindness, can contribute to chronic procrastination. Here are some key insights about ADHD and procrastination:
+
+1. **The Role of Executive Functions**: ADHD is associated with impairments in executive functions – cognitive processes that help us plan, focus attention, remember instructions, and manage multiple tasks. Impairments in these areas can lead to procrastination, as tasks may feel overwhelming or individuals may struggle to prioritize and sequence tasks effectively.
+
+2. **Emotion Regulation and Procrastination**: Emotion regulation difficulties are common in ADHD and can also contribute to procrastination. Individuals with ADHD might delay starting tasks that seem boring, frustrating, or anxiety-provoking.
+
+3. **Task Initiation**: People with ADHD often struggle with task initiation – the ability to start a new task. This difficulty can manifest as procrastination, especially when tasks require a high level of effort or are perceived as boring.
+
+4. **Strategies to Address Procrastination**: Certain strategies can be particularly helpful for individuals with ADHD who struggle with procrastination. These can include: 
+   1. breaking tasks down into smaller steps
+
+   2. using visual organizational tools
+
+   3. practicing mindfulness to increase present-moment awareness
+
+   4. seeking external accountability (such as working with an ADHD coach or using a study group).
+
+5. **Role of Medication**: ADHD medications can often improve executive functioning and attention, which may reduce procrastination. However, it's important to note that medication alone is often not a complete solution, and works best when combined with behavioral strategies.
+
+Remember, every individual with ADHD is unique, and what works for one person might not work for another. It's important to work with a healthcare provider or an ADHD coach to develop an individualized plan.
 
 ## How to Build an ADHD-Friendly Workplace
 
