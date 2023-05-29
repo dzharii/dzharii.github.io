@@ -46,6 +46,59 @@ consistency, replication, and database sharding for linear read and write latenc
 - 2022-01-26 [Durability and Redo Logging](http://justinjaffray.com/durability-and-redo-logging/)
 > The most fundamental property a database can provide is durability. That is, once I’ve told you that your write has been accepted, if a mouse chews through the power cord for the server rack, the write will not be lost.
 
+2023-05-28 [zakirullin/cognitive-load: 🧠 Cognitive Load Developer's Handbook](https://github.com/zakirullin/cognitive-load/)
+
+> Cognitive load
+>
+> >  **Cognitive load is how much a developer needs to know in order to complete a task.**
+>
+> We should strive to reduce the cognitive load in our projects as much as possible.
+>
+> The average person can hold roughly **four facts** in working memory. Once the cognitive load reaches this threshold, a significant effort is required to understand things.
+>
+> *Let's say we've been asked to make some fixes to a completely unfamiliar project. We were told that a really smart developer had contributed to it. Lots of cool technologies, fancy libraries and trendy frameworks were used. In other words, **the previous author had a high cognitive load in his head, which we are yet to recreate.***
+
+> ![image-20230528163230728](./dev-design-and-process.assets/image-20230528163230728.png)
+
+> Inheritance nightmare
+>
+> We're tasked to change a few things for our admin users: `🧠`
+>
+> ```
+> AdminController extends UserController extends GuestController extends BaseController
+> ```
+>
+> Ohh, part of the functionality is in `BaseController`, let's have a look: `🧠+`
+> Basic role mechanics got introduced in `GuestController`: `🧠++`
+> Things got partially altered in `UserController`: `🧠+++`
+> Finally we're here, `AdminController`, let's code stuff! `🧠++++`
+>
+> Oh, wait, there's `SuperuserController` which extends `AdminController`. By modifying `AdminController` we can break things in the inherited class, so let's dive in `SuperuserController` first: `🤯`
+>
+> Prefer composition over inheritance. We won't go into the details - there are plenty of articles on the subject.
+
+>  Complicated if statements
+
+```go
+if val > someConstant // 🧠+
+    && (condition2 || condition3) // 🧠+++, prev cond should be true, one of c2 or c3 has be true
+    && (condition4 && !condition5) { // 🤯, we're messed up here
+    ...
+}
+```
+
+> Introduce temporary variables with meaningful names:
+
+```go
+isValid = var > someConstant
+isAllowed = condition2 || condition3
+isSecure = condition4 && !condition5 
+// 🧠, we don't need to remember conditions, there are descriptive variables
+if isValid && isAllowed && isSecure {
+    ...
+}
+```
+
 ## Dev Deployment, Update, DevOps
 
 - 2022-01-28 [How Prime Video updates its app for more than 8,000 device types - Amazon Science](https://www.amazon.science/blog/how-prime-video-updates-its-app-for-more-than-8-000-device-types)

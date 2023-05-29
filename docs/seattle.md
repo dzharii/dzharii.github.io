@@ -17,3 +17,6 @@
 
 > ![image-20230413184523091](./seattle.assets/image-20230413184523091.png)
 
+
+
+2023-05-22 [CHS Capitol Hill Seattle News | Community News For All of Seattle's Capitol Hill](https://www.capitolhillseattle.com/)

@@ -311,6 +311,15 @@ int main(){
   >
   >  The text editor is antirez’s kilo, with some changes. It’s about 1000 lines of C in a single file with no dependencies, and it implements all the basic features you expect in a minimal editor, as well as syntax highlighting and a search feature.
 
+- 2023-05-22 [Memory Allocation](https://samwho.dev/memory-allocation/)
+
+> One thing that all programs on your computer have in common is a need for memory. Programs need to be loaded from your hard drive into memory before they can be run. While running, the majority of what programs do is load values from memory, do some computation on them, and then store the result back in memory.
+>
+> In this post I'm going to introduce you to the basics of memory allocation. Allocators exist because it's not enough to have memory available, you need to use it effectively. We will visually explore how simple allocators work. We'll see some of the problems that they try to solve, and some of the techniques used to solve them. At the end of this post, you should know everything you need to know to write your own allocator.
+>
+> ![image-20230528170203659](./dev-cpp.assets/image-20230528170203659.png)
+
+## 
 
 ## Dev C Tools
 
