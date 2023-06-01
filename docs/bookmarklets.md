@@ -88,6 +88,32 @@ Code:
 javascript: document.body.contentEditable = (document.body.contentEditable === 'true') ? false : true;
 ```
 
+
+
+## Force visited links to be "silver"
+
+Helpful for podcast sites
+
+Name:
+
+`🧓 Silver Links`
+
+Revision:
+
+2023-05-31
+
+Code:
+
+```js
+javascript:(function() {
+    var newStylesheet = document.createElement('style');
+    document.head.appendChild(newStylesheet);
+    newStylesheet.sheet.insertRule('a:visited { color: silver !important }', 0);
+})();
+```
+
+
+
 ## Export ChatGPT
 
 Exports ChatGPT chat as HTML content into clipboard.
@@ -241,77 +267,6 @@ javascript: (() => {
 ```
 
 </details>
-
-
-
-## Rubber Duck
-
-Adds rubber duck to chatGPT chats. Made by GPT4.
-
-![image-20230410201808149](./bookmarklets.assets/image-20230410201808149.png)
-
-Name:
-
-`🔛 Rubber Duck GPT5`
-
-Revision:
-
-2023-04-10
-
-Code:
-
-```js
-javascript:(function() {
-  const duckId = 'duckContainer-55555';
-  if (document.getElementById(duckId)) {
-      return;
-  }
-  const duckSVG = `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="100" height="100"><circle cx="30" cy="60" r="30" fill="yellow" /><circle cx="70" cy="60" r="30" fill="yellow" /><circle cx="50" cy="40" r="30" fill="yellow" /><ellipse cx="40" cy="40" rx="6" ry="10" fill="white" /><ellipse cx="60" cy="40" rx="6" ry="10" fill="white" /><circle cx="40" cy="40" r="4" fill="black" /><circle cx="60" cy="40" r="4" fill="black" /><path d="M 35 65 Q 50 75, 65 65" stroke="orange" stroke-width="5" fill="none" /></svg>`;
-  const mainElement = document.querySelector('main') || document.querySelector('body');
-  const duckContainer = document.createElement('div');
-  duckContainer.innerHTML = duckSVG;
-  duckContainer.id = duckId;
-  mainElement.insertBefore(duckContainer, mainElement.firstChild);
-})();
-
-```
-
-
-
-## ChatGPT Typing indicator
-
-Adds `"typing ||| "` to the window title (browser tab) while chatGPT is typing
-
-Name:
-
-`⌛ Chat GPT Typing...`
-
-Revision:
-
-2023-04-12
-
-Code:
-
-```js
-(function () {
-    setInterval(() => {
-        const el = document.querySelector('.text-2xl');
-    
-        const typingMessage = "typing ||| ";
-        if (el) {
-          console.log(el.textContent);
-          if (!(document.title.startsWith(typingMessage))) {
-              document.title =typingMessage + document.title;
-          }
-        } else {
-          if (document.title.startsWith(typingMessage)) {
-              document.title = document.title.substr(typingMessage.length)
-          }
-        }
-    }, 1000)
-    
-})();
-```
 
 
 
