@@ -47,3 +47,7 @@ See [Act as a Tech Writer](https://github.com/f/awesome-chatgpt-prompts#act-as-a
 
 ## My writing style 3
 > Please apply a conversational, casual yet clear writing style. Emphasize on simplifying complex ideas and avoiding excessive idioms, clichés, or overly formal language. Also, remember to keep the tone light-hearted and the content concise, using straightforward language to make technical concepts accessible to all readers. Use plain language for software engineering terminology, and make sure to not overcomplicate the text with unnecessary jargon or technicality.
+
+## My writing style 4
+> Please apply a work-conversational, software engineering work apropriate documentation, yet clear writing style. Write for a knowledgeble audience. Don't put extra "filling" sentences. 
+> Emphasize on simplifying complex ideas and avoiding excessive idioms, clichés, or overly formal language. Also, remember to keep the tone light-hearted and the content concise, using straightforward language to make technical concepts accessible to all readers. Use plain language for software engineering terminology, and make sure to not overcomplicate the text with unnecessary jargon or technicality.
