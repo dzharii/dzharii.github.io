@@ -24,6 +24,34 @@ It is your responsibility to evaluate the accuracy, completeness, or usefulness 
 >
 > I’ve always had focus issues but I misdiagnosed them as problems related to energy. Through school and career I found that the only reliable way for me to motivate myself was to generate stress and consume an unhealthy amount of caffeine. At first doing work just before it’s due, and later in life harnessing it in a more healthy manner by faking early deadlines. Late 2021 I got sick and I couldn’t drink caffeine anymore and stress caused me a good deal of pain. Thought my career was over, so I turned to my doctor and she sent me to be evaluated for ADHD and Bipolar. Turns out I have ADHD and the medication has given me a new lease on life. Please, if you relate to my story at all, pursue help.
 
+2023-05-15 [Taxonomy of procrastination](https://dynomight.net/procrastination/)
+
+> ADHD and procrastination
+>
+> What I’d like to understand is: Is there a failure mode from having too much willpower?
+>
+> There’s an angle on this that seems promising at first. People who have ADHD have “low willpower”. This is claimed to be a result of some kind of dopamine (or norepinephrine) dysfunction—either producing too little, or having low-sensitivity receptors. So is there a problem associated with having “too much” dopamine? Perhaps yes—the [dopamine hypothesis](https://en.wikipedia.org/wiki/Dopamine_hypothesis_of_schizophrenia) is that an overly sensitive dopamine system (or [taking lots of meth](https://dynomight.net/p2p-meth/)) causes schizophrenia.
+>
+> As a cartoon, we might think that:
+>
+> LOW DOPAMINE
+>                   ↓
+> LOW CONFIDENCE IN PREDICTIONS
+>                   ↓
+> FORGET HOMEWORK PLAY VIDEO GAMES
+>
+>
+> 
+> And:
+>
+> HIGH DOPAMINE
+>                   ↓
+> EXTREME CONFIDENCE IN PREDICTIONS
+>                   ↓
+> HALLUCINATIONS
+>
+> Nice theory, right? Trouble is, people with ADHD are also [much more likely to develop schizophrenia](https://doi.org/10.1016/j.eurpsy.2013.06.004). So this doesn’t make sense, nothing makes sense.
+
 ## Key Facts
 
 Attention Deficit Hyperactivity Disorder, commonly known as ADHD, is a neurodevelopmental disorder that affects both children and adults. While symptoms often begin in childhood, many individuals carry these symptoms into adulthood. Here are some key facts about ADHD:

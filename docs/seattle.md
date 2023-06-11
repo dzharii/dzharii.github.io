@@ -20,3 +20,13 @@
 
 
 2023-05-22 [CHS Capitol Hill Seattle News | Community News For All of Seattle's Capitol Hill](https://www.capitolhillseattle.com/)
+
+
+
+## Walking Seattle
+
+2023-06-07 [Free apps and online maps for walking tours of Seattle - Greater Seattle on the Cheap](https://www.greaterseattleonthecheap.com/free-walking-tours-seattle/)
+
+> Walking maps
+>
+> ![image-20230608154822952](./seattle.assets/image-20230608154822952.png)
