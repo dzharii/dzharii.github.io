@@ -114,6 +114,47 @@ javascript:(function() {
 
 
 
+## Wake lock
+
+Through the browser api, and while the current browser page is active, forces the screen to never lock or go sleep. 
+
+Name:
+
+`👀 Wake Lock`
+
+Revision:
+
+2023-06-28
+
+Code:
+
+```javascript
+javascript:(async function() {
+  let statusElem = document.createElement('div');
+  statusElem.style.position = 'fixed';
+  statusElem.style.bottom = '0';
+  statusElem.style.right = '0';
+  statusElem.style.background = 'lightgray';
+  statusElem.style.padding = '10px';
+  document.body.appendChild(statusElem);
+  
+  let wakeLock = null;
+  try {
+    wakeLock = await navigator.wakeLock.request('screen');
+    statusElem.textContent = 'Wake Lock is active!';
+  } catch (err) {
+    statusElem.textContent = `${err.name}, ${err.message}`;
+  }
+})();
+
+```
+
+
+
+
+
+
+
 ## Export ChatGPT
 
 Exports ChatGPT chat as HTML content into clipboard.
