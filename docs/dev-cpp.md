@@ -29,6 +29,27 @@
 
 > The 'tour' is a quick (254 pages + index, historical information, etc.) tutorial overview of all of standard C++ (language and standard library) at a moderately high level for people who already know C++ or at least are experienced programmers. It covers C++20 plus a few likely features of C++23.
 
+## 
+
+- 2023-06-24 👃 [60 terrible tips for a C++ developer](https://pvs-studio.com/en/blog/posts/cpp/1053/)
+
+> 60 Dirty tips for dirty developers ;)
+>
+> Almost a book!
+>
+> - [Terrible tip N3. Nested macros](https://pvs-studio.com/en/blog/posts/cpp/1053/#IDB41BD4E93A)
+> - [Terrible tip N4. Disable warnings](https://pvs-studio.com/en/blog/posts/cpp/1053/#IDC924C5C2DE)
+> - [Terrible tip N5. The shorter the variable name is, the better](https://pvs-studio.com/en/blog/posts/cpp/1053/#ID435EA082EE)
+> - [Terrible tip N6. Invisible characters](https://pvs-studio.com/en/blog/posts/cpp/1053/#ID94606C1576)
+> - [Terrible tip N7. Magic numbers](https://pvs-studio.com/en/blog/posts/cpp/1053/#ID90FBE85088)
+> - [Terrible tip N8. int, int everywhere](https://pvs-studio.com/en/blog/posts/cpp/1053/#ID2FB1279C3F)
+> - [Terrible tip N9. Global variables](https://pvs-studio.com/en/blog/posts/cpp/1053/#IDA9A515DF38)
+> - [Terrible tip N10. The abort function in libraries](https://pvs-studio.com/en/blog/posts/cpp/1053/#ID65E575FE16)
+> - [Terrible tip N11. The compiler is to blame for everything](https://pvs-studio.com/en/blog/posts/cpp/1053/#ID65184F1F33)
+> - [Terrible tip N12. Feel free to use argv](https://pvs-studio.com/en/blog/posts/cpp/1053/#ID1AB91381F6)
+>
+> ... and the list goes on and on
+
 ## C++ Interactive tutorials
 - 2022-10-03 [Input/output with files](https://cplusplus.com/doc/tutorial/files/)
 > interactive tutorial
@@ -123,6 +144,20 @@ This online tutorial continues with more advanced concepts - please read Part II
 
 
 ## Articles
+
+- 2023-06-24 [Make your programs run faster by better using the data cache - Johnny's Software Lab](https://johnnysswlab.com/make-your-programs-run-faster-by-better-using-the-data-cache/)
+
+  >  It covers the following topics and tips:
+  >
+  > - The concept and importance of **cache memory** and how it compensates for the difference in speed between processor and main memory.
+  > - The principles of **temporal and spatial locality**, which govern the behavior of real-world programs and affect the cache performance.
+  > - The tips and rules for **better exploiting the data cache** in different scenarios, such as:
+  >   - Using **arrays** of classes or structs instead of values, to increase the cache utilization and reduce the cache misses.
+  >   - Aligning the **starting address of the array** and the **class data** to the cache line size, to avoid splitting the data across multiple cache lines and to optimize the cache access.
+  >   - Performing **loop interchange** on **matrices**, to move the loop over the innermost position and to eliminate column-wise accesses, which are costly for the cache.
+  >   - Avoiding **padding** in **classes and structs**, to make sure they are correctly aligned and to reduce the cache overhead.
+  >   - Sorting the **variables in the declaration** of the classes by size from largest to smallest, to guarantee that the compiler will not insert any padding and to optimize the cache access.
+  > - The tools and references available to help with the data cache optimization, such as **pahole** and **StuctLayout**, which can help with exploring and visualizing the paddings in the classes.
 
 - [Modern C++ for C Programmers: part 1 - Bert Hubert's writings](https://berthub.eu/articles/posts/c++-1/)
 
@@ -319,7 +354,17 @@ int main(){
 >
 > ![image-20230528170203659](./dev-cpp.assets/image-20230528170203659.png)
 
-## 
+## Books
+
+1993 ⭐ [Object-oriented Programming with ANSI-C (1993) [pdf]](https://www.mclibre.org/descargar/docs/libros/ooc-ats.pdf)
+
+> Retro document! but very well written
+>
+> ![image-20230629003429585](./dev-cpp.assets/image-20230629003429585.png)
+
+
+
+## RSS
 
 ## Dev C Tools
 
