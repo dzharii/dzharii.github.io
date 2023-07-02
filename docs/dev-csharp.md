@@ -115,3 +115,25 @@ var result = await GetResultAsync().Fallback("fallback");
 >
 > Bogus is a library that works with C#, F# and VB.NET that can be used to create repeatable, fake data for applications. It is somewhat a port of a similar library Bogus.js. It accomplished this by creating generators (called Fakers) that have a set of rules for generating one or more fake objects. Built-into Bogus is a set of generalized rules for common data categories (i.e. Addresses, Companies, People, Phone Numbers, etc.). Enough talk, let’s see how it works. The full repo is at:
 
+2023-06-29 [Performance tricks I learned from contributing to open source .NET packages - Daniel Marbach - YouTube](https://www.youtube.com/watch?v=pGgsFW7kDKI)
+ > [danielmarbach/PerformanceTricksAzureSDK: Performance tricks I learned from contributing to the Azure .NET SDK](https://github.com/danielmarbach/PerformanceTricksAzureSDK) github repository for this talk.
+ >
+ > LINQ TO COLLECTION-BASED OPERATIONS
+ > - Use `Array.Empty<T>()` to represent empty arrays
+ > - Use `Enumerable.Empty<T>` to represent empty enumerables
+ > - Prevent collections from growing
+ >
+ > HOW TO DETECT ALLOCATIONS?
+ > - Use memory profilers and watch out for excessive allocations of `*__DisplayClass*` or various variants of `Action*` and `Func*`
+ > - Use tools like Heap Allocation Viewer (Rider) or Heap Allocation Analyzer (Visual Studio)
+ >
+ > - Avoid excessive allocations to reduce the GC overhead
+ > - Think at least twice before using LINQ or unnecessary enumeration on the hot path
+ > - Be aware of closure allocations
+ > - Pool and re-use buffers
+ > - For smaller local buffers, consider using the stack
+ > - Be aware of parameter overloads
+ > - Where possible and feasible use value types but pay attention to unnecessary boxing
+ > - Move allocations away from the hot-path where possible
+ >
+ > - [C# 9 - Improving performance using the SkipLocalsInit attribute - Meziantou's blog](https://www.meziantou.net/csharp-9-improve-performance-using-skiplocalsinit.htm)

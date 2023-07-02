@@ -99,6 +99,16 @@ if isValid && isAllowed && isSecure {
 }
 ```
 
+
+
+- 2023-07-02 [Hashing](https://samwho.dev/hashing/)
+
+> Hash functions, key to many aspects of computing such as databases, data structures, and security, are explored in this piece. These functions take an input, often a string, and generate a number. If a good hash function is used, it will always return the same number for the same input, while minimizing 'collisions' where different inputs produce the same number. This article evaluates the performance of hash functions, highlighting their efficacy with random and non-random inputs. An effective hash function, like the widely-used murmur3, provides even distribution regardless of input. The 'avalanche effect' is another measure of a good hash function, where a single change in the input results in an average 50% change in the output bits. Understanding hash functions is essential in utilizing key-value pair storing data structures known as maps.
+>
+> ![image-20230702150518604](./dev-design-and-process.assets/image-20230702150518604.png)
+
+
+
 ## Dev Deployment, Update, DevOps
 
 - 2022-01-28 [How Prime Video updates its app for more than 8,000 device types - Amazon Science](https://www.amazon.science/blog/how-prime-video-updates-its-app-for-more-than-8-000-device-types)
@@ -108,12 +118,23 @@ if isValid && isAllowed && isSecure {
 
 ## Inbox
 
+
+
 - 2022-03-05 [Why you need Use Cases/Interactors by Denis Brandi ProAndroidDev](https://proandroiddev.com/why-you-need-use-cases-interactors-142e8a6fe576)
 > Since Clean Architecture became the new hot topic in the Android world there have been loads of code samples and articles that tried to explain how it works and which are its benefits.
 - 2022-03-06 [Modelling workflows with Finite State Machines in .NET - Lloyd Atkinson](https://www.lloydatkinson.net/posts/2022/modelling-workflows-with-finite-state-machines-in-dotnet/)
 > How to implement complex logic as a FSA
 
+
+
+## Domain-Driven Design Inbox
+
+2023-06-30 [Rebuilding Twitter Following Clean Architecture and Domain-Driven Design - Amichai Mantinband - YouTube](https://www.youtube.com/watch?v=O60aOTfaKrw)
+
+
+
 ## MVP (Model View Presenter)
+
 - 💎 2022-01-24 [MVP (Model View Presenter) Architecture Pattern in Android with Example](https://www.geeksforgeeks.org/mvp-model-view-presenter-architecture-pattern-in-android-with-example/)
 > MVP (Model — View — Presenter) comes into the picture as an alternative to the traditional MVC (Model — View — Controller) architecture pattern.
 

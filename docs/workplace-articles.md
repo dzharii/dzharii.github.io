@@ -20,6 +20,10 @@
 - 2022-03-11 [jwasham/coding-interview-university: A complete computer science study plan to become a software engineer.](https://github.com/jwasham/coding-interview-university)
 > I originally created this as a short to-do list of study topics for becoming a software engineer, but it grew to the large list you see today. After going through this study plan, I got hired as a Software Development Engineer at Amazon! You probably won'
 
+- 2023-07-01 [Leveling Up in Job Interviews for Software Engineers](https://phauer.com/2022/leveling-up-job-interviews/)
+
+- 2023-07-02 [How you can ~1.5x your salary through negotiation](https://careercutler.substack.com/p/how-you-can-15x-your-salary-through)
+
 ## Coding interview
 - 2022-05-22 [Dictionary implementation in C# - Dotnetos - courses & conferences about .NET](https://dotnetos.org/blog/2022-03-28-dictionary-implementation/)
 > In the previous post we explained the [implementation details](https://dotnetos.org/blog/2022-03-07-list-implementation/) of `List<T>`. This time we will look at another generic collection defined in `System.Collection.Generic` namespace which is `Dictionary<TKey TValue>`.
@@ -30,6 +34,8 @@
 > System Design interview advices and learning materials
 - 2023-03-03 [viraptor/reverse-interview: Questions to ask the company during your interview](https://github.com/viraptor/reverse-interview)
   > This is a list of questions which may be interesting to a tech job applicant. The points are not ordered and many may not apply to a given position or work type. It was started as my personal list of questions, which grew over time to include both things I'd like to see more of and red flags which I'd like to avoid. I've also noticed how few questions were asked by people I interviewed and I think those were missed opportunities.
+
+
 
 ## Remote Work Tools
 

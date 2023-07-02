@@ -354,6 +354,66 @@ int main(){
 >
 > ![image-20230528170203659](./dev-cpp.assets/image-20230528170203659.png)
 
+- 2023-07-01 [Few lesser known tricks, quirks and features of C](https://jorengarenar.github.io/blog/less-known-c)
+
+> There are some tricks, quirks and features (some quite fundamental to the language!) which seems to throw even experienced developers off the track. Thus I did a sloppy job of gathering some of them in this post (in no particular order) with even sloppier short explanations and/or examples (or quote of thereof).
+>
+> - [Array pointers](https://jorengarenar.github.io/blog/less-known-c#array-pointers)
+> - [Comma operator](https://jorengarenar.github.io/blog/less-known-c#comma-operator)
+> - [Digraphs, trigraphs and alternative tokens](https://jorengarenar.github.io/blog/less-known-c#digraphs-trigraphs-and-alternative-tokens)
+> - [Designated initializer](https://jorengarenar.github.io/blog/less-known-c#designated-initializer)
+> - [Compound literals](https://jorengarenar.github.io/blog/less-known-c#compound-literals)
+> - [Compound literals are lvalues](https://jorengarenar.github.io/blog/less-known-c#compound-literals-are-lvalues)
+> - [Multi-character constants](https://jorengarenar.github.io/blog/less-known-c#multi-character-constants)
+> - [Bit fields](https://jorengarenar.github.io/blog/less-known-c#bit-fields)
+> - [0 bit fields](https://jorengarenar.github.io/blog/less-known-c#0-bit-fields)
+> - [`volatile` type qualifier](https://jorengarenar.github.io/blog/less-known-c#volatile-type-qualifier)
+> - [`restrict` type qualifier](https://jorengarenar.github.io/blog/less-known-c#restrict-type-qualifier)
+> - [`register` type qualifier](https://jorengarenar.github.io/blog/less-known-c#register-type-qualifier)
+> - [Flexible array member](https://jorengarenar.github.io/blog/less-known-c#flexible-array-member)
+> - [`%n` format specifier](https://jorengarenar.github.io/blog/less-known-c#n-format-specifier)
+> - [`%.*` (minimum field width) format specifier](https://jorengarenar.github.io/blog/less-known-c#-minimum-field-width-format-specifier)
+> - [Other less known format specifiers](https://jorengarenar.github.io/blog/less-known-c#other-less-known-format-specifiers)
+> - [Interlacing syntactic constructs](https://jorengarenar.github.io/blog/less-known-c#interlacing-syntactic-constructs)
+> - [`-->` "operator"](https://jorengarenar.github.io/blog/less-known-c#---operator)
+> - [`idx[arr\]`](https://jorengarenar.github.io/blog/less-known-c#idxarr)
+> - [Negative array indexes](https://jorengarenar.github.io/blog/less-known-c#negative-array-indexes)
+> - [Constant string concatenation](https://jorengarenar.github.io/blog/less-known-c#constant-string-concatenation)
+> - [Backslash line splicing](https://jorengarenar.github.io/blog/less-known-c#backslash-line-splicing)
+> - [Using `&&` and `||` as conditionals](https://jorengarenar.github.io/blog/less-known-c#using--and--as-conditionals)
+> - [Compile time assumption checking using `enum`s](https://jorengarenar.github.io/blog/less-known-c#compile-time-assumption-checking-using-enums)
+> - [Ad hoc `struct` declaration in the return type of a function](https://jorengarenar.github.io/blog/less-known-c#ad-hoc-struct-declaration-in-the-return-type-of-a-function)
+> - ["Nested" `struct` definition is not kept nested](https://jorengarenar.github.io/blog/less-known-c#nested-struct-definition-is-not-kept-nested)
+> - [Flat initializer lists](https://jorengarenar.github.io/blog/less-known-c#flat-initializer-lists)
+> - [Implicit casting of `void` pointers](https://jorengarenar.github.io/blog/less-known-c#implicit-casting-of-void-pointers)
+> - [Static array indices in function parameter declarations](https://jorengarenar.github.io/blog/less-known-c#static-array-indices-in-function-parameter-declarations)
+> - [Macro Overloading by Argument List Length](https://jorengarenar.github.io/blog/less-known-c#macro-overloading-by-argument-list-length)
+> - [Function types](https://jorengarenar.github.io/blog/less-known-c#function-types)
+> - [X-Macros](https://jorengarenar.github.io/blog/less-known-c#x-macros)
+> - [Named function parameters](https://jorengarenar.github.io/blog/less-known-c#named-function-parameters)
+> - [Combining default, named and positional arguments](https://jorengarenar.github.io/blog/less-known-c#combining-default-named-and-positional-arguments)
+> - [Abusing unions for grouping things into namespaces](https://jorengarenar.github.io/blog/less-known-c#abusing-unions-for-grouping-things-into-namespaces)
+> - [Unity builds](https://jorengarenar.github.io/blog/less-known-c#unity-builds)
+> - [Matching character classes with `sscanf()`](https://jorengarenar.github.io/blog/less-known-c#matching-character-classes-with-sscanf)
+> - [Garbage collector](https://jorengarenar.github.io/blog/less-known-c#garbage-collector)
+> - [Cosmopolitan Libc](https://jorengarenar.github.io/blog/less-known-c#cosmopolitan-libc)
+> - [Inline assembly](https://jorengarenar.github.io/blog/less-known-c#inline-assembly)
+> - [Object Oriented Programming](https://jorengarenar.github.io/blog/less-known-c#object-oriented-programming)
+> - [Metaprogramming](https://jorengarenar.github.io/blog/less-known-c#metaprogramming)
+> - [Evaluate `sizeof` at compile time by causing duplicate case error](https://jorengarenar.github.io/blog/less-known-c#evaluate-sizeof-at-compile-time-by-causing-duplicate-case-error)
+
+2023-06-30 [Structures in C: From Basics to Memory Alignment – Abstract Expression](https://abstractexpr.com/2023/06/29/structures-in-c-from-basics-to-memory-alignment/)
+
+> Structures allow us to combine several variables to create a new data type. Some other languages support the same concept but call it “records”. If you come from object-oriented programming you can think about them as classes without methods.
+>
+> ![image-20230702152138229](./dev-cpp.assets/image-20230702152138229.png)
+
+
+
+## 
+
+
+
 ## Books
 
 1993 ⭐ [Object-oriented Programming with ANSI-C (1993) [pdf]](https://www.mclibre.org/descargar/docs/libros/ooc-ats.pdf)
@@ -435,4 +495,47 @@ chs(ch, int, 42);
 
 > ![image-20230608160855199](./dev-cpp.assets/image-20230608160855199.png)
 
-## 
+2023-07-02 [Parsing time stamps faster with SIMD instructions – Daniel Lemire's blog](https://lemire.me/blog/2023/07/01/parsing-time-stamps-faster-with-simd-instructions/)
+
+Standard:
+
+```c
+#include <time.h>
+#include <stdio.h>
+int main() {
+  char buffer[15];
+  struct tm timeinfo;
+  time_t rawtime;
+  time(&rawtime);
+  gmtime_r(&rawtime, &timeinfo);
+  size_t len = strftime(buffer, 15, "%Y%m%d%H%M%S", &timeinfo);
+  buffer[14] = '\0';
+  puts(buffer);
+}
+```
+
+SIMD:
+
+```c
+ __m128i v = _mm_loadu_si128((const __m128i *)date_string);
+v = _mm_sub_epi8(v, _mm_set1_epi8(0x30));
+__m128i limit =
+_mm_setr_epi8(9, 9, 9, 9, 1, 9, 3, 9, 2, 9, 5, 9, 5, 9, -1, -1);
+__m128i abide_by_limits = _mm_subs_epu8(v, limit); // must be all zero
+const __m128i weights = _mm_setr_epi8(
+10, 1, 10, 1, 10, 1, 10, 1, 10, 1, 10, 1, 10, 1, 0, 0);
+v = _mm_maddubs_epi16(v, weights);
+__m128i limit16 =
+_mm_setr_epi16(99,99, 12, 31, 23, 59, 59, -1);
+__m128i abide_by_limits16 = _mm_subs_epu16(v, limit16);
+__m128i limits = _mm_or_si128(abide_by_limits16,abide_by_limits);
+if (!_mm_test_all_zeros(limits, limits)) {
+  return false;
+}
+```
+
+| instructions per stamp     | time per stamp |      |
+| :------------------------- | :------------- | ---- |
+| standard C with `strptime` | 700            | 46   |
+| SIMD approach              | 65             | 7.9  |
+

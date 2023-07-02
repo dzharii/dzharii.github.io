@@ -19,6 +19,61 @@
 > Security engineering is the discipline of building secure systems.
 > Its lessons are not just applicable to computer security. In fact, in this repo, I aim to document a process for securing anything, whether it's a medieval castle, an art museum, or a computer network.
 
+2023-06-12 [Desktop Linux Hardening | PrivSec - A practical approach to Privacy and Security](https://privsec.dev/posts/linux/desktop-linux-hardening/)
+
+> ![image-20230702153430958](./security-articles.assets/image-20230702153430958.png)
+>
+> ToC
+>
+> - During Installation
+>   - [Drive Encryption](https://privsec.dev/posts/linux/desktop-linux-hardening/#drive-encryption)
+>   - [Encrypted Swap](https://privsec.dev/posts/linux/desktop-linux-hardening/#encrypted-swap)
+> - Privacy Tweaks
+>   - [NetworkManager Trackability Reduction](https://privsec.dev/posts/linux/desktop-linux-hardening/#networkmanager-trackability-reduction)
+>   - Other Identifiers
+>     - [System Counting](https://privsec.dev/posts/linux/desktop-linux-hardening/#system-counting)
+>   - [Keystroke Anonymization](https://privsec.dev/posts/linux/desktop-linux-hardening/#keystroke-anonymization)
+> - Application Confinement
+>   - [Flatpak](https://privsec.dev/posts/linux/desktop-linux-hardening/#flatpak)
+>   - [Snap](https://privsec.dev/posts/linux/desktop-linux-hardening/#snap)
+>   - [Firejail](https://privsec.dev/posts/linux/desktop-linux-hardening/#firejail)
+>   - [Mandatory Access Control](https://privsec.dev/posts/linux/desktop-linux-hardening/#mandatory-access-control)
+>   - [Making Your Own Policies/Profiles](https://privsec.dev/posts/linux/desktop-linux-hardening/#making-your-own-policiesprofiles)
+>   - [Securing Linux Containers](https://privsec.dev/posts/linux/desktop-linux-hardening/#securing-linux-containers)
+> - Security Hardening
+>   - [Umask 077](https://privsec.dev/posts/linux/desktop-linux-hardening/#umask-077)
+>   - [Microcode Updates](https://privsec.dev/posts/linux/desktop-linux-hardening/#microcode-updates)
+>   - [Firmware Updates](https://privsec.dev/posts/linux/desktop-linux-hardening/#firmware-updates)
+>   - [Firewall](https://privsec.dev/posts/linux/desktop-linux-hardening/#firewall)
+>   - Kernel Hardening
+>     - [Runtime Kernel Parameters (sysctl)](https://privsec.dev/posts/linux/desktop-linux-hardening/#runtime-kernel-parameters-sysctl)
+>     - Boot Parameters
+>       - [CPU mitigations](https://privsec.dev/posts/linux/desktop-linux-hardening/#cpu-mitigations)
+>       - [Kernel](https://privsec.dev/posts/linux/desktop-linux-hardening/#kernel)
+>       - [Entropy generation](https://privsec.dev/posts/linux/desktop-linux-hardening/#entropy-generation)
+>       - [DMA mitigations](https://privsec.dev/posts/linux/desktop-linux-hardening/#dma-mitigations)
+>     - [Kernel Modules](https://privsec.dev/posts/linux/desktop-linux-hardening/#kernel-modules)
+>     - [Restricting access to /proc and /sys](https://privsec.dev/posts/linux/desktop-linux-hardening/#restricting-access-to-proc-and-sys)
+>     - [linux-hardened](https://privsec.dev/posts/linux/desktop-linux-hardening/#linux-hardened)
+>     - [grsecurity](https://privsec.dev/posts/linux/desktop-linux-hardening/#grsecurity)
+>   - [Hardened Memory Allocator](https://privsec.dev/posts/linux/desktop-linux-hardening/#hardened-memory-allocator)
+>   - [Mountpoint Hardening](https://privsec.dev/posts/linux/desktop-linux-hardening/#mountpoint-hardening)
+>   - [Disabling SUID](https://privsec.dev/posts/linux/desktop-linux-hardening/#disabling-suid)
+>   - [DNSSEC](https://privsec.dev/posts/linux/desktop-linux-hardening/#dnssec)
+>   - [Time Synchronization](https://privsec.dev/posts/linux/desktop-linux-hardening/#time-synchronization)
+>   - [Pluggable Authentication Modules (PAM)](https://privsec.dev/posts/linux/desktop-linux-hardening/#pluggable-authentication-modules-pam)
+>   - Storage Media Handling
+>     - [UDisks](https://privsec.dev/posts/linux/desktop-linux-hardening/#udisks)
+>     - [autofs](https://privsec.dev/posts/linux/desktop-linux-hardening/#autofs)
+>   - [USB Port Protection](https://privsec.dev/posts/linux/desktop-linux-hardening/#usb-port-protection)
+> - Secure Boot
+>   - [Enrolling your own keys](https://privsec.dev/posts/linux/desktop-linux-hardening/#enrolling-your-own-keys)
+>   - [Unified Kernel Image](https://privsec.dev/posts/linux/desktop-linux-hardening/#unified-kernel-image)
+>   - Encrypted /boot
+>     - [openSUSE](https://privsec.dev/posts/linux/desktop-linux-hardening/#opensuse)
+>     - [Other Distributions](https://privsec.dev/posts/linux/desktop-linux-hardening/#other-distributions)
+>   - [Notes on Secure Boot](https://privsec.dev/posts/linux/desktop-linux-hardening/#notes-on-secure-boot)
+
 ## NGINX
 - 2022-02-22 [Avoiding the Top 10 NGINX Configuration Mistakes - NGINX](https://www.nginx.com/blog/avoiding-top-10-nginx-configuration-mistakes/)
 
