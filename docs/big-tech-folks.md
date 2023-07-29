@@ -51,3 +51,15 @@ This curated list features individuals who hold positions at leading tech compan
 2023-06-30  [Rebuilding Twitter Following Clean Architecture and Domain-Driven Design - Amichai Mantinband - YouTube](https://www.youtube.com/watch?v=O60aOTfaKrw) #ms
 
 - 2023-06-30 [Amichai Mantinband - YouTube](https://www.youtube.com/c/AmichaiMantinband)
+
+
+
+2023-07-29 [Nishant Chahar - YouTube](https://www.youtube.com/@NishantChahar11/videos)
+
+> Nishant Chahar
+>
+> I am a Software Engineer at Microsoft, graduated from NSIT in 2021
+>
+> Source: 2023-07-29 [I met youtuber Nishant Chahar. Amazing guy and one of the best coder at Microsoft. Thanks bhaiya! - Blind](https://www.teamblind.com/post/I-met-youtuber-Nishant-Chahar-Amazing-guy-and-one-of-the-best-coder-at-Microsoft-Thanks-bhaiya-MUaSos14)
+>
+> 
