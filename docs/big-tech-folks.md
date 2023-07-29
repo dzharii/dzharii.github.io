@@ -54,7 +54,7 @@ This curated list features individuals who hold positions at leading tech compan
 
 
 
-2023-07-29 [Nishant Chahar - YouTube](https://www.youtube.com/@NishantChahar11/videos)
+2023-07-29 [Nishant Chahar - YouTube](https://www.youtube.com/@NishantChahar11/videos) #ms
 
 > Nishant Chahar
 >
@@ -62,4 +62,4 @@ This curated list features individuals who hold positions at leading tech compan
 >
 > Source: 2023-07-29 [I met youtuber Nishant Chahar. Amazing guy and one of the best coder at Microsoft. Thanks bhaiya! - Blind](https://www.teamblind.com/post/I-met-youtuber-Nishant-Chahar-Amazing-guy-and-one-of-the-best-coder-at-Microsoft-Thanks-bhaiya-MUaSos14)
 >
-> 
+> ☣ #quarantine 
