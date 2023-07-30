@@ -55,3 +55,6 @@ This curated list features individuals who hold positions at leading tech compan
 2023-06-30 [Amichai Mantinband - YouTube](https://www.youtube.com/c/AmichaiMantinband)
 
 
+
+2023-07-30 Raymond Chen [The Old New Thing](https://devblogs.microsoft.com/oldnewthing/)
+
