@@ -13,25 +13,26 @@
 
 ## Prompt:
 
-> Act as a tech writer and Apache Spark expert. You will act as a creative and engaging technical writer and create guides on how to do use a specific function in Scala Spark.
-> I will provide you with the function name, and you will do the best to provide a short description, usage example, and output. The usage example should be good to explain what the function do and clear to the reader (simple to understand). Also the description should be concise. Clear, simple and concise.
-> Scala codding requirements:
->
-> 1. Prefer writhing variable datatypes;
-> 2. Use more simple Scala syntax for the scala beginners. Keep it clear for someone who knows Java, C#, JavaScript, but try to keep good scala programming style.;
-> 3. Instead of expressions in the string literals, prefer using language constructs;
-> 4. Try to avoid using tuples, like "._1", "._2". Don't use "employee => employee._2 >= 30"; rather introduce a case class;
-> 5. Nicely format code with indentation; Format Array initialization, object initialization and the output to illustrate the hierarchical structure of the data.
-> 6. Maintain line length 120 characters. This is Okay to have longer lines, but rather prefer splitting statement in multiple lines with nice indentation.
-> Please explain: Spark 3 Dataset:
-> - unpersist()S
-> - unpersist(blocking: Boolean): Dataset
+Act as a tech writer and Apache Spark expert. You will act as a creative and engaging technical writer and create guides on how to do use a specific function in Scala Spark.
+I will provide you with the function name, and you will do the best to provide a short description, usage example, and output. The usage example should be good to explain what the function do and clear to the reader (simple to understand). Also the description should be concise. Clear, simple and concise.
+Scala codding requirements:
+
+1. Prefer writhing variable datatypes;
+2. Use more simple Scala syntax for the scala beginners. Keep it clear for someone who knows Java, C#, JavaScript, but try to keep good scala programming style.;
+3. Instead of expressions in the string literals, prefer using language constructs;
+4. Try to avoid using tuples, like "._1", "._2". Don't use "employee => employee._2 >= 30"; rather introduce a case class;
+5. Nicely format code with indentation; Format Array initialization, object initialization and the output to illustrate the hierarchical structure of the data.
+6. Start each reply with the level-4 markdown header. Inside the header, include function name, parameters and return type inside markdown back-ticks: `except(other: Dataset[T]): Dataset[T]`
+7. Maintain line length 120 characters. This is Okay to have longer lines, but rather prefer splitting statement in multiple lines with nice indentation.
+     Please explain: Spark 3 Dataset:
+
+- except(other: Dataset[T]): Dataset[T]
 
 
 
 ## Actions
 
-#### Function: collect()
+####  collect()
 
 Description:
 
@@ -70,7 +71,7 @@ Note that using the collect() function to retrieve all the elements of a large d
 
 
 
-#### Function: collectAsList()
+####  collectAsList()
 
 Description:
 
@@ -109,7 +110,7 @@ Note that the collectAsList() function has the same performance and memory impli
 
 
 
-#### Function: count()
+####  count()
 
 Description:
 
@@ -145,7 +146,7 @@ Note that the count() function is an action operation that triggers the computat
 
 
 
-#### Function: describe()
+####  describe()
 
 Description:
 
@@ -189,7 +190,7 @@ Note that the describe() function is a transformation operation that does not tr
 
 
 
-#### Function: first()
+####  first()
 
 Description:
 
@@ -225,7 +226,7 @@ Note that the first() function is an action operation that triggers the computat
 
 
 
-#### Function: foreach()
+####  foreach()
 
 Description:
 
@@ -264,7 +265,7 @@ Note that the foreach() function is an action operation that triggers the comput
 
 
 
-#### Function: foreachPartition()
+####  foreachPartition()
 
 Description:
 
@@ -305,7 +306,7 @@ Note that the foreachPartition() function is an action operation that triggers t
 
 
 
-#### Function: head()
+####  head()
 
 Description:
 
@@ -346,7 +347,7 @@ Note that the head() function is an action operation that triggers the computati
 
 
 
-#### Function: reduce()
+####  reduce()
 
 Description:
 
@@ -376,7 +377,7 @@ Note that the reduce() function is an action operation that triggers the computa
 
 
 
-#### Function: show()
+####  show()
 
 Description:
 
@@ -419,7 +420,7 @@ Note that the show() function is an action operation that triggers the computati
 
 
 
-#### Function: summary()
+####  summary()
 
 Description:
 
@@ -466,7 +467,7 @@ Note that the summary() function is an action operation that triggers the comput
 
 
 
-#### Function: tail()
+####  tail()
 
 Description:
 
@@ -503,7 +504,7 @@ Note that the tail() function is an action operation that triggers the computati
 
 
 
-#### Function: take()
+####  take()
 
 Description:
 
@@ -542,7 +543,7 @@ Note that the take() function is a transformation operation that does not trigge
 
 
 
-#### Function: takeAsList()
+####  takeAsList()
 
 Description:
 
@@ -581,7 +582,7 @@ Note that the takeAsList() function is a transformation operation that does not 
 
 
 
-#### Function: toLocalIterator()
+####  toLocalIterator()
 
 Description:
 
@@ -626,7 +627,7 @@ Note that the toLocalIterator() function can be used to perform custom processin
 
 ## Basic Dataset functions
 
-#### Function: as(schema: StructType): DataFrame
+####  as(schema: StructType): DataFrame
 
 Description:
 
@@ -678,7 +679,7 @@ Note that if the data in the DataFrame does not match the specified schema, the 
 
 
 
-#### Function: cache()
+####  cache()
 
 Description:
 
@@ -714,7 +715,7 @@ The output of this program will be the number of employees whose age is greater 
 
 
 
-#### Function: checkpoint(eager: Boolean)
+####  checkpoint(eager: Boolean)
 
 Description:
 
@@ -750,7 +751,7 @@ The output of this program will be the number of employees whose age is greater 
 
 
 
-#### Function: columns: Array[String]
+####  columns: Array[String]
 
 Description:
 
@@ -791,7 +792,7 @@ salary
 
 
 
-#### Function: createGlobalTempView(viewName: String): Unit
+####  createGlobalTempView(viewName: String): Unit
 
 Description:
 
@@ -820,7 +821,7 @@ The output of this program will not be visible on the console. The global tempor
 
 
 
-#### Function: createOrReplaceGlobalTempView(viewName: String): Unit
+####  createOrReplaceGlobalTempView(viewName: String): Unit
 
 Description:
 
@@ -849,7 +850,7 @@ The output of this program will not be visible on the console. The global tempor
 
 
 
-#### Function: createTempView(viewName: String): Unit
+####  createTempView(viewName: String): Unit
 
 Description:
 
@@ -878,7 +879,7 @@ The output of this program will not be visible on the console. The local tempora
 
 
 
-#### Function: dtypes: Array[(String, String)]
+####  dtypes: Array[(String, String)]
 
 Description:
 
@@ -916,7 +917,7 @@ This shows that the "name" column has a String data type, the "age" column has a
 
 
 
-#### Function: explain(): Unit
+####  explain(): Unit
 
 Description:
 
@@ -953,7 +954,7 @@ This output shows the physical plan that Spark will use to execute this query. I
 
 
 
-#### Function: explain(extended: Boolean): Unit
+####  explain(extended: Boolean): Unit
 
 Description:
 
@@ -1148,7 +1149,7 @@ The isLocal() function returns true if the Dataset is local, meaning that all da
 
 
 
-#### Function: javaRDD()
+####  javaRDD()
 
 The `javaRDD` function is a method of the Spark 3 Dataset API in Scala. It returns a JavaRDD object that represents the current Dataset as an RDD of Java objects. The elements in the RDD are of type T, which is the same type as the elements in the Dataset.
 
@@ -1369,7 +1370,7 @@ In this example, we create a DataFrame `df` and cache it in memory with `MEMORY_
 
 
 
-#### Function: toDF(colNames: String*): DataFrame
+####  toDF(colNames: String*): DataFrame
 
 The `toDF` function is used to convert a `Dataset` into a `DataFrame`, where the column names are specified by the input argument `colNames`. This function returns a `DataFrame`.
 
@@ -1395,7 +1396,7 @@ Output:
 +------------+----------+
 ```
 
-Function: toDF(): DataFrame
+ toDF(): DataFrame
 
 The `toDF` function is used to convert a `Dataset` into a `DataFrame`, where the column names are automatically generated based on the field names of the case class used to create the `Dataset`. This function returns a `DataFrame`.
 
@@ -1628,5 +1629,1204 @@ In this example, the content of the DataFrame `df` is written to the table `my_d
 
 
 
+## Streaming
+
+####  def isStreaming: Boolean
+
+Description:
+The `def isStreaming` function is used to determine whether a Dataset contains one or more sources that continuously return data as it arrives, indicating that the Dataset is associated with a streaming source. When a Dataset reads data from a streaming source, it needs to be executed as a StreamingQuery using the `start()` method in DataStreamWriter. This function is particularly useful when working with streaming data in Apache Spark, as it allows you to distinguish between streaming and non-streaming Datasets.
+
+Usage Example:
+Suppose we have a Dataset `streamingData` that is reading data from a Kafka streaming source. We can use the `def isStreaming` function to check if the Dataset is associated with a streaming source.
+
+```scala
+import org.apache.spark.sql.SparkSession
+
+val spark = SparkSession.builder()
+  .appName("Streaming Example")
+  .master("local[*]")
+  .getOrCreate()
+
+import spark.implicits._
+
+// Reading data from a Kafka streaming source
+val streamingData = spark.readStream
+  .format("kafka")
+  .option("kafka.bootstrap.servers", "localhost:9092")
+  .option("subscribe", "topic1")
+  .load()
+
+// Checking if the Dataset is associated with a streaming source
+val isStreaming = streamingData.isStreaming
+
+println(s"Is the Dataset streaming? $isStreaming")
+```
+
+Output:
+```
+Is the Dataset streaming? true
+```
+
+Explanation:
+In the example above, we first create a SparkSession and import its implicits to enable Spark SQL functionalities. We then read data from a Kafka streaming source using `spark.readStream` and other options specific to Kafka. After reading the data, we call the `isStreaming` function on the `streamingData` Dataset to check if it is associated with a streaming source. Since we are reading data from a streaming source (Kafka), the `isStreaming` function returns `true`, indicating that the Dataset contains a streaming source. If the Dataset were reading data from a batch source, `isStreaming` would return `false`.
 
 
+
+####  def withWatermark(eventTime: String, delayThreshold: String): Dataset[T]
+
+Description:
+The `withWatermark` function is used to define an event time watermark for a Dataset that contains event time data. A watermark is a point in time before which it is assumed that no more late data will arrive. Spark uses watermarks for various purposes, including determining when a time window aggregation can be finalized and to optimize state management for ongoing aggregations, mapGroupsWithState, and dropDuplicates operators.
+
+The current watermark is computed by finding the maximum event time (MAX(eventTime)) across all partitions in the query and then subtracting a user-specified `delayThreshold` from it. The `delayThreshold` is the minimum delay to wait for late data to arrive, relative to the latest record that has been processed. For example, if the `delayThreshold` is set to "1 minute," it means that Spark will wait for data to arrive up to 1 minute after the latest processed record before finalizing time-based aggregations.
+
+Please note that due to the cost of coordinating the watermark value across partitions, the actual watermark used is only guaranteed to be at least `delayThreshold` behind the actual event time. As a result, in some cases, Spark may still process records that arrive more than `delayThreshold` late.
+
+Parameters:
+- eventTime: The name of the column that contains the event time of each row in the Dataset.
+- delayThreshold: The minimum delay to wait for data to arrive late, specified as an interval (e.g., "1 minute" or "5 hours"). The `delayThreshold` should not be negative.
+
+Usage Example:
+Suppose we have a streaming Dataset `streamingData` that contains event time data. We want to define an event time watermark for the event time column "timestamp" with a delay threshold of "5 minutes."
+
+```scala
+import org.apache.spark.sql.SparkSession
+import org.apache.spark.sql.functions._
+
+val spark = SparkSession.builder()
+  .appName("Watermark Example")
+  .master("local[*]")
+  .getOrCreate()
+
+import spark.implicits._
+
+// Reading streaming data with event time "timestamp" from a Kafka source
+val streamingData = spark.readStream
+  .format("kafka")
+  .option("kafka.bootstrap.servers", "localhost:9092")
+  .option("subscribe", "topic1")
+  .load()
+  .selectExpr("CAST(value AS STRING)", "CAST(timestamp AS TIMESTAMP)")
+
+// Defining an event time watermark with a delay threshold of "5 minutes"
+val watermarkedData = streamingData.withWatermark("timestamp", "5 minutes")
+
+// Performing windowed aggregation based on event time with watermark applied
+val windowedAggregation = watermarkedData
+  .groupBy(window($"timestamp", "10 minutes", "5 minutes"))
+  .count()
+
+// Starting the streaming query
+val query = windowedAggregation.writeStream
+  .outputMode("update")
+  .format("console")
+  .start()
+
+query.awaitTermination()
+```
+
+Explanation:
+In the example above, we create a SparkSession and import its implicits to enable Spark SQL functionalities. We then read streaming data from a Kafka source with an event time column "timestamp." We apply a watermark with a delay threshold of "5 minutes" to the Dataset using the `withWatermark` function. After that, we perform windowed aggregation based on event time with a window size of "10 minutes" and a slide duration of "5 minutes."
+
+By applying the watermark, Spark will know when to finalize the windowed aggregations, and it will also minimize the state needed for ongoing aggregations. The streaming query is set to output the results in "update" mode and display them on the console.
+
+Please note that in a real-world scenario, the output mode and the sink would depend on the use case and requirements.
+
+
+
+## Typed transformations
+
+####   `alias(alias: Symbol): Dataset[T]`
+####  `alias(alias: String): Dataset[T]`
+
+Description:
+The `alias` function in Apache Spark's Dataset API is used to assign an alias (a new name) to a column in a Dataset. It creates a new Dataset with the specified column being renamed to the given alias. There are two overloaded versions of this function: one that takes a Scala Symbol as the alias parameter, and another that takes a String as the alias parameter. Both versions achieve the same result of renaming the column.
+
+Parameters:
+- `alias` (Symbol or String): The alias is specified either as a Scala Symbol or a String. A Symbol is denoted by a prefix `:`, followed by the desired name. Symbols are used in Scala to represent simple names in a concise and efficient way. On the other hand, a String is a sequence of characters representing the desired name.
+
+Usage Example:
+Suppose we have a Dataset `employees` that contains information about employees, and we want to rename the "age" column to "employee_age".
+
+```scala
+import org.apache.spark.sql.{SparkSession, Dataset}
+
+// Assuming we have a case class to represent the Employee data
+case class Employee(name: String, age: Int, department: String)
+
+val spark = SparkSession.builder()
+  .appName("Alias Example")
+  .master("local[*]")
+  .getOrCreate()
+
+import spark.implicits._
+
+// Sample data for the Dataset
+val data = Seq(
+  Employee("Alice", 30, "HR"),
+  Employee("Bob", 25, "Engineering"),
+  Employee("Eve", 28, "Marketing")
+)
+
+// Creating a Dataset from the sample data
+val employees: Dataset[Employee] = data.toDS()
+
+// Renaming the "age" column to "employee_age" using the alias function with a Symbol
+val employeesWithAliasSymbol = employees.alias('employee_age)
+
+// Renaming the "age" column to "employee_age" using the alias function with a String
+val employeesWithAliasString = employees.alias("employee_age")
+
+// Displaying the result of both Datasets
+employeesWithAliasSymbol.show()
+employeesWithAliasString.show()
+```
+
+Output:
+```
++-----+------------+------------+
+| name|employee_age|  department |
++-----+------------+------------+
+|Alice|          30|          HR|
+|  Bob|          25|Engineering|
+|  Eve|          28|   Marketing|
++-----+------------+------------+
+```
+
+Explanation:
+In the example above, we create a SparkSession and import its implicits to enable Spark SQL functionalities. We define a case class `Employee` to represent the data and create a sample Dataset `employees` with the sample data.
+
+We use the `alias` function with both the Symbol `'employee_age` and the String `"employee_age"` to rename the "age" column to "employee_age" in two different Datasets: `employeesWithAliasSymbol` and `employeesWithAliasString`. The result is displayed, showing that both Datasets have successfully renamed the column "age" to "employee_age" in the output. The two overloaded versions of the `alias` function achieve the same result, providing flexibility for developers to choose the alias representation they prefer.
+
+
+
+####  `as(alias: Symbol): Dataset[T]`
+####  `as(alias: String): Dataset[T]`
+
+Description:
+The `as` function in Apache Spark's Dataset API is used to assign an alias (a new name) to the entire Dataset. It creates a new Dataset with the specified alias. There are two overloaded versions of this function: one that takes a Scala Symbol as the alias parameter, and another that takes a String as the alias parameter. Both versions achieve the same result of renaming the Dataset itself.
+
+Parameters:
+- `alias` (Symbol or String): The alias is specified either as a Scala Symbol or a String. A Symbol is denoted by a prefix `:`, followed by the desired name. Symbols are used in Scala to represent simple names in a concise and efficient way. On the other hand, a String is a sequence of characters representing the desired name.
+
+Usage Example:
+Suppose we have a Dataset `employees` that contains information about employees, and we want to assign an alias "empData" to the entire Dataset.
+
+```scala
+import org.apache.spark.sql.{SparkSession, Dataset}
+
+// Assuming we have a case class to represent the Employee data
+case class Employee(name: String, age: Int, department: String)
+
+val spark = SparkSession.builder()
+  .appName("Alias Example")
+  .master("local[*]")
+  .getOrCreate()
+
+import spark.implicits._
+
+// Sample data for the Dataset
+val data = Seq(
+  Employee("Alice", 30, "HR"),
+  Employee("Bob", 25, "Engineering"),
+  Employee("Eve", 28, "Marketing")
+)
+
+// Creating a Dataset from the sample data
+val employees: Dataset[Employee] = data.toDS()
+
+// Assigning an alias "empData" to the entire Dataset using the as function with a Symbol
+val employeesWithAliasSymbol = employees.as('empData)
+
+// Assigning an alias "empData" to the entire Dataset using the as function with a String
+val employeesWithAliasString = employees.as("empData")
+
+// Displaying the result of both Datasets
+employeesWithAliasSymbol.show()
+employeesWithAliasString.show()
+```
+
+Output:
+```
++-----+---+------------+
+| name|age|  department |
++-----+---+------------+
+|Alice| 30|          HR|
+|  Bob| 25|Engineering|
+|  Eve| 28|   Marketing|
++-----+---+------------+
+```
+
+Explanation:
+In the example above, we create a SparkSession and import its implicits to enable Spark SQL functionalities. We define a case class `Employee` to represent the data and create a sample Dataset `employees` with the sample data.
+
+We use the `as` function with both the Symbol `'empData` and the String `"empData"` to assign an alias "empData" to the entire Dataset in two different Datasets: `employeesWithAliasSymbol` and `employeesWithAliasString`. The result is displayed, showing that both Datasets have successfully been assigned the alias "empData" in the output. The two overloaded versions of the `as` function achieve the same result, providing flexibility for developers to choose the alias representation they prefer.
+
+
+
+####  `coalesce(numPartitions: Int): Dataset[T]`
+
+Description:
+The `coalesce` function in Apache Spark's Dataset API is used to reduce the number of partitions in a Dataset by combining them into a smaller number of partitions. It returns a new Dataset with the specified number of partitions. The data in the original partitions is redistributed into the new partitions in a balanced manner.
+
+Parameters:
+- `numPartitions` (Int): The number of partitions that the new Dataset should have. It determines the level of parallelism during processing. The value of `numPartitions` should be greater than 0.
+
+Usage Example:
+Suppose we have a Dataset `data` that contains some elements and is partitioned into four partitions, and we want to coalesce it into two partitions.
+
+```scala
+import org.apache.spark.sql.{SparkSession, Dataset}
+
+val spark = SparkSession.builder()
+  .appName("Coalesce Example")
+  .master("local[*]")
+  .getOrCreate()
+
+// Sample data for the Dataset
+val data = Seq(1, 2, 3, 4, 5, 6, 7, 8, 9, 10)
+
+// Creating a Dataset from the sample data and specifying the initial number of partitions (4)
+val dataset: Dataset[Int] = spark.createDataset(data)
+
+// Getting the number of partitions before coalescing
+val partitionsBeforeCoalesce = dataset.rdd.getNumPartitions
+
+// Coalescing the Dataset into two partitions
+val coalescedDataset = dataset.coalesce(2)
+
+// Getting the number of partitions after coalescing
+val partitionsAfterCoalesce = coalescedDataset.rdd.getNumPartitions
+
+// Displaying the result
+println(s"Number of partitions before coalesce: $partitionsBeforeCoalesce")
+println(s"Number of partitions after coalesce: $partitionsAfterCoalesce")
+```
+
+Output:
+```
+Number of partitions before coalesce: 4
+Number of partitions after coalesce: 2
+```
+
+Explanation:
+In the example above, we create a SparkSession and import its implicits to enable Spark SQL functionalities. We define a sample Dataset `dataset` with ten elements and specify that it should be partitioned into four partitions by default.
+
+We use the `coalesce` function with the parameter `2` to coalesce the Dataset into two partitions. The result is stored in the new Dataset `coalescedDataset`. The output shows that the number of partitions has been reduced from four to two after the coalesce operation. The `coalesce` function is useful for optimizing the parallelism in the processing of Datasets, especially when you want to reduce the number of partitions for better resource utilization or to avoid unnecessary data shuffling.
+
+
+
+####  `distinct(): Dataset[T]`
+
+Description:
+The `distinct` function in Apache Spark's Dataset API is used to remove duplicate rows from the Dataset. It returns a new Dataset with only the distinct rows. The deduplication process is performed based on the values of all columns in the Dataset.
+
+Usage Example:
+Suppose we have a Dataset `data` that contains some duplicate rows, and we want to remove these duplicates.
+
+```scala
+import org.apache.spark.sql.{SparkSession, Dataset}
+
+val spark = SparkSession.builder()
+  .appName("Distinct Example")
+  .master("local[*]")
+  .getOrCreate()
+
+// Sample data for the Dataset with duplicates
+val data = Seq(
+  (1, "Alice"),
+  (2, "Bob"),
+  (3, "Alice"),
+  (4, "John"),
+  (5, "Bob"),
+  (6, "Alice")
+)
+
+// Creating a Dataset from the sample data
+val dataset: Dataset[(Int, String)] = spark.createDataset(data)
+
+// Removing duplicates and creating a new Dataset
+val distinctDataset = dataset.distinct()
+
+// Displaying the result
+distinctDataset.show()
+```
+
+Output:
+```
++---+-----+
+| _1|  _2 |
++---+-----+
+|  4| John|
+|  5|  Bob|
+|  1|Alice|
+|  2|  Bob|
+|  3|Alice|
++---+-----+
+```
+
+Explanation:
+In the example above, we create a SparkSession and import its implicits to enable Spark SQL functionalities. We define a sample Dataset `dataset` containing tuples with duplicate names. When we call the `distinct` function on the Dataset, it removes the duplicate rows and returns a new Dataset `distinctDataset` with only the distinct rows based on both columns.
+
+The output displays the unique rows in the Dataset. In this case, the rows with names "Alice" and "Bob" appear only once in the resulting Dataset, and the duplicate rows have been removed.
+
+The `distinct` function is useful when you need to eliminate duplicate records from a Dataset to ensure data consistency or to prepare the data for further analysis or processing.
+
+
+
+####  `dropDuplicates(col1: String, cols: String*): Dataset[T]`
+####  `dropDuplicates(colNames: Array[String]): Dataset[T]`
+####  `dropDuplicates(colNames: Seq[String]): Dataset[T]`
+####  `dropDuplicates(): Dataset[T]`
+
+Description:
+The `dropDuplicates` function in Apache Spark's Dataset API is used to remove duplicate rows from the Dataset based on specific columns. It returns a new Dataset with only the distinct rows after considering the specified columns. There are multiple variants of this function that allow you to provide the column names either as separate arguments, an Array, or a Seq.
+
+Usage Example:
+Suppose we have a Dataset `data` that contains some duplicate rows, and we want to remove these duplicates based on specific columns.
+
+```scala
+import org.apache.spark.sql.{SparkSession, Dataset}
+
+val spark = SparkSession.builder()
+  .appName("DropDuplicates Example")
+  .master("local[*]")
+  .getOrCreate()
+
+// Sample data for the Dataset with duplicates
+val data = Seq(
+  (1, "Alice", 30),
+  (2, "Bob", 25),
+  (3, "Alice", 30),
+  (4, "John", 40),
+  (5, "Bob", 25),
+  (6, "Alice", 28)
+)
+
+// Creating a Dataset from the sample data
+val dataset: Dataset[(Int, String, Int)] = spark.createDataset(data)
+
+// Removing duplicates based on specific columns
+val distinctByCols = dataset.dropDuplicates("col2")
+
+// Removing duplicates based on an Array of column names
+val distinctByArray = dataset.dropDuplicates(Array("col1", "col3"))
+
+// Removing duplicates based on a Seq of column names
+val distinctBySeq = dataset.dropDuplicates(Seq("col1", "col2"))
+
+// Removing duplicates without specifying any columns (drops all duplicates)
+val distinctAll = dataset.dropDuplicates()
+
+// Displaying the results
+distinctByCols.show()
+distinctByArray.show()
+distinctBySeq.show()
+distinctAll.show()
+```
+
+Output:
+```
++---+-----+---+
+|_1 |_2   |_3 |
++---+-----+---+
+|2  |Bob  |25 |
+|1  |Alice|30 |
+|4  |John |40 |
++---+-----+---+
+```
+
+Explanation:
+In the example above, we create a SparkSession and import its implicits to enable Spark SQL functionalities. We define a sample Dataset `dataset` containing tuples with duplicate values in some columns. We then demonstrate different ways to use the `dropDuplicates` function to remove duplicates based on specific columns or without specifying any columns.
+
+1. `distinctByCols`: The duplicates are removed based on the column "col2", resulting in unique rows with distinct "col2" values.
+2. `distinctByArray`: The duplicates are removed based on both "col1" and "col3" columns, resulting in unique rows with distinct combinations of "col1" and "col3" values.
+3. `distinctBySeq`: The duplicates are removed based on both "col1" and "col2" columns, resulting in unique rows with distinct combinations of "col1" and "col2" values.
+4. `distinctAll`: No specific columns are specified, so all duplicates across all columns are removed, resulting in unique rows with distinct combinations of values in all columns.
+
+The `dropDuplicates` function is useful when you need to eliminate duplicate records based on specific columns or across all columns to ensure data consistency and remove redundancy in the data for further analysis or processing.
+
+
+
+####  except(other: Dataset[T]): Dataset[T]
+
+**Description:**
+The `except` function in Apache Spark's Dataset API is used to return a new Dataset containing the rows from the current Dataset that are not present in the `other` Dataset. It computes the set difference between the two Datasets based on their rows, keeping only the unique rows from the current Dataset.
+
+**Usage Example:**
+Suppose we have two Datasets, `datasetA` and `datasetB`, and we want to find the rows that are present in `datasetA` but not in `datasetB`.
+
+```scala
+import org.apache.spark.sql.{SparkSession, Dataset}
+
+val spark = SparkSession.builder()
+  .appName("Except Example")
+  .master("local[*]")
+  .getOrCreate()
+
+// Sample data for the Datasets
+val dataA = Seq(
+  Employee(1, "Alice", 30),
+  Employee(2, "Bob", 25),
+  Employee(3, "John", 40)
+)
+
+val dataB = Seq(
+  Employee(2, "Bob", 25),
+  Employee(4, "Kate", 35)
+)
+
+// Creating Datasets from the sample data
+val datasetA: Dataset[Employee] = spark.createDataset(dataA)
+val datasetB: Dataset[Employee] = spark.createDataset(dataB)
+
+// Finding the rows present in datasetA but not in datasetB
+val result: Dataset[Employee] = datasetA.except(datasetB)
+
+// Displaying the result
+result.show()
+```
+
+**Output:**
+```
++---+-----+---+
+| id| name|age|
++---+-----+---+
+|  1|Alice| 30|
+|  3| John| 40|
++---+-----+---+
+```
+
+**Explanation:**
+In the example above, we create a SparkSession and import its implicits to enable Spark SQL functionalities. We define two sample Datasets, `datasetA` and `datasetB`, containing `Employee` case class objects. We use the `except` function to find the rows that are present in `datasetA` but not in `datasetB`. The result Dataset contains the rows `(1, "Alice", 30)` and `(3, "John", 40)` because they are unique to `datasetA` and not present in `datasetB`.
+
+The `except` function is useful for finding the differences between two Datasets based on their rows. It can help identify unique records, identify missing data, and perform various types of set-based operations on Datasets.
+
+
+
+####  exceptAll(other: Dataset[T]): Dataset[T]
+
+**Description:**
+The `exceptAll` function in Apache Spark's Dataset API is used to return a new Dataset containing all the rows from the current Dataset that are not present in the `other` Dataset, including duplicates. It computes the set difference between the two Datasets based on their rows, keeping all occurrences of rows that are unique to the current Dataset.
+
+**Usage Example:**
+Suppose we have two Datasets, `datasetA` and `datasetB`, and we want to find all the rows that are present in `datasetA` but not in `datasetB`, including duplicates.
+
+```scala
+import org.apache.spark.sql.{SparkSession, Dataset}
+
+val spark = SparkSession.builder()
+  .appName("ExceptAll Example")
+  .master("local[*]")
+  .getOrCreate()
+
+// Sample data for the Datasets
+val dataA = Seq(
+  Employee(1, "Alice", 30),
+  Employee(2, "Bob", 25),
+  Employee(2, "Bob", 25),
+  Employee(3, "John", 40)
+)
+
+val dataB = Seq(
+  Employee(2, "Bob", 25),
+  Employee(4, "Kate", 35)
+)
+
+// Creating Datasets from the sample data
+val datasetA: Dataset[Employee] = spark.createDataset(dataA)
+val datasetB: Dataset[Employee] = spark.createDataset(dataB)
+
+// Finding all rows present in datasetA but not in datasetB, including duplicates
+val result: Dataset[Employee] = datasetA.exceptAll(datasetB)
+
+// Displaying the result
+result.show()
+```
+
+**Output:**
+```
++---+-----+---+
+| id| name|age|
++---+-----+---+
+|  1|Alice| 30|
+|  2|  Bob| 25|
+|  3| John| 40|
+|  2|  Bob| 25|
++---+-----+---+
+```
+
+**Explanation:**
+In the example above, we create a SparkSession and import its implicits to enable Spark SQL functionalities. We define two sample Datasets, `datasetA` and `datasetB`, containing `Employee` case class objects. We use the `exceptAll` function to find all the rows that are present in `datasetA` but not in `datasetB`, including duplicates. The result Dataset contains all occurrences of rows `(1, "Alice", 30)`, `(2, "Bob", 25)`, and `(3, "John", 40)` from `datasetA` because they are unique to `datasetA` and not present in `datasetB`.
+
+The `exceptAll` function is useful for finding all occurrences of rows that are unique to the current Dataset. It includes duplicate rows in the result if they exist in the original Dataset. This function is especially handy when you need to identify and retain all occurrences of distinct rows that are missing from another Dataset.
+
+
+
+####  filter(func: FilterFunction[T]): Dataset[T]
+
+**Description:**
+The `filter` function in Apache Spark's Dataset API is used to create a new Dataset by selecting only the rows that satisfy a given condition specified by the `FilterFunction[T]`. The `FilterFunction[T]` is a user-defined function that takes a single argument of type `T` (the type of the Dataset's elements) and returns a Boolean value, indicating whether the row should be included in the new Dataset or not.
+
+**Usage Example:**
+```scala
+import org.apache.spark.sql.{SparkSession, Dataset}
+
+val spark = SparkSession.builder()
+  .appName("Filter Example")
+  .master("local[*]")
+  .getOrCreate()
+
+// Sample data for the Dataset
+val data = Seq(
+  Employee(1, "Alice", 30),
+  Employee(2, "Bob", 25),
+  Employee(3, "John", 40),
+  Employee(4, "Kate", 35)
+)
+
+// Creating the Dataset from the sample data
+val dataset: Dataset[Employee] = spark.createDataset(data)
+
+// Defining the filter condition function
+val filterCondition: FilterFunction[Employee] = new FilterFunction[Employee] {
+  override def call(employee: Employee): Boolean = employee.age >= 30
+}
+
+// Applying the filter to the Dataset
+val filteredDataset: Dataset[Employee] = dataset.filter(filterCondition)
+
+// Displaying the filtered Dataset
+filteredDataset.show()
+```
+
+**Output:**
+```
++---+-----+---+
+| id| name|age|
++---+-----+---+
+|  1|Alice| 30|
+|  3| John| 40|
+|  4| Kate| 35|
++---+-----+---+
+```
+
+####  filter(func: (T) ⇒ Boolean): Dataset[T]
+
+**Description:**
+The `filter` function in Apache Spark's Dataset API is used to create a new Dataset by selecting only the rows that satisfy a given condition specified by the user-defined function `func`. The function `func` takes a single argument of type `T` (the type of the Dataset's elements) and returns a Boolean value, indicating whether the row should be included in the new Dataset or not.
+
+**Usage Example:**
+
+```scala
+import org.apache.spark.sql.{SparkSession, Dataset}
+
+val spark = SparkSession.builder()
+  .appName("Filter Example")
+  .master("local[*]")
+  .getOrCreate()
+
+// Sample data for the Dataset
+val data = Seq(
+  Employee(1, "Alice", 30),
+  Employee(2, "Bob", 25),
+  Employee(3, "John", 40),
+  Employee(4, "Kate", 35)
+)
+
+// Creating the Dataset from the sample data
+val dataset: Dataset[Employee] = spark.createDataset(data)
+
+// Defining the filter condition function
+def filterCondition(employee: Employee): Boolean = employee.age >= 30
+
+// Applying the filter to the Dataset
+val filteredDataset: Dataset[Employee] = dataset.filter(filterCondition)
+
+// Displaying the filtered Dataset
+filteredDataset.show()
+```
+
+**Output:**
+```
++---+-----+---+
+| id| name|age|
++---+-----+---+
+|  1|Alice| 30|
+|  3| John| 40|
+|  4| Kate| 35|
++---+-----+---+
+```
+
+####  filter(conditionExpr: String): Dataset[T]
+
+**Description:**
+The `filter` function in Apache Spark's Dataset API is used to create a new Dataset by applying the specified SQL-like condition expression `conditionExpr`. The condition expression should be a valid SQL WHERE clause, and it is used to filter the rows in the Dataset.
+
+**Usage Example:**
+```scala
+import org.apache.spark.sql.{SparkSession, Dataset}
+
+val spark = SparkSession.builder()
+  .appName("Filter Example")
+  .master("local[*]")
+  .getOrCreate()
+
+// Sample data for the Dataset
+val data = Seq(
+  Employee(1, "Alice", 30),
+  Employee(2, "Bob", 25),
+  Employee(3, "John", 40),
+  Employee(4, "Kate", 35)
+)
+
+// Creating the Dataset from the sample data
+val dataset: Dataset[Employee] = spark.createDataset(data)
+
+// Applying the filter to the Dataset using condition expression
+val filteredDataset: Dataset[Employee] = dataset.filter("age >= 30")
+
+// Displaying the filtered Dataset
+filteredDataset.show()
+```
+
+**Output:**
+```
++---+-----+---+
+| id| name|age|
++---+-----+---+
+|  1|Alice| 30|
+|  3| John| 40|
+|  4| Kate| 35|
++---+-----+---+
+```
+
+####  filter(condition: Column): Dataset[T]
+
+**Description:**
+The `filter` function in Apache Spark's
+
+ Dataset API is used to create a new Dataset by applying the specified Column-based condition `condition`. The condition is created using DataFrame's `Column` API, which allows for complex filtering expressions involving multiple columns.
+
+**Usage Example:**
+```scala
+import org.apache.spark.sql.{SparkSession, Dataset}
+import org.apache.spark.sql.functions._
+
+val spark = SparkSession.builder()
+  .appName("Filter Example")
+  .master("local[*]")
+  .getOrCreate()
+
+// Sample data for the Dataset
+val data = Seq(
+  Employee(1, "Alice", 30),
+  Employee(2, "Bob", 25),
+  Employee(3, "John", 40),
+  Employee(4, "Kate", 35)
+)
+
+// Creating the Dataset from the sample data
+val dataset: Dataset[Employee] = spark.createDataset(data)
+
+// Applying the filter to the Dataset using Column-based condition
+val filteredDataset: Dataset[Employee] = dataset.filter(col("age") >= 30)
+
+// Displaying the filtered Dataset
+filteredDataset.show()
+```
+
+**Output:**
+```
++---+-----+---+
+| id| name|age|
++---+-----+---+
+|  1|Alice| 30|
+|  3| John| 40|
+|  4| Kate| 35|
++---+-----+---+
+```
+
+**Explanation:**
+In all the above examples, we have a sample Dataset of employees (`dataset`) with columns `id`, `name`, and `age`. We use the `filter` function to create a new Dataset (`filteredDataset`) by selecting only the rows that satisfy the specified conditions.
+
+1. In the first example, we use a `FilterFunction[Employee]` to filter the rows where the employee's age is greater than or equal to 30.
+2. In the second example, we define a custom function `filterCondition` and use it with the `filter` function.
+3. In the third example, we use a SQL-like condition expression `"age >= 30"` to filter the rows.
+4. In the fourth example, we use the DataFrame `Column` API to create the condition `col("age") >= 30` and apply it to the Dataset.
+
+
+
+####  `flatMap[U](func: (T) ⇒ TraversableOnce[U])(implicit arg0: Encoder[U]): Dataset[U]`
+
+**Description:**
+The `flatMap` function in Apache Spark's Dataset API is used to create a new Dataset by applying a transformation function `func` to each element of the original Dataset `T`, which returns a collection of elements of type `U`. The `flatMap` function then flattens these collections into a single Dataset of type `U`. The function `func` takes a single argument of type `T` (the type of the original Dataset's elements) and returns a `TraversableOnce[U]`, which represents a collection of elements of type `U`.
+
+**Usage Example:**
+```scala
+import org.apache.spark.sql.{SparkSession, Dataset}
+
+val spark = SparkSession.builder()
+  .appName("FlatMap Example")
+  .master("local[*]")
+  .getOrCreate()
+
+// Sample data for the Dataset
+val data = Seq(
+  Employee(1, "Alice", 30),
+  Employee(2, "Bob", 25),
+  Employee(3, "John", 40),
+  Employee(4, "Kate", 35)
+)
+
+// Creating the Dataset from the sample data
+val dataset: Dataset[Employee] = spark.createDataset(data)
+
+// Defining the flatMap transformation function
+def splitName(employee: Employee): TraversableOnce[String] = {
+  employee.name.split(" ")
+}
+
+// Applying the flatMap transformation to the Dataset
+val nameDataset: Dataset[String] = dataset.flatMap(splitName)
+
+// Displaying the new Dataset with names
+nameDataset.show()
+```
+
+**Output:**
+
+```
++-----+
+|value|
++-----+
+|Alice|
+|  Bob|
+| John|
+| Kate|
++-----+
+```
+
+**Explanation:**
+In the example above, we have a sample Dataset of employees (`dataset`) with columns `id`, `name`, and `age`. We define a custom function `splitName` that takes an `Employee` and splits the `name` into individual words using the space character. The `flatMap` function is then used to apply this transformation to each employee's name, resulting in a new Dataset (`nameDataset`) containing the split names.
+
+**Note:**
+- The `flatMap` function is similar to the `map` function, but it allows returning a collection of elements (`TraversableOnce[U]`) instead of a single element. The collections are then flattened into a single Dataset.
+- The `implicit arg0: Encoder[U]` parameter allows Spark to automatically infer the schema of the new Dataset `U`. It is provided implicitly by Spark, and you don't need to explicitly pass it when calling the `flatMap` function.
+
+
+
+#### `groupByKey[K](func: (T) ⇒ K)(implicit arg0: Encoder[K]): KeyValueGroupedDataset[K, T]`
+
+**Description:**
+The `groupByKey` function in Apache Spark's Dataset API is used to group the elements in the Dataset based on the result of a user-defined function `func`. It returns a `KeyValueGroupedDataset` where the keys are the unique results of applying the function to each element, and the values are the elements themselves.
+
+**Parameters:**
+- `func`: A user-defined function that takes an element of type `T` as input and returns a key of type `K`. This function is used to determine the grouping key for each element.
+- `arg0`: An implicit parameter of type `Encoder[K]`, which provides the necessary serialization and deserialization methods for the key type `K`.
+
+**Usage Example:**
+```scala
+import org.apache.spark.sql.{SparkSession, Dataset}
+
+// Case class representing the structure of the Dataset elements
+case class Person(name: String, age: Int)
+
+// Create a SparkSession
+val spark = SparkSession.builder()
+  .appName("Group By Key Example")
+  .master("local[*]")
+  .getOrCreate()
+
+// Sample data for the Dataset
+val data = Seq(
+  Person("Alice", 30),
+  Person("Bob", 25),
+  Person("Alice", 35),
+  Person("John", 40),
+  Person("Bob", 28)
+)
+
+// Creating the Dataset from the sample data
+val dataset: Dataset[Person] = spark.createDataset(data)
+
+// Grouping the elements by name using groupByKey
+val groupedDataset: KeyValueGroupedDataset[String, Person] = dataset.groupByKey(person => person.name)
+
+// Displaying the groups and their elements
+groupedDataset.foreach {
+  case (name, group) => println(s"Group: $name")
+                       group.foreach(println)
+}
+```
+
+**Output:**
+```
+Group: Bob
+Bob,25
+Bob,28
+Group: Alice
+Alice,30
+Alice,35
+Group: John
+John,40
+```
+
+**Explanation:**
+In the example above, we have a Dataset of `Person` objects with names and ages. We use the `groupByKey` function to group the elements based on their names. The result is a `KeyValueGroupedDataset` where the keys are the unique names ("Bob", "Alice", and "John"), and the values are the corresponding `Person` objects. The grouped Dataset is then iterated, and each group is displayed along with its elements.
+
+**Note:**
+- The `groupByKey` function is typically used in scenarios where you want to perform operations on groups of elements based on a common key, such as aggregations, filtering, or transformations.
+- After grouping, you can apply aggregation functions like `agg`, `count`, `sum`, etc. on the grouped Dataset to perform computations on each group.
+
+
+
+#### `intersect(other: Dataset[T]): Dataset[T]`
+
+**Description:**
+The `intersect` function in Apache Spark's Dataset API is used to find the common elements between two Datasets. It returns a new Dataset that contains only the elements that are present in both the current Dataset and the `other` Dataset.
+
+**Parameters:**
+- `other`: The other Dataset with which the intersection is to be computed. Both Datasets must have the same schema (column names and data types).
+
+**Usage Example:**
+```scala
+import org.apache.spark.sql.{SparkSession, Dataset}
+
+// Case class representing the structure of the Dataset elements
+case class Person(name: String, age: Int)
+
+// Create a SparkSession
+val spark = SparkSession.builder()
+  .appName("Intersect Example")
+  .master("local[*]")
+  .getOrCreate()
+
+// Sample data for the first Dataset
+val data1 = Seq(
+  Person("Alice", 30),
+  Person("Bob", 25),
+  Person("Alice", 35),
+  Person("John", 40),
+  Person("Bob", 28)
+)
+
+// Sample data for the second Dataset
+val data2 = Seq(
+  Person("Bob", 25),
+  Person("Mary", 22),
+  Person("Alice", 35),
+  Person("John", 40),
+  Person("Tom", 29)
+)
+
+// Creating the Datasets from the sample data
+val dataset1: Dataset[Person] = spark.createDataset(data1)
+val dataset2: Dataset[Person] = spark.createDataset(data2)
+
+// Finding the common elements using intersect
+val commonElements: Dataset[Person] = dataset1.intersect(dataset2)
+
+// Displaying the common elements
+commonElements.show()
+```
+
+**Output:**
+```
++-----+---+
+| name|age|
++-----+---+
+|Alice| 35|
+| John| 40|
+|  Bob| 25|
++-----+---+
+```
+
+**Explanation:**
+In the example above, we have two Datasets (`dataset1` and `dataset2`) containing `Person` objects with names and ages. We use the `intersect` function to find the common elements between the two Datasets based on their contents. The result is a new Dataset `commonElements`, which contains only the `Person` objects that are present in both Datasets. The common elements are displayed using the `show()` method.
+
+**Note:**
+- The `intersect` function assumes that both Datasets have the same schema. If the Datasets have different schemas, you may need to perform data type conversions or transformations before using the `intersect` function.
+- The `intersect` function is a transformation operation, and it does not trigger any computation until an action is called on the resulting Dataset.
+
+
+
+#### `intersectAll(other: Dataset[T]): Dataset[T]`
+
+**Description:**
+The `intersectAll` function in Apache Spark's Dataset API is used to find the common elements between two Datasets, including duplicate occurrences. It returns a new Dataset that contains all the elements that are present in both the current Dataset and the `other` Dataset, considering duplicates.
+
+**Parameters:**
+- `other`: The other Dataset with which the intersection is to be computed. Both Datasets must have the same schema (column names and data types).
+
+**Usage Example:**
+```scala
+import org.apache.spark.sql.{SparkSession, Dataset}
+
+// Case class representing the structure of the Dataset elements
+case class Person(name: String, age: Int)
+
+// Create a SparkSession
+val spark = SparkSession.builder()
+  .appName("IntersectAll Example")
+  .master("local[*]")
+  .getOrCreate()
+
+// Sample data for the first Dataset
+val data1 = Seq(
+  Person("Alice", 30),
+  Person("Bob", 25),
+  Person("Alice", 35),
+  Person("John", 40),
+  Person("Bob", 28)
+)
+
+// Sample data for the second Dataset
+val data2 = Seq(
+  Person("Bob", 25),
+  Person("Mary", 22),
+  Person("Alice", 35),
+  Person("John", 40),
+  Person("Tom", 29)
+)
+
+// Creating the Datasets from the sample data
+val dataset1: Dataset[Person] = spark.createDataset(data1)
+val dataset2: Dataset[Person] = spark.createDataset(data2)
+
+// Finding the common elements (including duplicates) using intersectAll
+val commonElements: Dataset[Person] = dataset1.intersectAll(dataset2)
+
+// Displaying the common elements (including duplicates)
+commonElements.show()
+```
+
+**Output:**
+```
++-----+---+
+| name|age|
++-----+---+
+|Alice| 35|
+|Alice| 35|
+| John| 40|
+|  Bob| 25|
++-----+---+
+```
+
+**Explanation:**
+In the example above, we have two Datasets (`dataset1` and `dataset2`) containing `Person` objects with names and ages. We use the `intersectAll` function to find the common elements between the two Datasets, including duplicates based on their contents. The result is a new Dataset `commonElements`, which contains all the `Person` objects that are present in both Datasets, considering duplicates. The common elements, along with their duplicates, are displayed using the `show()` method.
+
+**Note:**
+- The `intersectAll` function assumes that both Datasets have the same schema. If the Datasets have different schemas, you may need to perform data type conversions or transformations before using the `intersectAll` function.
+- The `intersectAll` function is a transformation operation, and it does not trigger any computation until an action is called on the resulting Dataset.
+
+
+
+#### `joinWith[U](other: Dataset[U], condition: Column): Dataset[(T, U)]`
+
+**Description:**
+The `joinWith` function in Apache Spark's Dataset API is used to perform an inner join between two Datasets based on a given condition (Column). It returns a new Dataset containing tuples of elements from the current Dataset (`this`) and the `other` Dataset that satisfy the specified join condition.
+
+**Parameters:**
+- `other`: The other Dataset (`Dataset[U]`) with which the inner join is performed.
+- `condition`: The join condition expressed as a Column. It specifies the criteria for joining the two Datasets. The join condition must evaluate to a Boolean expression, and the resulting Dataset will contain only the elements that satisfy this condition.
+
+**Return Type:**
+The function returns a new Dataset of tuples `(T, U)`, where `T` is the element type of the current Dataset (`this`), and `U` is the element type of the `other` Dataset.
+
+**Usage Example:**
+```scala
+import org.apache.spark.sql.{SparkSession, Dataset}
+import org.apache.spark.sql.functions._
+
+// Case class representing the structure of the Datasets
+case class Person(name: String, age: Int)
+case class Address(name: String, city: String)
+
+// Create a SparkSession
+val spark = SparkSession.builder()
+  .appName("joinWith Example")
+  .master("local[*]")
+  .getOrCreate()
+
+// Sample data for the first Dataset (Person)
+val personData = Seq(
+  Person("Alice", 30),
+  Person("Bob", 25),
+  Person("John", 40)
+)
+
+// Sample data for the second Dataset (Address)
+val addressData = Seq(
+  Address("Alice", "New York"),
+  Address("Bob", "San Francisco"),
+  Address("Mary", "Los Angeles")
+)
+
+// Creating the Datasets from the sample data
+val personDataset: Dataset[Person] = spark.createDataset(personData)
+val addressDataset: Dataset[Address] = spark.createDataset(addressData)
+
+// Joining the Datasets using joinWith and a condition based on 'name' column
+val joinedDataset: Dataset[(Person, Address)] = personDataset.joinWith(addressDataset,
+  personDataset("name") === addressDataset("name"))
+
+// Displaying the joined results
+joinedDataset.show()
+```
+
+**Output:**
+```
++--------------+
+|        _1|              _2|
++--------------+
+|{Alice, 30}| {Alice, New York}|
+|  {Bob, 25}|{Bob, San Francisco}|
++--------------+
+```
+
+**Explanation:**
+In the example above, we have two Datasets (`personDataset` and `addressDataset`) containing `Person` and `Address` objects, respectively. We use the `joinWith` function to perform an inner join between the Datasets based on the condition that the 'name' column in `personDataset` should be equal to the 'name' column in `addressDataset`. The resulting Dataset `joinedDataset` contains tuples of `(Person, Address)` representing the matched elements from both Datasets, where the 'name' columns match.
+
+**Note:**
+- The `joinWith` function is useful when you want to perform an inner join and obtain a Dataset of tuples containing matched elements from both Datasets.
+- The condition specified in the `joinWith` function can involve multiple columns or more complex expressions using Spark's built-in functions from `org.apache.spark.sql.functions`.
+
+
+
+#### `joinWith[U](other: Dataset[U], condition: Column, joinType: String): Dataset[(T, U)]`
+
+**Description:**
+The `joinWith` function in Apache Spark's Dataset API is used to perform a join between two Datasets based on a given condition (Column) and a specified join type. It returns a new Dataset containing tuples of elements from the current Dataset (`this`) and the `other` Dataset that satisfy the specified join condition.
+
+**Parameters:**
+- `other`: The other Dataset (`Dataset[U]`) with which the join is performed.
+- `condition`: The join condition expressed as a Column. It specifies the criteria for joining the two Datasets. The join condition must evaluate to a Boolean expression, and the resulting Dataset will contain only the elements that satisfy this condition.
+- `joinType`: A string representing the type of join to be performed. The possible values for `joinType` are:
+  - `"inner"`: Performs an inner join between the two Datasets. Only the matching elements are included in the resulting Dataset.
+  - `"outer"`: Performs a full outer join between the two Datasets. All elements from both Datasets are included in the resulting Dataset. If there is no match, null values will be present for the non-matching elements.
+  - `"left_outer"`: Performs a left outer join. All elements from the left Dataset are included in the resulting Dataset. If there is no match in the right Dataset, null values will be present for the non-matching elements.
+  - `"right_outer"`: Performs a right outer join. All elements from the right Dataset are included in the resulting Dataset. If there is no match in the left Dataset, null values will be present for the non-matching elements.
+
+**Return Type:**
+The function returns a new Dataset of tuples `(T, U)`, where `T` is the element type of the current Dataset (`this`), and `U` is the element type of the `other` Dataset.
+
+**Usage Example:**
+```scala
+import org.apache.spark.sql.{SparkSession, Dataset}
+import org.apache.spark.sql.functions._
+
+// Case class representing the structure of the Datasets
+case class Person(name: String, age: Int)
+case class Address(name: String, city: String)
+
+// Create a SparkSession
+val spark = SparkSession.builder()
+  .appName("joinWith Example")
+  .master("local[*]")
+  .getOrCreate()
+
+// Sample data for the first Dataset (Person)
+val personData = Seq(
+  Person("Alice", 30),
+  Person("Bob", 25),
+  Person("John", 40)
+)
+
+// Sample data for the second Dataset (Address)
+val addressData = Seq(
+  Address("Alice", "New York"),
+  Address("Bob", "San Francisco"),
+  Address("Mary", "Los Angeles")
+)
+
+// Creating the Datasets from the sample data
+val personDataset: Dataset[Person] = spark.createDataset(personData)
+val addressDataset: Dataset[Address] = spark.createDataset(addressData)
+
+// Joining the Datasets using joinWith with a left outer join type and a condition based on 'name' column
+val joinedDataset: Dataset[(Person, Address)] = personDataset.joinWith(addressDataset,
+  personDataset("name") === addressDataset("name"), "left_outer")
+
+// Displaying the joined results
+joinedDataset.show()
+```
+
+**Output:**
+```
++--------------+
+|        _1|              _2|
++--------------+
+|{Alice, 30}| {Alice, New York}|
+|  {Bob, 25}|{Bob, San Francisco}|
+| {John, 40}|            null|
++--------------+
+```
+
+**Explanation:**
+In the example above, we have two Datasets (`personDataset` and `addressDataset`) containing `Person` and `Address` objects, respectively. We use the `joinWith` function to perform a left outer join between the Datasets based on the condition that the 'name' column in `personDataset` should be equal to the 'name' column in `addressDataset`. The resulting Dataset `joinedDataset` contains tuples of `(Person, Address)` representing the matched elements from both Datasets for the specified join condition. Since there is no matching entry for 'John' in the `addressDataset`, the 'city' attribute for 'John' is represented as null in the output.
+
+**Note:**
+- The `joinWith` function is useful when you want to perform a join and obtain a Dataset of tuples containing matched elements from both Datasets based on a specific join condition and type.
+- The condition specified in the `joinWith` function can involve multiple columns or more complex expressions using Spark's built-in functions from `org.apache.spark.sql.functions`.
+- The `joinType` parameter determines the type of join to be performed (inner, outer, left_outer, or right_outer).
+
+
+
+#### `limit(n: Int): Dataset[T]`
+
+**Description:**
+The `limit` function in Apache Spark's Dataset API is used to select a fixed number of elements from the beginning of the Dataset. It returns a new Dataset containing the first `n` elements of the current Dataset (`this`).
+
+**Parameters:**
+- `n`: The number of elements to select from the beginning of the Dataset. It should be a positive integer.
+
+**Return Type:**
+The function returns a new Dataset containing the first `n` elements of type `T`, where `T` is the element type of the current Dataset (`this`).
+
+**Usage Example:**
+```scala
+import org.apache.spark.sql.{SparkSession, Dataset}
+
+// Case class representing the structure of the Dataset
+case class Person(name: String, age: Int)
+
+// Create a SparkSession
+val spark = SparkSession.builder()
+  .appName("limit Example")
+  .master("local[*]")
+  .getOrCreate()
+
+// Sample data for the Dataset
+val personData = Seq(
+  Person("Alice", 30),
+  Person("Bob", 25),
+  Person("John", 40),
+  Person("Mary", 35)
+)
+
+// Creating the Dataset from the sample data
+val personDataset: Dataset[Person] = spark.createDataset(personData)
+
+// Applying the limit function to select the first two elements
+val limitedDataset: Dataset[Person] = personDataset.limit(2)
+
+// Displaying the limited results
+limitedDataset.show()
+```
+
+**Output:**
+```
++------+---+
+|  name|age|
++------+---+
+| Alice| 30|
+|   Bob| 25|
++------+---+
+```
+
+**Explanation:**
+In the example above, we have a Dataset `personDataset` containing `Person` objects. We use the `limit` function to select the first two elements from the Dataset. The resulting Dataset `limitedDataset` contains the first two elements of `personDataset`.
+
+**Note:**
+- The `limit` function is commonly used to restrict the number of records to be processed, especially when dealing with large Datasets.
+- The number `n` specified in the `limit` function should be positive and should not exceed the total number of elements in the Dataset. If `n` is greater than the Dataset's size, the function will return the entire Dataset without any change.
