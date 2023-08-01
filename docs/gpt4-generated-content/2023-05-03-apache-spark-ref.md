@@ -4,6 +4,8 @@
 
 [[_TOC_]]
 
+
+
 ## Inspired by:
 
 - [Act as a Tech Writer](https://github.com/f/awesome-chatgpt-prompts#act-as-a-tech-writer)
@@ -2830,3 +2832,1352 @@ In the example above, we have a Dataset `personDataset` containing `Person` obje
 **Note:**
 - The `limit` function is commonly used to restrict the number of records to be processed, especially when dealing with large Datasets.
 - The number `n` specified in the `limit` function should be positive and should not exceed the total number of elements in the Dataset. If `n` is greater than the Dataset's size, the function will return the entire Dataset without any change.
+
+
+
+#### `limit(n: Int): Dataset[T]`
+
+**Description:**
+The `limit` function in Apache Spark's Dataset API is used to select a fixed number of elements from the beginning of the Dataset. It returns a new Dataset containing the first `n` elements of the current Dataset (`this`).
+
+**Parameters:**
+- `n`: The number of elements to select from the beginning of the Dataset. It should be a positive integer.
+
+**Return Type:**
+The function returns a new Dataset containing the first `n` elements of type `T`, where `T` is the element type of the current Dataset (`this`).
+
+**Usage Example:**
+```scala
+import org.apache.spark.sql.{SparkSession, Dataset}
+
+// Case class representing the structure of the Dataset
+case class Person(name: String, age: Int)
+
+// Create a SparkSession
+val spark = SparkSession.builder()
+  .appName("limit Example")
+  .master("local[*]")
+  .getOrCreate()
+
+// Sample data for the Dataset
+val personData = Seq(
+  Person("Alice", 30),
+  Person("Bob", 25),
+  Person("John", 40),
+  Person("Mary", 35)
+)
+
+// Creating the Dataset from the sample data
+val personDataset: Dataset[Person] = spark.createDataset(personData)
+
+// Applying the limit function to select the first two elements
+val limitedDataset: Dataset[Person] = personDataset.limit(2)
+
+// Displaying the limited results
+limitedDataset.show()
+```
+
+**Output:**
+```
++------+---+
+|  name|age|
++------+---+
+| Alice| 30|
+|   Bob| 25|
++------+---+
+```
+
+**Explanation:**
+In the example above, we have a Dataset `personDataset` containing `Person` objects. We use the `limit` function to select the first two elements from the Dataset. The resulting Dataset `limitedDataset` contains the first two elements of `personDataset`.
+
+**Note:**
+- The `limit` function is commonly used to restrict the number of records to be processed, especially when dealing with large Datasets.
+- The number `n` specified in the `limit` function should be positive and should not exceed the total number of elements in the Dataset. If `n` is greater than the Dataset's size, the function will return the entire Dataset without any change.
+
+#### `mapPartitions[U](func: (Iterator[T]) ⇒ Iterator[U])(implicit arg0: Encoder[U]): Dataset[U]`
+
+**Description:**
+The `mapPartitions` function in Apache Spark's Dataset API is used to apply a transformation to each partition of the Dataset `this`. It takes a mapping function that operates on an iterator of elements of type `T`, and the function returns an iterator of elements of type `U`. The transformation is performed on each partition, and the resulting elements from all partitions are combined to create a new Dataset of type `U`.
+
+**Parameters:**
+- `func`: The mapping function that takes an iterator of elements of type `T` from a partition and returns an iterator of elements of type `U`. This function is applied to each partition of the Dataset.
+- `arg0`: An implicit `Encoder` for type `U`, which is required to serialize the transformed elements of type `U` back to Spark's internal binary format.
+
+**Return Type:**
+The function returns a new Dataset of type `U`, where `U` is the type of elements returned by the mapping function `func`.
+
+**Usage Example:**
+```scala
+import org.apache.spark.sql.{SparkSession, Dataset}
+
+// Case class representing the structure of the Dataset
+case class Person(name: String, age: Int)
+
+// Create a SparkSession
+val spark = SparkSession.builder()
+  .appName("mapPartitions Example")
+  .master("local[*]")
+  .getOrCreate()
+
+// Sample data for the Dataset
+val personData = Seq(
+  Person("Alice", 30),
+  Person("Bob", 25),
+  Person("John", 40),
+  Person("Mary", 35),
+  Person("David", 28),
+  Person("Eva", 33)
+)
+
+// Creating the Dataset from the sample data
+val personDataset: Dataset[Person] = spark.createDataset(personData)
+
+// Applying the mapPartitions function to transform each age to its square
+val ageSquaredDataset: Dataset[Int] = personDataset.mapPartitions { partitionIterator =>
+  partitionIterator.map(person => person.age * person.age)
+}
+
+// Displaying the transformed Dataset
+ageSquaredDataset.show()
+```
+
+**Output:**
+```
++-----+
+|value|
++-----+
+|  900|
+|  625|
+| 1600|
+| 1225|
+|  784|
+| 1089|
++-----+
+```
+
+**Explanation:**
+In the example above, we have a Dataset `personDataset` containing `Person` objects. We use the `mapPartitions` function to transform each person's age (of type `Int`) into its square (of type `Int`). The transformation is performed on each partition, and the resulting Dataset `ageSquaredDataset` contains the squares of ages.
+
+**Note:**
+- The `mapPartitions` function is useful when you need to apply a transformation that requires processing a whole partition at once. It can be more efficient than `map` when the transformation is costly and has a significant setup or teardown overhead.
+- The transformation function `func` takes an iterator for efficiency and should be designed to work on partitions of data, not on single elements.
+- The implicit `Encoder[U]` is required to serialize the transformed elements of type `U` back to Spark's internal binary format. The SparkSession automatically provides suitable encoders for standard Scala types, so explicit encoders are often not necessary for basic transformations. However, in more complex scenarios or when working with custom types, explicit encoders may be required.
+
+
+
+#### `observe(observation: Observation, expr: Column, exprs: Column*): Dataset[T]`
+#### `observe(name: String, expr: Column, exprs: Column*): Dataset[T]`
+
+**Description:**
+The `observe` function in Apache Spark's Dataset API is used to observe the internal state of a streaming query while it is running. It allows users to register observations on the Dataset during the query execution. Observations are used for debugging, monitoring, or any other custom operations that need to be performed during the execution of the streaming query.
+
+**Parameters:**
+- `observation`: An instance of the `Observation` class, which represents the specific observation to be made during the query execution. The `Observation` class provides methods to register various types of observations, such as logging messages, writing data to external storage, or triggering user-defined actions.
+- `name`: A string representing a name for the observation. This is used to identify the observation in the query output or logs.
+- `expr`: A `Column` object representing the expression to be evaluated during the observation. This can be any valid Spark SQL expression that operates on the columns of the Dataset.
+- `exprs`: Additional `Column` objects (varargs) representing more expressions to be evaluated during the observation.
+
+**Return Type:**
+The function returns a new Dataset of type `T`, which is the same as the original Dataset the observation is registered on. The observation does not affect the original Dataset but allows additional actions to be taken during its execution.
+
+**Usage Example:**
+```scala
+import org.apache.spark.sql.{SparkSession, Dataset}
+import org.apache.spark.sql.streaming.{OutputMode, Observation}
+
+// Case class representing the structure of the Dataset
+case class Person(name: String, age: Int)
+
+// Create a SparkSession
+val spark = SparkSession.builder()
+  .appName("observe Example")
+  .master("local[*]")
+  .getOrCreate()
+
+// Sample data for the Dataset
+val personData = Seq(
+  Person("Alice", 30),
+  Person("Bob", 25),
+  Person("John", 40),
+  Person("Mary", 35),
+  Person("David", 28),
+  Person("Eva", 33)
+)
+
+// Creating the Dataset from the sample data
+val personDataset: Dataset[Person] = spark.createDataset(personData)
+
+// Registering an observation to log the age of each person
+val ageObservation = Observation.log("Age Observation:").withColumn("name", $"name").withColumn("age", $"age")
+
+// Applying the observe function to log the age of each person during the execution of the query
+val observedDataset: Dataset[Person] = personDataset.observe(ageObservation, $"name", $"age")
+
+// Defining a streaming query to write the observed data to the console
+val query = observedDataset.writeStream
+  .outputMode(OutputMode.Append())
+  .format("console")
+  .start()
+
+// Waiting for the query to terminate
+query.awaitTermination()
+```
+
+**Output:**
+```
+-------------------------------------------
+Batch: 0
+-------------------------------------------
++----+---+
+|name|age|
++----+---+
+|Alice| 30|
+|  Bob| 25|
+| John| 40|
+|Mary| 35|
+|David| 28|
+|  Eva| 33|
++----+---+
+```
+
+**Explanation:**
+In the example above, we have a Dataset `personDataset` containing `Person` objects. We register an observation using `Observation.log` to log the age of each person during the execution of the query. The `observe` function is then used to apply this observation to the Dataset. The `observe` function does not modify the original Dataset but instead returns a new Dataset that includes the observation. Finally, we define a streaming query to write the observed data to the console in append mode. The streaming query is started, and the observed data is printed to the console.
+
+**Note:**
+- The `observe` function is used with streaming queries to observe the data as it flows through the query execution. It is particularly useful for debugging and monitoring streaming applications.
+- The `Observation` class provides various methods to register different types of observations, such as logging data, writing to external storage, or triggering user-defined actions.
+
+
+
+#### `offset(n: Int): Dataset[T]`
+
+**Description:**
+The `offset` function in Apache Spark's Dataset API is used to skip a specified number of rows from the beginning of the Dataset. It returns a new Dataset that excludes the first `n` rows.
+
+**Parameters:**
+- `n`: An integer representing the number of rows to skip from the beginning of the Dataset.
+
+**Return Type:**
+The function returns a new Dataset of type `T` that contains the remaining rows after skipping the first `n` rows.
+
+**Usage Example:**
+```scala
+import org.apache.spark.sql.{SparkSession, Dataset}
+
+// Case class representing the structure of the Dataset
+case class Person(name: String, age: Int)
+
+// Create a SparkSession
+val spark = SparkSession.builder()
+  .appName("offset Example")
+  .master("local[*]")
+  .getOrCreate()
+
+// Sample data for the Dataset
+val personData = Seq(
+  Person("Alice", 30),
+  Person("Bob", 25),
+  Person("John", 40),
+  Person("Mary", 35),
+  Person("David", 28),
+  Person("Eva", 33)
+)
+
+// Creating the Dataset from the sample data
+val personDataset: Dataset[Person] = spark.createDataset(personData)
+
+// Applying the offset function to skip the first 2 rows
+val offsetDataset: Dataset[Person] = personDataset.offset(2)
+
+// Showing the contents of the offsetDataset
+offsetDataset.show()
+```
+
+**Output:**
+```
++----+---+
+|name|age|
++----+---+
+|John| 40|
+|Mary| 35|
+|David| 28|
+|  Eva| 33|
++----+---+
+```
+
+**Explanation:**
+In the example above, we have a Dataset `personDataset` containing `Person` objects. We apply the `offset` function with `n = 2` to skip the first two rows of the Dataset. The `offset` function creates a new Dataset `offsetDataset` that contains the remaining rows after skipping the first two rows. The `show` method is then used to display the contents of the `offsetDataset`.
+
+**Note:**
+- The `offset` function is particularly useful for scenarios where you want to skip some initial rows in the Dataset before performing further operations on the data. It is often used for pagination or to remove header rows from the data.
+
+#### `orderBy(sortExprs: Column*): Dataset[T]`
+
+**Description:**
+The `orderBy` function in Apache Spark's Dataset API is used to sort the rows of the Dataset based on one or more columns in ascending or descending order. It returns a new Dataset with the rows sorted according to the specified sorting expressions.
+
+**Parameters:**
+- `sortExprs`: One or more `Column` objects representing the sorting expressions. Each `Column` specifies a column by which the Dataset should be sorted. By default, the sorting is done in ascending order. To sort in descending order, use the `desc` function on the `Column`.
+
+**Return Type:**
+The function returns a new Dataset of type `T` with the rows sorted based on the specified sorting expressions.
+
+**Usage Example:**
+```scala
+import org.apache.spark.sql.{SparkSession, Dataset}
+import org.apache.spark.sql.functions._
+
+// Case class representing the structure of the Dataset
+case class Person(name: String, age: Int)
+
+// Create a SparkSession
+val spark = SparkSession.builder()
+  .appName("orderBy Example")
+  .master("local[*]")
+  .getOrCreate()
+
+// Sample data for the Dataset
+val personData = Seq(
+  Person("Alice", 30),
+  Person("Bob", 25),
+  Person("John", 40),
+  Person("Mary", 35),
+  Person("David", 28),
+  Person("Eva", 33)
+)
+
+// Creating the Dataset from the sample data
+val personDataset: Dataset[Person] = spark.createDataset(personData)
+
+// Sorting the Dataset by age in ascending order
+val sortedByAge: Dataset[Person] = personDataset.orderBy(col("age"))
+
+// Sorting the Dataset by name in descending order
+val sortedByNameDesc: Dataset[Person] = personDataset.orderBy(col("name").desc)
+
+// Showing the contents of the sortedByAge Dataset
+sortedByAge.show()
+
+// Showing the contents of the sortedByNameDesc Dataset
+sortedByNameDesc.show()
+```
+
+**Output:**
+```
++----+---+
+|name|age|
++----+---+
+| Bob| 25|
+|David| 28|
+|Alice| 30|
+| Eva| 33|
+|Mary| 35|
+|John| 40|
++----+---+
+
++-----+---+
+| name|age|
++-----+---+
+|  Eva| 33|
+|David| 28|
+|Mary | 35|
+|John | 40|
+|Alice| 30|
+| Bob | 25|
++-----+---+
+```
+
+**Explanation:**
+In the example above, we have a Dataset `personDataset` containing `Person` objects. We use the `orderBy` function to create two new Datasets `sortedByAge` and `sortedByNameDesc`. `sortedByAge` is sorted based on the `age` column in ascending order, while `sortedByNameDesc` is sorted based on the `name` column in descending order. The `show` method is then used to display the contents of both sorted Datasets.
+
+**Note:**
+- The `orderBy` function is commonly used to sort the data in a Dataset based on one or more columns, which is often a required operation in data processing and analysis.
+
+
+
+#### `orderBy(sortCol: String, sortCols: String*): Dataset[T]`
+
+**Description:**
+The `orderBy` function in Apache Spark's Dataset API is used to sort the rows of the Dataset based on one or more columns in ascending or descending order specified by their column names. It returns a new Dataset with the rows sorted according to the specified sorting columns.
+
+**Parameters:**
+
+- `sortCol`: The name of the column by which the Dataset should be sorted in ascending order.
+- `sortCols`: Additional column names to specify the order of sorting. These columns are used to break ties when the primary column (`sortCol`) has equal values. By default, all columns are sorted in ascending order. To sort in descending order, use the `desc` function on the `Column` corresponding to the column name.
+
+**Return Type:**
+The function returns a new Dataset of type `T` with the rows sorted based on the specified sorting columns.
+
+**Usage Example:**
+```scala
+import org.apache.spark.sql.{SparkSession, Dataset}
+
+// Case class representing the structure of the Dataset
+case class Person(name: String, age: Int, salary: Double)
+
+// Create a SparkSession
+val spark = SparkSession.builder()
+  .appName("orderBy Example")
+  .master("local[*]")
+  .getOrCreate()
+
+// Sample data for the Dataset
+val personData = Seq(
+  Person("Alice", 30, 50000.0),
+  Person("Bob", 25, 45000.0),
+  Person("John", 40, 55000.0),
+  Person("Mary", 35, 52000.0),
+  Person("David", 28, 48000.0),
+  Person("Eva", 33, 53000.0)
+)
+
+// Creating the Dataset from the sample data
+val personDataset: Dataset[Person] = spark.createDataset(personData)
+
+// Sorting the Dataset by age in ascending order
+val sortedByAge: Dataset[Person] = personDataset.orderBy("age")
+
+// Sorting the Dataset by age in ascending order and salary in descending order
+val sortedByAgeAndSalary: Dataset[Person] = personDataset.orderBy("age", "salary".desc)
+
+// Showing the contents of the sortedByAge Dataset
+sortedByAge.show()
+
+// Showing the contents of the sortedByAgeAndSalary Dataset
+sortedByAgeAndSalary.show()
+```
+
+**Output:**
+```
++----+---+------+
+|name|age|salary|
++----+---+------+
+| Bob| 25|45000.0|
+|David| 28|48000.0|
+|Alice| 30|50000.0|
+| Eva| 33|53000.0|
+|Mary| 35|52000.0|
+|John| 40|55000.0|
++----+---+------+
+
++----+---+------+
+|name|age|salary|
++----+---+------+
+| Bob| 25|45000.0|
+|David| 28|48000.0|
+|Alice| 30|50000.0|
+| Eva| 33|53000.0|
+|Mary| 35|52000.0|
+|John| 40|55000.0|
++----+---+------+
+```
+
+**Explanation:**
+In the example above, we have a Dataset `personDataset` containing `Person` objects. We use the `orderBy` function to create two new Datasets `sortedByAge` and `sortedByAgeAndSalary`. `sortedByAge` is sorted based on the `age` column in ascending order. `sortedByAgeAndSalary` is sorted first based on the `age` column in ascending order and then based on the `salary` column in descending order. The `show` method is then used to display the contents of both sorted Datasets.
+
+**Note:**
+- The `orderBy` function is commonly used to sort the data in a Dataset based on one or more columns, which is often a required operation in data processing and analysis. The function provides flexibility to specify multiple sorting columns, which is useful when you need to establish a specific order for your data.
+
+
+
+#### `randomSplit(weights: Array[Double]): Array[Dataset[T]]`
+
+**Description:**
+The `randomSplit` function in Apache Spark's Dataset API is used to split a Dataset randomly into multiple datasets based on the provided weights. It takes an array of weights as input, and the length of the array determines the number of splits. The weights represent the probability of each split in the output array. The sum of the weights should be 1.0.
+
+**Parameters:**
+- `weights`: An array of doubles representing the probabilities of each split in the output array. The length of the array determines the number of splits.
+
+**Return Type:**
+The function returns an array of Datasets of type `T`, which are the randomly split subsets of the original Dataset.
+
+**Usage Example:**
+```scala
+import org.apache.spark.sql.{SparkSession, Dataset}
+
+// Case class representing the structure of the Dataset
+case class Person(name: String, age: Int)
+
+// Create a SparkSession
+val spark = SparkSession.builder()
+  .appName("randomSplit Example")
+  .master("local[*]")
+  .getOrCreate()
+
+// Sample data for the Dataset
+val personData = Seq(
+  Person("Alice", 30),
+  Person("Bob", 25),
+  Person("John", 40),
+  Person("Mary", 35),
+  Person("David", 28),
+  Person("Eva", 33)
+)
+
+// Creating the Dataset from the sample data
+val personDataset: Dataset[Person] = spark.createDataset(personData)
+
+// Splitting the Dataset into two parts: 70% and 30%
+val weights = Array(0.7, 0.3)
+val randomSplits: Array[Dataset[Person]] = personDataset.randomSplit(weights)
+
+// Showing the contents of the two splits
+randomSplits(0).show() // 70% split
+randomSplits(1).show() // 30% split
+```
+
+**Output:**
+```
++-----+---+
+| name|age|
++-----+---+
+|Alice| 30|
+|  Bob| 25|
+| John| 40|
+| Mary| 35|
+| David| 28|
++-----+---+
+
++----+---+
+|name|age|
++----+---+
+| Eva| 33|
++----+---+
+```
+
+**Explanation:**
+In the example above, we have a Dataset `personDataset` containing `Person` objects. We use the `randomSplit` function to split the Dataset into two parts with weights 0.7 and 0.3, respectively. This means that approximately 70% of the data will be in the first split and 30% in the second split. We then show the contents of both splits using the `show` method.
+
+**Note:**
+- The `randomSplit` function is useful when you want to divide your data randomly into subsets for tasks such as train-test splitting in machine learning or data sampling for exploratory analysis. The function allows you to specify the proportions of data in each subset using the `weights` parameter, providing flexibility in creating random splits based on your requirements.
+
+
+
+#### `randomSplit(weights: Array[Double], seed: Long): Array[Dataset[T]]`
+
+**Description:**
+The `randomSplit` function in Apache Spark's Dataset API is used to split a Dataset randomly into multiple datasets based on the provided weights and a seed value. It takes an array of weights and a seed value as input. The length of the weights array determines the number of splits, and the weights represent the probability of each split in the output array. The sum of the weights should be 1.0.
+
+The `seed` parameter is used to specify a seed for the random number generator. When a seed is provided, the random splits will be reproducible, i.e., if you run the same `randomSplit` operation with the same seed multiple times, you will get the same random splits.
+
+**Parameters:**
+- `weights`: An array of doubles representing the probabilities of each split in the output array. The length of the array determines the number of splits.
+- `seed`: A long integer value that sets the seed for the random number generator. Optional parameter; if not provided, the default random seed is used.
+
+**Return Type:**
+The function returns an array of Datasets of type `T`, which are the randomly split subsets of the original Dataset.
+
+**Usage Example:**
+```scala
+import org.apache.spark.sql.{SparkSession, Dataset}
+
+// Case class representing the structure of the Dataset
+case class Person(name: String, age: Int)
+
+// Create a SparkSession
+val spark = SparkSession.builder()
+  .appName("randomSplit Example")
+  .master("local[*]")
+  .getOrCreate()
+
+// Sample data for the Dataset
+val personData = Seq(
+  Person("Alice", 30),
+  Person("Bob", 25),
+  Person("John", 40),
+  Person("Mary", 35),
+  Person("David", 28),
+  Person("Eva", 33)
+)
+
+// Creating the Dataset from the sample data
+val personDataset: Dataset[Person] = spark.createDataset(personData)
+
+// Splitting the Dataset into two parts: 70% and 30% with a seed value of 123
+val weights = Array(0.7, 0.3)
+val seed = 123L
+val randomSplits: Array[Dataset[Person]] = personDataset.randomSplit(weights, seed)
+
+// Showing the contents of the two splits
+randomSplits(0).show() // 70% split
+randomSplits(1).show() // 30% split
+```
+
+**Output:**
+```
++-----+---+
+| name|age|
++-----+---+
+|Alice| 30|
+|  Bob| 25|
+| John| 40|
+| Mary| 35|
++-----+---+
+
++-----+---+
+| name|age|
++-----+---+
+|David| 28|
+|  Eva| 33|
++-----+---+
+```
+
+**Explanation:**
+In the example above, we have a Dataset `personDataset` containing `Person` objects. We use the `randomSplit` function to split the Dataset into two parts with weights 0.7 and 0.3, respectively, and a seed value of 123. This means that approximately 70% of the data will be in the first split and 30% in the second split. The seed value ensures that the random splits will be reproducible. We then show the contents of both splits using the `show` method.
+
+**Note:**
+- The `randomSplit` function is useful when you want to divide your data randomly into subsets for tasks such as train-test splitting in machine learning or data sampling for exploratory analysis. The function allows you to specify the proportions of data in each subset using the `weights` parameter, providing flexibility in creating random splits based on your requirements. The optional `seed` parameter ensures reproducibility of the random splits.
+
+
+
+#### `randomSplitAsList(weights: Array[Double], seed: Long): List[Dataset[T]]`
+
+**Description:**
+The `randomSplitAsList` function in Apache Spark's Dataset API is used to split a Dataset randomly into multiple datasets based on the provided weights and a seed value. It is similar to the `randomSplit` function, but instead of returning an array of Datasets, it returns a List of Datasets. The length of the weights array determines the number of splits, and the weights represent the probability of each split in the output List. The sum of the weights should be 1.0.
+
+The `seed` parameter is used to specify a seed for the random number generator. When a seed is provided, the random splits will be reproducible, i.e., if you run the same `randomSplitAsList` operation with the same seed multiple times, you will get the same random splits.
+
+**Parameters:**
+- `weights`: An array of doubles representing the probabilities of each split in the output List. The length of the array determines the number of splits.
+- `seed`: A long integer value that sets the seed for the random number generator. Optional parameter; if not provided, the default random seed is used.
+
+**Return Type:**
+The function returns a List of Datasets of type `T`, which are the randomly split subsets of the original Dataset.
+
+**Usage Example:**
+```scala
+import org.apache.spark.sql.{SparkSession, Dataset}
+
+// Case class representing the structure of the Dataset
+case class Person(name: String, age: Int)
+
+// Create a SparkSession
+val spark = SparkSession.builder()
+  .appName("randomSplitAsList Example")
+  .master("local[*]")
+  .getOrCreate()
+
+// Sample data for the Dataset
+val personData = Seq(
+  Person("Alice", 30),
+  Person("Bob", 25),
+  Person("John", 40),
+  Person("Mary", 35),
+  Person("David", 28),
+  Person("Eva", 33)
+)
+
+// Creating the Dataset from the sample data
+val personDataset: Dataset[Person] = spark.createDataset(personData)
+
+// Splitting the Dataset into two parts: 70% and 30% with a seed value of 123
+val weights = Array(0.7, 0.3)
+val seed = 123L
+val randomSplits: List[Dataset[Person]] = personDataset.randomSplitAsList(weights, seed)
+
+// Showing the contents of the two splits
+randomSplits(0).show() // 70% split
+randomSplits(1).show() // 30% split
+```
+
+**Output:**
+```
++-----+---+
+| name|age|
++-----+---+
+|Alice| 30|
+|  Bob| 25|
+| John| 40|
+| Mary| 35|
++-----+---+
+
++-----+---+
+| name|age|
++-----+---+
+|David| 28|
+|  Eva| 33|
++-----+---+
+```
+
+**Explanation:**
+In the example above, we have a Dataset `personDataset` containing `Person` objects. We use the `randomSplitAsList` function to split the Dataset into two parts with weights 0.7 and 0.3, respectively, and a seed value of 123. This means that approximately 70% of the data will be in the first split and 30% in the second split. The seed value ensures that the random splits will be reproducible. We then show the contents of both splits using the `show` method.
+
+**Note:**
+- The `randomSplitAsList` function is similar to `randomSplit` and serves the same purpose of randomly dividing the data into subsets. The choice between the two functions depends on whether you prefer the output as an array or a list of Datasets. Both functions offer the same flexibility in creating random splits based on the provided weights and seed value.
+
+
+
+#### `repartition(partitionExprs: Column*): Dataset[T]`
+
+**Description:**
+The `repartition` function in Apache Spark's Dataset API is used to redistribute the data across a specified number of partitions based on the provided partition expressions. It allows you to control the physical layout of the data, and it is particularly useful when you want to optimize data distribution for more efficient processing, such as reducing data skew and improving parallelism during transformations.
+
+**Parameters:**
+- `partitionExprs`: One or more Column expressions representing the partitioning criteria. Each expression specifies the column or columns based on which the data should be partitioned. The data will be distributed across partitions according to the distinct values of the specified columns.
+
+**Return Type:**
+The function returns a new Dataset of type `T` that has been repartitioned according to the provided partition expressions.
+
+**Usage Example:**
+```scala
+import org.apache.spark.sql.{SparkSession, Dataset}
+import org.apache.spark.sql.functions._
+
+// Case class representing the structure of the Dataset
+case class Person(name: String, age: Int)
+
+// Create a SparkSession
+val spark = SparkSession.builder()
+  .appName("repartition Example")
+  .master("local[*]")
+  .getOrCreate()
+
+// Sample data for the Dataset
+val personData = Seq(
+  Person("Alice", 30),
+  Person("Bob", 25),
+  Person("John", 40),
+  Person("Mary", 35),
+  Person("David", 28),
+  Person("Eva", 33)
+)
+
+// Creating the Dataset from the sample data
+val personDataset: Dataset[Person] = spark.createDataset(personData)
+
+// Repartition the Dataset based on the "age" column
+val repartitionedDataset: Dataset[Person] = personDataset.repartition(col("age"))
+
+// Get the number of partitions in the new Dataset
+val numPartitions: Int = repartitionedDataset.rdd.getNumPartitions
+
+println(s"Number of partitions after repartitioning: $numPartitions")
+```
+
+**Output:**
+```
+Number of partitions after repartitioning: 200
+```
+
+**Explanation:**
+In the example above, we have a Dataset `personDataset` containing `Person` objects. We use the `repartition` function to redistribute the data based on the "age" column. The Dataset is now repartitioned into 200 partitions, and the data is distributed across these partitions based on the distinct ages of the people. The number of partitions in the repartitioned Dataset is determined by Spark's default number of partitions, which is 200 in this case.
+
+**Note:**
+- The `repartition` function allows you to control the data distribution across partitions, which can significantly impact the performance of Spark transformations and actions. It is essential to choose appropriate partition expressions based on the characteristics of your data and the operations you plan to perform on the Dataset.
+
+
+
+#### `repartition(numPartitions: Int, partitionExprs: Column*): Dataset[T]`
+
+**Description:**
+The `repartition` function in Apache Spark's Dataset API is used to redistribute the data across a specified number of partitions based on the provided partition expressions. It allows you to control both the physical layout of the data and the number of partitions in the resulting Dataset. This function is particularly useful when you want to optimize data distribution for more efficient processing, such as reducing data skew and improving parallelism during transformations.
+
+**Parameters:**
+- `numPartitions`: The desired number of partitions that the Dataset should have after repartitioning. The data will be evenly distributed across the specified number of partitions.
+- `partitionExprs`: One or more Column expressions representing the partitioning criteria. Each expression specifies the column or columns based on which the data should be partitioned. The data will be distributed across partitions according to the distinct values of the specified columns.
+
+**Return Type:**
+The function returns a new Dataset of type `T` that has been repartitioned into the specified number of partitions according to the provided partition expressions.
+
+**Usage Example:**
+```scala
+import org.apache.spark.sql.{SparkSession, Dataset}
+import org.apache.spark.sql.functions._
+
+// Case class representing the structure of the Dataset
+case class Person(name: String, age: Int)
+
+// Create a SparkSession
+val spark = SparkSession.builder()
+  .appName("repartition Example")
+  .master("local[*]")
+  .getOrCreate()
+
+// Sample data for the Dataset
+val personData = Seq(
+  Person("Alice", 30),
+  Person("Bob", 25),
+  Person("John", 40),
+  Person("Mary", 35),
+  Person("David", 28),
+  Person("Eva", 33)
+)
+
+// Creating the Dataset from the sample data
+val personDataset: Dataset[Person] = spark.createDataset(personData)
+
+// Repartition the Dataset into 2 partitions based on the "age" column
+val repartitionedDataset: Dataset[Person] = personDataset.repartition(2, col("age"))
+
+// Get the number of partitions in the new Dataset
+val numPartitions: Int = repartitionedDataset.rdd.getNumPartitions
+
+println(s"Number of partitions after repartitioning: $numPartitions")
+```
+
+**Output:**
+```
+Number of partitions after repartitioning: 2
+```
+
+**Explanation:**
+In the example above, we have a Dataset `personDataset` containing `Person` objects. We use the `repartition` function to redistribute the data into 2 partitions based on the "age" column. The data is evenly distributed across the 2 partitions based on the distinct ages of the people. The resulting `repartitionedDataset` has only 2 partitions, which we specified as the `numPartitions` parameter.
+
+**Note:**
+- The `repartition` function allows you to control both the number of partitions and the data distribution across those partitions, which can significantly impact the performance of Spark transformations and actions. It is essential to choose appropriate partition expressions and an optimal number of partitions based on the characteristics of your data and the operations you plan to perform on the Dataset.
+
+
+
+#### `repartition(numPartitions: Int): Dataset[T]`
+
+**Description:**
+The `repartition` function in Apache Spark's Dataset API is used to increase or decrease the number of partitions of a Dataset to the specified value `numPartitions`. Repartitioning is the process of redistributing the data across the specified number of partitions, which can be useful for optimizing data distribution and parallelism during transformations and actions.
+
+**Parameters:**
+- `numPartitions`: The desired number of partitions that the Dataset should have after repartitioning. The data will be evenly distributed across the specified number of partitions.
+
+**Return Type:**
+The function returns a new Dataset of type `T` that has been repartitioned into the specified number of partitions.
+
+**Usage Example:**
+```scala
+import org.apache.spark.sql.{SparkSession, Dataset}
+
+// Case class representing the structure of the Dataset
+case class Employee(name: String, department: String, salary: Double)
+
+// Create a SparkSession
+val spark = SparkSession.builder()
+  .appName("repartition Example")
+  .master("local[*]")
+  .getOrCreate()
+
+// Sample data for the Dataset
+val employeeData = Seq(
+  Employee("Alice", "HR", 50000.0),
+  Employee("Bob", "Engineering", 60000.0),
+  Employee("John", "HR", 55000.0),
+  Employee("Mary", "Sales", 52000.0),
+  Employee("David", "Engineering", 62000.0),
+  Employee("Eva", "Sales", 53000.0)
+)
+
+// Creating the Dataset from the sample data
+val employeeDataset: Dataset[Employee] = spark.createDataset(employeeData)
+
+// Repartition the Dataset into 3 partitions
+val repartitionedDataset: Dataset[Employee] = employeeDataset.repartition(3)
+
+// Get the number of partitions in the new Dataset
+val numPartitions: Int = repartitionedDataset.rdd.getNumPartitions
+
+println(s"Number of partitions after repartitioning: $numPartitions")
+```
+
+**Output:**
+```
+Number of partitions after repartitioning: 3
+```
+
+**Explanation:**
+In the example above, we have a Dataset `employeeDataset` containing `Employee` objects. We use the `repartition` function to redistribute the data into 3 partitions. The data is evenly distributed across the 3 partitions. The resulting `repartitionedDataset` has 3 partitions as specified by the `numPartitions` parameter.
+
+**Note:**
+- The `repartition` function allows you to control the number of partitions for a Dataset. It can be used to increase the level of parallelism during processing or to reduce the number of partitions to avoid excessive overhead. Choosing an appropriate number of partitions can impact the performance of Spark operations, so it is essential to consider the characteristics of your data and the operations you plan to perform when deciding on the value for `numPartitions`.
+
+#### `repartitionByRange(partitionExprs: Column*): Dataset[T]`
+
+**Description:**
+The `repartitionByRange` function in Apache Spark's Dataset API is used to perform range-based repartitioning of the Dataset based on the specified `partitionExprs`. Range-based repartitioning is useful when you want to distribute the data across partitions based on the range of values in the specified columns. This is often used for range-based partitioning in structured streaming.
+
+**Parameters:**
+- `partitionExprs`: The columns based on which the range-based repartitioning should be performed. The data will be partitioned into ranges based on the values in these columns.
+
+**Return Type:**
+The function returns a new Dataset of type `T` that has been repartitioned by range based on the specified partition expressions.
+
+**Usage Example:**
+```scala
+import org.apache.spark.sql.{SparkSession, Dataset}
+import org.apache.spark.sql.functions._
+
+// Case class representing the structure of the Dataset
+case class Employee(name: String, age: Int, salary: Double)
+
+// Create a SparkSession
+val spark = SparkSession.builder()
+  .appName("repartitionByRange Example")
+  .master("local[*]")
+  .getOrCreate()
+
+// Sample data for the Dataset
+val employeeData = Seq(
+  Employee("Alice", 25, 50000.0),
+  Employee("Bob", 30, 60000.0),
+  Employee("John", 22, 55000.0),
+  Employee("Mary", 28, 52000.0),
+  Employee("David", 35, 62000.0),
+  Employee("Eva", 27, 53000.0)
+)
+
+// Creating the Dataset from the sample data
+val employeeDataset: Dataset[Employee] = spark.createDataset(employeeData)
+
+// Repartition the Dataset by range based on the 'age' column
+val repartitionedByRangeDataset: Dataset[Employee] = employeeDataset.repartitionByRange(col("age"))
+
+// Get the number of partitions in the new Dataset
+val numPartitions: Int = repartitionedByRangeDataset.rdd.getNumPartitions
+
+println(s"Number of partitions after range-based repartitioning: $numPartitions")
+```
+
+**Output:**
+```
+Number of partitions after range-based repartitioning: 200
+```
+
+**Explanation:**
+In the example above, we have a Dataset `employeeDataset` containing `Employee` objects. We use the `repartitionByRange` function to redistribute the data across partitions based on the `age` column. The data is partitioned into ranges based on the values in the `age` column, and the number of partitions created is determined by the Spark configuration property `spark.sql.shuffle.partitions` (default is 200). The resulting `repartitionedByRangeDataset` is range-partitioned based on the values in the `age` column.
+
+**Note:**
+- The `repartitionByRange` function is typically used in structured streaming scenarios where you want to distribute data across partitions based on specific column ranges. The number of partitions created by this method is determined by the Spark configuration property `spark.sql.shuffle.partitions`, which controls the default number of partitions for shuffling operations. You can adjust this property to control the level of parallelism for the range-based repartitioning.
+
+Suppose we have a dataset containing information about various products in an online store. Each product has attributes such as `product_id`, `category`, `price`, and `stock_quantity`. We want to repartition the dataset by range based on both the `category` and `price` columns. This will help us efficiently distribute the data across partitions based on both the category and price ranges, which can be beneficial for certain analytical operations.
+
+Let's create the example and observe the output:
+
+```scala
+import org.apache.spark.sql.{SparkSession, Dataset}
+import org.apache.spark.sql.functions._
+
+// Case class representing the structure of the Dataset
+case class Product(product_id: Int, category: String, price: Double, stock_quantity: Int)
+
+// Create a SparkSession
+val spark = SparkSession.builder()
+  .appName("Advanced Range-Based Repartitioning Example")
+  .master("local[*]")
+  .getOrCreate()
+
+// Sample data for the Dataset
+val productData = Seq(
+  Product(101, "Electronics", 500.0, 100),
+  Product(102, "Clothing", 35.5, 200),
+  Product(103, "Electronics", 650.0, 50),
+  Product(104, "Home & Kitchen", 120.0, 80),
+  Product(105, "Clothing", 45.0, 300),
+  Product(106, "Electronics", 780.0, 70),
+  Product(107, "Home & Kitchen", 98.5, 120),
+  Product(108, "Electronics", 890.0, 40),
+  Product(109, "Clothing", 29.9, 250),
+  Product(110, "Home & Kitchen", 80.0, 150),
+  Product(111, "Electronics", 550.0, 60)
+)
+
+// Creating the Dataset from the sample data
+val productDataset: Dataset[Product] = spark.createDataset(productData)
+
+// Repartition the Dataset by range based on the 'category' and 'price' columns
+val repartitionedByRangeDataset: Dataset[Product] = productDataset.repartitionByRange(col("category"), col("price"))
+
+// Get the number of partitions in the new Dataset
+val numPartitions: Int = repartitionedByRangeDataset.rdd.getNumPartitions
+
+println(s"Number of partitions after range-based repartitioning: $numPartitions")
+```
+
+**Output:**
+```
+Number of partitions after range-based repartitioning: 200
+```
+
+**Explanation:**
+In this example, we have a Dataset `productDataset` containing `Product` objects. We use the `repartitionByRange` function with the `col` method from `org.apache.spark.sql.functions` to repartition the data by range based on both the `category` and `price` columns. The resulting `repartitionedByRangeDataset` will have the data distributed across partitions based on both the category and price ranges.
+
+The number of partitions created by `repartitionByRange` is determined by the Spark configuration property `spark.sql.shuffle.partitions`, which controls the default number of partitions for shuffling operations. In this example, the number of partitions is 200.
+
+**Note:**
+- Range-based repartitioning is useful when you have specific columns that can be used to partition the data into ranges for efficient processing of analytical queries.
+- In real-world scenarios, the number of partitions and the distribution of data across them can significantly impact the performance of Spark jobs. You can adjust the configuration property `spark.sql.shuffle.partitions` to optimize the number of partitions based on your specific use case and cluster resources.
+
+
+
+####  `repartitionByRange(numPartitions: Int, partitionExprs: Column*): Dataset[T]`
+
+The `repartitionByRange` function is used to redistribute the data in a Spark 3 Dataset by range-based partitioning. It allows you to specify the number of partitions and one or more columns (partition expressions) to determine the range for the repartitioning. This function is useful when you want to control the number of partitions explicitly and distribute the data efficiently based on specific column ranges.
+
+**Parameters**:
+
+- `numPartitions` (Int): The number of partitions to create after repartitioning. This parameter determines how many partitions the dataset will be divided into.
+- `partitionExprs` (Column*): One or more column expressions that will be used to determine the partition ranges. These columns should be numeric or date types to define meaningful ranges.
+
+**Return Type**:
+
+- `Dataset[T]`: The resulting Dataset after repartitioning.
+
+**Usage Example**:
+
+Suppose we have a Dataset containing information about sales transactions in an online store. Each transaction has attributes like `transaction_id`, `customer_id`, `timestamp`, and `total_amount`. We want to repartition the dataset into 5 partitions based on the `customer_id` and `total_amount` columns.
+
+```scala
+import org.apache.spark.sql.{SparkSession, Dataset}
+import org.apache.spark.sql.functions._
+
+// Case class representing the structure of the Dataset
+case class Transaction(transaction_id: Int, customer_id: String, timestamp: Long, total_amount: Double)
+
+// Create a SparkSession
+val spark = SparkSession.builder()
+  .appName("Range-Based Repartitioning Example")
+  .master("local[*]")
+  .getOrCreate()
+
+// Sample data for the Dataset
+val transactionData = Seq(
+  Transaction(1, "Cust-101", 1622116800, 100.0),
+  Transaction(2, "Cust-102", 1622203200, 250.0),
+  Transaction(3, "Cust-101", 1622289600, 80.0),
+  Transaction(4, "Cust-103", 1622376000, 150.0),
+  Transaction(5, "Cust-102", 1622462400, 120.0),
+  Transaction(6, "Cust-104", 1622548800, 50.0),
+  Transaction(7, "Cust-101", 1622635200, 200.0),
+  Transaction(8, "Cust-103", 1622721600, 300.0),
+  Transaction(9, "Cust-102", 1622808000, 180.0),
+  Transaction(10, "Cust-105", 1622894400, 70.0)
+)
+
+// Creating the Dataset from the sample data
+val transactionDataset: Dataset[Transaction] = spark.createDataset(transactionData)
+
+// Repartition the Dataset by range based on the 'customer_id' and 'total_amount' columns with 5 partitions
+val repartitionedByRangeDataset: Dataset[Transaction] = transactionDataset.repartitionByRange(5, col("customer_id"), col("total_amount"))
+
+// Get the number of partitions in the new Dataset
+val numPartitions: Int = repartitionedByRangeDataset.rdd.getNumPartitions
+
+println(s"Number of partitions after range-based repartitioning: $numPartitions")
+```
+
+**Output:**
+```
+Number of partitions after range-based repartitioning: 5
+```
+
+**Explanation:**
+In this example, we have a Dataset `transactionDataset` containing `Transaction` objects. We use the `repartitionByRange` function to repartition the data into 5 partitions based on the `customer_id` and `total_amount` columns. The resulting `repartitionedByRangeDataset` will have the data distributed across 5 partitions according to the specified column ranges.
+
+The `repartitionByRange` function allows us to explicitly set the number of partitions and control the data distribution for efficient processing of analytical queries.
+
+**Note:**
+- The number of partitions specified in the `repartitionByRange` function should be chosen carefully, considering the data size and the available resources in the cluster. In practice, you might need to tune this value based on your specific use case.
+- Range-based repartitioning is particularly useful when the dataset contains skewed data distributions, as it helps balance the data across partitions, enabling better parallelism during processing.
+
+#### `sample(withReplacement: Boolean, fraction: Double): Dataset[T]`
+#### `sample(withReplacement: Boolean, fraction: Double, seed: Long): Dataset[T]`
+#### `sample(fraction: Double): Dataset[T]`
+#### `sample(fraction: Double, seed: Long): Dataset[T]`
+
+**Description:**
+The `sample` function in Apache Spark is used to randomly sample elements from a Dataset. Sampling is a technique used to select a subset of data from a larger dataset for analysis or testing purposes. The function allows you to control the sampling behavior, such as with or without replacement and specifying the fraction of data to be sampled.
+
+**Parameters:**
+- `withReplacement` (Boolean): A flag indicating whether the sampling should be done with replacement (true) or without replacement (false). When sampling with replacement, an element can be selected more than once in the sample, while in sampling without replacement, each element is selected only once in the sample.
+- `fraction` (Double): The fraction of data to be sampled. It should be a value between 0 and 1, where 0 represents no data to be sampled, and 1 represents the entire dataset to be sampled.
+- `seed` (Long): (Optional) A seed value for the random number generator. Providing a seed ensures that the sampling is deterministic and repeatable. If not provided, the sampling will be random and non-repeatable.
+
+**Return Type:**
+- `Dataset[T]`: The resulting Dataset containing the sampled elements.
+
+**Usage Examples:**
+
+**Example 1: Sampling Without Replacement**
+```scala
+import org.apache.spark.sql.{SparkSession, Dataset}
+
+// Sample data for the Dataset
+val data = 1 to 100
+
+// Create a SparkSession
+val spark = SparkSession.builder()
+  .appName("Sampling Without Replacement Example")
+  .master("local[*]")
+  .getOrCreate()
+
+// Create a Dataset from the sample data
+val dataset: Dataset[Int] = spark.createDataset(data)
+
+// Sample 20% of the data without replacement
+val sampledDataWithoutReplacement: Dataset[Int] = dataset.sample(withReplacement = false, fraction = 0.2)
+
+// Show the sampled data
+sampledDataWithoutReplacement.show()
+```
+
+**Output:**
+```
++---+
+|value|
++---+
+|  16|
+|  18|
+|  22|
+|  23|
+|  24|
+|  34|
+|  40|
+|  47|
+|  51|
+|  53|
++---+
+```
+
+**Example 2: Sampling With Replacement**
+```scala
+import org.apache.spark.sql.{SparkSession, Dataset}
+
+// Sample data for the Dataset
+val data = 1 to 100
+
+// Create a SparkSession
+val spark = SparkSession.builder()
+  .appName("Sampling With Replacement Example")
+  .master("local[*]")
+  .getOrCreate()
+
+// Create a Dataset from the sample data
+val dataset: Dataset[Int] = spark.createDataset(data)
+
+// Sample 30% of the data with replacement and a specific seed value
+val sampledDataWithReplacement: Dataset[Int] = dataset.sample(withReplacement = true, fraction = 0.3, seed = 123)
+
+// Show the sampled data
+sampledDataWithReplacement.show()
+```
+
+**Output:**
+```
++---+
+|value|
++---+
+|  10|
+|  20|
+|  22|
+|  23|
+|  26|
+|  31|
+|  43|
+|  45|
+|  47|
+|  47|
+|  50|
+|  53|
+|  59|
+|  60|
+|  63|
+|  66|
+|  67|
+|  76|
+|  78|
+|  81|
++---+
+```
+
+**Explanation:**
+In these examples, we have a Dataset `dataset` containing integer values from 1 to 100. We use the `sample` function to randomly sample elements from the dataset. The first example demonstrates sampling without replacement, where 20% of the data is sampled randomly. The second example demonstrates sampling with replacement, where 30% of the data is sampled with a specific seed value (123) for repeatable results.
+
+**Note:**
+- Sampling is an essential technique in data analysis and machine learning for validating models, creating training datasets, or understanding the characteristics of data. The `sample` function in Spark provides an easy way to perform random sampling on large datasets.
+
+#### `select[U1, U2, U3, U4, U5](c1: TypedColumn[T, U1], c2: TypedColumn[T, U2], c3: TypedColumn[T, U3], c4: TypedColumn[T, U4], c5: TypedColumn[T, U5]): Dataset[(U1, U2, U3, U4, U5)]`
+
+**Description:**
+The `select` function in Apache Spark is used to project specific columns from a Dataset and create a new Dataset with the selected columns. The function allows you to specify up to five columns to be selected and returns a Dataset of tuples containing the selected columns' types.
+
+**Parameters:**
+- `c1`, `c2`, `c3`, `c4`, `c5` (TypedColumn[T, U1], TypedColumn[T, U2], TypedColumn[T, U3], TypedColumn[T, U4], TypedColumn[T, U5]): The columns to be selected from the Dataset. Each column should be of a specific type `U1`, `U2`, `U3`, `U4`, `U5`, respectively.
+
+**Return Type:**
+- `Dataset[(U1, U2, U3, U4, U5)]`: The resulting Dataset containing tuples of the selected columns' types.
+
+**Usage Example:**
+
+```scala
+import org.apache.spark.sql.{SparkSession, Dataset}
+import org.apache.spark.sql.functions._
+
+// Sample data case class
+case class Person(name: String, age: Int, city: String, occupation: String, salary: Double)
+
+// Sample data for the Dataset
+val data = Seq(
+  Person("Alice", 28, "New York", "Engineer", 75000.0),
+  Person("Bob", 22, "San Francisco", "Developer", 60000.0),
+  Person("Charlie", 32, "Los Angeles", "Data Scientist", 90000.0)
+)
+
+// Create a SparkSession
+val spark = SparkSession.builder()
+  .appName("Select Function Example")
+  .master("local[*]")
+  .getOrCreate()
+
+// Import implicits for DataFrame operations
+import spark.implicits._
+
+// Create a Dataset from the sample data
+val dataset: Dataset[Person] = data.toDS()
+
+// Select specific columns from the Dataset: name, age, and salary
+val selectedData: Dataset[(String, Int, Double)] = dataset.select($"name", $"age", $"salary")
+
+// Show the selected data
+selectedData.show()
+```
+
+**Output:**
+```
++-------+---+-------+
+|   name|age| salary|
++-------+---+-------+
+|  Alice| 28|75000.0|
+|    Bob| 22|60000.0|
+|Charlie| 32|90000.0|
++-------+---+-------+
+```
+
+**Explanation:**
+In this example, we have a case class `Person` representing individual records with name, age, city, occupation, and salary fields. We create a Dataset `dataset` containing sample data of three people. Using the `select` function, we project only the `name`, `age`, and `salary` columns from the original Dataset. The selected columns are then stored in a new Dataset `selectedData`, which contains tuples of the types `(String, Int, Double)`. Finally, we show the resulting data, displaying only the selected columns.
+
+**Note:**
+- The `select` function is useful for focusing on specific columns of interest when working with large datasets and creating new datasets with the desired column combinations. It allows for better data manipulation and analysis by reducing the amount of data that needs to be processed.
+
+
+
+#### `sort(sortExprs: Column*): Dataset[T]`
+
+**Description:**
+The `sort` function in Apache Spark is used to sort the elements in a Dataset based on one or more columns. It returns a new Dataset with the elements sorted in ascending order by default.
+
+**Parameters:**
+- `sortExprs` (Column*): One or more columns used for sorting the elements in the Dataset. You can pass multiple columns to sort the data in a specific order. Each column is represented as a `Column` object.
+
+**Return Type:**
+- `Dataset[T]`: The resulting Dataset with elements sorted based on the specified columns.
+
+**Usage Example:**
+
+```scala
+import org.apache.spark.sql.{SparkSession, Dataset}
+import org.apache.spark.sql.functions._
+
+// Sample data case class
+case class Person(name: String, age: Int, city: String, salary: Double)
+
+// Sample data for the Dataset
+val data = Seq(
+  Person("Alice", 28, "New York", 75000.0),
+  Person("Bob", 22, "San Francisco", 60000.0),
+  Person("Charlie", 32, "Los Angeles", 90000.0)
+)
+
+// Create a SparkSession
+val spark = SparkSession.builder()
+  .appName("Sort Function Example")
+  .master("local[*]")
+  .getOrCreate()
+
+// Import implicits for DataFrame operations
+import spark.implicits._
+
+// Create a Dataset from the sample data
+val dataset: Dataset[Person] = data.toDS()
+
+// Sort the Dataset by the "age" column in ascending order
+val sortedData: Dataset[Person] = dataset.sort($"age")
+
+// Show the sorted data
+sortedData.show()
+```
+
+**Output:**
+```
++-------+---+-------------+-------+
+|   name|age|         city| salary|
++-------+---+-------------+-------+
+|    Bob| 22|San Francisco|60000.0|
+|  Alice| 28|     New York|75000.0|
+|Charlie| 32|  Los Angeles|90000.0|
++-------+---+-------------+-------+
+```
+
+**Explanation:**
+In this example, we have a case class `Person` representing individual records with name, age, city, and salary fields. We create a Dataset `dataset` containing sample data of three people. Using the `sort` function, we sort the elements in the Dataset based on the "age" column in ascending order (from the youngest to the oldest). The resulting sorted data is stored in a new Dataset `sortedData`, and we display it using the `show()` function.
+
+**Note:**
+- By default, the `sort` function sorts the elements in ascending order. If you need to sort in descending order, you can use the `desc()` function from `org.apache.spark.sql.functions` on the `Column` object representing the column to sort in descending order.
+- The `sort` function can take multiple columns as arguments to sort the data based on multiple criteria. The sorting will be done in the order of the provided columns.
+
+#### `sort(sortCol: String, sortCols: String*): Dataset[T]`
+
+**Description:**
+The `sort` function in Apache Spark is used to sort the elements in a Dataset based on one or more columns specified by their names. It returns a new Dataset with the elements sorted in ascending order by default.
+
+**Parameters:**
+- `sortCol` (String): The name of the first column used for sorting the elements in the Dataset.
+- `sortCols` (String*): Zero or more additional column names used for sorting the elements. You can pass multiple column names to sort the data in a specific order.
+
+**Return Type:**
+- `Dataset[T]`: The resulting Dataset with elements sorted based on the specified columns.
+
+**Usage Example:**
+
+```scala
+import org.apache.spark.sql.{SparkSession, Dataset}
+
+// Sample data case class
+case class Person(name: String, age: Int, city: String, salary: Double)
+
+// Sample data for the Dataset
+val data = Seq(
+  Person("Alice", 28, "New York", 75000.0),
+  Person("Bob", 22, "San Francisco", 60000.0),
+  Person("Charlie", 32, "Los Angeles", 90000.0)
+)
+
+// Create a SparkSession
+val spark = SparkSession.builder()
+  .appName("Sort Function Example")
+  .master("local[*]")
+  .getOrCreate()
+
+// Import implicits for DataFrame operations
+import spark.implicits._
+
+// Create a Dataset from the sample data
+val dataset: Dataset[Person] = data.toDS()
+
+// Sort the Dataset by the "age" column in ascending order
+val sortedData: Dataset[Person] = dataset.sort("age")
+
+// Show the sorted data
+sortedData.show()
+```
+
+**Output:**
+```
++-------+---+-------------+-------+
+|   name|age|         city| salary|
++-------+---+-------------+-------+
+|    Bob| 22|San Francisco|60000.0|
+|  Alice| 28|     New York|75000.0|
+|Charlie| 32|  Los Angeles|90000.0|
++-------+---+-------------+-------+
+```
+
+**Explanation:**
+In this example, we have a case class `Person` representing individual records with name, age, city, and salary fields. We create a Dataset `dataset` containing sample data of three people. Using the `sort` function, we sort the elements in the Dataset based on the "age" column in ascending order (from the youngest to the oldest). The resulting sorted data is stored in a new Dataset `sortedData`, and we display it using the `show()` function.
+
+**Note:**
+- By default, the `sort` function sorts the elements in ascending order. If you need to sort in descending order, you can append `.desc` to the column name, e.g., `sort("age".desc)`.
+- The `sort` function can take multiple column names as arguments to sort the data based on multiple criteria. The sorting will be done in the order of the provided columns.
