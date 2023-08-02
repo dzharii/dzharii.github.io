@@ -195,7 +195,72 @@ This online tutorial continues with more advanced concepts - please read Part II
 - 2022-10-30 [sickcodes/Docker-OSX: Run macOS VM in a Docker! Run near native OSX-KVM in Docker! X11 Forwarding! CI/CD for OS X Security Research! Docker mac Containers.](https://github.com/sickcodes/Docker-OSX)
 - 2023-02-12 💥 [GitHub - foxlet/macOS-Simple-KVM: Tools to set up a quick macOS VM in QEMU, accelerated by KVM.](https://github.com/foxlet/macOS-Simple-KVM)
 
+
+
+## Optimization 
+
+2023-08-01 💡 [Agner Fog](https://www.agner.org/)
+
+> According to ChatGPT: Agner Fog is a Danish professor known for his work in cultural selection theory, optimization methods, and system development methods. He holds a PhD in Operations Research and has a diverse educational background including sociology, statistics, and computer science.
+>
+> One of his main contributions to the field of computer science is his development of CPU dispatcher software and comprehensive documentation of instruction latencies and throughputs for various CPU models. His optimization guides and tools are popular among performance-oriented programmers.
+>
+> In the field of social sciences, he has developed a theory of cultural selection, which is similar to biological evolution but acts on cultural phenomena such as norms, traditions, language, technology, and art.
+>
+> ---
+>
+> Software optimization resources
+>
+> Optimization manuals
+>
+> #### Optimizing software in C++: An optimization guide for Windows, Linux and Mac platforms
+>
+> This is an optimization manual for advanced C++ programmers. Topics include: The choice of platform and operating system. Choice of compiler and framework. Finding performance bottlenecks. The efficiency of different C++ constructs. Multi-core systems. Parallelization with vector operations. CPU dispatching. Efficient container class templates. Etc.
+>
+> File name: optimizing_cpp.pdf, size: 1838972, last modified: 2023-Jul-01.
+> [Download](https://www.agner.org/optimize/optimizing_cpp.pdf).
+>
+> ### The microarchitecture of Intel, AMD and VIA CPUs: An optimization guide for assembly programmers and compiler makers
+>
+> This manual contains details about the internal working of various microprocessors from Intel, AMD and VIA. Topics include: Out-of-order execution, register renaming, pipeline structure, execution unit organization and branch prediction algorithms for each type of microprocessor. Describes many details that cannot be found in manuals from microprocessor vendors or anywhere else. The information is based on my own research and measurements rather than on official sources. This information will be useful to programmers who want to make CPU-specific optimizations as well as to compiler makers and students of microarchitecture.
+>
+> File name: microarchitecture.pdf, size: 2472395, last modified: 2023-Jul-01.
+> [Download](https://www.agner.org/optimize/microarchitecture.pdf).
+>
+> ## C++ vector class library
+>
+> This is a collection of C++ classes, functions and operators that makes it easier to use the the vector instructions (Single Instruction Multiple Data instructions) of modern CPUs without using assembly language. Supports the SSE2, SSE3, SSSE3, SSE4.1, SSE4.2, AVX, AVX2, FMA, XOP, and AVX512F/BW/DQ/VL instruction sets. Includes standard mathematical functions. Can compile for different instruction sets from the same source code.
+> [Description and instructions](https://www.agner.org/optimize/vcl_manual.pdf).
+> [Message board](https://www.agner.org/forum/viewforum.php?f=1).
+> [Source on Github](https://github.com/vectorclass).
+> [Nice little instruction video by WhatsaCreel](https://www.youtube.com/watch?v=TKjYdLIMTrI).
+>
+> [Latest release](https://github.com/vectorclass/version2/releases).
+>
+> ![image-20230801220021917](./dev-cpp.assets/image-20230801220021917.png)
+
+
+
+2023-07-25 [Getting Friendly With CPU Caches](https://www.ardanlabs.com/blog/2023/07/getting-friendly-with-cpu-caches.html)
+
+> When a CPU needs to access a piece of data, the data needs to travel into the processor from main memory.
+>
+> The architecture looks something like this:
+>
+> **Figure 1: CPU Cache**
+>
+> ![img](./dev-cpp.assets/182_figure1.png)
+
+> Figure 1 shows the different layers of memory a piece of data has to travel to be accessible by the processor. Each CPU has its own L1 and L2 cache, and the L3 cache is shared among all CPUs. When the data finally makes its way inside the L1 or L2 cache, the processor can access it for execution purposes. On Intel architectures the L3 cache maintains a copy of what is in L1 and L2.
+>
+> Performance in the end is about how efficiently data can flow into the processor. As you can see from the diagram, main memory access is about 80 times slower than accessing the L1 cache since the data needs to be moved and copied.
+>
+> *Note: [Memory Performance in a Nutshell](https://www.intel.com/content/www/us/en/developer/articles/technical/memory-performance-in-a-nutshell.html): The data is from 2016 but what’s important are the latency ratios which are pretty constant.*
+
+
+
 ## C++ Build tools
+
 - 2022-10-03 [Ninja](https://ninja-build.org/)
 > Ninja is a small build system with a focus on speed
 - 2022-10-03 [Cmake](https://cmake.org/)
@@ -234,6 +299,14 @@ int main(){
 }
 ```
 
+2023-07-25 [Unicode is harder than you think · mcilloni's blog](https://mcilloni.ovh/2023/07/23/unicode-is-hard/)
+
+> Reading the excellent article by JeanHeyd Meneide on [how broken string encoding in C/C++ is](https://thephd.dev/the-c-c++-rust-string-text-encoding-api-landscape) made me realise that Unicode is a topic that is often overlooked by a large number of developers. In my experience, there’s a lot of confusion and wrong expectations on what Unicode is, and what best practices to follow when dealing with strings that may contain characters outside of the ASCII range.
+>
+> This article attempts to briefly summarise and clarify some of the most common misconceptions I’ve seen people struggle with, and some of the pitfalls that tend to recur in codebases that have to deal with non-ASCII text.
+
+
+
 ## CMAKE
 
 - 2022-09-29 [Debugging – More Modern CMake](https://hsf-training.github.io/hsf-training-cmake-webpage/08-debugging/index.html)
@@ -249,6 +322,16 @@ int main(){
 
 > What are lock-free data structures?
 > Lock-free data structures are data structures that are thread and interrupt safe without having to use mutual exclusion mechanisms. Lock-free data structures are most useful for inter process communication, but due to the efficiency of lockfree, it can safely be used for single threaded uses as well, making it good for general purpose use.
+
+2023-07-23 [STX: Main Page](https://lamarrr.github.io/STX/)
+
+>  [lamarrr/STX: C++17 & C++ 20 error-handling and utility extensions.](https://github.com/lamarrr/STX)
+>  These monadic types not only make error handling easier but also make the paths more obvious to the compiler for optimizations. Monads can be simply thought of as abstract types of actions. Their monadic nature makes it easy to operate on them as pipelines and in the process eliminate redundant error-handling logic code.
+>
+>  - `stx::Result<T, E>` : Type for relaying the result of a function that can fail or succeed (with monadic extensions)
+>  - `stx::Option<T>` : Type for **safe** optional values (with monadic extensions)
+
+
 
 ## C++ Machine Learning
 
@@ -295,6 +378,35 @@ int main(){
   > Hi C++!
 
 ### Talks
+
+2023-08-01 [SIMD Libraries in C++ - Jeff Garland - CppNow 2023 - YouTube](https://www.youtube.com/watch?v=hlgCeWC9jxI)
+
+> ![image-20230801215244268](./dev-cpp.assets/image-20230801215244268.png)
+>
+> Application libraries:
+>
+> - simd json https://simdjson.org/
+> - parse gigabytes json per second
+> - simd in the standard library:
+>   - parallel algorithms
+>   - mdspan
+> - simd crc https://github.com/neurolabusc/simd_crc
+> - simd sort https://github.com/intel/x86-simd-sort
+> - math https://bitbucket.org/blaze-lib/blaze/src/master/
+>
+> Developer libraries
+>
+> - xsimd C++11
+>   - 'batch type' is vector type
+>   - https://xsimd.readthedocs.io/en/latest/
+> - eve (formerly boost.simd) - C++20
+>   - Expressive Vector Engine
+>   - 'wide type' is vector type
+>   - https://jfalcou.github.io/eve/index.html
+> - Agner Fog VCL
+>   - vector class library
+>   - series of vector types
+>   - https://www.agner.org/optimize/vectorclass.pdf
 
 2023-03-25 [CSE325 Lecture Videos - YouTube](https://www.youtube.com/playlist?list=PL3GWPKM6L17H0RyU2o7p9gCnepjSTaHia)
 
@@ -482,6 +594,7 @@ chs(ch, int, 42);
 
 ### SIMD
 - 2022-05-01 `simd` [Removing characters from strings faster with AVX-512 – Daniel Lemire's blog](https://lemire.me/blog/2022/04/28/removing-characters-from-strings-faster-with-avx-512/)
+
 > A computer science professor at the University of Quebec (TELUQ). View all posts by Daniel Lemire
 - [DragonSpit/HPCsharp: High performance algorithms in C#: SIMD/SSE, multi-core and faster](https://github.com/DragonSpit/HPCsharp)
 - (2021-09-26) [google/highway: Performance-portable, length-agnostic SIMD with runtime dispatch](https://github.com/google/highway)

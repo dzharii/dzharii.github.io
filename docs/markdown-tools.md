@@ -78,3 +78,19 @@ Vale is an open-source, command-line tool used for syntax-aware text proofreadin
 > - Automated testing of [Rust code samples](https://rust-lang.github.io/mdBook/cli/test.html)
 >
 > This guide is an example of what mdBook produces. mdBook is used by the Rust programming language project, and [The Rust Programming Language](https://doc.rust-lang.org/book/) book is another fine example of mdBook in action.
+
+
+
+## Code and Extensions
+
+2023-08-01 [mark-when/markwhen: Make a cascading timeline from markdown-like text. Supports simple American/European date styles, ISO8601, images, links, locations, and more.](https://github.com/mark-when/markwhen)
+
+> **Markwhen** is an interactive text-to-timeline tool. Write markdown-ish text and it gets converted into a nice looking cascading timeline.
+>
+> Use the editor [here](https://markwhen.com/).
+>
+> This repo is for the view container, not the editor. The editor (markwhen.com) and [VSCode extension](https://marketplace.visualstudio.com/items?itemName=Markwhen.markwhen) are built on top of the view container.
+
+> ![image-20230801220208326](./markdown-tools.assets/image-20230801220208326.png)
+
+> 2023-08-01 [Show HN: Markwhen: Markdown for Timelines | Hacker News](https://news.ycombinator.com/item?id=36944152)

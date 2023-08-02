@@ -35,7 +35,15 @@ consistency, replication, and database sharding for linear read and write latenc
 
 > ![image-20230413183701886](./dev-design-and-process.assets/image-20230413183701886.png)
 
-## 
+2023-07-22 [The "Basics" | Putting the "You" in CPU](https://cpu.land/the-basics)
+
+> ![image-20230801223725713](./dev-design-and-process.assets/image-20230801223725713.png)
+
+2023-07-22 [A brief history of computers — LessWrong](https://www.lesswrong.com/posts/vfRpzyGsikujm9ujj/a-brief-history-of-computers)
+
+> ![image-20230801223840840](./dev-design-and-process.assets/image-20230801223840840.png)
+>
+> 
 
 ## Some good Articles
 
