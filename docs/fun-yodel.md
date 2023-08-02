@@ -2,7 +2,7 @@
 
 > Hyper-realistic portrait of an alpine yodeling girl, her skin textured by highland winds, expressive azure eyes reflecting the vast sky, and lips curved into a melodious call. Every detail from her freckled button nose to her windswept hair contributes to this stunning, picturesque character
 
-<img src="./fun-yodel.assets/image-20230801221725728.png" alt="image-20230801221725728" style="zoom:50%;" />
+<img src="./fun-yodel.assets/image-20230801221725728.png" alt="image-20230801221725728" />
 
 2023-08-02 [LESSON 1 - It's Foundational - Yodel-lay-ee-dee](https://www.yodelcourse.org/lesson-1.html)
 
