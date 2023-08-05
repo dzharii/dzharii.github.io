@@ -83,6 +83,16 @@ var result = await GetResultAsync().Fallback("fallback");
 
 
 
+2023-08-05 [Back to Basics: Efficient Async and Await - Filip Ekberg - NDC Oslo 2023 - YouTube](https://www.youtube.com/watch?v=n6kiJKr4_oA)
+
+> Tasks / async / await
+>
+> ![image-20230805030554437](./dev-csharp.assets/image-20230805030554437.png)
+>
+> 
+
+
+
 
 
 ## Performance measurement in C#
