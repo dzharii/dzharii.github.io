@@ -239,6 +239,15 @@ This online tutorial continues with more advanced concepts - please read Part II
 >
 > ![image-20230801220021917](./dev-cpp.assets/image-20230801220021917.png)
 
+2023-08-05 Book [Data-Oriented Design](https://www.dataorienteddesign.com/dodbook/) Richard Fabian
+
+> Online release of Data-Oriented Design :
+> This is the free, online, reduced version. Some inessential chapters are excluded from this version, but in the spirit of this being an education resource, the essentials are present for anyone wanting to learn about data-oriented design.
+> Expect some odd formatting and some broken images and listings as this is auto generated and the Latex to html converters available are not perfect. If the source code listing is broken, you should be able to find the referenced source on [github](https://github.com/raspofabs/dodbooksourcecode/). If you like what you read here, consider purchasing the real paper book from [here](https://www.amazon.com/dp/1916478700), as not only will it look a lot better, but it will help keep this version online for those who cannot afford to buy it.
+> ![image-20230805004022297](./dev-cpp.assets/image-20230805004022297.png)
+>
+> DOD
+
 
 
 2023-07-25 [Getting Friendly With CPU Caches](https://www.ardanlabs.com/blog/2023/07/getting-friendly-with-cpu-caches.html)
