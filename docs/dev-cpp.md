@@ -90,7 +90,20 @@ This online tutorial continues with more advanced concepts - please read Part II
   >
   > ![image-20221105165549589](./dev-cpp.assets/image-20221105165549589.png)
 
+2023-08-14 [Performance Ninja -- Data Packing Intro - YouTube](https://www.youtube.com/watch?v=-V-oIXrqA2s&list=PLRWO2AL1QAV6bJAU2kgB4xfodGID43Y5d&index=1)
+
+>  2023-08-14 [GitHub - dendibakh/perf-ninja: This is an online course where you can learn and master the skill of low-level performance analysis and tuning.](https://github.com/dendibakh/perf-ninja)
+> Performance Ninja Class
+> This is an online course where you can learn to find and fix low-level performance issues, for example CPU cache misses and branch mispredictions. It's all about practice. So we offer you this course in a form of lab assignments and youtube videos. You will spend at least 90% of the time analyzing performance of the code and trying to improve it.
+
+> ![image-20230813230433926](./dev-cpp.assets/image-20230813230433926.png)
+
+> 
+
+
+
 ### C++ CHEATSHEET
+
 - 2022-09-26 [Rainier-Cyber/C-cheatsheet: A MEMORY DUMP OF C PROGRAMMING, by Sean Eyre @oni49 and Stephen Semmelroth @stephensemmelroth / @diodepack of Rainier Cyber acquired by StrataCore . This document is intended to provide you a quick desk reference for C’s syntax and semantics. We included several example programs that will elaborate on each section in greater detail.](https://github.com/Rainier-Cyber/C-cheatsheet)
 
 - 2022-09-26 [karansaxena/STL_Cheat_Sheets: C++ STL Cheat Sheets.](https://github.com/karansaxena/STL_Cheat_Sheets)
@@ -265,6 +278,30 @@ This online tutorial continues with more advanced concepts - please read Part II
 > Performance in the end is about how efficiently data can flow into the processor. As you can see from the diagram, main memory access is about 80 times slower than accessing the L1 cache since the data needs to be moved and copied.
 >
 > *Note: [Memory Performance in a Nutshell](https://www.intel.com/content/www/us/en/developer/articles/technical/memory-performance-in-a-nutshell.html): The data is from 2016 but what’s important are the latency ratios which are pretty constant.*
+
+2023-08-06 [CPP How branches influence the performance of your code and what can you do about it? - Johnny's Software Lab](https://johnnysswlab.com/how-branches-influence-the-performance-of-your-code-and-what-can-you-do-about-it/)
+
+> from 2023-08-06 [Programming Digest - A newsletter about programming and technology](https://programmingdigest.net/)
+
+2023-08-07 [CPP Crash course introduction to parallelism: SIMD Parallelism - Johnny's Software Lab](https://johnnysswlab.com/crash-course-introduction-to-parallelism-simd-parallelism/)
+
+2023-08-07 [CPP Make your programs run faster by better using the data cache - Johnny's Software Lab](https://johnnysswlab.com/make-your-programs-run-faster-by-better-using-the-data-cache/)
+
+2023-08-07 [CPP Bit Twiddling Hacks](https://graphics.stanford.edu/~seander/bithacks.html#CopyIntegerSign)
+
+```c
+Conditionally set or clear bits without branching
+bool f;         // conditional flag
+unsigned int m; // the bit mask
+unsigned int w; // the word to modify:  if (f) w |= m; else w &= ~m; 
+
+w ^= (-f ^ w) & m;
+
+// OR, for superscalar CPUs:
+w = (w & ~m) | (-f & m);
+```
+
+> ![image-20230813234458300](./dev-cpp.assets/image-20230813234458300.png)
 
 
 

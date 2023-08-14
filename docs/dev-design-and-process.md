@@ -117,6 +117,22 @@ if isValid && isAllowed && isSecure {
 
 
 
+2023-08-14 [Consistency Patterns - System Design](https://systemdesign.one/consistency-patterns/)
+
+> Consistency Models in Distributed Systems
+>
+> The target audience for this article falls into the following roles:
+>
+> Tech workers
+> Students
+> Engineering managers
+> The prerequisite to reading this article is fundamental knowledge of system design components. This article does not cover an in-depth guide on individual system design components.
+>
+> Disclaimer: The system design questions are subjective. This article is written based on the research I have done on the topic and might differ from real-world implementations. Feel free to share your feedback and ask questions in the comments. Some of the linked resources are affiliates. As an Amazon Associate, I earn from qualifying purchases.
+>
+> ![image-20230813234704955](./dev-design-and-process.assets/image-20230813234704955.png)
+> 
+
 ## Dev Deployment, Update, DevOps
 
 - 2022-01-28 [How Prime Video updates its app for more than 8,000 device types - Amazon Science](https://www.amazon.science/blog/how-prime-video-updates-its-app-for-more-than-8-000-device-types)

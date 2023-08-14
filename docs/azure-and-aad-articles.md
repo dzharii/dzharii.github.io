@@ -86,6 +86,44 @@ JSON Web Token
   > it is difficult to revoke a JWT, not until it expires.
   > some teams use a block-list of revoked JWTs, but this is not a good solution.
 
+**Philippe De Ryck**:
+
+- 2023-08-06 [AppSec is Too Hard!? - Philippe De Ryck - NDC Security 2022 - YouTube](https://www.youtube.com/watch?v=sUKpUPu151Q)
+- 2023-08-06 [Forget about OAuth 2.0. Here comes OAuth 2.1 - Philippe De Ryck - NDC Oslo 2022 - YouTube](https://www.youtube.com/watch?v=Z9DJzVJD_vg)
+- 2023-08-06 [draft-ietf-oauth-v2-1-08](https://datatracker.ietf.org/doc/html/draft-ietf-oauth-v2-1-08)
+- 2023-08-06 [How Many Days Has It Been Since a JWT alg=none Vulnerability?](https://www.howmanydayssinceajwtalgnonevuln.com/)
+- 2023-08-06 [Backend For Frontend Authentication Pattern with Auth0 and ASP.NET Core](https://auth0.com/blog/backend-for-frontend-pattern-with-auth0-and-dotnet/)
+2023-08-06 [Backends for Frontends pattern - Azure Architecture Center | Microsoft Learn](https://learn.microsoft.com/en-us/azure/architecture/patterns/backends-for-frontends)
+2023-08-06 [Sam Newman - Backends For Frontends](https://samnewman.io/patterns/architectural/bff/)
+2023-08-06 [pragmaticwebsecurity.com Recorded sessions](https://pragmaticwebsecurity.com/recordings)
+2023-08-06 [pragmaticwebsecurity.com Articles](https://pragmaticwebsecurity.com/articles)
+
+In the context of authentication and authorization, these acronyms refer to specific standards and protocols. Here's an overview:
+
+1. **JAR (JWT-Secured Authorization Request):**
+   - **Description**: JAR is a method to secure OAuth 2.0 authorization requests using JWT (JSON Web Tokens). This allows the client to send requests in a way that ensures integrity and possibly confidentiality of the authorization request parameters.
+   - **Use**: It's used to protect the content of the authorization request, thus increasing the security of the OAuth 2.0 flow.
+
+2. **PAR (Pushed Authorization Request):**
+   - **Description**: PAR enables the client to request authorization from the authorization server without exposing the parameters to the end-user's user-agent. It essentially allows the parameters to be sent directly to the authorization server, returning a URL that the user-agent can be redirected to.
+   - **Use**: This enhances the security of the OAuth 2.0 authorization process by reducing exposure of sensitive parameters to possibly malicious user-agents or intermediaries.
+
+3. **RAR (Rich Authorization Requests):**
+   - **Description**: RAR is an extension to OAuth 2.0 that provides a way for clients to convey a fine-grained authorization request, using a structured format, both for scope and other authorization parameters.
+   - **Use**: This allows for a more detailed and flexible authorization request, suitable for various complex use cases that require more than the basic scopes.
+
+4. **FAPI2 (Financial-grade API Part 2 - Advanced Financial-grade API):**
+   - **Description**: FAPI2 is a set of security profiles for OAuth 2.0 and OpenID Connect, designed for high-risk scenarios like financial services and payments. It specifies various security requirements and recommendations to ensure that the authorization process is highly secure.
+   - **Use**: It's used to provide robust security measures specifically for financial APIs, where high levels of security are needed.
+
+In summary, these terms are all related to enhancing and extending the security and functionality of the OAuth 2.0 protocol, particularly in scenarios that require high levels of security, such as in financial services.
+
+
+2023-08-06 [OAuth and the long way to Proof of Possession - Dominick Baier & Steinar Noem - NDC Security 2023 - YouTube](https://www.youtube.com/watch?v=BkigVNNSurI&list=PL03Lrmd9CiGey4D3-wb_2SWTmLJtGHC_j)
+- 2023-08-06 [DuendeSoftware/IdentityServer: The most flexible and standards-compliant OpenID Connect and OAuth 2.x framework for ASP.NET Core](https://github.com/DuendeSoftware/IdentityServer)
+> The most flexible and standards-compliant OpenID Connect and OAuth 2.x framework for ASP.NET Core
+2023-08-06 [Securing SPAs and Blazor Applications using the BFF (Backend for Frontend) Pattern - Dominick Baier - YouTube](https://www.youtube.com/watch?v=hWJuX-8Ur2k&list=PL03Lrmd9CiGey4D3-wb_2SWTmLJtGHC_j&index=2)
+
 ## OAuth 2.0 / OpenID Connect
 
 * 2023-06-29 [Demystifying OAuth, JWTs and Azure AD - Graeme Foster - NDC Oslo 2023 - YouTube](https://www.youtube.com/watch?v=HmvXoW0r83I)
