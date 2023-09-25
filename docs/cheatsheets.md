@@ -68,3 +68,17 @@ Date: 2023-08-05
 > - [Give me a list of all render blocking resources](https://codepo8.github.io/dearconsole/scripts/render-blocking-resources.html)
 > - [Show me the element at the current cursor position](https://codepo8.github.io/dearconsole/scripts/show-element-at-cursor.html)
 > - [Give me a screenshot of the page](https://codepo8.github.io/dearconsole/scripts/take-screenshot.html)
+
+2023-09-07 💡 [LINQ to SQL cheat sheet » DamienG](https://damieng.com/blog/2009/08/12/linq-to-sql-cheat-sheet/)
+
+> 2009 
+>
+> https://download.damieng.com/dotnet/LINQToSQLCheatSheet.pdf
+>
+> Old, but not obsolete, nicely made cheat sheet
+>
+> ![image-20230925000723983](./cheatsheets.assets/image-20230925000723983.png)
+
+
+
+## 

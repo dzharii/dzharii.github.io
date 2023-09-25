@@ -45,6 +45,35 @@ consistency, replication, and database sharding for linear read and write latenc
 >
 > 
 
+2023-09-25 [A Hackers' Guide to Language Models - YouTube](https://www.youtube.com/watch?v=jkrNMKz9pWU)
+
+> Explains how LLM work
+
+- 2023-09-25 [Practical Deep Learning for Coders - Practical Deep Learning](https://course.fast.ai/)
+
+  > ![image-20230924232304577](./dev-design-and-process.assets/image-20230924232304577.png)
+
+2023-08-27 [Normcore LLM Reads](https://gist.github.com/veekaybee/be375ab33085102f9027853128dc5f0e)
+
+> Anti-hype LLM reading list
+> Goals: Add links that are reasonable and good explanations of how stuff works. No hype and no vendor content if possible. Practical first-hand accounts and experience preferred (super rare at this point).
+
+> - [Generative Interfaces Beyond Chat (YouTube)](https://www.youtube.com/watch?v=rd-J3hmycQs)
+
+> - [Why Chatbots are not the Future](https://wattenberger.com/thoughts/boo-chatbots)
+>
+> ![image-20230925002631505](./dev-design-and-process.assets/image-20230925002631505.png)
+
+
+
+2023-09-20 🐇 [RabbitMQ vs. Kafka - An Architect's Dilemma (Part 1) - Eran Stiller](https://eranstiller.com/rabbitmq-vs-kafka-an-architects-dilemma-part-1)
+
+> ![image-20230924233732091](./dev-design-and-process.assets/image-20230924233732091.png)
+
+
+
+## 
+
 ## Some good Articles
 
 - 2022-02-27 [Practical Guide to Solving Hard Problems](https://praeclarum.org/2022/02/19/hard-problems.html?utm_source=programmingdigest&utm_medium=email&utm_campaign=461)

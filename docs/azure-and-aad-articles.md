@@ -86,6 +86,10 @@ JSON Web Token
   > it is difficult to revoke a JWT, not until it expires.
   > some teams use a block-list of revoked JWTs, but this is not a good solution.
 
+2023-05-18 [OAuth 2.0 basics - Playground | MSS Architecture](https://equinor.github.io/mss-architecture/oauth2/openid/2019/08/22/oauth2-basics-playground.html)
+
+> ![image-20230924231741442](./azure-and-aad-articles.assets/image-20230924231741442.png)
+
 **Philippe De Ryck**:
 
 - 2023-08-06 [AppSec is Too Hard!? - Philippe De Ryck - NDC Security 2022 - YouTube](https://www.youtube.com/watch?v=sUKpUPu151Q)

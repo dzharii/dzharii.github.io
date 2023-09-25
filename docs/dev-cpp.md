@@ -303,6 +303,52 @@ w = (w & ~m) | (-f & m);
 
 > ![image-20230813234458300](./dev-cpp.assets/image-20230813234458300.png)
 
+2023-09-25 [Parsing integers quickly with AVX-512 – Daniel Lemire's blog](https://lemire.me/blog/2023/09/22/parsing-integers-quickly-with-avx-512/)
+
+> If I give a programmer a string such as `"9223372036854775808"` and I ask them to convert it to an integer, they might do the following in C++:
+
+```cpp
+std::string s = ....
+uint64_t val;
+auto [ptr, ec] =
+std::from_chars(s.data(), s.data() + s.size(), val);
+if (ec != std::errc()) {} // I have an error !
+// val holds the value
+```
+
+>  It is very fast: you can parse a sequence of random 32-bit integers at about 40 cycles per integer, using about 128 instructions.
+
+>  Can you do better?
+
+```cpp
+auto DIGIT_VALUE_BASE10_8BIT =
+_mm256_set_epi8(1, 10, 1, 10, 1, 10, 1, 10,
+1, 10, 1, 10, 1, 10, 1, 10,
+1, 10, 1, 10, 1, 10, 1, 10,
+1, 10, 1, 10, 1, 10, 1, 10);
+auto DIGIT_VALUE_BASE10E2_8BIT = _mm_set_epi8(
+1, 100, 1, 100, 1, 100, 1, 100, 1, 100, 1, 100, 1, 100, 1, 100);
+auto DIGIT_VALUE_BASE10E4_16BIT =
+_mm_set_epi16(1, 10000, 1, 10000, 1, 10000, 1, 10000);
+auto base10e2_16bit =
+_mm256_maddubs_epi16(base10_8bit, DIGIT_VALUE_BASE10_8BIT);
+auto base10e2_8bit = _mm256_cvtepi16_epi8(base10e2_16bit);
+auto base10e4_16bit =
+_mm_maddubs_epi16(base10e2_8bit, DIGIT_VALUE_BASE10E2_8BIT);
+auto base10e8_32bit =
+_mm_madd_epi16(base10e4_16bit, DIGIT_VALUE_BASE10E4_16BIT);
+```
+
+| AVX-512         | 1.8 GB/s | 57 instructions/number  | 17 cycles/number |
+| --------------- | -------- | ----------------------- | ---------------- |
+| std::from_chars | 0.8 GB/s | 128 instructions/number | 39 cycles/number |
+
+
+
+
+
+
+
 
 
 ## C++ Build tools
@@ -377,7 +423,23 @@ int main(){
 >  - `stx::Result<T, E>` : Type for relaying the result of a function that can fail or succeed (with monadic extensions)
 >  - `stx::Option<T>` : Type for **safe** optional values (with monadic extensions)
 
+2023-09-15 [hanickadot/compile-time-regular-expressions: Compile Time Regular Expression in C++](https://github.com/hanickadot/compile-time-regular-expressions)
 
+> Fast compile-time regular expressions with support for matching/searching/capturing during compile-time or runtime.
+>
+> You can use the single header version from directory `single-header`. This header can be regenerated with `make single-header`. If you are using cmake, you can add this directory as subdirectory and link to target `ctre`.
+
+```
+ctre::match<"REGEX">(subject); // C++20
+"REGEX"_ctre.match(subject); // C++17 + N3599 extension
+```
+
+>- Matching
+>- Searching (`search` or `starts_with`)
+>- Capturing content (named captures are supported too)
+>- Back-Reference (\g{N} syntax, and \1...\9 syntax too)
+>- Multiline support (with `multi_`) functions
+>- Unicode properties and UTF-8 support
 
 ## C++ Machine Learning
 
