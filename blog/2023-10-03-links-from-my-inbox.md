@@ -17,6 +17,62 @@ categories: links
 >
 > found in  [Programming Digest](https://programmingdigest.net/digests/1717)
 
+2023-09-21 [Falsehoods programmers believe about time, in a single list](https://gist.github.com/timvisee/fcda9bbdff88d45cc9061606b4b923ca#falsehoods-programmers-believe-about-time)
+
+> - There are always 24 hours in a day.
+> - February is always 28 days long.
+> - Any 24-hour period will always begin and end in the same day (or week, or month).
+> - A week always begins and ends in the same month.
+> - A week (or a month) always begins and ends in the same year.
+> - The machine that a program runs on will always be in the `GMT` time zone.
+> - Ok, that’s not true. But at least the time zone in which a program has to run will never change.
+> - Well, surely there will never be a change to the time zone in which a program hast to run in production.
+> - The system clock will always be set to the correct local time.
+> - The system clock will always be set to a time that is not wildly different from the correct local time.
+>
+> ![image-20231003190601540](./2023-10-03-links-from-my-inbox.assets/image-20231003190601540.png)
+
+
+
+## Wisdom
+
+2023-10-04 [A list of 100 opinions I hold](https://adayinthelifeof.nl/2022/09/05/100-opinions.html)
+
+> ![image-20231003190019270](./2023-10-03-links-from-my-inbox.assets/image-20231003190019270.png)
+>
+> - 09 - Log all the things. If you didn’t log it, it didn’t happen.
+> - 10 - Don’t assume users are dumb. They will find things you never knew was possible.
+> - 11 - Spend most of the time writing the failure paths, not the happy path.
+> - 12 - Don’t slap on an index and call it a day. Check your queries, rewrite them and/or create indices accordingly. And hire a DBA.
+> - 13 - Javascript is an unreadble async mess.
+> - 14 - Scrum is bad
+> - 15 - Kanban is better
+> - 16 - Just because you say you do scrum, doesn’t mean you do scrum.
+> - 17 - you can be “agile” without daily standups, sprints, retrospectives.
+
+2023-09-27 [wisdom/wisdom.md at master · merlinmann/wisdom](https://github.com/merlinmann/wisdom/blob/master/wisdom.md)
+
+> ![image-20231003190129574](./2023-10-03-links-from-my-inbox.assets/image-20231003190129574.png)
+
+> ![image-20231003190210607](./2023-10-03-links-from-my-inbox.assets/image-20231003190210607.png)
+
+> - Sometimes, an email is just a way to say, “I love you.”
+> - People think about you much less than you either hope or fear.
+> - It’s often easier not to be terrible.
+>
+> - Buy the nicest screwdrivers you can afford.
+> - Every few months, take at least one panorama photo of your kid's room. At least annually, secretly record your kid talking for at least ten minutes. I promise you'll treasure both, and then you will curse yourself for not having done each way more often.
+> - Most well-written characters have something they want—or something they *think* they want. The more fascinating characters also have something they don’t want you to know. The best ones also have something they’re not pulling off nearly as well as they think.
+> - Related: these are each also true for real people.
+>
+> 
+
+2023-09-14 [Work Chronicles - Webcomics](https://workchronicles.com/)
+
+> ![image-20231003190800509](./2023-10-03-links-from-my-inbox.assets/image-20231003190800509.png)
+
+> View All [Comics Archives - Work Chronicles](https://workchronicles.com/comics/)
+
 
 
 ## Good Talks!
@@ -31,7 +87,12 @@ categories: links
 > [mess with dns](https://messwithdns.net/)
 > [Float Exposed](https://float.exposed/0x44bf9400)
 
+2023-09-26 [World of Warcraft's Network Serialization and Routing - YouTube](https://www.youtube.com/watch?v=3eQW6SueWsQ)
 
+> I am a Principal Software Engineer, if you are misbehaving, I bring you to my office.
+> JAM -- messaging serialization protocol
+
+### 
 
 
 
@@ -127,5 +188,4 @@ categories: links
 
 > ![image-20231003175526084](./2023-10-03-links-from-my-inbox.assets/image-20231003175526084.png)
 > 2023-09-30 [WA rolls out new data dashboard on fatal overdoses | The Seattle Times](https://www.seattletimes.com/seattle-news/wa-rolls-out-new-data-dashboard-on-fatal-overdoses/)
-
 
