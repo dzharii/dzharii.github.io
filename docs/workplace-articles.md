@@ -24,7 +24,23 @@
 
 - 2023-07-02 [How you can ~1.5x your salary through negotiation](https://careercutler.substack.com/p/how-you-can-15x-your-salary-through)
 
+2023-08-24 [How to sabotage your salary negotiation efforts before you even start](https://interviewing.io/blog/sabotage-salary-negotiation-before-even-start)
+
+> Exactly what to say
+> For questions about comp expectations at the beginning of the process:
+> At this point, I don’t feel equipped to throw out a number because I’d like to find out more about the opportunity first – right now, I simply don’t have the data to be able to say something concrete. If you end up making me an offer, I would be more than happy to iterate on it if needed and figure out something that works. I promise not to accept other offers until I have a chance to discuss them with you.
+>
+> For questions about comp expectations at the end of the process:
+> It sounds like there’s an offer coming, and I’m really excited about it. I’m not sure exactly what number I’m looking for, but if you’d be able to share what an offer package might look like, then I will gladly iterate on it with you if needed and figure out something that works. I promise not to accept other offers until I have a chance to discuss them with you.
+>
+> For questions about where else you’re interviewing at the beginning of the process:
+> I’m currently speaking with a few other companies and am at various stages with them. I’ll let you know if I get to the point where I have an exploding offer, and I promise not to accept other offers until I have a chance to discuss them with you.
+>
+> For questions about where else you’re interviewing at the end of the process:
+> I’m wrapping things up with a few companies and in process with a few more. I promise to keep you in the loop, and I promise not to accept other offers until I have a chance to discuss them with you.
+
 ## Coding interview
+
 - 2022-05-22 [Dictionary implementation in C# - Dotnetos - courses & conferences about .NET](https://dotnetos.org/blog/2022-03-28-dictionary-implementation/)
 > In the previous post we explained the [implementation details](https://dotnetos.org/blog/2022-03-07-list-implementation/) of `List<T>`. This time we will look at another generic collection defined in `System.Collection.Generic` namespace which is `Dictionary<TKey TValue>`.
 - 2022-05-21 [gouthampradhan/leetcode: Leetcode solutions](https://github.com/gouthampradhan/leetcode)
