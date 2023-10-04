@@ -61,7 +61,7 @@ categories: links
 >
 >![image-20231003223011168](./2023-10-03-links-from-my-inbox.assets/image-20231003223011168.png)
 
-> **Bing!!!** 
+> **Bing!!!**
 > **A sleek, modern design showcases a vast network of interconnected nodes, symbolizing software intricacy, over a satellite view of Earth. At the center, the bold, white text "Software Engineering at Google" contrasts with a deep blue background, signifying global technological dominance.**
 >
 > 2023-10-04 [A sleek, modern design showcases a vast network of interconnected nodes, symbolizing software intricacy, over a satellite view of Earth. At the center, the bold, white text "Software Engineering at Google" contrasts with a deep blue background, signifying global technological dominance. - Image Creator from Microsoft Bing](https://www.bing.com/images/create/a-sleek2c-modern-design-showcases-a-vast-network-of/651cf8c4a59b407eb0396da4744eec5b?FORM=GENCRE)
@@ -107,7 +107,7 @@ categories: links
 > - Most well-written characters have something they want—or something they *think* they want. The more fascinating characters also have something they don’t want you to know. The best ones also have something they’re not pulling off nearly as well as they think.
 > - Related: these are each also true for real people.
 >
-> 
+>
 
 2023-09-14 [Work Chronicles - Webcomics](https://workchronicles.com/)
 
@@ -152,11 +152,11 @@ categories: links
 
 2023-10-03 [orhun/daktilo: Turn your keyboard into a typewriter! 📇](https://github.com/orhun/daktilo)
 
-> On one side, this is a project with a useless (but funny) goal. On the other side -- this is an awesome sample of cross-platform system app. 
+> On one side, this is a project with a useless (but funny) goal. On the other side -- this is an awesome sample of cross-platform system app.
 >
 > **daktilo** ("typewriter" in Turkish, pronounced *"duck-til-oh"*, derived from the Ancient Greek word [δάκτυλος](https://lsj.gr/wiki/δάκτυλος) for "finger") is a small command-line program that plays typewriter sounds every time you press a key. It also offers the flexibility to customize keypress sounds to your liking. You can use the built-in sound presets to create an enjoyable typing experience, whether you're crafting emails or up to some prank on your boss.
 >
-> <img src="./2023-10-03-links-from-my-inbox.assets/image-20231003165947572.png" alt="image-20231003165947572" style="zoom:50%;" />
+> ![](./2023-10-03-links-from-my-inbox.assets/image-20231003165947572.png)
 
 2023-10-03 [google/graph-mining](https://github.com/google/graph-mining)
 
@@ -311,11 +311,11 @@ val definition2 = input.reduceByKey(_ + _)
 
 > This post is organized as follows:
 >
-> - In Section 1, I briefly review [Spark architecture and Spark run modes](https://dzone.com/articles/apache-spark-in-a-nutshell). 
-> - In Section 2,  I review [what RDD is](https://dzone.com/articles/what-is-rdd-in-spark-and-why-do-we-need-it) and what operations we can do on it. 
-> - In Section 3, I review how Spark creates a physical plan out of a logical plan. 
-> - In Section 4, I demonstrate how a physical plan gets executed and where and [how Spark tasks get serialized](https://dzone.com/articles/apache-spark-all-about-serialization). 
-> - Finally, in Section 5, I summarize all these as simple rules to avoid the exception. 
+> - In Section 1, I briefly review [Spark architecture and Spark run modes](https://dzone.com/articles/apache-spark-in-a-nutshell).
+> - In Section 2,  I review [what RDD is](https://dzone.com/articles/what-is-rdd-in-spark-and-why-do-we-need-it) and what operations we can do on it.
+> - In Section 3, I review how Spark creates a physical plan out of a logical plan.
+> - In Section 4, I demonstrate how a physical plan gets executed and where and [how Spark tasks get serialized](https://dzone.com/articles/apache-spark-all-about-serialization).
+> - Finally, in Section 5, I summarize all these as simple rules to avoid the exception.
 
 
 
@@ -386,7 +386,7 @@ val definition2 = input.reduceByKey(_ + _)
 
 
 
-## Seattle 
+## Seattle
 
 2023-09-30 [Unintentional Drug Overdose Data (SUDORS) | Washington State Department of Health](https://doh.wa.gov/data-and-statistical-reports/washington-tracking-network-wtn/opioids/unintentional-drug-overdose-data-sudors)
 
