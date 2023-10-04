@@ -162,6 +162,18 @@ if isValid && isAllowed && isSecure {
 > ![image-20230813234704955](./dev-design-and-process.assets/image-20230813234704955.png)
 > 
 
+
+
+2023-10-04 [Draggable objects](https://www.redblobgames.com/making-of/draggable/)
+
+![image-20231003180023876](./dev-design-and-process.assets/image-20231003180023876.png)
+
+
+
+
+
+
+
 ## Dev Deployment, Update, DevOps
 
 - 2022-01-28 [How Prime Video updates its app for more than 8,000 device types - Amazon Science](https://www.amazon.science/blog/how-prime-video-updates-its-app-for-more-than-8-000-device-types)
