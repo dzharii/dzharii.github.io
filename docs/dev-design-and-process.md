@@ -72,7 +72,39 @@ consistency, replication, and database sharding for linear read and write latenc
 
 
 
-## 
+## Metadata Blog
+
+> On distributed systems broad ly defined and other curiosities. The opinions on this site are my own.
+
+- [TiDB: A Raft-based HTAP Database](https://muratbuffalo.blogspot.com/2023/10/tidb-raft-based-htap-database.html)
+- [Metastable failures in the wild](https://muratbuffalo.blogspot.com/2023/09/metastable-failures-in-wild.html)
+
+> This paper appeared in OSDI'22. There is a great summary of the paper by Aleksey (one of the authors and my former PhD student, go Aleksey!). There is also a great conference presentation video from Lexiang. Below I will provide a brief overview of the paper followed by my discussion points.
+
+- [Distributed Transactions at Scale in Amazon DynamoDB](https://muratbuffalo.blogspot.com/2023/08/distributed-transactions-at-scale-in.html)
+
+> This paper appeared in July at USENIX ATC 2023. If you haven't read about the architecture and operation of DynamoDB, please first read my summary of the DynamoDB ATC 2022 paper . The big omission in that paper was discussion about transactions. This paper amends that. It is great to see DynamoDB, and AWS in general, is publishing/sharing more widely than before.
+
+- [Detock: High Performance Multi-region Transactions at Scale (Sigmod 2023)](https://muratbuffalo.blogspot.com/2023/07/detock-high-performance-multi-region.html)
+
+> This paper (from Sigmod 2023) is a followup to the deterministic database work that Daniel Abadi has been doing for more than a decade. I like this type of continuous research effort rather than people jumping from one branch to another before exploring the approach in depth.
+>
+> The backstory for Detock starts with the Calvin paper from 2012. Calvin used a single logically centralized infallible coordinator (which is in fact 3 physical nodes under the raincoat using Paxos for state machine replication) to durably lock-in on the order of oplogs to be executed. The coordinator also gets rid of nondeterminism sources like random or time by filling in those values. The oplogs then get sent to the workers that execute them and materialize the values. The execution is local, where the executors simply follow the logs they receive.
+
+- [Characterizing Microservice Dependency and Performance: Alibaba Trace Analysis](https://muratbuffalo.blogspot.com/2023/03/characterizing-microservice-dependency.html)
+
+> This paper got the best paper award at SOCC 2021. The paper conducts a comprehensive study of large scale microservices deployed in Alibaba clusters.  They analyze the behavior of more than 20,000 microservices in a 7-day period and profile their characteristics based on the 10 billion call traces collected.
+
+- [SQLite: Past, Present, and Future](https://muratbuffalo.blogspot.com/2022/09/sqlite-past-present-and-future.html)
+
+> SQLite is the most widely deployed database engine (or likely even software of any type) in existence. It is found in nearly every smartphone (iOS and Android), computer, web browser, television, and automobile. There are likely over one trillion SQLite databases in active use. (If you are on a Mac laptop, you can open a terminal, type "sqlite3", and start conversing with the SQLite database engine using SQL.)
+> SQLite is a single node and (mostly) single threaded online transaction processing (OLTP) database. It has an in-process/embbedded design, and a standalone (no dependencies) codebase ...a single C library consisting of 150K lines of code.  With all features enabled, the compiled library size can be less than 750 KiB. Yet, SQLite can support tens of thousands of transactions per second. Due to its reliability, SQLite is used in mission-critical applications such as flight software. There are over 600 lines of test code for every line of code in SQLite. SQLite is truly the little database engine that could.
+
+- [Warp: Lightweight Multi-Key Transactions for Key-Value Stores](https://muratbuffalo.blogspot.com/2022/05/warp-lightweight-multi-key-transactions.html)
+
+> This paper introduces a simple yet powerful idea to provide efficient multi-key transactions with ACID semantics on top of a sharded NoSQL data store. The Warp protocol prevents serializability cycles forming between concurrent transactions by forcing them to serialize via a chain communication pattern rather than using a parallel 2PC fan-out/fan-in communication. This avoids hotspots associated with fan-out/fan-in communication and prevents wasted parallel work from contacting multiple other servers when traversing them in serial would surface an invalidation/abortion early on in the serialization. I love the elegance of this idea.
+
+
 
 ## Some good Articles
 

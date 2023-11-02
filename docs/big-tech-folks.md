@@ -36,6 +36,8 @@ This curated list features individuals who hold positions at leading tech compan
 >
 > He has a blog and the podcast is coming soon
 
+2023-10-19 [Bill Gates demonstrates Visual Basic (1991) - YouTube Windows 3.1](https://www.youtube.com/watch?v=Fh_UDQnboRw)
+
 
 
 2023-07-16  David Plummer #ms
