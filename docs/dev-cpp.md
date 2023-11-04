@@ -70,11 +70,31 @@ These two are very good beginner resources:
 
 - 2022-10-03 [Interactive C++ with Cling - The LLVM Project Blog](https://blog.llvm.org/posts/2020-11-30-interactive-cpp-with-cling/)
 
+
+
+## C++ Awesome Lists
+
+- 2023-10-29 [fffaraz/awesome-cpp ](https://github.com/fffaraz/awesome-cpp)
+
+> A curated list of awesome C++ (or C) frameworks, libraries, resources, and shiny things. Inspired by awesome-... stuff.
+>
+> ![image-20231103173812216](./dev-cpp.assets/image-20231103173812216.png)
+
+- 2023-10-29 [JesseTG/awesome-qt](https://github.com/JesseTG/awesome-qt)
+
+>  A curated list of awesome tools, libraries, and resources for the Qt framework.
+>
+> ![image-20231103173928968](./dev-cpp.assets/image-20231103173928968.png)
+
+- 2022-10-02 [uhub/awesome-cpp: A curated list of awesome C++ frameworks, libraries and software.](https://github.com/uhub/awesome-cpp)
+
+> ![image-20231103174233899](./dev-cpp.assets/image-20231103174233899.png)
+
 ## C++ Other learning resources
+
 - 2023-02-12 [Learn C++ – Skill up with our free tutorials](https://www.learncpp.com/)
 - 2022-10-02 [C++ By Example Code Examples with Simple Explanations](https://cppbyexample.com/)
 - 2022-10-02 [My tutorial and take on C++20 coroutines](https://www.scs.stanford.edu/~dm/blog/c++-coroutines.html)
-- 2022-10-02 [uhub/awesome-cpp: A curated list of awesome C++ frameworks, libraries and software.](https://github.com/uhub/awesome-cpp)
 - 2022-10-02 [Next Steps C++ Education Google Developers](https://developers.google.com/edu/c++/next-steps)
 - 2022-10-02 [C++ Examples Programiz](https://www.programiz.com/cpp-programming/examples)
 - 2022-10-02 [Next Steps C++ Education Google Developers](https://developers.google.com/edu/c++/next-steps)
@@ -115,6 +135,16 @@ This online tutorial continues with more advanced concepts - please read Part II
 - 2022-09-26 [jwill9999/C-Sharp-Cheatsheet: C# Cheatsheet](https://github.com/jwill9999/C-Sharp-Cheatsheet)
 - 2022-09-26 [crazyguitar/cppcheatsheet: C/C++ Cheat Sheet](https://github.com/crazyguitar/cppcheatsheet)
 - 2022-09-26 [vaputa/awesome-cheatsheet: A collection of awesome cheatsheets. Including git, python, c/c++, frontend, matlab, markdown, etc.](https://github.com/vaputa/awesome-cheatsheet)
+
+## C / C++ and GUI
+
+2023-10-28 [Skia](https://skia.org/)
+
+> C++ Skia is an open source 2D graphics library which provides common APIs that work across a variety of hardware and software platforms. It serves as the graphics engine for Google Chrome and ChromeOS, Android, Flutter, and many other products.
+> https://skia.org/docs/user/modules/canvaskit/
+>
+> ![image-20231103174340719](./dev-cpp.assets/image-20231103174340719.png)
+
 
 
 ## TTY UI
@@ -191,6 +221,12 @@ This online tutorial continues with more advanced concepts - please read Part II
 - 2022-10-16 [Lippincott Pattern C++](https://ib-krajewski.blogspot.com/2020/05/lippincott-pattern.html)
 
   >  My coworkers at the then-customer were nice and open minded people so they didn't bridle at that, on the contrary, they were eager to change it and asked for advice. I simply said that they should google for the "Lippincot Pattern" and thought the matter were settled.
+  
+- 2023-10-13 [Embedded C/C++ Unit Testing with Mocks | Interrupt](https://interrupt.memfault.com/blog/unit-test-mocking)
+
+  > Writing a unit test from scratch for an embedded software project is almost always an exercise in frustration, patience, and determination. This is because of the constraints, as well as breadth, of embedded software. It combines hardware drivers, operating systems, high-level software, and communication protocols and stacks all within one software package and is usually managed by a single team. Due to these complexities, the number of dependencies of a single file can quickly grow out of control.
+  >
+  > ![image-20231103175806064](./dev-cpp.assets/image-20231103175806064.png)
 
 ## Regular Expressions
 

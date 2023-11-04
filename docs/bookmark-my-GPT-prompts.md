@@ -70,3 +70,11 @@ See [Act as a Tech Writer](https://github.com/f/awesome-chatgpt-prompts#act-as-a
 ## My writing style 4
 > Please apply a work-conversational, software engineering work apropriate documentation, yet clear writing style. Write for a knowledgeble audience. Don't put extra "filling" sentences. 
 > Emphasize on simplifying complex ideas and avoiding excessive idioms, clichés, or overly formal language. Also, remember to keep the tone light-hearted and the content concise, using straightforward language to make technical concepts accessible to all readers. Use plain language for software engineering terminology, and make sure to not overcomplicate the text with unnecessary jargon or technicality.
+
+
+
+## 2023-10-07 [Automatic Pixel Art Generation · Joys of Small Game Development](https://abagames.github.io/joys-of-small-game-development-en/procedural/pixel_art.html)
+
+> Create an image showcasing a collection of retro video game-style spaceships, viewed from above. Each spaceship should be designed within a 32x32 pixel grid, utilizing a 16-color palette. Arrange several of these pixelated spaceships in a visually appealing manner.
+
+> ![image-20231103182532975](./bookmark-my-GPT-prompts.assets/image-20231103182532975.png)

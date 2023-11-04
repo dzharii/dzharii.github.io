@@ -178,7 +178,7 @@ if isValid && isAllowed && isSecure {
 
 
 
-2023-08-14 [Consistency Patterns - System Design](https://systemdesign.one/consistency-patterns/)
+- 2023-08-14 [Consistency Patterns - System Design](https://systemdesign.one/consistency-patterns/)
 
 > Consistency Models in Distributed Systems
 >
@@ -199,6 +199,101 @@ if isValid && isAllowed && isSecure {
 2023-10-04 [Draggable objects](https://www.redblobgames.com/making-of/draggable/)
 
 ![image-20231003180023876](./dev-design-and-process.assets/image-20231003180023876.png)
+
+2023-10-13 [How to Mock the File System for Unit Testing in .NET - Code Maze](https://code-maze.com/dotnet-unit-testing-mock-file-system/)
+
+> Why Is Unit-Testing the File System Methods Complex?
+> Let’s imagine we have a method that reads the content of a file and writes the number of its lines, words, and bytes in a new file. This implementation uses sync APIs for the sake of simplicity:
+
+```csharp
+public void WriteFileStats(string filePath, string outFilePath)
+{
+    var fileContent = File.ReadAllText(filePath, Encoding.UTF8);
+    var fileBytes = new FileInfo(filePath).Length;
+    var fileWords = Regex.Matches(fileContent, @"\s+").Count + 1;
+    var fileLines = Regex.Matches(fileContent, Environment.NewLine).Count + 1; 
+
+    var fileStats = $"{fileLines} {fileWords} {fileBytes}";
+
+    File.AppendAllText(outFilePath, fileStats);
+}
+```
+
+> Unit testing a method like this one would increase the test complexity and, therefore, would cause code maintenance issues. Let’s see the two main problems.
+>
+> ...
+
+```csharp
+public class FileWrapper : IFile
+{
+    public override void AppendAllLines(string path, IEnumerable<string> contents)
+    {
+        File.AppendAllLines(path, contents);
+    }
+
+    public override void AppendAllLines(string path, IEnumerable<string> contents, Encoding encoding)
+    {
+        File.AppendAllLines(path, contents, encoding);
+    }
+    // ...
+}
+```
+
+```csharp
+using System.IO.Abstractions;
+
+public class FileStatsUtility
+{
+    private IFileSystem _fileSystem;
+
+    public FileStatsUtility(IFileSystem fileSystem) 
+    {
+        _fileSystem = fileSystem;
+    }
+
+    public void WriteFileStats(string filePath, string outFilePath)
+    {
+        var fileContent = _fileSystem.File.ReadAllText(filePath, Encoding.UTF8);
+        var fileBytes = _fileSystem.FileInfo.FromFileName(filePath).Length;
+        var fileWords = this.CountWords(fileContent);
+        var fileLines = this.CountLines(fileContent);
+
+        var fileStats = $"{fileLines} {fileWords} {fileBytes}";
+
+        _fileSystem.File.AppendAllText(outFilePath, fileStats);
+    }
+
+    private int CountLines(string text) => Regex.Matches(text, Environment.NewLine).Count + 1;
+
+    private int CountWords(string text) => Regex.Matches(text, @"\s+").Count + 1;
+}
+```
+
+```cs
+[TestInitialize]
+public void TestSetup() 
+{
+    _fileSystem = new MockFileSystem();
+    _util = new FileStatsUtility(_fileSystem);
+}
+
+[TestMethod]
+public void GivenExistingFileInInputDir_WhenWriteFileStats_WriteStatsInOutputDir()
+{
+    var fileContent = $"3 lines{Environment.NewLine}6 words{Environment.NewLine}24 bytes";
+    var fileData = new MockFileData(fileContent);
+    var inFilePath = Path.Combine("in_dir", "file.txt");
+    var outFilePath = Path.Combine("out_dir", "file_stats.txt");
+    _fileSystem.AddDirectory("in_dir");
+    _fileSystem.AddDirectory("out_dir");
+    _fileSystem.AddFile(inFilePath, fileData);
+
+    _util.WriteFileStats(inFilePath, outFilePath);
+
+    var outFileData = _fileSystem.GetFile(outFilePath);
+    Assert.AreEqual("3 6 24", outFileData.TextContents);
+}
+```
 
 
 
