@@ -1,7 +1,7 @@
 # Cheat-sheets
 Date: 2023-08-05
 
-
+[[_TOC_]]
 
 ## FFmpeg
 
@@ -69,6 +69,10 @@ Date: 2023-08-05
 > - [Show me the element at the current cursor position](https://codepo8.github.io/dearconsole/scripts/show-element-at-cursor.html)
 > - [Give me a screenshot of the page](https://codepo8.github.io/dearconsole/scripts/take-screenshot.html)
 
+
+
+## Code
+
 2023-09-07 💡 [LINQ to SQL cheat sheet » DamienG](https://damieng.com/blog/2009/08/12/linq-to-sql-cheat-sheet/)
 
 > 2009 
@@ -79,6 +83,16 @@ Date: 2023-08-05
 >
 > ![image-20230925000723983](./cheatsheets.assets/image-20230925000723983.png)
 
+2023-12-15 [GOOD SOLID Cheatsheet - Single Responsibility Principle](https://www.monterail.com/hubfs/PDF%20content/SOLID_cheatsheet.pdf)
+
+> ![image-20231215135954225](./cheatsheets.assets/image-20231215135954225.png)
 
 
-## 
+
+
+
+## Security
+
+2023-06-19 [CheatSheetSeries/cheatsheets_draft/OAuth_Cheat_Sheet.md at master · OWASP/CheatSheetSeries · GitHub](https://github.com/OWASP/CheatSheetSeries/blob/master/cheatsheets_draft/OAuth_Cheat_Sheet.md)
+
+> ![image-20231215135351373](./cheatsheets.assets/image-20231215135351373.png)
