@@ -7,7 +7,14 @@
 
 ## How the thing work
 
+- 2023-11-05 [A Complete Guide to UUID Versions (v1, v4, v5) - With Examples](https://www.sohamkamani.com/uuid-versions-explained/)
+
+> This post will describe UUID v1, v4, and v5, with examples. We will go through their implementation and differences, and when you should use them.
+
+> ![image-20231217192627914](./dev-design-and-process.assets/image-20231217192627914.png)
+
 - 2022-02-13 [Paul Butler – What does it mean to listen on a port?](https://paulbutler.org/2022/what-does-it-mean-to-listen-on-a-port/)
+
 > In the corner of the student union building there is a coffee shop, and in the corner of the coffee shop are two students. Liz taps away at the keyboard of the battered hand-me-down MacBook her brother gave her when she moved away to college. To her left on the bench seat, Tim scrawls equations on a coil-bound notebook. Between them is a half-empty cup of room temperature coffee that Liz sporadically sips from to stay awake.
 - 2022-01-28 [Hive: A Globally-Distributed Key/Value Store](https://papers.s3.fr-par.scw.cloud/hive.pdf) -
 This paper reports our experience creating, developing, and deploying a globally distributed key-value store intended as
@@ -35,17 +42,17 @@ consistency, replication, and database sharding for linear read and write latenc
 
 > ![image-20230413183701886](./dev-design-and-process.assets/image-20230413183701886.png)
 
-2023-07-22 [The "Basics" | Putting the "You" in CPU](https://cpu.land/the-basics)
+- 2023-07-22 [The "Basics" | Putting the "You" in CPU](https://cpu.land/the-basics)
 
 > ![image-20230801223725713](./dev-design-and-process.assets/image-20230801223725713.png)
 
-2023-07-22 [A brief history of computers — LessWrong](https://www.lesswrong.com/posts/vfRpzyGsikujm9ujj/a-brief-history-of-computers)
+- 2023-07-22 [A brief history of computers — LessWrong](https://www.lesswrong.com/posts/vfRpzyGsikujm9ujj/a-brief-history-of-computers)
 
 > ![image-20230801223840840](./dev-design-and-process.assets/image-20230801223840840.png)
 >
 > 
 
-2023-09-25 [A Hackers' Guide to Language Models - YouTube](https://www.youtube.com/watch?v=jkrNMKz9pWU)
+- 2023-09-25 [A Hackers' Guide to Language Models - YouTube](https://www.youtube.com/watch?v=jkrNMKz9pWU)
 
 > Explains how LLM work
 
@@ -53,7 +60,7 @@ consistency, replication, and database sharding for linear read and write latenc
 
   > ![image-20230924232304577](./dev-design-and-process.assets/image-20230924232304577.png)
 
-2023-08-27 [Normcore LLM Reads](https://gist.github.com/veekaybee/be375ab33085102f9027853128dc5f0e)
+- 2023-08-27 [Normcore LLM Reads](https://gist.github.com/veekaybee/be375ab33085102f9027853128dc5f0e)
 
 > Anti-hype LLM reading list
 > Goals: Add links that are reasonable and good explanations of how stuff works. No hype and no vendor content if possible. Practical first-hand accounts and experience preferred (super rare at this point).
@@ -66,7 +73,7 @@ consistency, replication, and database sharding for linear read and write latenc
 
 
 
-2023-09-20 🐇 [RabbitMQ vs. Kafka - An Architect's Dilemma (Part 1) - Eran Stiller](https://eranstiller.com/rabbitmq-vs-kafka-an-architects-dilemma-part-1)
+- 2023-09-20 🐇 [RabbitMQ vs. Kafka - An Architect's Dilemma (Part 1) - Eran Stiller](https://eranstiller.com/rabbitmq-vs-kafka-an-architects-dilemma-part-1)
 
 > ![image-20230924233732091](./dev-design-and-process.assets/image-20230924233732091.png)
 

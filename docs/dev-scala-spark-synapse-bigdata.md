@@ -31,6 +31,30 @@
 
 
 
+2023-11-05 [MrPowers/spark-style-guide: Spark style guide](https://github.com/mrpowers/spark-style-guide)
+
+> Spark is an amazingly powerful big data engine that's written in Scala.
+>
+> This document draws on the Spark source code, the [Spark examples](http://spark.apache.org/examples.html), and popular open source Spark libraries to outline coding conventions and best practices.
+>
+> 1. [Scala Style Guides](https://github.com/mrpowers/spark-style-guide#scala-style-guides)
+> 2. [Variables](https://github.com/mrpowers/spark-style-guide#variables)
+> 3. [Columns](https://github.com/mrpowers/spark-style-guide#columns)
+> 4. [Chained Method Calls](https://github.com/mrpowers/spark-style-guide#chained-method-calls)
+> 5. [Spark SQL](https://github.com/mrpowers/spark-style-guide#spark-sql)
+> 6. Writing Functions
+>    - [Custom SQL Functions](https://github.com/mrpowers/spark-style-guide#custom-sql-functions)
+>    - [User Defined Functions](https://github.com/mrpowers/spark-style-guide#user-defined-functions)
+>    - [Custom Transformations](https://github.com/mrpowers/spark-style-guide#custom-transformations)
+> 7. [null](https://github.com/mrpowers/spark-style-guide#null)
+> 8. [JAR Files](https://github.com/mrpowers/spark-style-guide#jar-files)
+> 9. [Documentation](https://github.com/mrpowers/spark-style-guide#documentation)
+> 10. [Testing](https://github.com/mrpowers/spark-style-guide#testing)
+> 11. [Open Source](https://github.com/mrpowers/spark-style-guide#open-source)
+> 12. [Best Practices](https://github.com/mrpowers/spark-style-guide#best-practices)
+
+
+
 2023-01-26 [GitHub - apache/spark: Apache Spark - A unified analytics engine for large-scale data processing](https://github.com/apache/spark/)
 
 > Apache Spark Github Repository

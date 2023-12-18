@@ -442,6 +442,10 @@ int main(){
 
 ## C++ Libraries and Lib Collections
 
+2023-09-02 [Home | Csound Community](https://csound.com/)
+
+> Csound is a sound and music computing system which was originally developed by Barry Vercoe in 1985 at MIT Media Lab. Since the 90s, it has been developed by a group of core developers. A wider community of volunteers contribute examples, documentation, articles, and takes part in the Csound development with bug reports, feature requests and discussions with the core development team.
+
 2023-02-02 [A list of open source C++ libraries - cppreference.com](https://en.cppreference.com/w/cpp/links/libs) 
 
 > The objective of this page is to build a comprehensive list of open source C++ libraries, so that when one needs an implementation of particular functionality, one needn't to waste time searching on web.

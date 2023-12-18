@@ -69,9 +69,49 @@ Date: 2023-08-05
 > - [Show me the element at the current cursor position](https://codepo8.github.io/dearconsole/scripts/show-element-at-cursor.html)
 > - [Give me a screenshot of the page](https://codepo8.github.io/dearconsole/scripts/take-screenshot.html)
 
+2023-08-31🌞 [DevTools Tips](https://devtoolstips.org/)
+
+> ![image-20231217185909690](./cheatsheets.assets/image-20231217185909690.png)
+
+2023-11-11 [67 Weird Debugging Tricks Your Browser Doesn't Want You to Know | Alan Norbauer](https://alan.norbauer.com/articles/browser-debugging-tricks)
+
+> By using expressions that have side effects in places you wouldn’t expect, we can squeeze more functionality out of basic features like conditional breakpoints.
+>
+> WITH ANNIMATIONS!
+>
+> ![image-20231217193600189](./cheatsheets.assets/image-20231217193600189.png)
+
+2023-11-06 [Git Hidden Gems - Enrico Campidoglio - Copenhagen DevFest 2023 - YouTube](https://www.youtube.com/watch?v=uFrPgUjv_Y8)
+
+> 2023-11-06 [Enrico Campidoglio](https://megakemp.com/git/#articles)
+> Git log Pretty Print:
+```bash
+git log --pretty="%C(red)%h%Creset%C(yellow)%d%Creset %s %C(cyan)(%ar)%Creset"
+```
+Delta:
+https://github.com/dandavison/delta
+
+```
+git config --global core.pager
+```
+
+Search all commits by C-style function name
+```
+# func: add
+# in file src/calculator.ts
+
+git log -L:add:src/calculator.ts
+```
+
 
 
 ## Code
+
+2023-12-09 [The Complete Puppeteer Cheatsheet | ProxiesAPI](https://proxiesapi.com/articles/the-complete-puppeteer-cheatsheet)
+
+> found in: https://javascriptweekly.com/issues/666
+> Puppeteer is a Node.js library developed by Google for controlling headless Chrome and Chromium over the DevTools Protocol. It allows you to automate UI testing, scraping, screenshot testing, and more.
+> 👍
 
 2023-09-07 💡 [LINQ to SQL cheat sheet » DamienG](https://damieng.com/blog/2009/08/12/linq-to-sql-cheat-sheet/)
 
