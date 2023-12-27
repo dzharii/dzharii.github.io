@@ -7,6 +7,16 @@
 
 ## How the thing work
 
+- 2023-12-23 [How does B-tree make your queries fast? · allegro.tech](https://blog.allegro.tech/2023/11/how-does-btree-make-your-queries-fast.html) 
+
+  > **B-tree** is a structure that helps to search through great amounts of data. It was invented over 40 years ago, yet it is still employed by the majority of modern databases. Although there are newer index structures, like LSM trees, **B-tree** is unbeaten when handling most of the database queries.
+  >
+  > After reading this post, you will know how **B-tree** organises the data and how it performs search queries.
+
+  > ![image-20231227130707750](./dev-design-and-process.assets/image-20231227130707750.png)
+
+  
+
 - 2023-11-05 [A Complete Guide to UUID Versions (v1, v4, v5) - With Examples](https://www.sohamkamani.com/uuid-versions-explained/)
 
 > This post will describe UUID v1, v4, and v5, with examples. We will go through their implementation and differences, and when you should use them.
