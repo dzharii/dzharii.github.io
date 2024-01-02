@@ -97,7 +97,7 @@ javascript:(async () => {
         createDialog(Array.from(rssLinks).map(link => link.getAttribute('href')));
     } catch (error) {
         console.error('Error fetching page source:', error);
-        createDialog([]); // Call with empty array in case of error
+        createDialog([]);
     }
 
     function createDialog(feedUrls) {
