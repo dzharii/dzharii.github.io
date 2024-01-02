@@ -85,56 +85,82 @@ Revision:
 <summary> Code:  </summary>
 
 ```js
-javascript:(function() {
-    function findRSSFeeds() {
-        const feedLinks = Array.from(document.querySelectorAll('link[type="application/rss+xml"]'));
-        const anchorLinks = Array.from(document.querySelectorAll('a')).filter(a => /rss|feed|subscribe/i.test(a.textContent));
+javascript:(async () => {
+    const pageUrl = document.location.href;
 
-        return feedLinks.concat(anchorLinks).map(link => link.href).filter(href => href);
+    try {
+        const resp = await fetch(pageUrl);
+        const body = await resp.text();
+        const parser = new DOMParser();
+        const doc = parser.parseFromString(body, 'text/html');
+        const rssLinks = doc.querySelectorAll('link[type="application/rss+xml"]');
+        createDialog(Array.from(rssLinks).map(link => link.getAttribute('href')));
+    } catch (error) {
+        console.error('Error fetching page source:', error);
+        createDialog([]); // Call with empty array in case of error
     }
 
-    function createDialog(feedUrl) {
+    function createDialog(feedUrls) {
         const dialog = document.createElement('div');
+        styleDialog(dialog, feedUrls.length > 0);
+        document.body.appendChild(dialog);
+
+        if (feedUrls.length > 0) {
+            const ul = document.createElement('ul');
+            feedUrls.forEach(url => {
+                const li = document.createElement('li');
+                li.textContent = url;
+                const copyBtn = createCopyButton(url);
+                li.appendChild(copyBtn);
+                ul.appendChild(li);
+            });
+            dialog.appendChild(ul);
+        } else {
+            dialog.textContent = 'No RSS Feed found';
+            setTimeout(() => fadeAndRemove(dialog), 3000);
+        }
+
+        const closeBtn = createCloseButton(dialog);
+        dialog.appendChild(closeBtn);
+    }
+
+    function styleDialog(dialog, hasFeeds) {
         dialog.style.position = 'fixed';
         dialog.style.top = '20px';
         dialog.style.left = '50%';
         dialog.style.transform = 'translateX(-50%)';
-        dialog.style.backgroundColor = feedUrl ? 'green' : 'red';
+        dialog.style.backgroundColor = hasFeeds ? 'green' : 'red';
         dialog.style.padding = '20px';
         dialog.style.zIndex = '10000';
         dialog.style.color = 'white';
         dialog.style.borderRadius = '5px';
-        dialog.textContent = feedUrl ? `RSS Feed: ${feedUrl}` : 'No RSS Feed found';
-        document.body.appendChild(dialog);
-
-        if (feedUrl) {
-            const copyBtn = document.createElement('button');
-            copyBtn.textContent = 'Copy to Clipboard';
-            copyBtn.onclick = () => {
-                navigator.clipboard.writeText(feedUrl).then(() => {
-                    dialog.style.opacity = '0';
-                    setTimeout(() => dialog.remove(), 1000);
-                });
-            };
-            dialog.appendChild(copyBtn);
-
-            const closeBtn = document.createElement('button');
-            closeBtn.textContent = 'Close';
-            closeBtn.onclick = () => {
-              dialog.remove();
-            };
-            dialog.appendChild(closeBtn);
-
-        } else {
-            setTimeout(() => {
-                dialog.style.opacity = '0';
-                setTimeout(() => dialog.remove(), 3000);
-            }, 3000);
-        }
+        dialog.style.fontSize = '16px';
     }
 
-    const rssFeeds = findRSSFeeds();
-    createDialog(rssFeeds[0]);
+    function createCopyButton(text) {
+        const button = document.createElement('button');
+        button.textContent = 'Copy to Clipboard';
+        button.style.marginLeft = '10px';
+        button.onclick = () => {
+            navigator.clipboard.writeText(text).then(() => fadeAndRemove(button.parentElement.parentElement.parentElement));
+        };
+        return button;
+    }
+
+    function createCloseButton(dialog) {
+        const button = document.createElement('button');
+        button.textContent = 'Close';
+        button.style.display = 'block';
+        button.style.marginTop = '10px';
+        button.onclick = () => dialog.remove();
+        return button;
+    }
+
+    function fadeAndRemove(element) {
+        element.style.transition = 'opacity 0.5s';
+        element.style.opacity = '0';
+        setTimeout(() => element.remove(), 500);
+    }
 })();
 ```
 
