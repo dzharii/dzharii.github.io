@@ -70,6 +70,76 @@ javascript:(function() {
 </details>
 
 
+## RSS Feed Finder
+
+Name:
+
+`📶 Find RSS`
+
+Revision:
+
+2024-01-01
+
+<details>
+
+<summary> Code:  </summary>
+
+```js
+javascript:(function() {
+    function findRSSFeeds() {
+        const feedLinks = Array.from(document.querySelectorAll('link[type="application/rss+xml"]'));
+        const anchorLinks = Array.from(document.querySelectorAll('a')).filter(a => /rss|feed|subscribe/i.test(a.textContent));
+
+        return feedLinks.concat(anchorLinks).map(link => link.href).filter(href => href);
+    }
+
+    function createDialog(feedUrl) {
+        const dialog = document.createElement('div');
+        dialog.style.position = 'fixed';
+        dialog.style.top = '20px';
+        dialog.style.left = '50%';
+        dialog.style.transform = 'translateX(-50%)';
+        dialog.style.backgroundColor = feedUrl ? 'green' : 'red';
+        dialog.style.padding = '20px';
+        dialog.style.zIndex = '10000';
+        dialog.style.color = 'white';
+        dialog.style.borderRadius = '5px';
+        dialog.textContent = feedUrl ? `RSS Feed: ${feedUrl}` : 'No RSS Feed found';
+        document.body.appendChild(dialog);
+
+        if (feedUrl) {
+            const copyBtn = document.createElement('button');
+            copyBtn.textContent = 'Copy to Clipboard';
+            copyBtn.onclick = () => {
+                navigator.clipboard.writeText(feedUrl).then(() => {
+                    dialog.style.opacity = '0';
+                    setTimeout(() => dialog.remove(), 1000);
+                });
+            };
+            dialog.appendChild(copyBtn);
+
+            const closeBtn = document.createElement('button');
+            closeBtn.textContent = 'Close';
+            closeBtn.onclick = () => {
+              dialog.remove();
+            };
+            dialog.appendChild(closeBtn);
+
+        } else {
+            setTimeout(() => {
+                dialog.style.opacity = '0';
+                setTimeout(() => dialog.remove(), 3000);
+            }, 3000);
+        }
+    }
+
+    const rssFeeds = findRSSFeeds();
+    createDialog(rssFeeds[0]);
+})();
+```
+
+</details>
+
 ## Content editable
 
 Flips contentEditable on body to make copy-paste on laptop from keyboard easier.
@@ -116,7 +186,7 @@ javascript:(function() {
 
 ## Wake lock
 
-Through the browser api, and while the current browser page is active, forces the screen to never lock or go sleep. 
+Through the browser api, and while the current browser page is active, forces the screen to never lock or go sleep.
 
 Name:
 
@@ -137,7 +207,7 @@ javascript:(async function() {
   statusElem.style.background = 'lightgray';
   statusElem.style.padding = '10px';
   document.body.appendChild(statusElem);
-  
+
   let wakeLock = null;
   try {
     wakeLock = await navigator.wakeLock.request('screen');
