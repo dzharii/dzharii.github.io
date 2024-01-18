@@ -11,7 +11,6 @@ Reading, using, or relying on the information on this page is done at your own r
 
 It is your responsibility to evaluate the accuracy, completeness, or usefulness of any information or any content available on this page. Please consult with a qualified healthcare professional for any medical or health-related advice.
 
-
 ## Blogs and Articles
 
 2023-04-07 [mrseth01/awesome-adhd: Awesome Resources for ADHD](https://github.com/mrseth01/awesome-adhd)
@@ -189,3 +188,6 @@ You can delve further into these topics in [A New Day for Neurodivergence](https
 6. [Totallyadd.org](http://totallyadd.org/)  offers expert information about ADHD in adults.
 7. [The "Faster Than Normal" podcast](https://www.fasterthannormal.com/episodes/)  features ADHD-friendly 20-minute interviews with successful people from diverse walks of life who've leveraged their ADHD to their advantage.
 8. The [ADHD reWired Podcast with Eric Tivers](https://www.adhdrewired.com/podcast/)  offers free insights, stories, and strategies on time-management, executive functioning, emotions, and more for adults with ADHD.
+
+## Fun interruption
+2024-01-18 [ADHD - "Under The Sea" Parody - YouTube](https://www.youtube.com/watch?v=Zvqx9DfG9lU)
