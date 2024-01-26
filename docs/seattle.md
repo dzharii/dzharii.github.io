@@ -30,3 +30,11 @@
 > Walking maps
 >
 > ![image-20230608154822952](./seattle.assets/image-20230608154822952.png)
+
+
+
+2024-01-13 [Worried about everyone outside in these frigid temperatures : Seattle](https://www.reddit.com/r/Seattle/comments/1955f26/worried_about_everyone_outside_in_these_frigid/)
+
+> ![r/Seattle - Worried about everyone outside in these frigid temperatures](./seattle.assets/0skepawnn2cc1.jpg)
+
+> ![r/Seattle - Worried about everyone outside in these frigid temperatures](./seattle.assets/dz47djznn2cc1.jpg)

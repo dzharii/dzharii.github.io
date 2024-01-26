@@ -3,6 +3,16 @@
 - 2022-03-11 [mifi/lossless-cut: The swiss army knife of lossless video/audio editing](https://github.com/mifi/lossless-cut)
 > LosslessCut aims to be the ultimate cross platform FFmpeg GUI for extremely fast and lossless operations on video, audio, subtitle and other related media files. The main feature is lossless trimming and cutting of video and audio files, which is great for saving space by rough-cutting your large video files taken from a video camera.
 
+- 2024-01-19 [Recipes in FFmpeg - OTTVerse](https://ottverse.com/recipes-in-ffmpeg/)
+
+> FFmpeg is the Swiss Army knife of the audio-video editing, processing, compression, and streaming world. You can practically do anything with FFmpeg when it pertains to building an AV pipeline, and in this tutorial, we cover several popular and valuable uses of FFmpeg..
+>
+> On this page, you will find ready-to-use snippets for specific use cases, complete with command lines and examples of inputs and outputs to help you understand the use case. For example, blurring a video, cropping it, rotating it clockwise, and so much more!
+>
+> ![image-20240125175007453](./ffmpeg-inbox.assets/image-20240125175007453.png)
+
+
+
 # ffmpeg and tools
 
 - 2022-01-20 [FFQueue - Free & comprehensive GUI for FFMpeg](http://ffqueue.bruchhaus.dk/Default.aspx)
@@ -21,5 +31,4 @@
 - 2022-11-28 [FFmpeg - Ultimate Guide IMG.LY Blog](https://img.ly/blog/ultimate-guide-to-ffmpeg/)
 
   > In this guide, we'll go through the hot topics of FFmpeg. But before that, we'll cover some base ground to help you understand basic media concepts and FFmpeg. Feel free to skip the parts that are already trivial for you!
-
 
