@@ -5,6 +5,10 @@ date:   2024-01-25T16:21:00-08:00
 categories: links
 ---
 
+![img](./2024-01-25-links-from-my-inbox.assets/Stupid-Species-ONLINE-COLOR.jpg)
+
+2024-01-26 [Lack of human intelligence will doom us | The Seattle Times](https://www.seattletimes.com/opinion/lack-of-human-intelligence-will-doom-us/)
+
 
 
 ## Good Reads
