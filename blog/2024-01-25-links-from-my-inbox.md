@@ -299,7 +299,9 @@ If you found this useful, consider getting my [Prompt Engineering Guide](https:/
 
 > ![image-20240125181753560](./2024-01-25-links-from-my-inbox.assets/image-20240125181753560.png)
 
+2024-02-07 [C++ Common Knowledge - Dawid Zalewski - Meeting C++ 2023 - YouTube](https://www.youtube.com/watch?v=xVgn3VDcqOI)
 
+> ![image-20240207101114612](./2024-01-25-links-from-my-inbox.assets/image-20240207101114612.png)
 
 
 
