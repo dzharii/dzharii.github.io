@@ -13,6 +13,13 @@
 - 2022-01-19 📕 [Security Engineering - A Guide to Building Dependable Distributed Systems](https://www.cl.cam.ac.uk/~rja14/book.html)
 
 ## Articles
+
+- 2024-02-09 [Technology-best-practices/it_security/server_security/README.md at master · vaquarkhan/Technology-best-practices · GitHub](https://github.com/vaquarkhan/Technology-best-practices/blob/master/it_security/server_security/README.md)
+
+> ![image-20240208170915828](./security-articles.assets/image-20240208170915828.png)
+
+
+
 - 2022-03-05 [Badly implementing encryption](https://ayende.com/blog/posts/series/196449-A/badly-implementing-encryption)
 > Low-level security in Rust
 - 2022-02-22 ⭐⭐⭐ [veeral-patel/how-to-secure-anything: How to systematically secure anything: a repository about security engineering](https://github.com/veeral-patel/how-to-secure-anything)

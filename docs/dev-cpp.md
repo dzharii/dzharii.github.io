@@ -90,14 +90,36 @@ These two are very good beginner resources:
 
 > ![image-20231103174233899](./dev-cpp.assets/image-20231103174233899.png)
 
+
+
 ## C++ Other learning resources
 
+- 2023-12-30 [Learn Contemporary C++ | Concise&Visual Examples | hacking C++](https://hackingcpp.com/index.html)
+
+> ![image-20240208182036869](./dev-cpp.assets/image-20240208182036869.png)
+
+- 2023-12-30 [C++ Standard Library Algorithms Visual Overview | hacking C++](https://hackingcpp.com/cpp/std/algorithms.html)
+
+> ![image-20231230114303365](./dev-cpp.assets/image-20231230114303365.png)
+>
+> Amazing effort to visualize how the standard algorithms in C++ work. 
+
+
+
+- 2023-12-30 [Best C++ Programming Blogs in 2023 | hacking C++](https://hackingcpp.com/cpp/blogs.html)
+
+> ![image-20231230120034549](./dev-cpp.assets/image-20231230120034549.png)
+
+
+
+- 
 - 2023-02-12 [Learn C++ – Skill up with our free tutorials](https://www.learncpp.com/)
 - 2022-10-02 [C++ By Example Code Examples with Simple Explanations](https://cppbyexample.com/)
 - 2022-10-02 [My tutorial and take on C++20 coroutines](https://www.scs.stanford.edu/~dm/blog/c++-coroutines.html)
 - 2022-10-02 [Next Steps C++ Education Google Developers](https://developers.google.com/edu/c++/next-steps)
 - 2022-10-02 [C++ Examples Programiz](https://www.programiz.com/cpp-programming/examples)
 - 2022-10-02 [Next Steps C++ Education Google Developers](https://developers.google.com/edu/c++/next-steps)
+
 ```
 Google's Introduction to Programming and C++
 This online tutorial continues with more advanced concepts - please read Part III. Our focus in this module will be on using pointers, and getting started with objects.
@@ -148,6 +170,13 @@ This online tutorial continues with more advanced concepts - please read Part II
 
 
 ## TTY UI
+
+- 2023-12-30 [rothgar/awesome-tuis: List of projects that provide terminal user interfaces](https://github.com/rothgar/awesome-tuis)
+
+> - [CursedGL](https://github.com/saccharineboi/CursedGL) A **C** notcurses-based software rasterizer inspired by OpenGL 1.X that renders directly to the terminal.
+> - [FINAL CUT](https://github.com/gansm/finalcut) **C++** library for creating terminal applications with text-based widgets
+> - [FTXUI](https://github.com/ArthurSonzogni/FTXUI) 💻 **C++** Functional Terminal User Interface. ❤️
+> - [ncurses](https://invisible-island.net/ncurses/announce.html) A classic **C** library with bindings for many languages
 
 - 2022-06-25 [ggerganov/imtui: ImTui: Immediate Mode Text-based User Interface C++ Library](https://github.com/ggerganov/imtui)
 
@@ -380,6 +409,37 @@ _mm_madd_epi16(base10e4_16bit, DIGIT_VALUE_BASE10E4_16BIT);
 | std::from_chars | 0.8 GB/s | 128 instructions/number | 39 cycles/number |
 
 
+
+## Compilers
+
+2023-12-01 [Compiler Options Hardening Guide for C and C++ | OpenSSF Best Practices Working Group](https://best.openssf.org/Compiler-Hardening-Guides/Compiler-Options-Hardening-Guide-for-C-and-C++.html)
+
+TL;DR: What compiler options should I use?
+
+When compiling C or C++ code on compilers such as GCC and clang, turn on these flags for detecting vulnerabilities at compile time and enable run-time protection mechanisms:
+
+```
+-O2 -Wall -Wformat=2 -Wconversion -Wimplicit-fallthrough \
+-U_FORTIFY_SOURCE -D_FORTIFY_SOURCE=3 \
+-D_GLIBCXX_ASSERTIONS \
+-fstrict-flex-arrays=3 \
+-fstack-clash-protection -fstack-protector-strong \
+-Wl,-z,nodlopen -Wl,-z,noexecstack \
+-Wl,-z,relro -Wl,-z,now
+```
+
+Note that support for some options may differ between different compilers, e.g. support for [`-D_FORTIFY_SOURCE`](https://best.openssf.org/Compiler-Hardening-Guides/Compiler-Options-Hardening-Guide-for-C-and-C++.html#-D_FORTIFY_SOURCE=3) varies depending on the compiler[2](https://best.openssf.org/Compiler-Hardening-Guides/Compiler-Options-Hardening-Guide-for-C-and-C++.html#fn:Guelton20) and C standard library implementations. See the discussion below for [background](https://best.openssf.org/Compiler-Hardening-Guides/Compiler-Options-Hardening-Guide-for-C-and-C++.html#background) and for [detailed discussion of each option](https://best.openssf.org/Compiler-Hardening-Guides/Compiler-Options-Hardening-Guide-for-C-and-C++.html#recommended-compiler-options).
+
+When compiling code in any of the situations in the below table, add the corresponding additional options:
+
+| When                 | Additional options flags                                     |
+| :------------------- | :----------------------------------------------------------- |
+| using GCC            | `-Wtrampolines`                                              |
+| for executables      | `-fPIE -pie`                                                 |
+| for shared libraries | `-fPIC -shared`                                              |
+| for x86_64           | `-fcf-protection=full`                                       |
+| for aarch64          | `-mbranch-protection=standard`                               |
+| for production code  | `-fno-delete-null-pointer-checks -fno-strict-overflow -fno-strict-aliasing -ftrivial-auto-var-init=zero` |
 
 
 
