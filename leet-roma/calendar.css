@@ -1,4 +1,3 @@
-
 body, html {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     background: #f0f0f3;
@@ -47,3 +46,18 @@ body, html {
     font-weight: bold;
 }
 
+@media (max-width: 768px) {
+    #calendar-table {
+        grid-template-columns: repeat(2, 1fr); /* Adjusts from 3 to 2 columns for better spacing */
+    }
+}
+
+@media (max-width: 480px) {
+    #calendar-table {
+        grid-template-columns: 1fr; /* Single column layout for very small screens */
+    }
+
+    .day {
+        width: 100%; /* Makes each day take the full width of its container */
+    }
+}
