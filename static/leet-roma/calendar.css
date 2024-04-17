@@ -1,0 +1,49 @@
+
+body, html {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: #f0f0f3;
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+#calendar-table {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 16px;
+    max-width: 1000px;
+}
+
+.month {
+    border: 1px solid #cccccc;
+    border-radius: 8px;
+    padding: 8px;
+    background-color: #ffffff;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.month-header {
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 8px;
+    color: #333;
+}
+
+.day {
+    display: inline-block;
+    width: 14%;
+    text-align: center;
+    padding: 5px 0;
+}
+
+.past-workday {
+    background-color: #bde0fe;
+}
+
+.special-date {
+    background-color: #fecaca;
+    color: #b30000;
+    font-weight: bold;
+}
+
