@@ -166,6 +166,107 @@ javascript:(async () => {
 
 </details>
 
+
+
+## Leetcode copy submission
+
+
+
+Name:
+
+`✨ Leetcode get submission url`
+
+Revision:
+
+2024-05-07
+
+Code:
+
+<details>
+
+<summary>Code snippet for ✨ Leetcode get submission url </summary>
+
+
+```js
+javascript:(function(){
+    function transformURL(url) {
+        const regex = /https:\/\/leetcode\.com\/problems\/.+?\/submissions\/(\d+)/;
+        const match = url.match(regex);
+        if (match && match[1]) {
+            return `https://leetcode.com/submissions/detail/${match[1]}/`;
+        }
+        return null;
+    }
+
+    function copyToClipboard(text) {
+        const textarea = document.createElement('textarea');
+        textarea.value = text;
+        document.body.appendChild(textarea);
+        textarea.select();
+        document.execCommand('copy');
+        document.body.removeChild(textarea);
+    }
+
+    function showToast(message) {
+        const toast = document.createElement('div');
+        toast.textContent = message;
+        toast.style.position = 'fixed';
+        toast.style.bottom = '20px';
+        toast.style.left = '50%';
+        toast.style.transform = 'translateX(-50%)';
+        toast.style.backgroundColor = 'black';
+        toast.style.color = 'white';
+        toast.style.padding = '10px 20px';
+        toast.style.borderRadius = '5px';
+        toast.style.zIndex = '10000';
+        document.body.appendChild(toast);
+        setTimeout(() => {
+            toast.style.transition = 'opacity 0.5s ease';
+            toast.style.opacity = '0';
+            setTimeout(() => document.body.removeChild(toast), 500);
+        }, 2000);
+    }
+
+    function triggerFireworks() {
+        const emojis = ['🎉', '🎊', '✨', '🌟'];
+        const maxParticles = 20;
+        for (let i = 0; i < maxParticles; i++) {
+            const particle = document.createElement('div');
+            particle.textContent = emojis[Math.floor(Math.random() * emojis.length)];
+            particle.style.position = 'fixed';
+            particle.style.fontSize = '24px';
+            particle.style.animation = 'firework 2s linear forwards';
+            particle.style.left = `${Math.random() * window.innerWidth}px`;
+            particle.style.bottom = '0px';
+            document.body.appendChild(particle);
+            particle.addEventListener('animationend', () => document.body.removeChild(particle));
+        }
+    }
+
+    const style = document.createElement('style');
+    document.head.appendChild(style);
+    style.sheet.insertRule(`@keyframes firework {
+        0% { transform: translateY(0); opacity: 1; }
+        100% { transform: translateY(-300px); opacity: 0; }
+    }`, 0);
+
+    const newUrl = transformURL(window.location.href);
+    if (newUrl) {
+        copyToClipboard(newUrl);
+        showToast('URL copied to clipboard!');
+        triggerFireworks();
+    } else {
+        showToast('No matching URL found!');
+    }
+})();
+```
+
+</details>
+
+
+
+
+
 ## Content editable
 
 Flips contentEditable on body to make copy-paste on laptop from keyboard easier.
