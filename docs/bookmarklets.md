@@ -70,6 +70,62 @@ javascript:(function() {
 </details>
 
 
+## Copy Org-mode link
+
+Name:
+
+`🥧 Copy as ORG Link`
+
+Revision:
+
+2024-05-13
+
+<details>
+
+<summary> Code:  </summary>
+
+```
+javascript:(function() {
+    function showToast(message, textColor, backgroundColor) {
+        var toast = document.createElement("div");
+        toast.style.cssText = "position: fixed; top: 0; left: 0; background-color: " + backgroundColor + "; color: " + textColor + "; padding: 10px; font-family: Arial, Verdana; font-size: 16px; font-weight: bold;  z-index: 9999; opacity: 0; transition: opacity 0.3s ease-in-out;";
+        toast.innerHTML = message;
+        document.body.appendChild(toast);
+        setTimeout(function() {
+            toast.style.opacity = 1;
+        }, 100);
+        setTimeout(function() {
+            toast.style.opacity = 0;
+            document.body.removeChild(toast);
+        }, 3000);
+    }
+    
+    document.body.focus();
+    var title = document.title;
+    /* remove [ and ] from title */
+    title = title.replace(/[\[\]]/g, ' ');
+
+    var url = window.location.href;
+    /* remove utm parameters from url */
+    url = url.replace(/utm_[^&]+&?/g, '');
+    /* clean up unnecessary trailing characters */
+    url = url.replace(/\/?\?$/g, '');
+    url = url.replace(/\?$/g, '/');
+
+    var date = new Date().toISOString().slice(0, 10);
+    var orgModeLink = "[[" + url + "][" + date + " " + title + "]]";
+    setTimeout(function() {
+        navigator.clipboard.writeText(orgModeLink).then(function() {
+            showToast("Copied to clipboard", "lime", "#333");
+        }, function() {
+            showToast("Failed to copy to clipboard", "white", "darkred");
+        });
+    }, 100);
+})();
+
+```
+
+
 ## RSS Feed Finder
 
 Name:
