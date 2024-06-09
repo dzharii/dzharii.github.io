@@ -1,5 +1,55 @@
 # math and stats
 
+2024-05-12 [Immersive Math](https://immersivemath.com/ila/index.html)
+
+>  ![image-20240609055317824](./math.assets/image-20240609055317824.png)
+>
+>  [Preface](https://immersivemath.com/ila/ch00_preface/preface.html)
+>
+>  A few words about this book.
+>
+>  [Chapter 1: Introduction](https://immersivemath.com/ila/ch01_introduction/ch01.html)
+>
+>  How to navigate, notation, and a recap of some math that we think you already know.
+>
+>  [Chapter 2: Vectors](https://immersivemath.com/ila/ch02_vectors/ch02.html)
+>
+>  The concept of a vector is introduced, and we learn how to add and subtract vectors, and more.
+>
+>  [Chapter 3: The Dot Product](https://immersivemath.com/ila/ch03_dotproduct/ch03.html)
+>
+>  A powerful tool that takes two vectors and produces a scalar.
+>
+>  [Chapter 4: The Vector Product](https://immersivemath.com/ila/ch04_vectorproduct/ch04.html)
+>
+>  In three-dimensional spaces you can produce a vector from two other vectors using this tool.
+>
+>  [Chapter 5: Gaussian Elimination](https://immersivemath.com/ila/ch05_gausselim/ch05.html)
+>
+>  A way to solve systems of linear equations.
+>
+>  [Chapter 6: The Matrix](https://immersivemath.com/ila/ch06_matrices/ch06.html)
+>
+>  Enter the matrix.
+>
+>  [Chapter 7: Determinants](https://immersivemath.com/ila/ch07_determinants/ch07.html)
+>
+>  A fundamental property of square matrices.
+>
+>  [Chapter 8: Rank](https://immersivemath.com/ila/ch08_rank/ch08.html)
+>
+>  Discover the behaviour of matrices.
+>
+>  [Chapter 9: Linear Mappings](https://immersivemath.com/ila/ch09_linear_mappings/ch09.html)
+>
+>  Learn to harness the power of linearity...
+>
+>  [Chapter 10: Eigenvalues and Eigenvectors](https://immersivemath.com/ila/ch10_eigen/ch10.html)
+>
+>  This chapter has a value in itself.
+
+## 
+
 2023-10-30 [Linear Algebra Done Right](https://linear.axler.net/)
 
 > Sheldon Axler:
