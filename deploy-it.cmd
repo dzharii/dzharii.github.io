@@ -1,3 +1,3 @@
 set USE_SSH=true
-call myyarn deploy
+call yarn deploy
 start https://blog.zharii.com
