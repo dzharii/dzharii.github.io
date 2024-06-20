@@ -125,10 +125,10 @@ const config = {
           //   ],
           // },
         ],
-        copyright: `Please, remind me to put some good description here!
-        Write an awesome description for your new site here. You can edit this
-        line in _config.yml. It will appear in your document head meta (for
-        Google search results) and in your feed.xml site description.`,
+        copyright: `Disclaimer: The content on this website is my personal work and reflects my own views and opinions. 
+            It is not associated with or endorsed by any of my past, current, or future employers. This site contains links to external websites and compiled pages from various sources. 
+            I do not claim any rights or responsibility for the content of these external materials. 
+            All content is provided "AS IS" without any guarantees or warranties.`,
       },
       prism: {
         theme: lightCodeTheme,
