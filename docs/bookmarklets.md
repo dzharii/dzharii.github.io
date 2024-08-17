@@ -22,7 +22,9 @@ Name:
 
 Revision:
 
-2023-03-12
+- 2023-03-12 - initial
+- 2024-08-17 - add domain as in "{ domain.com }"
+
 
 <details>
 
@@ -57,6 +59,15 @@ javascript:(function() {
 
   var date = new Date().toISOString().slice(0, 10);
   var markdownLink = date + " [" + title + "](" + url + ")";
+  
+  try {
+    var urlObject = new URL(url);
+    var domain = urlObject.hostname;
+    markdownLink += " { " + domain + " }";
+  } catch (e) {
+    console.error("Failed to parse domain name: ", e);
+  }
+
   setTimeout(function() {
     navigator.clipboard.writeText(markdownLink).then(function() {
       showToast("Copied to clipboard", "lime", "#333");
@@ -114,6 +125,15 @@ javascript:(function() {
 
     var date = new Date().toISOString().slice(0, 10);
     var orgModeLink = "[[" + url + "][" + date + " " + title + "]]";
+
+    try {
+      var urlObject = new URL(url);
+      var domain = urlObject.hostname;
+      orgModeLink += " =" + domain + "=";
+    } catch (e) {
+      console.error("Failed to parse domain name: ", e);
+    }
+  
     setTimeout(function() {
         navigator.clipboard.writeText(orgModeLink).then(function() {
             showToast("Copied to clipboard", "lime", "#333");
