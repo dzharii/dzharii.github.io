@@ -7,22 +7,22 @@ categories: links
 
 
 
-
+[[_TOC_]]
 
 ## How the things work
 
 2024-08-31 [Hypervisor From Scratch - Part 1: Basic Concepts & Configure Testing Environment | Rayanfam Blog](https://rayanfam.com/topics/hypervisor-from-scratch-part-1/) { rayanfam.com }
 
-> > # Hypervisor From Scratch
-> >
-> > - [Hypervisor From Scratch – Part 1: Basic Concepts & Configure Testing Environment](https://rayanfam.com/topics/hypervisor-from-scratch-part-1/)
-> > - [Hypervisor From Scratch – Part 2: Entering VMX Operation](https://rayanfam.com/topics/hypervisor-from-scratch-part-2/)
-> > - [Hypervisor From Scratch – Part 3: Setting up Our First Virtual Machine](https://rayanfam.com/topics/hypervisor-from-scratch-part-3/)
-> > - [Hypervisor From Scratch – Part 4: Address Translation Using Extended Page Table (EPT)](https://rayanfam.com/topics/hypervisor-from-scratch-part-4/)
-> > - [Hypervisor From Scratch – Part 5: Setting up VMCS & Running Guest Code](https://rayanfam.com/topics/hypervisor-from-scratch-part-5/)
-> > - [Hypervisor From Scratch – Part 6: Virtualizing An Already Running System](https://rayanfam.com/topics/hypervisor-from-scratch-part-6/)
-> > - [Hypervisor From Scratch – Part 7: Using EPT & Page-Level Monitoring Features](https://rayanfam.com/topics/hypervisor-from-scratch-part-7/)
-> > - [Hypervisor From Scratch – Part 8: How To Do Magic With Hypervisor!](https://rayanfam.com/topics/hypervisor-from-scratch-part-8/)
+> # Hypervisor From Scratch
+> 
+> - [Hypervisor From Scratch – Part 1: Basic Concepts & Configure Testing Environment](https://rayanfam.com/topics/hypervisor-from-scratch-part-1/)
+> - [Hypervisor From Scratch – Part 2: Entering VMX Operation](https://rayanfam.com/topics/hypervisor-from-scratch-part-2/)
+> - [Hypervisor From Scratch – Part 3: Setting up Our First Virtual Machine](https://rayanfam.com/topics/hypervisor-from-scratch-part-3/)
+> - [Hypervisor From Scratch – Part 4: Address Translation Using Extended Page Table (EPT)](https://rayanfam.com/topics/hypervisor-from-scratch-part-4/)
+> - [Hypervisor From Scratch – Part 5: Setting up VMCS & Running Guest Code](https://rayanfam.com/topics/hypervisor-from-scratch-part-5/)
+> - [Hypervisor From Scratch – Part 6: Virtualizing An Already Running System](https://rayanfam.com/topics/hypervisor-from-scratch-part-6/)
+> - [Hypervisor From Scratch – Part 7: Using EPT & Page-Level Monitoring Features](https://rayanfam.com/topics/hypervisor-from-scratch-part-7/)
+> - [Hypervisor From Scratch – Part 8: How To Do Magic With Hypervisor!](https://rayanfam.com/topics/hypervisor-from-scratch-part-8/)
 >
 > The source code for **Hypervisor From Scratch** is available on GitHub :
 >
@@ -41,6 +41,14 @@ categories: links
 > https://tandasat.github.io/Hypervisor-101-in-Rust/
 >
 > ![image-20240901010106576](./2024-08-30-links-from-my-inbox.assets/image-20240901010106576.png)
+
+
+
+## CRDT
+
+2024-09-01 [Movable tree CRDTs and Loro's implementation – Loro](https://loro.dev/blog/movable-tree) { loro.dev }
+
+> This article introduces the implementation difficulties and challenges of Movable Tree CRDTs when collaboration, and how Loro implements it and sorts child nodes. 
 
 
 
@@ -64,11 +72,19 @@ categories: links
 
 
 
-
-
-
-
 ## (Emacs)
+
+2024-09-01 [A Simple Guide to Writing & Publishing Emacs Packages](https://spin.atomicobject.com/write-emacs-package/) { spin.atomicobject.com }
+
+> ![image-20240901153404884](./2024-08-30-links-from-my-inbox.assets/image-20240901153404884.png)
+
+2024-09-01 [Emacs starter kit](https://emacs-config-generator.fly.dev/) { emacs-config-generator.fly.dev }
+
+> ![image-20240901153233791](./2024-08-30-links-from-my-inbox.assets/image-20240901153233791.png)
+
+2024-09-01 [dot-files/emacs-blog.org at 1b54fe75d74670dc7bcbb6b01ea560c45528c628 · howardabrams/dot-files](https://github.com/howardabrams/dot-files/blob/1b54fe75d74670dc7bcbb6b01ea560c45528c628/emacs-blog.org#L108) { github.com }
+
+> ![image-20240901152917238](./2024-08-30-links-from-my-inbox.assets/image-20240901152917238.png)
 
 2024-08-31 ⭐️ [The Organized Life - An Expert‘s Guide to Emacs Org-Mode – TheLinuxCode](https://thelinuxcode.com/emacs-org_mode_part1/) { thelinuxcode.com }
 
@@ -94,32 +110,35 @@ categories: links
 
 ![image-20240830135448117](./2024-08-30-links-from-my-inbox.assets/image-20240830135448117.png)
 
+2024-09-01 [paperclips](https://www.decisionproblem.com/paperclips/index2.html) { www.decisionproblem.com }
 
-
-## Security
-
-2024-08-31 [The State of Application Security 2023 • Sebastian Brandes • GOTO 2023 - YouTube](https://www.youtube.com/watch?v=BX0TVzHOJgQ) { www.youtube.com }
-
-![image-20240830192609064](./2024-08-30-links-from-my-inbox.assets/image-20240830192609064.png)
-
-> Sebastian, co-founder of **Hey Hack**, a Danish startup focused on **web application security**, presented findings from a large-scale study involving the scanning of nearly 4 million hosts globally. The study uncovered widespread vulnerabilities in web applications, including **file leaks, dangling DNS records, vulnerable FTP servers,** and persistent **cross-site scripting (XSS) issues**.
->
-> Key findings include:
->
-> - **File leaks**: 29% of organizations had exposed sensitive data like source code, passwords, and private keys.
-> - **Dangling DNS records**: Risks of **subdomain takeover** attacks due to outdated DNS entries.
-> - **Vulnerable FTP servers**: 7.9% of servers running **ProFTPD 1.3.5** were at risk due to a file copy module vulnerability.
-> - **XSS vulnerabilities**: 4% of companies had known XSS issues, posing significant security risks.
->
-> Sebastian stressed that **web application firewalls (WAFs)** are not foolproof and cannot replace fixing underlying vulnerabilities. He concluded by emphasizing the importance of early investment in **application security** during the development process to prevent future attacks.
->
-> > "We’ve seen lots of leaks or file leaks that are sitting out there—files that you probably would not want to expose to the public internet."
->
-> > "Web application firewalls can maybe do something, but they’re not going to save you. It’s much, much better to go ahead and fix the actual issues in your application."
+> ![image-20240901153052859](./2024-08-30-links-from-my-inbox.assets/image-20240901153052859.png)
 
 
 
 ## Inspiration
+
+2024-09-01 [The Scale of Life](https://www.thescaleoflife.com/) { www.thescaleoflife.com }
+
+> ![image-20240901153703324](./2024-08-30-links-from-my-inbox.assets/image-20240901153703324.png)
+
+2024-09-01 [opslane/opslane: Making on-call suck less for engineers](https://github.com/opslane/opslane) { github.com }
+
+> ![image-20240901152737861](./2024-08-30-links-from-my-inbox.assets/image-20240901152737861.png)
+
+2024-09-01 [Azure Quantum | Learn with quantum katas](https://quantum.microsoft.com/en-us/experience/quantum-katas) { quantum.microsoft.com }
+
+> ![image-20240901152236367](./2024-08-30-links-from-my-inbox.assets/image-20240901152236367.png)
+
+>  2024-09-01 [microsoft/QuantumKatas: Tutorials and programming exercises for learning Q# and quantum computing](https://github.com/microsoft/QuantumKatas?tab=readme-ov-file) { github.com }
+
+
+
+2024-09-01 [EP122: API Gateway 101 - ByteByteGo Newsletter](https://blog.bytebytego.com/p/ep122-api-gateway-101) { blog.bytebytego.com }
+
+![](./2024-08-30-links-from-my-inbox.assets/8725cbb8-4c30-413c-b623-4ca9e235f6d0_1280x1664.webp)
+
+
 
 2024-09-01 [pladams9/hexsheets: A basic spreadsheet application with hexagonal cells inspired by: http://www.secretgeek.net/hexcel.](https://github.com/pladams9/hexsheets) { github.com }
 
@@ -155,6 +174,25 @@ categories: links
 
 ## Security
 
+2024-08-31 [The State of Application Security 2023 • Sebastian Brandes • GOTO 2023 - YouTube](https://www.youtube.com/watch?v=BX0TVzHOJgQ) { www.youtube.com }
+
+![image-20240830192609064](./2024-08-30-links-from-my-inbox.assets/image-20240830192609064.png)
+
+> Sebastian, co-founder of **Hey Hack**, a Danish startup focused on **web application security**, presented findings from a large-scale study involving the scanning of nearly 4 million hosts globally. The study uncovered widespread vulnerabilities in web applications, including **file leaks, dangling DNS records, vulnerable FTP servers,** and persistent **cross-site scripting (XSS) issues**.
+>
+> Key findings include:
+>
+> - **File leaks**: 29% of organizations had exposed sensitive data like source code, passwords, and private keys.
+> - **Dangling DNS records**: Risks of **subdomain takeover** attacks due to outdated DNS entries.
+> - **Vulnerable FTP servers**: 7.9% of servers running **ProFTPD 1.3.5** were at risk due to a file copy module vulnerability.
+> - **XSS vulnerabilities**: 4% of companies had known XSS issues, posing significant security risks.
+>
+> Sebastian stressed that **web application firewalls (WAFs)** are not foolproof and cannot replace fixing underlying vulnerabilities. He concluded by emphasizing the importance of early investment in **application security** during the development process to prevent future attacks.
+>
+> > "We’ve seen lots of leaks or file leaks that are sitting out there—files that you probably would not want to expose to the public internet."
+>
+> > "Web application firewalls can maybe do something, but they’re not going to save you. It’s much, much better to go ahead and fix the actual issues in your application."
+
 2024-08-30 [BeEF - The Browser Exploitation Framework Project](https://beefproject.com/) { beefproject.com }
 
 ![image-20240830140152625](./2024-08-30-links-from-my-inbox.assets/image-20240830140152625.png)
@@ -165,6 +203,16 @@ categories: links
 >
 > Stack gets you started in just five minutes, after which you'll be ready to use all of its features as you grow your project. Our managed service is completely optional and you can export your user data and self-host, for free, at any time.
 > ![image-20240830194951803](./2024-08-30-links-from-my-inbox.assets/image-20240830194951803.png)
+
+
+
+## C || C++
+
+2024-09-01 [c++ - What is the curiously recurring template pattern (CRTP)? - Stack Overflow](https://stackoverflow.com/questions/4173254/what-is-the-curiously-recurring-template-pattern-crtp) { stackoverflow.com }
+
+> ![image-20240901144719965](./2024-08-30-links-from-my-inbox.assets/image-20240901144719965.png)
+>
+> ![image-20240901144828823](./2024-08-30-links-from-my-inbox.assets/image-20240901144828823.png)
 
 
 
@@ -218,6 +266,3 @@ categories: links
 2024-09-01 [Understanding B-Trees: The Data Structure Behind Modern Databases - YouTube](https://www.youtube.com/watch?v=K1a2Bk8NrYQ) { www.youtube.com }
 
 > ![image-20240901011314149](./2024-08-30-links-from-my-inbox.assets/image-20240901011314149.png)
-
-
-
