@@ -44,6 +44,28 @@ categories: links
 
 
 
+## SAML
+
+2024-09-02 [A gentle introduction to SAML | SSOReady](https://ssoready.com/blog/engineering/a-gentle-intro-to-saml/) { ssoready.com }
+
+> ![image-20240901234406239](./2024-08-30-links-from-my-inbox.assets/image-20240901234406239.png)
+
+2024-09-02 [Visual explanation of SAML authentication](https://www.sheshbabu.com/posts/visual-explanation-of-saml-authentication/) { www.sheshbabu.com }
+
+> ![image-20240901233107815](./2024-08-30-links-from-my-inbox.assets/image-20240901233107815.png)
+
+
+
+## :thinking: Tricks! 
+
+2024-09-02 [saving my git email from spam](https://halb.it/posts/github-email/) { halb.it }
+
+> Github has a cool option that replaces your private email with a noreply github email, which looks like this: `14497532+username@users.noreply.github.com`. You just have to enable “keep my email address private” in the email settings. You can read the details in the github guide for [setting your email privacy](https://docs.github.com/en/account-and-profile/setting-up-and-managing-your-personal-account-on-github/managing-email-preferences/setting-your-commit-email-address).
+>
+> With this solution your email will remain private without loosing precious green squares in the contribution graph.
+
+
+
 ## CRDT
 
 2024-09-01 [Movable tree CRDTs and Loro's implementation – Loro](https://loro.dev/blog/movable-tree) { loro.dev }
@@ -114,9 +136,41 @@ categories: links
 
 > ![image-20240901153052859](./2024-08-30-links-from-my-inbox.assets/image-20240901153052859.png)
 
+2024-09-02 [Seiko Originals: The UC-2000, A Smartwatch from 1984 – namokiMODS](https://www.namokimods.com/blogs/namokitimes/seiko-originals-the-uc-2000-a-smartwatch-from-1984) { www.namokimods.com }
+
+> ![image-20240901235821210](./2024-08-30-links-from-my-inbox.assets/image-20240901235821210.png)
+
 
 
 ## Inspiration
+
+2024-09-02 [Navigating Corporate Giants Jeffrey Snover and the Making of PowerShell - CoRecursive Podcast](https://corecursive.com/building-powershell-with-jeffrey-snover/) { corecursive.com }
+
+> ![image-20240902001457920](./2024-08-30-links-from-my-inbox.assets/image-20240902001457920.png)
+>
+> I joined Microsoft at a time when the company was struggling to break into the enterprise market. While we dominated personal computing, our tools weren’t suitable for managing large data centers. I knew we needed a **command-line interface (CLI)** to compete with Unix, but Microsoft’s culture was deeply rooted in **graphical user interfaces (GUIs)**. Despite widespread skepticism, I was determined to create a tool that could empower administrators to script and automate complex tasks.
+>
+> My first major realization was that traditional Unix tools wouldn’t work on Windows because Unix is file-oriented, while Windows is API-oriented. This led me to focus on **Windows Management Instrumentation (WMI)** as the backbone for our CLI. Despite this, I faced resistance from within. The company only approved a handful of commands when we needed thousands. To solve this, I developed a **metadata-driven architecture** that allowed us to efficiently create and scale commands, laying the foundation for PowerShell.
+>
+> However, getting others on board was a challenge. When I encountered a team planning to port a Unix shell to Windows, I knew they were missing the bigger picture. To demonstrate my vision, I locked myself away and wrote a **10,000-line prototype** of what would become PowerShell. This convinced the team to embrace my approach.
+>
+> > “**I was able to show them and they said, ‘Well, what about this?’ And I showed them. And they said, ‘What about that?’ And I showed them. Their eyes just got big and they’re like, ‘This, this, this.’**”
+>
+> Pursuing this project meant taking a **demotion**, a decision that was financially and personally difficult. But I was convinced that PowerShell could change the world, and that belief kept me going. To align the team, I wrote the **Monad Manifesto**, which became the guiding document for the project. Slowly, I convinced product teams like **Active Directory** to support us, which helped build momentum.
+>
+> The project faced another major challenge during Microsoft’s push to integrate everything with **.NET**. PowerShell, built on .NET, was temporarily removed from Windows due to broader integration issues. It took years of persistence to get it back in, but I eventually succeeded.
+>
+> PowerShell shipped with **Windows Vista**, but I continued refining it through multiple versions, despite warnings that focusing on this project could harm my career. Over time, PowerShell became a critical tool for managing data centers and was instrumental in enabling Microsoft’s move to the cloud. 
+>
+> In the end, the key decisions—pushing for a CLI, accepting a demotion, and persisting through internal resistance—led to PowerShell's success and allowed me to make a lasting impact on how Windows is managed.
+
+
+
+
+
+2024-09-02 [Netflix/maestro: Maestro: Netflix’s Workflow Orchestrator](https://github.com/Netflix/maestro) { github.com }
+
+> ![image-20240901234630103](./2024-08-30-links-from-my-inbox.assets/image-20240901234630103.png)
 
 2024-09-01 [The Scale of Life](https://www.thescaleoflife.com/) { www.thescaleoflife.com }
 
@@ -206,7 +260,19 @@ categories: links
 
 
 
+## Markdown
+
+2024-09-02 [romansky/dom-to-semantic-markdown: DOM to Semantic-Markdown for use in LLMs](https://github.com/romansky/dom-to-semantic-markdown) { github.com }
+
+> ![image-20240901232517227](./2024-08-30-links-from-my-inbox.assets/image-20240901232517227.png)
+
+
+
 ## C || C++
+
+2024-09-02 [Faster Integer Parsing](https://kholdstare.github.io/technical/2020/05/26/faster-integer-parsing.html) { kholdstare.github.io }
+
+> ![image-20240901233314132](./2024-08-30-links-from-my-inbox.assets/image-20240901233314132.png)
 
 2024-09-01 [c++ - What is the curiously recurring template pattern (CRTP)? - Stack Overflow](https://stackoverflow.com/questions/4173254/what-is-the-curiously-recurring-template-pattern-crtp) { stackoverflow.com }
 
@@ -217,6 +283,24 @@ categories: links
 
 
 ## The Era of AI
+
+2024-09-02 [txtai](https://neuml.github.io/txtai/) { neuml.github.io }
+
+> txtai is an all-in-one embeddings database for semantic search, LLM orchestration and language model workflows.
+>
+> ![image-20240901235351463](./2024-08-30-links-from-my-inbox.assets/image-20240901235351463.png)
+
+2024-09-02 [Solving the out-of-context chunk problem for RAG](https://d-star.ai/solving-the-out-of-context-chunk-problem-for-rag) { d-star.ai }
+
+> Many of the problems developers face with RAG come down to this: Individual chunks don’t contain sufficient context to be properly used by the retrieval system or the LLM. This leads to the inability to answer seemingly simple questions and, more worryingly, hallucinations.
+>
+> Examples of this problem
+>
+> - Chunks oftentimes refer to their subject via implicit references and pronouns. This causes them to not be retrieved when they should be, or to not be properly understood by the LLM.
+> - Individual chunks oftentimes don’t contain the complete answer to a question. The answer may be scattered across a few adjacent chunks.
+> - Adjacent chunks presented to the LLM out of order cause confusion and can lead to hallucinations.
+> - Naive chunking can lead to text being split “mid-thought” leaving neither chunk with useful context.
+> - Individual chunks oftentimes only make sense in the context of the entire section or document, and can be misleading when read on their own.
 
 2024-08-30 [MahmoudAshraf97/whisper-diarization: Automatic Speech Recognition with Speaker Diarization based on OpenAI Whisper](https://github.com/MahmoudAshraf97/whisper-diarization) { github.com }
 
@@ -266,3 +350,42 @@ categories: links
 2024-09-01 [Understanding B-Trees: The Data Structure Behind Modern Databases - YouTube](https://www.youtube.com/watch?v=K1a2Bk8NrYQ) { www.youtube.com }
 
 > ![image-20240901011314149](./2024-08-30-links-from-my-inbox.assets/image-20240901011314149.png)
+
+### Editing Distance
+
+2024-09-02 [Needleman–Wunsch algorithm - Wikipedia](https://en.wikipedia.org/wiki/Needleman%E2%80%93Wunsch_algorithm) { en.wikipedia.org }
+
+2024-09-02 [Levenshtein distance - Wikipedia](https://en.wikipedia.org/wiki/Levenshtein_distance) { en.wikipedia.org }
+
+```js
+function LevenshteinDistance(char s[1..m], char t[1..n]):
+  // for all i and j, d[i,j] will hold the Levenshtein distance between
+  // the first i characters of s and the first j characters of t
+  declare int d[0..m, 0..n]
+ 
+  set each element in d to zero
+ 
+  // source prefixes can be transformed into empty string by
+  // dropping all characters
+  for i from 1 to m:
+    d[i, 0] := i
+ 
+  // target prefixes can be reached from empty source prefix
+  // by inserting every character
+  for j from 1 to n:
+    d[0, j] := j
+ 
+  for j from 1 to n:
+    for i from 1 to m:
+      if s[i] = t[j]:
+        substitutionCost := 0
+      else:
+        substitutionCost := 1
+
+      d[i, j] := minimum(d[i-1, j] + 1,                   // deletion
+                         d[i, j-1] + 1,                   // insertion
+                         d[i-1, j-1] + substitutionCost)  // substitution
+ 
+  return d[m, n]
+```
+
