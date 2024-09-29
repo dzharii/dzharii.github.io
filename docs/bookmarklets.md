@@ -5,6 +5,50 @@
 This is a collection of JavaScript bookmarklets to assist in everyday life copy pasting.
 
 
+## Download YouTube Subtitles
+
+Opens a new tab to download subtitles for the current YouTube video.
+
+Name:
+
+`📥 Download YouTube Subtitles`
+
+Revision:
+
+- 2024-09-29 - initial
+
+<details>
+
+<summary> Code:  </summary>
+
+```js
+javascript:(function(){
+    /* Check if the current site is YouTube and has a video ID */
+    if (window.location.hostname.includes('youtube.com') && new URLSearchParams(window.location.search).has('v')) {
+        /* Get the current page URL */
+        var currentUrl = window.location.href;
+        /* Encode the URL */
+        var encodedUrl = encodeURIComponent(currentUrl);
+        /*  Construct the target URL */
+        var targetUrl = 'https://www.downloadyoutubesubtitles.com/?u=' + encodedUrl;
+        /* Open the target URL in a new tab */
+        window.open(targetUrl, '_blank');
+    } else {
+        /* Alert the user if not on a YouTube video page */
+        alert('This bookmarklet works only on YouTube video pages.');
+    }
+})();
+
+```
+
+
+```js
+
+javascript:(function(){if(window.location.hostname.includes('youtube.com')&&new URLSearchParams(window.location.search).has('v')){var currentUrl=window.location.href;var encodedUrl=encodeURIComponent(currentUrl);var targetUrl='https://www.downloadyoutubesubtitles.com/?u='+encodedUrl;window.open(targetUrl,'_blank');}else{alert('This bookmarklet works only on YouTube video pages.');}})();
+
+```
+</details> 
+
 
 ## Copy markdown link to this page
 
