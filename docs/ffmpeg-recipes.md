@@ -15,6 +15,14 @@
 - [FFmpeg Commander](https://alfg.dev/ffmpeg-commander/)
     * [github: alfg/ffmpeg-commander: 🛠️ FFmpeg Command Generator Web UI](https://github.com/alfg/ffmpeg-commander) - generates commandline for the workload!
 
+## Pin
+
+Quick 720p conversion to share in Telegram
+
+```sh
+ffmpeg -i "!.!" -vf "scale=-2:720" -r 30 -c:v libx265 -preset slow -crf 23 -c:a aac -b:a 48k "!_720p.mp4"
+```
+
 ## Snippets
 
 Audio - increase volume:
