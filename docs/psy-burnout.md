@@ -60,6 +60,34 @@ While I hope the information here provides some helpful perspectives, please don
 >
 > The most critical issues are **employee burnout** and the **disconnect between management and workers**, both of which contribute to widespread dissatisfaction and inefficiency in workplaces. Addressing these through better leadership training, reducing unnecessary work, and improving workplace communication can lead to healthier, more engaged employees.
 
+2024-11-04 [Burnout](https://gist.github.com/stormwild/d8e33879a08a2b6351563d986afc1a7b) { gist.github.com }
+
+Stress vs. Burnout
+
+| Stress                              | Burnout                                 |
+| ----------------------------------- | --------------------------------------- |
+| Characterized by over-engagement.   | Characterized by disengagement.         |
+| Emotions are overreactive.          | Emotions are blunted.                   |
+| Produces urgency and hyperactivity. | Produces helplessness and hopelessness. |
+| Loss of energy.                     | Loss of motivation, ideals, and hope.   |
+| Leads to anxiety disorders.         | Leads to detachment and depression.     |
+| Primary damage is physical.         | Primary damage is emotional.            |
+| May kill you prematurely.           | May make life seem not worth living.    |
+
+[Understanding Job Burnout - Dr. Christina Maslach - YouTube](https://www.youtube.com/watch?v=gRPBkCW0R5E) { www.youtube.com }
+
+> ![image-20241103212828872](psy-burnout.assets/image-20241103212828872.png)
+
+[Burn-out an "occupational phenomenon": International Classification of Diseases](https://www.who.int/news/item/28-05-2019-burn-out-an-occupational-phenomenon-international-classification-of-diseases#:~:text=“Burn-out is a syndrome,related to one's job%3B and)
+
+> ![image-20241103212555031](psy-burnout.assets/image-20241103212555031.png)
+>
+> “Burn-out is a **syndrome conceptualized as resulting from chronic workplace stress that has not been successfully managed**. It is characterized by three dimensions:
+>
+> - feelings of energy depletion or exhaustion;
+> - increased mental distance from one’s job, or feelings of negativism or cynicism related to one's job; and
+> - reduced professional efficacy.
+
 
 
 ## Inside burnout: Rest and Relaxation
@@ -168,3 +196,12 @@ Pursue enjoyable activities that provide fulfillment and a sense of accomplishme
 > The reason? Only a 📌**minority** of developers like learning new tools, technologies, and languages through courses. Instead, they prefer **documentation and APIs ( 67%)** or **blogs and forums (53%)**. When it comes to the type of content they prefer for learning, 53% prefer written content and 45% video. As expected, video content is preferred by respondents aged 21-19.
 >
 > When asked how much time they spend on learning weekly, 41% of developers said it’s 3 to 8 hours, and 30% of them said it’s one to two hours.
+
+
+
+## Awesome Link collections
+
+2024-11-04 [Awesome Mental Health](https://dreamingechoes.github.io/awesome-mental-health/#/) { dreamingechoes.github.io }
+
+> ![image-20241103213152080](psy-burnout.assets/image-20241103213152080.png)
+
