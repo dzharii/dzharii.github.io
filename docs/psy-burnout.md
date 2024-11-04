@@ -1,4 +1,4 @@
-# Burnout (mental wellbeing)
+# Psy-Burnout (mental wellbeing)
 Date: 2024-11-03
 
 ![burnout](psy-burnout.assets/burnout.jpg)
@@ -7,7 +7,7 @@ Date: 2024-11-03
 
 **Disclaimer:**
 
-This page shares a variety of experiences, insights, and resources on burnout from people in the field, but it’s important to remember that these are shared perspectives, **not professional advice**. I strongly recommend that anyone dealing with burnout or mental health challenges reach out to a well-**being professional or therapist for personalized support**.
+This page shares a variety of experiences, insights, and resources on burnout from people in the field, but it’s important to remember that these are shared perspectives, **not professional advice**. I strongly recommend that anyone dealing with burnout or mental health challenges reach out to a **well-being professional** or **therapist** for personalized support.
 
 Burnout can feel overwhelming and, in my view, is rarely a result of personal failings. I **guestimate** that in 95% of cases, burnout occurs when we least expect it—often from factors outside of our control, like high-pressure environments, lack of support, or unclear boundaries. Many people experience burnout due to external pressures rather than personal weakness.
 
@@ -15,11 +15,13 @@ While I hope the information here provides some helpful perspectives, please don
 
 
 
-## About: Happiness 
+## About: Well-being
 
-[The Science of Well-Being by Yale University](https://www.coursera.org/learn/the-science-of-well-being)
+[The Science of Well-Being by Yale University](https://www.coursera.org/learn/the-science-of-well-being)  { www.coursera.org }
 
-> This free online course, taught by Professor Laurie Santos, explores the science behind happiness. It delves into common misconceptions about what makes us happy and offers practical strategies to enhance well-being. Participants engage in challenges designed to build more productive habits and increase happiness. The course is self-paced, allowing learners to progress at their own speed. It's an excellent resource for anyone interested in understanding and improving their mental health.
+> ![image-20241103184523442](psy-burnout.assets/image-20241103184523442.png)
+>
+> This **free online course**, taught by Professor **Laurie Santos**, explores the science behind happiness. It delves into common misconceptions about what makes us happy and offers practical strategies to enhance well-being. Participants engage in challenges designed to build more productive habits and increase happiness. The course is self-paced, allowing learners to progress at their own speed. It's an excellent resource for anyone interested in understanding and improving their mental health.
 >
 > The course covers topics such as:
 >
@@ -32,7 +34,31 @@ While I hope the information here provides some helpful perspectives, please don
 
 
 
-## About: burnout
+## About: burnout (burnout stories)
+
+[On Burnout, Mental Health, And Not Being Okay — Ludicity](https://ludic.mataroa.blog/blog/on-burnout-mental-health-and-not-being-okay/) { ludic.mataroa.blog }
+
+> In the blog post "On Burnout, Mental Health, And Not Being Okay," the author shares personal experiences with burnout and mental health challenges, emphasizing that it's normal to feel "Not Okay" at times. They recount three significant episodes:
+>
+> 1. **University Stress**: During their fourth year studying psychology, the author faced extreme sleep deprivation due to unpaid night shifts and thesis pressures, leading to severe mood swings and prolonged sadness.
+> 2. **Professional Burnout**: In early 2019, while working in a demanding role, they experienced burnout characterized by emotional exhaustion and a sense of detachment from their work.
+> 3. **Personal Struggles**: The author also discusses personal challenges, including feelings of inadequacy and the impact of societal expectations on mental health.
+
+2023-08-05 [Dark Side of Remote Work – Personal Experience - DEV Community](https://dev.to/viktoriabors/dark-side-of-remote-work-personal-experience-5dch)
+
+> The author, a remote junior Javascript developer, shares her struggles with remote work. Despite the appeal of flexibility, she faced challenges including the reality of spending all day at home, the loneliness that resulted from missing office interactions, and mental exhaustion from a lack of routine and breaks. The continuous focus on work led to near burnout, making her consider a hybrid work model that combines remote work with office days for better work-life balance and social interaction.
+
+2024-08-18 [Burnout - When does work start feeling pointless? | DW Documentary - YouTube](https://www.youtube.com/watch?v=raVms8w61No) { www.youtube.com }
+
+> ![image-20241103211628867](psy-burnout.assets/image-20241103211628867.png)
+>
+> 1. **Workplace Dysfunction**: Bureaucratic inefficiency, administrative bloat, and unnecessary meetings create a sense of sabotage in modern offices. **Solution**: Streamline decision-making and reduce bureaucratic roles.
+> 2. **Employee Burnout**: Burnout is widespread due to overwork, isolation, and emotional stress. **Solution**: Acknowledge the signs of burnout, reduce workload, and foster open communication.
+> 3. **Managerial Failures**: Many managers lack the skills to lead effectively, causing disengagement and poor team dynamics. **Solution**: Train managers in leadership and emotional intelligence.
+> 4. **Corporate Culture**: Frequent reorganizations and unfair treatment create cynicism and stress among employees. **Solution**: Ensure fair policies and minimize unnecessary restructurings.
+> 5. **Lack of Meaningful Work**: Employees feel disconnected from the social value of their work, seeing it as pointless. **Solution**: Align work tasks with human values and meaningful contributions.
+>
+> The most critical issues are **employee burnout** and the **disconnect between management and workers**, both of which contribute to widespread dissatisfaction and inefficiency in workplaces. Addressing these through better leadership training, reducing unnecessary work, and improving workplace communication can lead to healthier, more engaged employees.
 
 
 
@@ -45,6 +71,28 @@ Prioritize adequate sleep and engage in restful activities to allow the body and
 ## Inside burnout: Social Connection
 
 Reach out to trusted friends or family members for emotional support. Sharing your feelings and experiences can help alleviate feelings of isolation. However, not everyone has a trusted friend nearby. YouTube can sometimes serve as a surrogate for social connection—who knows, it might even be a better alternative at times. Please avoid any activities, including certain discussions, that could negatively impact your mood.
+
+
+
+## The right ways
+
+### Code changes
+
+2024-01-27 [Long Term Refactors - Max Chernyak](https://max.engineer/long-term-refactors) 
+
+> I have a theory that long refactors get a bad rap because most of them take far longer than we expect. The length leads to stress, an awkward codebase, a confused team, and often no end in sight. Instead, what if we *prepared* an intentional long term refactor? A few years ago, I began trying this method, and it has led to some surprisingly successful results:
+>
+> - We didn’t need to negotiate business timelines.
+> - We didn’t need to compete against business priorities.
+> - The team quickly understood and even took ownership of the refactor over time.
+> - There was no increase in stress and risk of burnout.
+> - PRs were easy to review, no huge diffs.
+> - The refactor was consistently and collaboratively re-evaluated by the entire team.
+> - We never wasted time refactoring code that didn’t need it.
+> - Our feature development remained unblocked.
+> - The team expanded their architectural knowledge.
+> - The new engineers had a great source of first tasks.
+> - We rolled out the refactor gradually, making it easier to QA, and reducing bugs.
 
 
 
@@ -64,8 +112,59 @@ Develop organizational skills to balance work and personal life effectively, set
 
 Establish clear limits between professional and personal time to ensure adequate rest and leisure.
 
+[psy-2022-07-28-BoundariesMeeting](https://blog.zharii.com/docs/psy-2022-07-28-BoundariesMeeting) { blog.zharii.com }
+
+> Setting personal boundaries is essential for preventing burnout and fostering self-respect. This guide emphasizes the importance of boundaries to protect time, space, and mental bandwidth. Poor boundaries can lead to resentment, stress, and unintentional messages like undervaluing personal needs. Practical tips include defining work hours, reducing constant availability, and using tools like "Out of Office" settings. It's up to each individual to set, communicate, and model these boundaries clearly to ensure a balanced and sustainable approach to work and life.
+
+
+
 
 
 ## After burnout: Engage in Hobbies and Continuous Learning
 
 Pursue enjoyable activities that provide fulfillment and a sense of accomplishment outside of work. Invest in personal and professional development to foster growth and adaptability, enhancing job satisfaction.
+
+
+
+## Quotes
+
+2024-11-04 [How to be a -10x Engineer](https://taylor.town/-10x) { taylor.town }
+
+> **Minus** 10x! 
+>
+> **(☣️Toxicity)** Create 400 hours of burnout/turnover.
+> Be thankless. Foist blame. Sow confusion. Get angry. Cause others to work overtime.
+
+2023-08-05 [Team management tips: 10 ways to kill a team](https://www.dsebastien.net/2020-08-20-10-ways-to-kill-a-team/)
+
+> Putting too much pressure on a group is a perfect recipe for breaking a team. People that are under too much pressure for too long will either burn out or leave to protect themselves (and rightly so!).
+>
+> Also: Ignoring Team Input Lack of Empathy, Setting Unrealistic Deadlines, Unclear Goals, Not Tracking Progress, Resisting Innovation, Creating Isolated Teams, Micro-management
+
+2024-11-04 [Developers experience burnout, but 70% of them code on weekends : r/programming](https://www.reddit.com/r/programming/comments/18sn8f8/comment/kf95pwx/) { www.reddit.com } (**code therapy**)
+
+>  Exactly. I work on [my open source project](https://thomasmertes.github.io/Seed7Home) **to stay mentally healthy**.
+> 
+>  Programming **in companies** is what stresses us. There are countless issues:
+> 
+> - Managers who know everything better because they have programmed too (30 years ago for one week in BASIC under DOS).
+> - Programs that tell you what you are allowed to check in (ExpensiveSourceCodeCheckProgram forbids checking in because of rule 12345).
+> - Fellow developers who tell in a scrum meeting that the task has zero storypoints, because it could be done in 1 hour (they take 3 days but the managers just think they are fast and you are slow).
+> - Project owners who start bargaining how many storypoints should be estimated for a story.
+> - Unit tests, that check just mocks, to reach some level of code coverage.
+> - The need to write more XML, Maven, Jenkins, etc. stuff than actual Java (or other language) code.
+> - Bosses doing time estimates without asking you (I have already promised to the customer that this will be finished tomorrow).
+
+
+
+## Numbers
+
+> 2023-12-28 [The State of Developer Ecosystem in 2023 Infographic | JetBrains: Developer Tools for Professionals and Teams](https://www.jetbrains.com/lp/devecosystem-2023/)
+>
+> Almost three-quarters or, more precisely, **73% of developers have experienced burnout,** according to Jet Brains’ report, The State of Developer Ecosystem 2023. The report summarizes insights on developers’ preferred languages and technologies, methodologies, and lifestyles gathered from 26,348 developers from all around the globe.
+>
+> Another rather unexpected statistic involving three-quarters of developers answers the question of whether they have ever **quit a learning program or a course**. And **75% of respondents said they had.**
+>
+> The reason? Only a 📌**minority** of developers like learning new tools, technologies, and languages through courses. Instead, they prefer **documentation and APIs ( 67%)** or **blogs and forums (53%)**. When it comes to the type of content they prefer for learning, 53% prefer written content and 45% video. As expected, video content is preferred by respondents aged 21-19.
+>
+> When asked how much time they spend on learning weekly, 41% of developers said it’s 3 to 8 hours, and 30% of them said it’s one to two hours.
