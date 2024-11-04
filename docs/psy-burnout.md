@@ -48,6 +48,16 @@ While I hope the information here provides some helpful perspectives, please don
 
 > The author, a remote junior Javascript developer, shares her struggles with remote work. Despite the appeal of flexibility, she faced challenges including the reality of spending all day at home, the loneliness that resulted from missing office interactions, and mental exhaustion from a lack of routine and breaks. The continuous focus on work led to near burnout, making her consider a hybrid work model that combines remote work with office days for better work-life balance and social interaction.
 
+2024-11-04 [A Programmers Guide to Stress](https://blog.zharii.com/docs/psy-saved-articles/a-programmers-guide-to-stress) { blog.zharii.com } 
+
+> by Daragh Byrne discusses recognizing and managing stress unique to developers.
+>
+> I almost lost my mind because I wasn’t taking care of it. Way too much crunch time for an important project, coupled with some ongoing issues in my personal life, pushed my ability to cope with day-to-day life into the red.
+>
+> My heart raced. My mind raced. My ability to think clearly—so important when you’re trying to get working software out the door—went through the floor.
+>
+> I was super, super stressed.
+
 2024-08-18 [Burnout - When does work start feeling pointless? | DW Documentary - YouTube](https://www.youtube.com/watch?v=raVms8w61No) { www.youtube.com }
 
 > ![image-20241103211628867](psy-burnout.assets/image-20241103211628867.png)
@@ -121,6 +131,30 @@ Reach out to trusted friends or family members for emotional support. Sharing yo
 > - The team expanded their architectural knowledge.
 > - The new engineers had a great source of first tasks.
 > - We rolled out the refactor gradually, making it easier to QA, and reducing bugs.
+
+[Beating Burnout: A guide for supporting mental health at work](https://almanac.io/docs/beating-burnout-a-guide-for-supporting-mental-health-at-work-yDLKVF3uJtMdshcZG37HP7OHpAczogYX) { almanac.io }
+
+>  Are you...
+>  - Burned out by constant meetings?
+>  - Distracted by the overwhelming load of Slack and email?
+>  - Unable to maintain focus at work?
+>  - Finding even the smallest of tasks both physically and mentally debilitating?
+>  - Thinking about changing careers?
+>
+>  If you're feeling any of these things, you're not alone. Career burnout is happening to a lot of people.
+>
+>  For individual contributors
+>  Take care of yourself and advocate for change:
+>
+>  - **Be unapologetically clear about your personal and professional boundaries.** This means [knowing your personality needs](https://www.psychologytoday.com/us/blog/prescriptions-life/201902/why-lack-boundaries-can-lead-burnout) and sticking to them, just as much as it does setting aside time to focus on essential work. If your organization uses Slack, use the "Set status" functionality to communicate your availability.
+>
+>  - **Block times on your calendar when you are unavailable,** need to focus on deep work, or simply need a break. Lean into pushing back against unnecessary meetings.
+>
+>  - **Get off social media.** This is especially true for those working in digital marketing and social media. With political tensions high and bots promoting misinformation at increasing levels, Twitter can seem like an ["always on trauma machine."](https://digiday.com/media/social-media-managers-grapple-with-burnout/) Better to take a break.
+>
+>  - Go for a walk. Get exercise. **Just take a break.**
+>
+>  - **Evaluate your options.** Perhaps the burnout you are experiencing is a result of a toxic company culture, in which case your best bet might be to move on.
 
 
 
