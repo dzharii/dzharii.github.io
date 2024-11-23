@@ -278,3 +278,137 @@ end
 
 > ![image-20241111000550931](dev-lua.assets/image-20241111000550931.png)
 
+
+
+## Projects 💖 Lua
+
+Here’s a categorized list of the Lua-based projects, organized by their primary application domain. This organization provides better context and relevance:
+
+------
+
+### Text Editors and IDEs
+
+1. **[Neovim](https://neovim.io/)**: A hyperextensible Vim-based text editor using Lua for configuration and plugin development.
+   - Repository: [GitHub - neovim/neovim](https://github.com/neovim/neovim)
+2. **[ZeroBrane Studio](https://studio.zerobrane.com/)**: A lightweight Lua IDE with debugging support for quick development cycles.
+   - Repository: [GitHub - pkulchenko/ZeroBraneStudio](https://github.com/pkulchenko/ZeroBraneStudio)
+3. **[MobDebug](https://studio.zerobrane.com/debugging)**: A remote debugger for Lua integrated into various Lua environments.
+   - Repository: [GitHub - pkulchenko/MobDebug](https://github.com/pkulchenko/MobDebug)
+
+------
+
+### Networking and Web Development
+
+1. **[Wireshark](https://www.wireshark.org/)**: A network protocol analyzer supporting Lua for custom dissectors and plugins.
+   - Repository: [GitLab - Wireshark](https://gitlab.com/wireshark/wireshark)
+2. **[Nmap](https://nmap.org/)**: Lua-powered Nmap Scripting Engine (NSE) enables advanced network discovery and security tasks.
+   - Repository: [GitHub - nmap/nmap](https://github.com/nmap/nmap)
+3. **[OpenResty](https://openresty.org/)**: A full-fledged web application server bundling Nginx and LuaJIT.
+   - Repository: [GitHub - openresty/openresty](https://github.com/openresty/openresty)
+4. **[Kong](https://konghq.com/)**: An open-source API gateway leveraging Lua for plugin development and request handling.
+   - Repository: [GitHub - Kong/kong](https://github.com/Kong/kong)
+5. **[Lapis](https://leafo.net/lapis/)**: A Lua-based web framework running inside OpenResty for creating performant web applications.
+   - Repository: [GitHub - leafo/lapis](https://github.com/leafo/lapis)
+6. **[Apache Traffic Server](https://trafficserver.apache.org/)**: A high-performance web proxy cache with Lua-based plugins for customization.
+   - Repository: [GitHub - apache/trafficserver](https://github.com/apache/trafficserver)
+7. **[LuCI](https://openwrt.org/docs/guide-user/luci/luci.essentials)**: A web-based configuration interface for OpenWrt routers, built entirely with Lua.
+   - Repository: [GitHub - openwrt/luci](https://github.com/openwrt/luci)
+
+------
+
+### Game Development and Modding
+
+1. **[LÖVE](https://love2d.org/)**: A framework for creating 2D games in Lua.
+   - Repository: [GitHub - love2d/love](https://github.com/love2d/love)
+2. **[Minetest](https://www.minetest.net/)**: A voxel game engine using Lua for modding custom game content.
+   - Repository: [GitHub - minetest/minetest](https://github.com/minetest/minetest)
+3. **[Defold](https://defold.com/)**: A cross-platform game engine using Lua for scripting game logic.
+   - Repository: [GitHub - defold/defold](https://github.com/defold/defold)
+4. **[Hedgewars](https://hedgewars.org/)**: A Worms-like strategy game using Lua for scripting missions and AI.
+   - Repository: [GitHub - hedgewars/hw](https://github.com/hedgewars/hw)
+5. **[Cocos2d-x](https://www.cocos.com/en)**: A game development framework with Lua bindings for cross-platform game logic.
+   - Repository: [GitHub - cocos2d/cocos2d-x](https://github.com/cocos2d/cocos2d-x)
+6. **[The Powder Toy](https://powdertoy.co.uk/)**: A free physics sandbox game using Lua for modding custom elements and simulations.
+   - Repository: [GitHub - The-Powder-Toy/The-Powder-Toy](https://github.com/The-Powder-Toy/The-Powder-Toy)
+7. **[Windower](https://github.com/Windower/Lua)**: A Final Fantasy XI tool that enables Lua scripting for custom plugins and game enhancements.
+   - Repository: [GitHub - Windower/Lua](https://github.com/Windower/Lua)
+
+------
+
+### Text
+
+1. **[Pandoc](https://pandoc.org/)**: A universal document converter with Lua filters for AST manipulation.
+   - Repository: [GitHub - jgm/pandoc](https://github.com/jgm/pandoc)
+
+------
+
+### Operating Systems and Window Managers
+
+1. **[AwesomeWM](https://awesomewm.org/)**: A highly configurable window manager for X using Lua for scripting.
+   - Repository: [GitHub - awesomeWM/awesome](https://github.com/awesomeWM/awesome)
+2. **[OpenTX](https://www.open-tx.org/)**: Open-source firmware for RC radio transmitters using Lua for custom functions.
+   - Repository: [GitHub - opentx/opentx](https://github.com/opentx/opentx)
+
+------
+
+### Database and Backend Tools
+
+1. **[Tarantool](https://tarantool.io/)**: An in-memory database and application server using Lua for stored procedures.
+   - Repository: [GitHub - tarantool/tarantool](https://github.com/tarantool/tarantool)
+
+------
+
+### Media and Graphics
+
+1. **[mpv](https://mpv.io/)**: A media player supporting Lua scripting for automation and IPC.
+   - Repository: [GitHub - mpv-player/mpv](https://github.com/mpv-player/mpv)
+2. **[Darktable](https://www.darktable.org/)**: An open-source photography workflow application supporting Lua scripting for task automation.
+   - Repository: [GitHub - darktable-org/darktable](https://github.com/darktable-org/darktable)
+
+------
+
+### Networking and Packet Processing
+
+1. **[Snabb](https://snabb.co/)**: A high-performance networking toolkit using LuaJIT for processing network packets.
+   - Repository: [GitHub - snabbco/snabb](https://github.com/snabbco/snabb)
+
+------
+
+### Programming Tools and Extensions
+
+1. **[Premake](https://premake.github.io/)**: A build configuration tool using Lua scripts to generate project files for multiple platforms.
+   - Repository: [GitHub - premake/premake-core](https://github.com/premake/premake-core)
+2. **[Flow](https://flowtype.org/)**: Lua-based projects like TypeScriptToLua compile TypeScript to Lua for static typing benefits.
+   - Repository: [GitHub - TypeScriptToLua/TypeScriptToLua](https://github.com/TypeScriptToLua/TypeScriptToLua)
+3. **[Ravi](https://github.com/dibyendumajumdar/ravi)**: A Lua derivative with optional static typing and JIT compilation for enhanced performance.
+   - Repository: [GitHub - dibyendumajumdar/ravi](https://github.com/dibyendumajumdar/ravi)
+
+------
+
+### Automation and Workflow Tools
+
+1. **[Hammerspoon](https://www.hammerspoon.org/)**: A macOS tool using Lua scripting for automating workflows and OS integration.
+   - Repository: [GitHub - Hammerspoon/hammerspoon](https://github.com/Hammerspoon/hammerspoon)
+2. **[SILE](https://sile-typesetter.org/)**: A TeX-inspired typesetting system using Lua for configuration and custom extensions.
+   - Repository: [GitHub - sile-typesetter/sile](https://github.com/sile-typesetter/sile)
+
+### Community and Modular Extensions
+
+1. **[AwesomeWM Widgets](https://awesomewm.org/)**: Community-driven widgets and extensions for Awesome Window Manager, all scripted in Lua.
+   - Repository: [GitHub - streetturtle/awesome-wm-widgets](https://github.com/streetturtle/awesome-wm-widgets)
+2. **[Eluna](https://github.com/ElunaLuaEngine/Eluna)**: A Lua engine for World of Warcraft emulators, allowing custom scripting for mechanics and events.
+   - Repository: [GitHub - ElunaLuaEngine/Eluna](https://github.com/ElunaLuaEngine/Eluna)
+3. **[Mushclient](https://www.gammon.com.au/mushclient)**: A MUD client supporting Lua scripting for automating gameplay and custom behaviors.
+   - Repository: [GitHub - nickgammon/MUSHclient](https://github.com/nickgammon/MUSHclient)
+4. **[mpv Socket Control](https://mpv.io/manual/master/#json-ipc)**: Enables Lua-based remote control and IPC scripting for the mpv media player.
+   - Repository: [GitHub - mpv-player/mpv](https://github.com/mpv-player/mpv)
+
+------
+
+### 3D Applications
+
+1. **[Crown Engine](https://crownengine.org/)**: A high-performance game engine using Lua for scripting real-time applications.
+   - Repository: [GitHub - dbartolini/crown](https://github.com/dbartolini/crown)
+
+------
+
