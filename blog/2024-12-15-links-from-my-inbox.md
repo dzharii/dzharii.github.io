@@ -275,7 +275,7 @@ categories: links
 > > - many small refactors
 > > - “build is having issues”
 > > - blocked by another team
-> > - will take time bcuz <obscure tech reason> like “race condition”
+> > - will take time bcuz obscure tech reason like “race condition”
 > > - “can you create a jira for that?”
 
 2024-12-07 [Keynote: Advent of Code, Behind the Scenes - Eric Wastl - YouTube](https://www.youtube.com/watch?v=uZ8DcbhojOw) { www.youtube.com }
