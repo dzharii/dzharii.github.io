@@ -105,6 +105,12 @@ Stress vs. Burnout
 > Preventing burnout from happening on our teams means that first we need to identify the *real* causes of it, otherwise we’re just sending people to long vacations hoping the problem fixes itself. (It won’t.)
 >
 > Each case is different (of course), but from what I’ve seen with engineering teams over time, **burnout usually isn’t about work’s *volume* —it’s about a lack of purpose or agency**.
+> ...
+> 🟠 If you’re looking for something more practical, here’s what I usually do:
+>
+> - **Alignment, alignment, alignment:** Before kicking off any project, I share why I’m considering them for the job. I provide links to product specs, design docs, and user research so they understand the problem space. This simple step gives them agency and aligns their work with their interests and career goals.
+> - **Clean-up period**: After wrapping up a project, we set aside two weeks for engineers to choose what they want to work on—refactoring messy code, experimenting with new technologies, improving internal tooling, or tackling long-ignored bugs. This autonomy gives them a sense of ownership and keeps intrinsic motivation high.
+> - **Impact** **reminders**: Every now and then, I’ll show how the team’s work connects back to the company’s objectives. If you use OKRs (or any similar goal-setting framework), tie their efforts to those key outcomes. By repeatedly highlighting the real-world impact they’ve had—like improving user satisfaction scores, reducing operational costs, or enabling a new product launch—you reinforce the purpose behind their day-to-day tasks.
 
 
 
