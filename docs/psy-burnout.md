@@ -98,6 +98,14 @@ Stress vs. Burnout
 > - increased mental distance from one’s job, or feelings of negativism or cynicism related to one's job; and
 > - reduced professional efficacy.
 
+2024-12-21 [Burnout ≠ Working Too Much – Terrible Software](https://terriblesoftware.org/2024/12/20/burnout-%e2%89%a0-working-too-much/) { terriblesoftware.org }
+
+> If burnout was a natural byproduct of working too much (or too hard, or for too many hours), we’d see every founder/C-level suffering from it. And yet… they’re generally doing just fine; ICs and middle managers, on the other hand, are usually taking the biggest hit.
+>
+> Preventing burnout from happening on our teams means that first we need to identify the *real* causes of it, otherwise we’re just sending people to long vacations hoping the problem fixes itself. (It won’t.)
+>
+> Each case is different (of course), but from what I’ve seen with engineering teams over time, **burnout usually isn’t about work’s *volume* —it’s about a lack of purpose or agency**.
+
 
 
 ## Inside burnout: Rest and Relaxation
