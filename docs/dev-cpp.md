@@ -94,6 +94,14 @@ These two are very good beginner resources:
 
 ## C++ Other learning resources
 
+- 2024-12-22 [Embedded Scripting Languages](https://caiorss.github.io/C-Cpp-Notes/embedded_scripting_languages.html#org4c5951c) { caiorss.github.io }
+
+  > ![image-20241221225225256](dev-cpp.assets/image-20241221225225256.png)
+
+- 2024-12-22 [CPP C++ Papyrus](https://caiorss.github.io/C-Cpp-Notes/#org3506a7e) { caiorss.github.io }
+
+  > ![image-20241221225258791](dev-cpp.assets/image-20241221225258791.png)
+
 - 2023-12-30 [Learn Contemporary C++ | Concise&Visual Examples | hacking C++](https://hackingcpp.com/index.html)
 
 > ![image-20240208182036869](./dev-cpp.assets/image-20240208182036869.png)
