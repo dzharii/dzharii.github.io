@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkzharii=self.webpackChunkzharii||[]).push([[3200],{34011:function(e){e.exports=JSON.parse('{"permalink":"https://blog.zharii.com/blog","page":1,"postsPerPage":10,"totalPages":7,"totalCount":64,"previousPage":null,"nextPage":"https://blog.zharii.com/blog/page/2","blogDescription":"Blog","blogTitle":"Blog"}')}}]);
