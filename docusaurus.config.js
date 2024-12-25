@@ -9,7 +9,7 @@ const config = {
   title: 'Dmytro Zharii',
   tagline: 'Personal Wiki',
   url: 'https://blog.zharii.com',
-  baseUrl: 'https://blog.zharii.com',
+  baseUrl: 'https://blog.zharii.com/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
