@@ -11,6 +11,74 @@
 ## Books and Courses
 - 2022-01-19 🎥 [Security engineering course   Light Blue Touchpaper](https://www.lightbluetouchpaper.org/2022/01/19/security-engineering-course/)
 - 2022-01-19 📕 [Security Engineering - A Guide to Building Dependable Distributed Systems](https://www.cl.cam.ac.uk/~rja14/book.html)
+- Lectures: 🤩  CS50 Cybersecurity
+
+  > This is CS50, Harvard University's introduction to the intellectual enterprises of computer science and the art of programming.
+  >
+
+  - 2024-12-26 [CS50 Cybersecurity - Lecture 1 - Securing Data - YouTube](https://www.youtube.com/watch?v=X3DVaMnl5n8) { www.youtube.com } { by David Malan}
+
+    > ![image-20241226155537857](security-articles.assets/image-20241226155537857.png)
+    > TABLE OF CONTENTS
+    >
+    > 00:00:00 - Introduction
+    > 00:00:17 - Securing Data
+    > 00:02:21 - Hashing
+    > 00:39:52 - Secret-Key Cryptography
+    > 01:03:21 - Public-Key Cryptography
+    > 01:16:14 - Digital Signatures
+    > 01:27:57 - Passkeys
+    > 01:34:47 - Encryption in Transit
+    > 01:40:10 - Deletion
+    > 01:46:28 - Encryption at Rest
+    > 01:50:59 - Ransomware
+    > 01:52:24 - Quantum Computing
+
+  - 2024-12-26 [CS50 Cybersecurity - Lecture 2 - Securing Systems - YouTube](https://www.youtube.com/watch?v=9phdZjF8qOk) { www.youtube.com }
+
+    > TABLE OF CONTENTS
+    >
+    > 00:00:00 - Introduction
+    > 00:00:17 - Wi-Fi
+    > 00:02:50 - HTTP
+    > 00:08:50 - Packet Sniffing
+    > 00:13:45 - Cookies
+    > 00:18:32 - HTTPS
+    > 00:37:56 - VPNs
+    > 00:41:11 - SSH
+    > 00:43:48 - Ports
+    > 00:51:33 - IP Addresses
+    > 00:53:33 - Deep Packet Inspection
+    > 00:54:50 - Proxy
+    > 01:03:49 - Malware
+    > 01:12:43 - Antivirus
+    > 01:15:19 - Zero-Day Attacks
+
+  - 2024-12-26 [CS50 Cybersecurity - Lecture 3 - Securing Software - YouTube](https://www.youtube.com/watch?v=5rsKrTh3fAo) { www.youtube.com }
+
+    > TABLE OF CONTENTS
+    >
+    > 00:00:00 - Introduction
+    > 00:00:17 - Phishing
+    > 00:11:48 - Code Injection
+    > 00:26:54 - Stored Attacks
+    > 00:39:26 - SQL Injection
+    > 00:54:49 - Prepared Statements
+    > 00:59:57 - Command Injection
+    > 01:07:51 - Client-Side Validation
+    > 01:10:31 - Server-Side Validation
+    > 01:12:44 - Cross-Site Request Forgery
+    > 01:28:39 - Open Worldwide Application Security Project
+    > 01:29:11 - Arbitrary Code Execution
+    > 01:40:28 - Reverse Engineering
+    > 01:42:03 - Open-Source and Closed-Source Software
+    > 01:45:15 - App Stores
+    > 01:50:40 - Package Managers
+    > 01:51:25 - Operating Systems
+    > 01:53:03 - Vulnerability Catalogs
+
+
+
 
 ## Articles
 

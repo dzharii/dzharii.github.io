@@ -46,6 +46,8 @@ const config = {
           editUrl: 'https://github.com/dzharii/dzharii.github.io/',
         },
         blog: {
+          blogSidebarTitle: 'All posts',
+          blogSidebarCount: 'ALL',
           showReadingTime: true,
           editUrl:
             'https://github.com/dzharii/dzharii.github.io/',

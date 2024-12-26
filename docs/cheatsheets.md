@@ -107,6 +107,20 @@ git log -L:add:src/calculator.ts
 
 ## Code
 
+2024-12-26 [CPP / C++ - Bookmarks](https://caiorss.github.io/C-Cpp-Notes/bookmarks.html) { caiorss.github.io }
+
+> See section: **1.11 Reference Cards for shell scripting languages and command line tools**
+
+> ![image-20241226155043581](cheatsheets.assets/image-20241226155043581.png)
+
+2024-12-26 [Devhints — TL;DR for developer documentation](https://devhints.io/) { devhints.io }
+
+> Amazing collection of cheat sheets for various programming languages.
+>
+> ![image-20241226154630068](cheatsheets.assets/image-20241226154630068.png)
+
+> ![image-20241226154810806](cheatsheets.assets/image-20241226154810806.png)
+
 2023-12-09 [The Complete Puppeteer Cheatsheet | ProxiesAPI](https://proxiesapi.com/articles/the-complete-puppeteer-cheatsheet)
 
 > found in: https://javascriptweekly.com/issues/666
