@@ -51,6 +51,40 @@ It is your responsibility to evaluate the accuracy, completeness, or usefulness 
 >
 > Nice theory, right? Trouble is, people with ADHD are also [much more likely to develop schizophrenia](https://doi.org/10.1016/j.eurpsy.2013.06.004). So this doesn’t make sense, nothing makes sense.
 
+
+
+## ADHD for Software Developers 
+
+Awesome (active 2024-12-28) reddit: https://www.reddit.com/r/ADHD_Programmers
+
+2024-12-29 [For those committed to this path: Any struggle with work/life balance? If you had to start all over, would you try for a different career or go the same route? : r/ADHD_Programmers](https://www.reddit.com/r/ADHD_Programmers/comments/1hogo34/for_those_committed_to_this_path_any_struggle/) {www.reddit.com}
+
+> Question: 
+>
+> For those committed to this path: Any struggle with work/life balance? If you had to start all over, would you try for a different career or go the same route? I understand programming with ADHD has it's own perks and challenges, but it's by no means a barrier to success.
+
+> Good answer (by [coltrain423](https://www.reddit.com/user/coltrain423/)):
+>
+> Work/Life balance comes down to the particular job - some companies suck, some rock. It’s easy for me to get hyper fixated on a problem and work late accidentally, but that’s just a thing I gotta work around.
+>
+> The thing about programming as a career is that it’s not about knowing, it’s about learning.
+>
+> At first you learn your tools: your programming language and programming in general, your IDE, and how “building software” differs from “writing code”. You’ll have to do this forever, because this industry is always evolving. It’s easier than it sounds though; if you know how to think about your solution and write it in one programming language, you can apply those same concepts to another language - you’re just learning a new tool instead of learning how to write code generally. It becomes second nature and just part of the job, especially if you foster curiosity.
+>
+> After you’ve learned enough to do the job, the job will change with promotions and companies and projects and experience. No two projects are ever the same, so you’ll always have to learn some new process or tool or platform. That’s not as bad as it sounds either: the important part is the concepts behind everything. If you know how to use an asynchronous messaging pattern in a system, then learning how to use a particular messaging platform is a matter of reading docs to find the details; again, the “asynchronous messaging pattern in a system” is the important part, and the details will always vary.
+>
+> Once you’ve learned how to use your tools to build a solution, you’re still not done. Every time you build a new feature, fix a new bug, or work on a new system, you’re just learning. You’re learning how to build Feature X. You’re learning how fix Bug B. The only time I don’t learn how to do something is if I’ve already written it somewhere else in the codebase, and then I learn how to reuse it instead. No two codebases are the same, so anytime you build anything you’re learning how to do it in the current context.
+>
+> Programming, Software Development, Software Engineering, etc. aren’t about writing code. They aren’t about what you know, per se. They’re about learning how to solve problems, whether the problem is “it does something it shouldn’t”, “it doesn’t do something it should”, “our users would pay more if it could do this”, or even “it’s not fast enough” or “it’s too expensive to run”. After all, the only way you know how to solve the problem is to do it: until then, it’s just an educated guess.
+>
+> You’ll have a much more satisfying career in software with less imposter syndrome if you embrace that early: don’t worry about what you don’t know because *learning* ***is*** *the job*.
+>
+> I can’t imagine a better fit for my personal flavor of ADHD. I thrive on the novelty (learning all the time), creativity (solving problems), and immediate concrete feedback (tests pass or fail). The “flexibility” is huge too - I can dive into a juicy feature or tackle a gnarly bug on my good days, and I can tackle simpler stuff like documentation or smaller bugs on my bad brain days. Within reason anyway, you gotta get the work done but the nature of the work is that mundane stuff matters too.
+>
+> Keeping up isn’t a problem because it happens by doing the job, and a break isn’t a huge deal because the whole point is learning anyway so it’s not really very different. The concepts are like riding a bike, and you’d have to learn the details for the next project even if you didn’t take a break because they’re all different. Frankly, coming back from a long break puts you in a better position than coming out of a 20 year operations and maintenance role for a legacy application that hadn’t been updated - you know that you don’t know the modern landscape, you don’t mistakenly “know” current best practices from 20 years ago.
+
+
+
 ## Key Facts
 
 Attention Deficit Hyperactivity Disorder, commonly known as ADHD, is a neurodevelopmental disorder that affects both children and adults. While symptoms often begin in childhood, many individuals carry these symptoms into adulthood. Here are some key facts about ADHD:
