@@ -1,5 +1,15 @@
 
 
+2024-12-30 [The Data Structures and Algorithms Interview](https://www.dataexpert.io/course/the-data-structures-and-algorithms-interview) { www.dataexpert.io }
+
+> Data structures and algorithms interviews make some data engineers scream and others cry. Although there are a rare few who smile when barraged with a list of difficult questions pulled from Leetcode. In this newsletter, I’m not trying to turn you into a masochist who LOVES these types of interviews; I’m trying my best to minimize the fear and uncertainty 
+
+2024-12-30 [data-engineer-handbook/interviews.md at main · DataExpert-io/data-engineer-handbook](https://github.com/DataExpert-io/data-engineer-handbook/blob/main/interviews.md) { github.com }
+
+> ![image-20241229193700144](workplace-interview-prep.assets/image-20241229193700144.png)
+
+
+
 2024-02-09 [kpsingh/SystemDesign: This repo will be having my learning regarding the Design Principles (Low Level Design) and System Design (High Level Design)](https://github.com/kpsingh/SystemDesign/)
 
 > The GitHub repository "SystemDesign" by kpsingh focuses on the author's learning journey regarding **Design Principles** (Low Level Design) and **System Design** (High Level Design). It aims to delve into foundational concepts such  as SOLID principles and design patterns, crucial for understanding both  low and high-level design aspects in software engineering. For those  interested in exploring the nuances of software design, this repository  could serve as a valuable resource. More details can be found on [GitHub](https://github.com/kpsingh/SystemDesign/).
