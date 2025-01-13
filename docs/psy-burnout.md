@@ -112,6 +112,33 @@ Stress vs. Burnout
 > - **Clean-up period**: After wrapping up a project, we set aside two weeks for engineers to choose what they want to work on—refactoring messy code, experimenting with new technologies, improving internal tooling, or tackling long-ignored bugs. This autonomy gives them a sense of ownership and keeps intrinsic motivation high.
 > - **Impact** **reminders**: Every now and then, I’ll show how the team’s work connects back to the company’s objectives. If you use OKRs (or any similar goal-setting framework), tie their efforts to those key outcomes. By repeatedly highlighting the real-world impact they’ve had—like improving user satisfaction scores, reducing operational costs, or enabling a new product launch—you reinforce the purpose behind their day-to-day tasks.
 
+2025-01-13 [Tech Burnout - YouTube](https://www.youtube.com/watch?v=dEnH69thZm0) { www.youtube.com }
+
+> > "Kronos, a large human resource software company, came out with a report called the employee burnout crisis. They surveyed 614 HR leaders and 95% of them report that employee burnout is one of the leading causes why people are quitting their jobs."
+>
+> The speaker describes their personal experience with burnout in 2018, citing **overcommitment** as the main factor. They juggled computer science tutoring, physics coursework, robotics research, two jobs, and resume-building efforts. Initially manageable with time management, the workload gradually eroded their free time, social life, and sleep. This illustrates how unchecked ambitions and overcommitment lead to physical and mental exhaustion.
+>
+> > "I took on too much responsibility at once... Physics is kind of demanding. I'm taking some physics. I am a robotics researcher at another school... trying to build up my resume with internships and stuff."
+>
+> A key insight is the **unsustainable push to 100% effort**. The speaker adopts an **80% rule**: working slightly below maximum capacity to prevent draining their energy reserves entirely. By maintaining consistent effort, they avoid complete exhaustion and the long recovery periods it necessitates.
+>
+> > "If you're going 100% each day or pushing yourself past 100%, eventually you're going to empty your tank... With 80%, you're still doing enough to improve, but you won't ever reach that point of burnout."
+>
+> The discussion broadens to the pressures in the **tech industry**, where competition and high expectations drive people to overwork. Many compare themselves to peers achieving exceptional success, leading to **overcommitment**. **Burnout often arises from taking on too many responsibilities without recognizing personal limits.**
+>
+> Mental health is another focus. The speaker acknowledges burnout's impact on those with **pre-existing mental health issues** and shares an anecdote of someone experiencing **secondary psychosis** from extreme overwork. This underscores the critical need for self-awareness and balance.
+>
+> **Key strategies to combat burnout include**:
+>
+> 1. Following the 80% rule for sustainable productivity.
+> 2. Reflecting on personal goals and values to ensure alignment with one’s activities.
+> 3. Learning to estimate time and energy realistically for tasks, especially in tech-related fields.
+> 4. Avoiding external pressures (e.g., family expectations or societal benchmarks) that lead to unwanted obligations.
+>
+> The speaker concludes by emphasizing the importance of **self-reflection**: regularly assessing whether current endeavors align with personal happiness and long-term fulfillment.
+>
+> > "You underestimate how much goes into achieving these goals... over time, you might be shaping yourself into someone you don't want to be, doing a lot of things that you don't want to be doing."
+
 
 
 ## Inside burnout: Rest and Relaxation
