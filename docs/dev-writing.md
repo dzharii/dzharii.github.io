@@ -464,3 +464,23 @@ Date: 2024-11-10
 > ------
 >
 > [1] For example, my colleague [John Regehr,](http://blog.regehr.org/) suggested simple scripts to catch students' use of superfluous phrases like, "Note that," and "Notice that." Others have suggested scripts for using the future tense in technical writing.
+
+2025-01-18 [The documentation problem in development | Rowsana](https://rowsana.bearblog.dev/the-documentation-problem/) { rowsana.bearblog.dev }
+
+> ![image-20250118155628338](dev-writing.assets/image-20250118155628338.png)
+>
+> Here’s an improved version with more natural flow, clear separation of ideas, and better emphasis:
+>
+> ------
+>
+> Writing great documentation is about clarity and usability. **Good documentation is essential** because it saves time, reduces confusion, and helps teams stay aligned. For users, it simplifies learning and makes tools accessible, preventing frustration and unnecessary support tickets.
+>
+> The most common challenges in documentation stem from three key issues. First, a **lack of a clear learning path**, where users are thrown into advanced topics without building a solid foundation. Second, **assuming prior knowledge**, which skips essential explanations and leaves beginners struggling. Third, **insufficient examples**, where concepts remain abstract because users can’t see how they apply in real-life scenarios.
+>
+> To overcome these issues, focus on **clarity and structure**. Use the MECE principle to organize content: make sections **mutually exclusive** to avoid repetition and **collectively exhaustive** to cover every use case, endpoint, and edge case. Be thorough in your details. Document every endpoint with clear explanations of what it does, its parameters, and its responses. Include **error details**, such as `401 Unauthorized` or `404 Not Found`, with clear causes and fixes. Add **real-life examples** of requests and responses to show how everything works in practice.
+>
+> **Readability and formatting** are crucial. Write in clear, simple language, avoiding unnecessary jargon. Break content into short, focused paragraphs and use whitespace to make it less intimidating. Stick to one consistent font and limit color use to highlight critical information without distractions. Visual aids like tables, flowcharts, and annotated examples can make complex ideas easier to understand. Consistency is key: use the same terminology throughout and stick to an active voice for clarity. If your tool includes technical or domain-specific terms, include a glossary for easy reference.
+>
+> Documentation must evolve alongside the software. Use **version control** to track changes and ensure no detail is overlooked. Regularly review and update the content to keep it accurate. Gather feedback from users and testers to spot unclear areas or mistakes. Keep users informed of changes through **changelogs** and notifications, and provide **transition guides** for major updates or breaking changes to make adaptation seamless.
+>
+> **Good documentation may seem simple, but it takes careful effort to create.** By addressing common issues, starting from the basics, and presenting content clearly and consistently, you’ll build a resource that works for users of all experience levels. This investment builds trust, reduces support needs, and ensures your work can be understood and adopted effectively.
