@@ -1,0 +1,168 @@
+# Seattle Tech Companies and Their Career Pages
+Date: 2025-01-31; Source: GPT4o
+
+# Seattle Tech Companies and Their Career Pages List 1
+
+- 🛒📦💻 **Amazon**: [https://www.amazon.jobs/](https://www.amazon.jobs/)
+- 🖥️💾☁️ **Microsoft**: [https://careers.microsoft.com/](https://careers.microsoft.com/)
+- 🔎📊📡 **Google**: [https://careers.google.com/locations/seattle/](https://careers.google.com/locations/seattle/)
+- 👥🕶️🌐 **Facebook (Meta)**: [https://www.metacareers.com/](https://www.metacareers.com/)
+- 🍏📱💻 **Apple**: [https://jobs.apple.com/](https://jobs.apple.com/)
+- 🖥️🧠📊 **IBM**: [https://www.ibm.com/us-en/employment/](https://www.ibm.com/us-en/employment/)
+- 🏢📊📡 **Oracle**: [https://www.oracle.com/corporate/careers/](https://www.oracle.com/corporate/careers/)
+- ☁️📊🛍️ **Salesforce**: [https://www.salesforce.com/company/careers/](https://www.salesforce.com/company/careers/)
+- 💻🛠️🖥️ **Dell Technologies**: [https://jobs.dell.com/](https://jobs.dell.com/)
+- 💾🏢☁️ **Hewlett Packard Enterprise**: [https://careers.hpe.com/](https://careers.hpe.com/)
+- 🎨🖍️📄 **Adobe**: [https://adobe.wd5.myworkdayjobs.com/en-US/external_experienced](https://adobe.wd5.myworkdayjobs.com/en-US/external_experienced)
+- 📊💼📡 **SAP**: [https://jobs.sap.com/](https://jobs.sap.com/)
+- 🌍📡🔒 **Cisco**: [https://jobs.cisco.com/](https://jobs.cisco.com/)
+- 💾🖥️📡 **Intel**: [https://jobs.intel.com/](https://jobs.intel.com/)
+- 📶📡📱 **T-Mobile**: [https://www.t-mobile.com/careers](https://www.t-mobile.com/careers)
+- 🏢💼📊 **Accenture**: [https://www.accenture.com/us-en/careers](https://www.accenture.com/us-en/careers)
+- 📈💼📊 **PwC**: [https://www.pwc.com/us/en/careers.html](https://www.pwc.com/us/en/careers.html)
+- 🏢📊📈 **EY**: [https://www.ey.com/en_us/careers](https://www.ey.com/en_us/careers)
+- 📊💼🏢 **Deloitte**: [https://jobs.deloitte.com/](https://jobs.deloitte.com/)
+- 🏢📊📈 **KPMG**: [https://home.kpmg/xx/en/home/careers.html](https://home.kpmg/xx/en/home/careers.html)
+- ☁️🔧💼 **ServiceNow**: [https://www.servicenow.com/careers.html](https://www.servicenow.com/careers.html)
+- 💻☁️📡 **VMware**: [https://careers.vmware.com/](https://careers.vmware.com/)
+- ✈️🏨🛫 **Expedia Group**: [https://lifeatexpediagroup.com/](https://lifeatexpediagroup.com/)
+- 🏠📊📡 **Zillow**: [https://www.zillowgroup.com/careers/](https://www.zillowgroup.com/careers/)
+- 🏡🔎📊 **Redfin**: [https://www.redfin.com/about/jobs](https://www.redfin.com/about/jobs)
+- 📊💻🔍 **Tableau Software**: [https://careers.tableau.com/](https://careers.tableau.com/)
+- 🖊️📃🔏 **DocuSign**: [https://www.docusign.com/company/careers](https://www.docusign.com/company/careers)
+- 🚀🔧🌌 **Blue Origin**: [https://www.blueorigin.com/careers](https://www.blueorigin.com/careers)
+- 🚀🛰️📡 **SpaceX**: [https://www.spacex.com/careers/](https://www.spacex.com/careers/)
+- 🎮👾🎲 **Nintendo of America**: [https://careers.nintendo.com/](https://careers.nintendo.com/)
+- 🔬⚙️💻 **Twilio**: [https://www.twilio.com/company/jobs](https://www.twilio.com/company/jobs)
+- 📡📊🔧 **Palantir**: [https://www.palantir.com/careers/](https://www.palantir.com/careers/)
+- 🤖📡💻 **Databricks**: [https://www.databricks.com/company/careers](https://www.databricks.com/company/careers)
+- 💾💼📊 **Snowflake**: [https://www.snowflake.com/careers/](https://www.snowflake.com/careers/)
+- 🏥📊💉 **Seattle Children's Hospital (Tech & Data roles)**: [https://www.seattlechildrens.org/careers/](https://www.seattlechildrens.org/careers/)
+- 🏛️📊💻 **Washington State Government Tech Jobs**: [https://www.careers.wa.gov/](https://www.careers.wa.gov/)
+- 🎬📡💾 **Unity Technologies**: [https://careers.unity.com/](https://careers.unity.com/)
+- 🏢💾☁️ **Fastly**: [https://www.fastly.com/about/careers](https://www.fastly.com/about/careers)
+
+## Legend:
+- 🛒📦💻 - E-commerce & Retail
+- 🖥️💾☁️ - Software & Cloud
+- 🔎📊📡 - Search & AI
+- 👥🕶️🌐 - Social Media & VR
+- 🎨🖍️📄 - Creative Software
+- 🚀🔧🌌 - Aerospace
+- 🎮👾🎲 - Gaming
+- 🏠📊📡 - Real Estate & Housing
+- 📶📡📱 - Telecommunications
+- 📊💼📡 - Business Solutions
+- 🔬⚙️💻 - Cloud Communications
+- 📡📊🔧 - Data & Security
+- 🤖📡💻 - AI & Machine Learning
+- 💾💼📊 - Data Warehousing
+- 🏥📊💉 - Healthcare & Medical Tech
+- 🏛️📊💻 - Government & Public Sector Tech
+- 🎬📡💾 - Game & Media Tech
+
+# Seattle Tech Companies and Their Career Pages List 2
+
+
+- **Amazon**: [https://www.amazon.jobs/](https://www.amazon.jobs/)
+- **Microsoft**: [https://careers.microsoft.com/](https://careers.microsoft.com/)
+- **Google**: [https://careers.google.com/locations/seattle/](https://careers.google.com/locations/seattle/)
+- **Facebook (Meta)**: [https://www.metacareers.com/](https://www.metacareers.com/)
+- **Apple**: [https://jobs.apple.com/](https://jobs.apple.com/)
+- **Salesforce**: [https://www.salesforce.com/company/careers/](https://www.salesforce.com/company/careers/)
+- **Oracle**: [https://www.oracle.com/corporate/careers/](https://www.oracle.com/corporate/careers/)
+- **Adobe**: [https://adobe.wd5.myworkdayjobs.com/en-US/external_experienced](https://adobe.wd5.myworkdayjobs.com/en-US/external_experienced)
+- **Zillow**: [https://www.zillowgroup.com/careers/](https://www.zillowgroup.com/careers/)
+- **Redfin**: [https://www.redfin.com/about/jobs](https://www.redfin.com/about/jobs)
+- **Expedia Group**: [https://lifeatexpediagroup.com/](https://lifeatexpediagroup.com/)
+- **Tableau Software**: [https://careers.tableau.com/](https://careers.tableau.com/)
+- **F5 Networks**: [https://jobs.f5.com/](https://jobs.f5.com/)
+- **Smartsheet**: [https://www.smartsheet.com/careers](https://www.smartsheet.com/careers)
+- **DocuSign**: [https://www.docusign.com/company/careers](https://www.docusign.com/company/careers)
+- **T-Mobile**: [https://www.t-mobile.com/careers](https://www.t-mobile.com/careers)
+- **Nintendo of America**: [https://careers.nintendo.com/](https://careers.nintendo.com/)
+- **Valve Corporation**: [https://www.valvesoftware.com/en/jobs](https://www.valvesoftware.com/en/jobs)
+- **Bungie**: [https://www.bungie.net/en/Explore/Detail/News/48826](https://www.bungie.net/en/Explore/Detail/News/48826)
+- **Big Fish Games**: [https://www.bigfishgames.com/company/jobs.html](https://www.bigfishgames.com/company/jobs.html)
+- **OfferUp**: [https://about.offerup.com/careers/](https://about.offerup.com/careers/)
+- **Convoy**: [https://convoy.com/careers/](https://convoy.com/careers/)
+- **Remitly**: [https://www.remitly.com/us/en/careers](https://www.remitly.com/us/en/careers)
+- **Outreach**: [https://www.outreach.io/company/careers](https://www.outreach.io/company/careers)
+- **Auth0**: [https://auth0.com/careers](https://auth0.com/careers)
+- **Blue Origin**: [https://www.blueorigin.com/careers](https://www.blueorigin.com/careers)
+- **SpaceX**: [https://www.spacex.com/careers/](https://www.spacex.com/careers/)
+- **Uber**: [https://www.uber.com/us/en/careers/](https://www.uber.com/us/en/careers/)
+- **Lyft**: [https://www.lyft.com/careers](https://www.lyft.com/careers)
+- **Snap Inc.**: [https://www.snap.com/en-US/jobs](https://www.snap.com/en-US/jobs)
+- **Twitter**: [https://careers.twitter.com/](https://careers.twitter.com/)
+- **Slack**: [https://slack.com/careers](https://slack.com/careers)
+- **Stripe**: [https://stripe.com/jobs](https://stripe.com/jobs)
+- **Square**: [https://squareup.com/us/en/careers](https://squareup.com/us/en/careers)
+- **Coinbase**: [https://www.coinbase.com/careers](https://www.coinbase.com/careers)
+- **Robinhood**: [https://careers.robinhood.com/](https://careers.robinhood.com/)
+- **Snowflake**: [https://www.snowflake.com/careers/](https://www.snowflake.com/careers/)
+- **Splunk**: [https://www.splunk.com/en_us/careers.html](https://www.splunk.com/en_us/careers.html)
+- **ServiceNow**: [https://www.servicenow.com/careers.html](https://www.servicenow.com/careers.html)
+- **Workday**: [https://www.workday.com/en-us/company/careers.html](https://www.workday.com/en-us/company/careers.html)
+- **SAP**: [https://jobs.sap.com/](https://jobs.sap.com/)
+- **VMware**: [https://careers.vmware.com/](https://careers.vmware.com/)
+- **Cisco**: [https://jobs.cisco.com/](https://jobs.cisco.com/)
+- **Intel**: [https://jobs.intel.com/](https://jobs.intel.com/)
+- **HP**: [https://jobs.hp.com/](https://jobs.hp.com/)
+- **Dell Technologies**: [https://jobs.dell.com/](https://jobs.dell.com/)
+- **IBM**: [https://www.ibm.com/us-en/employment/](https://www.ibm.com/us-en/employment/)
+- **Hewlett Packard Enterprise**: [https://careers.hpe.com/](https://careers.hpe.com/)
+- **Accenture**: [https://www.accenture.com/us-en/careers](https://www.accenture.com/us-en/careers)
+- **Deloitte**: [https://jobs.deloitte.com/](https://jobs.deloitte.com/)
+- **PwC**: [https://www.pwc.com/us/en/careers.html](https://www.pwc.com/us/en/careers.html)
+- **EY**: [https://www.ey.com/en_us/careers](https://www.ey.com/en_us/careers)
+- **KPMG**: [https://home.kpmg/xx/en/home/careers.html](https://home.kpmg/xx/en/home/careers.html)
+- **Atlassian**: [https://www.atlassian.com/company/careers](https://www.atlassian.com/company/careers)
+- **Carbon Robotics**: [https://carbonrobotics.com/careers/](https://carbonrobotics.com/careers/)
+- **Liberty Mutual Insurance**: [https://jobs.libertymutualgroup.com/](https://jobs.libertymutualgroup.com/)
+- **Esper**: [https://esper.io/careers](https://esper.io/careers)
+- **Highspot**: [https://www.highspot.com/careers/](https://www.highspot.com/careers/)
+- **Assurance**: [https://www.assurance.com/careers](https://www.assurance.com/careers)
+- **98point6**: [https://www.98point6.com/careers/](https://www.98point6.com/careers/)
+- **Logic20/20**: [https://www.logic2020.com/careers](https://www.logic2020.com/careers)
+- **First Mode**: [https://www.firstmode.com/careers/](https://www.firstmode.com/careers/)
+- **Knock**: [https://www.knock.com/careers](https://www.knock.com/careers)
+- **Ookla**: [https://www.ookla.com/careers](https://www.ookla.com/careers)
+- **Lowe's**: [https://talent.lowes.com/us/en](https://talent.lowes.com/us/en)
+- **Finch**: [https://www.tryfinch.com/careers](https://www.tryfinch.com/careers)
+- **Remitly**: [https://www.remitly.com/us/en/careers](https://www.remitly.com/us/en/careers)
+- **Outreach**: [https://www.outreach.io/company/careers](https://www.outreach.io/company/careers)
+- **Auth0**: [https://auth0.com/careers](https://auth0.com/careers)
+- **Blue Origin**: [https://www.blueorigin.com/careers](https://www.blueorigin.com/careers)
+- **SpaceX**: [https://www.spacex.com/careers/](https://www.spacex.com/careers/)
+- **Uber**: [https://www.uber.com/us/en/careers/](https://www.uber.com/us/en/careers/)
+- **Lyft**: [https://www.lyft.com/careers](https://www.lyft.com/careers)
+- **Snap Inc.**: [https://www.snap.com/en-US/jobs](https://www.snap.com/en-US/jobs)
+- **Twitter**: [https://careers.twitter.com/](https://careers.twitter.com/)
+- **Slack**: [https://slack.com/careers](https://slack.com/careers)
+- **Stripe**: [https://stripe.com/jobs](https://stripe.com/jobs)
+- **Square**: [https://squareup.com/us/en/careers](https://squareup.com/us/en/careers)
+- **Coinbase**: [https://www.coinbase.com/careers](https://www.coinbase.com/careers)
+- **Robinhood**: [https://careers.robinhood.com/](https://careers.robinhood.com/)
+- **Snowflake**: [https://www.snowflake.com/careers/](https://www.snowflake.com/careers/)
+- **Splunk**: [https://www.splunk.com/en_us/careers.html](https://www.splunk.com/en_us/careers.html)
+- **ServiceNow**: [https://www.servicenow.com/careers.html](https://www.servicenow.com/careers.html)
+- **Workday**: [https://www.workday.com/en-us/company/careers.html](https://www.workday.com/en-us/company/careers.html)
+- **SAP**: [https://jobs.sap.com/](https://jobs.sap.com/)
+- **VMware**: [https://careers.vmware.com/](https://careers.vmware.com/)
+- **Cisco**: [https://jobs.cisco.com/](https://jobs.cisco.com/)
+- **Intel**: [https://jobs.intel.com/](https://jobs.intel.com/)
+- **HP**: [https://jobs.hp.com/](https://jobs.hp.com/)
+- **Dell Technologies**: [https://jobs.dell.com/](https://jobs.dell.com/)
+- **IBM**: [https://www.ibm.com/us-en/employment/](https://www.ibm.com/us-en/employment/)
+- **Hewlett Packard Enterprise**: [https://careers.hpe.com/](https://careers.hpe.com/)
+- **Accenture**: [https://www.accenture.com/us-en/careers](https://www.accenture.com/us-en/careers)
+- **Deloitte**: [https://jobs.deloitte.com/](https://jobs.deloitte.com/)
+- **PwC**: [https://www.pwc.com/us/en/careers.html](https://www.pwc.com/us/en/careers.html)
+- **EY**: [https://www.ey.com/en_us/careers](https://www.ey.com/en_us/careers)
+- **KPMG**: [https://home.kpmg/xx/en/home/careers.html](https://home.kpmg/xx/en/home/careers.html)
+
+
+
+
+
