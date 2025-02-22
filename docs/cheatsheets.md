@@ -150,3 +150,11 @@ git log -L:add:src/calculator.ts
 2023-06-19 [CheatSheetSeries/cheatsheets_draft/OAuth_Cheat_Sheet.md at master · OWASP/CheatSheetSeries · GitHub](https://github.com/OWASP/CheatSheetSeries/blob/master/cheatsheets_draft/OAuth_Cheat_Sheet.md)
 
 > ![image-20231215135351373](./cheatsheets.assets/image-20231215135351373.png)
+
+
+
+## Media processing 
+
+2025-01-16 [FFmpeg By Example](https://ffmpegbyexample.com/) { ffmpegbyexample.com }
+
+> ![image-20250222004928370](cheatsheets.assets/image-20250222004928370.png)

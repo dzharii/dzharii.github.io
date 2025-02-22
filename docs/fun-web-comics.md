@@ -1,6 +1,10 @@
 # fun-web-comics
 Date: 2023-10-03
 
+2025-02-18 [dinosaur couch (@dinosaurcouch) • Instagram photos and videos](https://www.instagram.com/dinosaurcouch/) { www.instagram.com }
+
+> ![image-20250217180811909](fun-web-comics.assets/image-20250217180811909.png)
+
 
 
 2023-09-14 [Work Chronicles - Webcomics](https://workchronicles.com/)
