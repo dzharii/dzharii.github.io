@@ -498,10 +498,39 @@ javascript:(async () => {
 </details>
 
 
+## Open ChatGPT Summary Prompt
 
+Name:
+
+`🔎 Open ChatGPT with Summary Prompt`
+
+Revision:
+
+2025-03-23
+
+<details>
+
+<summary> Code: </summary>
+
+```
+javascript:(function() {
+  var currentUrl = window.location.href;
+  var prompt = [
+    "Begin your response with 'Tags:' followed by up to 10 meaningful tags that capture the main ideas of the article. ",
+    "Then, in 30 words or fewer, provide the article's main idea (without labeling it). ",
+    "After that, present key sub-ideas or secondary points that should not be missed, but do not include a heading for that section. ",
+    "Finally, conclude with a brief note (1-2 sentences) on why this article is interesting or important, also without a heading. ",
+    "Search the web / use webtool to find the content by url: \"" + currentUrl + "\""
+  ].join('');
+  var newUrl = "https://chatgpt.com/?q=" + encodeURIComponent(prompt);
+  window.open(newUrl, "_blank");
+})();
+```
+
+</details>
+
+ 
 ## Leetcode copy submission
-
-
 
 Name:
 
