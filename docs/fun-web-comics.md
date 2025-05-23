@@ -1,11 +1,15 @@
 # fun-web-comics
 Date: 2023-10-03
 
+2025-05-03 [Home - Marketoonist | Tom Fishburne](https://marketoonist.com/) { marketoonist.com }
+
+![img](fun-web-comics.assets/230605.n.aipowered.jpg)
+
+![Humanize the Brand cartoon](fun-web-comics.assets/250421.n.humanize.jpg)
+
 2025-02-18 [dinosaur couch (@dinosaurcouch) • Instagram photos and videos](https://www.instagram.com/dinosaurcouch/) { www.instagram.com }
 
 > ![image-20250217180811909](fun-web-comics.assets/image-20250217180811909.png)
-
-
 
 2023-09-14 [Work Chronicles - Webcomics](https://workchronicles.com/)
 
@@ -13,13 +17,9 @@ Date: 2023-10-03
 
 > View All [Comics Archives - Work Chronicles](https://workchronicles.com/comics/)
 
-
-
 2023-04-07 [Comics  Dani Donovan: ADHD Comics](https://www.adhddd.com/comics/)
 
 > ![image-20230413180953539](./fun-web-comics.assets/image-20230413180953539.png)
-
-
 
 2022-04-11 [SecurityZines](https://securityzines.com/#comics)
 
