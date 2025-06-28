@@ -1,0 +1,76 @@
+Relative paths to the repository root: 
+blog/<file.md>
+
+
+## Files to proccess
+- [x] 2021-07-25-lets-rock.md
+- [x] 2021-08-03-links-from-my-inbox-august-2021.md
+- [x] 2021-08-03-seattle.md
+- [x] 2021-09-26-clean-my-inbox-september-2021.md
+- [x] 2021-09-26-good-reads-2021.md
+- [x] 2021-10-03-links-from-my-inbox-october-2021.md
+- [x] 2021-10-09-productivity-products.md
+- [x] 2021-10-09-projects-and-tools.md
+- [x] 2021-10-13-favorite-vs-code-extensions.md
+- [x] 2021-11-14-links-from-my-inbox-november-2021.md
+- [x] 2021-12-26-links-from-my-inbox-december-2021.md
+- [x] 2022-03-04-links-from-my-inbox-march.md
+- [x] 2022-03-19-links-from-my-inbox-march2.md
+- [x] 2022-04-19-links-from-my-inbox-april-2022.md
+- [x] 2022-05-21-links-from-my-inbox-may-2022.md
+- [x] 2022-05-22-links-from-my-inbox-may-2022-part2.md
+- [x] 2022-06-18-links-from-my-inbox-june-2022.md
+- [x] 2022-07-22-links-from-my-inbox-july-2022.md
+- [x] 2022-08-06-links-from-my-inbox-august-2022.md
+- [x] 2022-09-18-links-from-my-inbox-september-2022.md
+- [x] 2022-10-07-links-from-my-inbox-october-2022.md
+- [x] 2022-11-07-links-from-my-inbox-november-2022.md
+- [x] 2022-11-13-links-from-my-inbox.md
+- [x] 2022-11-20-links-from-my-inbox.md
+- [x] 2022-11-27-links-from-my-inbox.md
+- [x] 2022-12-03-links-from-my-inbox.md
+- [x] 2022-12-14-links-from-my-inbox.md
+- [x] 2022-12-28-links-from-my-inbox.md
+- [x] 2023-02-02-links-from-my-inbox.md
+- [x] 2023-02-12-links-from-my-inbox.md
+- [x] 2023-02-22-links-from-my-inbox.md
+- [x] 2023-03-11-links-from-my-inbox.md
+- [x] 2023-03-25-links-from-my-inbox.md
+- [x] 2023-04-13-links-from-my-inbox.md
+- [x] 2023-05-19-links-from-my-inbox.md
+- [x] 2023-05-21-links-from-my-inbox.md
+- [x] 2023-05-28-links-from-my-inbox.md
+- [x] 2023-06-08-links-from-my-inbox.md
+- [x] 2023-06-28-links-from-my-inbox.md
+- [x] 2023-08-01-links-from-my-inbox.md
+- [x] 2023-08-04-links-from-my-inbox.md
+- [x] 2023-08-05-links-from-my-inbox.md
+- [x] 2023-08-13-links-from-my-inbox.md
+- [x] 2023-09-24-links-from-my-inbox.md
+- [x] 2023-10-03-links-from-my-inbox.md
+- [x] 2023-11-02-links-from-my-inbox.md
+- [x] 2023-11-03-links-from-my-inbox.md
+- [x] 2023-12-15-links-from-my-inbox.md
+- [x] 2023-12-25-links-from-my-inbox.md
+- [x] 2024-01-25-links-from-my-inbox.md
+- [x] 2024-02-08-links-from-my-inbox.md
+- [x] 2024-02-24-links-from-my-inbox.md
+- [x] 2024-03-25-links-from-my-inbox.md
+- [x] 2024-06-09-links-from-my-inbox.md
+- [x] 2024-08-06-links-from-my-inbox.md
+- [x] 2024-08-25-links-from-my-inbox.md
+- [x] 2024-08-30-links-from-my-inbox.md
+- [x] 2024-09-01-links-from-my-inbox.md
+- [x] 2024-09-15-links-from-my-inbox.md
+- [x] 2024-10-13-links-from-my-inbox.md
+- [x] 2024-11-16-links-from-my-inbox.md
+- [x] 2024-11-24-links-from-my-inbox.md
+- [x] 2024-12-01-links-from-my-inbox.md
+- [x] 2024-12-15-links-from-my-inbox.md
+- [x] 2024-12-29-links-from-my-inbox.md
+- [x] 2025-01-20-links-from-my-inbox.md
+- [x] 2025-02-22-links-from-my-inbox.md
+- [x] 2025-03-09-links-from-my-inbox.md
+- [x] 2025-04-06-links-from-my-inbox.md
+- [x] 2025-05-28-links-from-my-inbox.md
+- [ ] 2025-06-09-links-from-my-inbox.md
