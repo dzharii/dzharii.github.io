@@ -1,5 +1,5 @@
 Relative paths to the repository root: 
-blog/<file.md>
+blog/file.md
 
 
 ## Files to proccess

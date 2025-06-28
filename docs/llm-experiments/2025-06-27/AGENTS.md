@@ -4,7 +4,7 @@
 This agent parses TODO.md for unprocessed items, reads each referenced file, extracts software-related links, gathers metadata via web search, and updates software.md with categorized entries.
 
 ## Responsibilities
-- Parse TODO.md and identify “- [ ] <filename>” lines
+- Parse TODO.md and identify “- [ ]  filename” lines
 - Load each referenced markdown file
 - Extract all URLs from file content
 - Filter URLs by software criteria
