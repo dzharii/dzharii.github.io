@@ -558,7 +558,7 @@ type customTypeUsedAsReturnType = {
 <details>
   <summary>
     <span><b>Compile-time imports</b></span>
-    <p><i>Import and export() enable reuse of user-defined types variables, functions.<br>Supported in Bicep and Bicepparam files.</i></p>
+    <p><i>Import and export() enable reuse of user-defined types variables, functions.<br/>Supported in Bicep and Bicepparam files.</i></p>
   </summary>
 
 [GitHub Copilot - learn more about compile-time imports](https://github.com/copilot?prompt=Show%20me%20how%20to%20use%20export%20and%20import%20in%20Azure%20Bicep%20to%20reuse%20a%20storage%20account%20resource%20across%20multiple%20Bicep%20files.)
@@ -847,7 +847,6 @@ module modStorageModule2 'storage.bicep' = {
 When you're writing Bicep, you can reference Azure Verified Modules (AVM) directly in your Bicep files. To get access to the IntelliSense prompt, you need the Azure Bicep VSCode extension installed. Additionally, to restore the Bicep modules successfully, make sure you have access to the Microsoft Container Registry at mcr.microsoft.com.
 
 As an example, here is how to reference to an Azure Key Vault from the Microsoft Container Registry:
-![AVM](images/AVM-KV.gif)
 
 More information on Azure Verified Modules can be found [here](https://aka.ms/avm).
 

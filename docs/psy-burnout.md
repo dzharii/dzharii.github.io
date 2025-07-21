@@ -32,6 +32,80 @@ While I hope the information here provides some helpful perspectives, please don
 >
 > By the end of the course, you'll be equipped with research-backed techniques to foster a more fulfilling life.
 
+## Tech worker burnout: What it is, and how to deal with it
+
+2025-07-21 [Tech worker burnout: What it is, and how to deal with it](https://www.pluralsight.com/resources/blog/cloud/tech-it-worker-burnout) {www.pluralsight.com}
+
+> ![image-20250720235539073](psy-burnout.assets/image-20250720235539073.png)
+
+## How can I fight tech burnout?
+
+You’re feeling burned out, and you want to do something about it. Here’s a list of things you can try to get back to a healthy place with your work and safeguard your mental health.
+
+**1. Set boundaries between home and work**
+
+Remember how I mentioned tech professionals reported feeling more burned out after the pandemic started, even when they got to work from home? It’s because the line between home and work blurred, so there was no escape - they were “living at work.”
+
+Here are some things you can do to establish that physical boundary:
+
+- Remove your work email and messaging platforms from your phone, or turn off notifications for non-work hours
+- Set out-of-office emails when you’re off for the day, weekend, or vacation
+- Set periods in your calendar to automatically reject meetings in your downtime
+- If you work hybrid or remotely, set up a separate room for your office, and don’t go in there for recreational activities
+
+**2. Automate what you can**
+
+According to [Adam Bertram](https://app.pluralsight.com/profile/author/adam-bertram), one of the tools tech pros can use is to [automate everything where you can](https://www.pluralsight.com/blog/career/3-ways-it-pros-can-prevent-job-burnout-) to lessen the load.
+
+“Automation is the next best thing to actually getting more warm bodies in the department to help out,” he said.
+
+“Take a moment to breathe, dial it back a little and realize that in order to save time you must first find the time to automate.”
+
+**3. Reach out to others**
+
+When you feel like you exist to work, then it’s hard to value yourself outside of that. Spending time with your family members and friends, or simply being out in the world, can make you start to value the “real you” instead of just thinking about the “work you.”
+
+If you’re feeling burned out, reaching out to a health-care professional (like your doctor, a counselor, or psychologist) is important. Because burnout is so common, know that you’re not alone, and there are a lot of tried and true methods that can be used to help. 
+
+Asking your colleagues for help - or simply talking to them about your problems - is a good move. Not only is this good for you, it encourages them to do the same when they are struggling. If your workplace offers an Employee Assistance Program, this is also worth taking advantage of.
+
+**4. Talk to your boss** (Caution: some bosses are unable to understand the issue or make the right decisions)
+
+Sometimes, your supervisor doesn’t know you’re struggling. Telling them you’re not okay isn’t a sign of weakness, but a sign of professional strength and maturity. Remember, your boss wants to succeed at their job too, which is making sure they support their team.
+
+It's not uncommon for employees to feel like they're jeopardizing their job by telling their boss they're not coping. If you feel this way, just remember it’s a lot more trouble for them if you burn out and quit. Then they’ve got to put out a job ad, interview people, spend months training them up - and that’s assuming they even find a replacement. All of that takes time and money.
+
+In the grand scheme of things, making a few concessions to make sure you don’t burn out is in both your interests. 
+
+Some of the things you can discuss:
+
+- Moving some tasks to other team mates, or outsourcing the work
+- Changing the deadline on tasks that are making you feel overwhelmed
+- Reinforcing boundaries so people come to you less often, particularly in off hours
+- Changing your role responsibilities to resolve what isn’t working for you
+- Taking paid time off to rest and recharge
+- Using flexible working hours to work when you feel most productive or functional
+- Giving you more autonomy, recognition, and meaningful work
+- Asking for clearer job expectations
+
+**5. Find a company that values you**
+
+Sometimes, it’s not you, it’s them. One of the biggest parts of burnout in technology is feeling like you don’t matter and you’re being treated unfairly - the work environment is toxic.
+
+If you’ve brought up the issues and nothing is going to change, it’s time to investigate your other options. However, when you’re escaping a terrible job, it can be tempting to take the first offer you get.
+
+This can be a mistake - you might wind up in the exact same situation all over again! Instead, when you’re being interviewed for a new job, make sure you’re interviewing *them* as well. Be confident, and know what your happiness is worth.
+
+Here’s some things you should try to find out about your new workplace:
+
+- What is the company culture like? Are there company events or happy hours?
+- What is their attitude towards overtime and flexible hours? What are your hours? Does it include weekends and holidays?
+- How much holiday leave is there? 
+- Will they want you to always be on call? Are there crunch times?
+- How many duties are you expected to perform? If there’s “additional duties as needed” on your PD, what does that include?
+- Do you believe in their mission and product? Do they donate to charity or support causes?
+- How do they recognize their employees, if at all?
+
 
 
 ## About: burnout (burnout stories)
@@ -272,7 +346,9 @@ Pursue enjoyable activities that provide fulfillment and a sense of accomplishme
 >
 > When asked how much time they spend on learning weekly, 41% of developers said it’s 3 to 8 hours, and 30% of them said it’s one to two hours.
 
+[The State of Burnout in Tech - 2022 Edition.pdf](https://f.hubspotusercontent30.net/hubfs/7677235/The%20State%20of%20Burnout%20in%20Tech%20-%202022%20Edition.pdf)
 
+> ![image-20250721000548103](psy-burnout.assets/image-20250721000548103.png)
 
 ## Awesome Link collections
 
