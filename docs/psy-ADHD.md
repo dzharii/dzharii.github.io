@@ -11,6 +11,12 @@ Reading, using, or relying on the information on this page is done at your own r
 
 It is your responsibility to evaluate the accuracy, completeness, or usefulness of any information or any content available on this page. Please consult with a qualified healthcare professional for any medical or health-related advice.
 
+2025-07-21 [Leading successful remote teams - Callum Whyte - NDC Oslo 2025 - YouTube](https://www.youtube.com/watch?v=h_WYuphwQ0U) { www.youtube.com }
+
+> ![image-20250721001547985](psy-ADHD.assets/image-20250721001547985.png)
+
+![67ac01a7-6e4c-4b6e-84c5-9d0c6d5cc8ef](psy-ADHD.assets/67ac01a7-6e4c-4b6e-84c5-9d0c6d5cc8ef.png)
+
 ## Blogs and Articles
 
 2023-04-07 [mrseth01/awesome-adhd: Awesome Resources for ADHD](https://github.com/mrseth01/awesome-adhd)
