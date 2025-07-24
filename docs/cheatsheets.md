@@ -3,6 +3,99 @@ Date: 2023-08-05
 
 [[_TOC_]]
 
+
+
+## ✅ Essential Cheat Sheet Hubs
+
+### [DevHints](https://devhints.io/)
+
+> ![image-20250724162051900](cheatsheets.assets/image-20250724162051900.png)
+>
+> A beautifully designed, fast-loading cheat sheet directory for developers. Covers dozens of languages, tools, and frameworks — including Bash, Git, JavaScript, Docker, SQL, and many more. Lightweight and searchable.
+
+### [Hyperpolyglot](http://hyperpolyglot.org/)
+
+> ![image-20250724162109301](cheatsheets.assets/image-20250724162109301.png)
+> Comparative cheat sheets for programmers fluent in multiple languages. Shows idiomatic constructs side-by-side in languages like C, Python, Ruby, JavaScript, Haskell, and more. Great for cross-language reference and migration.
+
+### [Programming-Idioms](https://programming-idioms.org/)
+
+> ![image-20250724162128299](cheatsheets.assets/image-20250724162128299.png)
+>
+> A crowd-sourced collection of common programming tasks implemented in multiple languages. Useful for learning how idioms translate between languages or reviewing best practices.
+
+
+
+## 🔁 Multi-Language, Multi-Tool Repositories
+
+### [QuickRef.ME](https://quickref.me/)
+
+> ![image-20250724162148740](cheatsheets.assets/image-20250724162148740.png)
+>
+> Open-source, text-heavy cheat sheets for nearly everything: languages, libraries, CLI tools, databases, cloud, and more. Simple markdown-style layout, 100% fast and no fluff.
+
+### [OverAPI](http://overapi.com/)
+
+> ![image-20250724162213367](cheatsheets.assets/image-20250724162213367.png)
+>
+> A long-standing cheat sheet portal covering dozens of languages, APIs, and developer tools. Despite its old-school layout, it’s packed with useful links and code snippets.
+
+### [Cheatography](https://cheatography.com/)
+
+> ![image-20250724162238819](cheatsheets.assets/image-20250724162238819.png)
+>
+> Thousands of cheat sheets across programming, software, sysadmin, and non-dev subjects. Available as interactive web pages or downloadable PDFs. Massive, categorized index.
+
+### [Awesome Cheat Sheets](https://lecoupa.github.io/awesome-cheatsheets/)
+
+> ![image-20250724162302835](cheatsheets.assets/image-20250724162302835.png)
+>
+> ![image-20250724162405495](cheatsheets.assets/image-20250724162405495.png)
+>
+> A developer-curated set of all-in-one cheat sheets for major languages and frameworks (JavaScript, Python, Go, React, Node.js, etc.). Meant to give you a complete recall snapshot in one glance.
+
+
+
+
+
+## 🌍 Interactive & Terminal-Friendly Resources
+
+### [cheat.sh](https://cheat.sh/)
+
+> ![image-20250724162504574](cheatsheets.assets/image-20250724162504574.png)
+>
+> The fastest, terminal-friendly cheat sheet lookup tool for over 50 languages and hundreds of tools. Instant results from curated community resources like Stack Overflow and TLDR. Use via web or curl.
+
+### [Codecademy Cheat Sheets](https://www.codecademy.com/resources/cheatsheets)
+
+> ![image-20250724162543458](cheatsheets.assets/image-20250724162543458.png)
+>
+> Well-designed and beginner-friendly online references for most languages taught on Codecademy — Python, Java, C++, Ruby, SQL, data science, and more. Easy to digest and printer-ready.
+
+------
+
+
+
+## 📚 Community-Driven Aggregators
+
+### [GitHub “cheatsheet-collection”](https://github.com/exajobs/cheatsheet-collection)
+
+> ![image-20250724162606713](cheatsheets.assets/image-20250724162606713.png)
+>
+> A GitHub repo listing some of the most practical and up-to-date cheat sheets for everything from machine learning to shell scripting, React, regex, APIs, and cloud platforms.
+
+### [Rosetta Code](http://rosettacode.org/)
+
+> ![image-20250724162819883](cheatsheets.assets/image-20250724162819883.png)
+>
+> A language-agnostic reference for over 1,000 tasks implemented in hundreds of languages. Ideal for language learners or comparing implementation styles.
+
+------
+
+**Pro tip**: Combine [cheat.sh](https://cheat.sh/) with terminal aliasing for ultra-fast access, or keep [QuickRef.ME](https://quickref.me/) open in a pinned browser tab for day-to-day reference.
+
+
+
 ## FFmpeg
 
 - 2023-08-05 [ffmprovisr](https://amiaopensource.github.io/ffmprovisr/#basic-structure) ffmpeg cookbook
