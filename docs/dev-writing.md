@@ -60,6 +60,21 @@ Date: 2024-11-10
 > - **Advice**: Writing should serve a clear function beyond just following formal rules. Effective writing achieves its purpose by clearly communicating the problem and its significance to readers.
 > - **Application**: Instead of focusing solely on rules or formalities, think about what your writing needs to accomplish for your audience. Make sure that every section and statement reinforces your overall argument and purpose.
 
+2025-08-03 [Writing a good design document](https://grantslatton.com/how-to-design-document) { grantslatton.com }
+
+> ![image-20250803162218521](dev-writing.assets/image-20250803162218521.png)
+>
+> **Key Takeaways (8 items):**
+>
+> 1. A design document is a technical report that lays out implementation strategy, trade-offs, and constraints; like a mathematical proof, its role is to demonstrate correctness and rigor. 
+> 2. Persuasion is the core goal: anticipate every objection, guide readers step-by-step, and avoid “spaghetti docs” with disordered thoughts. 
+> 3. Organize with one clear idea per short paragraph; imagine the outline as a bullet chain readers can mentally compress to single-sentence summaries.
+> 4. Edit mercilessly; trimming about 30 percent of first drafts preserves reader attention and improves clarity—practice by condensing others’ writing or tweet-sized limits. 
+> 5. Volume matters: Amazon’s six-page memo and silent-reading meeting culture show that hundreds of iterations sharpen writing and thinking skills (see Amazon 6-Pager Guide and recent coverage of the practice). 
+> 6. Use appendices and footnotes to park simulations, formulas, or exhaustive data so the main narrative stays focused; curious readers can dive deeper without losing the flow. 
+> 7. Short paragraphs, concise sentences, and logical flow prevent reader surprise and make even complex solutions feel obvious by the conclusion. 
+> 8. Study before-and-after editing examples to internalize brevity; apply a “red-pen” mindset to your own drafts to strip redundancy and sharpen arguments.
+
 2024-11-11 [technical-writing/resources.md at master · sixhobbits/technical-writing](https://github.com/sixhobbits/technical-writing/blob/master/resources.md) { github.com }
 
 > There are a number of resources relating to technical writing, scattered around the web and in print. This is a (growing) list of technical writing resources. Pull requests to add titles are encouraged. Please add the title and a brief summary following the style below. For articles that are available on the web, provide a link.
