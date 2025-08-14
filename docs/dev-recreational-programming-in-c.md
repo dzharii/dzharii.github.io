@@ -29,6 +29,255 @@ This runs the C code in one step—compile and execute—without manual linking.
 
 ## Programmers! 
 
+**[How I program C - YouTube](https://www.youtube.com/watch?v=443UNeGrFoM) { www.youtube.com } - Eskil Steenberg**
+
+**Advanced C: control over convenience**
+
+A brief, distillation of a video transcript by Eskil Steenberg. The talk is aimed at experienced programmers who have heard that C is hard or dated. The thesis is simple: in the beginning you want results; in the end you want control. C gives you control. Embrace it.
+
+**Core ideas**
+
+- Embrace complexity you will eventually need. Avoid magic you cannot steer.
+- Keep the tech footprint tiny. Target C89 portability. Wrap every dependency.
+- Be explicit. Clarity beats cleverness. Prefer readable code and compiler errors over hidden behavior.
+- Long, sequential code is fine when it improves state clarity. Fewer indirections, fewer surprises.
+- Names should be long and regular: `module_object_action`. Pair opposites: `create` vs `destroy`.
+- Crash loud in debug. Silence hides bugs. Tools + assertions are your friends.
+- Build tools around a simple language. Own your stack. Build a mountain.
+
+**What C can do: focused examples**
+
+**Opaque handles: object-oriented C without the lies**
+
+Public header exposes only a handle and functions. Internals stay private and free to change.
+
+```c
+/* public.h */
+typedef void *io_stream;            /* opaque handle */
+
+io_stream io_stream_create_tcp(const char *host, int port);
+void      io_stream_send_all(io_stream s);
+void      io_stream_destroy(io_stream s);
+
+/* internal.c */
+typedef struct {
+    int sock;
+    /* buffers, counters, whatever */
+} stream_impl;
+
+io_stream io_stream_create_tcp(const char *host, int port) {
+    stream_impl *s = malloc(sizeof *s);
+    /* connect... */
+    return (io_stream)s;
+}
+
+void io_stream_send_all(io_stream h) {
+    stream_impl *s = (stream_impl *)h;
+    /* send pending bytes */
+}
+
+void io_stream_destroy(io_stream h) {
+    stream_impl *s = (stream_impl *)h;
+    /* close sock */
+    free(s);
+}
+```
+
+Why this matters: encapsulation without runtime overhead, ABI stability, freedom to rewrite internals.
+
+**Debug memory like you mean it: wrap allocators with file+line**
+
+Crashes are good. Precision is better. Track where bytes came from and where they were freed.
+
+```c
+/* memdbg.h */
+void *dbg_malloc_impl(size_t n, const char *file, int line);
+void *dbg_realloc_impl(void *p, size_t n, const char *file, int line);
+void  dbg_free_impl(void *p, const char *file, int line);
+void  dbg_report_leaks(void);
+
+#define malloc(n)      dbg_malloc_impl((n), __FILE__, __LINE__)
+#define realloc(p,n)   dbg_realloc_impl((p),(n), __FILE__, __LINE__)
+#define free(p)        dbg_free_impl((p), __FILE__, __LINE__)
+```
+
+Inside `dbg_*` keep a table of allocations, over-allocate with a guard word, and verify guards to catch overruns. At exit, print where leaks came from with exact file:line.
+
+**`sizeof *ptr`: allocations that cannot go stale**
+
+Types change. This does not.
+
+```c
+double *a = NULL;
+a = malloc(10 * sizeof *a);   /* correct even if a later becomes float* */
+```
+
+**Pointer iteration beats index math**
+
+Let the type system stride for you.
+
+```c
+uint8_t *p = buf, *end = buf + n;
+for (; p != end; ++p) *p = 0;      /* avoids repeated index*stride */
+```
+
+**Layout literacy: padding and order**
+
+Order members to minimize padding and keep arrays tight.
+
+```c
+/* bad: wastes space on many ABIs */
+struct Bad { uint8_t a; uint32_t b; uint8_t c; };
+
+/* better: pack smalls together, then bigs */
+struct Good { uint8_t a, c, pad[2]; uint32_t b; };
+```
+
+**One allocation for header + data: flexible arrays**
+
+Keep related data contiguous for cache wins.
+
+```c
+typedef struct {
+    size_t len;
+    int    data[];         /* C99 flexible array */
+} int_vec;
+
+int_vec *v = malloc(sizeof *v + count * sizeof v->data[0]);
+v->len = count;
+```
+
+**Dynamic arrays where `realloc` shines**
+
+Make `realloc` rare, but do not fear it. Contiguity pays for itself.
+
+```c
+typedef struct { size_t len, cap; int *data; } vec;
+
+static void vec_push(vec *v, int x) {
+    if (v->len == v->cap) {
+        v->cap = v->cap ? v->cap * 2 : 16;
+        v->data = realloc(v->data, v->cap * sizeof *v->data);
+    }
+    v->data[v->len++] = x;
+}
+```
+
+**Stride makes APIs universal**
+
+Operate over RGB, RGBA, or structs without copies.
+
+```c
+void brighten_u8(uint8_t *rgb, size_t count, size_t stride, uint8_t add) {
+    for (size_t i = 0; i < count; ++i) {
+        rgb[0] = (uint8_t)(rgb[0] + add);
+        rgb[1] = (uint8_t)(rgb[1] + add);
+        rgb[2] = (uint8_t)(rgb[2] + add);
+        rgb += stride;     /* 3 for RGB, 4 for RGBA, sizeof(struct Pix) for AoS */
+    }
+}
+```
+
+**Header first: simple inheritance**
+
+A shared header lets you pass many concrete types through one API without vtables.
+
+```c
+typedef enum { ET_block, ET_collider, ET_character } entity_kind;
+
+typedef struct {
+    entity_kind kind;
+    float       pos[3];
+    int         id;
+} entity_head;
+
+typedef struct { entity_head h; int material; } block;
+typedef struct { entity_head h; float radius; } collider;
+
+void entity_move(entity_head *e, float dx, float dy, float dz) {
+    e->pos[0] += dx; e->pos[1] += dy; e->pos[2] += dz;
+}
+
+void entity_debug(entity_head *e) {
+    switch (e->kind) {
+    case ET_block:    /* cast safely: header is first */
+        printf("block id=%d\n", ((block *)e)->h.id);
+        break;
+    case ET_collider:
+        printf("collider r=%f\n", ((collider *)e)->radius);
+        break;
+    default: break;
+    }
+}
+```
+
+**Binary packing that debugs itself**
+
+Name your fields in debug builds; scream when order or type is wrong.
+
+```c
+/* pack.h */
+void pack_u32(void *dst, uint32_t v, const char *name, const char *file, int line);
+void unpack_u32(const void *src, uint32_t *v, const char *expect_name, const char *file, int line);
+#define PACK_U32(d,v,name)   pack_u32((d),(v),(name), __FILE__, __LINE__)
+#define UNPACK_U32(s,v,name) unpack_u32((s),(v),(name), __FILE__, __LINE__)
+```
+
+On mismatch, print: file:line expected u32 "health", found f32 "alpha". Bugs die fast.
+
+**UI without ceremony: pointer-as-ID**
+
+A single function can draw and handle input if you key state by a stable pointer.
+
+```c
+typedef struct { int phase; int mouse_x, mouse_y; int mouse_down; } ui_in;
+
+/* The address of label acts as the unique ID for this button instance. */
+bool ui_button(ui_in *in, const char *label, float x, float y) {
+    void *id = (void *)label;   /* any stable pointer works */
+    /* internally: remember last rect for id; on input phase, hit-test; on draw, render */
+    /* return true if clicked and not occluded by later draws */
+    /* ... */
+    return false;
+}
+```
+
+You do not pass handles around. The library uses the pointer to find its own stored state across phases.
+
+**Name like you mean it**
+
+Prefer width over brevity.
+
+- Types: `ImageReader`, `HashMap`.
+- Functions: `image_reader_open`, `image_reader_read`, `image_reader_close`.
+- Pair actions: `create` vs `destroy`, `load` vs `unload`, never `create` vs `remove`.
+
+**Crash early, crash loud**
+
+If it is wrong, stop there with context.
+
+```c
+#define REQUIRE(x) do { if (!(x)) { \
+    fprintf(stderr, "require failed: %s at %s:%d\n", #x, __FILE__, __LINE__); \
+    abort(); } } while (0)
+```
+
+**Performance truths you can use today**
+
+- Memory is slow; math is fast. Optimize for cache, not for CPU flops.
+- Arrays beat linked lists for traversal. Contiguity wins.
+- Reorder struct members to reduce size; smaller objects mean more cache residency.
+- Avoid storing derivable data twice unless you can enforce consistency behind an API.
+
+**How to think like this**
+
+- Start with the interface. Implement internals later.
+- Keep the language simple; build tools to amplify it.
+- Fix code now. Technical debt compounds.
+- Build a mountain: reusable libraries under small apps. Own the hard parts.
+
+
+
 [**Tsoding Daily — YouTube Channel**](https://www.youtube.com/@TsodingDaily)
 
 A channel by Tsoding featuring live coding streams and videos focused on building projects from scratch, experimenting with algorithms, implementing tools in C and other languages, exploring low-level programming, and working through game and graphics development challenges. Sessions often include problem-solving in real time, code refactoring, performance tuning, and occasional forays into esoteric programming concepts.
