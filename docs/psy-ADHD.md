@@ -57,6 +57,16 @@ It is your responsibility to evaluate the accuracy, completeness, or usefulness 
 >
 > Nice theory, right? Trouble is, people with ADHD are also [much more likely to develop schizophrenia](https://doi.org/10.1016/j.eurpsy.2013.06.004). So this doesn’t make sense, nothing makes sense.
 
+2025-08-31 [Notes on Managing ADHD](https://borretti.me/article/notes-on-managing-adhd) { borretti.me }
+![image-20250831115139380](psy-ADHD.assets/image-20250831115139380.png)
+
+> I build external scaffolding so my brain has fewer places to drop things: **memory** lives in a single todo list, and the one meta habit is to open it every morning; projects get their own entries so half-read books and half-built ideas do not evaporate; I keep the list pinned on the left third of the screen so it is always in my **visual field**. I manage **energy** like voltage: early morning is for the thing I dread, mid-day is for creative work, later is for chores; when I feel avoidance, I treat **procrastination** by type—do it scared for anxiety, ask a human to sit with me for accountability, and write to think when choice paralysis hits; **timers** manufacture urgency to start and, importantly, to stop so one project does not eat the day. I practice **journaling** across daily, weekly, monthly, yearly reviews to surface patterns and measure progress; for **time**, I keep a light calendar for social and gym blocks and add explicit **travel time** so I actually leave; the todo list holds the fine-grained work, the calendar holds the big rocks.
+>
+> On the ground I favor **task selection** by shortest-first, with exceptions for anything old and for staying within the active project; I do **project check-ins**—even 15 minutes of reading the code or draft—to refresh caches so momentum is cheap; I **centralize inboxes** by sweeping mail, chats, downloads, and bookmarks into the list, run **Inbox Zero** so nothing camouflages, and declare **bankruptcy** once to reset a swampy backlog. I **plan first, do later** so mid-task derailments do not erase intent—walk the apartment, list every fix, then execute; I **replace interrupts with polling** by turning on DND and scheduling comms passes; I **do it on my own terms** by drafting scary emails in a text editor or mocking forms in a spreadsheet before pasting; I watch **derailers** like morning lifting, pacing, or music and design around them; I avoid becoming the **master of drudgery** who optimizes the system but ships nothing; when one task blocks everything, I curb **thrashing** by timeboxing it daily and moving other pieces forward; and I pick **tools** I like and stick to one, because one app is better than two and building my own is just artisan procrastination.
+>
+> *ADHD, productivity, todo list, journaling, energy management, procrastination, timers, inbox zero, task selection, planning, timeboxing, focus, tools*
+
+
 
 
 ## ADHD for Software Developers 
