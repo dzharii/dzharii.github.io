@@ -244,6 +244,308 @@ draw_point((Pt){ .x = 10, .y = 20 });
 
 > C is loadbearing tech. C99 removes unnecessary pain. I lock the compiler down with -Wall and -Werror. I keep builds simple with a unity build when it fits. I never chase blind crashes; I run a debugger and ASan so memory bugs surface at the line, not in production. I wrap arrays with length and bounds, and I carry string lengths so slices are cheap and safe. I store indices instead of pointers so my data survives resizes and serializes cleanly. I allocate by lifetime and free by lifetime with arenas. With these habits, C turns from scary to sharp.
 
+2025-09-28 [Programming in Modern C with a Sneak Peek into C23 - Dawid Zalewski - ACCU 2023 - YouTube](https://www.youtube.com/watch?v=lLv1s7rKeCM) { www.youtube.com }
+
+> ![image-20250928150824455](dev-c99.assets/image-20250928150824455.png)
+>
+> ------
+>
+> A high-level tour of *Programming in Modern C with a Sneak Peek into C23*  (by Dawid Zalewski) shows how C remains alive and evolving. The talk focuses on practical, post-C99 techniques, especially useful in systems and embedded work. It demonstrates idioms that improve clarity, safety, and ergonomics without giving up low-level control.
+>
+> **Topics covered**
+>
+> **Modern initialization**
+>  Brace and designated initializers, empty initialization `{}` in C23, and mixed positional and designated forms.
+>
+> **Arrays**
+>  Array designators, rules for inferred array size, and guidance on when to avoid variable-length arrays as storage while still using VLA syntax to declare function parameter bounds.
+>
+> **Pointer and API contracts**
+>  Sized array parameters `T a[n]`, `static` qualifiers like `T a[static 3]` to require valid elements, and `const char *static 1` to enforce non-null strings.
+>
+> **Multidimensional data**
+>  Strongly typed pointers to VLA-shaped arrays for natural `a[i][j]` indexing and safer `sizeof` expressions.
+>
+> **Compound literals**
+>  Creating unnamed lvalues to reassign structs, pass inline structs to functions, and zero objects succinctly.
+>
+> **Macro patterns**
+>  Named-argument style wrappers around compound literals, simple defaults, `_Generic` for ad-hoc overloading by type, and a macro trick for argument-count dispatch.
+>
+> **Memory layout**
+>  Flexible array members for allocating a header plus payload in one contiguous block, reducing double-allocation pitfalls.
+>
+> **C23 highlights**
+>  New keywords for `bool`, `true`, and `false`, the `nullptr` constant, `auto` type inference in specific contexts, a note on `constexpr`, and current compiler support caveats.
+
+
+
+
+
+```c
+/*
+    Modern C23-leaning "vector" demo with annotations.
+    ASCII only.
+    Assumption: compiler supports C23 and earlier C99 features referenced.
+*/
+
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+
+/* C23: bool/true/false are keywords; stdbool.h not required in C23. */
+bool vec_create(struct vector **vec /* C99: [static 1] on pointer parameter */,
+                size_t cap);
+
+typedef struct vector {
+    size_t capacity;
+    size_t size;
+    double data[];      /* C99: flexible array member */
+} vector;
+
+/* forward */
+void dump_vec(vector const * const v);
+
+/*
+    Create a vector with at least cap elements.
+
+    Features used and standard origin:
+      - C99: designated initializers in compound literal assignment.
+      - C99: array parameter qualifier [static 1] to express non-null, valid storage.
+      - C99: VLA type in sizeof, e.g., sizeof(double[cap]).
+      - C23: bool, true/false keywords.
+      - C23: nullptr keyword.
+      - C23: constexpr object.
+*/
+bool vec_create(vector **vec /* C99: [static 1] contract */, size_t cap) {
+    if (vec == nullptr) {          /* C23: nullptr keyword */
+        return false;
+    }
+
+    constexpr size_t DEF_CAP = 16; /* C23: constexpr object */
+    cap = (cap == 0) ? DEF_CAP : cap;
+
+    /*
+        One contiguous allocation:
+          - sizeof *v covers the header up to data[].
+          - sizeof(double[cap]) uses a VLA type (C99) to size the payload.
+    */
+    vector *v = malloc(sizeof *v + sizeof(double[cap]));
+    if (v == nullptr) {
+        *vec = nullptr;
+        return false;
+    }
+
+    /* C99: compound literal with designated initializers to set the header. */
+    *v = (vector){
+        .capacity = cap,
+        .size = 0
+        /* data[] is the flexible member; no header field to set here */
+    };
+
+    *vec = v;
+    return true;
+}
+
+/* trivial filler for demo output */
+static void vec_fill_sequential(vector *v) {
+    size_t n = v->capacity < 8 ? v->capacity : 8;
+    for (size_t i = 0; i < n; ++i) {
+        v->data[i] = (double)i;
+    }
+    v->size = n;
+}
+
+void dump_vec(vector const * const v) {
+    printf("vector at %p\n", (void*)v);
+    printf("  capacity = %zu, size = %zu\n", v->capacity, v->size);
+    size_t n = v->size < 8 ? v->size : 8;
+    for (size_t i = 0; i < n; ++i) {
+        printf("  data[%zu] = %g\n", i, v->data[i]);
+    }
+}
+
+int main(void) {
+    vector *vec = nullptr;          /* C23: nullptr keyword */
+
+    if (vec_create(&vec, 8)) {
+        printf("created a vector\n\n");
+        vec_fill_sequential(vec);
+        dump_vec(vec);
+
+        /*
+            Single free releases both header and payload because data[]
+            is a C99 flexible array member appended to the header.
+        */
+        free(vec);
+    } else {
+        fprintf(stderr, "failed to create vector\n");
+        return 1;
+    }
+
+    return 0;
+}
+
+```
+
+**Modern C99 Techniques You Can Use Today**
+
+**1) Brace initialization**
+
+```c
+int x = { 42 };
+struct Point { int x, y; };
+struct Point p = { .x = 10, .y = 20 };
+int a[] = { 1, 2, 3 };
+int b[5] = { 1 };
+```
+
+Use `{}` initializers for scalars, arrays, and structs. Unlisted members become zero. `{0}` ensures explicit zeroing. For scalars, `int x = { 42 };` is the same as `int x = 42;`.
+
+**2) Zeroing with `{0}`**
+
+```c
+struct State s = { 0 };
+int zeros[16] = { 0 };
+```
+
+`{0}` zeroes the first element and, by rule, all others. `{}` is a C23 feature, not C99.
+
+**3) Designated initializers**
+
+```c
+struct Cfg { int id, flags, mode, status; };
+struct Cfg c1 = { .id = 7, .status = 2 };
+```
+
+Mix positional and named initializers. Later values override earlier ones. Safer against field reorder.
+
+**4) Array element designators**
+
+```c
+int fib[] = {
+    [0] = 0, [1] = 1, [2] = 1,
+    [10] = 55, 89
+};
+```
+
+Sparse initialization. Size deduced as highest index + 1. Missing entries zeroed.
+
+**5) Nested designators**
+
+```c
+struct Item { int k; struct { int lo, hi; } ext; };
+struct Item table[] = {
+    [0]  = { .k = 1, .ext = { .lo = -3, .hi = 3 } },
+    [10] = { .ext.hi = 99 }
+};
+```
+
+Set deep fields directly. Useful for lookup tables.
+
+**6) Variable Length Arrays (VLAs) in parameters**
+
+```c
+void fill(int n, int buf[n]);
+void sum_n(size_t n, double buf[static 3]);
+```
+
+In parameters, VLAs encode bounds and non-null contracts. Avoid large VLAs as locals, they can exhaust the stack.
+
+**7) Pointer contracts with `static 1`**
+
+```c
+void print_line(const char *static 1 s);
+```
+
+Means non-null pointer to at least one element. Passing NULL is UB. Only use when required.
+
+**8) Strongly typed 2D arrays**
+
+```c
+size_t n = 5, m = 7;
+double (*mat)[m] = malloc(sizeof *mat * n);
+mat[2][3] = 1.0;
+```
+
+Keeps row/column math correct. One allocation, one free.
+
+**9) `sizeof` with VLA types**
+
+```c
+int (*grid)[m] = malloc(sizeof *grid * n);
+```
+
+`sizeof *grid` always equals `m * sizeof(int)`. Safer against refactor mistakes.
+
+**10) Compound literals**
+
+```c
+v = (struct Vec){ .cap = 64, .len = 0, .data = calloc(64, sizeof *v.data) };
+time_t t = mktime(&(struct tm){ .tm_year = 124, .tm_mon = 8, .tm_mday = 28 });
+```
+
+Temporary lvalues. Use `(Type){0}` to clear. Block-scope literals live until block ends.
+
+**11) Named-argument style calls**
+
+```c
+#define BLUR(...) blur(&(struct BlurParams){ __VA_ARGS__ })
+BLUR(.dst = dst, .src = src, .width = w, .height = h, .kernel = 5);
+```
+
+Makes call sites self-documenting. Do not store the address of these temporaries.
+
+**12) Default values with overlay macros**
+
+```c
+#define BLUR_DEFAULTS .compute_hw = 0, .kernel = 3
+#define BLUR2(...) blur(&(struct BlurParams){ BLUR_DEFAULTS, __VA_ARGS__ })
+```
+
+Later fields override earlier ones. Keep defaults consistent with struct definition.
+
+**13) Flexible array members**
+
+```c
+struct Str { size_t len; char data[]; };
+struct Str *s = malloc(sizeof *s + n + 1);
+```
+
+Header and payload in one block. Better locality, single free. FAM must be last, and has no declared size.
+
+**14) Single malloc vector**
+
+```c
+struct Vector { size_t capacity, size; double data[]; };
+*v = (struct Vector){ .capacity = capacity, .size = 0 };
+```
+
+Use FAM to pack header and elements into one allocation.
+
+**15) Macro overloading by arg count**
+
+```c
+#define _GET_3RD(a,b,c,...) c
+#define _SELECT_SCALE(...) _GET_3RD(__VA_ARGS__, scale_rect2, scale_rect1)
+#define scale_rect_auto(r, ...) _SELECT_SCALE(__VA_ARGS__)(r, __VA_ARGS__)
+```
+
+Simulates overloading. Pure preprocessor trick, no type checking.
+
+**Portability and safety**
+
+- Use `<stdbool.h>` for `bool`, `true`, `false`.
+- VLAs are required in C99 but optional in later standards. Some compilers disable them.
+- Contracts with `static k` are promises, not checks. Violating them is UB.
+- Flexible array members require careful allocation.
+
+**Safer alternatives**
+
+- Prefer heap + VLA types for large arrays.
+- Use `(Type){0}` to clear objects, not `memset`.
+- Use designated initializers for public config structs.
+- Use macro overlays for defaults.
 
 2025-07-13 [Parse, Don’t Validate AKA Some C Safety Tips](https://www.lelanthran.com/chap13/content.html) { www.lelanthran.com }
 
