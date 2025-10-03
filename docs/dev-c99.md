@@ -1,6 +1,14 @@
 # dev-c99
 Date: 2025-09-03
 
+## See also!
+
+-  [dev-c99-video-content-creators.md](dev-c99-video-content-creators.md) 
+-  [dev-c99-libraries.md](dev-c99-libraries.md) 
+-  [dev-c99-github-banned-h.md](dev-c99-github-banned-h.md) 
+
+
+
 ## Compilation and warnings
 
 ```sh
