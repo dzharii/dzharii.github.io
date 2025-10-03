@@ -573,6 +573,61 @@ Simulates overloading. Pure preprocessor trick, no type checking.
 
 
 
+## C99 Reimplement this world!
+
+> 💡 C99 keeps the standard library small, so engineers often reimplement common utilities -- strings, containers, parsing, algorithms. That repetition is a feature: it produces many competing designs you can read, compare, and learn a lot from because different approaches expose trade-offs and techniques.
+
+2025-10-03 [Klib — a generic library in C](https://attractivechaos.github.io/klib/#About) { attractivechaos.github.io }
+
+> [attractivechaos/klib: A standalone and lightweight C library](https://github.com/attractivechaos/klib) { github.com }
+>
+> Klib shows how to build fast, low-overhead “standard library” pieces in plain C without templates or `void*` indirection. The core pattern is macro-based generics: you instantiate a container or algorithm with a type name macro, and the preprocessor generates type-specialized code. That keeps binaries small, avoids runtime casts, and stays competitive with handwritten, type-specific containers. The README and docs stress this trade-off explicitly and show the macro expansion style with `khash.h` as the teaching example.
+>
+> ![image-20251003112834630](dev-c99.assets/image-20251003112834630.png)
+>
+> **Common components**
+>
+> - [khash.h](https://attractivechaos.github.io/klib/#Khash%3A generic hash table): generic hash table based on double hashing.
+> - [kbtree.h](https://attractivechaos.github.io/klib/#KBtree%3A generic ordered map): generic search tree based on B-tree.
+> - [kavl.h](https://attractivechaos.github.io/klib/#KAVL%3A generic intrusive AVL tree): generic intrusive AVL tree.
+> - [ksort.h](https://attractivechaos.github.io/klib/#Ksort%3A sorting%2C shuffling%2C heap and k-small): generic sort, including introsort, merge sort, heap sort, comb sort, Knuth shuffle and the k-small algorithm.
+> - [kseq.h](https://attractivechaos.github.io/klib/#Kseq%3A stream buffer and FASTA%2FQ parser): generic stream buffer and a FASTA/FASTQ format parser.
+> - kvec.h: generic dynamic array.
+> - [kdq.h](https://attractivechaos.github.io/klib/#Kdq%3A double-ended queue): generic double-ended queue (de-queue).
+> - klist.h: generic single-linked list and memory pool.
+> - kstring.{h,c}: basic string library.
+> - [ketopt.h](https://attractivechaos.github.io/klib/#Ketopt%3A parsing command-line arguments): command-line argument parser, similar to [getopt_long](https://linux.die.net/man/3/getopt_long).
+> - kmath.{h,c}: numerical routines including basic nonlinear programming and a few special math functions.
+> - [kson.{h,c}](https://attractivechaos.github.io/klib/#Kson%3A simple JSON parser): simple [JSON](http://www.json.org/) parser (no streaming)
+> - [kthread.{h,c}](https://attractivechaos.github.io/klib/#Kthread%3A simple threading models): simple multi-threading models.
+
+Samples:
+
+```c
+// Hash map: int -> char
+#include "khash.h"
+KHASH_MAP_INIT_INT(m32, char)
+int main() {
+  int absent; khint_t k;
+  khash_t(m32)* h = kh_init(m32);
+  k = kh_put(m32, h, 42, &absent);
+  if (absent) kh_value(h, k) = 'x';
+  k = kh_get(m32, h, 42);
+  if (k != kh_end(h)) kh_del(m32, h, k);
+  kh_destroy(m32, h);
+}
+```
+
+2025-10-03 [C Interfaces and Implementations](https://drh.github.io/cii/toc.html) { drh.github.io }
+
+> [drh/cii: C Interfaces and Implementations](https://github.com/drh/cii) { github.com }
+>
+> David R. Hanson’s C Interfaces and Implementations (CII) is both a textbook and a production-grade library. The repository contains the complete source for the book’s 24 interfaces and implementations. The code favors clarity and pedagogical structure over clever micro-optimizations. It’s rich with reusable idioms: strict interface/implementation separation, minimal public surface area, explicit memory-management modules, compact yet complete data-structure implementations, and a small set of concurrency primitives with hand-written context switching.
+>
+> ![image-20251003113819314](dev-c99.assets/image-20251003113819314.png)
+
+
+
 ## Dev C Articles
 
 - 2022-03-05 [Beginner's Guide to Linkers](https://www.lurklurk.org/linkers/linkers.html)
@@ -677,6 +732,12 @@ Simulates overloading. Pure preprocessor trick, no type checking.
 
 
 ## RSS
+
+> TODO List to review later
+
+2025-10-03 [Prospecting for Hash Functions](https://nullprogram.com/blog/2018/07/31/) { nullprogram.com }
+
+
 
 ## Dev C Tools
 
