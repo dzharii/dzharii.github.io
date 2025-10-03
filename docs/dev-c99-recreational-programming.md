@@ -1,4 +1,4 @@
-# dev-recreational-programming-in-c
+# dev-c99-recreational-programming
 Date: 2025-08-10
 
 
@@ -358,7 +358,46 @@ A channel by Tsoding featuring live coding streams and videos focused on buildin
 > Follow me on [Twitter](https://build-your-own-x.vercel.app/twitter.com/kalanyei) or contibute your article link on [Github](https://github.com/kjj6198/build-your-own-x) is always welcomed!
 > ![image-20251003134405839](dev-c99-recreational-programming.assets/image-20251003134405839.png)
 
-
+> - [Let's Build a Simple Database](https://cstack.github.io/db_tutorial/)
+> - [Writing a Time Series Database from scratch](https://web.archive.org/web/20210803115658/https://fabxc.org/tsdb/)
+> - [Linux containers in 500 lines of code](https://blog.lizzie.io/linux-containers-in-500-loc.html)
+> - [Home-grown bytecode interpreters](https://medium.com/bumble-tech/home-grown-bytecode-interpreters-51e12d59b25c)
+> - [Virtual machine in C](http://web.archive.org/web/20200121100942/https://blog.felixangell.com/virtual-machine-in-c/)
+> - [Writing a Game Boy emulator, Cinoop](https://cturt.github.io/cinoop.html)
+> - [Handmade Hero](https://handmadehero.org/)
+> - [How to Program an NES game in C](https://nesdoug.com/)
+> - [Chess Engine In C](https://www.youtube.com/playlist?list=PLZ1QII7yudbc-Ky058TEaOstZHVbT-2hg)
+> - [Let's Make: Dangerous Dave](https://www.youtube.com/playlist?list=PLSkJey49cOgTSj465v2KbLZ7LMn10bCF9)
+> - [Learn Video Game Programming in C](https://www.youtube.com/playlist?list=PLT6WFYYZE6uLMcPGS3qfpYm7T_gViYMMt)
+> - [Coding A Sudoku Solver in C](https://www.youtube.com/playlist?list=PLkTXsX7igf8edTYU92nU-f5Ntzuf-RKvW)
+> - [Coding a Rogue/Nethack RPG in C](https://www.youtube.com/playlist?list=PLkTXsX7igf8erbWGYT4iSAhpnJLJ0Nk5G)
+> - [On Tetris and Reimplementation](https://brennan.io/2015/06/12/tetris-reimplementation/)
+> - [Beej's Guide to Network Programming](http://beej.us/guide/bgnet/)
+> - [Let's code a TCP/IP stack](http://www.saminiir.com/lets-code-tcp-ip-stack-1-ethernet-arp/)
+> - [Building a software and hardware stack for a simple computer from scratch](https://www.youtube.com/watch?v=ZjwvMcP3Nf0&list=PLU94OURih-CiP4WxKSMt3UcwMSDM3aTtX)
+> - [Operating Systems: From 0 to 1](https://tuhdo.github.io/os01/)
+> - [Video Game Physics Tutorial](https://www.toptal.com/game/video-game-physics-part-i-an-introduction-to-rigid-body-dynamics)
+> - [Baby's First Garbage Collector](http://journal.stuffwithstuff.com/2013/12/08/babys-first-garbage-collector/)
+> - [Build Your Own Lisp: Learn C and build your own programming language in 1000 lines of code](http://www.buildyourownlisp.com/)
+> - [Writing a Simple Garbage Collector in C](http://maplant.com/gc.html)
+> - [C interpreter that interprets itself.](https://github.com/lotabout/write-a-C-interpreter)
+> - [A C & x86 version of the "Let's Build a Compiler" by Jack Crenshaw](https://github.com/lotabout/Let-s-build-a-compiler)
+> - [A journey explaining how to build a compiler from scratch](https://github.com/DoctorWkt/acwj)
+> - [A Regular Expression Matcher](https://www.cs.princeton.edu/courses/archive/spr09/cos333/beautiful.html)
+> - [Regular Expression Matching Can Be Simple And Fast](https://swtch.com/~rsc/regexp/regexp1.html)
+> - [Tutorial - Write a Shell in C](https://brennan.io/2015/01/16/write-a-shell-in-c/)
+> - [Let's build a shell!](https://github.com/kamalmarhubi/shell-workshop)
+> - [Writing a UNIX Shell](https://indradhanush.github.io/blog/writing-a-unix-shell-part-1/)
+> - [Build Your Own Shell](https://github.com/tokenrove/build-your-own-shell)
+> - [Build Your Own Text Editor](https://viewsourcecode.org/snaptoken/kilo/)
+> - [Build a HTTP Server from Scratch in C](https://medium.com/from-the-scratch/http-server-what-do-you-need-to-know-to-build-a-simple-http-server-from-scratch-d1ef8945e4fa)
+> - [How to Write a Video Player in Less Than 1000 Lines](http://dranger.com/ffmpeg/ffmpeg.html)
+> - [Learn how to write a hash table in C](https://github.com/jamesroutley/write-a-hash-table)
+> - [The very basics of a terminal emulator](https://www.uninformativ.de/blog/postings/2018-02-24/0/POSTING-en.html)
+> - [Write a System Call](https://brennan.io/2016/11/14/kernel-dev-ep3/)
+> - [Sol - An MQTT broker from scratch](https://codepr.github.io/posts/sol-mqtt-broker)
+>
+> 2025-10-03 [Build Your Own X](https://build-your-own-x.vercel.app/#build-your-own-git) {build-your-own-x.vercel.app}
 
 ---
 
