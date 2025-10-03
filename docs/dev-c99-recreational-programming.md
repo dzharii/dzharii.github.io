@@ -3,6 +3,43 @@ Date: 2025-08-10
 
 
 
+## Tips for Structuring Your Recreational Programming Journey
+
+**Learn, then build**
+Follow a tutorial to learn a concept. Then make a small project that uses it. Build a tiny shell from a guide, then add piping on your own. Do a mini database tutorial, then write a simple key value store yourself.
+
+
+
+**Ship in small steps**
+Break projects into stages. Set clear milestones. For a text editor: open and show a file, edit text, save to disk, then add syntax highlighting. Keep the app runnable after each step to get fast feedback.
+
+
+
+**Iterate and refactor**
+ Write the simple version first. Expect to change it as you learn. Replace rough code with a cleaner design. It is fine to throw code away. You are here to learn, not hit a deadline.
+
+
+
+**Keep a log**
+Write a short note after each session. What you tried, what broke, how you fixed it. These notes reinforce learning and help future you. They also make easy README or blog posts that can help others.
+
+
+
+**Mix your project types**
+Do not stick to one domain. Try a system tool, then a small graphics demo with SDL or OpenGL, then a network app. A chat server with Berkeley sockets is a good next step. Beej’s Guide can help.
+
+
+
+**Use modern C and tools**
+Prefer C99 or C11. Use `stdint.h` types. Avoid unsafe calls like `gets()`. Use `gdb` or `lldb`, and address sanitizers to catch memory bugs early.
+
+
+
+**Keep perspective**
+Big hobby projects can look scary. Everyone starts small. It is okay to repeat classic projects. The point is to learn. As Brian Kernighan said, "the best way to learn a new programming language is to write programs in it." Celebrate small wins and enjoy the process.
+
+
+
 ## Compilers
 
 [**bellard.org/tcc/: Tiny C Compiler (TCC) by Fabrice Bellard**](https://bellard.org/tcc/)
@@ -312,6 +349,88 @@ A channel by Tsoding featuring live coding streams and videos focused on buildin
 
 - [brenns10/nosj: NOSJ](https://github.com/brenns10/nosj)
   Lightweight JSON parser in C with a focus on clarity and simplicity.
+
+
+
+2025-10-03 [Build Your Own X](https://build-your-own-x.vercel.app/) {build-your-own-x.vercel.app}
+
+> This repo is forked from awesome [anistefanovic/build-your-own-x](https://github.com/danistefanovic/build-your-own-x) , site is created and maintained by [Kalan](https://github.com/kjj6198/build-your-own-x) which converted github README.md to website, and probably will add more opinionated resource.
+> Follow me on [Twitter](https://build-your-own-x.vercel.app/twitter.com/kalanyei) or contibute your article link on [Github](https://github.com/kjj6198/build-your-own-x) is always welcomed!
+> ![image-20251003134405839](dev-c99-recreational-programming.assets/image-20251003134405839.png)
+
+
+
+---
+
+### [Salvatore “antirez” Sanfilippo — Blog](https://antirez.com/news/108)
+
+Antirez is best known for Redis, but his hobby C work shows how far careful constraints can go. He builds small tools with clear goals, minimal dependencies, and sharp terminal UX. His writing focuses on tradeoffs and the craft of making something useful with very little code.
+
+Notable projects
+
+- [Writing an editor in less than 1000 lines of code](https://antirez.com/news/108)
+- [Kilo source code](https://github.com/antirez/kilo)
+
+### [Stephen Brennan — Blog](https://brennan.io/)
+
+Stephen writes approachable guides that turn scary systems topics into weekend projects. He explains the why first, then the how, and backs it with complete C code. You come away understanding processes, terminals, and state machines, not just copying snippets.
+
+Notable projects
+
+- [Write a Shell in C](https://brennan.io/2015/01/16/write-a-shell-in-c/)
+- [lsh source code](https://github.com/brenns10/lsh)
+- [On Tetris and Reimplementation](https://brennan.io/2015/06/12/tetris-reimplementation/)
+
+### [Connor Stack (cstack) — Tutorial Series](https://cstack.github.io/db_tutorial/)
+
+Connor documents the internals of a tiny database from disk layout to B-trees. The series treats each concept as a unit you can implement and test. It is a practical path into storage engines, paging, and binary formats using plain C.
+
+Notable projects
+
+- [Let’s Build a Simple Database](https://cstack.github.io/db_tutorial/)
+- [Project repository and notes](https://github.com/cstack/db_tutorial)
+
+### [Arjun Sreedharan — Blog](https://arjunsreedharan.org/)
+
+Arjun shows systems programming from first principles. He starts at a bootloader and builds up, or starts at sbrk and builds a malloc. Each post breaks the work into crisp steps you can run and verify, which makes deep topics feel tractable.
+
+Notable projects
+
+- [Kernels 101, Let’s write a Kernel](https://arjunsreedharan.org/post/82710718100/kernels-101-lets-write-a-kernel)
+- [Memory Allocators 101, Write a simple memory allocator](https://arjunsreedharan.org/post/148675821737/memory-allocators-101-write-a-simple-memory-allocator)
+
+### [Dan Luu — Articles](https://danluu.com/)
+
+Dan writes hands-on systems pieces with measurement and debugging front and center. His malloc tutorial is a guided tour of implementing, testing, and stress-testing an allocator against real programs. You learn both mechanics and methodology.
+
+Notable projects
+
+- [Malloc Tutorial, Let’s write a malloc](https://danluu.com/malloc-tutorial/)
+
+### [Daniel Holden — Build Your Own Lisp](http://www.buildyourownlisp.com/)
+
+Holden turns interpreter writing into a structured C learning path. You build a small Lisp, add parsing, evaluation, and a rudimentary GC, and finish with a working REPL. The book is friendly, incremental, and big on exercises.
+
+Notable projects
+
+- [Build Your Own Lisp, free online book](http://www.buildyourownlisp.com/)
+- [Lispy source code](https://github.com/orangeduck/BuildYourOwnLisp)
+
+### [Robert Nystrom — Crafting Interpreters](https://craftinginterpreters.com/)
+
+Nystrom teaches language implementation with clarity and momentum. The first half builds a bytecode VM in C for Lox. You implement scanning, parsing, a stack VM, a compiler, and memory management with a focus on correctness and readability.
+
+Notable projects
+
+- [Crafting Interpreters, C VM](https://craftinginterpreters.com/)
+- [clox source code](https://github.com/munificent/craftinginterpreters)
+
+### More to explore
+
+- [Beej’s Guide to Network Programming](https://beej.us/guide/bgnet/)
+- [The Little OS Book](https://littleosbook.github.io/)
+- [Let’s code a TCP/IP stack](https://www.saminiir.com/lets-code-tcp-ip-stack-1-ethernet-arp/)
+- [OSDev Wiki](https://wiki.osdev.org/Main_Page)
 
 
 
