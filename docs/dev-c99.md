@@ -1,6 +1,8 @@
 # dev-c99
 Date: 2025-09-03
 
+[[_TOC_]]
+
 ## Compilation and warnings
 
 ```sh
@@ -727,13 +729,78 @@ int main() {
 
 ## Books
 
+2025-10-18 [Free C Programming Book](https://goalkicker.com/CBook/) { goalkicker.com }
+
+> ![image-20251018124405108](dev-c99.assets/image-20251018124405108.png)
+
+| ASCII values | characters                  | iscntrl | isblank | isspace | isupper | islower | isalpha | isdigit | isxdigit | isalnum | ispunct | isgraph | isprint |
+| ------------ | --------------------------- | ------- | ------- | ------- | ------- | ------- | ------- | ------- | -------- | ------- | ------- | ------- | ------- |
+| 0x00..0x08   | NUL and other control codes | X       |         |         |         |         |         |         |          |         |         |         |         |
+| 0x09         | tab `\t`                    | X       | X       | X       |         |         |         |         |          |         |         |         |         |
+| 0x0A..0x0D   | `\n` `\v` `\f` `\r`         | X       |         | X       |         |         |         |         |          |         |         |         |         |
+| 0x0E..0x1F   | other control codes         | X       |         |         |         |         |         |         |          |         |         |         |         |
+| 0x20         | space `' '`                 |         | X       | X       |         |         |         |         |          |         |         |         | X       |
+| 0x21..0x2F   | `!"#$%&'()*+,-./`           |         |         |         |         |         |         |         |          |         | X       | X       | X       |
+| 0x30..0x39   | `0123456789`                |         |         |         |         |         |         | X       | X        | X       |         | X       | X       |
+| 0x3A..0x40   | `:;<=>?@`                   |         |         |         |         |         |         |         |          |         | X       | X       | X       |
+| 0x41..0x46   | `A..F`                      |         |         |         | X       |         | X       |         | X        | X       |         | X       | X       |
+| 0x47..0x5A   | `G..Z`                      |         |         |         | X       |         | X       |         |          | X       |         | X       | X       |
+| 0x5B..0x60   | `[]^_``                     |         |         |         |         |         |         |         |          |         | X       | X       | X       |
+| 0x61..0x66   | `a..f`                      |         |         |         |         | X       | X       |         | X        | X       |         | X       | X       |
+| 0x67..0x7A   | `g..z`                      |         |         |         |         | X       | X       |         |          | X       |         | X       | X       |
+| 0x7B..0x7E   | `{ } ~ |`                   |         |         |         |         |         |         |         |          |         | X       | X       | X       |
+| 0x7F         | DEL                         | X       |         |         |         |         |         |         |          |         |         |         |         |
+
 1993 ⭐ [Object-oriented Programming with ANSI-C (1993) [pdf]](https://www.mclibre.org/descargar/docs/libros/ooc-ats.pdf)
 
-> Retro document! but very well written
+> Retro document! but very well written... PLEASE DON'T DO THIS!
 >
 > ![image-20230629003429585](dev-c99.assets/image-20230629003429585.png)
 
+2025-10-18 [free-programming-books/books/free-programming-books-langs.md at main · EbookFoundation/free-programming-books](https://github.com/EbookFoundation/free-programming-books/blob/main/books/free-programming-books-langs.md#c) { github.com }
 
+> - [256-Color VGA Programming in C](http://www.brackeen.com/vga/) - David Brackeen
+> - [A Tutorial on Pointers and Arrays in C](https://web.archive.org/web/20180827131006/http://home.earthlink.net/~momotuk/pointers.pdf) - Ted Jensen (PDF) *( 🗃️ archived)*
+> - [Algorithms Design (in C)](https://www.ime.usp.br/~pf/algorithms/) - Paulo Feofiloff (HTML)
+> - [Bare-metal programming for ARM](https://github.com/umanovskis/baremetal-arm) - Daniels Umanovskis [(PDF)](http://umanovskis.se/files/arm-baremetal-ebook.pdf)
+> - [Beej's Guide to C Programming](http://beej.us/guide/bgc/) - Brian "Beej Jorgensen" Hall (HTML, PDF) (CC BY-NC-ND)
+> - [Beej's Guide to the GNU Debugger (GDB)](http://beej.us/guide/bggdb/) - Brian "Beej Jorgensen" Hall (HTML) (CC BY-NC-ND)
+> - [Build Your Own Lisp](http://www.buildyourownlisp.com/) - Daniel Holden
+> - [Build Your Own Redis with C/C++](https://build-your-own.org/) - build-your-own.org (HTML) ( 🚧 *in process*)
+> - [C Elements of Style](http://www.oualline.com/books.free/style/) - Steve Oualline
+> - [C for Python Programmers](http://www.cburch.com/books/cpy/) - Carl Burch
+> - [C Handbook](https://thevalleyofcode.com/c/) - Flavio Copes (HTML, PDF)
+> - [C Internals](https://www.avabodh.com/cin/cin.html) - Rajeev Kumar (HTML)
+> - [C Notes for Professionals](https://goalkicker.com/CBook) - Compiled from StackOverflow Documentation (PDF)
+> - [C Programming](https://en.wikibooks.org/wiki/Programming%3AC) - Wikibooks
+> - [C Programming Boot Camp - Paul Gribble](https://gribblelab.org/teaching/CBootCamp/)
+> - [C Programming Tutorial](https://www.tutorialspoint.com/cprogramming/) - Tutorials Point (HTML, PDF)
+> - [Coursebook](https://github.com/illinois-cs241/coursebook) - B. Venkatesh, L. Angrave, et al.
+> - [Deep C](http://www.slideshare.net/olvemaudal/deep-c)
+> - [Essential C](http://cslibrary.stanford.edu/101/EssentialC.pdf) - Nick Parlante (PDF)
+> - [Essential C](https://www.programming-books.io/essential/c/) - Krzysztof Kowalczyk, StackOverflow Contributors
+> - [Everything you need to know about pointers in C - Peter Hosey](http://boredzo.org/pointers/)
+> - [Functional C (1997)](https://research.utwente.nl/files/5128727/book.pdf) - Pieter H. Hartel, Henk Muller (PDF)
+> - [Hashing](https://www.smashwords.com/books/view/737188) - Prakash Hegade
+> - [Introduction to Programming and Data Structures in C](https://codeahoy.com/learn/cprogramming/toc/) - CodeAhoy (HTML)
+> - [Learn to Code With C - The MagPi Essentials](https://magpi.raspberrypi.com/books/essentials-c-v1) (PDF)
+> - [Learning GNU C](https://download-mirror.savannah.gnu.org/releases/c-prog-book/learning_gnu_c.pdf) - Ciaran O’Riordan (PDF)
+> - [Let us C](https://books.google.co.in/books?id=Ce6gAAAACAAJ&printsec=frontcover#v=onepage&q&f=false) - Yashavant Kanetkar (PDF)
+> - [Modeling with Data](https://ben.klemens.org/pdfs/gsl_stats.pdf) - Ben Klemens (PDF)
+> - [Modern C](https://gustedt.gitlabpages.inria.fr/modern-c/) - Jens Gustedt (PDF) (CC BY-NC-ND)
+> - [Object-Oriented Programming With ANSI-C](https://www.cs.rit.edu/~ats/books/ooc.pdf) - Axel-Tobias Schreiner (PDF)
+> - [Programming in C](http://ee.hawaii.edu/~tep/EE160/Book/PDF/) - Bharat Kinariwala & Tep Dobry
+> - [Programming in C](https://www.freetechbooks.com/programming-in-c-t1337.html) - Kishori Mundargi
+> - [Structures and C](https://www.smashwords.com/books/view/644937) - Prakash Hegade
+> - [The Basics of C Programming](https://www.phys.uconn.edu/~rozman/Courses/P2200_13F/downloads/TheBasicsofCProgramming-draft-20131030.pdf) - Marshall Brain (PDF)
+> - [The C book](http://publications.gbdirect.co.uk/c_book/) - Mike Banahan, Declan Brady, Mark Doran (PDF, HTML)
+> - [The C Programming Language Handbook](https://flaviocopes.com/page/c-handbook/) - Flavio Copes (PDF, EPUB, Kindle) *(email address requested)*
+> - [The Current C Programming Language Standard – ISO/IEC 9899:2018 (C17/C18), Draft](https://web.archive.org/web/20181230041359/http://www.open-std.org/jtc1/sc22/wg14/www/abq/c17_updated_proposed_fdis.pdf) - Open Standards Org - [www.open-std.org](http://www.open-std.org/) (PDF) *( 🗃️ archived)*
+> - [The GNU C Programming Tutorial](http://www.crasseux.com/books/ctut.pdf) - Mark Burgess, Ron Hale-Evans (PDF)
+> - [The GNU C Reference Manual](https://www.gnu.org/software/gnu-c-manual/gnu-c-manual.html) - Trevis Rothwell, James Youngman (HTML) [(PDF)](https://www.gnu.org/software/gnu-c-manual/gnu-c-manual.pdf)
+> - [The little book about OS development](http://littleosbook.github.io/) - Erik Helin, Adam Renberg
+> - [The New C Standard - An Economic and Cultural commentary (2009)](http://www.knosof.co.uk/cbook/cbook.html) - Derek M. Jones (PDF)
+> - [TONC GBA Programming - Game Boy Advance Development](http://www.coranac.com/tonc/text/toc.htm)
 
 ## RSS
 
