@@ -196,7 +196,11 @@ https://github.com/sheredom/subprocess.h { single-header process launching }
 > subprocess.h is a single-header C/C++ library for launching subprocesses and interacting with their stdin, stdout, stderr, including async reading, custom environments, and termination options across Linux, macOS, and Windows; highly portable, no build system needed, public-domain (Unlicense).
 >  *Tags:* C, C++, Process-Control, Public-Domain
 
-https://sourceforge.net/projects/tinyfiledialogs/ 
+https://sourceforge.net/projects/tinyfiledialogs/
 
 > tinyfiledialogs is a single C file plus header that provides native OS dialogs across Windows, macOS, and Linux via GTK+ or Qt, with console fallback and SSH support via X11 forwarding. It exposes 8 modal calls: beep, tray notify popup, message and question, input and password, save file, open files, select folder, and color picker. Drop it into a C or C++ app with no init, no main loop, and no external dependencies or linking; licensed under zlib. Tags: C, C++, Dialogs, Single-file, Cross-platform, zlib. ([SourceForge](https://sourceforge.net/projects/tinyfiledialogs/), [GitHub](https://github.com/thechampagne/tinyfiledialogs))
 
+https://github.com/ColleagueRiley/RGFW
+
+> RGFW is a lightweight single-header C99 windowing and input library that abstracts OS APIs to create windows and graphics contexts; supports OpenGL (legacy and core), Vulkan, DirectX, Metal, WebGPU, and software rendering across Windows XP+, Linux X11 with experimental Wayland, macOS Cocoa, and Emscripten; zero external deps beyond system APIs; zlib licensed.
+> *Tags:* C, Windowing, Single-header, Cross-platform, Graphics-context, zlib
