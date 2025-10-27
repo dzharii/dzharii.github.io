@@ -1,5 +1,9 @@
 # math and stats
 
+2025-10-27 [An Illustrated Introduction to Linear Algebra](https://www.ducktyped.org/p/an-illustrated-introduction-to-linear) { www.ducktyped.org }
+
+> ![image-20251026215702717](math.assets/image-20251026215702717.png)
+
 2024-05-12 [Immersive Math](https://immersivemath.com/ila/index.html)
 
 >  ![image-20240609055317824](./math.assets/image-20240609055317824.png)
