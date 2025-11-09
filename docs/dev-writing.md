@@ -60,6 +60,17 @@ Date: 2024-11-10
 > - **Advice**: Writing should serve a clear function beyond just following formal rules. Effective writing achieves its purpose by clearly communicating the problem and its significance to readers.
 > - **Application**: Instead of focusing solely on rules or formalities, think about what your writing needs to accomplish for your audience. Make sure that every section and statement reinforces your overall argument and purpose.
 
+2025-11-09 [To get better at technical writing, lower your expectations](https://www.seangoedecke.com/technical-communication/) { www.seangoedecke.com }
+
+> ![image-20251108161947048](dev-writing.assets/image-20251108161947048.png)
+> 
+>
+> ---
+>
+> Write for people who will not really read you. Put your main point in the first sentence and, if possible, in the title. Keep everything as short as you can. Drop most nuance and background. Say one clear thing for a broad audience, like "this is hard" or "this is slow." Reserve long, detailed docs for the tiny group of engineers who actually need all the details. Before you write, force yourself to express your idea in one or two sharp sentences, and build only the minimum around that.
+>
+> Do this because almost nobody will give your writing full attention. Most readers will glance at the first line, skim a bit, then stop. They do not share your context, they do not care as much as you do, and they do not have time. No document will transfer your full understanding or perfectly align everyone. Real understanding comes from working with the system itself. In that reality, a short, front-loaded note that lands a single important idea is far more useful than a long, careful essay that most people never finish.
+
 2025-08-03 [Writing a good design document](https://grantslatton.com/how-to-design-document) { grantslatton.com }
 
 > ![image-20250803162218521](dev-writing.assets/image-20250803162218521.png)
