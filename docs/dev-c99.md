@@ -573,6 +573,148 @@ Simulates overloading. Pure preprocessor trick, no type checking.
 >
 > ![image-20250713115328366](dev-c99.assets/image-20250713115328366.png)
 
+2025-11-16 [Introduction to "Fun" C (using GCC)](https://gist.github.com/eatonphil/21b3d6569f24ad164365) { gist.github.com }
+
+```c
+/**
+ * This are a collection of examples for C 201.
+ * These combine concepts you may or may not be
+ * familiar with and are especially useful for
+ * students new to C. There is a lot of really
+ * cool stuff you can do in C without any cool
+ * languages.
+ * 
+ * This is file in particular is an introduction
+ * to fun function usage in C.
+ */
+
+#include <stdio.h>
+
+int sum(int a, int b) {
+    return a + b;
+}
+
+int sub(int a, int b) {
+    return a - b;
+}
+
+// This function "get_operator" takes a *char expression
+// and returns a function that takes two ints and returns
+// an int.
+int (*get_operator(char* expression)) (int, int) {
+    int i;
+    // char pointers are automatically given a final character '\0'
+    // to allow us to know when the char* ends.
+    for (i = 0; expression[i] != '\0'; i++) {
+        switch (expression[i]) {
+            case '+':
+                return sum;
+            case '-':
+                return sub;
+        }
+    }
+}
+
+void print_operator(char* expression) {
+    // get_operator will return a function that takes two ints
+    // and returns an int.
+    int (*operator)(int, int) = get_operator(expression);
+    // sum is automatically converted to a pointer,
+    // you could also say "operator == &sum", but that is longer.
+    if (operator == sum) { // comparing functions!
+        printf("Expression %s is a sum.\n", expression);
+    } else if (operator == sub) { // comparing functions again!!
+        printf("Expression %s is a sub.\n", expression);
+    } else {
+        printf("Expression %s has an unknown operation.\n", expression);
+    }
+    // Challenge:
+    // Instead of just printing out which operation it is,
+    // find the two operands and perform the operation on them.
+    // Then print the result of the expression instead.
+}
+
+int main() {
+    char* expression1 = "2 + 2";
+    char* expression2 = "5 - 3";
+    char* expression3 = "9 * 7";
+
+    print_operator(expression1);
+    print_operator(expression2);
+    print_operator(expression3);
+}
+```
+
+2025-11-16 [Introduction to "Fun" C (using GCC)](https://gist.github.com/eatonphil/21b3d6569f24ad164365) { gist.github.com }
+
+```c
+/**
+ * This is an example of more complex function usage in C.
+ * Read structs.c before continuing.
+ */
+
+#include <stdio.h>
+
+// Good reference:
+// http://www.dirac.org/linux/programming/tutorials/function_pointers/
+
+typedef struct {
+    int legs;
+    void (*sayName)(void);
+} Animal;
+
+void catSayName() {
+    printf("I am a cat.\n");
+}
+
+void dogSayName() {
+    printf("I am a dog.\n");
+}
+
+int sub(int a, int b) {
+    return a - b;
+}
+
+int sum(int a, int b) {
+    return a + b;
+}
+
+double sum_d(double a, double b) { return a + b; } // would fail if passed to operate: operate(sum_d, 1, 2)
+
+int operate(int (*f)(int, int), int a, int b) {
+    return f(a, b);
+}
+
+void do_nothing(void) {
+    return;
+}
+
+int main() {
+    Animal cat;
+    cat.legs = 4;
+    cat.sayName = catSayName;
+
+    Animal cat1;
+    cat1.legs = 4;
+    cat1.sayName = catSayName;
+
+    Animal dog;
+    dog.legs = 3;
+    dog.sayName = dogSayName;
+
+    cat.sayName(); // I am a cat.
+    dog.sayName(); // I am a dog.
+    cat.sayLegs(cat.legs);
+
+    int my_sum = operate(sum, 1, 2);
+    printf("%d\n", my_sum); // Prints 3
+    int my_sub = operate(sub, 11, 2);
+    printf("%d\n", my_sub); // Prints 9
+
+    do_nothing();
+}
+```
+
 
 
 ## C99 Reimplement this world!
