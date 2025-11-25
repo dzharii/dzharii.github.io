@@ -352,6 +352,10 @@ A channel by Tsoding featuring live coding streams and videos focused on buildin
 
 
 
+2025-11-25 [Build Your Own Redis with C/C++ | Build Your Own Redis with C/C++](https://build-your-own.org/redis/) { build-your-own.org }
+
+> ![image-20251124233038748](dev-c99-recreational-programming.assets/image-20251124233038748.png)
+
 2025-10-03 [Build Your Own X](https://build-your-own-x.vercel.app/) {build-your-own-x.vercel.app}
 
 > This repo is forked from awesome [anistefanovic/build-your-own-x](https://github.com/danistefanovic/build-your-own-x) , site is created and maintained by [Kalan](https://github.com/kjj6198/build-your-own-x) which converted github README.md to website, and probably will add more opinionated resource.
