@@ -76,13 +76,14 @@ Revision:
 
 - 2023-03-12 - initial
 - 2024-08-17 - add domain as in "{ domain.com }"
+- 2025-11-28 - non ascii cleanup
 
 <details>
 
 <summary> Code:  </summary>
 
 ```js
-javascript: (function () {
+javascript:(function () {
   function showToast(message, textColor, backgroundColor) {
     var toast = document.createElement("div");
     toast.style.cssText =
@@ -90,28 +91,73 @@ javascript: (function () {
       backgroundColor +
       "; color: " +
       textColor +
-      "; padding: 10px; font-family: Arial, Verdana; font-size: 16px; font-weight: bold;  z-index: 9999; opacity: 0; transition: opacity 0.3s ease-in-out;";
+      "; padding: 10px; font-family: Arial, Verdana; font-size: 16px; font-weight: bold; z-index: 9999; opacity: 0; transition: opacity 0.3s ease-in-out;";
     toast.innerHTML = message;
     document.body.appendChild(toast);
+
     setTimeout(function () {
       toast.style.opacity = 1;
     }, 100);
+
     setTimeout(function () {
       toast.style.opacity = 0;
     }, 3000);
   }
 
-  document.body.focus();
-  var title = document.title;
-  /* remove [ and ] from title */
-  title = title.replace(/[\[\]]/g, " ");
+  function removeNonAsciiCharactersFromText(text) {
+    return text.replace(/[^\x00-\x7F]+/g, "");
+  }
 
-  var url = window.location.href;
-  /* remove utm parameters from url */
-  url = url.replace(/utm_[^&]+&?/g, "");
-  /* remove final /? from url */
-  url = url.replace(/\/\?$/g, "/");
-  url = url.replace(/\?$/g, "/");
+  function removeLeadingNonLetterCharactersFromText(text) {
+    return text.replace(/^[^A-Za-z]+/, "");
+  }
+
+  function collapseConsecutiveWhitespaceIntoSingleSpace(text) {
+    return text.replace(/\s+/g, " ");
+  }
+
+  function trimWhitespaceFromTextEdges(text) {
+    return text.trim();
+  }
+
+  function removeSquareBracketsFromText(text) {
+    return text.replace(/[\[\]]/g, " ");
+  }
+
+  function normalizeTitleForMarkdownLink(rawTitle) {
+    var title = rawTitle;
+    title = removeNonAsciiCharactersFromText(title);
+    title = removeLeadingNonLetterCharactersFromText(title);
+    title = collapseConsecutiveWhitespaceIntoSingleSpace(title);
+    title = trimWhitespaceFromTextEdges(title);
+    title = removeSquareBracketsFromText(title);
+    return title;
+  }
+
+  function removeUtmTrackingParametersFromUrl(url) {
+    return url.replace(/utm_[^&]+&?/g, "");
+  }
+
+  function replaceTrailingSlashQuestionMarkWithSlash(url) {
+    return url.replace(/\/\?$/g, "/");
+  }
+
+  function replaceTrailingQuestionMarkWithSlash(url) {
+    return url.replace(/\?$/g, "/");
+  }
+
+  function normalizeUrlForMarkdownLink(rawUrl) {
+    var url = rawUrl;
+    url = removeUtmTrackingParametersFromUrl(url);
+    url = replaceTrailingSlashQuestionMarkWithSlash(url);
+    url = replaceTrailingQuestionMarkWithSlash(url);
+    return url;
+  }
+
+  document.body.focus();
+
+  var title = normalizeTitleForMarkdownLink(document.title);
+  var url = normalizeUrlForMarkdownLink(window.location.href);
 
   var date = new Date().toISOString().slice(0, 10);
   var markdownLink = date + " [" + title + "](" + url + ")";
@@ -135,7 +181,9 @@ javascript: (function () {
     );
   }, 100);
 })();
+
 ```
+
 
 </details>
 
