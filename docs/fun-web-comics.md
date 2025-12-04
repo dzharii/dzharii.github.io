@@ -1,6 +1,12 @@
 # fun-web-comics
 Date: 2023-10-03
 
+2025-12-04 [archive](https://www.oglaf.com/archive/) { www.oglaf.com }
+
+![image-20251203233131620](fun-web-comics.assets/image-20251203233131620.png)
+
+![image-20251203233342698](fun-web-comics.assets/image-20251203233342698.png)
+
 2025-05-03 [Home - Marketoonist | Tom Fishburne](https://marketoonist.com/) { marketoonist.com }
 
 ![img](fun-web-comics.assets/230605.n.aipowered.jpg)
