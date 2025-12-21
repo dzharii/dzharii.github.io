@@ -41,9 +41,7 @@ int main(int argc, char* argv[]) {
 
 ```
 
-
-
-And, finally, some math:
+some math:
 
 ```c
 #include <math.h>
@@ -65,4 +63,23 @@ void main(void) {
 Math references:
 
 - [Is this formula for computing the number of digits of an integer correct? - Mathematics Stack Exchange](https://math.stackexchange.com/questions/5083733/is-this-formula-for-computing-the-number-of-digits-of-an-integer-correct) { math.stackexchange.com } (partial answer)
+
+Or, most fun, is the Christmas tree:
+
+```c
+int digits_count =
+(n < 10) ? 1 :
+(n < 100) ? 2 :
+(n < 1000) ? 3 :
+(n < 10000) ? 5 :
+(n < 100000) ? 6 :
+(n < 1000000) ? 7 :
+(n < 10000000) ? 8 :
+(n < 100000000) ? 9 :
+(n < 1000000000) ? 10 :
+(n < 10000000000) ? 11 :
+-1;
+```
+
+
 
