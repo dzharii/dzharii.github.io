@@ -11,7 +11,7 @@ Date: 2025-12-20
 
 
 
-**Count digits in unsigned integer.** 
+### Count digits in unsigned integer
 
 The approach with while loop is more idiomatic:
 
@@ -79,6 +79,22 @@ int digits_count =
 (n < 1000000000) ? 10 :
 (n < 10000000000) ? 11 :
 -1;
+```
+
+
+
+### Reverse digits in integer
+
+```c
+int reverse(int n)
+{
+    int rev = 0;
+    while (n != 0) {
+        rev = rev * 10 + (n % 10);
+        n /= 10;
+    }
+    return rev;
+}
 ```
 
 
