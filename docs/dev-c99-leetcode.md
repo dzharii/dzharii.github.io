@@ -99,3 +99,22 @@ int reverse(int n)
 
 
 
+### Binary length of an integer
+
+```c
+// Computes the length of the binary representation of n without leading zeros.
+static inline size_t uint32_bin_len(uint32_t n) {
+    size_t len = 0;
+    while (n != 0) {
+        ++len;
+        n >>= 1;
+    }
+    return len;
+}
+
+uint32_t n = 10; // ten is 0101 in binary
+printf("uint32_bin_len(10) = %zu\n", uint32_bin_len(n));
+// Output:
+// uint32_bin_len(10) = 4
+```
+
