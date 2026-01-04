@@ -40,46 +40,32 @@ javascript:(function () {
     return;
   }
 
-  const trashEmoji = '\u{1F5D1}\uFE0F';
+  const trashEmoji = "\u{1F5D1}\uFE0F";
 
   const prompts = [
-    {
-      title: "Search (default)",
-      prepend: "",
-      append: "",
-      params: { hints: "search" },
-    },
-    {
-      title: `${trashEmoji} Search (temporary chat)`,
-      prepend: "",
-      append: "",
-      params: { hints: "search", "temporary-chat": "true" },
-    },
+    { title: "Search (default)", prepend: "", append: "", params: { hints: "search" } },
+    { title: `${trashEmoji} Search (temporary chat)`, prepend: "", append: "", params: { hints: "search", "temporary-chat": "true" } },
     {
       title: "Correct grammar, keep my style",
-      prepend:
-        "Correct the grammar of the text below, but keep my style and tone. Only output the corrected text.\n\nText:\n",
+      prepend: "Correct the grammar of the text below, but keep my style and tone. Only output the corrected text.\n\nText:\n",
       append: "",
       params: {},
     },
     {
       title: `${trashEmoji}Correct grammar (temporary chat)`,
-      prepend:
-        "Correct the grammar of the text below, but keep my style and tone. Only output the corrected text.\n\nText:\n",
+      prepend: "Correct the grammar of the text below, but keep my style and tone. Only output the corrected text.\n\nText:\n",
       append: "",
       params: { "temporary-chat": "true" },
     },
     {
       title: "Summarize for engineers",
-      prepend:
-        "Summarize the following for a software engineer. Be precise. Include key points and any assumptions.\n\nContent:\n",
+      prepend: "Summarize the following for a software engineer. Be precise. Include key points and any assumptions.\n\nContent:\n",
       append: "",
       params: {},
     },
     {
       title: "Rewrite as concise professional email",
-      prepend:
-        "Rewrite the following as a concise, strictly professional email. Keep it direct and clear.\n\nDraft:\n",
+      prepend: "Rewrite the following as a concise, strictly professional email. Keep it direct and clear.\n\nDraft:\n",
       append: "",
       params: {},
     },
@@ -100,6 +86,88 @@ javascript:(function () {
 
     document.documentElement.appendChild(host);
     return host;
+  }
+
+  function createUI(wrap) {
+    const doc = wrap.ownerDocument || document;
+
+    const el = (tag, className, attrs, children) => {
+      const n = doc.createElement(tag);
+
+      if (className) n.className = className;
+
+      if (attrs) {
+        for (const [k, v] of Object.entries(attrs)) {
+          if (v === undefined || v === null) continue;
+          if (k === "text") n.textContent = String(v);
+          else if (k === "html") n.innerHTML = String(v);
+          else n.setAttribute(k, String(v));
+        }
+      }
+
+      if (children) {
+        for (const c of children) {
+          if (c === undefined || c === null) continue;
+          n.appendChild(typeof c === "string" ? doc.createTextNode(c) : c);
+        }
+      }
+
+      return n;
+    };
+
+    const win = el("div", "dgpt-win", { role: "dialog", "aria-label": "ChatGPT launcher" });
+
+    const titlebar = el("div", "dgpt-titlebar", { "data-drag": "1" });
+    const title = el("div", "dgpt-title", { text: "ChatGPT Quick Prompt" });
+    const btnClose = el("button", "dgpt-close", {
+      type: "button",
+      "aria-label": "Close",
+      title: "Close",
+      text: "×",
+    });
+    titlebar.append(title, btnClose);
+
+    const body = el("div", "dgpt-body");
+
+    const row = el("div", "dgpt-row");
+    const label = el("div", "dgpt-label", { text: "Prompt" });
+    const select = el("select", "dgpt-select", { "aria-label": "Prompt selector" });
+    row.append(label, select);
+
+    const textarea = el("textarea", "dgpt-textarea", {
+      "aria-label": "Your text",
+      placeholder: "Type here...",
+    });
+
+    const footer = el("div", "dgpt-footer");
+
+    const hint = el("div", "dgpt-hint");
+    hint.append(
+      el("span", "dgpt-kbd", { text: "Ctrl" }),
+      doc.createTextNode("+"),
+      el("span", "dgpt-kbd", { text: "Enter" }),
+      doc.createTextNode(" to open"),
+    );
+
+    const actions = el("div", "dgpt-actions");
+    const btnClear = el("button", "dgpt-btn dgpt-secondary", { type: "button", text: "Clear" });
+    const linkOpen = el("a", "dgpt-btn dgpt-primary", {
+      target: "_blank",
+      rel: "noopener noreferrer",
+      text: "Open in ChatGPT",
+    });
+    actions.append(btnClear, linkOpen);
+
+    footer.append(hint, actions);
+
+    const urlBox = el("div", "dgpt-url", { "aria-label": "Generated URL" });
+    const note = el("div", "dgpt-note", { text: "Tip: run the bookmarklet again to close." });
+
+    body.append(row, textarea, footer, urlBox, note);
+    win.append(titlebar, body);
+    wrap.appendChild(win);
+
+    return { win, titlebar, btnClose, select, textarea, btnClear, linkOpen, urlBox };
   }
 
   function createShadowUI(host) {
@@ -324,52 +392,12 @@ javascript:(function () {
 
     const wrap = document.createElement("div");
     wrap.className = "dgpt-wrap";
-    wrap.innerHTML = `
-<div class="dgpt-win" role="dialog" aria-label="ChatGPT launcher">
-  <div class="dgpt-titlebar" data-drag="1">
-    <div class="dgpt-title">ChatGPT Quick Prompt</div>
-    <button class="dgpt-close" type="button" aria-label="Close" title="Close">×</button>
-  </div>
-
-  <div class="dgpt-body">
-    <div class="dgpt-row">
-      <div class="dgpt-label">Prompt</div>
-      <select class="dgpt-select" aria-label="Prompt selector"></select>
-    </div>
-
-    <textarea
-      class="dgpt-textarea"
-      aria-label="Your text"
-      placeholder="Type here..."
-    ></textarea>
-
-    <div class="dgpt-footer">
-      <div class="dgpt-hint"><span class="dgpt-kbd">Ctrl</span>+<span class="dgpt-kbd">Enter</span> to open</div>
-      <div class="dgpt-actions">
-        <button class="dgpt-btn dgpt-secondary" type="button">Clear</button>
-        <a class="dgpt-btn dgpt-primary" target="_blank" rel="noopener noreferrer">Open in ChatGPT</a>
-      </div>
-    </div>
-
-    <div class="dgpt-url" aria-label="Generated URL"></div>
-    <div class="dgpt-note">Tip: run the bookmarklet again to close.</div>
-  </div>
-</div>
-    `.trim();
 
     shadow.appendChild(style);
     shadow.appendChild(wrap);
 
-    return {
-      win: shadow.querySelector(".dgpt-win"),
-      titlebar: shadow.querySelector(".dgpt-titlebar"),
-      btnClose: shadow.querySelector(".dgpt-close"),
-      select: shadow.querySelector(".dgpt-select"),
-      textarea: shadow.querySelector(".dgpt-textarea"),
-      btnClear: shadow.querySelector(".dgpt-secondary"),
-      linkOpen: shadow.querySelector(".dgpt-primary"),
-      urlBox: shadow.querySelector(".dgpt-url"),
-    };
+    const ui = createUI(wrap);
+    return ui;
   }
 
   function attachDragBehavior(host, win, titlebar) {
