@@ -1802,6 +1802,7 @@ javascript:(function () {
     const ui = createShadowUI(host);
 
     const COPILOT_SEARCH_BASE = "https://www.bing.com/copilotsearch";
+    const COPILOT_CHAT_BASE = "https://copilot.microsoft.com/";
 
     const basePrompts = [
       {
@@ -1810,14 +1811,14 @@ javascript:(function () {
         prepend: "",
         append: "",
         params: { FORM: "ANWSB6" },
-        aliases: ["s", "search", "c", "copilot"],
+        aliases: ["s", "search"],
       },
       {
         id: "rewrite",
         title: "Rewrite: concise and clear",
         prepend: "Rewrite the text below to be concise, clear, and professional. Preserve meaning and key details.\n\nText:\n",
         append: "",
-        params: { FORM: "ANWSB6" },
+        params: { sendquery: "1", showconv: "1", bypassredir: "1" },
         aliases: ["r", "rw", "rewrite"],
       },
       {
@@ -1826,7 +1827,7 @@ javascript:(function () {
         prepend:
           "Summarize the content below for a technical audience. Include action items, risks, and assumptions. Keep it compact.\n\nContent:\n",
         append: "",
-        params: { FORM: "ANWSB6" },
+        params: { sendquery: "1", showconv: "1", bypassredir: "1" },
         aliases: ["sum", "summarize"],
       },
       {
@@ -1835,7 +1836,7 @@ javascript:(function () {
         prepend:
           "Review the text below. Improve structure and logic, fix errors, and point out any ambiguities. Return an improved version plus a short list of issues.\n\nText:\n",
         append: "",
-        params: { FORM: "ANWSB6" },
+        params: { sendquery: "1", showconv: "1", bypassredir: "1" },
         aliases: ["rev", "review"],
       },
       {
@@ -1844,7 +1845,7 @@ javascript:(function () {
         prepend:
           "Turn the draft below into a direct, strictly professional email. Keep it short. Include a clear subject line.\n\nDraft:\n",
         append: "",
-        params: { FORM: "ANWSB6" },
+        params: { sendquery: "1", showconv: "1", bypassredir: "1" },
         aliases: ["mail", "email"],
       },
     ];
@@ -1880,10 +1881,17 @@ javascript:(function () {
         qs.set(k, s);
       }
 
-      qs.set("q", joined);
-      qs.set("pq", joined);
+      let url = "";
 
-      const url = COPILOT_SEARCH_BASE + "?" + qs.toString();
+      if (p.id === "search") {
+        qs.set("q", joined);
+        qs.set("pq", joined);
+        url = COPILOT_SEARCH_BASE + "?" + qs.toString();
+      } else {
+        qs.set("prompt", joined);
+        url = COPILOT_CHAT_BASE + "?" + qs.toString();
+      }
+
       ui.linkOpen.href = url;
       ui.urlBox.textContent = url;
     }
