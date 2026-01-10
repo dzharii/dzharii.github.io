@@ -6,8 +6,8 @@ Date: 2026-01-04
 2026-01-04
 
 ```js
-javascript:(function() { 
-  var currentUrl = window.location.href; 
+javascript:(function() {
+  var currentUrl = window.location.href;
   var prompt = [
     "You are given a transcript of a YouTube video at:\n",
     currentUrl, "\n\n",
@@ -20,9 +20,9 @@ javascript:(function() {
     "Do not use titles, headings, numbered lists, or bullet lists.\n",
     "Output only the paragraphs and occasional block quotes, as plain text.\n\n",
     "Wait for transcript content."
-  ].join(''); 
-  var newUrl = "https://chatgpt.com/?q=" + encodeURIComponent(prompt); 
-  window.open(newUrl, "_blank"); 
+  ].join('');
+  var newUrl = "https://chatgpt.com/?q=" + encodeURIComponent(prompt);
+  window.open(newUrl, "_blank");
 })();
 
 ```
@@ -271,12 +271,12 @@ javascript:(function () {
     const win = el("div", "dgpt-win", { role: "dialog", "aria-label": "ChatGPT launcher" });
 
     const titlebar = el("div", "dgpt-titlebar", { "data-drag": "1" });
-    const title = el("div", "dgpt-title", { text: "ChatGPT Quick Prompt" });
+    const title = el("div", "dgpt-title", { text: "ChatGPT" });
     const btnClose = el("button", "dgpt-close", {
       type: "button",
       "aria-label": "Close",
       title: "Close",
-      text: "x",
+      text: "×",
     });
     titlebar.append(title, btnClose);
 
@@ -292,35 +292,20 @@ javascript:(function () {
       placeholder: "Type here...",
     });
 
-    const footer = el("div", "dgpt-footer");
-
-    const hint = el("div", "dgpt-hint");
-    hint.append(
-      el("span", "dgpt-kbd", { text: "Ctrl" }),
-      doc.createTextNode("+"),
-      el("span", "dgpt-kbd", { text: "Enter" }),
-      doc.createTextNode(" to open")
-    );
-
-    const actions = el("div", "dgpt-actions");
-    const btnClear = el("button", "dgpt-btn dgpt-secondary", { type: "button", text: "Clear" });
+    const urlRow = el("div", "dgpt-url-row");
+    const urlBox = el("div", "dgpt-url", { "aria-label": "Generated URL" });
     const linkOpen = el("a", "dgpt-btn dgpt-primary", {
       target: "_blank",
       rel: "noopener noreferrer",
-      text: "Open in ChatGPT",
+      text: "ChatGPT →",
     });
-    actions.append(btnClear, linkOpen);
+    urlRow.append(urlBox, linkOpen);
 
-    footer.append(hint, actions);
-
-    const urlBox = el("div", "dgpt-url", { "aria-label": "Generated URL" });
-    const note = el("div", "dgpt-note", { text: "Tip: run the bookmarklet again to close." });
-
-    body.append(row, textarea, footer, urlBox, note);
+    body.append(row, textarea, urlRow);
     win.append(titlebar, body);
     wrap.appendChild(win);
 
-    return { win, titlebar, btnClose, select, textarea, btnClear, linkOpen, urlBox };
+    return { win, titlebar, btnClose, select, textarea, linkOpen, urlBox };
   }
 
   function createShadowUI(host) {
@@ -353,8 +338,9 @@ javascript:(function () {
   position: relative;
   display: flex;
   align-items: center;
-  padding: 12px 12px;
-  background: linear-gradient(135deg, #7c3aed, #a855f7);
+  justify-content: center;
+  padding: 6px 12px;
+  background: linear-gradient(135deg, #6d28d9 0%, #8b5cf6 50%, #a78bfa 100%);
   color: #ffffff;
   cursor: grab;
   user-select: none;
@@ -367,28 +353,29 @@ javascript:(function () {
   right: 0;
   bottom: 0;
   height: 1px;
-  background: rgba(255, 255, 255, 0.18);
+  background: rgba(255, 255, 255, 0.25);
 }
 
 .dgpt-title {
-  position: absolute;
-  left: 50%;
-  transform: translateX(-50%);
-  font-weight: 900;
-  letter-spacing: 0.2px;
-  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: 0.3px;
+  font-size: 13px;
   line-height: 1;
   text-align: center;
   white-space: nowrap;
+  text-shadow: 0 1px 2px rgba(0,0,0,0.1);
 }
 
 .dgpt-close {
-  margin-left: auto;
-  width: 34px;
-  height: 34px;
-  border-radius: 12px;
-  border: 2px solid rgba(255, 255, 255, 0.30);
-  background: rgba(255, 255, 255, 0.16);
+  position: absolute;
+  right: 8px;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 22px;
+  height: 22px;
+  border-radius: 6px;
+  border: 1px solid rgba(255, 255, 255, 0.35);
+  background: rgba(255, 255, 255, 0.18);
   color: #ffffff;
   cursor: pointer;
 
@@ -396,13 +383,14 @@ javascript:(function () {
   align-items: center;
   justify-content: center;
 
-  font-weight: 900;
-  font-size: 18px;
+  font-weight: 700;
+  font-size: 14px;
   line-height: 1;
+  transition: background 0.15s ease;
 }
 
-.dgpt-close:hover { background: rgba(255, 255, 255, 0.22); }
-.dgpt-close:active { transform: translateY(1px); }
+.dgpt-close:hover { background: rgba(255, 255, 255, 0.28); }
+.dgpt-close:active { transform: translateY(-50%) translateY(1px); }
 
 .dgpt-body {
   padding: 14px;
@@ -457,25 +445,11 @@ javascript:(function () {
   box-shadow: 0 0 0 4px rgba(124, 58, 237, 0.16);
 }
 
-.dgpt-footer {
+.dgpt-url-row {
   display: flex;
-  align-items: center;
-  justify-content: space-between;
   gap: 10px;
+  align-items: stretch;
   margin-top: 12px;
-}
-
-.dgpt-hint {
-  font-size: 12px;
-  color: #6b7280;
-  font-weight: normal;
-  letter-spacing: 0.1px;
-}
-
-.dgpt-actions {
-  display: flex;
-  gap: 10px;
-  align-items: center;
 }
 
 .dgpt-btn {
@@ -488,41 +462,27 @@ javascript:(function () {
   font-weight: normal;
   cursor: pointer;
   user-select: none;
+  flex-shrink: 0;
 
   border: 2px solid rgba(17, 24, 39, 0.12);
   box-shadow: 0 2px 0 rgba(17, 24, 39, 0.10);
+  transition: background 0.15s ease, box-shadow 0.15s ease;
 }
 
 .dgpt-btn:active { transform: translateY(1px); box-shadow: 0 1px 0 rgba(17, 24, 39, 0.10); }
 
-.dgpt-secondary {
-  background: #ffffff;
-  color: #111827;
-}
-
-.dgpt-secondary:hover { background: #f6f7fb; }
-
 .dgpt-primary {
-  background: linear-gradient(180deg, #FFEE91, #F5C857);
-  border-color: rgba(17, 24, 39, 0.10);
-  color: black;
+  background: linear-gradient(180deg, #fef08a 0%, #fde047 50%, #facc15 100%);
+  border-color: rgba(161, 98, 7, 0.25);
+  color: #78350f;
+  font-weight: 500;
+  box-shadow: 0 2px 0 rgba(161, 98, 7, 0.15), 0 1px 3px rgba(0,0,0,0.08);
 }
 
-.dgpt-primary:hover { filter: brightness(1.02); }
-
-.dgpt-kbd {
-  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
-  font-size: 11px;
-  padding: 2px 6px;
-  border-radius: 8px;
-  background: #f3f4f6;
-  border: 1px solid rgba(0, 0, 0, 0.10);
-  color: #111827;
-  font-weight: normal;
-}
+.dgpt-primary:hover { filter: brightness(1.04); box-shadow: 0 2px 0 rgba(161, 98, 7, 0.2), 0 2px 6px rgba(0,0,0,0.1); }
 
 .dgpt-url {
-  margin-top: 10px;
+  flex: 1;
   padding: 10px 12px;
   border-radius: 14px;
   background: #f6f7fb;
@@ -531,15 +491,8 @@ javascript:(function () {
   font-size: 11px;
   color: #374151;
   overflow: auto;
-  max-height: 170px;
+  max-height: 80px;
   word-wrap: break-word;
-}
-
-.dgpt-note {
-  margin-top: 8px;
-  font-size: 12px;
-  color: #6b7280;
-  font-weight: normal;
 }
     `.trim();
 
@@ -673,13 +626,6 @@ javascript:(function () {
       ui.urlBox.textContent = url;
     }
 
-    function openInNewTab() {
-      buildUrl();
-      const url = ui.linkOpen.href;
-      const w = window.open(url, "_blank");
-      if (w) w.opener = null;
-    }
-
     function selectPromptById(id) {
       const idx = catalog.indexById.get(id);
       if (typeof idx !== "number") return false;
@@ -717,7 +663,7 @@ javascript:(function () {
       prefixes: ["!", "/", "@"],
       commitKeys: [" ", "Enter"],
       maxCommandLen: 24,
-      keepDelimiter: true,
+      keepDelimiter: false,
       getState: () => currentIds(),
       resolveAction: (cmdLower, state) => {
         if (cmdLower === "temp" || cmdLower === "t" || cmdLower === "tmp") {
@@ -739,22 +685,8 @@ javascript:(function () {
     ui.select.addEventListener("change", buildUrl);
     ui.textarea.addEventListener("input", buildUrl);
 
-    ui.btnClear.addEventListener("click", () => {
-      ui.textarea.value = "";
-      ui.textarea.focus();
-      buildUrl();
-    });
-
     ui.btnClose.addEventListener("click", () => {
       host.remove();
-    });
-
-    ui.textarea.addEventListener("keydown", (e) => {
-      const isOpenCombo = (e.ctrlKey || e.metaKey) && e.key === "Enter";
-      if (!isOpenCombo) return;
-
-      e.preventDefault();
-      openInNewTab();
     });
 
     attachDragBehavior(host, ui.win, ui.titlebar);
@@ -867,7 +799,7 @@ javascript:(function () {
     const win = el("div", "dgpt-win", { role: "dialog", "aria-label": "ChatGPT launcher" });
 
     const titlebar = el("div", "dgpt-titlebar", { "data-drag": "1" });
-    const title = el("div", "dgpt-title", { text: "ChatGPT Quick Prompt" });
+    const title = el("div", "dgpt-title", { text: "ChatGPT" });
     const btnClose = el("button", "dgpt-close", {
       type: "button",
       "aria-label": "Close",
@@ -888,35 +820,20 @@ javascript:(function () {
       placeholder: "Type here...",
     });
 
-    const footer = el("div", "dgpt-footer");
-
-    const hint = el("div", "dgpt-hint");
-    hint.append(
-      el("span", "dgpt-kbd", { text: "Ctrl" }),
-      doc.createTextNode("+"),
-      el("span", "dgpt-kbd", { text: "Enter" }),
-      doc.createTextNode(" to open"),
-    );
-
-    const actions = el("div", "dgpt-actions");
-    const btnClear = el("button", "dgpt-btn dgpt-secondary", { type: "button", text: "Clear" });
+    const urlRow = el("div", "dgpt-url-row");
+    const urlBox = el("div", "dgpt-url", { "aria-label": "Generated URL" });
     const linkOpen = el("a", "dgpt-btn dgpt-primary", {
       target: "_blank",
       rel: "noopener noreferrer",
-      text: "Open in ChatGPT",
+      text: "ChatGPT →",
     });
-    actions.append(btnClear, linkOpen);
+    urlRow.append(urlBox, linkOpen);
 
-    footer.append(hint, actions);
-
-    const urlBox = el("div", "dgpt-url", { "aria-label": "Generated URL" });
-    const note = el("div", "dgpt-note", { text: "Tip: run the bookmarklet again to close." });
-
-    body.append(row, textarea, footer, urlBox, note);
+    body.append(row, textarea, urlRow);
     win.append(titlebar, body);
     wrap.appendChild(win);
 
-    return { win, titlebar, btnClose, select, textarea, btnClear, linkOpen, urlBox };
+    return { win, titlebar, btnClose, select, textarea, linkOpen, urlBox };
   }
 
   function createShadowUI(host) {
@@ -949,8 +866,9 @@ javascript:(function () {
   position: relative;
   display: flex;
   align-items: center;
-  padding: 12px 12px;
-  background: linear-gradient(135deg, #7c3aed, #a855f7);
+  justify-content: center;
+  padding: 6px 12px;
+  background: linear-gradient(135deg, #6d28d9 0%, #8b5cf6 50%, #a78bfa 100%);
   color: #ffffff;
   cursor: grab;
   user-select: none;
@@ -963,28 +881,29 @@ javascript:(function () {
   right: 0;
   bottom: 0;
   height: 1px;
-  background: rgba(255, 255, 255, 0.18);
+  background: rgba(255, 255, 255, 0.25);
 }
 
 .dgpt-title {
-  position: absolute;
-  left: 50%;
-  transform: translateX(-50%);
-  font-weight: 900;
-  letter-spacing: 0.2px;
-  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: 0.3px;
+  font-size: 13px;
   line-height: 1;
   text-align: center;
   white-space: nowrap;
+  text-shadow: 0 1px 2px rgba(0,0,0,0.1);
 }
 
 .dgpt-close {
-  margin-left: auto;
-  width: 34px;
-  height: 34px;
-  border-radius: 12px;
-  border: 2px solid rgba(255, 255, 255, 0.30);
-  background: rgba(255, 255, 255, 0.16);
+  position: absolute;
+  right: 8px;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 22px;
+  height: 22px;
+  border-radius: 6px;
+  border: 1px solid rgba(255, 255, 255, 0.35);
+  background: rgba(255, 255, 255, 0.18);
   color: #ffffff;
   cursor: pointer;
 
@@ -992,13 +911,14 @@ javascript:(function () {
   align-items: center;
   justify-content: center;
 
-  font-weight: 900;
-  font-size: 18px;
+  font-weight: 700;
+  font-size: 14px;
   line-height: 1;
+  transition: background 0.15s ease;
 }
 
-.dgpt-close:hover { background: rgba(255, 255, 255, 0.22); }
-.dgpt-close:active { transform: translateY(1px); }
+.dgpt-close:hover { background: rgba(255, 255, 255, 0.28); }
+.dgpt-close:active { transform: translateY(-50%) translateY(1px); }
 
 .dgpt-body {
   padding: 14px;
@@ -1053,25 +973,11 @@ javascript:(function () {
   box-shadow: 0 0 0 4px rgba(124, 58, 237, 0.16);
 }
 
-.dgpt-footer {
+.dgpt-url-row {
   display: flex;
-  align-items: center;
-  justify-content: space-between;
   gap: 10px;
+  align-items: stretch;
   margin-top: 12px;
-}
-
-.dgpt-hint {
-  font-size: 12px;
-  color: #6b7280;
-  font-weight: normal;
-  letter-spacing: 0.1px;
-}
-
-.dgpt-actions {
-  display: flex;
-  gap: 10px;
-  align-items: center;
 }
 
 .dgpt-btn {
@@ -1084,41 +990,27 @@ javascript:(function () {
   font-weight: normal;
   cursor: pointer;
   user-select: none;
+  flex-shrink: 0;
 
   border: 2px solid rgba(17, 24, 39, 0.12);
   box-shadow: 0 2px 0 rgba(17, 24, 39, 0.10);
+  transition: background 0.15s ease, box-shadow 0.15s ease;
 }
 
 .dgpt-btn:active { transform: translateY(1px); box-shadow: 0 1px 0 rgba(17, 24, 39, 0.10); }
 
-.dgpt-secondary {
-  background: #ffffff;
-  color: #111827;
-}
-
-.dgpt-secondary:hover { background: #f6f7fb; }
-
 .dgpt-primary {
-  background: linear-gradient(180deg, #FFEE91, #F5C857);
-  border-color: rgba(17, 24, 39, 0.10);
-  color: black;
+  background: linear-gradient(180deg, #fef08a 0%, #fde047 50%, #facc15 100%);
+  border-color: rgba(161, 98, 7, 0.25);
+  color: #78350f;
+  font-weight: 500;
+  box-shadow: 0 2px 0 rgba(161, 98, 7, 0.15), 0 1px 3px rgba(0,0,0,0.08);
 }
 
-.dgpt-primary:hover { filter: brightness(1.02); }
-
-.dgpt-kbd {
-  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
-  font-size: 11px;
-  padding: 2px 6px;
-  border-radius: 8px;
-  background: #f3f4f6;
-  border: 1px solid rgba(0, 0, 0, 0.10);
-  color: #111827;
-  font-weight: normal;
-}
+.dgpt-primary:hover { filter: brightness(1.04); box-shadow: 0 2px 0 rgba(161, 98, 7, 0.2), 0 2px 6px rgba(0,0,0,0.1); }
 
 .dgpt-url {
-  margin-top: 10px;
+  flex: 1;
   padding: 10px 12px;
   border-radius: 14px;
   background: #f6f7fb;
@@ -1127,15 +1019,8 @@ javascript:(function () {
   font-size: 11px;
   color: #374151;
   overflow: auto;
-  max-height: 170px;
+  max-height: 80px;
   word-wrap: break-word;
-}
-
-.dgpt-note {
-  margin-top: 8px;
-  font-size: 12px;
-  color: #6b7280;
-  font-weight: normal;
 }
     `.trim();
 
@@ -1239,32 +1124,11 @@ javascript:(function () {
       ui.urlBox.textContent = url;
     }
 
-    function openInNewTab() {
-      buildUrl();
-      const url = ui.linkOpen.href;
-      const w = window.open(url, "_blank");
-      if (w) w.opener = null;
-    }
-
     ui.select.addEventListener("change", buildUrl);
     ui.textarea.addEventListener("input", buildUrl);
 
-    ui.btnClear.addEventListener("click", () => {
-      ui.textarea.value = "";
-      ui.textarea.focus();
-      buildUrl();
-    });
-
     ui.btnClose.addEventListener("click", () => {
       host.remove();
-    });
-
-    ui.textarea.addEventListener("keydown", (e) => {
-      const isOpenCombo = (e.ctrlKey || e.metaKey) && e.key === "Enter";
-      if (!isOpenCombo) return;
-
-      e.preventDefault();
-      openInNewTab();
     });
 
     attachDragBehavior(host, ui.win, ui.titlebar);
@@ -1467,12 +1331,12 @@ javascript:(function () {
     const win = el("div", "dcop-win", { role: "dialog", "aria-label": "Copilot launcher" });
 
     const titlebar = el("div", "dcop-titlebar", { "data-drag": "1" });
-    const title = el("div", "dcop-title", { text: "Copilot Quick Prompt" });
+    const title = el("div", "dcop-title", { text: "Copilot" });
     const btnClose = el("button", "dcop-close", {
       type: "button",
       "aria-label": "Close",
       title: "Close",
-      text: "x",
+      text: "×",
     });
     titlebar.append(title, btnClose);
 
@@ -1488,35 +1352,20 @@ javascript:(function () {
       placeholder: "Ask Copilot or paste context here...",
     });
 
-    const footer = el("div", "dcop-footer");
-
-    const hint = el("div", "dcop-hint");
-    hint.append(
-      el("span", "dcop-kbd", { text: "Ctrl" }),
-      doc.createTextNode("+"),
-      el("span", "dcop-kbd", { text: "Enter" }),
-      doc.createTextNode(" to open")
-    );
-
-    const actions = el("div", "dcop-actions");
-    const btnClear = el("button", "dcop-btn dcop-secondary", { type: "button", text: "Clear" });
+    const urlRow = el("div", "dcop-url-row");
+    const urlBox = el("div", "dcop-url", { "aria-label": "Generated URL" });
     const linkOpen = el("a", "dcop-btn dcop-primary", {
       target: "_blank",
       rel: "noopener noreferrer",
-      text: "Open in Copilot",
+      text: "Copilot →",
     });
-    actions.append(btnClear, linkOpen);
+    urlRow.append(urlBox, linkOpen);
 
-    footer.append(hint, actions);
-
-    const urlBox = el("div", "dcop-url", { "aria-label": "Generated URL" });
-    const note = el("div", "dcop-note", { text: "Tip: run the bookmarklet again to close." });
-
-    body.append(row, textarea, footer, urlBox, note);
+    body.append(row, textarea, urlRow);
     win.append(titlebar, body);
     wrap.appendChild(win);
 
-    return { win, titlebar, btnClose, select, textarea, btnClear, linkOpen, urlBox };
+    return { win, titlebar, btnClose, select, textarea, linkOpen, urlBox };
   }
 
   function createShadowUI(host) {
@@ -1549,8 +1398,9 @@ javascript:(function () {
   position: relative;
   display: flex;
   align-items: center;
-  padding: 12px 12px;
-  background: linear-gradient(135deg, #0a63a8, #10b981);
+  justify-content: center;
+  padding: 6px 12px;
+  background: linear-gradient(135deg, #065f8a 0%, #0ea5e9 40%, #10b981 100%);
   color: #ffffff;
   cursor: grab;
   user-select: none;
@@ -1563,28 +1413,29 @@ javascript:(function () {
   right: 0;
   bottom: 0;
   height: 1px;
-  background: rgba(255, 255, 255, 0.18);
+  background: rgba(255, 255, 255, 0.25);
 }
 
 .dcop-title {
-  position: absolute;
-  left: 50%;
-  transform: translateX(-50%);
-  font-weight: 900;
-  letter-spacing: 0.2px;
-  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: 0.3px;
+  font-size: 13px;
   line-height: 1;
   text-align: center;
   white-space: nowrap;
+  text-shadow: 0 1px 2px rgba(0,0,0,0.1);
 }
 
 .dcop-close {
-  margin-left: auto;
-  width: 34px;
-  height: 34px;
-  border-radius: 12px;
-  border: 2px solid rgba(255, 255, 255, 0.30);
-  background: rgba(255, 255, 255, 0.14);
+  position: absolute;
+  right: 8px;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 22px;
+  height: 22px;
+  border-radius: 6px;
+  border: 1px solid rgba(255, 255, 255, 0.35);
+  background: rgba(255, 255, 255, 0.18);
   color: #ffffff;
   cursor: pointer;
 
@@ -1592,13 +1443,14 @@ javascript:(function () {
   align-items: center;
   justify-content: center;
 
-  font-weight: 900;
-  font-size: 18px;
+  font-weight: 700;
+  font-size: 14px;
   line-height: 1;
+  transition: background 0.15s ease;
 }
 
-.dcop-close:hover { background: rgba(255, 255, 255, 0.20); }
-.dcop-close:active { transform: translateY(1px); }
+.dcop-close:hover { background: rgba(255, 255, 255, 0.28); }
+.dcop-close:active { transform: translateY(-50%) translateY(1px); }
 
 .dcop-body {
   padding: 14px;
@@ -1653,25 +1505,11 @@ javascript:(function () {
   box-shadow: 0 0 0 4px rgba(10, 99, 168, 0.16);
 }
 
-.dcop-footer {
+.dcop-url-row {
   display: flex;
-  align-items: center;
-  justify-content: space-between;
   gap: 10px;
+  align-items: stretch;
   margin-top: 12px;
-}
-
-.dcop-hint {
-  font-size: 12px;
-  color: #64748b;
-  font-weight: normal;
-  letter-spacing: 0.1px;
-}
-
-.dcop-actions {
-  display: flex;
-  gap: 10px;
-  align-items: center;
 }
 
 .dcop-btn {
@@ -1684,41 +1522,27 @@ javascript:(function () {
   font-weight: normal;
   cursor: pointer;
   user-select: none;
+  flex-shrink: 0;
 
   border: 2px solid rgba(11, 18, 32, 0.12);
   box-shadow: 0 2px 0 rgba(11, 18, 32, 0.10);
+  transition: background 0.15s ease, box-shadow 0.15s ease;
 }
 
 .dcop-btn:active { transform: translateY(1px); box-shadow: 0 1px 0 rgba(11, 18, 32, 0.10); }
 
-.dcop-secondary {
-  background: #ffffff;
-  color: #0b1220;
-}
-
-.dcop-secondary:hover { background: #f3f7fb; }
-
 .dcop-primary {
-  background: linear-gradient(180deg, #e6fffb, #c7f9e9);
-  border-color: rgba(11, 18, 32, 0.10);
-  color: #0b1220;
+  background: linear-gradient(180deg, #d1fae5 0%, #6ee7b7 50%, #34d399 100%);
+  border-color: rgba(5, 150, 105, 0.25);
+  color: #064e3b;
+  font-weight: 500;
+  box-shadow: 0 2px 0 rgba(5, 150, 105, 0.15), 0 1px 3px rgba(0,0,0,0.08);
 }
 
-.dcop-primary:hover { filter: brightness(1.02); }
-
-.dcop-kbd {
-  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
-  font-size: 11px;
-  padding: 2px 6px;
-  border-radius: 8px;
-  background: #f1f5f9;
-  border: 1px solid rgba(0, 0, 0, 0.10);
-  color: #0b1220;
-  font-weight: normal;
-}
+.dcop-primary:hover { filter: brightness(1.04); box-shadow: 0 2px 0 rgba(5, 150, 105, 0.2), 0 2px 6px rgba(0,0,0,0.1); }
 
 .dcop-url {
-  margin-top: 10px;
+  flex: 1;
   padding: 10px 12px;
   border-radius: 14px;
   background: #f3f7fb;
@@ -1727,15 +1551,8 @@ javascript:(function () {
   font-size: 11px;
   color: #334155;
   overflow: auto;
-  max-height: 170px;
+  max-height: 80px;
   word-wrap: break-word;
-}
-
-.dcop-note {
-  margin-top: 8px;
-  font-size: 12px;
-  color: #64748b;
-  font-weight: normal;
 }
     `.trim();
 
@@ -1896,13 +1713,6 @@ javascript:(function () {
       ui.urlBox.textContent = url;
     }
 
-    function openInNewTab() {
-      buildUrl();
-      const url = ui.linkOpen.href;
-      const w = window.open(url, "_blank");
-      if (w) w.opener = null;
-    }
-
     function selectPromptById(id) {
       const idx = catalog.indexById.get(id);
       if (typeof idx !== "number") return false;
@@ -1931,7 +1741,7 @@ javascript:(function () {
       prefixes: ["!", "/", "@"],
       commitKeys: [" ", "Enter"],
       maxCommandLen: 24,
-      keepDelimiter: true,
+      keepDelimiter: false,
       resolveAction: (cmdLower) => {
         const id = resolveAliasOrUniquePrefix(cmdLower);
         return id ? { type: "select", id } : null;
@@ -1945,22 +1755,8 @@ javascript:(function () {
     ui.select.addEventListener("change", buildUrl);
     ui.textarea.addEventListener("input", buildUrl);
 
-    ui.btnClear.addEventListener("click", () => {
-      ui.textarea.value = "";
-      ui.textarea.focus();
-      buildUrl();
-    });
-
     ui.btnClose.addEventListener("click", () => {
       host.remove();
-    });
-
-    ui.textarea.addEventListener("keydown", (e) => {
-      const isOpenCombo = (e.ctrlKey || e.metaKey) && e.key === "Enter";
-      if (!isOpenCombo) return;
-
-      e.preventDefault();
-      openInNewTab();
     });
 
     attachDragBehavior(host, ui.win, ui.titlebar);
