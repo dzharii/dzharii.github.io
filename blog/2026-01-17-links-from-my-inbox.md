@@ -257,15 +257,7 @@ categories: links
 
 > ![image-20251129155807871](2026-01-17-links-from-my-inbox.assets/image-20251129155807871.png)
 >
-> 
->
-> <img src="2026-01-17-links-from-my-inbox.assets/Yummy.png" alt="Yummy" style="zoom:33%;" />
->
-> <img src="2026-01-17-links-from-my-inbox.assets/OG Clippy.png" alt="OG Clippy" style="zoom:33%;" />
->
-> <img src="2026-01-17-links-from-my-inbox.assets/Orange Clippy.png" alt="Orange Clippy" style="zoom:33%;" />
->
-> 
+
 
 
 
@@ -283,7 +275,7 @@ categories: links
 > The commit message format is:
 >
 > ```
-> <type> <subject>
+> [type] [subject]
 > 
 > [body]
 > 
