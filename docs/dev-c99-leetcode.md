@@ -138,6 +138,7 @@ Matrix_Int* matrix_int_create(size_t rows_count, size_t cols_count, int* optiona
 bool matrix_int_equal(const Matrix_Int* a, const Matrix_Int* b);
 bool matrix_int_copy(Matrix_Int* target, const Matrix_Int* source);
 bool matrix_int_rotate_90deg_clockwise_inplace(Matrix_Int* matrix);
+bool matrix_int_cyclic_shift_row(Matrix_Int* matrix, size_t row_index, int direction);
 
 // Implementation
 
@@ -263,10 +264,38 @@ bool matrix_int_rotate_90deg_clockwise_inplace(Matrix_Int* matrix) {
 
     return true;
 }
+
+bool matrix_int_cyclic_shift_row(Matrix_Int* matrix, size_t row_index, int direction) {
+    enum { DIR_LEFT = -1, DIR_RIGHT = 1 };
+
+    if (!matrix) return false;
+    if (!matrix->rows) return false;
+    if (row_index >= matrix->rows_count) return false;
+    if (direction != DIR_LEFT && direction != DIR_RIGHT) return false;
+    if (!matrix->rows[row_index]) return false;
+    if (matrix->cols_count <= 1) return true;
+
+    int* row = matrix->rows[row_index];
+    const size_t n = matrix->cols_count;
+    const int edge = (direction == DIR_LEFT) ? row[0] : row[n - 1];
+
+    if (direction == DIR_LEFT) {
+        memmove(&row[0], &row[1], (n - 1) * sizeof(row[0]));
+        row[n - 1] = edge;
+    } else {
+        memmove(&row[1], &row[0], (n - 1) * sizeof(row[0]));
+        row[0] = edge;
+    }
+
+    return true;
+}
+
 ```
 
 - `matrix_int_copy` copies values from `source` into an already allocated `target` of the same shape. 
 - `matrix_int_rotate_90deg_clockwise_inplace` rotates only square matrices and does not allocate a buffer. The clockwise mapping is `[r][c] -> [c][n - 1 - r]`.
+- `matrix_int_cyclic_shift_row` cyclically shifts a single row by one position in-place, either left or right. For a left shift, the mapping is `[row][c] -> [row][c - 1]` with column `0` wrapping to `cols_count - 1`. 
+   For a right shift, the mapping is `[row][c] -> [row][c + 1]` with column `cols_count - 1` wrapping to `0`.
 
 
 
