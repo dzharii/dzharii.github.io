@@ -721,6 +721,75 @@ int main() {
 
 > 💡 C99 keeps the standard library small, so engineers often reimplement common utilities -- strings, containers, parsing, algorithms. That repetition is a feature: it produces many competing designs you can read, compare, and learn a lot from because different approaches expose trade-offs and techniques.
 
+
+
+2026-05-23 [tspader/sp: A modern C standard library](https://github.com/tspader/sp) { github.com }
+
+> ![image-20260523115310539](dev-c99.assets/image-20260523115310539.png)
+
+> `sp.h` is a single-header library for C99. The idea is to make C feel more practical for everyday programming by adding common tools that C does not provide out of the box: better strings, dynamic arrays, formatting, file-system helpers, IO, hash tables, subprocess handling, memory allocators, UTF-8 utilities, threading wrappers, and more. The project describes itself as an ergonomic, portable, single-header standard library with zero dependencies, written in about 15,000 lines of plain C99. 
+>
+> The interesting part is that it tries to give C a small "modern standard library" experience without switching languages. For example, it has `sp_str_t` for pointer-plus-length strings, `sp_da` for dynamic arrays, `sp_fs` for file-system operations, and `sp_fmt` for type-safe formatting. The examples show small programs using these pieces together to write less boilerplate than normal C. 
+>
+> The thing to evaluate is the coupling. The core modules are always available through the base `sp.h`, and the examples naturally combine the library's own strings, memory, arrays, file-system helpers, formatting, and hash tables. That makes the library look useful as a full toolkit, but possibly harder to use as small independent pieces. 
+>
+> **Common components**
+>
+> - `sp_str`: pointer + length strings, not null-terminated.
+> - `sp_da`: STB-style dynamic arrays using a plain `T*` plus macros.
+> - `sp_fmt`: type-safe formatting, meant as a nicer replacement for `printf`.
+> - `sp_fs`: file-system and path helpers.
+> - `sp_io`: synchronous IO over files and buffers.
+> - `sp_ht` / `sp_hash_table`: hash tables with arbitrary keys and values.
+> - `sp_mem`: allocators, arenas, scratch memory, and memory APIs.
+> - `sp_ps`: subprocess handling with IO capture and redirection.
+> - `sp_utf8`: UTF-8 encoding, decoding, validation, and iteration.
+> - `sp_thread`, `sp_mutex`, `sp_semaphore`: thin threading and synchronization wrappers.
+> - `sp_time`: timers, date/time helpers, and epoch/time conversion.
+> - Extra headers under `sp/*.h`: asset loading, ELF parsing, globbing, MSVC discovery, CLI prompts, and math utilities.
+>
+> Main note: this is worth exploring as an example of making C more ergonomic with one integrated toolkit. But also check whether useful parts can be extracted independently, or whether the design expects adopting the whole `sp.h` ecosystem.
+
+Samples:
+
+```c
+#define SP_IMPLEMENTATION
+#include "sp.h"
+
+s32 main(void) {
+  sp_da(u32) years = sp_zero;
+
+  sp_da_push(years, 1969);
+  sp_da_push(years, 1972);
+
+  sp_da_for(years, it) {
+    sp_log("{}", sp_fmt_uint(years[it]));
+  }
+
+  return 0;
+}
+```
+
+```c
+#define SP_IMPLEMENTATION
+#include "sp.h"
+
+s32 main(void) {
+  sp_cstr_ht(s32) ht = sp_zero;
+
+  sp_cstr_ht_insert(ht, "veneta", 72);
+
+  s32* value = sp_cstr_ht_get(ht, "veneta");
+  if (value) {
+    sp_log("value: {}", sp_fmt_int(*value));
+  }
+
+  return 0;
+}
+```
+
+
+
 2025-10-03 [Klib — a generic library in C](https://attractivechaos.github.io/klib/#About) { attractivechaos.github.io }
 
 > [attractivechaos/klib: A standalone and lightweight C library](https://github.com/attractivechaos/klib) { github.com }
