@@ -82,6 +82,34 @@ int digits_count =
 ```
 
 
+**Count digits in signed integer**
+
+A signed variant of the Christmas tree. The sign contributes one character to the length.
+
+```c
+inline static int digit_len(int x) {
+    int sum = (x < 0);
+    if (sum) x = -x;
+
+    sum += (x < 1E1) ? 1 :
+           (x < 1E2) ? 2 :
+           (x < 1E3) ? 3 :
+           (x < 1E4) ? 4 :
+           (x < 1E5) ? 5 :
+           (x < 1E6) ? 6 :
+           (x < 1E7) ? 7 :
+           (x < 1E8) ? 8 :
+           (x < 1E9) ? 9 :
+           10;
+
+    return sum;
+}
+```
+
+The result is the length of the decimal representation, including the minus sign for negative values.
+
+`-x` overflows for `INT_MIN`, so this version assumes `x != INT_MIN`.
+
 
 ### Reverse digits in integer
 
