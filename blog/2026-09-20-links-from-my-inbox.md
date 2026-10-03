@@ -291,7 +291,6 @@ categories: links
 
 2024-01-22 [Autoencoder by Hand ✍️](https://www.byhand.ai/p/13-can-you-calculate-an-autoencoder) { www.byhand.ai }
 
-> ![Autoencoder by Hand ✍️](../../../projects2024/2026-09-20-telegram-parser/.work/telegram/60efa8d5949d/publication/2026-09-20-links-from-my-inbox.assets/image-20260816031604.png)
 >
 > Autoencoder by Hand ✍️ is a broad guide covering Network Architecture, Setup, Encoder, This post is for paid subscribers.
 >
