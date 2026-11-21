@@ -1,7 +1,7 @@
 # dev-cpp-snippets
 Date: 2025-05-26
 
-2025-05-27 [C++ Weekly - Ep 482 - Safely Wrapping C APIs - YouTube](https://www.youtube.com/watch?v=RtxZaKUtU-c) { www.youtube.com }
+2025-05-27 [C++ Weekly - Ep 482 - Safely Wrapping C APIs - YouTube](https://www.youtube.com/watch?v=RtxZaKUtU-c) \{ www.youtube.com \}
 
 The line:
 

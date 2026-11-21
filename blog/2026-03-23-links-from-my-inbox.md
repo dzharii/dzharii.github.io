@@ -7,7 +7,7 @@ categories: links
 
 ## Good Reads
 
-2026-03-23 [Five Years of Running a Systems Reading Group at Microsoft](https://armaansood.com/posts/systems-reading-group/) { armaansood.com }
+2026-03-23 [Five Years of Running a Systems Reading Group at Microsoft](https://armaansood.com/posts/systems-reading-group/) \{ armaansood.com \}
 
 > I started a reading group in 2021, a few months after joining Microsoft as a new grad on the Azure Databases team. The group was initially focused on database internals, which was my favorite subject at UW. Databases touch so many areas of CS: compiler construction in the query engine, memory management with the buffer pool, storage systems, algorithms, networking. It's almost a microcosm of the whole field. There's also plenty of active research and conferences, like [SIGMOD](https://sigmod.org/) and [VLDB](https://www.vldb.org/), so it never gets old.
 >
@@ -27,7 +27,7 @@ categories: links
 >
 > That was basically the format for the first couple of years. Someone would suggest a paper, we'd vote on it, and then we'd meet and discuss. We also had a side channel where people shared engineering blog posts and talks that caught their attention. That informal sharing turned out to be just as valuable as the readings.
 
-2026-02-12 [Using an engineering notebook | nicole@web](https://ntietz.com/blog/using-an-engineering-notebook/) { ntietz.com }
+2026-02-12 [Using an engineering notebook | nicole@web](https://ntietz.com/blog/using-an-engineering-notebook/) \{ ntietz.com \}
 
 > There are a lot of different practices, but there are some common characteristics between them:
 >
@@ -39,7 +39,7 @@ categories: links
 >
 > The level of detail is a particularly crucial bit, because, for your notes to be useful to yourself later? They have to be useful to someone else, too. Future you *is* someone else: you won't remember everything. So you have to assume you'll forget much of it.
 
-2026-02-09 [Large tech companies don't need heroes](https://www.seangoedecke.com/heroism/) { www.seangoedecke.com }
+2026-02-09 [Large tech companies don't need heroes](https://www.seangoedecke.com/heroism/) \{ www.seangoedecke.com \}
 
 > A shared belief in the mission can cause a small group of people to prioritize good software over their individual benefit, for a little while. But thousands of engineers can’t do that for decades. Past a certain point of scale, companies must depend on the strength of their systems.
 >
@@ -48,11 +48,11 @@ categories: links
 >
 > it’s important for engineers to pay attention to their *actual* rewards. Promotions, bonuses and raises are the hard currency of software companies. Giving those out shows what the company really values. Predators don’t control those things (if they did, they wouldn’t be predators). As a substitute, they attempt to appeal to a hero’s internal compulsion to be useful or to clean up inefficiencies.
 
-2026-02-08 [Finding and Fixing Ghostty's Largest Memory Leak Mitchell Hashimoto](https://mitchellh.com/writing/ghostty-memory-leak-fix) { mitchellh.com }
+2026-02-08 [Finding and Fixing Ghostty's Largest Memory Leak Mitchell Hashimoto](https://mitchellh.com/writing/ghostty-memory-leak-fix) \{ mitchellh.com \}
 
 > ![image-20260208150346438](2026-03-23-links-from-my-inbox.assets/image-20260208150346438.png)
 
-2026-02-08 [Software Engineering is back - by Alain](https://blog.alaindichiappari.dev/p/software-engineering-is-back) { blog.alaindichiappari.dev }
+2026-02-08 [Software Engineering is back - by Alain](https://blog.alaindichiappari.dev/p/software-engineering-is-back) \{ blog.alaindichiappari.dev \}
 
 > ![image-20260208113115897](2026-03-23-links-from-my-inbox.assets/image-20260208113115897.png)
 >
@@ -93,7 +93,7 @@ categories: links
 >
 > The opportunity now is to remove useless complexity and keep only the complexity that belongs to the product. Solve the problem you actually have, add complexity only when it arrives, and build systems that are genuinely yours.
 
-2026-01-24 [How I estimate work as a staff software engineer](https://www.seangoedecke.com/how-i-estimate-work/) { www.seangoedecke.com }
+2026-01-24 [How I estimate work as a staff software engineer](https://www.seangoedecke.com/how-i-estimate-work/) \{ www.seangoedecke.com \}
 
 > ![image-20260123165403226](2026-03-23-links-from-my-inbox.assets/image-20260123165403226.png)
 >
@@ -101,7 +101,7 @@ categories: links
 >
 > In a very real sense, **estimates aren’t even made by engineers at all**. If an engineering team comes up with a long estimate for a project that some VP really wants, they will be pressured into lowering it (or some other, more compliant engineering team will be handed the work). If the estimate on an undesirable project - or a project that’s intended to “hold space” for future unplanned work - is too short, the team will often be encouraged to increase it, or their manager will just add a 30% buffer.
 
-2026-01-22 [The challenges of soft delete | atlas9](https://atlas9.dev/blog/soft-delete.html) { atlas9.dev }
+2026-01-22 [The challenges of soft delete | atlas9](https://atlas9.dev/blog/soft-delete.html) \{ atlas9.dev \}
 
 > ![image-20260121212708944](2026-03-23-links-from-my-inbox.assets/image-20260121212708944.png)
 >
@@ -171,7 +171,7 @@ categories: links
 
 ## 📀 Backup (Research)
 
-2026-02-08 [Longevity of recordable blu-ray discs (BD-R / BD-RE)](https://www.iljitsch.com/2022/01-09-longevity-of-recordable-blu-ray-discs-bd-r-bd-re.html) { www.iljitsch.com }
+2026-02-08 [Longevity of recordable blu-ray discs (BD-R / BD-RE)](https://www.iljitsch.com/2022/01-09-longevity-of-recordable-blu-ray-discs-bd-r-bd-re.html) \{ www.iljitsch.com \}
 
 > ![image-20260208145608679](2026-03-23-links-from-my-inbox.assets/image-20260208145608679.png)
 >
@@ -191,13 +191,13 @@ categories: links
 
 ## 📺 ffmpeg and media
 
-2026-03-23 [FFmpeg 101](https://blogs.igalia.com/llepage/ffmpeg-101/) { blogs.igalia.com }
+2026-03-23 [FFmpeg 101](https://blogs.igalia.com/llepage/ffmpeg-101/) \{ blogs.igalia.com \}
 
 > ![image-20260323002742422](2026-03-23-links-from-my-inbox.assets/image-20260323002742422.png)
 >
 > A practical FFmpeg guide for developers working with the C libraries. It explains how libavformat and libavcodec fit together and builds that into a small video player example that opens a media file, reads stream data, decodes frames, and shows how the pieces connect in example code. Worth reading if you want a clear mental model of the FFmpeg pipeline and a concrete example you can build on.
 
-2026-03-23 [KittenML/KittenTTS: State-of-the-art TTS model under 25MB](https://github.com/KittenML/KittenTTS) { github.com }
+2026-03-23 [KittenML/KittenTTS: State-of-the-art TTS model under 25MB](https://github.com/KittenML/KittenTTS) \{ github.com \}
 
 > ![image-20260323003751188](2026-03-23-links-from-my-inbox.assets/image-20260323003751188.png)
 
@@ -205,16 +205,16 @@ categories: links
 
 ## 😁 Fun / Retro
 
-2026-03-23 [The worst volume control UI in the world | by Fabricio Teixeira | UX Collective](https://uxdesign.cc/the-worst-volume-control-ui-in-the-world-60713dc86950) { uxdesign.cc }
+2026-03-23 [The worst volume control UI in the world | by Fabricio Teixeira | UX Collective](https://uxdesign.cc/the-worst-volume-control-ui-in-the-world-60713dc86950) \{ uxdesign.cc \}
 
 > ![image-20260323001106132](2026-03-23-links-from-my-inbox.assets/image-20260323001106132.png)
 
-2026-02-23 [Windows 3.11 Emulator - retro computer with dial-up internet by Pieter](https://pieter.com/) { pieter.com }
+2026-02-23 [Windows 3.11 Emulator - retro computer with dial-up internet by Pieter](https://pieter.com/) \{ pieter.com \}
 
 >Emulated Windows 3.11 in the Browser 
 >![image-20260222233652995](2026-03-23-links-from-my-inbox.assets/image-20260222233652995.png)![image-20260222233636672](2026-03-23-links-from-my-inbox.assets/image-20260222233636672.png)
 
-2026-02-22 [VoxJong - CSS Mahjong Solitaire](https://voxjong.com/) { voxjong.com }
+2026-02-22 [VoxJong - CSS Mahjong Solitaire](https://voxjong.com/) \{ voxjong.com \}
 
 > Play VoxJong, a free CSS Mahjong Solitaire.
 >
@@ -224,19 +224,19 @@ categories: links
 
 ## 🏛️Philosophy 
 
-2026-01-18 [Dialogues, by Seneca. Translated by Aubrey Stewart - Free ebook download - Standard Ebooks: Free and liberated ebooks, carefully produced for the true book lover](https://standardebooks.org/ebooks/seneca/dialogues/aubrey-stewart) { standardebooks.org }
+2026-01-18 [Dialogues, by Seneca. Translated by Aubrey Stewart - Free ebook download - Standard Ebooks: Free and liberated ebooks, carefully produced for the true book lover](https://standardebooks.org/ebooks/seneca/dialogues/aubrey-stewart) \{ standardebooks.org \}
 
 > ![image-20260118142702673](2026-03-23-links-from-my-inbox.assets/image-20260118142702673.png)
 
-2026-01-18 [TheStoicLife.org - Lesson 1 - What is Good?](https://sites.google.com/site/thestoiclife/the-course/01) { sites.google.com }
+2026-01-18 [TheStoicLife.org - Lesson 1 - What is Good?](https://sites.google.com/site/thestoiclife/the-course/01) \{ sites.google.com \}
 
 > ![image-20260118142744796](2026-03-23-links-from-my-inbox.assets/image-20260118142744796.png)
 >
-> 2026-01-18 [TheStoicLife.org - Recommended Reading](https://sites.google.com/site/thestoiclife/recommended-reading) { sites.google.com }
+> 2026-01-18 [TheStoicLife.org - Recommended Reading](https://sites.google.com/site/thestoiclife/recommended-reading) \{ sites.google.com \}
 >
 > ![image-20260118142843607](2026-03-23-links-from-my-inbox.assets/image-20260118142843607.png)
 
-2026-01-18 [Tao of Seneca - Free PDFs - The Blog of Author Tim Ferriss](https://tim.blog/2017/07/06/tao-of-seneca/) { tim.blog }
+2026-01-18 [Tao of Seneca - Free PDFs - The Blog of Author Tim Ferriss](https://tim.blog/2017/07/06/tao-of-seneca/) \{ tim.blog \}
 
 > ![image-20260118142937334](2026-03-23-links-from-my-inbox.assets/image-20260118142937334.png)
 
@@ -244,7 +244,7 @@ categories: links
 
 ## 💖 Inspiration!
 
-2026-02-22 [We hid backdoors in ~40MB binaries and asked AI + Ghidra to find them - Quesma Blog](https://quesma.com/blog/introducing-binaryaudit/) { quesma.com }
+2026-02-22 [We hid backdoors in ~40MB binaries and asked AI + Ghidra to find them - Quesma Blog](https://quesma.com/blog/introducing-binaryaudit/) \{ quesma.com \}
 
 > We already did our experiments with using NSA software to hack a classic Atari game. This time we want to focus on a much more practical task — using AI agents for malware detection. We partnered with Michał “Redford” Kowalczyk, reverse engineering expert from Dragon Sector, known for finding malicious code in Polish trains, to create a benchmark of finding backdoors in binary executables, without access to source code.
 >
@@ -256,14 +256,14 @@ categories: links
 >
 > ![image-20260222134616256](2026-03-23-links-from-my-inbox.assets/image-20260222134616256.png)
 
-2026-02-22 [Timeline Map Intelligence Analysis](https://cia-factbook-archive.fly.dev/analysis/timeline) { cia-factbook-archive.fly.dev }
+2026-02-22 [Timeline Map Intelligence Analysis](https://cia-factbook-archive.fly.dev/analysis/timeline) \{ cia-factbook-archive.fly.dev \}
 
 > Watch global indicators evolve across 36 years of CIA World Factbook data
 >
 > ![image-20260222151047432](2026-03-23-links-from-my-inbox.assets/image-20260222151047432.png)
 > ![image-20260222151333316](2026-03-23-links-from-my-inbox.assets/image-20260222151333316.png)
 
-2026-02-22 [How I built Timeframe, our family e-paper dashboard - Joel Hawksley](https://hawksley.org/2026/02/17/timeframe.html) { hawksley.org }
+2026-02-22 [How I built Timeframe, our family e-paper dashboard - Joel Hawksley](https://hawksley.org/2026/02/17/timeframe.html) \{ hawksley.org \}
 
 > TL;DR: Over the past decade, I’ve worked to build the perfect family dashboard system for our home, called Timeframe. Combining calendar, weather, and smart home data, it’s become an important part of our daily lives.
 >
@@ -271,15 +271,15 @@ categories: links
 >
 > ![image-20260222133817077](2026-03-23-links-from-my-inbox.assets/image-20260222133817077.png)
 
-2026-02-21 [Index, Count, Offset, Size](https://tigerbeetle.com/blog/2026-02-16-index-count-offset-size/) { tigerbeetle.com }
+2026-02-21 [Index, Count, Offset, Size](https://tigerbeetle.com/blog/2026-02-16-index-count-offset-size/) \{ tigerbeetle.com \}
 
 > ![image-20260220204912491](2026-03-23-links-from-my-inbox.assets/image-20260220204912491.png)
 
-2026-02-19 [Cosmologically Unique IDs | Jason Fantl](https://jasonfantl.com/posts/Universal-Unique-IDs/) { jasonfantl.com }
+2026-02-19 [Cosmologically Unique IDs | Jason Fantl](https://jasonfantl.com/posts/Universal-Unique-IDs/) \{ jasonfantl.com \}
 
 > ![image-20260218214632081](2026-03-23-links-from-my-inbox.assets/image-20260218214632081.png)
 
-2026-02-16 [Intro to PyTorch Easy to follow, visual introduction.](https://0byte.io/articles/pytorch_introduction.html) { 0byte.io }
+2026-02-16 [Intro to PyTorch Easy to follow, visual introduction.](https://0byte.io/articles/pytorch_introduction.html) \{ 0byte.io \}
 
 > PyTorch is currently one of the most popular deep learning frameworks. It is an open-source library built upon the Torch Library (it's no longer in active development), and it was developed by Meta AI (previously Facebook AI). It is now part of the Linux Foundation.
 >
@@ -287,15 +287,15 @@ categories: links
 >
 > ![image-20260216215711040](2026-03-23-links-from-my-inbox.assets/image-20260216215711040.png)
 
-2026-01-22 [Zoom Escaper](https://zoomescaper.com/) { zoomescaper.com }
+2026-01-22 [Zoom Escaper](https://zoomescaper.com/) \{ zoomescaper.com \}
 
 > ![image-20260122000140920](2026-03-23-links-from-my-inbox.assets/image-20260122000140920.png)
 
-2026-01-22 [Disaster planning for regular folks: level-headed prepping tips](https://lcamtuf.coredump.cx/prep/index-old.shtml) { lcamtuf.coredump.cx }
+2026-01-22 [Disaster planning for regular folks: level-headed prepping tips](https://lcamtuf.coredump.cx/prep/index-old.shtml) \{ lcamtuf.coredump.cx \}
 
 > ![image-20260121225613984](2026-03-23-links-from-my-inbox.assets/image-20260121225613984.png)
 
-2026-01-19 [LosslessCut](https://mifi.no/losslesscut/) { mifi.no }
+2026-01-19 [LosslessCut](https://mifi.no/losslesscut/) \{ mifi.no \}
 
 > [Releases · mifi/lossless-cut](https://github.com/mifi/lossless-cut/releases)
 >
@@ -305,11 +305,11 @@ categories: links
 >
 > It supports lossless trimming/cutting, lossless merge/concatenation when codec parameters match, and lossless stream editing to combine tracks across files. It can extract tracks, remux to compatible containers, take full-resolution JPEG/PNG snapshots, apply preview timecode offsets, and change rotation/orientation metadata. It includes a timeline with zoom and frame/keyframe jumping, thumbnails and waveform, segment labeling, autosaved segment projects, CSV import/export for EDL-style cut lists, and visibility into the last FFmpeg command/log for CLI reruns
 
-2026-01-18 [Iconify - home of open source icons](https://icon-sets.iconify.design/) { icon-sets.iconify.design }
+2026-01-18 [Iconify - home of open source icons](https://icon-sets.iconify.design/) \{ icon-sets.iconify.design \}
 
 > ![image-20260118010008834](2026-03-23-links-from-my-inbox.assets/image-20260118010008834.png)
 
-2026-01-18 [Standard Ebooks](https://github.com/standardebooks) { github.com }
+2026-01-18 [Standard Ebooks](https://github.com/standardebooks) \{ github.com \}
 
 > ![image-20260118142228588](2026-03-23-links-from-my-inbox.assets/image-20260118142228588.png)
 
@@ -319,19 +319,19 @@ categories: links
 
 > Note, very old news!
 
-2026-02-22 [How I Use Claude Code | Boris Tane](https://boristane.com/blog/how-i-use-claude-code/) { boristane.com }
+2026-02-22 [How I Use Claude Code | Boris Tane](https://boristane.com/blog/how-i-use-claude-code/) \{ boristane.com \}
 
 > ![image-20260221200537705](2026-03-23-links-from-my-inbox.assets/image-20260221200537705.png)
 > The workflow I’m going to describe has one core principle: **never let Claude write code until you’ve reviewed and approved a written plan**. This separation of planning and execution is the single most important thing I do. It prevents wasted effort, keeps me in control of architecture decisions, and produces significantly better results with minimal token usage than jumping straight to code.
 
-2026-02-16 [OpenClaw, OpenAI and the future | Peter Steinberger](https://steipete.me/posts/2026/openclaw) { steipete.me }
+2026-02-16 [OpenClaw, OpenAI and the future | Peter Steinberger](https://steipete.me/posts/2026/openclaw) \{ steipete.me \}
 
 > The last month was a whirlwind, never would I have expected that my playground project would create such waves. The internet got weird again, and it’s been incredibly fun to see how my work inspired so many people around the world.
 > ~ ~ ~
 >
 > When I started exploring AI, my goal was to have fun and inspire people. And here we are, the lobster is taking over the world. My next mission is to build an agent that even my mum can use. That’ll need a much broader change, a lot more thought on how to do it safely, and access to the very latest models and research.
 
-2026-02-12 [peon-ping Stop babysitting your terminal](https://peon-ping.vercel.app/) { peon-ping.vercel.app }
+2026-02-12 [peon-ping Stop babysitting your terminal](https://peon-ping.vercel.app/) \{ peon-ping.vercel.app \}
 
 > Warcraft III Peon Voice Notifications for Claude Code 
 >
@@ -342,7 +342,7 @@ categories: links
 >
 > ![image-20260211233412541](2026-03-23-links-from-my-inbox.assets/image-20260211233412541.png)
 
-2026-02-07 [Beyond the AI Hype: What's Real, What's Next - Richard Campbell - NDC Copenhagen 2025 - YouTube](https://www.youtube.com/watch?v=U6BdiJsIHC8) { www.youtube.com }
+2026-02-07 [Beyond the AI Hype: What's Real, What's Next - Richard Campbell - NDC Copenhagen 2025 - YouTube](https://www.youtube.com/watch?v=U6BdiJsIHC8) \{ www.youtube.com \}
 
 > ![image-20260206233610836](2026-03-23-links-from-my-inbox.assets/image-20260206233610836.png)
 >
@@ -476,11 +476,11 @@ categories: links
 >
 > These tools raise the stakes again. They are powerful, not magical, and the outcomes depend on what people choose to do with them.
 
-2026-02-07 [pydantic/monty: A minimal, secure Python interpreter written in Rust for use by AI](https://github.com/pydantic/monty) { github.com }
+2026-02-07 [pydantic/monty: A minimal, secure Python interpreter written in Rust for use by AI](https://github.com/pydantic/monty) \{ github.com \}
 
 > ![image-20260206172540881](2026-03-23-links-from-my-inbox.assets/image-20260206172540881.png)
 
-2026-01-24 [Shipping at Inference-Speed | Peter Steinberger](https://steipete.me/posts/2025/shipping-at-inference-speed#my-config) { steipete.me }
+2026-01-24 [Shipping at Inference-Speed | Peter Steinberger](https://steipete.me/posts/2025/shipping-at-inference-speed#my-config) \{ steipete.me \}
 
 > ![image-20260124101430321](2026-03-23-links-from-my-inbox.assets/image-20260124101430321.png)
 
@@ -508,11 +508,11 @@ trust_level = "trusted"
 
 This allows the model to read more in one go, the defaults are a bit small and can limit what it sees. It fails silently, which is a pain and something they’ll eventually fix. Also, web search is still not on by default? `unified_exec` replaced tmux and my old `runner` script, rest’s neat too. And don’t be scared about compaction, ever since OpenAI switched to their new /compact endpoint, this works well enough that tasks can run across many compacts and will be finished. It’ll make things slower, but often acts like a review, and the model will find bugs when it looks at code again.
 
-2026-01-22 [Open sourcing a 1.5B parameter Next-Edit Autocomplete Model](https://blog.sweep.dev/posts/oss-next-edit) { blog.sweep.dev }
+2026-01-22 [Open sourcing a 1.5B parameter Next-Edit Autocomplete Model](https://blog.sweep.dev/posts/oss-next-edit) \{ blog.sweep.dev \}
 
 > ![image-20260121225513931](2026-03-23-links-from-my-inbox.assets/image-20260121225513931.png)
 
-2026-01-19 [Vibe Specs: Vibe Coding That Actually Works](https://lukebechtel.com/blog/vibe-speccing) { lukebechtel.com }
+2026-01-19 [Vibe Specs: Vibe Coding That Actually Works](https://lukebechtel.com/blog/vibe-speccing) \{ lukebechtel.com \}
 
 > ![image-20260118192152446](2026-03-23-links-from-my-inbox.assets/image-20260118192152446.png)
 > Speed does not matter if the result is wrong or unusable. The core claim is that AI-assisted coding often optimizes for fast output instead of correct intent, so the first priority should be locking down what "useful" means.
@@ -531,7 +531,7 @@ This allows the model to read more in one go, the defaults are a bit small and c
 >
 > The closing claim is that AI shifts the hardest part of development from typing code to deciding what code to write. The workflow is presented as a way to keep responsibility for intent with the developer while using the model as a drafting and implementation accelerator.
 
-2026-01-18 [Basic concepts | Structured LLM outputs](https://nanonets.com/cookbooks/structured-llm-outputs/basic-concepts) { nanonets.com }
+2026-01-18 [Basic concepts | Structured LLM outputs](https://nanonets.com/cookbooks/structured-llm-outputs/basic-concepts) \{ nanonets.com \}
 
 > ![image-20260117182129185](2026-03-23-links-from-my-inbox.assets/image-20260117182129185.png)
 >

@@ -9,11 +9,11 @@ categories: links
 
 ## Good Reads
 
-📌 2025-02-24 [Death of a thousand nits — Bitfield Consulting](https://bitfieldconsulting.com/posts/code-review/) { bitfieldconsulting.com }
+📌 2025-02-24 [Death of a thousand nits — Bitfield Consulting](https://bitfieldconsulting.com/posts/code-review/) \{ bitfieldconsulting.com \}
 
 > #codereview #collaboration #peersupport
 >
-> (found in 2025-02-24 [A calculator app?](https://programmingdigest.net/newsletters/1807) { programmingdigest.net })
+> (found in 2025-02-24 [A calculator app?](https://programmingdigest.net/newsletters/1807) \{ programmingdigest.net \})
 >
 > ![image-20250223172327189](2025-04-06-links-from-my-inbox.assets/image-20250223172327189.png)
 >
@@ -34,7 +34,7 @@ categories: links
 > - *Missed something out*. The code is fine as far as it goes, but there are cases the author hasn’t considered, or some important issues they’re overlooking. Use the “yes, and…” technique: “This looks great for the normal case, but I wonder what would happen if this input were really large, for example? Would it be a good idea to…?”
 > - *This is definitely wrong*. The author has just made a slip, or there’s something you know that they don’t know. This is your opportunity to enlighten them, with all due kindness and humility. Don’t just rattle off what’s wrong; take the time to phrase your response carefully, gracefully. Again, use questions and suggestions. “It looks like we log the error here, but continue anyway. Is it really safe to do that, if the result is `nil`? What do you think about returning the error here instead?”
 
-2025-04-06 [Ten Rules for Negotiating a Job Offer - haseeb qureshi](https://haseebq.com/my-ten-rules-for-negotiating-a-job-offer/) { haseebq.com }
+2025-04-06 [Ten Rules for Negotiating a Job Offer - haseeb qureshi](https://haseebq.com/my-ten-rules-for-negotiating-a-job-offer/) \{ haseebq.com \}
 
 > Tags: job negotiation, employment offers, negotiation strategies, career advice, salary negotiation, job market dynamics, offer evaluation, negotiation skills, employment agreements, professional development
 >
@@ -59,7 +59,7 @@ categories: links
 >
 > So let’s start from the top and try to walk through a negotiation process from the very beginning. For most, that starts when you receive an offer.
 
-2025-04-03 [Are People Bad At Their Jobs....or Are The Jobs Just Bad?](https://annehelen.substack.com/p/are-people-bad-at-their-jobsor-are) { annehelen.substack.com }
+2025-04-03 [Are People Bad At Their Jobs....or Are The Jobs Just Bad?](https://annehelen.substack.com/p/are-people-bad-at-their-jobsor-are) \{ annehelen.substack.com \}
 
 > Tags: #WorkplaceCulture, #JobSatisfaction, #EmployeePerformance, #ManagementIssues, #WorkEnvironment, #OrganizationalBehavior, #Productivity, #WorkplaceDynamics, #JobDesign, #EmployeeEngagement
 >
@@ -79,7 +79,7 @@ categories: links
 >
 > *"It is easier to think someone is lazy than to examine how they’ve been set up to fail."*
 
-2025-03-22 [Career Development:  What It Really Means to be a Manager, Director, or VP - Kellblog](https://kellblog.com/2015/03/08/career-development-what-it-really-means-to-be-a-manager-director-or-vp/) { kellblog.com }
+2025-03-22 [Career Development:  What It Really Means to be a Manager, Director, or VP - Kellblog](https://kellblog.com/2015/03/08/career-development-what-it-really-means-to-be-a-manager-director-or-vp/) \{ kellblog.com \}
 
 > Tags: career_growth, management_levels, VP_roles, leadership, executive_accountability, results_driven
 >
@@ -91,13 +91,13 @@ categories: links
 >
 > - **VPs are paid to make the plan**. Say you run marketing. Your job is to understand the company’s business situation, make a plan to address it, build consensus to get approval of that plan, and then go execute it.
 
-2025-03-21 [Unionize.fyi](https://unionize.fyi/) { unionize.fyi }
+2025-03-21 [Unionize.fyi](https://unionize.fyi/) \{ unionize.fyi \}
 
 > Tech Industry, Burnout, Unionizing, Job Security, Agile Methodology, Work-Life Balance, Ethics in Tech, Hacker Ethos, Innovation, Gig Economy, Mindfulness, Non-Compete Clauses, Tech Layoffs, Workers Rights, Alphabet Workers Union, Organizing, Surveillance Tech, Data Mining, AI Ethics, Industry Culture.
 >
 > We’re living in a world where billion dollar tech companies expect us to live and breathe code, demanding 80 hour weeks under the guise of "passion." And what do we get in return? Burnout, anxiety, and the constant threat of layoffs. It’s time to face facts: this industry is not your friend. It’s a machine, and unless we start organizing, it’s going to keep grinding us down. It’s time to talk about unionizing tech jobs.
 
-2025-03-18 [Breaking Up with On-Call ·](https://reflector.dev/articles/breaking-up-with-on-call/) { reflector.dev }
+2025-03-18 [Breaking Up with On-Call ·](https://reflector.dev/articles/breaking-up-with-on-call/) \{ reflector.dev \}
 
 > `on-call`, `startups`, `big-tech`, `AI`, `culture`
 >
@@ -113,7 +113,7 @@ categories: links
 
 > ![image-20250316233816346](2025-04-06-links-from-my-inbox.assets/image-20250316233816346.png)
 
-2025-03-10 ["You need to be more strategic" — a primer on strategy for software engineers | Writing by Dan Pupius](https://writing.pupius.co.uk/you-need-to-be-more-strategic-dc473a2aa319) { writing.pupius.co.uk }
+2025-03-10 ["You need to be more strategic" — a primer on strategy for software engineers | Writing by Dan Pupius](https://writing.pupius.co.uk/you-need-to-be-more-strategic-dc473a2aa319) \{ writing.pupius.co.uk \}
 
 >`strategy`, `softwareengineering`, `decisionmaking`, `frameworks`, `leadership`
 >
@@ -125,7 +125,7 @@ categories: links
 >
 >(found in [Programming Digest: Email Newsletter](https://programmingdigest.net/))
 
-2025-03-04 [Should managers still code?](https://theengineeringmanager.substack.com/p/should-managers-still-code) {theengineeringmanager.substack.com}
+2025-03-04 [Should managers still code?](https://theengineeringmanager.substack.com/p/should-managers-still-code) \{theengineeringmanager.substack.com\}
 
 > `management`, `engineering`, `coding`, `leadership`, `insights`
 >
@@ -193,13 +193,13 @@ categories: links
 
 > Wow I haven't seen this category for years!
 
-2025-03-15 [IO devices and latency — PlanetScale](https://planetscale.com/blog/io-devices-and-latency) { planetscale.com }
+2025-03-15 [IO devices and latency — PlanetScale](https://planetscale.com/blog/io-devices-and-latency) \{ planetscale.com \}
 
 > Here, we're going to cover the history, functionality, and performance of non-volatile storage devices over the history of computing, all using fun and interactive visual elements. This blog is written in celebration of our latest product release: PlanetScale Metal. Metal uses locally attached NVMe drives to run your cloud database, as opposed to the slower and less consistent network-attached storage used by most cloud database providers. This results in a blazing fast queries, low latency, and unlimited IOPS. Check out the docs to learn more.
 
 > ![image-20250314191445776](2025-04-06-links-from-my-inbox.assets/image-20250314191445776.png)
 
-2025-03-15 [Datacenter Anatomy Part 2 – Cooling Systems – SemiAnalysis](https://semianalysis.com/2025/02/13/datacenter-anatomy-part-2-cooling-systems/) { semianalysis.com }
+2025-03-15 [Datacenter Anatomy Part 2 – Cooling Systems – SemiAnalysis](https://semianalysis.com/2025/02/13/datacenter-anatomy-part-2-cooling-systems/) \{ semianalysis.com \}
 
 > ![image-20250315164434878](2025-04-06-links-from-my-inbox.assets/image-20250315164434878.png)
 
@@ -207,7 +207,7 @@ categories: links
 
 ## Electron no more!
 
-2025-03-18 [The Wails Project | Wails](https://wails.io/) { wails.io }
+2025-03-18 [The Wails Project | Wails](https://wails.io/) \{ wails.io \}
 
 > Build beautiful cross-platform applications using Go
 >
@@ -215,7 +215,7 @@ categories: links
 >
 > ![image-20250317182425204](2025-04-06-links-from-my-inbox.assets/image-20250317182425204.png)
 
-2025-03-18 [Tauri 2.0 | Tauri](https://tauri.app/) { tauri.app }
+2025-03-18 [Tauri 2.0 | Tauri](https://tauri.app/) \{ tauri.app \}
 
 > ![image-20250317182519384](2025-04-06-links-from-my-inbox.assets/image-20250317182519384.png)
 > Tauri 2.0 is a framework designed for creating small, fast, and secure cross-platform applications. It supports a wide range of operating systems, including Linux, macOS, Windows, Android, and iOS, enabling developers to build from a single codebase. Tauri is frontend-independent, allowing integration with any web stack, and uses inter-process communication to seamlessly combine JavaScript for the frontend and **Rust** for application logic. It prioritizes security, optimizes for minimal application size (as small as 600KB), and leverages Rust's performance and safety features to provide next-generation app solutions.
@@ -228,7 +228,7 @@ categories: links
 
 > 🗨️ try to [google](https://www.google.com/search?q=%22Ear+of+AI%22) / bing / ddg for "ear of AI"
 
-2025-04-07 [The “S” in MCP Stands for Security | by Elena Cross | Apr, 2025 | Medium](https://elenacross7.medium.com/%EF%B8%8F-the-s-in-mcp-stands-for-security-91407b33ed6b) { elenacross7.medium.com }
+2025-04-07 [The “S” in MCP Stands for Security | by Elena Cross | Apr, 2025 | Medium](https://elenacross7.medium.com/%EF%B8%8F-the-s-in-mcp-stands-for-security-91407b33ed6b) \{ elenacross7.medium.com \}
 
 > Tags: MCP, AI security, Model Context Protocol, command injection, tool poisoning, remote code execution, LLM vulnerabilities, agent security, tool integrity, session security
 >
@@ -243,7 +243,7 @@ categories: links
 >
 > ![image-20250406172102311](2025-04-06-links-from-my-inbox.assets/image-20250406172102311.png)
 
-2025-04-01 [Get the hell out of the LLM as soon as possible | sgnt.ai](https://sgnt.ai/p/hell-out-of-llms/) { sgnt.ai }
+2025-04-01 [Get the hell out of the LLM as soon as possible | sgnt.ai](https://sgnt.ai/p/hell-out-of-llms/) \{ sgnt.ai \}
 
 > Tags: LLMs, business logic, application development, decision-making, performance, debugging, testing, state management, security, AI limitations
 >
@@ -264,7 +264,7 @@ categories: links
 >
 > ![image-20250331210703605](2025-04-06-links-from-my-inbox.assets/image-20250331210703605.png)
 
-2025-04-01 [Sergey's Blog](https://www.sergey.fyi/articles/reliability-vs-capability) { www.sergey.fyi }
+2025-04-01 [Sergey's Blog](https://www.sergey.fyi/articles/reliability-vs-capability) \{ www.sergey.fyi \}
 
 > Tags: AI agents, reliability, capability, AI applications, AI limitations, AI development, AI ethics, AI safety, AI trustworthiness, AI performance
 >
@@ -278,11 +278,11 @@ categories: links
 >
 > ![image-20250331230514276](2025-04-06-links-from-my-inbox.assets/image-20250331230514276.png)
 
-2025-03-30 [stuzero/pg-mcp](https://github.com/stuzero/pg-mcp) { github.com }
+2025-03-30 [stuzero/pg-mcp](https://github.com/stuzero/pg-mcp) \{ github.com \}
 
 > A Model Context Protocol (MCP) server for PostgreSQL databases with enhanced capabilities for AI agents.
 
-2025-03-30 [simonw/llm: Access large language models from the command-line](https://github.com/simonw/llm) { github.com }
+2025-03-30 [simonw/llm: Access large language models from the command-line](https://github.com/simonw/llm) \{ github.com \}
 
 > A CLI utility and Python library for interacting with Large Language Models, both via remote APIs and models that can be installed and run on your own machine.
 >
@@ -292,7 +292,7 @@ categories: links
 >
 > Full documentation: **[llm.datasette.io](https://llm.datasette.io/)**
 
-2025-03-24 [Improving Recommendation Systems & Search in the Age of LLMs](https://eugeneyan.com/writing/recsys-llm/) { eugeneyan.com }
+2025-03-24 [Improving Recommendation Systems & Search in the Age of LLMs](https://eugeneyan.com/writing/recsys-llm/) \{ eugeneyan.com \}
 
 > **Tags:** recommendation systems, search systems, large language models, LLM integration, multimodal content, data generation, training paradigms, unified frameworks, Semantic IDs, M3CSR
 >
@@ -308,7 +308,7 @@ categories: links
 >
 > ![image-20250323211107224](2025-04-06-links-from-my-inbox.assets/image-20250323211107224.png)
 
-2025-04-06 [Exploring Generative AI](https://martinfowler.com/articles/exploring-gen-ai.html/) { martinfowler.com }
+2025-04-06 [Exploring Generative AI](https://martinfowler.com/articles/exploring-gen-ai.html/) \{ martinfowler.com \}
 
 > ![image-20250406163854093](2025-04-06-links-from-my-inbox.assets/image-20250406163854093.png)
 >
@@ -332,7 +332,7 @@ categories: links
 >
 > ![image-20250406180153015](2025-04-06-links-from-my-inbox.assets/image-20250406180153015.png)
 
-2025-03-20 [AI Blindspots | AI Blindspots](https://ezyang.github.io/ai-blindspots/) { ezyang.github.io }
+2025-03-20 [AI Blindspots | AI Blindspots](https://ezyang.github.io/ai-blindspots/) \{ ezyang.github.io \}
 
 > ![image-20250319220935086](2025-04-06-links-from-my-inbox.assets/image-20250319220935086.png)
 
@@ -359,17 +359,17 @@ categories: links
 > - [Culture Eats Strategy](https://ezyang.github.io/ai-blindspots/culture-eats-strategy/)
 > - [Rule of Three](https://ezyang.github.io/ai-blindspots/rule-of-three/)
 
-2025-03-13 [Ben ۗ ☁️ on X: "Reverse Engineering OpenAI Code Execution to make it run C + JavaScript" / X](https://x.com/benswerd/status/1899853533761200300) { x.com }
+2025-03-13 [Ben ۗ ☁️ on X: "Reverse Engineering OpenAI Code Execution to make it run C + JavaScript" / X](https://x.com/benswerd/status/1899853533761200300) \{ x.com \}
 
 > ![image-20250312202240535](2025-04-06-links-from-my-inbox.assets/image-20250312202240535.png)
 
-2025-03-05 [onyx-dot-app/onyx: Gen-AI Chat for Teams - Think ChatGPT if it had access to your team's unique knowledge.](https://github.com/onyx-dot-app/onyx) { github.com }
+2025-03-05 [onyx-dot-app/onyx: Gen-AI Chat for Teams - Think ChatGPT if it had access to your team's unique knowledge.](https://github.com/onyx-dot-app/onyx) \{ github.com \}
 
 > **[Onyx](https://www.onyx.app/)** (formerly Danswer) is the AI platform connected to your company's docs, apps, and people. Onyx provides a feature rich Chat interface and plugs into any LLM of your choice. Keep knowledge and access controls sync-ed across over 40 connectors like Google Drive, Slack, Confluence, Salesforce, etc. Create custom AI agents with unique prompts, knowledge, and actions that the agents can take. Onyx can be deployed securely anywhere and for any scale - on a laptop, on-premise, or to cloud.
 
 > ![image-20250304185953781](2025-04-06-links-from-my-inbox.assets/image-20250304185953781.png)
 
-2025-03-03 [OpenAdaptAI/OpenAdapt: Open Source Generative Process Automation (i.e. Generative RPA). AI-First Process Automation with Large ( Language (LLMs) / Action (LAMs) / Multimodal (LMMs)  / Visual Language (VLMs)) Models](https://github.com/OpenAdaptAI/OpenAdapt) { github.com }
+2025-03-03 [OpenAdaptAI/OpenAdapt: Open Source Generative Process Automation (i.e. Generative RPA). AI-First Process Automation with Large ( Language (LLMs) / Action (LAMs) / Multimodal (LMMs)  / Visual Language (VLMs)) Models](https://github.com/OpenAdaptAI/OpenAdapt) \{ github.com \}
 
 > OpenAdapt: AI-First Process Automation with Large Multimodal Models (LMMs).
 > OpenAdapt is the open source software adapter between Large Multimodal Models (LMMs) and traditional desktop and web Graphical User Interfaces (GUIs).
@@ -380,11 +380,11 @@ categories: links
 >
 > 
 
-2025-03-03 [Alkali-Sim/SmartestKid](https://github.com/Alkali-Sim/SmartestKid) { github.com }
+2025-03-03 [Alkali-Sim/SmartestKid](https://github.com/Alkali-Sim/SmartestKid) \{ github.com \}
 
 > A Windows desktop AI assistant built in Python. Assistant (without tools) is ~1000 lines of python code, with super simple chat UI inspired by the original AI, SmarterChild. Uses Windows COM automation to interface with Microsoft Office (Word, Excel), Images, and your file system. Perfect for Windows users looking to explore AI-powered desktop automation.
 
-2025-02-28 [superglue-ai/superglue: Self-healing open source data connector. Use it as a layer between you and any complex / legacy APIs and always get the data that you want in the format you expect.](https://github.com/superglue-ai/superglue) { github.com }
+2025-02-28 [superglue-ai/superglue: Self-healing open source data connector. Use it as a layer between you and any complex / legacy APIs and always get the data that you want in the format you expect.](https://github.com/superglue-ai/superglue) \{ github.com \}
 
 > self-healing open source data connector 🍯
 >
@@ -401,7 +401,7 @@ categories: links
 
 ## Usual ML
 
-2025-04-05 [2014 Understanding Machine Learning: From Theory to Algorithms](https://www.cs.huji.ac.il/~shais/UnderstandingMachineLearning/copy.html) { www.cs.huji.ac.il }
+2025-04-05 [2014 Understanding Machine Learning: From Theory to Algorithms](https://www.cs.huji.ac.il/~shais/UnderstandingMachineLearning/copy.html) \{ www.cs.huji.ac.il \}
 
 > Free Online Copy
 >
@@ -419,19 +419,19 @@ categories: links
 >
 > ![image-20250404190326487](2025-04-06-links-from-my-inbox.assets/image-20250404190326487.png)
 
-2025-03-22 [ 2206.13446  Pen and Paper Exercises in Machine Learning](https://arxiv.org/abs/2206.13446) { arxiv.org }
+2025-03-22 [ 2206.13446  Pen and Paper Exercises in Machine Learning](https://arxiv.org/abs/2206.13446) \{ arxiv.org \}
 
 > This is a collection of (mostly) pen-and-paper exercises in machine learning. The exercises are on the following topics: linear algebra, optimisation, directed graphical models, undirected graphical models, expressive power of graphical models, factor graphs and message passing, inference for hidden Markov models, model-based learning (including ICA and unnormalised models), sampling and Monte-Carlo integration, and variational inference.
 >
 > ![image-20250322141824009](2025-04-06-links-from-my-inbox.assets/image-20250322141824009.png)
 
-2025-03-22 [PyTorch internals : ezyang’s blog](https://blog.ezyang.com/2019/05/pytorch-internals/) { blog.ezyang.com }
+2025-03-22 [PyTorch internals : ezyang’s blog](https://blog.ezyang.com/2019/05/pytorch-internals/) \{ blog.ezyang.com \}
 
 > Tags: pytorch, cpp, internals, tensors, autograd, dispatch, storage, kernel, extension_points, contributions
 >
 > ![image-20250322122954583](2025-04-06-links-from-my-inbox.assets/image-20250322122954583.png)
 
-2025-03-18 [ 2503.02113  Deep Learning is Not So Mysterious or Different](https://arxiv.org/abs/2503.02113) { arxiv.org }
+2025-03-18 [ 2503.02113  Deep Learning is Not So Mysterious or Different](https://arxiv.org/abs/2503.02113) \{ arxiv.org \}
 
 > ![image-20250317203028034](2025-04-06-links-from-my-inbox.assets/image-20250317203028034.png)
 >
@@ -443,29 +443,29 @@ categories: links
 >
 > Generalization in deep learning can be understood with ideas like compressibility, which ties a model's performance to its ability to represent data simply. PAC-Bayes bounds reveal that even overparametrized models generalize effectively by balancing training accuracy with solution simplicity. Deep learning’s real distinction lies in its representation learning capabilities and phenomena like mode connectivity, making it versatile and universal in problem-solving.
 
-2025-03-13 [Random Forest Algorithm with Machine Learning](https://www.analyticsvidhya.com/blog/2021/06/understanding-random-forest/) {www.analyticsvidhya.com}
+2025-03-13 [Random Forest Algorithm with Machine Learning](https://www.analyticsvidhya.com/blog/2021/06/understanding-random-forest/) \{www.analyticsvidhya.com\}
 
 > ![image-20250312231046146](2025-04-06-links-from-my-inbox.assets/image-20250312231046146.png)
 
-2025-03-13 [ 1407.7502  Understanding Random Forests: From Theory to Practice](https://arxiv.org/abs/1407.7502) {arxiv.org}
+2025-03-13 [ 1407.7502  Understanding Random Forests: From Theory to Practice](https://arxiv.org/abs/1407.7502) \{arxiv.org\}
 
 > ![image-20250312231133032](2025-04-06-links-from-my-inbox.assets/image-20250312231133032.png)
 
-2025-03-13 [Random Forest | TDS Archive](https://medium.com/towards-data-science/random-forest-explained-a-visual-guide-with-code-examples-9f736a6e1b3c) {medium.com}
+2025-03-13 [Random Forest | TDS Archive](https://medium.com/towards-data-science/random-forest-explained-a-visual-guide-with-code-examples-9f736a6e1b3c) \{medium.com\}
 
 > ![image-20250312231324992](2025-04-06-links-from-my-inbox.assets/image-20250312231324992.png)
 
-2025-03-13 [Random Forest Algorithm Clearly Explained! - YouTube](https://www.youtube.com/watch?v=v6VJ2RO66Ag) {www.youtube.com}
+2025-03-13 [Random Forest Algorithm Clearly Explained! - YouTube](https://www.youtube.com/watch?v=v6VJ2RO66Ag) \{www.youtube.com\}
 
 > ![image-20250312231434326](2025-04-06-links-from-my-inbox.assets/image-20250312231434326.png)
 
-2025-03-13 [Random Forest](https://mlu-explain.github.io/random-forest/) {mlu-explain.github.io}
+2025-03-13 [Random Forest](https://mlu-explain.github.io/random-forest/) \{mlu-explain.github.io\}
 
 > ![image-20250312231658713](2025-04-06-links-from-my-inbox.assets/image-20250312231658713.png)
 
 > ![image-20250312231756116](2025-04-06-links-from-my-inbox.assets/image-20250312231756116.png)
 
-2025-03-11 [How to Implement a Cosine Similarity Function in TypeScript for Vector Comparison | alexop.dev](https://alexop.dev/posts/how-to-implement-a-cosine-similarity-function-in-typescript-for-vector-comparison/) { alexop.dev }
+2025-03-11 [How to Implement a Cosine Similarity Function in TypeScript for Vector Comparison | alexop.dev](https://alexop.dev/posts/how-to-implement-a-cosine-similarity-function-in-typescript-for-vector-comparison/) \{ alexop.dev \}
 
 > `cosine_similarity`, `vectors`, `typescript`, `ai`, `mathematics`
 >
@@ -473,7 +473,7 @@ categories: links
 >
 > ![image-20250311001955602](2025-04-06-links-from-my-inbox.assets/image-20250311001955602.png)
 
-2025-03-11 [Bloom Filter: A Deep Dive](https://www.kirupa.com/data_structures_algorithms/bloom_filter.htm/) { www.kirupa.com }
+2025-03-11 [Bloom Filter: A Deep Dive](https://www.kirupa.com/data_structures_algorithms/bloom_filter.htm/) \{ www.kirupa.com \}
 
 
 > `data_structures`, `algorithms`, `bloom_filters`, `hash_functions`, `probabilistic_methods`

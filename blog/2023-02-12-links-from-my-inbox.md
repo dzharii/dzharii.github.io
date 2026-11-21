@@ -43,7 +43,7 @@ categories: links
 
 ## Apache Spark, SQL, BigData
 
-2023-02-12 [Spark SQL Shuffle Partitions - Spark By {Examples}](https://sparkbyexamples.com/spark/spark-shuffle-partitions/) 
+2023-02-12 [Spark SQL Shuffle Partitions - Spark By \{Examples\}](https://sparkbyexamples.com/spark/spark-shuffle-partitions/)
 
 > In this Apache Spark Tutorial, you will learn Spark with Scala code examples and every sample example explained here is available at [Spark Examples Github Project](https://github.com/spark-examples) for reference. All Spark examples provided in this Apache Spark Tutorial are basic, simple, and easy to practice for beginners who are enthusiastic to learn Spark, and these sample examples were tested in our development environment.
 

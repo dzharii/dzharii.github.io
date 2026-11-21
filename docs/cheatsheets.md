@@ -200,13 +200,13 @@ git log -L:add:src/calculator.ts
 
 ## Code
 
-2024-12-26 [CPP / C++ - Bookmarks](https://caiorss.github.io/C-Cpp-Notes/bookmarks.html) { caiorss.github.io }
+2024-12-26 [CPP / C++ - Bookmarks](https://caiorss.github.io/C-Cpp-Notes/bookmarks.html) \{ caiorss.github.io \}
 
 > See section: **1.11 Reference Cards for shell scripting languages and command line tools**
 
 > ![image-20241226155043581](cheatsheets.assets/image-20241226155043581.png)
 
-2024-12-26 [Devhints — TL;DR for developer documentation](https://devhints.io/) { devhints.io }
+2024-12-26 [Devhints — TL;DR for developer documentation](https://devhints.io/) \{ devhints.io \}
 
 > Amazing collection of cheat sheets for various programming languages.
 >
@@ -248,6 +248,6 @@ git log -L:add:src/calculator.ts
 
 ## Media processing 
 
-2025-01-16 [FFmpeg By Example](https://ffmpegbyexample.com/) { ffmpegbyexample.com }
+2025-01-16 [FFmpeg By Example](https://ffmpegbyexample.com/) \{ ffmpegbyexample.com \}
 
 > ![image-20250222004928370](cheatsheets.assets/image-20250222004928370.png)

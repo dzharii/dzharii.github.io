@@ -230,7 +230,7 @@ function noshow (el) { setshow(el, false) }
 > Using Function Calling to get a consistent output
 > To address the issue of inconsistent output from GPT API, we can utilize function calling in our API requests. Let's consider an example scenario where we want to build a quiz app and generate a list of quiz questions using GPT API. Before function, we would have to ask the model to respond in a certain format, and manually parse the output. By leveraging function calling, we can ensure that the generated output is consistent.
 >
-> Here's an example code snippet in TypeScript that demonstrates how to achieve this { ... code ...}
+> Here's an example code snippet in TypeScript that demonstrates how to achieve this \{ ... code ...\}
 
 ```js
 // Make the API request with function calling

@@ -131,67 +131,67 @@ https://github.com/rofl0r/endianness.h
 > endianness.h is a one-file, public-domain C header that detects host byte-order at compile time (defines `ENDIANNESS_LE/BE`), and includes endian conversion macros (e.g. `end_htobe32`, `end_be32toh`, `end_bswap64`); portable across GCC, Clang, MSVC, fallback logic included.
 >  *Tags:* C, Endianness, Single-header, Public-domain
 
-https://github.com/siu/minunit { minimal testing }
+https://github.com/siu/minunit \{ minimal testing \}
 
 > Minunit is a minimal C/C++ unit testing framework contained in a single header that supports test suites, basic assertion macros, reporting of tests run, assertions, failures, and elapsed time; very portable, unspecified build system, MIT licensed.
 >  *Tags:* C, C++, Testing, MIT
 
-https://github.com/silentbicycle/greatest { lightweight testing }
+https://github.com/silentbicycle/greatest \{ lightweight testing \}
 
 > greatest is a single-header C testing library (usable from C++) with no dependencies or dynamic allocation, providing assertion macros, suites, filtering, and optional command-line runner; ANSI C89 portable, unspecified build system, ISC licensed.
 >  *Tags:* C, C++, Testing, ISC
 
-https://github.com/r-lyeh/single_file_libs { aggregation list }
+https://github.com/r-lyeh/single_file_libs \{ aggregation list \}
 
 > single_file_libs aggregates a curated collection of small, easy-to-integrate single- or dual-file C/C++ libraries aimed at portability across major platforms and 32/64-bit systems; build systems vary per library, minimal dependencies, permissive (often public-domain or clause-less) licenses.
 >  *Tags:* C, C++, Utility, Permissive
 
-https://github.com/arkanis/single-header-file-c-libs { STB-style collection }
+https://github.com/arkanis/single-header-file-c-libs \{ STB-style collection \}
 
 > single-header-file-c-libs is a collection of small STB-style single-header C libraries (e.g. 3D math, OpenGL shorthand, Gaussian blur, signed-distance fields, hashmaps, test utilities), all under the MIT license and targeted at portability.
 >  *Tags:* C, Graphics, Utility, MIT
 
-https://github.com/empyreanx/pico_headers { game-oriented headers }
+https://github.com/empyreanx/pico_headers \{ game-oriented headers \}
 
 > pico_headers is a set of cross-platform single-header C libraries for game development (covering Base64, ECS, graphics, OpenGL, collision detection, logging, math, quadtree, time, unit testing); runs on Linux, Windows, and macOS; build system unspecified, mostly licensed under zlib or public domain (some MIT).
 >  *Tags:* C, Game-Dev, Cross-Platform, Permissive
 
-https://github.com/Cubified/tuibox { terminal UI }
+https://github.com/Cubified/tuibox \{ terminal UI \}
 
 > tuibox is a single-header C terminal UI (TUI) library for building mouse-driven, interactive command-line applications using pure ANSI escape sequences; no dependencies, highly portable, unspecified build system, permissive license (likely public-domain or similar).
 >  *Tags:* C, TUI, ANSI, Permissive
 
-https://github.com/Cubified/vt100utils { ANSI-sequence handling }
+https://github.com/Cubified/vt100utils \{ ANSI-sequence handling \}
 
 > vt100utils is a single-header C library for encoding, decoding, and manipulating ANSI graphic escape sequences, supporting multiple palettes (8-color, 256-color, truecolor), formatting modes (bold, underline, italic, blinking), fault-tolerant parsing, and ANSI-aware text wrapping/truncation; highly portable, unspecified build system, permissive license.
 >  *Tags:* C, ANSI, Utility, Permissive
 
-https://github.com/termbox/termbox2 { TUI I/O }
+https://github.com/termbox/termbox2 \{ TUI I/O \}
 
 > termbox2 is a terminal I/O library in C for building TUIs, offering a slim alternative to ncurses with a tighter, single-header API, built-in terminal support (no terminfo needed), optional 32-bit color, extended grapheme cluster support, error checking, and both header-only and traditional library build modes; highly portable, MIT licensed.
 >  *Tags:* C, TUI, Terminal, MIT
 
-https://github.com/hanilr/variation-ui { single-header TUI }
+https://github.com/hanilr/variation-ui \{ single-header TUI \}
 
 > variation-ui is a single-header terminal user interface library written in ANSI-C, providing a simple, easy-to-learn API for building TUIs with a small codebase; portable, requires GCC and Make, MIT licensed.
 >  *Tags:* C, TUI, ANSI, MIT
 
-https://github.com/Malwarize/ctermui { component-based TUI }
+https://github.com/Malwarize/ctermui \{ component-based TUI \}
 
 > ctermui is a component-based terminal UI library in C offering widgets like buttons, labels, progress bars, charts, forms, layouts (horizontal/vertical/nested/percentage), custom component callbacks, and keyboard event handling; portable, uses Make, MIT licensed.
 >  *Tags:* C, TUI, Widgets, MIT
 
-https://github.com/eidheim/tiny-process-library { process control }
+https://github.com/eidheim/tiny-process-library \{ process control \}
 
 > tiny-process-library is a small, platform-independent C++ library for launching and managing processes, facilitating writing to stdin and reading from stdout and stderr, cleanly terminating or killing processes, with no external dependencies and MIT licensed.
 >  *Tags:* C++, Process-Control, Cross-Platform, MIT
 
-https://github.com/DaanDeMeyer/reproc { process control }
+https://github.com/DaanDeMeyer/reproc \{ process control \}
 
 > reproc is a cross-platform C99 and C++11 library that simplifies starting, stopping, and communicating with external programs; includes a minimal C API and a more idiomatic C++ wrapper with extras like cleanup-friendly termination; very portable, built with CMake, MIT licensed.
 >  *Tags:* C, C++, Process-Control, MIT
 
-https://github.com/sheredom/subprocess.h { single-header process launching }
+https://github.com/sheredom/subprocess.h \{ single-header process launching \}
 
 > subprocess.h is a single-header C/C++ library for launching subprocesses and interacting with their stdin, stdout, stderr, including async reading, custom environments, and termination options across Linux, macOS, and Windows; highly portable, no build system needed, public-domain (Unlicense).
 >  *Tags:* C, C++, Process-Control, Public-Domain

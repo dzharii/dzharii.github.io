@@ -9,7 +9,7 @@ categories: links
 
 ## ⌚ Nice watch!
 
-2026-04-28 [Spec-Driven Dev Is Back. But Not How You Think Daniel Terhorst-North & Gojko Adzic GOTO 2026 - YouTube](https://www.youtube.com/watch?v=6mLYZF97oaU) { www.youtube.com }
+2026-04-28 [Spec-Driven Dev Is Back. But Not How You Think Daniel Terhorst-North & Gojko Adzic GOTO 2026 - YouTube](https://www.youtube.com/watch?v=6mLYZF97oaU) \{ www.youtube.com \}
 
 > ![image-20260427193932179](2026-05-02-links-from-my-inbox.assets/image-20260427193932179.png)
 >
@@ -83,7 +83,7 @@ categories: links
 >
 > The most interesting shift is from "AI writes code" to "AI helps build a better engineering environment." The deeper value is not generated output alone, but faster creation of tests, checks, feedback loops, and local development tools.
 
-2026-05-02 [Age of Empires: 25+ years of pathfinding problems with C++ - Raymi Klingers - Meeting C++ 2025 - YouTube](https://www.youtube.com/watch?v=lEBQveBCtKY) { www.youtube.com }
+2026-05-02 [Age of Empires: 25+ years of pathfinding problems with C++ - Raymi Klingers - Meeting C++ 2025 - YouTube](https://www.youtube.com/watch?v=lEBQveBCtKY) \{ www.youtube.com \}
 
 > ![image-20260502133842453](2026-05-02-links-from-my-inbox.assets/image-20260502133842453.png)
 >
@@ -107,7 +107,7 @@ categories: links
 
 ## 🔫 C || C++
 
-2026-03-29 [containers/bubblewrap](https://github.com/containers/bubblewrap) { github.com }
+2026-03-29 [containers/bubblewrap](https://github.com/containers/bubblewrap) \{ github.com \}
 
 > Low-level unprivileged sandboxing tool used by Flatpak and similar projects
 >
@@ -121,18 +121,18 @@ categories: links
 
 ## 💖 Inspiration!
 
-2026-03-31 [codingfont](https://www.codingfont.com/) { www.codingfont.com }
+2026-03-31 [codingfont](https://www.codingfont.com/) \{ www.codingfont.com \}
 
 > ![image-20260330182433908](2026-05-02-links-from-my-inbox.assets/image-20260330182433908.png)
 
-2026-03-29 [I Decompiled the White House's New App](https://blog.thereallo.dev/blog/decompiling-the-white-house-app) { blog.thereallo.dev }
+2026-03-29 [I Decompiled the White House's New App](https://blog.thereallo.dev/blog/decompiling-the-white-house-app) \{ blog.thereallo.dev \}
 
 ![image-20260329131207951](2026-05-02-links-from-my-inbox.assets/image-20260329131207951.png)
 
 > The app has a WebView for opening external links. Every time a page loads in this WebView, the app injects a JavaScript snippet. I found it in the Hermes bytecode string table:
 >
 > ```javascript
-> (function() {
+> (function() \{
 > var css = document.createElement('style');
 > css.textContent = [
 >  '[class*="cookie"], [id*="cookie"], [class*="Cookie"], [id*="Cookie"]',
@@ -147,19 +147,19 @@ categories: links
 >  '[class*="upsell"], [class*="Upsell"]',
 >  '.cmpboxBtnYes, .cmpbox, #cmpbox, .cmpboxBG',
 >  '[class*="banner-cookie"], [class*="CookieBanner"]',
-> ].join(',') + '{ display: none !important; visibility: hidden !important; }';
-> css.textContent += 'body { overflow: auto !important; }';
+> ].join(',') + '\{ display: none !important; visibility: hidden !important; \}';
+> css.textContent += 'body \{ overflow: auto !important; \}';
 > document.head.appendChild(css);
 > 
-> var observer = new MutationObserver(function() {
+> var observer = new MutationObserver(function() \{
 >  var els = document.querySelectorAll(
 >    '[class*="cookie" i], [class*="consent" i], [class*="gdpr" i], '
 >       + '[id*="cookie" i], [id*="consent" i]'
 >     );
->     els.forEach(function(el) { el.style.display = 'none'; });
->   });
->   observer.observe(document.body, { childList: true, subtree: true });
-> })();
+>     els.forEach(function(el) \{ el.style.display = 'none'; \});
+>   \});
+>   observer.observe(document.body, \{ childList: true, subtree: true \});
+> \})();
 > true;
 > ```
 
@@ -179,15 +179,15 @@ categories: links
 >
 > An official United States government app is injecting CSS and JavaScript into third-party websites to strip away their cookie consent dialogs, GDPR banners, login gates, and paywalls.
 
-2026-03-24 [Claude Code Cheat Sheet](https://cc.storyfox.cz/) { cc.storyfox.cz }
+2026-03-24 [Claude Code Cheat Sheet](https://cc.storyfox.cz/) \{ cc.storyfox.cz \}
 
 > ![image-20260323190849545](2026-05-02-links-from-my-inbox.assets/image-20260323190849545.png)
 
-2026-03-24 [bjarneo/cliamp: cliamp - Terminal music player inspired by winamp](https://github.com/bjarneo/cliamp) { github.com }
+2026-03-24 [bjarneo/cliamp: cliamp - Terminal music player inspired by winamp](https://github.com/bjarneo/cliamp) \{ github.com \}
 
 > ![image-20260323190957696](2026-05-02-links-from-my-inbox.assets/image-20260323190957696.png)
 
-2024-12-26 [Devhints — TL;DR for developer documentation](https://devhints.io/) { devhints.io }
+2024-12-26 [Devhints — TL;DR for developer documentation](https://devhints.io/) \{ devhints.io \}
 
 > Amazing collection of cheat sheets for various programming languages.
 >
@@ -197,7 +197,7 @@ categories: links
 
 ## 🛜 RSS
 
-2026-02-15 [ooh.directory: a place to find good blogs that interest you](https://ooh.directory/) { ooh.directory }
+2026-02-15 [ooh.directory: a place to find good blogs that interest you](https://ooh.directory/) \{ ooh.directory \}
 
 > Ooh.directory: a place to find good blogs that interest you 
 >
@@ -207,7 +207,7 @@ categories: links
 
 ## CRDT
 
-2026-03-23 [Manyana - by Bram Cohen - Brams Thoughts](https://bramcohen.com/p/manyana) { bramcohen.com }
+2026-03-23 [Manyana - by Bram Cohen - Brams Thoughts](https://bramcohen.com/p/manyana) \{ bramcohen.com \}
 
 > I’m releasing [Manyana](https://github.com/bramcohen/manyana), a project which I believe presents a coherent vision for the future of version control — and a compelling case for building it.
 >
@@ -217,11 +217,11 @@ categories: links
 
 ## Usual ML
 
-2026-03-23 [Flash-KMeans: Fast and Memory-Efficient Exact K-Means](https://arxiv.org/abs/2603.09229) { arxiv.org }
+2026-03-23 [Flash-KMeans: Fast and Memory-Efficient Exact K-Means](https://arxiv.org/abs/2603.09229) \{ arxiv.org \}
 
 > A systems-heavy k-means paper that treats clustering as an online GPU primitive rather than offline preprocessing and focuses on why standard implementations waste time on memory traffic and atomic contention instead of actual compute. It introduces flash-kmeans, with one kernel that avoids materializing the full distance matrix and another that replaces scatter-style centroid updates with sorted segment reductions, then backs that up with kernel design details, performance breakdowns, and large-scale benchmarks against cuML, FAISS, and other baselines. Worth reading if you care about GPU dataflow, IO-aware kernel design, or exact k-means that can scale to production-sized AI workloads without giving up mathematical correctness.
 
-2025-09-29 [Markov Chains Are the Original Language Models](https://elijahpotter.dev/articles/markov_chains_are_the_original_language_models) { elijahpotter.dev }
+2025-09-29 [Markov Chains Are the Original Language Models](https://elijahpotter.dev/articles/markov_chains_are_the_original_language_models) \{ elijahpotter.dev \}
 
 > ![image-20250929155825752](2026-05-02-links-from-my-inbox.assets/image-20250929155825752.png)
 > The article steps back from modern LLMs and shows how a simple Markov chain can power autocomplete and tiny text generation. It explains how to count word-to-word transitions, turn them into next-word probabilities, and use those to suggest or generate text. It also shows why greedy choices become repetitive and how adding randomness helps. The piece is a practical primer on building a tiny, understandable language model from scratch.
@@ -230,7 +230,7 @@ categories: links
 
 ## Data Engineering
 
-2024-11-20 💛 [DataExpert-io/data-engineer-handbook: This is a repo with links to everything you'd ever want to learn about data engineering](https://github.com/DataExpert-io/data-engineer-handbook) { github.com }
+2024-11-20 💛 [DataExpert-io/data-engineer-handbook: This is a repo with links to everything you'd ever want to learn about data engineering](https://github.com/DataExpert-io/data-engineer-handbook) \{ github.com \}
 
 > ![image-20241119204753254](2026-05-02-links-from-my-inbox.assets/image-20241119204753254.png)
 
@@ -238,13 +238,13 @@ categories: links
 
 ## SIMD
 
-2025-10-07 [Cuckoo hashing improves SIMD hash tables](https://reiner.org/cuckoo-hashing) { reiner.org }
+2025-10-07 [Cuckoo hashing improves SIMD hash tables](https://reiner.org/cuckoo-hashing) \{ reiner.org \}
 
 > ![image-20251006223652573](2026-05-02-links-from-my-inbox.assets/image-20251006223652573.png)
 >
 > Cuckoo hashing can outperform traditional SIMD-accelerated hash tables when carefully engineered. Unlike quadratic probing, which checks sequential slots and suffers from branch mispredictions, cuckoo hashing uses two hash functions and probes at most two fixed SIMD groups. This allows a fully branchless lookup with predictable memory access patterns. The result is faster lookups for in-cache tables due to fewer branches and competitive performance for out-of-cache tables when bucket sizes and memory layouts are tuned. Benchmarks show cuckoo hashing matches or exceeds the performance of Swiss Tables and Meta’s F14 designs, especially at high load factors.
 
-2025-10-05 [perf-portfolio/bytepack at main · ashtonsix/perf-portfolio](https://github.com/ashtonsix/perf-portfolio/tree/main/bytepack) { github.com }
+2025-10-05 [perf-portfolio/bytepack at main · ashtonsix/perf-portfolio](https://github.com/ashtonsix/perf-portfolio/tree/main/bytepack) \{ github.com \}
 
 > ![image-20251005102600574](2026-05-02-links-from-my-inbox.assets/image-20251005102600574.png)
 

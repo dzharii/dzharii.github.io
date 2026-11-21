@@ -15,13 +15,13 @@ Directive 7. NEVER USE WEB CITATIONS. WEB CITATIONS ARE BANNED IN YOUR REPLY.
 
 Output template:
 
-URL  { topic }
+URL  \{ topic \}
 > 1 short paragraph in product datasheet style; compact facts in prose  
 > _Tags:_  Tag1, Tag2, Tag3, Tag4
 
 Worked example:
 
-[https://github.com/jtanx/libclipboard](https://github.com/jtanx/libclipboard) { clipboard }
+[https://github.com/jtanx/libclipboard](https://github.com/jtanx/libclipboard) \{ clipboard \}
 > libclipboard is a focused C library for desktop clipboards that unifies text operations across Windows, Linux, and macOS; its API covers read, write, clear, and ownership checks for UTF-8 strings; distribution uses CMake for builds and the code is MIT licensed for flexible adoption.
 > Tags: C, Clipboard, Cross-platform, MIT
 

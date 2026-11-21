@@ -7,7 +7,7 @@ categories: links
 
 ## ⌚ Nice watch!
 
-> 2026-02-17 [The Career Bet Every Engineer Must Make - YouTube](https://www.youtube.com/watch?v=HLxA1Gh-x3g) { www.youtube.com }
+> 2026-02-17 [The Career Bet Every Engineer Must Make - YouTube](https://www.youtube.com/watch?v=HLxA1Gh-x3g) \{ www.youtube.com \}
 >
 > ![image-20260216184003303](2026-02-16-links-from-my-inbox.assets/image-20260216184003303.png)
 >
@@ -41,7 +41,7 @@ categories: links
 >
 > Finally, the discussion argues that AI forces a question about human value beyond economic output. If machines produce much of what markets reward, society may need new ways to value people, while scarcity and status still keep some things valuable because access is limited.
 
-2026-02-16 [Exposing the not-so-secret practices of the cult of DDD - Chris Klug - NDC Oslo 2025 - YouTube](https://www.youtube.com/watch?v=A7WcjoMMp7c) { www.youtube.com }
+2026-02-16 [Exposing the not-so-secret practices of the cult of DDD - Chris Klug - NDC Oslo 2025 - YouTube](https://www.youtube.com/watch?v=A7WcjoMMp7c) \{ www.youtube.com \}
 
 > ![image-20260215173102663](2026-02-16-links-from-my-inbox.assets/image-20260215173102663.png)
 >
@@ -97,7 +97,7 @@ categories: links
 >
 > > DRY means "do not repeat yourself", but misusing it often creates shared code that is harder to understand and harder to change safely.
 
-2026-02-08 [Stoic lessons to become your best self in 2026 | Massimo Pigliucci - YouTube](https://www.youtube.com/watch?v=4EmuBcIlWBs) { www.youtube.com }
+2026-02-08 [Stoic lessons to become your best self in 2026 | Massimo Pigliucci - YouTube](https://www.youtube.com/watch?v=4EmuBcIlWBs) \{ www.youtube.com \}
 
 > ![image-20260208105416404](2026-02-16-links-from-my-inbox.assets/image-20260208105416404.png)
 >
@@ -255,7 +255,7 @@ categories: links
 >
 > He stresses that this realism is not passivity or being a doormat; action matters, but it should be guided by reflection, aimed at what can be influenced, and free of fantasies about miracles.
 
-2026-02-06 [Do It With Style: Rethinking CSS - Dylan Beattie - NDC London 2026 - YouTube](https://www.youtube.com/watch?v=nhbYveaV0pk) { www.youtube.com }
+2026-02-06 [Do It With Style: Rethinking CSS - Dylan Beattie - NDC London 2026 - YouTube](https://www.youtube.com/watch?v=nhbYveaV0pk) \{ www.youtube.com \}
 
 > ![image-20260206002152479](2026-02-16-links-from-my-inbox.assets/image-20260206002152479.png)
 >
@@ -273,7 +273,7 @@ categories: links
 >
 > We will conclude by discussing the evolving work on styling native form controls, especially select elements, and why enhancing built-in controls is usually better than replacing them, because you keep accessibility, keyboard support, and long-term maintainability.
 
-2026-02-01 [The history of C# and TypeScript with Anders Hejlsberg | GitHub - YouTube](https://www.youtube.com/watch?v=uMqx8NNT4xY) { www.youtube.com }
+2026-02-01 [The history of C# and TypeScript with Anders Hejlsberg | GitHub - YouTube](https://www.youtube.com/watch?v=uMqx8NNT4xY) \{ www.youtube.com \}
 
 > ![image-20260201111738238](2026-02-16-links-from-my-inbox.assets/image-20260201111738238.png)
 > ![image-20260201112803270](2026-02-16-links-from-my-inbox.assets/image-20260201112803270.png)
@@ -384,7 +384,7 @@ categories: links
 >
 > He remains optimistic about collaborative platforms because the work persists: years of searchable history capture decisions and evolution in a way that does not vanish into private email, even if the ecosystem also contains noise and abandoned projects.
 
-2026-01-09 [If Youre Ambitious but Lazy, Watch This Samurai Lesson (Kaizen Method to Success) - YouTube](https://www.youtube.com/watch?v=VDBncKw5v_o) { www.youtube.com }
+2026-01-09 [If Youre Ambitious but Lazy, Watch This Samurai Lesson (Kaizen Method to Success) - YouTube](https://www.youtube.com/watch?v=VDBncKw5v_o) \{ www.youtube.com \}
 
 > ![image-20260108212635244](2026-02-16-links-from-my-inbox.assets/image-20260108212635244.png)
 >
@@ -432,7 +432,7 @@ categories: links
 >
 > Strength is not saying I feel like doing this. Strength is saying I will do this whether I feel like it or not.
 
-2026-01-08 [Why Even The Best Engineers Are Afraid Of Whats Coming | Philip Su - YouTube](https://www.youtube.com/watch?v=BgE6yfblex0) { www.youtube.com }
+2026-01-08 [Why Even The Best Engineers Are Afraid Of Whats Coming | Philip Su - YouTube](https://www.youtube.com/watch?v=BgE6yfblex0) \{ www.youtube.com \}
 
 > ![image-20260107230325569](2026-02-16-links-from-my-inbox.assets/image-20260107230325569.png)
 >
@@ -464,7 +464,7 @@ categories: links
 >
 > He compares this to whittling, where the point is not efficiency but the pleasure of making, and argues that some people will still choose hands on creation even if machines can do it better.
 
-2025-12-27 [Bad Estimates Destroy Careers (Heres What to Say Instead) - YouTube](https://www.youtube.com/watch?v=2-QCqbMsPDc) { www.youtube.com }
+2025-12-27 [Bad Estimates Destroy Careers (Heres What to Say Instead) - YouTube](https://www.youtube.com/watch?v=2-QCqbMsPDc) \{ www.youtube.com \}
 
 > ![image-20251227003553680](2026-02-16-links-from-my-inbox.assets/image-20251227003553680.png)
 >

@@ -51,11 +51,11 @@ categories: links
 > You can generalize most of these operations, so you don't have to implement copy & return every time you wish to modify something. Take for example this removeItems operation, which is the copy-on-write version of splice:
 >
 > ```js
-> function removeItems(array, idx, count) {
+> function removeItems(array, idx, count) \{
 >     const copy = array.slice();
 >     copy.splice(idx, count);
 >     return copy;
-> }
+> \}
 > ```
 >
 > How do you make something that both reads and writes copy-on-write? Take `Array.shift` for example. You can either split the function into read & write, or you can return two values from the function. The former is preferable. `shift` shifts an array one to the left, i.e. it drops the 0 index element and then returns it. You can imitate the latter part of that operation by simply returning `array[0]`. You can convert the dropping of the 0th element to copy-on-write quite trivially as well: make a copy, use `shift` on the copy, and then return the copy.
@@ -63,11 +63,11 @@ categories: links
 > And this is what the copy-on-write `shift` operation returning two values would look like:
 >
 > ```js
-> function shift(array) {
+> function shift(array) \{
 >     const array_copy = array.slice();
 >     const first = array_copy.shift();
->     return {first, array: array_copy};
-> }
+>     return \{first, array: array_copy\};
+> \}
 > ```
 
 2023-04-24 [Is Critical Thinking the Most Important Skill for Software Engineers? - The Pragmatic Engineer](https://blog.pragmaticengineer.com/critical-thinking/)
@@ -144,7 +144,7 @@ categories: links
 >
 > this is a prototype of a "junior developer" agent (aka `smol dev`) that scaffolds an entire codebase out for you once you give it a product spec, but does not end the world or overpromise AGI. instead of making and maintaining specific, rigid, one-shot starters, like `create-react-app`, or `create-nextjs-app`, this is basically [`create-anything-app`](https://news.ycombinator.com/item?id=35942352) where you develop your scaffolding prompt in a tight loop with your smol dev.
 >
-> AI that is helpful, harmless, and honest is complemented by a codebase that is simple, safe, and smol - <200 lines of Python and Prompts, so this is easy to understand and customize.
+> AI that is helpful, harmless, and honest is complemented by a codebase that is simple, safe, and smol - fewer than 200 lines of Python and Prompts, so this is easy to understand and customize.
 
 2023-05-15 [brexhq/prompt-engineering: Tips and tricks for working with Large Language Models like OpenAI's GPT-4.](https://github.com/brexhq/prompt-engineering#simple-lists)
 

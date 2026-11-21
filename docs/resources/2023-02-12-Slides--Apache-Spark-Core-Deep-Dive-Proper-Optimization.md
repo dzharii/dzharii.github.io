@@ -10,7 +10,7 @@
 
 
 
-2023-02-12 [Spark SQL Shuffle Partitions - Spark By {Examples}](https://sparkbyexamples.com/spark/spark-shuffle-partitions/)
+2023-02-12 [Spark SQL Shuffle Partitions - Spark By \{Examples\}](https://sparkbyexamples.com/spark/spark-shuffle-partitions/)
 
 ```
 spark.sql.shuffle.partitions

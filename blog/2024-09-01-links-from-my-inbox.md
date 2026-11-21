@@ -9,7 +9,7 @@ categories: links
 
 ## The Talk
 
-2024-09-01 [Investigating Legacy Design Trends in C++ & Their Modern Replacements - Katherine Rocha C++Now 2024 - YouTube](https://www.youtube.com/watch?v=DvM8oKA1YiM) { www.youtube.com }
+2024-09-01 [Investigating Legacy Design Trends in C++ & Their Modern Replacements - Katherine Rocha C++Now 2024 - YouTube](https://www.youtube.com/watch?v=DvM8oKA1YiM) \{ www.youtube.com \}
 
 > Katherine Rocha
 

@@ -13,21 +13,21 @@ categories: links
 
 ## Good Reads
 
-2024-12-28 [Developer with ADHD? You’re not alone. - Stack Overflow](https://stackoverflow.blog/2023/12/26/developer-with-adhd-youre-not-alone/) {stackoverflow.blog}
+2024-12-28 [Developer with ADHD? You’re not alone. - Stack Overflow](https://stackoverflow.blog/2023/12/26/developer-with-adhd-youre-not-alone/) \{stackoverflow.blog\}
 
-> **Reddit:** 2024-12-28 [Got ADHD? Program computers? Even close with either? Talk about it here.](https://www.reddit.com/r/ADHD_Programmers/) {www.reddit.com}
+> **Reddit:** 2024-12-28 [Got ADHD? Program computers? Even close with either? Talk about it here.](https://www.reddit.com/r/ADHD_Programmers/) \{www.reddit.com\}
 >
 > Many developers with ADHD feel their job is a perfect fit for how they think and approach problems. “Coding can give ADHD brains exactly the kind of stimulation they crave,” [explains](https://dev.to/abbeyperini/coding-and-adhd-adhd-brains-im1) full-stack developer Abbey Perini. “Not only is coding a creative endeavor that involves constantly learning new things, but also once one problem is solved, there’s always a brand new one to try.”
 >
 > In addition to a revolving door of fresh challenges that can keep people with ADHD engaged, coding can reward and encourage a state of [hyperfocus](https://health.clevelandclinic.org/hyperfocus-and-adhd/): a frequently cited symptom of ADHD that developer [Neil Peterson](https://adapthd.com/topics/coping-strategies/programming-with-adhd-the-good-the-bad-and-the-hyperfocus/) calls “a state of laser-like concentration in which distractions and even a sense of passing time seem to fade away.”
 
-2024-12-20 [How types make hard problems easy •](https://mayhul.com/posts/type-driven-design/) { mayhul.com }
+2024-12-20 [How types make hard problems easy •](https://mayhul.com/posts/type-driven-design/) \{ mayhul.com \}
 
 > ![image-20241219203410271](./2024-12-29-links-from-my-inbox.assets/image-20241219203410271.png)
 
-2024-12-16 [The 70% problem: Hard truths about AI-assisted coding](https://addyo.substack.com/p/the-70-problem-hard-truths-about/) { addyo.substack.com }
+2024-12-16 [The 70% problem: Hard truths about AI-assisted coding](https://addyo.substack.com/p/the-70-problem-hard-truths-about/) \{ addyo.substack.com \}
 
-> found in [programmingdigest issue1798](https://programmingdigest.net/newsletters/1798) { programmingdigest.net }
+> found in [programmingdigest issue1798](https://programmingdigest.net/newsletters/1798) \{ programmingdigest.net \}
 >
 > ![image-20241215212205226](./2024-12-29-links-from-my-inbox.assets/image-20241215212205226.png)
 >
@@ -65,9 +65,9 @@ categories: links
 > - Struggle to debug AI-generated code
 > - Build fragile systems they don't fully understand
 
-2024-12-16 [A 10 Year Retrospective of a Passionate Software Engineer | by Boris Cherkasky | Nov, 2024 | Medium](https://cherkaskyb.medium.com/a-10-year-retrospective-of-a-passionate-software-engineer-2d0cd7b3d836) { cherkaskyb.medium.com }
+2024-12-16 [A 10 Year Retrospective of a Passionate Software Engineer | by Boris Cherkasky | Nov, 2024 | Medium](https://cherkaskyb.medium.com/a-10-year-retrospective-of-a-passionate-software-engineer-2d0cd7b3d836) \{ cherkaskyb.medium.com \}
 
-> found in [programmingdigest issue1798](https://programmingdigest.net/newsletters/1798) { programmingdigest.net }
+> found in [programmingdigest issue1798](https://programmingdigest.net/newsletters/1798) \{ programmingdigest.net \}
 >
 > ![image-20241215213500854](./2024-12-29-links-from-my-inbox.assets/image-20241215213500854.png)
 >
@@ -115,17 +115,17 @@ categories: links
 >
 > > "Nothing — and I mean it — Nothing! is more important than being a decent human being, a pleasant colleague, and a pragmatic engineer."
 
-2024-12-15 [Preferring throwaway code over design docs](https://softwaredoug.com/blog/2024/12/14/throwaway-prs-not-design-docs) { softwaredoug.com }
+2024-12-15 [Preferring throwaway code over design docs](https://softwaredoug.com/blog/2024/12/14/throwaway-prs-not-design-docs) \{ softwaredoug.com \}
 
 > ![image-20241215151801822](./2024-12-29-links-from-my-inbox.assets/image-20241215151801822.png)
 >
 > Another important point is on using PRs for documentation. They are one of the best forms of documentation for devs. They’re discoverable - one of the first places you look when trying to understand why code is implemented a certain way. PRs don’t profess to reflect the current state of the world, but a state at a point in time. A historical artifact. On the other hand, most design docs lie to you. They’re [undead documentation](https://softwaredoug.com/blog/2023/10/13/fight-undead-documentation). Unless you’re fastidious of keeping them up to date (most of us aren’t) they reflect an outdated view of reality.
 
-2024-12-14 [3 shell scripts: Kill weasel words, avoid the passive, eliminate duplicates](https://matt.might.net/articles/shell-scripts-for-passive-voice-weasel-words-duplicates/) { matt.might.net }
+2024-12-14 [3 shell scripts: Kill weasel words, avoid the passive, eliminate duplicates](https://matt.might.net/articles/shell-scripts-for-passive-voice-weasel-words-duplicates/) \{ matt.might.net \}
 
 > ![image-20241215151834173](./2024-12-29-links-from-my-inbox.assets/image-20241215151834173.png)
 
-2024-12-11 [From where I left - antirez](https://antirez.com/news/144) { antirez.com }
+2024-12-11 [From where I left - antirez](https://antirez.com/news/144) \{ antirez.com \}
 
 > The blog post by **Salvatore Sanfilippo (antirez)** reflects on his journey with **Redis**, his departure, and his decision to return. He also shares insights into Redis's past, his thoughts on software licensing, and new technical concepts he's working on, such as vector sets for Redis. Below is a detailed digest of the key points from the article.
 >
@@ -137,7 +137,7 @@ categories: links
 >
 > > "I wrote him an email saying: do you think I could be back in some kind of capacity? Rowan showed interest in my proposal, and quickly we found some agreement."
 
-2024-12-10 [What TDD is ACTUALLY Good For – Axol's Blog](https://theaxolot.wordpress.com/2024/12/08/what-tdd-is-actually-good-for/) { theaxolot.wordpress.com }
+2024-12-10 [What TDD is ACTUALLY Good For – Axol's Blog](https://theaxolot.wordpress.com/2024/12/08/what-tdd-is-actually-good-for/) \{ theaxolot.wordpress.com \}
 
 > In an [earlier article](https://theaxolot.wordpress.com/2024/08/09/its-your-fault-people-dont-like-tdd/), I tore through some terrible arguments used to advocate for TDD that I see all too often (even by experienced engineers). I said in that piece that I would eventually go through what I think are better arguments for TDD, so that’s what I’m gonna do now.
 
@@ -147,7 +147,7 @@ categories: links
 >
 > *BuT iF yOuR’e ReWrItInG yOuR tEsTs So MuCh, YoU’rE nOt PrAcTiSiNg TdD pRoPeRlY.”*
 
-2024-12-28 [Ask HN: Are you unable to find employment? | Hacker News](https://news.ycombinator.com/item?id=42531830) { news.ycombinator.com }
+2024-12-28 [Ask HN: Are you unable to find employment? | Hacker News](https://news.ycombinator.com/item?id=42531830) \{ news.ycombinator.com \}
 
 > es, this is what everybody I know is experiencing right now.
 >
@@ -169,7 +169,7 @@ categories: links
 
 ## Working with People
 
-2024-12-05 [How to Grow Professional Relationships | Tejas Kumar](https://tej.as/blog/how-to-grow-professional-relationships-tjs-model) { tej.as }
+2024-12-05 [How to Grow Professional Relationships | Tejas Kumar](https://tej.as/blog/how-to-grow-professional-relationships-tjs-model) \{ tej.as \}
 
 > In my career, I’ve worked with some extraordinary people while also encountering the barriers of exclusionary cliques and gatekeeping. These experiences prompted me to examine how professional relationships develop, leading to the creation of the **TJS (The Journey to Synergy) Collaboration Model**. This framework identifies seven stages that relationships can pass through, from competitive isolation to productive collaboration.
 >
@@ -194,7 +194,7 @@ categories: links
 > 7. **We Are the Same**
 >    A toxic state where boundaries dissolve, leading to unhealthy co-dependence. Individuality is lost, and relationships suffer from over-enmeshment and burnout.
 
-2024-12-07 ✨ [The 6 Mistakes You’re Going to Make as a New Manager – Terrible Software](https://terriblesoftware.org/2024/12/04/the-6-mistakes-youre-going-to-make-as-a-new-manager/) { terriblesoftware.org } { people management} {engineering management}
+2024-12-07 ✨ [The 6 Mistakes You’re Going to Make as a New Manager – Terrible Software](https://terriblesoftware.org/2024/12/04/the-6-mistakes-youre-going-to-make-as-a-new-manager/) \{ terriblesoftware.org \} \{ people management \} \{ engineering management \}
 
 > The right amount of engagement that you should have in your team’s projects is also a tricky subject. Lean in too much, and you’re micromanaging; lean out too much, and you appear disengaged.
 >
@@ -206,13 +206,13 @@ categories: links
 >
 > ![image-20241206174841674](./2024-12-29-links-from-my-inbox.assets/image-20241206174841674.png)
 
-2024-12-07 [1 in 6 Companies Are Hesitant To Hire Recent College Graduates - Intelligent](https://www.intelligent.com/1-in-6-companies-are-hesitant-to-hire-recent-college-graduates/) { www.intelligent.com }
+2024-12-07 [1 in 6 Companies Are Hesitant To Hire Recent College Graduates - Intelligent](https://www.intelligent.com/1-in-6-companies-are-hesitant-to-hire-recent-college-graduates/) \{ www.intelligent.com \}
 
 >![image-20241207155333308](./2024-12-29-links-from-my-inbox.assets/image-20241207155333308.png)
 >![image-20241207155351964](./2024-12-29-links-from-my-inbox.assets/image-20241207155351964.png)
 >![image-20241207155416479](./2024-12-29-links-from-my-inbox.assets/image-20241207155416479.png)
 
-2024-12-09 [The One Good Reason to Become a Manager (and All the Bad Ones) – Terrible Software](https://terriblesoftware.org/2024/12/05/the-one-good-reason-to-become-a-manager-and-all-the-bad-ones/) { terriblesoftware.org }
+2024-12-09 [The One Good Reason to Become a Manager (and All the Bad Ones) – Terrible Software](https://terriblesoftware.org/2024/12/05/the-one-good-reason-to-become-a-manager-and-all-the-bad-ones/) \{ terriblesoftware.org \}
 
 > ![image-20241208190207861](./2024-12-29-links-from-my-inbox.assets/image-20241208190207861.png)
 
@@ -222,11 +222,11 @@ categories: links
 
 ![image-20241229145121604](./2024-12-29-links-from-my-inbox.assets/image-20241229145121604.png)
 
-2024-11-07 [Espanso - A Privacy-first, Cross-platform Text Expander](https://espanso.org/) { espanso.org }
+2024-11-07 [Espanso - A Privacy-first, Cross-platform Text Expander](https://espanso.org/) \{ espanso.org \}
 
-2024-11-07 [espanso/SECURITY.md at master · espanso/espanso](https://github.com/espanso/espanso/blob/master/SECURITY.md) { github.com }
+2024-11-07 [espanso/SECURITY.md at master · espanso/espanso](https://github.com/espanso/espanso/blob/master/SECURITY.md) \{ github.com \}
 
-2024-11-07 [Using Espanso to boost Efficiency 🚤 | Alicia's Notes 🚀 — Than...](https://notes.aliciasykes.com/25213/using-espanso-to-boost-efficiency) { notes.aliciasykes.com }
+2024-11-07 [Using Espanso to boost Efficiency 🚤 | Alicia's Notes 🚀 — Than...](https://notes.aliciasykes.com/25213/using-espanso-to-boost-efficiency) \{ notes.aliciasykes.com \}
 
 > Really good collection of examples.
 
@@ -255,15 +255,15 @@ categories: links
 
 ## NiX
 
-2024-08-29 [An unordered list of hidden gems inside NixOS — kokada](https://kokada.dev/blog/an-unordered-list-of-hidden-gems-inside-nixos/) { kokada.dev }
+2024-08-29 [An unordered list of hidden gems inside NixOS — kokada](https://kokada.dev/blog/an-unordered-list-of-hidden-gems-inside-nixos/) \{ kokada.dev \}
 
-2024-12-04 [Deploying Containers on NixOS](https://bkiran.com/blog/deploying-containers-nixos) { bkiran.com }
+2024-12-04 [Deploying Containers on NixOS](https://bkiran.com/blog/deploying-containers-nixos) \{ bkiran.com \}
 
 
 
 ## WebDev
 
-2024-12-09 [JSON5 – JSON for Humans | JSON5](https://json5.org/) { json5.org }
+2024-12-09 [JSON5 – JSON for Humans | JSON5](https://json5.org/) \{ json5.org \}
 
 > JSON5 is an extension to the popular [JSON](https://tools.ietf.org/html/rfc7159) file format that aims to be easier to **write and maintain \*by hand\* (e.g. for config files)**. It is *not intended* to be used for machine-to-machine communication. (Keep using JSON or other file formats for that. 🙂)
 
@@ -282,31 +282,31 @@ No \\n's!",
 }
 ```
 
-2024-12-19 [How To Create Multi-Step Forms With Vanilla JavaScript And CSS | CSS-Tricks](https://css-tricks.com/how-to-create-multi-step-forms-with-vanilla-javascript-and-css/) { css-tricks.com }
+2024-12-19 [How To Create Multi-Step Forms With Vanilla JavaScript And CSS | CSS-Tricks](https://css-tricks.com/how-to-create-multi-step-forms-with-vanilla-javascript-and-css/) \{ css-tricks.com \}
 
 > ![image-20241219105619183](./2024-12-29-links-from-my-inbox.assets/image-20241219105619183.png)
 
-2024-10-10 [Liskov's Gun: The parallel evolution of React and Web Components – Baldur Bjarnason](https://www.baldurbjarnason.com/2024/liskovs-gun/) { www.baldurbjarnason.com }
+2024-10-10 [Liskov's Gun: The parallel evolution of React and Web Components – Baldur Bjarnason](https://www.baldurbjarnason.com/2024/liskovs-gun/) \{ www.baldurbjarnason.com \}
 
-2024-10-09 [Why Web Components Failed - YouTube](https://www.youtube.com/watch?v=UrS61kn4gKI) { www.youtube.com }
+2024-10-09 [Why Web Components Failed - YouTube](https://www.youtube.com/watch?v=UrS61kn4gKI) \{ www.youtube.com \}
 
-> 2024-10-09 [Web Components are not Framework Components — and That’s Okay • Lea Verou](https://lea.verou.me/blog/2024/wcs-vs-frameworks/) { lea.verou.me }
+> 2024-10-09 [Web Components are not Framework Components — and That’s Okay • Lea Verou](https://lea.verou.me/blog/2024/wcs-vs-frameworks/) \{ lea.verou.me \}
 >
-> 2024-10-09 [JSON•Edit•React](https://carlosnz.github.io/json-edit-react/) { carlosnz.github.io }
+> 2024-10-09 [JSON•Edit•React](https://carlosnz.github.io/json-edit-react/) \{ carlosnz.github.io \}
 >
-> 2024-10-09 [CarlosNZ/json-edit-react: React component for editing/viewing JSON/object data](https://github.com/CarlosNZ/json-edit-react#readme) { github.com }
+> 2024-10-09 [CarlosNZ/json-edit-react: React component for editing/viewing JSON/object data](https://github.com/CarlosNZ/json-edit-react#readme) \{ github.com \}
 
-2024-10-10 [player.style - Video & audio player themes for every web player & framework](https://player.style/) { player.style }
+2024-10-10 [player.style - Video & audio player themes for every web player & framework](https://player.style/) \{ player.style \}
 
 > [Show HN: Winamp and other media players, rebuilt for the web with Web Components](https://player.style/) ([player.style](https://news.ycombinator.com/from?site=player.style))
 >
-> 2024-10-10 [Media Chrome Docs](https://www.media-chrome.org/) { www.media-chrome.org }
+> 2024-10-10 [Media Chrome Docs](https://www.media-chrome.org/) \{ www.media-chrome.org \}
 
 
 
 ## Inspiration!
 
-2024-12-29 [How I Automated My Job Application Process. (Part 1)](https://blog.daviddodda.com/how-i-automated-my-job-application-process-part-1) { blog.daviddodda.com }
+2024-12-29 [How I Automated My Job Application Process. (Part 1)](https://blog.daviddodda.com/how-i-automated-my-job-application-process-part-1) \{ blog.daviddodda.com \}
 
 > Look, I'll be honest - job hunting sucks.
 >
@@ -317,11 +317,11 @@ No \\n's!",
 > So I did what any sane developer would do - I built a system to automate the whole damn thing. By the end, I had sent out 250 job applications in 20 minutes. (The irony? I got a job offer before I even finished building it. More on that later.)
 >
 > Let me walk you through how I did it.![image-20241228222712542](./2024-12-29-links-from-my-inbox.assets/image-20241228222712542.png)
-> 2024-12-29 [I automated my job application process | Hacker News](https://news.ycombinator.com/item?id=42531695) { news.ycombinator.com }
+> 2024-12-29 [I automated my job application process | Hacker News](https://news.ycombinator.com/item?id=42531695) \{ news.ycombinator.com \}
 >
-> - 2024-12-29 [Do Things that Don't Scale](https://paulgraham.com/ds.html) { paulgraham.com }
+> - 2024-12-29 [Do Things that Don't Scale](https://paulgraham.com/ds.html) \{ paulgraham.com \}
 
-2024-12-28 [How to Create HTML/ZIP/PNG Polyglot Files | Polyglot-HTML-ZIP-PNG](https://gildas-lormeau.github.io/Polyglot-HTML-ZIP-PNG/SUMMARY.html) { gildas-lormeau.github.io }
+2024-12-28 [How to Create HTML/ZIP/PNG Polyglot Files | Polyglot-HTML-ZIP-PNG](https://gildas-lormeau.github.io/Polyglot-HTML-ZIP-PNG/SUMMARY.html) \{ gildas-lormeau.github.io \}
 
 > Github: [gildas-lormeau/Polyglot-HTML-ZIP-PNG: Learn how to create HTML/ZIP/PNG polyglot files in JavaScript](https://github.com/gildas-lormeau/Polyglot-HTML-ZIP-PNG)
 >
@@ -333,66 +333,66 @@ No \\n's!",
 >
 > [SingleFile](https://github.com/gildas-lormeau/SingleFile), a tool for web archiving, commonly stores web page resources as data URIs. However, this approach can be inefficient for large resources. A more elegant solution emerges through combining the ZIP format’s flexible structure with HTML. We’ll then take it a step further by encapsulating this entire structure within a PNG file.
 
-2024-12-26 [Frontend Developer Roadmap: What is Frontend Development?](https://roadmap.sh/frontend) { roadmap.sh }
+2024-12-26 [Frontend Developer Roadmap: What is Frontend Development?](https://roadmap.sh/frontend) \{ roadmap.sh \}
 
-> by  [Kamran Ahmed (@kamrify) / X](https://x.com/kamrify) { x.com } [kamranahmed.info](https://t.co/eBbUE7Dyku)
+> by  [Kamran Ahmed (@kamrify) / X](https://x.com/kamrify) \{ x.com \} [kamranahmed.info](https://t.co/eBbUE7Dyku)
 >
 > ![image-20241225211642337](./2024-12-29-links-from-my-inbox.assets/image-20241225211642337.png)
 
 > ![image-20241225211806299](./2024-12-29-links-from-my-inbox.assets/image-20241225211806299.png)
 
-2024-12-22 [Keeping a CHANGELOG at Work – code.dblock.org | tech blog](https://code.dblock.org/2020/09/01/keep-a-changelog-at-work.html) { code.dblock.org }
+2024-12-22 [Keeping a CHANGELOG at Work – code.dblock.org | tech blog](https://code.dblock.org/2020/09/01/keep-a-changelog-at-work.html) \{ code.dblock.org \}
 
 > ![image-20241222132225576](./2024-12-29-links-from-my-inbox.assets/image-20241222132225576.png)
 
-2024-12-22 [Draw all roads in a city at once](https://anvaka.github.io/city-roads/) { anvaka.github.io }
+2024-12-22 [Draw all roads in a city at once](https://anvaka.github.io/city-roads/) \{ anvaka.github.io \}
 
 > City Roads: A tool to draw all roads in a city at once
 >
 > ![image-20241222131852773](./2024-12-29-links-from-my-inbox.assets/image-20241222131852773.png)
 
-2024-12-21 [Designing a calm web reader | James' Coffee Blog](https://jamesg.blog/2024/11/30/designing-a-calm-web-reader/) { jamesg.blog }
+2024-12-21 [Designing a calm web reader | James' Coffee Blog](https://jamesg.blog/2024/11/30/designing-a-calm-web-reader/) \{ jamesg.blog \}
 
 > ![image-20241220205046939](./2024-12-29-links-from-my-inbox.assets/image-20241220205046939.png)
 
 > Github: [capjamesg/web-reader: A minimal web reader.](https://github.com/capjamesg/web-reader)
 >
-> 2024-12-21 [Show HN: Artemis, a Calm Web Reader | Hacker News](https://news.ycombinator.com/item?id=42471913) { news.ycombinator.com }
+> 2024-12-21 [Show HN: Artemis, a Calm Web Reader | Hacker News](https://news.ycombinator.com/item?id=42471913) \{ news.ycombinator.com \}
 >
-> 2024-12-21 [Lenns.io - Lenns.io](https://lenns.io/) { lenns.io }
+> 2024-12-21 [Lenns.io - Lenns.io](https://lenns.io/) \{ lenns.io \}
 >
 > RSS The feed reader
 > for people that want to be in control
 >
-> 2024-12-21 [Instaloader — Download Instagram Photos and Metadata](https://instaloader.github.io/) { instaloader.github.io }
+> 2024-12-21 [Instaloader — Download Instagram Photos and Metadata](https://instaloader.github.io/) \{ instaloader.github.io \}
 
-2024-12-21 [Grayjay App - Follow Creators Not Platforms](https://grayjay.app/desktop/) { grayjay.app }
+2024-12-21 [Grayjay App - Follow Creators Not Platforms](https://grayjay.app/desktop/) \{ grayjay.app \}
 
 > ![image-20241220203851851](./2024-12-29-links-from-my-inbox.assets/image-20241220203851851.png)
 
-2024-12-20 [apankrat/nullboard: Nullboard is a minimalist kanban board, focused on compactness and readability.](https://github.com/apankrat/nullboard) { github.com }
+2024-12-20 [apankrat/nullboard: Nullboard is a minimalist kanban board, focused on compactness and readability.](https://github.com/apankrat/nullboard) \{ github.com \}
 
 > Nullboard is a minimalist take on a kanban board / a task list manager, designed to be compact, readable and quick in use.
 
 > ![image-20241219213319289](./2024-12-29-links-from-my-inbox.assets/image-20241219213319289.png)
 
-2024-12-20 [mizu.js | Lightweight HTML templating library for any-side rendering](https://mizu.sh/) { mizu.sh }
+2024-12-20 [mizu.js | Lightweight HTML templating library for any-side rendering](https://mizu.sh/) \{ mizu.sh \}
 
 > ![image-20241219180416729](./2024-12-29-links-from-my-inbox.assets/image-20241219180416729.png)
 
-2024-12-16 [Alien Covenant (Movie Review) — Boy Drinks Ink](https://boydrinksink.com/alien-covenant) { boydrinksink.com }
+2024-12-16 [Alien Covenant (Movie Review) — Boy Drinks Ink](https://boydrinksink.com/alien-covenant) \{ boydrinksink.com \}
 
 > ![image-20241215230106026](./2024-12-29-links-from-my-inbox.assets/image-20241215230106026.png)
 >
 > ![image-20241215230148145](./2024-12-29-links-from-my-inbox.assets/image-20241215230148145.png)
 
-2024-12-16 [Displaying Website Content on an E-Ink Display | Marios Fasold's Website](https://mfasold.net/blog/displaying-website-content-on-an-e-ink-display/) { mfasold.net }
+2024-12-16 [Displaying Website Content on an E-Ink Display | Marios Fasold's Website](https://mfasold.net/blog/displaying-website-content-on-an-e-ink-display/) \{ mfasold.net \}
 
 > ![image-20241215225841255](./2024-12-29-links-from-my-inbox.assets/image-20241215225841255.png)
 
-2024-12-13 [Perspective | Perspective](https://perspective.finos.org/) { perspective.finos.org }
+2024-12-13 [Perspective | Perspective](https://perspective.finos.org/) \{ perspective.finos.org \}
 
-> 2024-12-13 [finos/perspective: A data visualization and analytics component, especially well-suited for large and/or streaming datasets.](https://github.com/finos/perspective) { github.com }Perspective is an *interactive* analytics and data visualization component, which is especially well-suited for *large* and/or *streaming* datasets. Use it to create user-configurable reports, dashboards, notebooks and applications, then deploy stand-alone in the browser, or in concert with Python and/or [Jupyterlab](https://jupyterlab.readthedocs.io/en/stable/).
+> 2024-12-13 [finos/perspective: A data visualization and analytics component, especially well-suited for large and/or streaming datasets.](https://github.com/finos/perspective) \{ github.com \}Perspective is an *interactive* analytics and data visualization component, which is especially well-suited for *large* and/or *streaming* datasets. Use it to create user-configurable reports, dashboards, notebooks and applications, then deploy stand-alone in the browser, or in concert with Python and/or [Jupyterlab](https://jupyterlab.readthedocs.io/en/stable/).
 >
 > Features
 >
@@ -400,25 +400,25 @@ No \\n's!",
 > - A framework-agnostic User Interface packaged as a [Custom Element](https://developer.mozilla.org/en-US/docs/Web/Web_Components/Using_custom_elements), powered either in-browser via WebAssembly or virtually via WebSocket server (Python/Node).
 > - A [JupyterLab](https://jupyter.org/) widget and Python client library, for interactive data analysis in a notebook, as well as *scalable* production [Voila](https://github.com/voila-dashboards/voila) applications.
 
-> Found in: ✉️ 2024-12-13 [JavaScript Weekly Issue 716: December 12, 2024](https://javascriptweekly.com/issues/716) { javascriptweekly.com }
+> Found in: ✉️ 2024-12-13 [JavaScript Weekly Issue 716: December 12, 2024](https://javascriptweekly.com/issues/716) \{ javascriptweekly.com \}
 >
 > ![image-20241212192520691](./2024-12-29-links-from-my-inbox.assets/image-20241212192520691.png)
 
-2024-12-13 [Termo - An Easy to use terminal for your browser](https://termo.rajnandan.com/) { termo.rajnandan.com }
+2024-12-13 [Termo - An Easy to use terminal for your browser](https://termo.rajnandan.com/) \{ termo.rajnandan.com \}
 
 > Termo is a simple terminal emulator that can be used to create a terminal-like interface on your website. It is inspired by the terminal emulator in stripe.dev. It is an wrapper on top of xterm.js.
 >
-> Found in: ✉️ 2024-12-13 [JavaScript Weekly Issue 716: December 12, 2024](https://javascriptweekly.com/issues/716) { javascriptweekly.com }
+> Found in: ✉️ 2024-12-13 [JavaScript Weekly Issue 716: December 12, 2024](https://javascriptweekly.com/issues/716) \{ javascriptweekly.com \}
 >
 > ![image-20241212192328911](./2024-12-29-links-from-my-inbox.assets/image-20241212192328911.png)
 
-2024-12-07 [ibttf/interview-coder](https://github.com/ibttf/interview-coder) { github.com }
+2024-12-07 [ibttf/interview-coder](https://github.com/ibttf/interview-coder) \{ github.com \}
 
 > An invisible desktop application that will help you pass technical interviews
 >
 > ![image-20241207133259801](./2024-12-29-links-from-my-inbox.assets/image-20241207133259801.png)
 
-2024-12-07 [Install Docker natively on Android Phone and use it as a Home Server | CrackOverflow](https://crackoverflow.com/docs/system_administration/containerization/install-docker-natively-on-android-phone-and-use-it-as-a-home-server/) { crackoverflow.com }
+2024-12-07 [Install Docker natively on Android Phone and use it as a Home Server | CrackOverflow](https://crackoverflow.com/docs/system_administration/containerization/install-docker-natively-on-android-phone-and-use-it-as-a-home-server/) \{ crackoverflow.com \}
 
 > In this tutorial, we will guide you through the process of installing Docker on your Android phone, specifically using a OnePlus 6T with postmarketOS. I also wrote another [blog post](https://crackoverflow.com/docs/system_administration/containerization/turn_android_phone_to_batteryless_home_server/) explaining how you can run this phone without a battery, allowing it to run forever as long as it remains connected to a power source. If you’re interested, feel free to [check it out!](https://crackoverflow.com/docs/system_administration/containerization/turn_android_phone_to_batteryless_home_server/) This guide can be adapted only for phones on [the postmarketOS device list](https://postmarketos.org/download/). Please note that this process will erase all data on your phone, so it’s important to use a device you don’t need. Let’s get started!
 > ![image-20241206175706311](./2024-12-29-links-from-my-inbox.assets/image-20241206175706311.png)
@@ -427,11 +427,11 @@ No \\n's!",
 
 ## Database
 
-2024-12-07 [Brian Douglas' Tech Blog - Sensible SQLite defaults](https://briandouglas.ie/sqlite-defaults/) { briandouglas.ie }
+2024-12-07 [Brian Douglas' Tech Blog - Sensible SQLite defaults](https://briandouglas.ie/sqlite-defaults/) \{ briandouglas.ie \}
 
 > SQLite is cool now. DHH uses it, Laravel defaults to it. Here is a list of *sensible defaults* when using sqlite.
 
-2024-12-20 [vlcn-io/cr-sqlite: Convergent, Replicated SQLite. Multi-writer and CRDT support for SQLite](https://github.com/vlcn-io/cr-sqlite) { github.com }
+2024-12-20 [vlcn-io/cr-sqlite: Convergent, Replicated SQLite. Multi-writer and CRDT support for SQLite](https://github.com/vlcn-io/cr-sqlite) \{ github.com \}
 
 > "It's like Git, for your data."
 >
@@ -441,13 +441,13 @@ No \\n's!",
 >
 > **In technical terms:** cr-sqlite adds multi-master replication and partition tolerance to SQLite via conflict free replicated data types ([CRDTs](https://en.wikipedia.org/wiki/Conflict-free_replicated_data_type)) and/or causally ordered event logs.
 
-2024-10-10 [Optimizing Postgres table layout for maximum efficiency](https://r.ena.to/blog/optimizing-postgres-table-layout-for-maximum-efficiency/) { r.ena.to }
+2024-10-10 [Optimizing Postgres table layout for maximum efficiency](https://r.ena.to/blog/optimizing-postgres-table-layout-for-maximum-efficiency/) \{ r.ena.to \}
 
 > When modeling a Postgres database, you probably don’t give much thought to the order of columns in your tables. After all, it seems like the kind of thing that wouldn’t affect storage or performance. But what if I told you that simply reordering your columns could reduce the size of your tables and indexes by 20%? This isn’t some obscure database trick — it’s a direct result of how Postgres aligns data on disk.
 >
 > In this post, I’ll explore how column alignment works in Postgres, why it matters, and how you can optimize your tables for better efficiency. Through a few real-world examples, you’ll see how even small changes in column order can lead to measurable improvements.
 
-2024-11-17 [What I Wish Someone Told Me About Postgres | ChallahScript](https://challahscript.com/what_i_wish_someone_told_me_about_postgres/) { challahscript.com }
+2024-11-17 [What I Wish Someone Told Me About Postgres | ChallahScript](https://challahscript.com/what_i_wish_someone_told_me_about_postgres/) \{ challahscript.com \}
 
 > I’ve been working professionally for the better part of a decade on web apps and, in that time, I’ve had to learn how to use a lot of different systems and tools. During that education, I found that the official documentation typically proved to be the most helpful.
 >
@@ -461,7 +461,7 @@ No \\n's!",
 
 ## Math
 
-2024-12-18 ✨ [How I Used Linear Algebra to Build an Interactive Diagramming Editor — and Why Matrix Math is Awesome | by Ivan Shubin | Dec, 2024 | ITNEXT](https://itnext.io/how-i-used-linear-algebra-to-build-an-interactive-diagramming-editor-and-why-matrix-math-is-d5bd552f2e8d) { itnext.io }
+2024-12-18 ✨ [How I Used Linear Algebra to Build an Interactive Diagramming Editor — and Why Matrix Math is Awesome | by Ivan Shubin | Dec, 2024 | ITNEXT](https://itnext.io/how-i-used-linear-algebra-to-build-an-interactive-diagramming-editor-and-why-matrix-math-is-d5bd552f2e8d) \{ itnext.io \}
 
 > ![image-20241217222229575](./2024-12-29-links-from-my-inbox.assets/image-20241217222229575.png)
 
@@ -469,19 +469,19 @@ No \\n's!",
 
 ## C || C++
 
-2024-12-27 [C++ 'Type Erasure' Explained | Dave Kilian's Blog](https://davekilian.com/cpp-type-erasure.html) { davekilian.com } { 2014 }
+2024-12-27 [C++ 'Type Erasure' Explained | Dave Kilian's Blog](https://davekilian.com/cpp-type-erasure.html) \{ davekilian.com \} \{ 2014 \}
 
 > I recently stumbled across this pattern on a Hacker News post. It’s a neat toy, but I had a hard time finding a good explanation (most of the information I found jumped straight into examples before really motivating what was going on). In this post, I’ll try to derive the pattern from first principles instead.
 
 CPP Mock libraties:
 
-- 2024-12-27 [rollbear/trompeloeil: Header only C++14 mocking framework](https://github.com/rollbear/trompeloeil/) { github.com }
-- 2024-12-27 [eranpeer/FakeIt: C++ mocking made easy. A simple yet very expressive, headers only library for c++ mocking.](https://github.com/eranpeer/FakeIt) { github.com }
-- 2024-12-27 [gMock for Dummies | GoogleTest](https://google.github.io/googletest/gmock_for_dummies.html) { google.github.io }
+- 2024-12-27 [rollbear/trompeloeil: Header only C++14 mocking framework](https://github.com/rollbear/trompeloeil/) \{ github.com \}
+- 2024-12-27 [eranpeer/FakeIt: C++ mocking made easy. A simple yet very expressive, headers only library for c++ mocking.](https://github.com/eranpeer/FakeIt) \{ github.com \}
+- 2024-12-27 [gMock for Dummies | GoogleTest](https://google.github.io/googletest/gmock_for_dummies.html) \{ google.github.io \}
 
-2024-12-21 [Fixing C strings](https://thasso.xyz/2024/12/16/fixing-c-strings.html) { thasso.xyz }
+2024-12-21 [Fixing C strings](https://thasso.xyz/2024/12/16/fixing-c-strings.html) \{ thasso.xyz \}
 
-2024-09-29 [It is never too late to write your own C/C++ command-line utilities – Daniel Lemire's blog](https://lemire.me/blog/2024/09/28/it-is-never-too-later-to-write-your-own-c-c-command-line-utilities/) { lemire.me }
+2024-09-29 [It is never too late to write your own C/C++ command-line utilities – Daniel Lemire's blog](https://lemire.me/blog/2024/09/28/it-is-never-too-later-to-write-your-own-c-c-command-line-utilities/) \{ lemire.me \}
 
 > You know those moments when your code feels sluggish, and you wonder if there’s a better way? Sometimes, there is. [Daniel Lemire](https://lemire.me/blog/) recently shared a cool story about swapping a Python script for a custom C++ utility and saving their company a ton of cash. The gist? Their Python script, used to process a JSON file every few seconds, was hogging a full CPU core. They reworked it into a C++ program using some smart libraries like simdjson, and the difference was night and day: over ten times faster, turning a snail into a lightning bolt.
 >
@@ -500,41 +500,41 @@ add_executable(main main.cpp)
 target_link_libraries(main fmt::fmt simdjson::simdjson FastFloat::fast_float)
 ```
 
-2024-11-30 [Everything You Never Wanted To Know About Linker Script · mcyoung](https://mcyoung.xyz/2021/06/01/linker-script/) { mcyoung.xyz }
+2024-11-30 [Everything You Never Wanted To Know About Linker Script · mcyoung](https://mcyoung.xyz/2021/06/01/linker-script/) \{ mcyoung.xyz \}
 
 > ![image-20241130125138039](./2024-12-29-links-from-my-inbox.assets/image-20241130125138039.png)
 
-2024-10-13 [Every bug/quirk of the Windows resource compiler (rc.exe), probably - ryanliptak.com](https://www.ryanliptak.com/blog/every-rc-exe-bug-quirk-probably/) { www.ryanliptak.com }
+2024-10-13 [Every bug/quirk of the Windows resource compiler (rc.exe), probably - ryanliptak.com](https://www.ryanliptak.com/blog/every-rc-exe-bug-quirk-probably/) \{ www.ryanliptak.com \}
 
-2024-09-13 [Safe C++](https://safecpp.org/draft.html) { safecpp.org }
+2024-09-13 [Safe C++](https://safecpp.org/draft.html) \{ safecpp.org \}
 
 > Over the past two years, the United States Government has been issuing warnings about memory-unsafe programming languages with increasing urgency. Much of the country’s critical infrastructure relies on software written in C and C++, languages which are very memory *unsafe*, leaving these systems more vulnerable to exploits by adversaries.
 
-2024-09-26 [Embedded Scripting Languages](https://caiorss.github.io/C-Cpp-Notes/embedded_scripting_languages.html) { caiorss.github.io }
+2024-09-26 [Embedded Scripting Languages](https://caiorss.github.io/C-Cpp-Notes/embedded_scripting_languages.html) \{ caiorss.github.io \}
 
-2024-09-29 [Few lesser known tricks, quirks and features of C](https://jorenar.com/blog/less-known-c) { jorenar.com }
+2024-09-29 [Few lesser known tricks, quirks and features of C](https://jorenar.com/blog/less-known-c) \{ jorenar.com \}
 
 2024-07-01 [Writing GUI apps for Windows is painful - Samuel Tulach](https://tulach.cc/writing-gui-apps-for-windows-is-painful/)
 
-> 2024-12-21 [ysc3839/win32-darkmode: Example application shows how to use undocumented dark mode API introduced in Windows 10 1809.](https://github.com/ysc3839/win32-darkmode) { github.com }
+> 2024-12-21 [ysc3839/win32-darkmode: Example application shows how to use undocumented dark mode API introduced in Windows 10 1809.](https://github.com/ysc3839/win32-darkmode) \{ github.com \}
 
 2024-07-06 [How to implement a hash table (in C)](https://benhoyt.com/writings/hash-table-in-c/)
 
 2024-07-26 [GitHub - cameron314/concurrentqueue: A fast multi-producer, multi-consumer lock-free concurrent queue for C++11](https://github.com/cameron314/concurrentqueue)
 
-2024-08-22 [Do low-level optimizations matter? Faster quicksort with cmov (2020) ](https://cantrip.org/sortfast.html) { cantrip.org }
+2024-08-22 [Do low-level optimizations matter? Faster quicksort with cmov (2020) ](https://cantrip.org/sortfast.html) \{ cantrip.org \}
 
-2024-08-22 [A ToC of the 20 part linker essay  LWN.net ](https://lwn.net/Articles/276782/) { lwn.net }
+2024-08-22 [A ToC of the 20 part linker essay  LWN.net ](https://lwn.net/Articles/276782/) \{ lwn.net \}
 
-2024-10-27 [Alternative operator representations - cppreference.com](https://en.cppreference.com/w/cpp/language/operator_alternative) { en.cppreference.com }
+2024-10-27 [Alternative operator representations - cppreference.com](https://en.cppreference.com/w/cpp/language/operator_alternative) \{ en.cppreference.com \}
 
-2024-10-28 [The Curiously Recurring Template Pattern (CRTP) - Fluent C++](https://www.fluentcpp.com/2017/05/12/curiously-recurring-template-pattern/) { www.fluentcpp.com }
+2024-10-28 [The Curiously Recurring Template Pattern (CRTP) - Fluent C++](https://www.fluentcpp.com/2017/05/12/curiously-recurring-template-pattern/) \{ www.fluentcpp.com \}
 
 > - The CRTP, episode One: [Definition](https://www.fluentcpp.com/2017/05/12/curiously-recurring-template-pattern/)
 > - The CRTP, episode Two: What the CRTP can bring to your code
 > - The CRTP, episode Three: [An implementation helper for the CRTP](https://www.fluentcpp.com/2017/05/19/crtp-helper/)
 
-2024-11-07 [marovira/lua: The Lua Programming Language with Modern CMake](https://github.com/marovira/lua) { github.com }
+2024-11-07 [marovira/lua: The Lua Programming Language with Modern CMake](https://github.com/marovira/lua) \{ github.com \}
 
 > CMake: This is a bundle of the Lua Programming Language v5.4.4 that provides a modern CMake script for easy inclusion into projects and installation. For usage instructions, see the next section.
 
@@ -544,16 +544,16 @@ target_link_libraries(main fmt::fmt simdjson::simdjson FastFloat::fast_float)
 
 > The Era of AI is now renamed to The Ear of AI because of a silly typo
 
-2024-12-29 [How I run LLMs locally - Abishek Muthian](https://abishekmuthian.com/how-i-run-llms-locally/) { abishekmuthian.com }
+2024-12-29 [How I run LLMs locally - Abishek Muthian](https://abishekmuthian.com/how-i-run-llms-locally/) \{ abishekmuthian.com \}
 
 > ![image-20241229133313757](./2024-12-29-links-from-my-inbox.assets/image-20241229133313757.png)
 
-2024-12-21 [A Gentle Introduction to Graph Neural Networks](https://distill.pub/2021/gnn-intro/) { distill.pub }
+2024-12-21 [A Gentle Introduction to Graph Neural Networks](https://distill.pub/2021/gnn-intro/) \{ distill.pub \}
 
 > This article explores and explains modern graph neural networks. We divide this work into four parts. First, we look at what kind of data is most naturally phrased as a graph, and some common examples. Second, we explore what makes graphs different from other types of data, and some of the specialized choices we have to make when using graphs. Third, we build a modern GNN, walking through each of the parts of the model, starting with historic modeling innovations in the field. We move gradually from a bare-bones implementation to a state-of-the-art GNN model. Fourth and finally, we provide a GNN playground where you can play around with a real-word task and dataset to build a stronger intuition of how each component of a GNN model contributes to the predictions it makes.
 > ![image-20241220205509409](./2024-12-29-links-from-my-inbox.assets/image-20241220205509409.png)
 
-2024-12-21 [OpenAI o3 Breakthrough High Score on ARC-AGI-Pub](https://arcprize.org/blog/oai-o3-pub-breakthrough) { arcprize.org }
+2024-12-21 [OpenAI o3 Breakthrough High Score on ARC-AGI-Pub](https://arcprize.org/blog/oai-o3-pub-breakthrough) \{ arcprize.org \}
 
 > OpenAI's new o3 system - trained on the ARC-AGI-1 Public Training set - has scored a breakthrough **75.7%** on the Semi-Private Evaluation set at our stated public leaderboard $10k compute limit. A high-compute (172x) o3 configuration scored **87.5%**.
 >
@@ -561,53 +561,53 @@ target_link_libraries(main fmt::fmt simdjson::simdjson FastFloat::fast_float)
 >
 > Passing ARC-AGI does not equate to achieving AGI, and, as a matter of fact, I don't think o3 is AGI yet. o3 still fails on some very easy tasks, indicating fundamental differences with human intelligence.
 
-2024-12-21 [Building effective agents Anthropic](https://www.anthropic.com/research/building-effective-agents) { www.anthropic.com }
+2024-12-21 [Building effective agents Anthropic](https://www.anthropic.com/research/building-effective-agents) \{ www.anthropic.com \}
 
 > When building applications with LLMs, we recommend finding the simplest solution possible, and only increasing complexity when needed. This might mean not building agentic systems at all. Agentic systems often trade latency and cost for better task performance, and you should consider when this tradeoff makes sense.
 > ![image-20241220203730761](./2024-12-29-links-from-my-inbox.assets/image-20241220203730761.png)
 
-2024-12-15 [They See Your Photos](https://theyseeyourphotos.com/) { theyseeyourphotos.com }
+2024-12-15 [They See Your Photos](https://theyseeyourphotos.com/) \{ theyseeyourphotos.com \}
 
 > ![image-20241214194725429](./2024-12-29-links-from-my-inbox.assets/image-20241214194725429.png)
 
-2024-12-12 [A ChatGPT clone, in 3000 bytes of C, backed by GPT-2](https://nicholas.carlini.com/writing/2023/chat-gpt-2-in-c.html) { nicholas.carlini.com }
+2024-12-12 [A ChatGPT clone, in 3000 bytes of C, backed by GPT-2](https://nicholas.carlini.com/writing/2023/chat-gpt-2-in-c.html) \{ nicholas.carlini.com \}
 
 > ![image-20241211234622814](./2024-12-29-links-from-my-inbox.assets/image-20241211234622814.png)
 
-2024-11-26 [Introducing the Model Context Protocol \ Anthropic](https://www.anthropic.com/news/model-context-protocol) { www.anthropic.com }
+2024-11-26 [Introducing the Model Context Protocol \ Anthropic](https://www.anthropic.com/news/model-context-protocol) \{ www.anthropic.com \}
 
 > The Model Context Protocol is an open standard that enables developers to build secure, two-way connections between their data sources and AI-powered tools. The architecture is straightforward: developers can either expose their data through MCP servers or build AI applications (MCP clients) that connect to these servers.
 
-2024-11-23 [pingcap/autoflow: pingcap/autoflow is a Graph RAG based and conversational knowledge base tool built with TiDB Serverless Vector Storage. Demo: https://tidb.ai](https://github.com/pingcap/autoflow) { github.com }
+2024-11-23 [pingcap/autoflow: pingcap/autoflow is a Graph RAG based and conversational knowledge base tool built with TiDB Serverless Vector Storage. Demo: https://tidb.ai](https://github.com/pingcap/autoflow) \{ github.com \}
 
 > pingcap/autoflow is a Graph RAG based and conversational knowledge base tool built with TiDB Serverless Vector Storage. Demo: [https://tidb.ai](https://tidb.ai/)
 >
 > ![image-20241122221752616](./2024-12-29-links-from-my-inbox.assets/image-20241122221752616.png)
 
-2024-11-22 [AI and Everything Else - Benedict Evans | Slush 2023 - YouTube](https://www.youtube.com/watch?v=xNBiPd2H9J0) { www.youtube.com }
+2024-11-22 [AI and Everything Else - Benedict Evans | Slush 2023 - YouTube](https://www.youtube.com/watch?v=xNBiPd2H9J0) \{ www.youtube.com \}
 
-> 2024-11-22 [Presentations — Benedict Evans](https://www.ben-evans.com/presentations) { www.ben-evans.com }
+> 2024-11-22 [Presentations — Benedict Evans](https://www.ben-evans.com/presentations) \{ www.ben-evans.com \}
 
 > ![image-20241121231940817](./2024-12-29-links-from-my-inbox.assets/image-20241121231940817.png)
 >
 > ![image-20241121232017319](./2024-12-29-links-from-my-inbox.assets/image-20241121232017319.png)
 
-2024-11-14 [AI Makes Tech Debt More Expensive](https://www.gauge.sh/blog/ai-makes-tech-debt-more-expensive) { www.gauge.sh }
+2024-11-14 [AI Makes Tech Debt More Expensive](https://www.gauge.sh/blog/ai-makes-tech-debt-more-expensive) \{ www.gauge.sh \}
 
 > GenAI can’t handle High Complexity
 > If you’ve tried tools like Cursor or Aider for professional coding, you know that their performance is highly sensitive to the complexity of the code you’re working on. They provide a dramatic speedup when applying pre-existing patterns, and when making use of existing interfaces or module relationships. However, in ‘high-debt’ environments with subtle control flow, long-range dependencies, and unexpected patterns, they struggle to generate a useful response.
 
-2024-11-07 [TutoriaLLM/TutoriaLLM: Self-hosted environment for programming tutorial by LLM](https://github.com/TutoriaLLM/TutoriaLLM) { github.com }
+2024-11-07 [TutoriaLLM/TutoriaLLM: Self-hosted environment for programming tutorial by LLM](https://github.com/TutoriaLLM/TutoriaLLM) \{ github.com \}
 
 > TutoriaLLM は、小中学生を対象とした、Web 上で使用できる、LLM によって提供されるセルフホスト型プログラミング学習プラットフォームです。教育コンテンツを制作する人と、そのコンテンツから学ぶ人たちのために設計されています。
 >
 > TutoriaLLM is a self-hosted programming learning platform for K-12 Education that can be used on the web. It is designed for those who create educational content and those who learn from it.
 
-2024-10-12 [AI Winter Is Coming](https://leehanchung.github.io/blogs/2024/09/20/ai-winter/) { leehanchung.github.io }
+2024-10-12 [AI Winter Is Coming](https://leehanchung.github.io/blogs/2024/09/20/ai-winter/) \{ leehanchung.github.io \}
 
-2024-08-27 [System Prompts - Anthropic](https://docs.anthropic.com/en/release-notes/system-prompts#july-12th-2024) { docs.anthropic.com }
+2024-08-27 [System Prompts - Anthropic](https://docs.anthropic.com/en/release-notes/system-prompts#july-12th-2024) \{ docs.anthropic.com \}
 
-2024-08-28 [AI Apocalypse: 80% of Projects Crash and Burn, Billions Wasted says RAND Report - SalesforceDevops.net](https://salesforcedevops.net/index.php/2024/08/19/ai-apocalypse/) { Vernon Keenan / salesforcedevops.net }
+2024-08-28 [AI Apocalypse: 80% of Projects Crash and Burn, Billions Wasted says RAND Report - SalesforceDevops.net](https://salesforcedevops.net/index.php/2024/08/19/ai-apocalypse/) \{ Vernon Keenan / salesforcedevops.net \}
 
 > The most common cause of AI project failure? It’s not the technology – it’s the people at the top. Business leaders often misunderstand or miscommunicate what problems need to be solved using AI. As one interviewee put it, “They think they have great data because they get weekly sales reports, but they don’t realize the data they have currently may not meet its new purpose.”
 >
@@ -615,31 +615,31 @@ target_link_libraries(main fmt::fmt simdjson::simdjson FastFloat::fast_float)
 >
 > Data quality emerged as the second most significant hurdle. “80 percent of AI is the dirty work of data engineering,” an interviewee stated. “You need good people doing the dirty work—otherwise their mistakes poison the algorithms.”
 
-2024-09-13 [Notes on OpenAI’s new o1 chain-of-thought models](https://simonwillison.net/2024/Sep/12/openai-o1/) { simonwillison.net }
+2024-09-13 [Notes on OpenAI’s new o1 chain-of-thought models](https://simonwillison.net/2024/Sep/12/openai-o1/) \{ simonwillison.net \}
 
-> 2024-09-13 [ 2205.11916  Large Language Models are Zero-Shot Reasoners](https://arxiv.org/abs/2205.11916) { arxiv.org }
+> 2024-09-13 [ 2205.11916  Large Language Models are Zero-Shot Reasoners](https://arxiv.org/abs/2205.11916) \{ arxiv.org \}
 >
 > Let's think step-by-step
 
-2024-09-18 [zlwaterfield/scramble: Open-Source Grammarly Alternative](https://github.com/zlwaterfield/scramble) { github.com }
+2024-09-18 [zlwaterfield/scramble: Open-Source Grammarly Alternative](https://github.com/zlwaterfield/scramble) \{ github.com \}
 
 > A very simple Chromium and Firefox extension example to fix grammar or rewrite the text on any website
 
-2024-09-18 [WonderWorld](https://kovenyu.com/wonderworld/) { kovenyu.com }
+2024-09-18 [WonderWorld](https://kovenyu.com/wonderworld/) \{ kovenyu.com \}
 
 > Interactive Scene Generation
 >
 > WonderWorld allows real-time rendering and fast scene generation. This allows a user to navigate existing scenes, and specify where and what to generate a new scene. Here are examples where a user specifies scene contents (via text) and locations (via camera movement) to create a virtual world. Videos here are accelerated.
 
-2024-09-18 [STORM](https://storm.genie.stanford.edu/) { storm.genie.stanford.edu }
+2024-09-18 [STORM](https://storm.genie.stanford.edu/) \{ storm.genie.stanford.edu \}
 
 > ![image-20241229151442927](./2024-12-29-links-from-my-inbox.assets/image-20241229151442927.png)
 
-2024-09-18 [punnerud/Local_Knowledge_Graph](https://github.com/punnerud/Local_Knowledge_Graph) { github.com }
+2024-09-18 [punnerud/Local_Knowledge_Graph](https://github.com/punnerud/Local_Knowledge_Graph) \{ github.com \}
 
 > ![image-20241229151731168](./2024-12-29-links-from-my-inbox.assets/image-20241229151731168.png)
 
-2024-09-01 Discussion thread [Programming with ChatGPT | Hacker News](https://news.ycombinator.com/item?id=41349020) { news.ycombinator.com }
+2024-09-01 Discussion thread [Programming with ChatGPT | Hacker News](https://news.ycombinator.com/item?id=41349020) \{ news.ycombinator.com \}
 
 > **[simonw](https://news.ycombinator.com/user?id=simonw) [4 days ago](https://news.ycombinator.com/item?id=41381996) | [prev](https://news.ycombinator.com/item?id=41349020#41384110)**
 >
@@ -664,13 +664,13 @@ target_link_libraries(main fmt::fmt simdjson::simdjson FastFloat::fast_float)
 > 2024-06-27 [I am using AI to drop hats outside my window onto New Yorkers | Hacker News](https://news.ycombinator.com/item?id=40767459)
 > ![image-20241201142019035](./2024-12-29-links-from-my-inbox.assets/image-20241201142019035.png)
 
-2024-12-26 [Apache NiFi](https://nifi.apache.org/) { nifi.apache.org }
+2024-12-26 [Apache NiFi](https://nifi.apache.org/) \{ nifi.apache.org \}
 
 > ![image-20241226141940077](./2024-12-29-links-from-my-inbox.assets/image-20241226141940077.png)
 >
 > ![image-20241226142027171](./2024-12-29-links-from-my-inbox.assets/image-20241226142027171.png)
 
-> 2024-12-26 [Apache NiFi on Azure - Azure Architecture Center | Microsoft Learn](https://learn.microsoft.com/en-us/azure/architecture/example-scenario/data/azure-nifi) { learn.microsoft.com }
+> 2024-12-26 [Apache NiFi on Azure - Azure Architecture Center | Microsoft Learn](https://learn.microsoft.com/en-us/azure/architecture/example-scenario/data/azure-nifi) \{ learn.microsoft.com \}
 >
 > ![image-20241226142318179](./2024-12-29-links-from-my-inbox.assets/image-20241226142318179.png)
 

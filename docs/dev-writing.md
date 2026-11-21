@@ -1,7 +1,7 @@
 # ✏️ dev-writing
 Date: 2024-11-10
 
-2024-11-11 [Blog Writing for Developers](https://rmoff.net/2023/07/19/blog-writing-for-developers/) { rmoff.net }
+2024-11-11 [Blog Writing for Developers](https://rmoff.net/2023/07/19/blog-writing-for-developers/) \{ rmoff.net \}
 
 > ![image-20241110232126290](dev-writing.assets/image-20241110232126290.png)
 
@@ -9,11 +9,11 @@ Date: 2024-11-10
 >
 > Whether you're a DevEx engineer, tech blogger, or documentation author, these insights aim to help you improve your writing to share knowledge effectively, engage your audience, and build credibility within your field.
 
-🔥🔥🔥2024-11-06 [LEADERSHIP LAB: The Craft of Writing Effectively - YouTube](https://www.youtube.com/watch?v=vtIzMaLkCaM) { www.youtube.com }🔥🔥🔥
+🔥🔥🔥2024-11-06 [LEADERSHIP LAB: The Craft of Writing Effectively - YouTube](https://www.youtube.com/watch?v=vtIzMaLkCaM) \{ www.youtube.com \}🔥🔥🔥
 
 > ![image-20241105224810433](dev-writing.assets/image-20241105224810433.png)
 
-> found in 2024-11-06 [Blog Writing for Developers](https://rmoff.net/2023/07/19/blog-writing-for-developers/) { rmoff.net }
+> found in 2024-11-06 [Blog Writing for Developers](https://rmoff.net/2023/07/19/blog-writing-for-developers/) \{ rmoff.net \}
 
 > **Introduction**
 > Writing isn’t just about sharing information; it’s about making an impact. In this insightful lecture, a distinguished writing instructor from the University of Chicago's Writing Program emphasizes that effective writing requires understanding your audience, establishing relevance, and creating a compelling narrative. This article captures the speaker’s key advice on improving writing by focusing on purpose, value, and the reader's needs.
@@ -60,7 +60,7 @@ Date: 2024-11-10
 > - **Advice**: Writing should serve a clear function beyond just following formal rules. Effective writing achieves its purpose by clearly communicating the problem and its significance to readers.
 > - **Application**: Instead of focusing solely on rules or formalities, think about what your writing needs to accomplish for your audience. Make sure that every section and statement reinforces your overall argument and purpose.
 
-2025-11-09 [To get better at technical writing, lower your expectations](https://www.seangoedecke.com/technical-communication/) { www.seangoedecke.com }
+2025-11-09 [To get better at technical writing, lower your expectations](https://www.seangoedecke.com/technical-communication/) \{ www.seangoedecke.com \}
 
 > ![image-20251108161947048](dev-writing.assets/image-20251108161947048.png)
 > 
@@ -71,7 +71,7 @@ Date: 2024-11-10
 >
 > Do this because almost nobody will give your writing full attention. Most readers will glance at the first line, skim a bit, then stop. They do not share your context, they do not care as much as you do, and they do not have time. No document will transfer your full understanding or perfectly align everyone. Real understanding comes from working with the system itself. In that reality, a short, front-loaded note that lands a single important idea is far more useful than a long, careful essay that most people never finish.
 
-2025-08-03 [Writing a good design document](https://grantslatton.com/how-to-design-document) { grantslatton.com }
+2025-08-03 [Writing a good design document](https://grantslatton.com/how-to-design-document) \{ grantslatton.com \}
 
 > ![image-20250803162218521](dev-writing.assets/image-20250803162218521.png)
 >
@@ -86,17 +86,17 @@ Date: 2024-11-10
 > 7. Short paragraphs, concise sentences, and logical flow prevent reader surprise and make even complex solutions feel obvious by the conclusion. 
 > 8. Study before-and-after editing examples to internalize brevity; apply a “red-pen” mindset to your own drafts to strip redundancy and sharpen arguments.
 
-2024-11-11 [technical-writing/resources.md at master · sixhobbits/technical-writing](https://github.com/sixhobbits/technical-writing/blob/master/resources.md) { github.com }
+2024-11-11 [technical-writing/resources.md at master · sixhobbits/technical-writing](https://github.com/sixhobbits/technical-writing/blob/master/resources.md) \{ github.com \}
 
 > There are a number of resources relating to technical writing, scattered around the web and in print. This is a (growing) list of technical writing resources. Pull requests to add titles are encouraged. Please add the title and a brief summary following the style below. For articles that are available on the web, provide a link.
 >
 > ![image-20241110232536253](dev-writing.assets/image-20241110232536253.png)
 
-2024-11-11 [Grammar - Ritza Style Guide](https://styleguide.ritza.co/grammar/grammar/) { styleguide.ritza.co }
+2024-11-11 [Grammar - Ritza Style Guide](https://styleguide.ritza.co/grammar/grammar/) \{ styleguide.ritza.co \}
 
 > ![image-20241110232628589](dev-writing.assets/image-20241110232628589.png)
 
-2024-12-15 [3 shell scripts: Kill weasel words, avoid the passive, eliminate duplicates](https://matt.might.net/articles/shell-scripts-for-passive-voice-weasel-words-duplicates/) { matt.might.net }
+2024-12-15 [3 shell scripts: Kill weasel words, avoid the passive, eliminate duplicates](https://matt.might.net/articles/shell-scripts-for-passive-voice-weasel-words-duplicates/) \{ matt.might.net \}
 
 > ![image-20241215150901398](dev-writing.assets/image-20241215150901398.png)
 
@@ -404,12 +404,12 @@ Date: 2024-11-10
 > 
 > my $DupCount = 0 ;
 > 
-> if (!@ARGV) {
+> if (!@ARGV) \{
 >   print "usage: dups <file> ...\n" ;
 >   exit ;
-> }
+> \}
 > 
-> while (1) {
+> while (1) \{
 >   my $FileName = shift @ARGV ;
 > 
 >   # Exit code = number of duplicates found.  
@@ -420,36 +420,36 @@ Date: 2024-11-10
 >   my $LastWord = "" ;
 >   my $LineNum = 0 ;
 >   
->   while (<FILE>) {
+>   while (<FILE>) \{
 >     chomp ;
 > 
 >     $LineNum ++ ;
 >     
 >     my @words = split (/(\W+)/) ;
 >     
->     foreach my $word (@words) {
+>     foreach my $word (@words) \{
 >       # Skip spaces:
 >       next if $word =~ /^\s*$/ ;
 > 
 >       # Skip punctuation:
->       if ($word =~ /^\W+$/) {
+>       if ($word =~ /^\W+$/) \{
 >         $LastWord = "" ;
 >         next ;
->       }
+>       \}
 >       
 >       # Found a dup? 
->       if (lc($word) eq lc($LastWord)) {
+>       if (lc($word) eq lc($LastWord)) \{
 >         print "$FileName:$LineNum $word\n" ;
 >         $DupCount ++ ;
->       } # Thanks to Sean Cronin for tip on case.
+>       \} # Thanks to Sean Cronin for tip on case.
 > 
 >       # Mark this as the last word:
 >       $LastWord = $word ;
->     }
->   }
+>     \}
+>   \}
 >   
 >   close FILE ;
-> }
+> \}
 > ```
 >
 > ## Makefile integration
@@ -491,7 +491,7 @@ Date: 2024-11-10
 >
 > [1] For example, my colleague [John Regehr,](http://blog.regehr.org/) suggested simple scripts to catch students' use of superfluous phrases like, "Note that," and "Notice that." Others have suggested scripts for using the future tense in technical writing.
 
-2025-01-18 [The documentation problem in development | Rowsana](https://rowsana.bearblog.dev/the-documentation-problem/) { rowsana.bearblog.dev }
+2025-01-18 [The documentation problem in development | Rowsana](https://rowsana.bearblog.dev/the-documentation-problem/) \{ rowsana.bearblog.dev \}
 
 > ![image-20250118155628338](dev-writing.assets/image-20250118155628338.png)
 >
@@ -511,7 +511,7 @@ Date: 2024-11-10
 >
 > **Good documentation may seem simple, but it takes careful effort to create.** By addressing common issues, starting from the basics, and presenting content clearly and consistently, you’ll build a resource that works for users of all experience levels. This investment builds trust, reduces support needs, and ensures your work can be understood and adopted effectively.
 
-2025-03-18 [How to Build Anything Extremely Quickly](https://learnhowtolearn.org/how-to-build-extremely-quickly/)  { learnhowtolearn.org }
+2025-03-18 [How to Build Anything Extremely Quickly](https://learnhowtolearn.org/how-to-build-extremely-quickly/)  \{ learnhowtolearn.org \}
 
 > "outline speedrunning." This involves breaking down projects into manageable chunks through a recursive outlining method, speedily completing each task without aiming for perfection during the initial pass, and then refining the finished product later.
 >

@@ -9,7 +9,7 @@ categories: links
 
 In this blog post, I'll be sharing a collection of videos with concise content digests. These summaries extract the key points, focusing on the problem discussed, its root cause, and the solution or advice offered. I find this approach helpful because it allows me to retain the core information long after watching the video. This section will serve as a dedicated space for these "good watches," presenting only the most valuable videos and their takeaways in one place.
 
-2024-08-18 [Burnout - When does work start feeling pointless? | DW Documentary - YouTube](https://www.youtube.com/watch?v=raVms8w61No) { www.youtube.com }
+2024-08-18 [Burnout - When does work start feeling pointless? | DW Documentary - YouTube](https://www.youtube.com/watch?v=raVms8w61No) \{ www.youtube.com \}
 
 > ![image-20240817174213143](2024-10-13-links-from-my-inbox.assets/image-20240817174213143.png)
 
@@ -91,7 +91,7 @@ In this blog post, I'll be sharing a collection of videos with concise content d
 >
 > The most critical issues are **employee burnout** and the **disconnect between management and workers**, both of which contribute to widespread dissatisfaction and inefficiency in workplaces. Addressing these through better leadership training, reducing unnecessary work, and improving workplace communication can lead to healthier, more engaged employees.
 
-2024-10-13 [How to Spend 14 Days in JAPAN 🇯🇵 Ultimate Travel Itinerary - YouTube](https://www.youtube.com/watch?v=DBVAAnq1dHo) { www.youtube.com }
+2024-10-13 [How to Spend 14 Days in JAPAN 🇯🇵 Ultimate Travel Itinerary - YouTube](https://www.youtube.com/watch?v=DBVAAnq1dHo) \{ www.youtube.com \}
 
 > ![image-20241013110107937](2024-10-13-links-from-my-inbox.assets/image-20241013110107937.png)
 >
@@ -130,7 +130,7 @@ In this blog post, I'll be sharing a collection of videos with concise content d
 
 
 
-2024-10-12 [How to Delete Code - Matthew Jones - ACCU 2024 - YouTube](https://www.youtube.com/watch?v=ApUPEsrqfYk) { www.youtube.com }
+2024-10-12 [How to Delete Code - Matthew Jones - ACCU 2024 - YouTube](https://www.youtube.com/watch?v=ApUPEsrqfYk) \{ www.youtube.com \}
 
 > ![image-20241012110250287](2024-10-13-links-from-my-inbox.assets/image-20241012110250287.png)
 >
@@ -212,7 +212,7 @@ In this blog post, I'll be sharing a collection of videos with concise content d
 >     - **Measuring and recording progress**: Keep track of all dead code and document changes. **Action**: Use tools like Jira to track deletions and improvements in code health.
 >     - **Deleting responsibly**: Don’t delete code just for the sake of it. **Action**: Ensure that deleted code is truly unused and won’t cause issues down the line. For example, test thoroughly before removing any core functionality.
 
-2024-09-29 [Insights From an L7 Meta Manager: Interviews, Onboarding, and Building Trust - YouTube](https://www.youtube.com/watch?v=C1XV6Yg4Nm4) { www.youtube.com }
+2024-09-29 [Insights From an L7 Meta Manager: Interviews, Onboarding, and Building Trust - YouTube](https://www.youtube.com/watch?v=C1XV6Yg4Nm4) \{ www.youtube.com \}
 
 > ![image-20241013110406428](2024-10-13-links-from-my-inbox.assets/image-20241013110406428.png)
 >
@@ -375,7 +375,7 @@ In this blog post, I'll be sharing a collection of videos with concise content d
 >
 > These are the **most critical** problems discussed in the transcript, with clear, actionable advice for each.
 
-2024-09-24 [LLMs gone wild - Tess Ferrandez-Norlander - NDC Oslo 2024 - YouTube](https://www.youtube.com/watch?v=oTMKB-fVJus) { www.youtube.com }
+2024-09-24 [LLMs gone wild - Tess Ferrandez-Norlander - NDC Oslo 2024 - YouTube](https://www.youtube.com/watch?v=oTMKB-fVJus) \{ www.youtube.com \}
 
 > Tess Ferrandez-Norlander (works at Microsoft)
 
@@ -383,17 +383,17 @@ In this blog post, I'll be sharing a collection of videos with concise content d
 
 > ![image-20240923231052659](2024-10-13-links-from-my-inbox.assets/image-20240923231052659.png)
 
-> 2024-09-24 [Overview - Chainlit](https://docs.chainlit.io/get-started/overview) { docs.chainlit.io }
+> 2024-09-24 [Overview - Chainlit](https://docs.chainlit.io/get-started/overview) \{ docs.chainlit.io \}
 >
 > ![image-20240923232539521](2024-10-13-links-from-my-inbox.assets/image-20240923232539521.png)
 
 > ![image-20240924110712641](2024-10-13-links-from-my-inbox.assets/image-20240924110712641.png)
 
-> 2024-09-24 [ 2406.04369  RAG Does Not Work for Enterprises](https://arxiv.org/abs/2406.04369) { arxiv.org }
+> 2024-09-24 [ 2406.04369  RAG Does Not Work for Enterprises](https://arxiv.org/abs/2406.04369) \{ arxiv.org \}
 >
 > ![image-20240924111707846](2024-10-13-links-from-my-inbox.assets/image-20240924111707846.png)
 
-2024-09-26 [Your website does not need JavaScript - Amy Kapernick - NDC Oslo 2024 - YouTube](https://www.youtube.com/watch?v=jn8u-gpeGFk) { www.youtube.com }
+2024-09-26 [Your website does not need JavaScript - Amy Kapernick - NDC Oslo 2024 - YouTube](https://www.youtube.com/watch?v=jn8u-gpeGFk) \{ www.youtube.com \}
 
 > ![image-20240926005552838](2024-10-13-links-from-my-inbox.assets/image-20240926005552838.png)
 
@@ -401,9 +401,9 @@ In this blog post, I'll be sharing a collection of videos with concise content d
 
 > ![image-20240926235229401](2024-10-13-links-from-my-inbox.assets/image-20240926235229401.png)
 
-> 2024-09-27 [amykapernick/no_js](https://github.com/amykapernick/no_js) { github.com }
+> 2024-09-27 [amykapernick/no_js](https://github.com/amykapernick/no_js) \{ github.com \}
 
-2024-08-24 [Reducing C++ Compilation Times Through Good Design - Andrew Pearcy - ACCU 2024 - YouTube](https://www.youtube.com/watch?v=ItcGevumW-8) { www.youtube.com }
+2024-08-24 [Reducing C++ Compilation Times Through Good Design - Andrew Pearcy - ACCU 2024 - YouTube](https://www.youtube.com/watch?v=ItcGevumW-8) \{ www.youtube.com \}
 
 > ![image-20241013111059590](2024-10-13-links-from-my-inbox.assets/image-20241013111059590.png)
 

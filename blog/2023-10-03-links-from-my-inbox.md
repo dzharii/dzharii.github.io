@@ -339,7 +339,7 @@ val definition2 = input.reduceByKey(_ + _)
 >
 > In this article we started exploring working with Spark code in Scala from the software engineering perspective. We created a source code repository in Git and configured a CI/CD pipeline for it in GitLab. We integrated the pipeline to push code coverage metrics to CodeCov.io and implemented unit and integration tests to achieve a high level of coverage. In our unit tests, we experimented with object mocking techniques. In the integration test we generated a sample data set and registered it as a table with SparkSession. We enabled Spark integration with Hive in order to allow the test to write transformed data to a Hive table backed by the local file system. In the next article we will continue this exploration by implementing a data conversion for a practical use case.
 
-2023-08-26 [Spark Partitioning & Partition Understanding - Spark By {Examples}](https://sparkbyexamples.com/spark/spark-partitioning-understanding/)
+2023-08-26 [Spark Partitioning & Partition Understanding - Spark By \{Examples\}](https://sparkbyexamples.com/spark/spark-partitioning-understanding/)
 
 > FREE ADS!
 

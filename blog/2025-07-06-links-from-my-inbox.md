@@ -7,7 +7,7 @@ categories: links
 
 ## ⌚ Nice watch!
 
-2025-07-06 [Effective Ranges: A Tutorial for Using C++2x Ranges - Jeff Garland - CppCon 2023 - YouTube](https://www.youtube.com/watch?v=QoaVRQvA6hI) { www.youtube.com }
+2025-07-06 [Effective Ranges: A Tutorial for Using C++2x Ranges - Jeff Garland - CppCon 2023 - YouTube](https://www.youtube.com/watch?v=QoaVRQvA6hI) \{ www.youtube.com \}
 
 > ![image-20250706101448811](2025-07-06-links-from-my-inbox.assets/image-20250706101448811.png)
 >
@@ -42,7 +42,7 @@ categories: links
 >     - They offer better constraints, return types, and support for projections.
 >     - Cleaner syntax and fewer error-prone constructs compared to raw STL iterator use.
 >
-> 2025-07-06 [ericniebler/range-v3: Range library for C++14/17/20, basis for C++20's std::ranges](https://github.com/ericniebler/range-v3) { github.com }
+> 2025-07-06 [ericniebler/range-v3: Range library for C++14/17/20, basis for C++20's std::ranges](https://github.com/ericniebler/range-v3) \{ github.com \}
 >
 > > **range-v3**
 > >
@@ -56,19 +56,19 @@ categories: links
 > >
 > > Views and actions use the pipe syntax (e.g., `rng | adapt1 | adapt2 | ...`) so your code is terse and readable from left to right.
 
-2025-07-06 [Resilient by Design - Chris Ayers - NDC Oslo 2025 - YouTube](https://www.youtube.com/watch?v=Vn-vcl4rQX0) { www.youtube.com }
+2025-07-06 [Resilient by Design - Chris Ayers - NDC Oslo 2025 - YouTube](https://www.youtube.com/watch?v=Vn-vcl4rQX0) \{ www.youtube.com \}
 
 > ![image-20250705194958121](2025-07-06-links-from-my-inbox.assets/image-20250705194958121.png)
 
-> 2025-07-06 [Aspiring .NET & Resilience @ NDC Oslo 2025 - Chris’s Tech ADHD](https://chris-ayers.com/2025/05/24/ndc-oslo-2025-wrapup/) { chris-ayers.com }
+> 2025-07-06 [Aspiring .NET & Resilience @ NDC Oslo 2025 - Chris’s Tech ADHD](https://chris-ayers.com/2025/05/24/ndc-oslo-2025-wrapup/) \{ chris-ayers.com \}
 >
-> 2025-07-06 [Azure/Azure-Proactive-Resiliency-Library-v2: Azure Proactive Resiliency Library v2 (APRL) - Source for Azure WAF reliability guidance and associated ARG queries](https://github.com/Azure/Azure-Proactive-Resiliency-Library-v2) { github.com }
+> 2025-07-06 [Azure/Azure-Proactive-Resiliency-Library-v2: Azure Proactive Resiliency Library v2 (APRL) - Source for Azure WAF reliability guidance and associated ARG queries](https://github.com/Azure/Azure-Proactive-Resiliency-Library-v2) \{ github.com \}
 >
-> - 2025-07-06 [Azure/Azure-Proactive-Resiliency-Library-v2: Azure Proactive Resiliency Library v2 (APRL) - Source for Azure WAF reliability guidance and associated ARG queries](https://github.com/Azure/Azure-Proactive-Resiliency-Library-v2) { github.com }
+> - 2025-07-06 [Azure/Azure-Proactive-Resiliency-Library-v2: Azure Proactive Resiliency Library v2 (APRL) - Source for Azure WAF reliability guidance and associated ARG queries](https://github.com/Azure/Azure-Proactive-Resiliency-Library-v2) \{ github.com \}
 >
-> 2025-07-06 [Azure Well-Architected Framework - Microsoft Azure Well-Architected Framework | Microsoft Learn](https://learn.microsoft.com/en-us/azure/well-architected/) { learn.microsoft.com }
+> 2025-07-06 [Azure Well-Architected Framework - Microsoft Azure Well-Architected Framework | Microsoft Learn](https://learn.microsoft.com/en-us/azure/well-architected/) \{ learn.microsoft.com \}
 
-2025-07-05 [Let’s catch up with C#! Exciting new features in C# 9, 10, 11, 12 and 13! - Filip Ekberg - NDC Oslo - YouTube](https://www.youtube.com/watch?v=YVc35sv52d4) { www.youtube.com }
+2025-07-05 [Let’s catch up with C#! Exciting new features in C# 9, 10, 11, 12 and 13! - Filip Ekberg - NDC Oslo - YouTube](https://www.youtube.com/watch?v=YVc35sv52d4) \{ www.youtube.com \}
 
 > ![image-20250705125149517](2025-07-06-links-from-my-inbox.assets/image-20250705125149517.png)
 >
@@ -465,7 +465,7 @@ user?.Name ??= "Default Name";
 
 ------
 
-2025-06-24 [Building Rock-Solid Encrypted Applications - Ben Dechrai - NDC Melbourne 2025 - YouTube](https://www.youtube.com/watch?v=QirIcv4HgrU) { www.youtube.com }
+2025-06-24 [Building Rock-Solid Encrypted Applications - Ben Dechrai - NDC Melbourne 2025 - YouTube](https://www.youtube.com/watch?v=QirIcv4HgrU) \{ www.youtube.com \}
 
 > ![image-20250623215532608](2025-07-06-links-from-my-inbox.assets/image-20250623215532608.png)
 >
@@ -511,7 +511,7 @@ user?.Name ??= "Default Name";
 > 10. **Store only ciphertext and public keys on servers**  
 >       All decryption happens on the device. Retaining private keys or decrypted messages is risky unless legally required. Private key loss or compromise must only affect a small slice of messages, not entire histories.
 
-2025-06-23 [I locked 1000 architects in a room until they all agreed on the best solution - Bronwen Zande - YouTube](https://www.youtube.com/watch?v=HEhTUJBXYbk) { www.youtube.com }
+2025-06-23 [I locked 1000 architects in a room until they all agreed on the best solution - Bronwen Zande - YouTube](https://www.youtube.com/watch?v=HEhTUJBXYbk) \{ www.youtube.com \}
 
 > ![image-20250623001226688](2025-07-06-links-from-my-inbox.assets/image-20250623001226688.png)**I built 1,000 architects using AI—each with a name, country, skillset, and headshot**
 > I asked a language model to make me architect profiles. I told it their gender, country, and years of experience. Then I got it to generate a photo too. I used tools like DALL-E and ChatGPT to get realistic images.
@@ -537,7 +537,7 @@ user?.Name ??= "Default Name";
 > **Personas from different countries mentioned local laws**
 > That was cool. The architects from Australia talked about the APP (privacy laws). The ones from Poland mentioned GDPR. That means the AI was paying attention to the persona’s background.
 
-2025-06-19 [Andrej Karpathy: Software Is Changing (Again) - YouTube](https://www.youtube.com/watch?v=LCEmiRjPEtQ) { www.youtube.com }
+2025-06-19 [Andrej Karpathy: Software Is Changing (Again) - YouTube](https://www.youtube.com/watch?v=LCEmiRjPEtQ) \{ www.youtube.com \}
 
 > ![image-20250618232722060](2025-07-06-links-from-my-inbox.assets/image-20250618232722060.png)
 >
@@ -563,15 +563,15 @@ user?.Name ??= "Default Name";
 >
 > Movies from the talk:
 >
-> - [Rain Man (1988) - IMDb](https://www.imdb.com/title/tt0095953/) { www.imdb.com }
+> - [Rain Man (1988) - IMDb](https://www.imdb.com/title/tt0095953/) \{ www.imdb.com \}
 >
 >   > When self-centered car dealer Charlie Babbitt learns that his estranged father's fortune has been left to an institutionalized older brother he never knew, Raymond, he kidnaps him in hopes of securing the inheritance. What follows is a transformative cross-country journey where Charlie discovers Raymond is an autistic savant with extraordinary memory and numerical skills. The film’s uniqueness lies in its sensitive portrayal of autism and the emotional evolution of a man reconnecting with family through empathy and acceptance.
 >
-> - [Memento (2000) - IMDb](https://www.imdb.com/title/tt0209144/) { www.imdb.com }
+> - [Memento (2000) - IMDb](https://www.imdb.com/title/tt0209144/) \{ www.imdb.com \}
 >
 >   > Leonard Shelby suffers from short-term memory loss, unable to form new memories after a traumatic event. He relies on Polaroid photos and tattoos to track clues in his obsessive search for his wife's killer. Told in a non-linear, reverse chronology that mirrors Leonard’s disoriented mental state, the film uniquely immerses the viewer in the protagonist’s fractured perception, making the mystery unravel in a mind-bending and emotionally charged fashion.
 >
-> - [50 First Dates (2004) - IMDb](https://www.imdb.com/title/tt0343660/) { www.imdb.com }
+> - [50 First Dates (2004) - IMDb](https://www.imdb.com/title/tt0343660/) \{ www.imdb.com \}
 >
 >   > Henry Roth, a commitment-phobic marine veterinarian in Hawaii, falls for Lucy Whitmore, a woman with anterograde amnesia who forgets each day anew after a car accident. To win her love, he must make her fall for him again every day. The film blends romantic comedy with neurological drama, and its charm comes from turning a memory disorder into a heartfelt and humorous exploration of persistence, love, and hope.
 >
@@ -584,11 +584,11 @@ user?.Name ??= "Default Name";
 >
 > 
 >
-> 2025-06-19 [Andrej Karpathy on Software 3.0: Software in the Age of AI](https://www.latent.space/p/s3) { www.latent.space }
+> 2025-06-19 [Andrej Karpathy on Software 3.0: Software in the Age of AI](https://www.latent.space/p/s3) \{ www.latent.space \}
 >
 > > ![image-20250618233234182](2025-07-06-links-from-my-inbox.assets/image-20250618233234182.png)
 
-2025-06-16 [Common Software Architectures and How they Fail - YouTube](https://www.youtube.com/watch?v=m4TPSeTWmeo) { www.youtube.com }
+2025-06-16 [Common Software Architectures and How they Fail - YouTube](https://www.youtube.com/watch?v=m4TPSeTWmeo) \{ www.youtube.com \}
 
 > ![image-20250615202357978](2025-07-06-links-from-my-inbox.assets/image-20250615202357978.png)
 >
@@ -600,7 +600,7 @@ user?.Name ??= "Default Name";
 > - Microservices address team and scalability issues but require careful handling of inter-service communication, fault tolerance, and increased operational complexity.
 > - Modular monoliths, feature flags, blue-green deployments, and experimentation libraries like Scientist effectively mitigate deployment risks and complexity.
 
-2025-06-09 [Microservices, Where Did It All Go Wrong? - Ian Cooper - NDC Melbourne 2025 - YouTube](https://www.youtube.com/watch?v=O-lNh-_rnLM) { www.youtube.com }
+2025-06-09 [Microservices, Where Did It All Go Wrong? - Ian Cooper - NDC Melbourne 2025 - YouTube](https://www.youtube.com/watch?v=O-lNh-_rnLM) \{ www.youtube.com \}
 
 > ![image-20250608225447664](2025-07-06-links-from-my-inbox.assets/image-20250608225447664.png)
 >
@@ -612,7 +612,7 @@ user?.Name ??= "Default Name";
 >
 > Tags: microservices, modular monolith, macroservices, bounded context, domain storytelling, 4+1 architecture, service granularity, team topologies
 
-2025-06-04 [The CIA method for making quick decisions under stress | Andrew Bustamante - YouTube](https://www.youtube.com/watch?v=h5sCj8ic1rM) { www.youtube.com }
+2025-06-04 [The CIA method for making quick decisions under stress | Andrew Bustamante - YouTube](https://www.youtube.com/watch?v=h5sCj8ic1rM) \{ www.youtube.com \}
 
 > ![image-20250603235631029](2025-07-06-links-from-my-inbox.assets/image-20250603235631029.png)
 >
@@ -632,7 +632,7 @@ user?.Name ??= "Default Name";
 >
 > Tags: time management, task saturation, operational prioritization, productivity, decision making, CIA methods, cognitive load, stress management, momentum, next-task focus, head trash, high-pressure situations, survival mindset, resource allocation, time as asset
 
-2025-06-03 [What You Should Know About FUTO Keyboard - YouTube](https://www.youtube.com/watch?v=cFP5bp3JvaU) { www.youtube.com }
+2025-06-03 [What You Should Know About FUTO Keyboard - YouTube](https://www.youtube.com/watch?v=cFP5bp3JvaU) \{ www.youtube.com \}
 
 > ![image-20250603001715964](2025-07-06-links-from-my-inbox.assets/image-20250603001715964.png)
 >
@@ -642,7 +642,7 @@ user?.Name ??= "Default Name";
 >
 > *privacy, offline, swipe typing, voice input, open source*
 
-2025-06-02 [The internet shouldn't consume your life - YouTube](https://www.youtube.com/watch?v=C8MJCCbxAvg) { www.youtube.com }
+2025-06-02 [The internet shouldn't consume your life - YouTube](https://www.youtube.com/watch?v=C8MJCCbxAvg) \{ www.youtube.com \}
 
 > ![image-20250601192845764](2025-07-06-links-from-my-inbox.assets/image-20250601192845764.png)
 >
@@ -650,7 +650,7 @@ user?.Name ??= "Default Name";
 >
 > *internet dependence, social media, balance, personal growth, generational habits*
 
-2025-06-02 [Why good engineers keep burning out - YouTube](https://www.youtube.com/watch?v=EBHiis5F2JY) { www.youtube.com }
+2025-06-02 [Why good engineers keep burning out - YouTube](https://www.youtube.com/watch?v=EBHiis5F2JY) \{ www.youtube.com \}
 
 > ![image-20250601185939937](2025-07-06-links-from-my-inbox.assets/image-20250601185939937.png)I’ve been thinking a lot about something I call *change energy*. Everyone’s got a different threshold for how much change they can handle — their living situation, work, even what they eat. Too much stability feels boring, but too much change feels overwhelming. It’s all about where you sit on that spectrum.
 >
@@ -671,7 +671,7 @@ user?.Name ??= "Default Name";
 >
 > ![image-20250601190733500](2025-07-06-links-from-my-inbox.assets/image-20250601190733500.png)
 
-2025-05-30 [Reflections on 25 years of writing secure code | BRK235 - YouTube](https://www.youtube.com/watch?v=pd9SiUv0Tas) { www.youtube.com }
+2025-05-30 [Reflections on 25 years of writing secure code | BRK235 - YouTube](https://www.youtube.com/watch?v=pd9SiUv0Tas) \{ www.youtube.com \}
 
 > ![image-20250529181550825](2025-07-06-links-from-my-inbox.assets/image-20250529181550825.png)
 >
@@ -707,7 +707,7 @@ user?.Name ??= "Default Name";
 >
 > *software security, input validation, memory safety, secure coding, fuzzing, CodeQL, Rust, C/C++, SSRF, compensating controls, Microsoft, Secure Future Initiative*
 
-2025-05-27 [Oddly useful Linux tools you probably haven't seen before - YouTube](https://www.youtube.com/watch?v=32O0a6qCQaQ) { www.youtube.com }
+2025-05-27 [Oddly useful Linux tools you probably haven't seen before - YouTube](https://www.youtube.com/watch?v=32O0a6qCQaQ) \{ www.youtube.com \}
 
 > ![image-20250526204837094](2025-07-06-links-from-my-inbox.assets/image-20250526204837094.png)
 > Caught in a heavy downpour but grateful to be warm and dry inside, the speaker dives into a list of surprisingly useful tools. First is *Webcam Eyes*, a 200-line shell script that effortlessly mounts most modern cameras as webcams—especially useful for recording with tools like `ffmpeg`. After testing on multiple Canon and Sony cameras, it proved flawless. Next up is *Disk*, a colorful, graph-based alternative to `df`, offering cleaner output and useful export options like JSON and CSV, written in Rust and only marginally slower.
@@ -716,7 +716,7 @@ user?.Name ??= "Default Name";
 >
 > *tools, shell scripting, webcams, disk utilities, bash, X11, developer tools*
 
-2025-05-18 [I changed databases again (please learn from my mistakes) - YouTube](https://www.youtube.com/watch?v=xFVh9beupwo) { www.youtube.com }
+2025-05-18 [I changed databases again (please learn from my mistakes) - YouTube](https://www.youtube.com/watch?v=xFVh9beupwo) \{ www.youtube.com \}
 
 > tags: database migration, Convex, IndexedDB, Dexi, sync engine, T3 Chat, optimistic updates, live queries, SSE streaming, resumable streams, PlanetScale, Drizzle ORM, Replicache Zero, feature flags, WebSocket authentication, TypeScript, JWT, session management, migration debugging, client-server architecture
 >
@@ -767,7 +767,7 @@ user?.Name ??= "Default Name";
 >     - Monitor Convex search indexing improvements under high write load.
 >     - Celebrate the end of database migrations—at least until the next big feature!
 
-2025-04-25 [The Inside Story of the Windows Start Menu - YouTube](https://www.youtube.com/watch?v=INLSnd2p8uQ) { www.youtube.com }
+2025-04-25 [The Inside Story of the Windows Start Menu - YouTube](https://www.youtube.com/watch?v=INLSnd2p8uQ) \{ www.youtube.com \}
 
 >![image-20250424215407832](2025-07-06-links-from-my-inbox.assets/image-20250424215407832.png)
 
@@ -779,7 +779,7 @@ user?.Name ??= "Default Name";
 >
 > *windows history, start menu, user interface design, microsoft development, operating systems, windows architecture, software engineering lessons*
 
-2025-03-24 [Keynote: The past, present, and future of AI for application developers - Steve Sanderson - YouTube](https://www.youtube.com/watch?v=awztkr8n0AA) { www.youtube.com }
+2025-03-24 [Keynote: The past, present, and future of AI for application developers - Steve Sanderson - YouTube](https://www.youtube.com/watch?v=awztkr8n0AA) \{ www.youtube.com \}
 
 > **Tags:** AI, application development, history, chatbots, neural networks, Markov models, GPT, large language models, small language models, business automation, agents, speech recognition, API integration.
 >
@@ -787,9 +787,9 @@ user?.Name ??= "Default Name";
 >
 > ![image-20250323210700467](2025-07-06-links-from-my-inbox.assets/image-20250323210700467.png)
 >
-> - 2025-03-24 [NuGet Gallery | Microsoft.Extensions.AI 9.3.0-preview.1.25161.3](https://www.nuget.org/packages/Microsoft.Extensions.AI/) { www.nuget.org }
+> - 2025-03-24 [NuGet Gallery | Microsoft.Extensions.AI 9.3.0-preview.1.25161.3](https://www.nuget.org/packages/Microsoft.Extensions.AI/) \{ www.nuget.org \}
 
-2025-03-16 [The Definition Of Insanity - Sam Newman - NDC London 2025 - YouTube](https://www.youtube.com/watch?v=I6SvnCYRm50) { www.youtube.com }
+2025-03-16 [The Definition Of Insanity - Sam Newman - NDC London 2025 - YouTube](https://www.youtube.com/watch?v=I6SvnCYRm50) \{ www.youtube.com \}
 
 > **Tags:** Distributed Systems, Timeouts, Retries, Idempotency, Resilience, Reliability, Fault Tolerance, Network Communication, System Design, Exponential Backoff, Unique Request IDs, Request Fingerprinting, Latency Management, Resource Management, System Robustness, Software Engineering, Architecture Best Practices
 >
@@ -849,7 +849,7 @@ user?.Name ??= "Default Name";
 > - Regularly validate and review idempotency mechanisms in real-world production conditions.
 > - Ensure robust logging and tracing to monitor idempotency effectiveness, catching issues early.
 
-2025-03-30 [Using GenAI on your code, what could possibly go wrong? - - YouTube](https://www.youtube.com/watch?v=krDJlrw5mM0) { www.youtube.com }
+2025-03-30 [Using GenAI on your code, what could possibly go wrong? - - YouTube](https://www.youtube.com/watch?v=krDJlrw5mM0) \{ www.youtube.com \}
 
 > Tags: AI security, code generation, prompt injection
 >

@@ -303,9 +303,9 @@ categories: links
 | ==      | your love **is** a lie              |
 | !=      | the whisky **ain't** the answer     |
 | >       | my heart **is stronger than** steel |
-| <       | my soul **is weaker than** water    |
-| >=      | my will **is as strong as** a lion  |
-| <=      | your lies are **as low as** a snake |
+| &lt;    | my soul **is weaker than** water    |
+| &gt;=   | my will **is as strong as** a lion  |
+| &lt;=   | your lies are **as low as** a snake |
 
 2023-07-15 [Locknote: How JavaScript Happened: A Short History of Programming Languages - Mark Rendle - YouTube](https://www.youtube.com/live/hEdzaIa4Heg?feature=share&t=1516)
 

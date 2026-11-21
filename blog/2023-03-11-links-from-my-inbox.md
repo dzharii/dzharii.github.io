@@ -131,7 +131,7 @@ categories: links
 
 2023-03-08 [fmtlib/fmt: A modern formatting library](https://github.com/fmtlib/fmt)
 
-> **{fmt}** is an open-source formatting library providing a fast and safe alternative to C stdio and C++ iostreams.
+> **\{fmt\}** is an open-source formatting library providing a fast and safe alternative to C stdio and C++ iostreams.
 
 Some research about bringing Rust's Result in C++ code:
 

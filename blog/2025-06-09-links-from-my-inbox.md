@@ -9,7 +9,7 @@ categories: links
 
 ## Software Design
 
-2025-03-24 [Distributed Locking: A Practical Guide - by Oskar Dudycz](https://www.architecture-weekly.com/p/distributed-locking-a-practical-guide/) { www.architecture-weekly.com }
+2025-03-24 [Distributed Locking: A Practical Guide - by Oskar Dudycz](https://www.architecture-weekly.com/p/distributed-locking-a-practical-guide/) \{ www.architecture-weekly.com \}
 
 > (found in [Programming Digest: Email Newsletter](https://programmingdigest.net/))
 >
@@ -17,19 +17,19 @@ categories: links
 >
 > ![image-20250323200349972](2025-06-09-links-from-my-inbox.assets/image-20250323200349972.png)
 
-💥 2025-02-09 [Versioning versus Coordination - Marc's Blog](https://brooker.co.za/blog/2025/02/04/versioning.html) { brooker.co.za }
+💥 2025-02-09 [Versioning versus Coordination - Marc's Blog](https://brooker.co.za/blog/2025/02/04/versioning.html) \{ brooker.co.za \}
 
 > I want to show you why multi-version concurrency control outdoes locking in distributed databases. By giving each transaction its own snapshot, we never make readers and writers wait on each other, cutting way down on coordination across replicas. I also rely on carefully synchronized physical clocks to get rid of any need for a central version authority, which increases both scalability and availability. This approach hits the sweet spot of guaranteeing read-after-write consistency while still letting us scale horizontally. I am building on David Reed's groundbreaking 1979 work, which underscores how versions help capture consistent states without heavy synchronization. Sure, we need to manage older versions for ongoing transactions, but that is a fair trade-off for the performance and consistency we gain. All in all, versioning is the right choice if you want a fast, truly distributed database system.
 >
 > ![image-20250209122045318](2025-06-09-links-from-my-inbox.assets/image-20250209122045318.png)
 
-2024-12-26 [Helm-based deployments for Apache NiFi - Azure Architecture Center | Microsoft Learn](https://learn.microsoft.com/en-us/azure/architecture/guide/data/helm-deployments-apache-nifi) { learn.microsoft.com }
+2024-12-26 [Helm-based deployments for Apache NiFi - Azure Architecture Center | Microsoft Learn](https://learn.microsoft.com/en-us/azure/architecture/guide/data/helm-deployments-apache-nifi) \{ learn.microsoft.com \}
 
 > Azure Deployment and software design hints from Microsoft
 >
 > ![image-20241226142916501](2025-06-09-links-from-my-inbox.assets/image-20241226142916501.png)
 
-2024-12-01 [Hexagonal Architecture: A Practical Guide | Booking.com Engineering](https://medium.com/booking-com-development/hexagonal-architecture-a-practical-guide-5bc6d5a6a056) { medium.com }
+2024-12-01 [Hexagonal Architecture: A Practical Guide | Booking.com Engineering](https://medium.com/booking-com-development/hexagonal-architecture-a-practical-guide-5bc6d5a6a056) \{ medium.com \}
 
 > ![image-20241201133916884](2025-06-09-links-from-my-inbox.assets/image-20241201133916884.png)
 >
@@ -37,7 +37,7 @@ categories: links
 
 ## Algorithms
 
-2025-02-28 [Markov Chains explained visually](https://setosa.io/ev/markov-chains/) { setosa.io }
+2025-02-28 [Markov Chains explained visually](https://setosa.io/ev/markov-chains/) \{ setosa.io \}
 
 > **Tags:** Markov chains, stochastic processes, state transitions, transition matrices, probability modeling, weather simulation, PageRank algorithm, visualization, interactive learning, mathematical modeling
 >
@@ -52,12 +52,12 @@ categories: links
 >
 > ![image-20250227192013818](2025-06-09-links-from-my-inbox.assets/image-20250227192013818.png)
 
-2025-02-23 [Hash Functions Deep Dive](https://www.kirupa.com/data_structures_algorithms/hash_functions_deep_dive.htm/) { www.kirupa.com }
+2025-02-23 [Hash Functions Deep Dive](https://www.kirupa.com/data_structures_algorithms/hash_functions_deep_dive.htm/) \{ www.kirupa.com \}
 
 > ![image-20250223144911682](2025-06-09-links-from-my-inbox.assets/image-20250223144911682.png)
-> (found in 2025-02-23 [A calculator app?](https://programmingdigest.net/newsletters/1807) { programmingdigest.net })
+> (found in 2025-02-23 [A calculator app?](https://programmingdigest.net/newsletters/1807) \{ programmingdigest.net \})
 
-2024-09-29 [Raft](https://thesecretlivesofdata.com/raft/) { thesecretlivesofdata.com }
+2024-09-29 [Raft](https://thesecretlivesofdata.com/raft/) \{ thesecretlivesofdata.com \}
 
 > **Tags:** distributed systems, consensus algorithm, Raft, leader election, log replication, fault tolerance, data consistency, state machine replication, system reliability, interactive visualization
 >
@@ -71,7 +71,7 @@ categories: links
 >
 > it provides an interactive visualization of the Raft algorithm, making complex distributed system concepts more accessible.
 
-2024-09-29 [Implementing Blocked Floyd-Warshall algorithm for solving all-pairs shortest path problem in C# – Oleg Karasik's blog](https://olegkarasik.wordpress.com/2024/09/26/implementing-blocked-floyd-warshall-algorithm-for-solving-all-pairs-shortest-path-problem-in-c/?_bhlid=fba050748f7c98d10b7ea1cb8eda2af5cdae6574) { olegkarasik.wordpress.com }
+2024-09-29 [Implementing Blocked Floyd-Warshall algorithm for solving all-pairs shortest path problem in C# – Oleg Karasik's blog](https://olegkarasik.wordpress.com/2024/09/26/implementing-blocked-floyd-warshall-algorithm-for-solving-all-pairs-shortest-path-problem-in-c/?_bhlid=fba050748f7c98d10b7ea1cb8eda2af5cdae6574) \{ olegkarasik.wordpress.com \}
 
 > **Tags:** Floyd-Warshall algorithm, blocked algorithm, all-pairs shortest path, C# implementation, CPU cache optimization, vectorization, parallel processing, performance optimization, graph algorithms, computational efficiency
 >
@@ -98,13 +98,13 @@ categories: links
 >
 > This article is interesting because it introduces efficient, scalable methods for detecting near-duplicate documents—an essential challenge in managing large text datasets.
 
-2024-10-18 [trekhleb/javascript-algorithms: 📝 Algorithms and data structures implemented in JavaScript with explanations and links to further readings](https://github.com/trekhleb/javascript-algorithms/tree/master) { github.com }
+2024-10-18 [trekhleb/javascript-algorithms: 📝 Algorithms and data structures implemented in JavaScript with explanations and links to further readings](https://github.com/trekhleb/javascript-algorithms/tree/master) \{ github.com \}
 
-2025-01-05 [B-Trees: More Than I Thought I'd Want to Know | Ben Congdon](https://benjamincongdon.me/blog/2021/08/17/B-Trees-More-Than-I-Thought-Id-Want-to-Know/) { benjamincongdon.me }
+2025-01-05 [B-Trees: More Than I Thought I'd Want to Know | Ben Congdon](https://benjamincongdon.me/blog/2021/08/17/B-Trees-More-Than-I-Thought-Id-Want-to-Know/) \{ benjamincongdon.me \}
 
 > ![image-20250105004209110](2025-06-09-links-from-my-inbox.assets/image-20250105004209110.png)
 
-2025-01-05 [Static search trees: 40x faster than binary search · CuriousCoding](https://curiouscoding.nl/posts/static-search-tree/) { curiouscoding.nl }
+2025-01-05 [Static search trees: 40x faster than binary search · CuriousCoding](https://curiouscoding.nl/posts/static-search-tree/) \{ curiouscoding.nl \}
 
 > ![image-20250105145508313](2025-06-09-links-from-my-inbox.assets/image-20250105145508313.png)
 
@@ -112,7 +112,7 @@ categories: links
 
 ## CRDT Conflict-free replicated data type
 
-2025-01-19 [Learn Yjs by Jamsocket](https://learn.yjs.dev/) { learn.yjs.dev }
+2025-01-19 [Learn Yjs by Jamsocket](https://learn.yjs.dev/) \{ learn.yjs.dev \}
 
 > Welcome to Learn Yjs — an interactive tutorial series on building realtime collaborative applications using the Yjs CRDT library.
 >
@@ -151,7 +151,7 @@ categories: links
 >
 > ![image-20250323222426586](2025-06-09-links-from-my-inbox.assets/image-20250323222426586.png)
 
-2024-12-07 [Lies I was Told About Collaborative Editing, Part 1: Algorithms for offline editing / Moment devlog](https://www.moment.dev/blog/lies-i-was-told-pt-1) { www.moment.dev }
+2024-12-07 [Lies I was Told About Collaborative Editing, Part 1: Algorithms for offline editing / Moment devlog](https://www.moment.dev/blog/lies-i-was-told-pt-1) \{ www.moment.dev \}
 
 > Tags: collaborative editing, offline editing, CRDTs, operational transformation, conflict resolution, user experience, data corruption, algorithm limitations, UX design, Moment.dev
 >
@@ -165,7 +165,7 @@ categories: links
 > This article is important because it challenges assumptions about widely used algorithms and highlights how technical correctness can fail real users.
 > ![image-20250323222554868](2025-06-09-links-from-my-inbox.assets/image-20250323222554868.png)
 
-2024-12-18 [vlcn-io/cr-sqlite: Convergent, Replicated SQLite. Multi-writer and CRDT support for SQLite](https://github.com/vlcn-io/cr-sqlite) { github.com }
+2024-12-18 [vlcn-io/cr-sqlite: Convergent, Replicated SQLite. Multi-writer and CRDT support for SQLite](https://github.com/vlcn-io/cr-sqlite) \{ github.com \}
 
 > Tags: `SQLite`, `CRDT`, `Database Replication`, `Multi-Writer Synchronization`, `Offline Editing`, `Realtime Collaboration`, `Conflict Resolution`, `Data Synchronization`, `vlcn-io`, `cr-sqlite`
 >
@@ -186,7 +186,7 @@ categories: links
 >
 > **In technical terms:** cr-sqlite adds multi-master replication and partition tolerance to SQLite via conflict free replicated data types ([CRDTs](https://en.wikipedia.org/wiki/Conflict-free_replicated_data_type)) and/or causally ordered event logs.
 
-2024-12-18 [CRDTs and collaborative playground | Cerbos](https://www.cerbos.dev/blog/crdts-and-collaborative-playground) { www.cerbos.dev }
+2024-12-18 [CRDTs and collaborative playground | Cerbos](https://www.cerbos.dev/blog/crdts-and-collaborative-playground) \{ www.cerbos.dev \}
 
 > ![image-20250323223011491](2025-06-09-links-from-my-inbox.assets/image-20250323223011491.png)
 >
@@ -203,20 +203,20 @@ categories: links
 
 ## Inspiration!
 
-2025-05-04 [tldr pages](https://tldr.sh/) { tldr.sh }
+2025-05-04 [tldr pages](https://tldr.sh/) \{ tldr.sh \}
 
 > The tldr pages are a community effort to simplify the beloved [man pages](https://en.wikipedia.org/wiki/Man_page) with practical examples.
 >
 > ![image-20250504012856723](2025-06-09-links-from-my-inbox.assets/image-20250504012856723.png)
 > Try the [live demo](https://tldr.inbrowser.app/) below, have a look at the [PDF version](https://github.com/tldr-pages/tldr/releases/latest/download/tldr-book.pdf), or follow the [installation instructions](https://tldr.sh/#installation).
 
-2025-02-13 [CoatiSoftware/Sourcetrail: Sourcetrail - free and open-source interactive source explorer](https://github.com/CoatiSoftware/Sourcetrail) { github.com }
+2025-02-13 [CoatiSoftware/Sourcetrail: Sourcetrail - free and open-source interactive source explorer](https://github.com/CoatiSoftware/Sourcetrail) \{ github.com \}
 
-> Video: 2025-02-13 [The Diablo Source Code Is Pure Hell (and I am here for it) - YouTube](https://www.youtube.com/watch?v=2VcfTq_dzrg) { www.youtube.com }
+> Video: 2025-02-13 [The Diablo Source Code Is Pure Hell (and I am here for it) - YouTube](https://www.youtube.com/watch?v=2VcfTq_dzrg) \{ www.youtube.com \}
 >
 > ![image-20250212201658768](2025-06-09-links-from-my-inbox.assets/image-20250212201658768.png)
 
-2025-05-27 [dylanaraps/pure-bash-bible: 📖 A collection of pure bash alternatives to external processes.](https://github.com/dylanaraps/pure-bash-bible) { github.com }
+2025-05-27 [dylanaraps/pure-bash-bible: 📖 A collection of pure bash alternatives to external processes.](https://github.com/dylanaraps/pure-bash-bible) \{ github.com \}
 
 > The goal of this book is to document commonly-known and lesser-known methods of doing various tasks using only built-in `bash` features. Using the snippets from this bible can help remove unneeded dependencies from scripts and in most cases make them faster. I came across these tips and discovered a few while developing [neofetch](https://github.com/dylanaraps/neofetch), [pxltrm](https://github.com/dylanaraps/pxltrm) and other smaller projects.
 >
@@ -226,13 +226,13 @@ categories: links
 >
 > ![image-20250526204508132](2025-06-09-links-from-my-inbox.assets/image-20250526204508132.png)
 
-2025-05-27 [cowtoolz/webcamize: Use almost any camera as a webcam—DSLRs, mirrorless, camcorders, and even point-and-shoots](https://github.com/cowtoolz/webcamize) { github.com } but look at that birds! 
+2025-05-27 [cowtoolz/webcamize: Use almost any camera as a webcam—DSLRs, mirrorless, camcorders, and even point-and-shoots](https://github.com/cowtoolz/webcamize) \{ github.com \} but look at that birds!
 
 > Webcamize allows you to use basically any modern camera as a webcam on Linux—your DSLR, mirrorless, camcorder, point-and-shoot, and even some smartphones/tablets. It also gets many webcams that don't work out of the box on Linux up and running in a flash.
 >
 > ![image-20250526203847171](2025-06-09-links-from-my-inbox.assets/image-20250526203847171.png)
 
-2025-05-24 [Root for Your Friends · Joseph Thacker](https://josephthacker.com/personal/2025/05/13/root-for-your-friends.html) { josephthacker.com }
+2025-05-24 [Root for Your Friends · Joseph Thacker](https://josephthacker.com/personal/2025/05/13/root-for-your-friends.html) \{ josephthacker.com \}
 
 > Tags: #SupportFriends #Positivity #GrowthMindset #SuccessTogether #CelebrateOthers #GoodVibes #Teamwork #Networking #Kindness #Community
 >
@@ -245,7 +245,7 @@ categories: links
 >
 > It’s a good reminder that being kind and supportive leads to better relationships and shared success.![image-20250524003049240](2025-06-09-links-from-my-inbox.assets/image-20250524003049240.png)
 
-2025-05-24 [A brief history of JavaScript | Deno](https://deno.com/blog/history-of-javascript) { deno.com }
+2025-05-24 [A brief history of JavaScript | Deno](https://deno.com/blog/history-of-javascript) \{ deno.com \}
 
 > JavaScript was created in 1995 by Brendan Eich at Netscape to make websites more interactive. He built the first version in just ten days. It was first called Mocha, then LiveScript, and finally JavaScript to take advantage of Java’s popularity.
 >
@@ -253,7 +253,7 @@ categories: links
 >
 > *JavaScript, history, Brendan Eich, Netscape, ECMAScript, Node.js, Deno, web development*![image-20250523175626480](2025-06-09-links-from-my-inbox.assets/image-20250523175626480.png)
 
-2025-05-24 [ECMAScript 4: The missing version](https://evertpot.com/ecmascript-4-the-missing-version/) { evertpot.com }
+2025-05-24 [ECMAScript 4: The missing version](https://evertpot.com/ecmascript-4-the-missing-version/) \{ evertpot.com \}
 
 > Tags: ECMAScript, JavaScript, ES4, Programming Languages, Type Systems, Interfaces, Classes, Static Typing, Language Evolution, Web Development
 >
@@ -267,17 +267,17 @@ categories: links
 >
 > Understanding ES4's history provides insight into JavaScript's evolution and the challenges of balancing innovation with compatibility in language design.![image-20250523180024072](2025-06-09-links-from-my-inbox.assets/image-20250523180024072.png)
 
-2025-05-03 [Carl Öst Wilkens´ Blog - Minimum viable blog](https://ostwilkens.se/blog/setting-up-blog) { ostwilkens.se }
+2025-05-03 [Carl Öst Wilkens´ Blog - Minimum viable blog](https://ostwilkens.se/blog/setting-up-blog) \{ ostwilkens.se \}
 
 > ![image-20250503120620109](2025-06-09-links-from-my-inbox.assets/image-20250503120620109.png)
 
-2025-04-22 [Pipelining might be my favorite programming language feature | MOND←TECH MAGAZINE](https://herecomesthemoon.net/2025/04/pipelining/) { herecomesthemoon.net }
+2025-04-22 [Pipelining might be my favorite programming language feature | MOND←TECH MAGAZINE](https://herecomesthemoon.net/2025/04/pipelining/) \{ herecomesthemoon.net \}
 
 > The author of this blog also adds dithering to the illustrations!
 >
 > ![image-20250421204835297](2025-06-09-links-from-my-inbox.assets/image-20250421204835297.png)
 
-2025-04-15 [SQLite File Format Viewer](https://sqlite-internal.pages.dev/#page=10) { sqlite-internal.pages.dev }
+2025-04-15 [SQLite File Format Viewer](https://sqlite-internal.pages.dev/#page=10) \{ sqlite-internal.pages.dev \}
 
 > Tags: SQLite, Database Internals, File Format, Page Structure, B-Tree, Schema, Freelist, Write-Ahead Logging, Overflow Pages, Pointer Map
 >
@@ -293,7 +293,7 @@ categories: links
 >
 > ![image-20250415004834436](2025-06-09-links-from-my-inbox.assets/image-20250415004834436.png)
 
-2025-04-15 [Omnom](https://omnom.zone/?src=hn) { omnom.zone }
+2025-04-15 [Omnom](https://omnom.zone/?src=hn) \{ omnom.zone \}
 
 > Tags: bookmarking, web snapshots, offline access, browser extensions, digital archiving, web preservation, Omnom, GitHub, Firefox, Chrome
 >
@@ -308,22 +308,22 @@ categories: links
 >
 > ![image-20250415004703982](2025-06-09-links-from-my-inbox.assets/image-20250415004703982.png)
 
-2025-04-13 [WebTUI](https://webtui.ironclad.sh/start/intro/) { webtui.ironclad.sh }
+2025-04-13 [WebTUI](https://webtui.ironclad.sh/start/intro/) \{ webtui.ironclad.sh \}
 
 > Tags: WebTUI, Typography, HTML Elements, CSS Styling, Headings, Lists, Blockquotes, Inline Elements, Custom Markers, Typography Block
 > WebTUI – A CSS Library That Brings the Beauty of Terminal UIs to the Browser 
 >
 > ![image-20250413013036998](2025-06-09-links-from-my-inbox.assets/image-20250413013036998.png)
 
-2025-04-12 [VERT.sh](https://vert.sh/) { vert.sh }
+2025-04-12 [VERT.sh](https://vert.sh/) \{ vert.sh \}
 
 > Open source and self hostable/private file converter
 >
-> 2025-04-12 [Open source and self hostable/private file converter | Hacker News](https://news.ycombinator.com/item?id=43663865) { news.ycombinator.com }
+> 2025-04-12 [Open source and self hostable/private file converter | Hacker News](https://news.ycombinator.com/item?id=43663865) \{ news.ycombinator.com \}
 >
 > ![image-20250412140247924](2025-06-09-links-from-my-inbox.assets/image-20250412140247924.png)
 
-2025-04-07 [What’s Trading on Capitol Hill? - Capitol Trades](https://www.capitoltrades.com/) { www.capitoltrades.com }
+2025-04-07 [What’s Trading on Capitol Hill? - Capitol Trades](https://www.capitoltrades.com/) \{ www.capitoltrades.com \}
 
 > Capital Trades: Tracking Stock Market Transactions of Politicians
 >
@@ -339,53 +339,53 @@ categories: links
 >
 > ![image-20250406235451279](2025-06-09-links-from-my-inbox.assets/image-20250406235451279.png)
 
-2025-04-07 [Glamorous Toolkit](https://gtoolkit.com//) { gtoolkit.com }
+2025-04-07 [Glamorous Toolkit](https://gtoolkit.com//) \{ gtoolkit.com \}
 
 > Each problem about your system is special. And each problem can be explained through contextual development experiences. Glamorous Toolkit enables you to build such experiences out of micro tools. Thousands of them ... per system. It's called Moldable Development.
 >
 > ![image-20250406235209236](2025-06-09-links-from-my-inbox.assets/image-20250406235209236.png)
 
-2025-04-05 [Coolify](https://coolify.io/) { coolify.io }
+2025-04-05 [Coolify](https://coolify.io/) \{ coolify.io \}
 
 > Self-hosting with superpowers.
 > An open-source & self-hostable Heroku / Netlify / Vercel alternative.
 > ![image-20250404190452666](2025-06-09-links-from-my-inbox.assets/image-20250404190452666.png)
 
-2025-04-02 [✱ dori the giant ✱: 13 Animals Made From 13 Circles](https://www.dorithegiant.com/2016/05/13-animals-made-from-13-circles.html) { www.dorithegiant.com }
+2025-04-02 [✱ dori the giant ✱: 13 Animals Made From 13 Circles](https://www.dorithegiant.com/2016/05/13-animals-made-from-13-circles.html) \{ www.dorithegiant.com \}
 
 > ![image-20250402151622199](2025-06-09-links-from-my-inbox.assets/image-20250402151622199.png)
 
-2025-04-01 [Fluentsubs - Watch, Learn, and Master Any Language](https://app.fluentsubs.com/exercises/daily) { app.fluentsubs.com }
+2025-04-01 [Fluentsubs - Watch, Learn, and Master Any Language](https://app.fluentsubs.com/exercises/daily) \{ app.fluentsubs.com \}
 
 > [ Show HN: Duolingo-style exercises but with real-world content like the news](https://app.fluentsubs.com/exercises/daily) ([fluentsubs.com](https://news.ycombinator.com/from?site=fluentsubs.com))
 >
 > ![image-20250401153715820](2025-06-09-links-from-my-inbox.assets/image-20250401153715820.png)
 
-2025-04-01 [Generate autounattend.xml files for Windows 10/11](https://schneegans.de/windows/unattend-generator/) { schneegans.de }
+2025-04-01 [Generate autounattend.xml files for Windows 10/11](https://schneegans.de/windows/unattend-generator/) \{ schneegans.de \}
 
 > This service lets you create [answer files](https://docs.microsoft.com/en-us/windows-hardware/manufacture/desktop/update-windows-settings-and-scripts-create-your-own-answer-file-sxs) (typically named `unattend.xml` or `autounattend.xml`) to perform **unattended installations** of both Windows 10 and Windows 11, including 24H2. Answer files generated by this service are primarily intended to be used with Windows Setup run from Windows PE to perform clean (rather than upgrade) installations.
 >
 > ![image-20250401153422653](2025-06-09-links-from-my-inbox.assets/image-20250401153422653.png)
 
-2025-04-01 [A Man Powers Home for 8 Years Using 1,000 Old Laptop Batteries](https://techoreon.com/a-man-powers-home-8-years-laptop-batteries/) { techoreon.com }
+2025-04-01 [A Man Powers Home for 8 Years Using 1,000 Old Laptop Batteries](https://techoreon.com/a-man-powers-home-8-years-laptop-batteries/) \{ techoreon.com \}
 
 > **A man has managed to power his home for eight years with a system using more than 1,000 recycled laptop batteries**. This ingenious project, based on the use of electronic waste, has proven to be an environmentally friendly and economical solution, without the need to even replace batteries over the years.
 >
 > This system also uses solar panels, which were the origin of his renewable energy project that he started a long time ago and which has been enough for him to live during this time.
 
-2025-03-29 [Train & Weather Tracker with Raspberry Pi & E-Ink](https://sambroner.com/posts/raspberry-pi-train) { sambroner.com }
+2025-03-29 [Train & Weather Tracker with Raspberry Pi & E-Ink](https://sambroner.com/posts/raspberry-pi-train) \{ sambroner.com \}
 
 > I finally built a Raspberry Pi project my wife loves: an e-ink train and weather tracker! If you want to build one yourself, [the Github & instructions are here.](https://github.com/SamBroner/subway-e-ink-tracker)
 >
 > ![image-20250329163754877](2025-06-09-links-from-my-inbox.assets/image-20250329163754877.png)
 
-2025-03-29 [Lofi Tab 🐈‍⬛🎧](https://lofitab.com/) { lofitab.com }
+2025-03-29 [Lofi Tab 🐈‍⬛🎧](https://lofitab.com/) \{ lofitab.com \}
 
 > Transform your new tab into a productive and calming lofi experience with todos, weather, clock, and beautiful backgrounds.
 >
 > ![image-20250329145234991](2025-06-09-links-from-my-inbox.assets/image-20250329145234991.png)
 
-2025-03-29 [typedgrammar/typed-japanese: Learn Japanese grammar with TypeScript](https://github.com/typedgrammar/typed-japanese) { github.com }
+2025-03-29 [typedgrammar/typed-japanese: Learn Japanese grammar with TypeScript](https://github.com/typedgrammar/typed-japanese) \{ github.com \}
 
 > Tags: TypeScript, Japanese Grammar, Type-Level Programming, Language Learning, Domain-Specific Language, Compiler Verification, Educational Tool, AI-Assisted Learning, Grammar Verification, Open Source
 >
@@ -397,7 +397,7 @@ categories: links
 >
 > ![image-20250329144850456](2025-06-09-links-from-my-inbox.assets/image-20250329144850456.png)
 
-2025-03-27 [xan/docs/LOVE_LETTER.md at master · medialab/xan](https://github.com/medialab/xan/blob/master/docs/LOVE_LETTER.md) { github.com }
+2025-03-27 [xan/docs/LOVE_LETTER.md at master · medialab/xan](https://github.com/medialab/xan/blob/master/docs/LOVE_LETTER.md) \{ github.com \}
 
 > *Or why people pretending CSV is dead are wrong*
 >
@@ -419,11 +419,11 @@ categories: links
 >
 > ![image-20250326234014551](2025-06-09-links-from-my-inbox.assets/image-20250326234014551.png)
 
-2025-03-25 https://www.slidehero.ai/  [Show HN: I'm a teacher and built an AI presentation tool | Hacker News](https://news.ycombinator.com/item?id=43451141) { news.ycombinator.com }
+2025-03-25 https://www.slidehero.ai/  [Show HN: I'm a teacher and built an AI presentation tool | Hacker News](https://news.ycombinator.com/item?id=43451141) \{ news.ycombinator.com \}
 
 > ![image-20250324213045772](2025-06-09-links-from-my-inbox.assets/image-20250324213045772.png)
 
-2025-03-22 [Scallop](https://www.scallop-lang.org/) { www.scallop-lang.org }
+2025-03-22 [Scallop](https://www.scallop-lang.org/) \{ www.scallop-lang.org \}
 
 > Tags: scallop, datalog, AI_reasoning, pytorch, symbolic_logic, vision, NLP, machine_learning, frameworks, integration
 >
@@ -431,17 +431,17 @@ categories: links
 >
 > ![image-20250322141640505](2025-06-09-links-from-my-inbox.assets/image-20250322141640505.png)
 
-2025-03-20 [Konva - JavaScript Canvas 2d Library](https://konvajs.org/) { konvajs.org }
+2025-03-20 [Konva - JavaScript Canvas 2d Library](https://konvajs.org/) \{ konvajs.org \}
 
 > JavaScript, Canvas, 2D, Konva, Object-Oriented API, Cross-Platform, Animations, Node Management, Export, Filters, Framework Integration, Drag and Drop, React, Vue, Svelte, Tutorials, Demos, API Reference, Design Editors.
 >
 > ![image-20250319233137199](2025-06-09-links-from-my-inbox.assets/image-20250319233137199.png)
 
-2025-03-16 [👋 Hello, This is Nash](https://keepworking.github.io/nash/) { keepworking.github.io }
+2025-03-16 [👋 Hello, This is Nash](https://keepworking.github.io/nash/) \{ keepworking.github.io \}
 
 > ![image-20250315204937220](2025-06-09-links-from-my-inbox.assets/image-20250315204937220.png)
 
-2025-03-15 [Learn | KIRUPA](https://www.kirupa.com/learn/index.htm) { www.kirupa.com }
+2025-03-15 [Learn | KIRUPA](https://www.kirupa.com/learn/index.htm) \{ www.kirupa.com \}
 
 > Just tags: web development, HTML, CSS, JavaScript, React, animation, data structures, algorithms, UX design, canvas, product development, sorting algorithms, career growth, web design, programming tips, coding tutorials, Flash, ActionScript, web fundamentals, learning resources, developer tools
 
@@ -449,7 +449,7 @@ categories: links
 >
 > ![image-20250315164816271](2025-06-09-links-from-my-inbox.assets/image-20250315164816271.png)
 
-2025-03-15 [codr7/eli: Embedded Lisp Interpreter](https://github.com/codr7/eli) { github.com }
+2025-03-15 [codr7/eli: Embedded Lisp Interpreter](https://github.com/codr7/eli) \{ github.com \}
 
 > `eli` represents the culmination of more than 15 years of designing and implementing embedded Lisp interpreters in various languages.
 >
@@ -467,11 +467,11 @@ categories: links
 > - [Java](https://github.com/codr7/eli-java)
 > - [Swift](https://github.com/codr7/sweet)
 
-2025-03-15 [Milk Kanban](https://brodzinski.com/2025/03/milk-kanban.html) { brodzinski.com }
+2025-03-15 [Milk Kanban](https://brodzinski.com/2025/03/milk-kanban.html) \{ brodzinski.com \}
 
 > ![image-20250315112909846](2025-06-09-links-from-my-inbox.assets/image-20250315112909846.png)
 
-2025-03-13 [MLU-Explain](https://mlu-explain.github.io/) {mlu-explain.github.io}
+2025-03-13 [MLU-Explain](https://mlu-explain.github.io/) \{mlu-explain.github.io\}
 
 > Visual explanations of core machine learning concepts
 >
@@ -481,7 +481,7 @@ categories: links
 >
 > ![image-20250312232149128](2025-06-09-links-from-my-inbox.assets/image-20250312232149128.png)
 
-2025-03-13 [kern/filepizza: :pizza: Peer-to-peer file transfers in your browser](https://github.com/kern/filepizza) { github.com }
+2025-03-13 [kern/filepizza: :pizza: Peer-to-peer file transfers in your browser](https://github.com/kern/filepizza) \{ github.com \}
 
 > Peer-to-peer file transfers in your browser
 > Cooked up by Alex Kern & Neeraj Baid while eating Sliver @ UC Berkeley.
@@ -492,7 +492,7 @@ categories: links
 >
 > ![image-20250312203939049](2025-06-09-links-from-my-inbox.assets/image-20250312203939049.png)
 
-2025-03-01 [The world's most unhinged video wall (made out of Chromebooks)](https://varun.ch/posts/videowall/) { varun.ch }
+2025-03-01 [The world's most unhinged video wall (made out of Chromebooks)](https://varun.ch/posts/videowall/) \{ varun.ch \}
 
 >` techreuse`, `video_wall`, `software_hack`, `hardware_mods`, `creative_design`
 >
@@ -501,7 +501,7 @@ categories: links
 >
 >![image-20250301135001046](2025-06-09-links-from-my-inbox.assets/image-20250301135001046.png)
 
-2025-02-28 [Troubleshooting: The Skill That Never Goes Obsolete — The Autodidacts](https://www.autodidacts.io/troubleshooting/) { www.autodidacts.io }
+2025-02-28 [Troubleshooting: The Skill That Never Goes Obsolete — The Autodidacts](https://www.autodidacts.io/troubleshooting/) \{ www.autodidacts.io \}
 
 > `#troubleshooting`, `#problem-solving`, `#mindset`, `#learning`
 > I see troubleshooting as the one skill that never gets outdated. It’s about finding the cause of a problem in any system by stepping back, understanding how things flow, and comparing what should happen with what actually does. I start by checking that I’m working on the right part of the system and then form a clear idea of the issue before diving in.
@@ -512,28 +512,28 @@ categories: links
 >
 > ![image-20250228132834505](2025-06-09-links-from-my-inbox.assets/image-20250228132834505.png)
 
-2025-02-28 [Yaak – The API client for modern developers](https://yaak.app/) { yaak.app }
+2025-02-28 [Yaak – The API client for modern developers](https://yaak.app/) \{ yaak.app \}
 
-> 2025-02-28 [mountain-loop/yaak: The most intuitive desktop API client. Organize and execute REST, GraphQL, WebSockets, Server Sent Events, and gRPC 🦬](https://github.com/mountain-loop/yaak) { github.com }
+> 2025-02-28 [mountain-loop/yaak: The most intuitive desktop API client. Organize and execute REST, GraphQL, WebSockets, Server Sent Events, and gRPC 🦬](https://github.com/mountain-loop/yaak) \{ github.com \}
 >
 > The API client for modern developers
 > Yaak is an offline and Git friendly app for HTTP, GraphQL, WebSockets, SSE, and gRPC.
 > ![image-20250227193627074](2025-06-09-links-from-my-inbox.assets/image-20250227193627074.png)
 
-2025-02-25 [corporate.watch | we don't need to work this out for every report](https://corporate.watch/) { corporate.watch }
+2025-02-25 [corporate.watch | we don't need to work this out for every report](https://corporate.watch/) \{ corporate.watch \}
 
 > I made a site to tell the time in corporate 
 >
-> 2025-02-25 [Show HN: I made a site to tell the time in corporate | Hacker News](https://news.ycombinator.com/item?id=43162340) { news.ycombinator.com }
+> 2025-02-25 [Show HN: I made a site to tell the time in corporate | Hacker News](https://news.ycombinator.com/item?id=43162340) \{ news.ycombinator.com \}
 >
 > ![image-20250225001419773](2025-06-09-links-from-my-inbox.assets/image-20250225001419773.png)
 
-2025-02-25 [About time… human readable time](https://clockish.co.uk/) { clockish.co.uk }
+2025-02-25 [About time… human readable time](https://clockish.co.uk/) \{ clockish.co.uk \}
 
 > ![image-20250225001606545](2025-06-09-links-from-my-inbox.assets/image-20250225001606545.png)
 >
 > 
 
-2025-02-24 [European word translator: an interactive map showing "smart" in over 30 languages](https://ukdataexplorer.com/european-translator/?word=smart) { ukdataexplorer.com }
+2025-02-24 [European word translator: an interactive map showing "smart" in over 30 languages](https://ukdataexplorer.com/european-translator/?word=smart) \{ ukdataexplorer.com \}
 
 > ![image-20250224082502403](2025-06-09-links-from-my-inbox.assets/image-20250224082502403.png)

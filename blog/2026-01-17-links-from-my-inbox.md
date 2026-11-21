@@ -9,7 +9,7 @@ categories: links
 
 ## 🌈Recreational Programming
 
-2025-11-27 [Crafting Interpreters](https://craftinginterpreters.com/) { craftinginterpreters.com }
+2025-11-27 [Crafting Interpreters](https://craftinginterpreters.com/) \{ craftinginterpreters.com \}
 
 >  ![image-20251126221213720](2026-01-17-links-from-my-inbox.assets/image-20251126221213720.png)
 >  Crafting Interpreters contains everything you need to implement a full-featured, efficient scripting language. You’ll learn both high-level concepts around parsing and semantics and gritty details like bytecode representation and garbage collection. Your brain will light up with new ideas, and your hands will get dirty and calloused. It’s a blast.
@@ -20,7 +20,7 @@ categories: links
 >
 > ![image-20251126221418572](2026-01-17-links-from-my-inbox.assets/image-20251126221418572.png)
 
-2025-11-27 [My 2 Year Journey of Learning C, in 9 minutes - YouTube](https://www.youtube.com/watch?v=lMvFWKHhVZ0) { www.youtube.com }
+2025-11-27 [My 2 Year Journey of Learning C, in 9 minutes - YouTube](https://www.youtube.com/watch?v=lMvFWKHhVZ0) \{ www.youtube.com \}
 
 > ![image-20251126221535812](2026-01-17-links-from-my-inbox.assets/image-20251126221535812.png)
 >
@@ -28,7 +28,7 @@ categories: links
 >
 > This is a short video about my journey from not understanding C in the least to being able to make a relatively large codebase.
 >
-> 2025-11-27 [PixelRifts/c-codebase: A simple base layer, and utilities for my own C development. ](https://github.com/PixelRifts/c-codebase) { github.com }
+> 2025-11-27 [PixelRifts/c-codebase: A simple base layer, and utilities for my own C development. ](https://github.com/PixelRifts/c-codebase) \{ github.com \}
 >
 > A lot of the stuff came from https://www.youtube.com/c/Mr4thProgramming, but I have made a few simplifications/modifications
 
@@ -36,7 +36,7 @@ categories: links
 
 ## 🔫 C || C++
 
-2025-12-27 [floooh/sokol: minimal cross-platform standalone C headers](https://github.com/floooh/sokol) { github.com }
+2025-12-27 [floooh/sokol: minimal cross-platform standalone C headers](https://github.com/floooh/sokol) \{ github.com \}
 
 > ![image-20251227140116254](2026-01-17-links-from-my-inbox.assets/image-20251227140116254.png)
 >
@@ -90,11 +90,11 @@ categories: links
 >
 > ![image-20251227140319774](2026-01-17-links-from-my-inbox.assets/image-20251227140319774.png)
 >
-> 2025-12-27 [Sokol WebGL](https://floooh.github.io/sokol-html5/) { floooh.github.io }
+> 2025-12-27 [Sokol WebGL](https://floooh.github.io/sokol-html5/) \{ floooh.github.io \}
 >
 > ![image-20251227140404736](2026-01-17-links-from-my-inbox.assets/image-20251227140404736.png)
 
-2025-12-27 [floooh/chips: 8-bit chip and system emulators in standalone C headers](https://github.com/floooh/chips/tree/master) { github.com }
+2025-12-27 [floooh/chips: 8-bit chip and system emulators in standalone C headers](https://github.com/floooh/chips/tree/master) \{ github.com \}
 
 > A toolbox of 8-bit chip-emulators, helper code and complete embeddable system emulators in dependency-free C headers (a subset of C99 that compiles on gcc, clang and cl.exe).
 >
@@ -113,7 +113,7 @@ categories: links
 >
 > ![image-20251227141009312](2026-01-17-links-from-my-inbox.assets/image-20251227141009312.png)
 
-2025-12-27 [Home | rxi](https://rxi.github.io/) { rxi.github.io }
+2025-12-27 [Home | rxi](https://rxi.github.io/) \{ rxi.github.io \}
 
 > ![image-20251226232528824](2026-01-17-links-from-my-inbox.assets/image-20251226232528824.png)
 >
@@ -141,7 +141,7 @@ categories: links
 > [Cached Software Rendering](https://rxi.github.io/cached_software_rendering.html)
 > A software rendering technique that lets the app redraw as if every frame is full while the renderer redraws only changed regions using a command buffer plus a per-cell hash grid to detect dirty areas.
 
-2025-11-27 [A Very Fast 64–Bit Date Algorithm: 30-40% faster](https://www.benjoffe.com/fast-date-64) { www.benjoffe.com }
+2025-11-27 [A Very Fast 64–Bit Date Algorithm: 30-40% faster](https://www.benjoffe.com/fast-date-64) \{ www.benjoffe.com \}
 
 > In this article I present my final *very* fast date conversion algorithm. It represents a significant speed gain — being similar in magnitude to the speed gains achieved by the previous fastest algorithm (Neri-Schneider 2021) over its predecessor (C++ Boost). The full algorithm [implementation in C++ ](https://github.com/benjoffe/fast-date-benchmarks/blob/main/algorithms/benjoffe_fast64.hpp) is released as free open source software (BSL-1.0 License).
 >
@@ -160,47 +160,47 @@ categories: links
 
 ## 💖 Inspiration!
 
-2026-01-17 [Compilation: Ask HN: Share Your Personal Website](https://blog.zharii.com/docs/chatGPT/2026-01-17-Ask-HN-Share-your-personal-website) { blog.zharii.com }
+2026-01-17 [Compilation: Ask HN: Share Your Personal Website](https://blog.zharii.com/docs/chatGPT/2026-01-17-Ask-HN-Share-your-personal-website) \{ blog.zharii.com \}
 
-> **Compilation of ** [Ask HN: Share your personal website | Hacker News](https://news.ycombinator.com/item?id=46618714) { news.ycombinator.com }
+> **Compilation of ** [Ask HN: Share your personal website | Hacker News](https://news.ycombinator.com/item?id=46618714) \{ news.ycombinator.com \}
 >
 > ![image-20260117134446397](2026-01-17-links-from-my-inbox.assets/image-20260117134446397.png)
 
-2026-01-17 [DustinBrett/daedalOS: Desktop environment in the browser](https://github.com/DustinBrett/daedalOS) { github.com }
+2026-01-17 [DustinBrett/daedalOS: Desktop environment in the browser](https://github.com/DustinBrett/daedalOS) \{ github.com \}
 
 > ![image-20260117133808968](2026-01-17-links-from-my-inbox.assets/image-20260117133808968.png)
 
-2026-01-17 [Ganbaru Games | Browser-based games, puzzle and otherwise.](https://ganbaru.games/) { ganbaru.games }
+2026-01-17 [Ganbaru Games | Browser-based games, puzzle and otherwise.](https://ganbaru.games/) \{ ganbaru.games \}
 
 > ![image-20260117124453281](2026-01-17-links-from-my-inbox.assets/image-20260117124453281.png)
 
-2026-01-17 [Generative Storytelling - Exploring Storytelling with AI and LLMs](https://www.generativestorytelling.ai/) { www.generativestorytelling.ai }
+2026-01-17 [Generative Storytelling - Exploring Storytelling with AI and LLMs](https://www.generativestorytelling.ai/) \{ www.generativestorytelling.ai \}
 
 > ![image-20260117124327311](2026-01-17-links-from-my-inbox.assets/image-20260117124327311.png)
 
-2026-01-17 [Making Sense of Lambda Calculus 6: Recurring Problems](https://aartaka.me/lambda-6.html) { aartaka.me }
+2026-01-17 [Making Sense of Lambda Calculus 6: Recurring Problems](https://aartaka.me/lambda-6.html) \{ aartaka.me \}
 
 > ![image-20260117123705689](2026-01-17-links-from-my-inbox.assets/image-20260117123705689.png)
 
-2026-01-17 [Michael Ongaro](https://www.michaelongaro.com/) { www.michaelongaro.com }
+2026-01-17 [Michael Ongaro](https://www.michaelongaro.com/) \{ www.michaelongaro.com \}
 
 > ![image-20260117123419729](2026-01-17-links-from-my-inbox.assets/image-20260117123419729.png)
 
-2026-01-17 [Carpe Diem (Aug 24, 2024) - TinyMCE - daedalOS](https://dustinbrett.com/) { dustinbrett.com }
+2026-01-17 [Carpe Diem (Aug 24, 2024) - TinyMCE - daedalOS](https://dustinbrett.com/) \{ dustinbrett.com \}
 
 > ![image-20260117002226484](2026-01-17-links-from-my-inbox.assets/image-20260117002226484.png)
 
-2026-01-17 [Nick Smith - Senior Software Engineer](https://nicksmith.software/) { nicksmith.software }
+2026-01-17 [Nick Smith - Senior Software Engineer](https://nicksmith.software/) \{ nicksmith.software \}
 
 > ![image-20260117002518108](2026-01-17-links-from-my-inbox.assets/image-20260117002518108.png)
 
-2026-01-17 [Window management](https://nabraj.com/demo/grid) { nabraj.com }
+2026-01-17 [Window management](https://nabraj.com/demo/grid) \{ nabraj.com \}
 
-> 2026-01-17 [projects | nabraj.com](https://nabraj.com/projects) { nabraj.com }
+> 2026-01-17 [projects | nabraj.com](https://nabraj.com/projects) \{ nabraj.com \}
 >
 > ![image-20260117002836931](2026-01-17-links-from-my-inbox.assets/image-20260117002836931.png)
 
-2026-01-05 [ELIZA](https://anthay.github.io/eliza.html) { anthay.github.io }
+2026-01-05 [ELIZA](https://anthay.github.io/eliza.html) \{ anthay.github.io \}
 
 > [anthay.github.io/eliza.html at main · anthay/anthay.github.io](https://github.com/anthay/anthay.github.io/blob/main/eliza.html)
 >
@@ -212,7 +212,7 @@ categories: links
 
 > ![image-20260105151842153](2026-01-17-links-from-my-inbox.assets/image-20260105151842153.png)
 
-2025-12-25 [junegunn/fzf: :cherry_blossom: A command-line fuzzy finder](https://github.com/junegunn/fzf) { github.com }
+2025-12-25 [junegunn/fzf: :cherry_blossom: A command-line fuzzy finder](https://github.com/junegunn/fzf) \{ github.com \}
 
 > ![image-20251225000101756](2026-01-17-links-from-my-inbox.assets/image-20251225000101756.png)
 >
@@ -221,29 +221,29 @@ categories: links
 >
 > It's an interactive filter program for any kind of list; files, command history, processes, hostnames, bookmarks, git commits, etc. It implements a "fuzzy" matching algorithm, so you can quickly type in patterns with omitted characters and still get the results you want.
 
-2025-12-24 [antonmedv/textarea: A notes webapp](https://github.com/antonmedv/textarea) { github.com }
+2025-12-24 [antonmedv/textarea: A notes webapp](https://github.com/antonmedv/textarea) \{ github.com \}
 
 > ![image-20251224144643967](2026-01-17-links-from-my-inbox.assets/image-20251224144643967.png)
 
-2025-12-11 [Patterns.dev](https://www.patterns.dev/) { www.patterns.dev }
+2025-12-11 [Patterns.dev](https://www.patterns.dev/) \{ www.patterns.dev \}
 
 > ![image-20251210200041075](2026-01-17-links-from-my-inbox.assets/image-20251210200041075.png)
 >
 > ![image-20251210200103086](2026-01-17-links-from-my-inbox.assets/image-20251210200103086.png)
 
-2025-12-10 [A series of tricks and techniques I learned doing tiny GLSL demos](https://blog.pkh.me/p/48-a-series-of-tricks-and-techniques-i-learned-doing-tiny-glsl-demos.html) { blog.pkh.me }
+2025-12-10 [A series of tricks and techniques I learned doing tiny GLSL demos](https://blog.pkh.me/p/48-a-series-of-tricks-and-techniques-i-learned-doing-tiny-glsl-demos.html) \{ blog.pkh.me \}
 
 > ![image-20251209182400139](2026-01-17-links-from-my-inbox.assets/image-20251209182400139.png)
 
-2025-12-09 [fanfa.dev - Animated, interactive And visuals Mermaid Diagrams](https://fanfa.dev/) { fanfa.dev }
+2025-12-09 [fanfa.dev - Animated, interactive And visuals Mermaid Diagrams](https://fanfa.dev/) \{ fanfa.dev \}
 
 > ![image-20251208220817420](2026-01-17-links-from-my-inbox.assets/image-20251208220817420.png)
 
-2025-12-02 [rothgar/awesome-tuis: List of projects that provide terminal user interfaces](https://github.com/rothgar/awesome-tuis) { github.com }
+2025-12-02 [rothgar/awesome-tuis: List of projects that provide terminal user interfaces](https://github.com/rothgar/awesome-tuis) \{ github.com \}
 
 > ![image-20251201220908642](2026-01-17-links-from-my-inbox.assets/image-20251201220908642.png)
 
-2025-12-02 [joouha/euporie: Jupyter notebooks in the terminal](https://github.com/joouha/euporie) { github.com }
+2025-12-02 [joouha/euporie: Jupyter notebooks in the terminal](https://github.com/joouha/euporie) \{ github.com \}
 
 > **Euporie is a terminal based interactive computing environment for Jupyter.**
 >
@@ -253,7 +253,7 @@ categories: links
 >
 > ![image-20251201225515432](2026-01-17-links-from-my-inbox.assets/image-20251201225515432.png)
 
-2025-11-29 [Be Like Clippy](https://be-clippy.com/) { be-clippy.com }
+2025-11-29 [Be Like Clippy](https://be-clippy.com/) \{ be-clippy.com \}
 
 > ![image-20251129155807871](2026-01-17-links-from-my-inbox.assets/image-20251129155807871.png)
 >
@@ -261,7 +261,7 @@ categories: links
 
 
 
-2025-11-27 [penpot/penpot: Penpot: The open-source design tool for design and code collaboration](https://github.com/penpot/penpot/tree/develop) { github.com }
+2025-11-27 [penpot/penpot: Penpot: The open-source design tool for design and code collaboration](https://github.com/penpot/penpot/tree/develop) \{ github.com \}
 
 > Penpot is the first **open-source** design tool for design and code collaboration. Designers can create stunning designs, interactive prototypes, design systems at scale, while developers enjoy ready-to-use code and make their workflow easy and fast. And all of this with no handoff drama.
 >

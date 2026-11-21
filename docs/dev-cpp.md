@@ -94,11 +94,11 @@ These two are very good beginner resources:
 
 ## C++ Other learning resources
 
-- 2024-12-22 [Embedded Scripting Languages](https://caiorss.github.io/C-Cpp-Notes/embedded_scripting_languages.html#org4c5951c) { caiorss.github.io }
+- 2024-12-22 [Embedded Scripting Languages](https://caiorss.github.io/C-Cpp-Notes/embedded_scripting_languages.html#org4c5951c) \{ caiorss.github.io \}
 
   > ![image-20241221225225256](dev-cpp.assets/image-20241221225225256.png)
 
-- 2024-12-22 [CPP C++ Papyrus](https://caiorss.github.io/C-Cpp-Notes/#org3506a7e) { caiorss.github.io }
+- 2024-12-22 [CPP C++ Papyrus](https://caiorss.github.io/C-Cpp-Notes/#org3506a7e) \{ caiorss.github.io \}
 
   > ![image-20241221225258791](dev-cpp.assets/image-20241221225258791.png)
 
@@ -545,7 +545,7 @@ ctre::match<"REGEX">(subject); // C++20
 >- Matching
 >- Searching (`search` or `starts_with`)
 >- Capturing content (named captures are supported too)
->- Back-Reference (\g{N} syntax, and \1...\9 syntax too)
+>- Back-Reference (\g\{N\} syntax, and \1...\9 syntax too)
 >- Multiline support (with `multi_`) functions
 >- Unicode properties and UTF-8 support
 

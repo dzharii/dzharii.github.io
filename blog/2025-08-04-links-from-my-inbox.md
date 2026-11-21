@@ -7,7 +7,7 @@ categories: links
 
 ## ⌚ Nice watch!
 
-2025-08-05 [ Architecting LARGE software projects. - YouTube](https://www.youtube.com/watch?v=sSpULGNHyoI) { www.youtube.com }
+2025-08-05 [ Architecting LARGE software projects. - YouTube](https://www.youtube.com/watch?v=sSpULGNHyoI) \{ www.youtube.com \}
 
 > ![image-20250804204435319](2025-08-04-links-from-my-inbox.assets/image-20250804204435319.png)
 >
@@ -33,7 +33,7 @@ categories: links
 >
 > Prefer architectures where external components plug into your stable core rather than embedding your code inside their ecosystems, preserving control over versioning and direction. Hosting the plugin point secures compatibility rules and leaves internals free to evolve.
 
-2025-07-26 [Ted Bendixson – Most of your projects are stupid. Please make some actual games. – BSC 2025 - YouTube](https://www.youtube.com/watch?v=Ca53JTohdN4) { www.youtube.com }
+2025-07-26 [Ted Bendixson – Most of your projects are stupid. Please make some actual games. – BSC 2025 - YouTube](https://www.youtube.com/watch?v=Ca53JTohdN4) \{ www.youtube.com \}
 
 > ![image-20250726165734918](2025-08-04-links-from-my-inbox.assets/image-20250726165734918.png)
 
@@ -73,7 +73,7 @@ categories: links
 > 34. Save and invest to create a financial buffer (FIRE-style) so you can focus on games full time.
 > 35. Maintain full control and ownership of your tech to mitigate platform risk (Unity’s policy changes are cited as a cautionary tale).
 
-2025-07-25 [Does AI Actually Boost Developer Productivity? (100k Devs Study) - Yegor Denisov-Blanch, Stanford - YouTube](https://www.youtube.com/watch?v=tbDDYKRFjhk) { www.youtube.com }
+2025-07-25 [Does AI Actually Boost Developer Productivity? (100k Devs Study) - Yegor Denisov-Blanch, Stanford - YouTube](https://www.youtube.com/watch?v=tbDDYKRFjhk) \{ www.youtube.com \}
 
 > ![image-20250724214222583](2025-08-04-links-from-my-inbox.assets/image-20250724214222583.png)
 >
@@ -105,7 +105,7 @@ categories: links
 >
 > Key factors affecting AI effectiveness: task complexity, project maturity, language popularity, codebase size, and context window length
 
-2025-07-23 [So You Want to Maintain a Reliable Event Driven System - James Eastham - NDC Oslo 2025 - YouTube](https://www.youtube.com/watch?v=45s_vybVr8k) { www.youtube.com }
+2025-07-23 [So You Want to Maintain a Reliable Event Driven System - James Eastham - NDC Oslo 2025 - YouTube](https://www.youtube.com/watch?v=45s_vybVr8k) \{ www.youtube.com \}
 
 > ![image-20250722221746915](2025-08-04-links-from-my-inbox.assets/image-20250722221746915.png)
 >
@@ -123,7 +123,7 @@ categories: links
 > - Decide when to propagate trace context vs use span links: propagate within a domain boundary, link across domains to avoid 15‑hour monster traces from batch jobs.
 > - Monitor the macro picture too: queue depth, message age, in‑flight latency, payload size shifts, error counts, and success rates; alert on absence of success as well as presence of failure.
 
-2025-07-13 [The New Code — Sean Grove, OpenAI - YouTube](https://www.youtube.com/watch?v=8rABwKRsec4) { www.youtube.com }
+2025-07-13 [The New Code — Sean Grove, OpenAI - YouTube](https://www.youtube.com/watch?v=8rABwKRsec4) \{ www.youtube.com \}
 
 > This talk by Sean from OpenAI explores the paradigm shift from code-centric software development to intent-driven specification writing. He argues that as AI models become more capable, the bottleneck in software creation will no longer be code implementation but the clarity and precision with which humans communicate their intentions. Sean advocates for a future where structured, executable specifications—not code—serve as the core professional artifact. Drawing on OpenAI’s model specification (Model Spec), he illustrates how specifications can guide both human alignment and model behavior, serving as trust anchors, training data, and test suites. The talk concludes by equating specification writing with modern programming and calls for new tooling—like thought-clarifying IDEs—to support this transition.
 >
@@ -159,7 +159,7 @@ categories: links
 >
 > ![image-20250713154457083](2025-08-04-links-from-my-inbox.assets/image-20250713154457083.png)
 
-2025-07-17 [Brand your types - Join me in the fight against weakly typed codebases! - Theodor René Carlsen - YouTube](https://www.youtube.com/watch?v=yahbJV16GmE) { www.youtube.com }
+2025-07-17 [Brand your types - Join me in the fight against weakly typed codebases! - Theodor René Carlsen - YouTube](https://www.youtube.com/watch?v=yahbJV16GmE) \{ www.youtube.com \}
 
 > ![image-20250717011921769](2025-08-04-links-from-my-inbox.assets/image-20250717011921769.png)
 >

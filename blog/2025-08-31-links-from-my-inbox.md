@@ -7,7 +7,7 @@ categories: links
 
 ## Good Reads
 
-2025-08-24 [The Management Skill Nobody Talks About – Terrible Software](https://terriblesoftware.org/2025/08/22/the-management-skill-nobody-talks-about/) { terriblesoftware.org }
+2025-08-24 [The Management Skill Nobody Talks About – Terrible Software](https://terriblesoftware.org/2025/08/22/the-management-skill-nobody-talks-about/) \{ terriblesoftware.org \}
 
 > ![image-20250824100027877](2025-08-31-links-from-my-inbox.assets/image-20250824100027877.png)
 >
@@ -19,7 +19,7 @@ categories: links
 >
 > Think about the worst manager you ever had. I bet they weren’t necessarily the ones who made the most mistakes. But they were probably the ones who never acknowledged them. Who doubled down when they were wrong. Who let their ego prevent them from admitting they didn’t have all the answers.
 
-2025-07-30 [How to increase your surface area for luck - by Cate Hall](https://usefulfictions.substack.com/p/how-to-increase-your-surface-area) { usefulfictions.substack.com }
+2025-07-30 [How to increase your surface area for luck - by Cate Hall](https://usefulfictions.substack.com/p/how-to-increase-your-surface-area) \{ usefulfictions.substack.com \}
 
 > ![image-20250730110328638](2025-08-31-links-from-my-inbox.assets/image-20250730110328638.png)
 >
@@ -39,15 +39,15 @@ categories: links
 >
 > ![image-20250730110507789](2025-08-31-links-from-my-inbox.assets/image-20250730110507789.png)
 >
-> 2025-07-30 [The actual reason you can't get a job - YouTube](https://www.youtube.com/watch?v=SPwPpsXpZfg) { www.youtube.com }
+> 2025-07-30 [The actual reason you can't get a job - YouTube](https://www.youtube.com/watch?v=SPwPpsXpZfg) \{ www.youtube.com \}
 > ![image-20250730110439030](2025-08-31-links-from-my-inbox.assets/image-20250730110439030.png)
 
-2025-07-19 [Why Most Feedback Shouldn’t Exist – Terrible Software](https://terriblesoftware.org/2025/07/18/why-most-feedback-shouldnt-exist/) { terriblesoftware.org }
+2025-07-19 [Why Most Feedback Shouldn’t Exist – Terrible Software](https://terriblesoftware.org/2025/07/18/why-most-feedback-shouldnt-exist/) \{ terriblesoftware.org \}
 
 > ![image-20250718183638669](2025-08-31-links-from-my-inbox.assets/image-20250718183638669.png)
 > **when everything is “an opportunity for growth,” nothing is.**
 
-2025-06-25 [Why Engineers Hate Their Managers (And What to Do About It) – Terrible Software](https://terriblesoftware.org/2025/06/24/why-engineers-hate-their-managers-and-what-to-do-about-it/) { terriblesoftware.org }
+2025-06-25 [Why Engineers Hate Their Managers (And What to Do About It) – Terrible Software](https://terriblesoftware.org/2025/06/24/why-engineers-hate-their-managers-and-what-to-do-about-it/) \{ terriblesoftware.org \}
 
 > ![image-20250624190706665](2025-08-31-links-from-my-inbox.assets/image-20250624190706665.png)
 >
@@ -61,7 +61,7 @@ categories: links
 >
 > If you’re an engineer, you’ll probably nod along thinking *“finally, someone gets it.”* If you’re a manager, well… you might recognize yourself in here. And that’s okay — awareness is the first step.
 
-2025-06-15 [Good Engineer/Bad Engineer – Terrible Software](https://terriblesoftware.org/2025/06/13/good-engineer-bad-engineer/) { terriblesoftware.org }
+2025-06-15 [Good Engineer/Bad Engineer – Terrible Software](https://terriblesoftware.org/2025/06/13/good-engineer-bad-engineer/) \{ terriblesoftware.org \}
 
 > *(I've tried to summarize, but it is too good for summarizing, I can't! )*
 
@@ -93,7 +93,7 @@ categories: links
 >
 > The best engineers I’ve worked with weren’t necessarily the smartest — they were simply the most effective. And effectiveness isn’t about perfection. It’s about progress.
 
-2025-07-10 [Mellow Drama: Turning Browsers Into Request Brokers | Secure Annex](https://secureannex.com/blog/mellow-drama/) { secureannex.com }
+2025-07-10 [Mellow Drama: Turning Browsers Into Request Brokers | Secure Annex](https://secureannex.com/blog/mellow-drama/) \{ secureannex.com \}
 
 > ![image-20250709171941011](2025-08-31-links-from-my-inbox.assets/image-20250709171941011.png)
 >
@@ -131,7 +131,7 @@ categories: links
 > **Broader security trend**
 > This incident exemplifies a growing class of browser-based supply chain attacks using benign-looking extensions as distributed scraping nodes.
 
-2025-07-27 [Reading QR codes without a computer!](https://qr.blinry.org/) {qr.blinry.org}
+2025-07-27 [Reading QR codes without a computer!](https://qr.blinry.org/) \{qr.blinry.org\}
 
 > Did you ever wonder how QR codes work? You've come to the right place! This is an interactive explanation that we've written for a workshop at [37C3](https://events.ccc.de/congress/2023/), but you can also use it on your own. You will learn:
 >
@@ -140,7 +140,7 @@ categories: links
 >
 > ![image-20250727135009283](2025-08-31-links-from-my-inbox.assets/image-20250727135009283.png)
 
-2025-08-31 [Notes on Managing ADHD](https://borretti.me/article/notes-on-managing-adhd) { borretti.me }
+2025-08-31 [Notes on Managing ADHD](https://borretti.me/article/notes-on-managing-adhd) \{ borretti.me \}
 ![image-20250831115139380](2025-08-31-links-from-my-inbox.assets/image-20250831115139380.png)
 
 > I build external scaffolding so my brain has fewer places to drop things: **memory** lives in a single todo list, and the one meta habit is to open it every morning; projects get their own entries so half-read books and half-built ideas do not evaporate; I keep the list pinned on the left third of the screen so it is always in my **visual field**. I manage **energy** like voltage: early morning is for the thing I dread, mid-day is for creative work, later is for chores; when I feel avoidance, I treat **procrastination** by type—do it scared for anxiety, ask a human to sit with me for accountability, and write to think when choice paralysis hits; **timers** manufacture urgency to start and, importantly, to stop so one project does not eat the day. I practice **journaling** across daily, weekly, monthly, yearly reviews to surface patterns and measure progress; for **time**, I keep a light calendar for social and gym blocks and add explicit **travel time** so I actually leave; the todo list holds the fine-grained work, the calendar holds the big rocks.
@@ -151,13 +151,13 @@ categories: links
 
 ## Inspiration!
 
-2025-08-01 [Cry Once a Week](https://www.cryonceaweek.com/) { www.cryonceaweek.com }
+2025-08-01 [Cry Once a Week](https://www.cryonceaweek.com/) \{ www.cryonceaweek.com \}
 
 > ![image-20250731184434171](2025-08-31-links-from-my-inbox.assets/image-20250731184434171.png)
 >
 > ![image-20250731184229129](2025-08-31-links-from-my-inbox.assets/image-20250731184229129.png)
 
-2025-09-01 [Eternal Struggle](https://yoavg.github.io/eternal/) { yoavg.github.io }
+2025-09-01 [Eternal Struggle](https://yoavg.github.io/eternal/) \{ yoavg.github.io \}
 
 > ![image-20250831175202480](2025-08-31-links-from-my-inbox.assets/image-20250831175202480.png)
 
@@ -165,7 +165,7 @@ categories: links
 
 ## 👂 The Ear of AI (LLMs)
 
-2025-08-18 [tokens are getting more expensive - by Ethan Ding](https://ethanding.substack.com/p/ai-subscriptions-get-short-squeezed) { ethanding.substack.com }
+2025-08-18 [tokens are getting more expensive - by Ethan Ding](https://ethanding.substack.com/p/ai-subscriptions-get-short-squeezed) \{ ethanding.substack.com \}
 
 > ![image-20250818151926364](2025-08-31-links-from-my-inbox.assets/image-20250818151926364.png)
 >
@@ -188,7 +188,7 @@ categories: links
 > Cursor restructured pricing: Pro plans now include credits with at-cost overages, plus a new $200 Ultra tier.
 > Cursor pricing page
 
-2025-06-15 [Field Notes From Shipping Real Code With Claude - diwank's space](https://diwank.space/field-notes-from-shipping-real-code-with-claude/) { diwank.space }
+2025-06-15 [Field Notes From Shipping Real Code With Claude - diwank's space](https://diwank.space/field-notes-from-shipping-real-code-with-claude/) \{ diwank.space \}
 
 > Tags: AI‑assisted coding, vibe coding, CLAUDE.md, anchor comments, testing discipline, token management, git workflows, session isolation, developer efficiency
 >
@@ -211,7 +211,7 @@ categories: links
 >
 > > Instead of crafting every line, you’re reviewing, refining, directing. But—and this cannot be overstated—you remain the architect. Claude is your intern with encyclopedic knowledge but zero context about your specific system, your users, your business logic.
 
-2025-06-02 [MCP explained without hype or fluff - nilenso blog](https://blog.nilenso.com/blog/2025/05/12/mcp-explained-without-hype-or-fluff/) { blog.nilenso.com }
+2025-06-02 [MCP explained without hype or fluff - nilenso blog](https://blog.nilenso.com/blog/2025/05/12/mcp-explained-without-hype-or-fluff/) \{ blog.nilenso.com \}
 
 > ![image-20250601185649415](2025-08-31-links-from-my-inbox.assets/image-20250601185649415.png)
 >
@@ -225,7 +225,7 @@ categories: links
 >
 > *ai integration, model context protocol, simple architecture, ckan, open data, ai tools, tradeoffs, protocol design*
 
-2025-07-19 [Nobody Knows How To Build With AI Yet - by Scott Werner](https://worksonmymachine.substack.com/p/nobody-knows-how-to-build-with-ai) { worksonmymachine.substack.com }
+2025-07-19 [Nobody Knows How To Build With AI Yet - by Scott Werner](https://worksonmymachine.substack.com/p/nobody-knows-how-to-build-with-ai) \{ worksonmymachine.substack.com \}
 
 > ![image-20250719101340845](2025-08-31-links-from-my-inbox.assets/image-20250719101340845.png)
 >
@@ -247,7 +247,7 @@ categories: links
 
 ## C || C++
 
-2025-08-16 [Vjekoslav Krajačić on X: "C macro approach to using optional / default / named function params, using struct designated initializers. ](https://x.com/vkrajacic/status/1749816169736073295/) {x.com}
+2025-08-16 [Vjekoslav Krajačić on X: "C macro approach to using optional / default / named function params, using struct designated initializers. ](https://x.com/vkrajacic/status/1749816169736073295/) \{x.com\}
 
 > ![image-20250815235223750](2025-08-31-links-from-my-inbox.assets/image-20250815235223750.png)
 >
@@ -270,19 +270,19 @@ categories: links
 > From the screenshot:
 >
 > ```c
-> struct TransformParams {
+> struct TransformParams \{
 >     Vec2 pivot;  // Default TopLeft
 >     Dim2 scale;  // Default One (1,1)
 >     f32  angle;  // Default 0
 >     b32  clip;   // Default false
-> };
+> \};
 > 
 > #define PushTransform(rect, ...) \
->     _PushTransform((rect), (TransformParams){ .scale = Vec2One, __VA_ARGS__ })
+>     _PushTransform((rect), (TransformParams)\{ .scale = Vec2One, __VA_ARGS__ \})
 > 
-> void _PushTransform(Rect rect, TransformParams params) {
+> void _PushTransform(Rect rect, TransformParams params) \{
 >     // Implementation here
-> }
+> \}
 > ```
 >
 > **How it works**
@@ -315,7 +315,7 @@ categories: links
 >
 > Watch it also here: **https://www.youtube.com/watch?v=VdmeoMZjIgs**
 
-2025-08-01 [How I program C - YouTube](https://www.youtube.com/watch?v=443UNeGrFoM) { www.youtube.com }
+2025-08-01 [How I program C - YouTube](https://www.youtube.com/watch?v=443UNeGrFoM) \{ www.youtube.com \}
 
 > ![image-20250801102620753](2025-08-31-links-from-my-inbox.assets/image-20250801102620753.png)
 > **Speaker** Eskil Steenberg – game-engine and tools developer (Quel Solaar)
@@ -349,29 +349,29 @@ categories: links
 > - Build-your-own-tools mindset; “build a mountain” analogy
 > - Closing resources and project links
 
-2025-08-01 [C Programming Full Course for free ⚙️ (2025) - YouTube](https://www.youtube.com/watch?v=xND0t1pr3KY) {www.youtube.com}
+2025-08-01 [C Programming Full Course for free ⚙️ (2025) - YouTube](https://www.youtube.com/watch?v=xND0t1pr3KY) \{www.youtube.com\}
 
 > ![image-20250801103430609](2025-08-31-links-from-my-inbox.assets/image-20250801103430609.png)
 
-2025-08-02 [Go from mid-level to advanced C programmer in two hours - YouTube](https://www.youtube.com/watch?v=eh8zBTTgRn4) {www.youtube.com}
+2025-08-02 [Go from mid-level to advanced C programmer in two hours - YouTube](https://www.youtube.com/watch?v=eh8zBTTgRn4) \{www.youtube.com\}
 
 > ![image-20250801230639700](2025-08-31-links-from-my-inbox.assets/image-20250801230639700.png)
 
-2025-08-02 [C Programming and Memory Management - Full Course - YouTube](https://www.youtube.com/watch?v=rJrd2QMVbGM) {www.youtube.com}
+2025-08-02 [C Programming and Memory Management - Full Course - YouTube](https://www.youtube.com/watch?v=rJrd2QMVbGM) \{www.youtube.com\}
 
 > Interesting, "Boot Dev", known for very annoying ads, also have some quality content
 >
 > ![image-20250801230857693](2025-08-31-links-from-my-inbox.assets/image-20250801230857693.png)
 
-2025-08-02 [I'm Building C with C without CMake - YouTube](https://www.youtube.com/watch?v=D1bsg8wkZzo) {www.youtube.com}
+2025-08-02 [I'm Building C with C without CMake - YouTube](https://www.youtube.com/watch?v=D1bsg8wkZzo) \{www.youtube.com\}
 
 > ![image-20250801233701958](2025-08-31-links-from-my-inbox.assets/image-20250801233701958.png)
 
-2025-08-02 [Tips for C Programming - YouTube](https://www.youtube.com/watch?v=9UIIMBqq1D4) {www.youtube.com}
+2025-08-02 [Tips for C Programming - YouTube](https://www.youtube.com/watch?v=9UIIMBqq1D4) \{www.youtube.com\}
 
 > ![image-20250802105718241](2025-08-31-links-from-my-inbox.assets/image-20250802105718241.png)
 
-2025-07-13 [Parse, Don’t Validate AKA Some C Safety Tips](https://www.lelanthran.com/chap13/content.html) { www.lelanthran.com }
+2025-07-13 [Parse, Don’t Validate AKA Some C Safety Tips](https://www.lelanthran.com/chap13/content.html) \{ www.lelanthran.com \}
 
 > The article "Parse, Don’t Validate AKA Some C Safety Tips" by Lelanthran expands on the concept of converting input into strong types rather than merely validating it as plain strings. It demonstrates how this approach, when applied in C, reduces error-prone code and security risks. The post outlines three practical benefits: boundary handling with opaque types, safer memory cleanup via pointer‑setting destructors, and compile‑time type safety that prevents misuse deeper in the codebase.
 >
@@ -397,7 +397,7 @@ categories: links
 
 ## Emacs
 
-2025-04-12 [Emacs Lisp Elements | Protesilaos Stavrou](https://protesilaos.com/emacs/emacs-lisp-elements) { protesilaos.com }
+2025-04-12 [Emacs Lisp Elements | Protesilaos Stavrou](https://protesilaos.com/emacs/emacs-lisp-elements) \{ protesilaos.com \}
 
 > Tags: Emacs, Emacs Lisp, Elisp, Programming, Text Editor, Customization, Macros, Buffers, Control Flow, Pattern Matching
 >
@@ -413,7 +413,7 @@ categories: links
 >
 > ![image-20250412115256181](2025-08-31-links-from-my-inbox.assets/image-20250412115256181.png)
 
-2025-01-11 [ewantown/nice-org-html: Modern Org to HTML pipeline with CSS injection from Emacs themes](https://github.com/ewantown/nice-org-html) { github.com }
+2025-01-11 [ewantown/nice-org-html: Modern Org to HTML pipeline with CSS injection from Emacs themes](https://github.com/ewantown/nice-org-html) \{ github.com \}
 
 > This package generates pretty, responsive, websites from .org files and your choice of Emacs themes. You can optionally specify a header, footer, and additional CSS and JS to be included. To see the default output, for my chosen themes and with no header, footer or extras, view this README in your browser [here](https://etown.dev/nice-org-html/). If you’re already there, you can find the GitHub repo [here](https://github.com/ewantown/nice-org-html).
 

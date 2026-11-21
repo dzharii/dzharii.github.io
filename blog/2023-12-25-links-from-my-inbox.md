@@ -183,7 +183,7 @@ struct Point
 Point origin{.x = 0.f, .y = 0.f, .z = 0.f};
 ```
 
-> (Nice) Default comparison and the three-way comparison operator (aka the spaceship: <=>)
+> (Nice) Default comparison and the three-way comparison operator (aka the spaceship: `<=>`)
 >
 > New in C++20 are [default comparison](https://en.cppreference.com/w/cpp/language/default_comparisons) rules for structured types that perform an automatic lexicographic comparison when requested.
 

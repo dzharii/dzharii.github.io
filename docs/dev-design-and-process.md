@@ -125,7 +125,7 @@ consistency, replication, and database sharding for linear read and write latenc
 
 ## Hypervisors and Operating Systems
 
-2024-08-31 [Hypervisor From Scratch - Part 1: Basic Concepts & Configure Testing Environment | Rayanfam Blog](https://rayanfam.com/topics/hypervisor-from-scratch-part-1/) { rayanfam.com }
+2024-08-31 [Hypervisor From Scratch - Part 1: Basic Concepts & Configure Testing Environment | Rayanfam Blog](https://rayanfam.com/topics/hypervisor-from-scratch-part-1/) \{ rayanfam.com \}
 
 > > # Hypervisor From Scratch
 > >
@@ -142,9 +142,9 @@ consistency, replication, and database sharding for linear read and write latenc
 >
 > [https://github.com/SinaKarvandi/Hypervisor-From-Scratch/]
 
-2024-08-31 [Reversing Windows Internals (Part 1) - Digging Into Handles, Callbacks & ObjectTypes | Rayanfam Blog](https://rayanfam.com/topics/reversing-windows-internals-part1/) { rayanfam.com }
+2024-08-31 [Reversing Windows Internals (Part 1) - Digging Into Handles, Callbacks & ObjectTypes | Rayanfam Blog](https://rayanfam.com/topics/reversing-windows-internals-part1/) \{ rayanfam.com \}
 
-2024-08-31 [A Tour of Mount in Linux | Rayanfam Blog](https://rayanfam.com/topics/mount-in-linux/) { rayanfam.com }
+2024-08-31 [A Tour of Mount in Linux | Rayanfam Blog](https://rayanfam.com/topics/mount-in-linux/) \{ rayanfam.com \}
 
 > ![image-20240830200258339](./dev-design-and-process.assets/image-20240830200258339.png)
 

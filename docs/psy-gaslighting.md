@@ -3,7 +3,7 @@ Date: 2024-12-14
 
 
 
-source: 2024-12-15 [Gaslighting in the workplace : r/ManagedByNarcissists](https://www.reddit.com/r/ManagedByNarcissists/comments/xto33g/gaslighting_in_the_workplace/) {www.reddit.com}
+source: 2024-12-15 [Gaslighting in the workplace : r/ManagedByNarcissists](https://www.reddit.com/r/ManagedByNarcissists/comments/xto33g/gaslighting_in_the_workplace/) \{www.reddit.com\}
 
 Just wanted to share this post I'm going to delete the other one but wanted to share.
 
@@ -130,7 +130,7 @@ Comments:
 
 
 
-2024-12-15 [Gaslighting at Work | The Signs - YouTube](https://www.youtube.com/watch?v=xg5uMCYvmaA) {www.youtube.com}
+2024-12-15 [Gaslighting at Work | The Signs - YouTube](https://www.youtube.com/watch?v=xg5uMCYvmaA) \{www.youtube.com\}
 
 > ![image-20241214164737533](psy-gaslighting.assets/image-20241214164737533.png)
 >
@@ -210,7 +210,7 @@ Gaslighting in the workplace often stems from a desire for control, power, or se
 
 Gaslighting at work is a serious issue that can have long-term effects on your mental health, career, and sense of self-worth. Recognizing gaslighting tactics and knowing how to respond can empower you to protect yourself. If you’re dealing with a gaslighting supervisor, prioritize your mental health and document everything. You’re not alone, and there are resources available to help you move forward.
 
-2024-12-15 [How to handle what feel like gaslighting attempts from your boss? : r/careeradvice](https://www.reddit.com/r/careeradvice/comments/12r2ddo/how_to_handle_what_feel_like_gaslighting_attempts/) {www.reddit.com}
+2024-12-15 [How to handle what feel like gaslighting attempts from your boss? : r/careeradvice](https://www.reddit.com/r/careeradvice/comments/12r2ddo/how_to_handle_what_feel_like_gaslighting_attempts/) \{www.reddit.com\}
 
 > A little background, this is something I have had to deal with from another boss at a previous company. As infuriating as that situation was, it taught me to have better habits and to literally record EVERYTHING - either in email, meeting minutes and asking for explicit, written confirmation for all decisions made.
 >

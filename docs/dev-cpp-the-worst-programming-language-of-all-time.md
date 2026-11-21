@@ -7,7 +7,7 @@ Date: 2025-12-04
 
 [Lazo Velko - YouTube](https://www.youtube.com/@Lazo)
 
-2025-11-29 [C++ The worst programming language of all time - YouTube](https://www.youtube.com/watch?v=7fGB-hjc2Gc) { www.youtube.com }
+2025-11-29 [C++ The worst programming language of all time - YouTube](https://www.youtube.com/watch?v=7fGB-hjc2Gc) \{ www.youtube.com \}
 
 > ![image-20251128215827430](dev-cpp-the-worst-programming-language-of-all-time.assets/image-20251128215827430.png)
 >

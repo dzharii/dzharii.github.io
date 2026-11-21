@@ -7,7 +7,7 @@ categories: links
 
 ## ⌚ Nice watch!
 
-2025-11-02 [How To Not Strangle Your Coworkers: Resolving Conflict with Collaboration - Arthur Doler - YouTube](https://www.youtube.com/watch?v=Te7kE8WfGzc&t=2544s) { www.youtube.com }
+2025-11-02 [How To Not Strangle Your Coworkers: Resolving Conflict with Collaboration - Arthur Doler - YouTube](https://www.youtube.com/watch?v=Te7kE8WfGzc&t=2544s) \{ www.youtube.com \}
 
 > ![image-20251101221829769](2025-11-02-links-from-my-inbox.assets/image-20251101221829769.png)
 >
@@ -46,7 +46,7 @@ categories: links
 >   - Conciliating mixes styles and can look like mid-conversation switching.
 > - **Use this awareness.** Infer goals, adjust your approach, and decide when to continue, pause, or withdraw.
 >
-> [Conflict-handling Avoiding Competing Accommodating Compromising Collaborating](https://dmytro.zharii.com/thoughts/Conflict-handling%20Avoiding%20Competing%20Accommodating%20Compromising%20Collaborating.html) { dmytro.zharii.com }
+> [Conflict-handling Avoiding Competing Accommodating Compromising Collaborating](https://dmytro.zharii.com/thoughts/Conflict-handling%20Avoiding%20Competing%20Accommodating%20Compromising%20Collaborating.html) \{ dmytro.zharii.com \}
 >
 > > In conflict situations, individuals often exhibit different **behavioral strategies** based on their approach to managing disagreements. Avoiding is one strategy, and here are four others, alongside avoiding, commonly identified within conflict management models like the **Thomas-Kilmann Conflict Mode Instrument (TKI):**
 > >
@@ -92,7 +92,7 @@ categories: links
 >
 > The difference is simple: prophecies **steer** people into your expectation; sealing **blocks** the talk that could change it. In both cases, curiosity plus one small, testable change is usually enough to bend the plot.
 
-2025-10-18 [5 Office Politics Rules That Get Managers Promoted - YouTube](https://www.youtube.com/watch?v=uqgEruWF-fU) { www.youtube.com }
+2025-10-18 [5 Office Politics Rules That Get Managers Promoted - YouTube](https://www.youtube.com/watch?v=uqgEruWF-fU) \{ www.youtube.com \}
 
 > ![image-20251017182829612](2025-11-02-links-from-my-inbox.assets/image-20251017182829612.png)
 >
@@ -110,7 +110,7 @@ categories: links
 >
 > Play fair if you like; play smart if you want the title. Quick checklist for this week: spotlight up, share credit, take something off your boss’s plate, share plans only upward, define your one-line, keep one promise small and solid, avoid gossip and build one ally, cut a –10x task, drop one 2x, broadcast one 10x, and bring one sharp point and outcome language to every room. And one last trap the transcript flags: protecting your employees can backfire if it hides your results. Do not hide behind the team, scale them and make the impact visible.
 
-> 2025-10-08 [Answering behavioral interview questions is shockingly uncomplicated - YouTube](https://www.youtube.com/watch?v=WdyiUe7_3cA) { www.youtube.com }
+> 2025-10-08 [Answering behavioral interview questions is shockingly uncomplicated - YouTube](https://www.youtube.com/watch?v=WdyiUe7_3cA) \{ www.youtube.com \}
 >
 > ![image-20251007221323195](2025-11-02-links-from-my-inbox.assets/image-20251007221323195.png)
 > ---
@@ -187,7 +187,7 @@ categories: links
 > 4. Tell the story, then say the line: What I learned from that experience was X.
 > 5. Keep it tight. 60 to 120 seconds per answer unless probed.
 
-2025-10-14 [Never Send These 4 Emails at Work (Lawyer's Warning) - YouTube](https://www.youtube.com/watch?v=OMxECUy2IZ8) { www.youtube.com }
+2025-10-14 [Never Send These 4 Emails at Work (Lawyer's Warning) - YouTube](https://www.youtube.com/watch?v=OMxECUy2IZ8) \{ www.youtube.com \}
 
 > ![image-20251013232421490](2025-11-02-links-from-my-inbox.assets/image-20251013232421490.png)
 >

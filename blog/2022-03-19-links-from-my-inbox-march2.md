@@ -63,7 +63,7 @@ categories: links
 - 2022-03-13 [Show HN: I made my personal website a Pokémon-style minigame using Phaser 3 Hacker News](https://news.ycombinator.com/item?id=30656961)
 > [Ariel Roffé Game](https://arielroffe.quest/)
 - 2022-03-15 [RP2040 Doom rp2040-doom](https://kilograham.github.io/rp2040-doom/)
-> Given a new platform it is only natural to think of porting Doom to it. With 264K of RAM, two CortexM0+ CPUs and a decent clock speed, the RP2040 is certainly not the tightest platform Doom has ever been ported to - although at <$1 it is probably one of the cheapest - so I wanted to set my self a more aggressive set of goals...
+> Given a new platform it is only natural to think of porting Doom to it. With 264K of RAM, two CortexM0+ CPUs and a decent clock speed, the RP2040 is certainly not the tightest platform Doom has ever been ported to - although at less than $1 it is probably one of the cheapest - so I wanted to set my self a more aggressive set of goals...
 ![](_img/2022-03-15-rp-doom.png)
 - 2022-03-15 [🌭 HOT DOG Linux 🌭](https://hotdoglinux.com/)
 > HOT DOG Linux is an acronym that stands for Horrible Obsolete Typeface and Dreadful Onscreen Graphics for Linux.

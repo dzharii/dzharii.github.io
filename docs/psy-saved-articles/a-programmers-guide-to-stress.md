@@ -2,9 +2,9 @@
 
 Date: 2024-11-03
 
-WebArchive:  2022-03-09 [A Programmers Guide to Stress - Coding Mindfully](https://web.archive.org/web/20220309213049/http://codingmindfully.com/a-programmers-guide-to-stress/) { web.archive.org }
+WebArchive:  2022-03-09 [A Programmers Guide to Stress - Coding Mindfully](https://web.archive.org/web/20220309213049/http://codingmindfully.com/a-programmers-guide-to-stress/) \{ web.archive.org \}
 
-CopyOrOriginal: 2024-11-04 [A programmer’s guide to managing stress](https://www.freecodecamp.org/news/a-coders-guide-to-managing-stress-46f2bbb49a8e/) { www.freecodecamp.org }
+CopyOrOriginal: 2024-11-04 [A programmer’s guide to managing stress](https://www.freecodecamp.org/news/a-coders-guide-to-managing-stress-46f2bbb49a8e/) \{ www.freecodecamp.org \}
 
 ## I almost lost my mind once. It was the best thing that ever happened to me.
 

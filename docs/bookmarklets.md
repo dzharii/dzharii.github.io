@@ -75,7 +75,7 @@ Name:
 Revision:
 
 - 2023-03-12 - initial
-- 2024-08-17 - add domain as in "{ domain.com }"
+- 2024-08-17 - add domain as in "\{ domain.com \}"
 - 2025-11-28 - non ascii cleanup
 
 <details>

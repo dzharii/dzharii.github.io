@@ -7,11 +7,11 @@ I will think critically and objectively about the problem.
 
 ## Learn Lua
 
-2024-11-11 [Lua cheatsheet](https://devhints.io/lua) { devhints.io }
+2024-11-11 [Lua cheatsheet](https://devhints.io/lua) \{ devhints.io \}
 
 > ![image-20241110234228949](dev-lua.assets/image-20241110234228949.png)
 
-2024-11-11 [Lua Cheat Sheet](https://gist.github.com/doches/2219649) { gist.github.com }
+2024-11-11 [Lua Cheat Sheet](https://gist.github.com/doches/2219649) \{ gist.github.com \}
 
 > Updated to Lua 5.4 with the GPT assistance. I am not sure if it works
 
@@ -270,11 +270,11 @@ end
 
 ```
 
-2024-11-11 [Awesome Lua Cheat Sheet · GitHub](https://gist.github.com/JettIsOnTheNet/b7472ee8b1f5b324c498302b0f61957d) {gist.github.com}
+2024-11-11 [Awesome Lua Cheat Sheet · GitHub](https://gist.github.com/JettIsOnTheNet/b7472ee8b1f5b324c498302b0f61957d) \{gist.github.com\}
 
 > ![image-20241111000353791](dev-lua.assets/image-20241111000353791.png)
 
-2024-11-11 [Learn Lua: Introduction to Lua Cheatsheet | Codecademy](https://www.codecademy.com/learn/learn-lua/modules/learn-lua-introduction/cheatsheet) { www.codecademy.com }
+2024-11-11 [Learn Lua: Introduction to Lua Cheatsheet | Codecademy](https://www.codecademy.com/learn/learn-lua/modules/learn-lua-introduction/cheatsheet) \{ www.codecademy.com \}
 
 > ![image-20241111000550931](dev-lua.assets/image-20241111000550931.png)
 
@@ -282,7 +282,7 @@ end
 
 ## Projects 💖 Lua
 
-2024-12-22 [Embedded Scripting Languages](https://caiorss.github.io/C-Cpp-Notes/embedded_scripting_languages.html#org3e7e92d) { caiorss.github.io }
+2024-12-22 [Embedded Scripting Languages](https://caiorss.github.io/C-Cpp-Notes/embedded_scripting_languages.html#org3e7e92d) \{ caiorss.github.io \}
 
 > ![image-20241221224400648](dev-lua.assets/image-20241221224400648.png)
 
@@ -422,7 +422,7 @@ Here’s a categorized list of the Lua-based projects, organized by their primar
 
 > 
 
-2024-12-22 [Embedded Scripting Languages](https://caiorss.github.io/C-Cpp-Notes/embedded_scripting_languages.html#org3e7e92d) { caiorss.github.io }
+2024-12-22 [Embedded Scripting Languages](https://caiorss.github.io/C-Cpp-Notes/embedded_scripting_languages.html#org3e7e92d) \{ caiorss.github.io \}
 
 ### 1.5 Lua scripting engine
 

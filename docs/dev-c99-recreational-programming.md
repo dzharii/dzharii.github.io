@@ -66,7 +66,7 @@ This runs the C code in one step—compile and execute—without manual linking.
 
 ## Programmers! 
 
-**[How I program C - YouTube](https://www.youtube.com/watch?v=443UNeGrFoM) { www.youtube.com } - Eskil Steenberg**
+**[How I program C - YouTube](https://www.youtube.com/watch?v=443UNeGrFoM) \{ www.youtube.com \} - Eskil Steenberg**
 
 **Advanced C: control over convenience**
 
@@ -352,11 +352,11 @@ A channel by Tsoding featuring live coding streams and videos focused on buildin
 
 
 
-2025-11-25 [Build Your Own Redis with C/C++ | Build Your Own Redis with C/C++](https://build-your-own.org/redis/) { build-your-own.org }
+2025-11-25 [Build Your Own Redis with C/C++ | Build Your Own Redis with C/C++](https://build-your-own.org/redis/) \{ build-your-own.org \}
 
 > ![image-20251124233038748](dev-c99-recreational-programming.assets/image-20251124233038748.png)
 
-2025-10-03 [Build Your Own X](https://build-your-own-x.vercel.app/) {build-your-own-x.vercel.app}
+2025-10-03 [Build Your Own X](https://build-your-own-x.vercel.app/) \{build-your-own-x.vercel.app\}
 
 > This repo is forked from awesome [anistefanovic/build-your-own-x](https://github.com/danistefanovic/build-your-own-x) , site is created and maintained by [Kalan](https://github.com/kjj6198/build-your-own-x) which converted github README.md to website, and probably will add more opinionated resource.
 > Follow me on [Twitter](https://build-your-own-x.vercel.app/twitter.com/kalanyei) or contibute your article link on [Github](https://github.com/kjj6198/build-your-own-x) is always welcomed!
@@ -401,7 +401,7 @@ A channel by Tsoding featuring live coding streams and videos focused on buildin
 > - [Write a System Call](https://brennan.io/2016/11/14/kernel-dev-ep3/)
 > - [Sol - An MQTT broker from scratch](https://codepr.github.io/posts/sol-mqtt-broker)
 >
-> 2025-10-03 [Build Your Own X](https://build-your-own-x.vercel.app/#build-your-own-git) {build-your-own-x.vercel.app}
+> 2025-10-03 [Build Your Own X](https://build-your-own-x.vercel.app/#build-your-own-git) \{build-your-own-x.vercel.app\}
 
 ---
 

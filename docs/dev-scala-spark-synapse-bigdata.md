@@ -116,7 +116,7 @@
 > - 2023-02-12 🎥 [Apache Spark Core – Practical Optimization Daniel Tomes Databricks - YouTube](https://www.youtube.com/watch?v=_ArCesElWp8)
 > - See Slides at: [2023-02-12 Apache Spark Core—Deep Dive—Proper Optimization Daniel Tomes Databricks](https://blog.zharii.com/docs/resources/2023-02-12-Slides--Apache-Spark-Core-Deep-Dive-Proper-Optimization)
 
-2023-02-12 [Spark SQL Shuffle Partitions - Spark By {Examples}](https://sparkbyexamples.com/spark/spark-shuffle-partitions/)
+2023-02-12 [Spark SQL Shuffle Partitions - Spark By \{Examples\}](https://sparkbyexamples.com/spark/spark-shuffle-partitions/)
 
 > ![image-20230212091729215](./dev-spark.assets/image-20230212091729215.png)
 
@@ -307,7 +307,7 @@ cs install scala:2.11.12 && cs install scalac:2.11.12
 
 ![image-20230413165631535](./dev-scala-spark-synapse-bigdata.assets/image-20230413165631535.png)
 
-2023-02-12 [Spark SQL Shuffle Partitions - Spark By {Examples}](https://sparkbyexamples.com/spark/spark-shuffle-partitions/) 
+2023-02-12 [Spark SQL Shuffle Partitions - Spark By \{Examples\}](https://sparkbyexamples.com/spark/spark-shuffle-partitions/)
 
 > In this Apache Spark Tutorial, you will learn Spark with Scala code examples and every sample example explained here is available at [Spark Examples Github Project](https://github.com/spark-examples) for reference. All Spark examples provided in this Apache Spark Tutorial are basic, simple, and easy to practice for beginners who are enthusiastic to learn Spark, and these sample examples were tested in our development environment.
 

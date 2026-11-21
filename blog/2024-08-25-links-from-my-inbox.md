@@ -13,13 +13,13 @@ categories: links
 
 ## Newsletters
 
-2024-08-26 [JavaScript Weekly Issue 701: August 22, 2024](https://javascriptweekly.com/issues/701) { javascriptweekly.com }
+2024-08-26 [JavaScript Weekly Issue 701: August 22, 2024](https://javascriptweekly.com/issues/701) \{ javascriptweekly.com \}
 
 
 
 ## Good Reads 
 
-2024-08-26 ⭐️ [On Writing Well | nikhil.bafna](https://zodvik.com/posts/on-writing-well/) { zodvik.com }
+2024-08-26 ⭐️ [On Writing Well | nikhil.bafna](https://zodvik.com/posts/on-writing-well/) \{ zodvik.com \}
 
 ![image-20240825174540032](./2024-08-25-links-from-my-inbox.assets/image-20240825174540032.png)
 
@@ -27,7 +27,7 @@ categories: links
 
 ## Tech Talks
 
-2024-08-30 [Messaging: The fine line between awesome and awful - Laila Bougria - NDC Oslo 2024 - YouTube](https://www.youtube.com/watch?v=phAaF6OGjKY) { www.youtube.com }
+2024-08-30 [Messaging: The fine line between awesome and awful - Laila Bougria - NDC Oslo 2024 - YouTube](https://www.youtube.com/watch?v=phAaF6OGjKY) \{ www.youtube.com \}
 
 ![image-20240829180120559](./2024-08-25-links-from-my-inbox.assets/image-20240829180120559.png)
 
@@ -59,9 +59,9 @@ categories: links
 
 ## Not a financial advise 
 
-2024-08-30 [Ditch Banks — Go With Money Market Funds and Treasuries](https://thefinancebuff.com/goodbye-banks-credit-unions.html) { thefinancebuff.com }
+2024-08-30 [Ditch Banks — Go With Money Market Funds and Treasuries](https://thefinancebuff.com/goodbye-banks-credit-unions.html) \{ thefinancebuff.com \}
 
-> 2024-08-30 [Ditch banks – Go with money market funds and treasuries | Hacker News](https://news.ycombinator.com/item?id=41262439) { news.ycombinator.com }
+> 2024-08-30 [Ditch banks – Go with money market funds and treasuries | Hacker News](https://news.ycombinator.com/item?id=41262439) \{ news.ycombinator.com \}
 
 ![image-20240829181735734](./2024-08-25-links-from-my-inbox.assets/image-20240829181735734.png)
 
@@ -71,7 +71,7 @@ categories: links
 
 ## Inspiration
 
-2024-08-30 [YTCH](https://ytch.xyz/) { ytch.xyz }
+2024-08-30 [YTCH](https://ytch.xyz/) \{ ytch.xyz \}
 
 >  https://news.ycombinator.com/item?id=41247023
 > If YouTube had actual channels
@@ -80,17 +80,17 @@ categories: links
 
 
 
-2024-08-30 [GlyphDrawing.Club -blog](https://blog.glyphdrawing.club/font-with-built-in-syntax-highlighting/) { blog.glyphdrawing.club }
+2024-08-30 [GlyphDrawing.Club -blog](https://blog.glyphdrawing.club/font-with-built-in-syntax-highlighting/) \{ blog.glyphdrawing.club \}
 
 ![image-20240829185659044](./2024-08-25-links-from-my-inbox.assets/image-20240829185659044.png)
 
-2024-08-30 [Vanilla JSX](https://vanillajsx.com/) { vanillajsx.com }
+2024-08-30 [Vanilla JSX](https://vanillajsx.com/) \{ vanillajsx.com \}
 
-> 2024-08-30 [VanillaJSX.com | Hacker News](https://news.ycombinator.com/item?id=41269321) { news.ycombinator.com }
+> 2024-08-30 [VanillaJSX.com | Hacker News](https://news.ycombinator.com/item?id=41269321) \{ news.ycombinator.com \}
 
 ![image-20240829181223208](./2024-08-25-links-from-my-inbox.assets/image-20240829181223208.png)
 
-2024-08-30 [Blender Shortcuts](https://hollisbrown.github.io/blendershortcuts/) { hollisbrown.github.io }
+2024-08-30 [Blender Shortcuts](https://hollisbrown.github.io/blendershortcuts/) \{ hollisbrown.github.io \}
 
 ![image-20240829181030345](./2024-08-25-links-from-my-inbox.assets/image-20240829181030345.png)
 
@@ -100,15 +100,15 @@ categories: links
 
 ## 🏴‍☠️ Borrow it!
 
-2024-08-30 [clemlesne/scrape-it-now: A website to scrape? There's a simple way.](https://github.com/clemlesne/scrape-it-now) { github.com }
+2024-08-30 [clemlesne/scrape-it-now: A website to scrape? There's a simple way.](https://github.com/clemlesne/scrape-it-now) \{ github.com \}
 
 ![image-20240829180644387](./2024-08-25-links-from-my-inbox.assets/image-20240829180644387.png)
 
 > ⭐️ Simplify HTML / Reader view 
 >
-> 2024-08-30 [aaronsw/html2text: Convert HTML to Markdown-formatted text.](https://github.com/aaronsw/html2text) { github.com }
+> 2024-08-30 [aaronsw/html2text: Convert HTML to Markdown-formatted text.](https://github.com/aaronsw/html2text) \{ github.com \}
 
-2024-08-30 [Tracking supermarket prices with playwright](https://www.sakisv.net/2024/08/tracking-supermarket-prices-playwright/) { www.sakisv.net }
+2024-08-30 [Tracking supermarket prices with playwright](https://www.sakisv.net/2024/08/tracking-supermarket-prices-playwright/) \{ www.sakisv.net \}
 
 ![image-20240829190924245](./2024-08-25-links-from-my-inbox.assets/image-20240829190924245.png)
 
@@ -116,14 +116,14 @@ categories: links
 
 ## The Era of AI
 
-2024-08-26 [chartdb/chartdb: Free and Open-source database diagrams editor, visualize and design your DB with a single query.](https://github.com/chartdb/chartdb) { github.com }
+2024-08-26 [chartdb/chartdb: Free and Open-source database diagrams editor, visualize and design your DB with a single query.](https://github.com/chartdb/chartdb) \{ github.com \}
 
 > Open-source database diagrams editor
 > No installations • No Database password required.
 
 ![image-20240825174357928](./2024-08-25-links-from-my-inbox.assets/image-20240825174357928.png)
 
-2024-08-30 [Deep Live Cam: Real-Time Face Swapping and One-Click Video Deepfake Tool](https://deeplive.cam/) { deeplive.cam }
+2024-08-30 [Deep Live Cam: Real-Time Face Swapping and One-Click Video Deepfake Tool](https://deeplive.cam/) \{ deeplive.cam \}
 
 > ![image-20240829192202923](./2024-08-25-links-from-my-inbox.assets/image-20240829192202923.png)
 >
@@ -135,13 +135,13 @@ categories: links
 
 ### Charts
 
-2024-08-26 [Let’s Make A Bar Chart Tutorial | Vega](https://vega.github.io/vega/tutorials/bar-chart/) { vega.github.io }
+2024-08-26 [Let’s Make A Bar Chart Tutorial | Vega](https://vega.github.io/vega/tutorials/bar-chart/) \{ vega.github.io \}
 
 > ![image-20240825174836815](./2024-08-25-links-from-my-inbox.assets/image-20240825174836815.png)
 
 ### CSS
 
-2024-08-30 [CSS Grid Areas](https://ishadeed.com/article/css-grid-area/) { ishadeed.com }
+2024-08-30 [CSS Grid Areas](https://ishadeed.com/article/css-grid-area/) \{ ishadeed.com \}
 
 ![image-20240829181923758](./2024-08-25-links-from-my-inbox.assets/image-20240829181923758.png)
 
@@ -149,7 +149,7 @@ categories: links
 
 ### Keyboard / Game Pad
 
-2024-08-26 [jamiebuilds/tinykeys: A tiny (~650 B) & modern library for keybindings.](https://github.com/jamiebuilds/tinykeys) { github.com }
+2024-08-26 [jamiebuilds/tinykeys: A tiny (~650 B) & modern library for keybindings.](https://github.com/jamiebuilds/tinykeys) \{ github.com \}
 
 > A tiny (~650 B) & modern library for keybindings. [See Demo](https://jamiebuilds.github.io/tinykeys/)
 
@@ -171,19 +171,19 @@ tinykeys(window, {
 
 ```
 
-2024-08-30 [alvaromontoro/gamecontroller.js: A JavaScript library that lets you handle, configure, and use gamepads and controllers on a browser, using the Gamepad API](https://github.com/alvaromontoro/gamecontroller.js/) { github.com }
+2024-08-30 [alvaromontoro/gamecontroller.js: A JavaScript library that lets you handle, configure, and use gamepads and controllers on a browser, using the Gamepad API](https://github.com/alvaromontoro/gamecontroller.js/) \{ github.com \}
 
 
 
 ### Styles
 
-2024-08-26 [Newspaper Style Design](https://codepen.io/silkine/pen/QWBxVX) { codepen.io }
+2024-08-26 [Newspaper Style Design](https://codepen.io/silkine/pen/QWBxVX) \{ codepen.io \}
 
 ![image-20240825175903485](./2024-08-25-links-from-my-inbox.assets/image-20240825175903485.png)
 
 ### JavaScript / DOM
 
-2024-08-30 [Patterns for Memory Efficient DOM Manipulation with Modern Vanilla JavaScript – Frontend Masters Boost](https://frontendmasters.com/blog/patterns-for-memory-efficient-dom-manipulation/) { frontendmasters.com }
+2024-08-30 [Patterns for Memory Efficient DOM Manipulation with Modern Vanilla JavaScript – Frontend Masters Boost](https://frontendmasters.com/blog/patterns-for-memory-efficient-dom-manipulation/) \{ frontendmasters.com \}
 
 ![image-20240829184512754](./2024-08-25-links-from-my-inbox.assets/image-20240829184512754.png)
 
@@ -221,7 +221,7 @@ tinykeys(window, {
 
 ### TypeScript
 
-2024-08-26 [gruhn/typescript-sudoku: Playing Sudoku in TypeScript while the type checker highlights mistakes.](https://github.com/gruhn/typescript-sudoku) { github.com }
+2024-08-26 [gruhn/typescript-sudoku: Playing Sudoku in TypeScript while the type checker highlights mistakes.](https://github.com/gruhn/typescript-sudoku) \{ github.com \}
 
 ![image-20240825175100097](./2024-08-25-links-from-my-inbox.assets/image-20240825175100097.png)
 
@@ -229,7 +229,7 @@ tinykeys(window, {
 
 ## Markdown
 
-2024-08-26 [Getting Started | Milkdown](https://milkdown.dev/docs/guide/getting-started) { milkdown.dev }
+2024-08-26 [Getting Started | Milkdown](https://milkdown.dev/docs/guide/getting-started) \{ milkdown.dev \}
 
 ![image-20240825180829277](./2024-08-25-links-from-my-inbox.assets/image-20240825180829277.png)
 
@@ -248,7 +248,7 @@ tinykeys(window, {
 
 ## SteamDeck
 
-2024-08-30 [mikeroyal/Steam-Deck-Guide: Steam Deck Guide. Learn all about the Tools, Accessories, Games, Emulators, and Gaming Tips that will make your Steam Deck an awesome Gaming Handheld or a Portable Computer Workstation.](https://github.com/mikeroyal/Steam-Deck-Guide) { github.com }
+2024-08-30 [mikeroyal/Steam-Deck-Guide: Steam Deck Guide. Learn all about the Tools, Accessories, Games, Emulators, and Gaming Tips that will make your Steam Deck an awesome Gaming Handheld or a Portable Computer Workstation.](https://github.com/mikeroyal/Steam-Deck-Guide) \{ github.com \}
 
 ![image-20240829191917324](./2024-08-25-links-from-my-inbox.assets/image-20240829191917324.png)
 
@@ -258,7 +258,7 @@ tinykeys(window, {
 
 ## Job interview Prep
 
-2024-08-30 [Visual Data Structures Cheat-Sheet - by Nick M](https://photonlines.substack.com/p/visual-data-structures-cheat-sheet) { photonlines.substack.com }
+2024-08-30 [Visual Data Structures Cheat-Sheet - by Nick M](https://photonlines.substack.com/p/visual-data-structures-cheat-sheet) \{ photonlines.substack.com \}
 
 ![image-20240829185934397](./2024-08-25-links-from-my-inbox.assets/image-20240829185934397.png)
 
@@ -272,7 +272,7 @@ tinykeys(window, {
 
 ## Workplace 
 
-2024-08-30 [The Science of Well-Being | Coursera](https://www.coursera.org/learn/the-science-of-well-being/) { www.coursera.org }
+2024-08-30 [The Science of Well-Being | Coursera](https://www.coursera.org/learn/the-science-of-well-being/) \{ www.coursera.org \}
 
 ![image-20240829191217188](./2024-08-25-links-from-my-inbox.assets/image-20240829191217188.png)
 
@@ -288,7 +288,7 @@ tinykeys(window, {
 
 
 
-2024-08-30 [Your life, your volume | Loop Earplugs](https://www.loopearplugs.com/) { www.loopearplugs.com }
+2024-08-30 [Your life, your volume | Loop Earplugs](https://www.loopearplugs.com/) \{ www.loopearplugs.com \}
 
 > Unfortunately, not a sponsored content. Seriously my colleague, Lisi, recommended these.  
 
@@ -337,7 +337,7 @@ tinykeys(window, {
 
 ## Personal Blogs
 
-2024-08-26 [Articles](https://codinghelmet.com/articles) { codinghelmet.com }
+2024-08-26 [Articles](https://codinghelmet.com/articles) \{ codinghelmet.com \}
 
 > Zoran Horvat
 >

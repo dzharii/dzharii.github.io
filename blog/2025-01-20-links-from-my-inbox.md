@@ -9,7 +9,7 @@ categories: links
 
 ## ⌚ Nice watch!
 
-2025-01-21 [How I Built T3 Chat in 5 Days - YouTube](https://www.youtube.com/watch?v=QLvIoi2s1zY) { www.youtube.com }
+2025-01-21 [How I Built T3 Chat in 5 Days - YouTube](https://www.youtube.com/watch?v=QLvIoi2s1zY) \{ www.youtube.com \}
 
 > ![image-20250120201037694](2025-01-20-links-from-my-inbox.assets/image-20250120201037694.png)
 > GPT Summary: 
@@ -19,7 +19,7 @@ categories: links
 >
 > The tools used include **Deep Seek V3**, **React**, **Dexie.js**, **React Router**, **React Scan**, **Tailwind CSS**, **Vercel AI SDK**, and **Stripe**. Each played a vital role, though some required customization, like Jazz and OpenAuth. The result is an AI chat app that outperforms existing alternatives by leveraging local-first architecture, advanced optimizations, and thoughtful design principles. This project demonstrates how targeted engineering and innovative thinking can create high-performing, user-focused applications.
 
-2025-01-19 [Locknote: Local Reasoning in C++ - Sean Parent - NDC TechTown 2024 - YouTube](https://www.youtube.com/watch?v=bhizxAXQlWc) { www.youtube.com }
+2025-01-19 [Locknote: Local Reasoning in C++ - Sean Parent - NDC TechTown 2024 - YouTube](https://www.youtube.com/watch?v=bhizxAXQlWc) \{ www.youtube.com \}
 
 > ![image-20250118195257249](2025-01-20-links-from-my-inbox.assets/image-20250118195257249.png)
 > GPT Summary:
@@ -247,7 +247,7 @@ public:
 
 ```
 
-2025-01-18 [TPMs and the Linux Kernel: unlocking a better path to hardware security - Ignat Korchagin - YouTube](https://www.youtube.com/watch?v=g8b4K5FQUj8) { www.youtube.com }
+2025-01-18 [TPMs and the Linux Kernel: unlocking a better path to hardware security - Ignat Korchagin - YouTube](https://www.youtube.com/watch?v=g8b4K5FQUj8) \{ www.youtube.com \}
 
 > ![image-20250118151126088](2025-01-20-links-from-my-inbox.assets/image-20250118151126088.png)
 > GPT Summary:
@@ -269,7 +269,7 @@ public:
 > - **Improving Accessibility for Developers**: By exposing TPM functionality through the Linux key retention service, developers can leverage hardware-backed security without needing to understand TPM internals, providing a more accessible pathway for application adoption.
 > - **Call for Community Feedback**: The speaker sought input on the practicality of proposed solutions for IoT and stateless systems, emphasizing the importance of balancing security, scalability, and developer usability.
 
-2025-01-18 [Memory Safety: Rust vs. C - Robert Seacord - NDC TechTown 2024 - YouTube](https://www.youtube.com/watch?v=YofBgJ2zpBs) { www.youtube.com }
+2025-01-18 [Memory Safety: Rust vs. C - Robert Seacord - NDC TechTown 2024 - YouTube](https://www.youtube.com/watch?v=YofBgJ2zpBs) \{ www.youtube.com \}
 
 > ![image-20250118135635915](2025-01-20-links-from-my-inbox.assets/image-20250118135635915.png)
 > GPT Summary:**Background and Context**: The talk originates from a memory-safe languages panel led by government and industry stakeholders. There is a push, particularly from governments like the U.S. and other Five Eyes members, to migrate critical systems from **C and C++** to "memory-safe languages" like **Rust**. The speaker, while defending C and C++, acknowledges biases and stresses the importance of fair evaluations between languages.
@@ -292,7 +292,7 @@ public:
 >
 > **Closing Thoughts**: The speaker emphasizes a balanced, pragmatic approach to safety and security. Transitioning to Rust or any new language must account for all engineering realities, including ecosystem readiness, regulatory compliance, and the multifaceted nature of software vulnerabilities.
 
-2025-01-18 [How Simple Is "As Simple As Possible"? - Rendle . - NDC Porto 2024 - YouTube](https://www.youtube.com/watch?v=WfUQHpcLKF4) { www.youtube.com }
+2025-01-18 [How Simple Is "As Simple As Possible"? - Rendle . - NDC Porto 2024 - YouTube](https://www.youtube.com/watch?v=WfUQHpcLKF4) \{ www.youtube.com \}
 
 > ![image-20250118133914617](2025-01-20-links-from-my-inbox.assets/image-20250118133914617.png)
 >
@@ -314,7 +314,7 @@ public:
 >
 > The talk wraps with humor but drives the point home: "Stop overcomplicating things. Build what you need. Then go get a beer."
 
-2025-01-13 [Why You're Not Getting Promoted To Senior (ex-Amazon Principal) - YouTube](https://www.youtube.com/watch?v=2TqAC_VGRAc) { www.youtube.com }
+2025-01-13 [Why You're Not Getting Promoted To Senior (ex-Amazon Principal) - YouTube](https://www.youtube.com/watch?v=2TqAC_VGRAc) \{ www.youtube.com \}
 
 > ![image-20250113124932305](2025-01-20-links-from-my-inbox.assets/image-20250113124932305.png)
 >
@@ -359,7 +359,7 @@ public:
 
 > > Also: 
 > >
-> > 2024-12-18 [CS50 Cybersecurity - Lecture 2 - Securing Systems - YouTube](https://www.youtube.com/watch?v=9phdZjF8qOk) { www.youtube.com }
+> > 2024-12-18 [CS50 Cybersecurity - Lecture 2 - Securing Systems - YouTube](https://www.youtube.com/watch?v=9phdZjF8qOk) \{ www.youtube.com \}
 >
 > **1. Password Security and Hashing**
 >
@@ -423,7 +423,7 @@ public:
 > - **Threat to Security**: Could break current encryption algorithms like RSA due to greater computing power.
 > - **Quantum-Safe Cryptography**: Research is underway for "post-quantum cryptography" to withstand quantum attacks.
 
-2024-12-20 [Domain Modeling Made Functional - Scott Wlaschin - KanDDDinsky 2019 - YouTube](https://www.youtube.com/watch?v=2JB1_e5wZmU) { www.youtube.com }
+2024-12-20 [Domain Modeling Made Functional - Scott Wlaschin - KanDDDinsky 2019 - YouTube](https://www.youtube.com/watch?v=2JB1_e5wZmU) \{ www.youtube.com \}
 
 > ![image-20250120202228088](2025-01-20-links-from-my-inbox.assets/image-20250120202228088.png)
 >
@@ -477,7 +477,7 @@ public:
 >
 > **Flexibility and Extensibility**: The compositional approach makes it easier to adapt the domain model to new requirements without introducing significant complexity.
 
-2024-12-20 [Introduction to Wait-free Algorithms in C++ Programming - Daniel Anderson - CppCon 2024 - YouTube](https://www.youtube.com/watch?v=kPh8pod0-gk) { www.youtube.com }
+2024-12-20 [Introduction to Wait-free Algorithms in C++ Programming - Daniel Anderson - CppCon 2024 - YouTube](https://www.youtube.com/watch?v=kPh8pod0-gk) \{ www.youtube.com \}
 
 > ![image-20250120202843266](2025-01-20-links-from-my-inbox.assets/image-20250120202843266.png)
 > GPT Summary:**Concurrency Concepts and Lock-Free Programming**: Concurrency issues arise when multiple threads access shared resources simultaneously, potentially causing errors. Lock-based programming avoids these problems but can degrade performance due to contention. Lock-free programming ensures system-wide progress but does not guarantee individual thread progress. Key tools include **atomic operations** like compare-and-swap (CAS), fetch-add, and fetch-sub.
@@ -492,11 +492,11 @@ public:
 >
 > **Progress Guarantees and Practical Constraints**: The talk clarified terms like blocking (no progress), lock-free (system-wide progress), and weight-free (thread-level progress). It emphasized that real-world constraints, such as thread scheduling and hardware architecture, must be considered when implementing concurrent algorithms.
 
-2025-01-01 ["Junior developers can't think anymore..." - YouTube](https://www.youtube.com/watch?v=2cV33awYGJs) { www.youtube.com }
+2025-01-01 ["Junior developers can't think anymore..." - YouTube](https://www.youtube.com/watch?v=2cV33awYGJs) \{ www.youtube.com \}
 
 > ![image-20250101004520405](2025-01-20-links-from-my-inbox.assets/image-20250101004520405.png)
 
-2025-01-02 [12 Months After Layoff - The Blunt Truth - YouTube](https://www.youtube.com/watch?v=qCoewUd9X4g) { www.youtube.com }
+2025-01-02 [12 Months After Layoff - The Blunt Truth - YouTube](https://www.youtube.com/watch?v=qCoewUd9X4g) \{ www.youtube.com \}
 
 > ![image-20250101193447997](2025-01-20-links-from-my-inbox.assets/image-20250101193447997.png)
 

@@ -11,7 +11,7 @@ categories: links
 
 ## Good Read
 
-2026-08-30 [Making the internet boring](https://cemrehancavdar.com/2026/08/30/making-the-internet-boring/) { cemrehancavdar.com }
+2026-08-30 [Making the internet boring](https://cemrehancavdar.com/2026/08/30/making-the-internet-boring/) \{ cemrehancavdar.com \}
 
 > ![Making the internet boring](2026-09-20-links-from-my-inbox.assets/image-20260903021721.png)
 >
@@ -19,7 +19,7 @@ categories: links
 >
 > RSS: [Subscribe](https://cemrehancavdar.com/feed.xml)
 
-2025-08-26 [Mark Dominus (@mjd@mathstodon.xyz)](https://mathstodon.xyz/@mjd/115096720350507897) { mathstodon.xyz }
+2025-08-26 [Mark Dominus (@mjd@mathstodon.xyz)](https://mathstodon.xyz/@mjd/115096720350507897) \{ mathstodon.xyz \}
 
 > ![image-20260920183311727](2026-09-20-links-from-my-inbox.assets/image-20260920183311727.png)
 >
@@ -27,7 +27,7 @@ categories: links
 >
 > The author think many people misunderstand the purpose of code review. The purpose of code review is not for the reviewer to find bugs, and certainly not for them to ensure that the code is bug-free. Anyone who depends on code review to find bugs is living in a fool's paradise. As everyone should know by now, it is not in general possible to find bugs by examining the code. The primary purpose of code review is to find code that will be _hard to maintain_. The reviewer looks at the code and tries to understand what it is doing and how. If they can't, that means it will be hard to maintain in the future, and should be fixed now, while the original author is still familiar with it.
 
-2025-10-15 [I am sorry, but everyone is getting syntax highlighting wrong](https://tonsky.me/blog/syntax-highlighting) { tonsky.me }
+2025-10-15 [I am sorry, but everyone is getting syntax highlighting wrong](https://tonsky.me/blog/syntax-highlighting) \{ tonsky.me \}
 
 > ![I am sorry, but everyone is getting syntax highlighting wrong](2026-09-20-links-from-my-inbox.assets/image-20260831075203.png)
 >
@@ -53,7 +53,7 @@ categories: links
 >
 > Feed: [Subscribe](https://tonsky.me/atom.xml)
 
-2026-08-28 [Highlighting my Code Based on How Much I Care](https://hank.bond/posts/highlighting-my-code-based-on-how-much-i-care/) { hank.bond }
+2026-08-28 [Highlighting my Code Based on How Much I Care](https://hank.bond/posts/highlighting-my-code-based-on-how-much-i-care/) \{ hank.bond \}
 
 > ![Highlighting my Code Based on How Much I Care](2026-09-20-links-from-my-inbox.assets/image-20260831075104.png)
 >
@@ -61,7 +61,7 @@ categories: links
 >
 > RSS: [Subscribe](https://hank.bond/index.xml)
 
-2026-06-22 [p99 0 ms* autocomplete for 240 million domain names](https://ruurtjan.com/articles/p99-0ms-autocomplete-for-240-million-domain-names) { ruurtjan.com }
+2026-06-22 [p99 0 ms* autocomplete for 240 million domain names](https://ruurtjan.com/articles/p99-0ms-autocomplete-for-240-million-domain-names) \{ ruurtjan.com \}
 
 > ![p99 0 ms* autocomplete for 240 million domain names](2026-09-20-links-from-my-inbox.assets/image-20260628183304.png)
 >
@@ -69,7 +69,7 @@ categories: links
 >
 > RSS: [Subscribe](https://ruurtjan.com/feed.xml)
 
-2026-07-15 [Making 768 servers look like 1 — PlanetScale](https://planetscale.com/blog/making-768-servers-look-like-1) { planetscale.com }
+2026-07-15 [Making 768 servers look like 1 — PlanetScale](https://planetscale.com/blog/making-768-servers-look-like-1) \{ planetscale.com \}
 
 > ![Making 768 servers look like 1 — PlanetScale](2026-09-20-links-from-my-inbox.assets/image-20260721022227.png)
 >
@@ -77,13 +77,13 @@ categories: links
 >
 > Feed: [Subscribe](https://planetscale.com/blog/feed.atom)
 
-2026-07-22 [The startup's Postgres survival guide](https://hatchet.run/blog/postgres-survival-guide) { hatchet.run }
+2026-07-22 [The startup's Postgres survival guide](https://hatchet.run/blog/postgres-survival-guide) \{ hatchet.run \}
 
 > ![The startup's Postgres survival guide](2026-09-20-links-from-my-inbox.assets/image-20260804063957.png)
 >
 > A guide to preventing Postgres from toppling over.
 
-2026-07-25 [How I Find Problems to Solve as a Staff Engineer](https://lalitm.com/post/find-problems-staff-engineer/) { lalitm.com }
+2026-07-25 [How I Find Problems to Solve as a Staff Engineer](https://lalitm.com/post/find-problems-staff-engineer/) \{ lalitm.com \}
 
 > ![How I Find Problems to Solve as a Staff Engineer](2026-09-20-links-from-my-inbox.assets/image-20260726204125.png)
 >
@@ -91,7 +91,7 @@ categories: links
 >
 > RSS: [Subscribe](https://lalitm.com/articles/index.xml)
 
-2026-07-26 [maybe sometimes the black pill is ok (a response to Andrew Kelley)](https://sebsite.pw/w/20260726-blackpill.html) { sebsite.pw }
+2026-07-26 [maybe sometimes the black pill is ok (a response to Andrew Kelley)](https://sebsite.pw/w/20260726-blackpill.html) \{ sebsite.pw \}
 
 > ![image-20260920190032005](2026-09-20-links-from-my-inbox.assets/image-20260920190032005.png)
 >
@@ -99,7 +99,7 @@ categories: links
 >
 > Feed: [Subscribe](https://sebsite.pw/feed.xml)
 
-2026-08-02 [Giving and taking credit in big tech companies](https://www.seangoedecke.com/giving-and-taking-credit/) { www.seangoedecke.com }
+2026-08-02 [Giving and taking credit in big tech companies](https://www.seangoedecke.com/giving-and-taking-credit/) \{ www.seangoedecke.com \}
 
 > ![Giving and taking credit in big tech companies](2026-09-20-links-from-my-inbox.assets/image-20260802161509.png)
 >
@@ -107,7 +107,7 @@ categories: links
 >
 > RSS: [Subscribe](https://www.seangoedecke.com/rss.xml)
 
-2025-05-06 [The definitive guide to Durable Execution](https://temporal.io/blog/what-is-durable-execution) { temporal.io }
+2025-05-06 [The definitive guide to Durable Execution](https://temporal.io/blog/what-is-durable-execution) \{ temporal.io \}
 
 > ![The definitive guide to Durable Execution](2026-09-20-links-from-my-inbox.assets/image-20260811025245.png)
 >
@@ -115,11 +115,11 @@ categories: links
 >
 > RSS: [Subscribe](https://temporal.io/blog/feed.xml)
 
-2026-07-09 [GitHub - architecture-decision-record/architecture-decision-record: Architecture decision record (ADR) examples for software planning, IT leadership, and template documentation](https://github.com/architecture-decision-record/architecture-decision-record) { github.com }
+2026-07-09 [GitHub - architecture-decision-record/architecture-decision-record: Architecture decision record (ADR) examples for software planning, IT leadership, and template documentation](https://github.com/architecture-decision-record/architecture-decision-record) \{ github.com \}
 
 > Architecture decision record (ADR) examples for software planning, IT leadership, and template documentation - architecture-decision-record/architecture-decision-record
 
-2026-07-09 [bliki: Architecture Decision Record](https://martinfowler.com/bliki/ArchitectureDecisionRecord.html) { martinfowler.com }
+2026-07-09 [bliki: Architecture Decision Record](https://martinfowler.com/bliki/ArchitectureDecisionRecord.html) \{ martinfowler.com \}
 
 > ![bliki: Architecture Decision Record](2026-09-20-links-from-my-inbox.assets/image-20260709081750.png)
 >
@@ -127,7 +127,7 @@ categories: links
 >
 > Feed: [Subscribe](https://martinfowler.com/feed.atom)
 
-2026-07-16 [Job queues are deceptively tricky](https://typesanitizer.com/blog/job-queues.html) { typesanitizer.com }
+2026-07-16 [Job queues are deceptively tricky](https://typesanitizer.com/blog/job-queues.html) \{ typesanitizer.com \}
 
 > ![Job queues are deceptively tricky](2026-09-20-links-from-my-inbox.assets/image-20260716024553.png)
 >
@@ -135,7 +135,7 @@ categories: links
 >
 > RSS: [Subscribe](https://typesanitizer.com/blog/rss.xml)
 
-2026-07-16 [Scaling to 1 million concurrent sandboxes in seconds | Modal Blog](https://modal.com/blog/scaling-to-1-million-concurrent-sandboxes-in-seconds) { modal.com }
+2026-07-16 [Scaling to 1 million concurrent sandboxes in seconds | Modal Blog](https://modal.com/blog/scaling-to-1-million-concurrent-sandboxes-in-seconds) \{ modal.com \}
 
 > ![Scaling to 1 million concurrent sandboxes in seconds | Modal Blog](2026-09-20-links-from-my-inbox.assets/image-20260721022154.png)
 >
@@ -143,13 +143,13 @@ categories: links
 >
 > Feed: [Subscribe](https://modal.com/blog/atom.xml)
 
-2026-08-05 [GitHub - pshenok/server-survival: Tower defense game that teaches cloud architecture. Build infrastructure, survive traffic, learn scaling.](https://github.com/pshenok/server-survival) { github.com }
+2026-08-05 [GitHub - pshenok/server-survival: Tower defense game that teaches cloud architecture. Build infrastructure, survive traffic, learn scaling.](https://github.com/pshenok/server-survival) \{ github.com \}
 
 > ![GitHub - pshenok/server-survival: Tower defense game that teaches cloud architecture. Build infrastructure, survive traffic, learn scaling.](2026-09-20-links-from-my-inbox.assets/image-20260805033534.png)
 >
 > Tower defense game that teaches cloud architecture. Build infrastructure, survive traffic, learn scaling. - pshenok/server-survival
 
-2026-09-15 [Distributed Systems Classics](https://nvartolomei.com/dist-sys-classics/) { nvartolomei.com }
+2026-09-15 [Distributed Systems Classics](https://nvartolomei.com/dist-sys-classics/) \{ nvartolomei.com \}
 
 > ![Distributed Systems Classics](2026-09-20-links-from-my-inbox.assets/image-20260915005225.png)
 >
@@ -157,13 +157,13 @@ categories: links
 >
 > RSS: [Subscribe](https://nvartolomei.com/rss.xml)
 
-2026-09-18 [How Uber Protects Against Retry Storms](https://www.uber.com/us/en/blog/protecting-against-retry-storms/) { www.uber.com }
+2026-09-18 [How Uber Protects Against Retry Storms](https://www.uber.com/us/en/blog/protecting-against-retry-storms/) \{ www.uber.com \}
 
 > ![How Uber Protects Against Retry Storms](2026-09-20-links-from-my-inbox.assets/image-20260918104508.png)
 >
 > What if retries could know when they’re helping, and when they’re making things worse? Uber Engineering built error ownership to prevent and contain retry storms.
 
-2026-07-07 [30 papers · The reading list Ilya Sutskever gave John Carmack](https://30papers.com/) { 30papers.com }
+2026-07-07 [30 papers · The reading list Ilya Sutskever gave John Carmack](https://30papers.com/) \{ 30papers.com \}
 
 > ![30 papers · The reading list Ilya Sutskever gave John Carmack](2026-09-20-links-from-my-inbox.assets/image-20260707172855.png)
 >
@@ -173,7 +173,7 @@ categories: links
 
 ## C || C++ / Systems
 
-2021-03-01 [C Language Enum Tips & Tricks](https://kubyshkin.name/posts/c-language-enums-tips-and-tricks/) { kubyshkin.name }
+2021-03-01 [C Language Enum Tips & Tricks](https://kubyshkin.name/posts/c-language-enums-tips-and-tricks/) \{ kubyshkin.name \}
 
 > ![C Language Enum Tips & Tricks](2026-09-20-links-from-my-inbox.assets/image-20260604081813.png)
 >
@@ -181,7 +181,7 @@ categories: links
 >
 > RSS: [Subscribe](https://kubyshkin.name/rss.xml)
 
-2022-11-18 [Everything I wish I knew when learning C](https://tmewett.com/c-tips/) { tmewett.com }
+2022-11-18 [Everything I wish I knew when learning C](https://tmewett.com/c-tips/) \{ tmewett.com \}
 
 > ![Everything I wish I knew when learning C](2026-09-20-links-from-my-inbox.assets/image-20260523223533.png)
 >
@@ -189,19 +189,19 @@ categories: links
 >
 > Feed: [Subscribe](https://tmewett.com/feed.xml)
 
-2025-07-27 [Intrusive Data Structures](https://tivrfoa.github.io/rust/data-structure/2025/07/27/intrusive-data-structures.html) { tivrfoa.github.io } 
+2025-07-27 [Intrusive Data Structures](https://tivrfoa.github.io/rust/data-structure/2025/07/27/intrusive-data-structures.html) \{ tivrfoa.github.io \}
 
 > Intrusive Data Structures is a broad guide covering From: Crate intrusive_collections, From: Data Structures in the Linux Kernel - Doubly linked list, Gemini Definition, Who is responsible for freeing the object?. Later sections move through From: Boost - Intrusive and non-intrusive containers, From mgaunard, Gemini:, C, with the page serving as a practical reference rather than a single-idea essay.
 >
 > Feed: [Subscribe](https://tivrfoa.github.io/feed.xml)
 
-2026-06-05 [GitHub - sysprog21/intrusive-ds: A collection of intrusive data-structures for C](https://github.com/sysprog21/intrusive-ds) { github.com }
+2026-06-05 [GitHub - sysprog21/intrusive-ds: A collection of intrusive data-structures for C](https://github.com/sysprog21/intrusive-ds) \{ github.com \}
 
 > ![GitHub - sysprog21/intrusive-ds: A collection of intrusive data-structures for C](2026-09-20-links-from-my-inbox.assets/image-20260605052716.png)
 >
 > A collection of intrusive data-structures for C. Contribute to sysprog21/intrusive-ds development by creating an account on GitHub.
 
-2026-07-11 [C Strings: A 50-Year Mistake](https://longtran2904.substack.com/p/c-strings-a-50-year-mistake) { longtran2904.substack.com }
+2026-07-11 [C Strings: A 50-Year Mistake](https://longtran2904.substack.com/p/c-strings-a-50-year-mistake) \{ longtran2904.substack.com \}
 
 > ![C Strings: A 50-Year Mistake](2026-09-20-links-from-my-inbox.assets/image-20260716021326.png)
 >
@@ -209,7 +209,7 @@ categories: links
 >
 > RSS: [Subscribe](https://longtran2904.substack.com/feed)
 
-2026-07-12 [a bunch of stuff i used to not know about K&R C](https://sebsite.pw/w/20260712-kandr.html) { sebsite.pw }
+2026-07-12 [a bunch of stuff i used to not know about K&R C](https://sebsite.pw/w/20260712-kandr.html) \{ sebsite.pw \}
 
 > ![a bunch of stuff i used to not know about K&R C](2026-09-20-links-from-my-inbox.assets/image-20260716021433.png)
 >
@@ -217,13 +217,13 @@ categories: links
 >
 > Feed: [Subscribe](https://sebsite.pw/feed.xml)
 
-2026-07-21 [Branch‑Avoidant Programming](https://easylang.online/blog/branchless) { easylang.online }
+2026-07-21 [Branch‑Avoidant Programming](https://easylang.online/blog/branchless) \{ easylang.online \}
 
 > ![Branch‑Avoidant Programming](2026-09-20-links-from-my-inbox.assets/image-20260721022330.png)
 >
 > A straightforward implementation in C looks like this: If the numbers are randomly distributed, the result of the ‘if’ condition becomes unpredictable for the CPU’s branch predictor. the authors can avoid this problem by using a branchless approach: While this version introduces an unconditional store (writing to memory even if the condition isn’t met), its cost is typically far lower than the heavy penalty of a branch misprediction. *Performance Comparison** To get meaningful results, the authors run both routines for 1000 iterations using 100,000 random numbers.
 
-2026-07-22 [Everyone Should Know SIMD](https://mitchellh.com/writing/everyone-should-know-simd) { mitchellh.com }
+2026-07-22 [Everyone Should Know SIMD](https://mitchellh.com/writing/everyone-should-know-simd) \{ mitchellh.com \}
 
 > ![Everyone Should Know SIMD](2026-09-20-links-from-my-inbox.assets/image-20260723050229.png)
 >
@@ -231,7 +231,7 @@ categories: links
 >
 > RSS: [Subscribe](https://mitchellh.com/feed.xml)
 
-2026-08-03 [Reliability Lessons From SQLite - Richard Hipp | SSW 2026](https://www.youtube.com/watch?v=V_qzqY1bb7I) { www.youtube.com }
+2026-08-03 [Reliability Lessons From SQLite - Richard Hipp | SSW 2026](https://www.youtube.com/watch?v=V_qzqY1bb7I) \{ www.youtube.com \}
 
 > ![Reliability Lessons From SQLite - Richard Hipp | SSW 2026](2026-09-20-links-from-my-inbox.assets/image-20260807053045.png)
 >
@@ -239,7 +239,7 @@ categories: links
 >
 > Over its 26-year history, SQLite has gained a reputation as software that "just works". This talk goes over the design choices and development practices that have, at least in the opinion of the lead developer, resulted in that reputation.
 
-2026-08-20 [A faster way to calculate the day-of-the-week](https://www.benjoffe.com/fast-day-of-week) { www.benjoffe.com }
+2026-08-20 [A faster way to calculate the day-of-the-week](https://www.benjoffe.com/fast-day-of-week) \{ www.benjoffe.com \}
 
 > ![A faster way to calculate the day-of-the-week](2026-09-20-links-from-my-inbox.assets/image-20260820033415.png)
 >
@@ -249,7 +249,7 @@ categories: links
 
 ## The EAR of AI
 
-2026-08-17 [AI;DR (AI; Didn’t Read)](https://www.rickmanelius.com/p/aidr-ai-didnt-read) { www.rickmanelius.com }
+2026-08-17 [AI;DR (AI; Didn’t Read)](https://www.rickmanelius.com/p/aidr-ai-didnt-read) \{ www.rickmanelius.com \}
 
 > ![image-20260920191503375](2026-09-20-links-from-my-inbox.assets/image-20260920191503375.png)
 >
@@ -257,13 +257,13 @@ categories: links
 >
 > RSS: [Subscribe](https://www.rickmanelius.com/feed)
 
-2026-08-23 [I Built an AI Companion That Actually Plays With You](https://pantel.is/projects/ai-gaming-companion/) { pantel.is }
+2026-08-23 [I Built an AI Companion That Actually Plays With You](https://pantel.is/projects/ai-gaming-companion/) \{ pantel.is \}
 
 > ![I Built an AI Companion That Actually Plays With You](2026-09-20-links-from-my-inbox.assets/image-20260824042232.png)
 >
 > How Varkos was built: a low-latency AI companion that plays Skyrim with you, follows complex instructions and evolves through shared experiences.
 
-2026-09-17 [How To Write With An LLM](https://sockpuppet.org/blog/2026/09/17/how-to-write-with-an-llm/) { sockpuppet.org }
+2026-09-17 [How To Write With An LLM](https://sockpuppet.org/blog/2026/09/17/how-to-write-with-an-llm/) \{ sockpuppet.org \}
 
 > ![How To Write With An LLM](2026-09-20-links-from-my-inbox.assets/image-20260918104308.png)
 >
@@ -271,7 +271,7 @@ categories: links
 >
 > RSS: [Subscribe](https://sockpuppet.org/index.xml)
 
-2026-09-18 [GitHub - arnegiacomo/fugleramme: E-ink bird frame for Raspberry Pi - real-time bird detection by audio, fully local AI, rendered as real, hand-cut 1800s bird illustrations.](https://github.com/arnegiacomo/fugleramme) { github.com }
+2026-09-18 [GitHub - arnegiacomo/fugleramme: E-ink bird frame for Raspberry Pi - real-time bird detection by audio, fully local AI, rendered as real, hand-cut 1800s bird illustrations.](https://github.com/arnegiacomo/fugleramme) \{ github.com \}
 
 > ![GitHub - arnegiacomo/fugleramme: E-ink bird frame for Raspberry Pi - real-time bird detection by audio, fully local AI, rendered as real, hand-cut 1800s bird illustrations.](2026-09-20-links-from-my-inbox.assets/image-20260918104720.png)
 >
@@ -279,7 +279,7 @@ categories: links
 >
 > E-ink bird frame for Raspberry Pi - real-time bird detection by audio, fully local AI, rendered as real, hand-cut 1800s bird illustrations. - arnegiacomo/fugleramme
 
-2026-08-30 [English ↔ Claudish — the over-engineered translator](https://programasweights.com/claudish) { programasweights.com }
+2026-08-30 [English ↔ Claudish — the over-engineered translator](https://programasweights.com/claudish) \{ programasweights.com \}
 
 > ![English ↔ Claudish — the over-engineered translator](2026-09-20-links-from-my-inbox.assets/image-20260830053006.png)
 >
@@ -289,14 +289,14 @@ categories: links
 
 ## Usual ML
 
-2024-01-22 [Autoencoder by Hand ✍️](https://www.byhand.ai/p/13-can-you-calculate-an-autoencoder) { www.byhand.ai }
+2024-01-22 [Autoencoder by Hand ✍️](https://www.byhand.ai/p/13-can-you-calculate-an-autoencoder) \{ www.byhand.ai \}
 
 >
 > Autoencoder by Hand ✍️ is a broad guide covering Network Architecture, Setup, Encoder, This post is for paid subscribers.
 >
 > RSS: [Subscribe](https://www.byhand.ai/feed)
 
-2026-04-01 [Local, CPU-Friendly, High-Quality TTS (Text-to-Speech) with Kokoro](https://ariya.io/2026/03/local-cpu-friendly-high-quality-tts-text-to-speech-with-kokoro/) { ariya.io }
+2026-04-01 [Local, CPU-Friendly, High-Quality TTS (Text-to-Speech) with Kokoro](https://ariya.io/2026/03/local-cpu-friendly-high-quality-tts-text-to-speech-with-kokoro/) \{ ariya.io \}
 
 > ![image-20260920191932464](2026-09-20-links-from-my-inbox.assets/image-20260920191932464.png)
 >
@@ -304,7 +304,7 @@ categories: links
 >
 > RSS: [Subscribe](https://ariya.io/index.xml)
 
-2026-07-10 [GitHub - sandrohanea/whisper.net: Whisper.net. Speech to text made simple using Whisper Models](https://github.com/sandrohanea/whisper.net) { github.com }
+2026-07-10 [GitHub - sandrohanea/whisper.net: Whisper.net. Speech to text made simple using Whisper Models](https://github.com/sandrohanea/whisper.net) \{ github.com \}
 
 > ![GitHub - sandrohanea/whisper.net: Whisper.net. Speech to text made simple using Whisper Models](2026-09-20-links-from-my-inbox.assets/image-20260710065510.png)
 >
@@ -316,7 +316,7 @@ categories: links
 
 ## How the things work
 
-2026-06-01 [What do Visa and Mastercard do? An intro to card networks](https://tautology.town/2026/06/01/card-networks.html) { tautology.town }
+2026-06-01 [What do Visa and Mastercard do? An intro to card networks](https://tautology.town/2026/06/01/card-networks.html) \{ tautology.town \}
 
 > ![What do Visa and Mastercard do? An intro to card networks](2026-09-20-links-from-my-inbox.assets/image-20260910034024.png)
 >
@@ -324,20 +324,20 @@ categories: links
 >
 > RSS: [Subscribe](https://tautology.town/feed.xml)
 
-2026-06-20 [Data Compression Explained](https://mattmahoney.net/dc/dce.html) { mattmahoney.net } 
+2026-06-20 [Data Compression Explained](https://mattmahoney.net/dc/dce.html) \{ mattmahoney.net \}
 
 > ![image-20260920184737972](2026-09-20-links-from-my-inbox.assets/image-20260920184737972.png)
 >
 > Data Compression Explained is a broad guide covering About this Book, 1. Information Theory, 2. Benchmarks, 3. Coding. Later sections move through 4. Modeling, 5. Transforms, 6. Lossy Compression, Conclusion, with the page serving as a practical reference rather than a single-idea essay.
 
-2026-07-04 [Fintech Engineering Handbook](https://w.pitula.me/fintech-engineering-handbook/) { w.pitula.me } 
+2026-07-04 [Fintech Engineering Handbook](https://w.pitula.me/fintech-engineering-handbook/) \{ w.pitula.me \}
 
 > ![image-20260920185210382](2026-09-20-links-from-my-inbox.assets/image-20260920185210382.png)
 >
 > Fintech Engineering Handbook is a broad guide covering Principles, Representing money, Recording money: the ledger, Executing money flows. Later sections move through The external world, Controls and access, Testing, 
 > Know your domain, with the page serving as a practical reference rather than a single-idea essay.
 
-2026-07-19 [Beyond Happy Path Engineering: Time](https://blog.gaborkoos.com/posts/2026-07-19-Beyond-Happy-Path-Engineering-Time/) { blog.gaborkoos.com }
+2026-07-19 [Beyond Happy Path Engineering: Time](https://blog.gaborkoos.com/posts/2026-07-19-Beyond-Happy-Path-Engineering-Time/) \{ blog.gaborkoos.com \}
 
 > ![Beyond Happy Path Engineering: Time](2026-09-20-links-from-my-inbox.assets/image-20260809201459.png)
 >
@@ -345,7 +345,7 @@ categories: links
 >
 > RSS: [Subscribe](https://blog.gaborkoos.com/feed.xml)
 
-2026-07-24 [Systems and Delays](https://martin.janiczek.cz/2026/07/24/systems-and-delays.html) { martin.janiczek.cz }
+2026-07-24 [Systems and Delays](https://martin.janiczek.cz/2026/07/24/systems-and-delays.html) \{ martin.janiczek.cz \}
 
 > ![Systems and Delays](2026-09-20-links-from-my-inbox.assets/image-20260726041950.png)
 >
@@ -357,7 +357,7 @@ categories: links
 
 ## 🌈 Recreational Programming 
 
-2026-07-01 [What To Learn To Be A Real Time Graphics Programmer](https://blog.demofox.org/2026/07/01/what-to-learn-to-be-a-graphics-programmer/) { blog.demofox.org }
+2026-07-01 [What To Learn To Be A Real Time Graphics Programmer](https://blog.demofox.org/2026/07/01/what-to-learn-to-be-a-graphics-programmer/) \{ blog.demofox.org \}
 
 > ![What To Learn To Be A Real Time Graphics Programmer](2026-09-20-links-from-my-inbox.assets/image-20260701183814.png)
 >
@@ -365,7 +365,7 @@ categories: links
 >
 > RSS: [Subscribe](https://blog.demofox.org/feed/)
 
-2026-06-09 [Catlantean 3D - Making Graphics Like It's 1993](https://staniks.github.io/articles/catlantean-3d-blog-1) { staniks.github.io }
+2026-06-09 [Catlantean 3D - Making Graphics Like It's 1993](https://staniks.github.io/articles/catlantean-3d-blog-1) \{ staniks.github.io \}
 
 > ![Catlantean 3D - Making Graphics Like It's 1993](2026-09-20-links-from-my-inbox.assets/image-20260609150401.png)
 >
@@ -373,7 +373,7 @@ categories: links
 >
 > RSS: [Subscribe](https://staniks.github.io/feed)
 
-2026-06-30 [Announcing Box3D](https://box2d.org/posts/2026/06/announcing-box3d/) { box2d.org }
+2026-06-30 [Announcing Box3D](https://box2d.org/posts/2026/06/announcing-box3d/) \{ box2d.org \}
 
 > ![Announcing Box3D](2026-09-20-links-from-my-inbox.assets/image-20260701151459.png)
 >
@@ -381,7 +381,7 @@ categories: links
 >
 > RSS: [Subscribe](https://box2d.org/index.xml)
 
-2026-07-02 [Programming Praxis](https://programmingpraxis.com/) { programmingpraxis.com }
+2026-07-02 [Programming Praxis](https://programmingpraxis.com/) \{ programmingpraxis.com \}
 
 > ![Programming Praxis](2026-09-20-links-from-my-inbox.assets/image-20260702012936.png)
 >
@@ -389,17 +389,17 @@ categories: links
 >
 > RSS: [Subscribe](https://programmingpraxis.com/feed/)
 
-2026-07-02 [Programming by Doing](https://programmingbydoing.com/) { programmingbydoing.com }
+2026-07-02 [Programming by Doing](https://programmingbydoing.com/) \{ programmingbydoing.com \}
 
 > ![Programming by Doing](2026-09-20-links-from-my-inbox.assets/image-20260702013856.png)
 >
 > If you are having trouble figuring out how to do these assignments without help, then the author's book with videos “Learn Java the Hard Way” will explain things a lot better. (Especially if you have never coded before!) Or if you have finished most of these assignments and are ready for the object-oriented side of Java, “Learn Object-Oriented Java the Hard Way” is the book for you! If you've ever tried to teach yourself programming and couldn't quite get going, then these assignments are for you.
 
-2026-07-02 [1000_Projects](https://github.com/vicky002/1000_Projects) { github.com }
+2026-07-02 [1000_Projects](https://github.com/vicky002/1000_Projects) \{ github.com \}
 
 > ![image-20260920185102963](2026-09-20-links-from-my-inbox.assets/image-20260920185102963.png)
 
-2026-05-29 [Let's compile Quake like it's 1997!](https://fabiensanglard.net/compile_like_1997/) { fabiensanglard.net }
+2026-05-29 [Let's compile Quake like it's 1997!](https://fabiensanglard.net/compile_like_1997/) \{ fabiensanglard.net \}
 
 > ![image-20260920192149821](2026-09-20-links-from-my-inbox.assets/image-20260920192149821.png)
 >
@@ -410,7 +410,7 @@ categories: links
 >
 > RSS: [Subscribe](https://fabiensanglard.net/rss.xml)
 
-2017-09-30 [Text Editor: Data Structures](https://www.averylaird.com/programming/the%20text%20editor/2017/09/30/the-piece-table.html?utm_campaign=issue-289&utm_medium=website&utm_source=betterdev.link) { www.averylaird.com }
+2017-09-30 [Text Editor: Data Structures](https://www.averylaird.com/programming/the%20text%20editor/2017/09/30/the-piece-table.html?utm_campaign=issue-289&utm_medium=website&utm_source=betterdev.link) \{ www.averylaird.com \}
 
 > ![Text Editor: Data Structures](2026-09-20-links-from-my-inbox.assets/image-20260702013520.png)
 >
@@ -418,7 +418,7 @@ categories: links
 >
 > Feed: [Subscribe](https://www.averylaird.com/feed.xml)
 
-2026-06-05 [data structures in practice](https://www.data-structures-in-practice.com/) { www.data-structures-in-practice.com }
+2026-06-05 [data structures in practice](https://www.data-structures-in-practice.com/) \{ www.data-structures-in-practice.com \}
 
 > ![data structures in practice](2026-09-20-links-from-my-inbox.assets/image-20260605053016.png)
 >
@@ -430,25 +430,25 @@ categories: links
 
 ## Projects
 
-2026-07-26 [Zig by Example](https://zigbyexample.neocities.org/) { zigbyexample.neocities.org }
+2026-07-26 [Zig by Example](https://zigbyexample.neocities.org/) \{ zigbyexample.neocities.org \}
 
 > ![Zig by Example](2026-09-20-links-from-my-inbox.assets/image-20260726211236.png)
 >
 > Zig by Example is a broad guide covering Getting Started, Basic Types, Functions and Errors, Control Flow. Later sections move through Compound Types, Standard Library, Command-line Programs, Async/Await and I/O, with the page serving as a practical reference rather than a single-idea essay.
 
-2026-07-19 [transcribe.cpp](https://workshop.cjpais.com/projects/transcribe-cpp) { workshop.cjpais.com }
+2026-07-19 [transcribe.cpp](https://workshop.cjpais.com/projects/transcribe-cpp) \{ workshop.cjpais.com \}
 
 > ![transcribe.cpp](2026-09-20-links-from-my-inbox.assets/image-20260719071721.png)
 >
 > A place to play around with technology and make it easy and fun
 
-2026-07-30 [CheapFoodMap — Find meals under $10 across the US](https://cheapfoodmap.com/) { cheapfoodmap.com }
+2026-07-30 [CheapFoodMap — Find meals under $10 across the US](https://cheapfoodmap.com/) \{ cheapfoodmap.com \}
 
 > ![CheapFoodMap — Find meals under $10 across the US](2026-09-20-links-from-my-inbox.assets/image-20260730060946.png)
 >
 > Crowdsourced map of meals under $10 across the them. Real people, real prices. Vote, comment, share finds.
 
-2026-08-03 [handwritten.blog — blogs, but handwritten](https://handwritten.blog/) { handwritten.blog }
+2026-08-03 [handwritten.blog — blogs, but handwritten](https://handwritten.blog/) \{ handwritten.blog \}
 
 > ![handwritten.blog — blogs, but handwritten](2026-09-20-links-from-my-inbox.assets/image-20260803075325.png)
 >
@@ -456,13 +456,13 @@ categories: links
 >
 > RSS: [Subscribe](https://handwritten.blog/feed.xml)
 
-2026-08-12 [GitHub - liquidslr/system-design-notes: Notes of the book System Desgin Interview - An Insider's Guide](https://github.com/liquidslr/system-design-notes) { github.com }
+2026-08-12 [GitHub - liquidslr/system-design-notes: Notes of the book System Desgin Interview - An Insider's Guide](https://github.com/liquidslr/system-design-notes) \{ github.com \}
 
 > ![GitHub - liquidslr/system-design-notes: Notes of the book System Desgin Interview - An Insider's Guide](2026-09-20-links-from-my-inbox.assets/image-20260812064504.png)
 >
 > Notes of the book System Desgin Interview - An Insider's Guide - liquidslr/system-design-notes
 
-2026-08-17 [Desktop background colors, by operating system](https://desktopcolors.com/) { desktopcolors.com }
+2026-08-17 [Desktop background colors, by operating system](https://desktopcolors.com/) \{ desktopcolors.com \}
 
 > ![Desktop background colors, by operating system](2026-09-20-links-from-my-inbox.assets/image-20260817152042.png)
 >
@@ -472,13 +472,13 @@ categories: links
 
 ## Retro / Fun
 
-2026-07-13 [densha — study Japanese in a living voxel Tokyo](https://jivx.com/densha) { jivx.com }
+2026-07-13 [densha — study Japanese in a living voxel Tokyo](https://jivx.com/densha) \{ jivx.com \}
 
 > ![densha — study Japanese in a living voxel Tokyo](2026-09-20-links-from-my-inbox.assets/image-20260713150804.png)
 >
 > Ride the Yamanote line through a voxel Tokyo synced to Japan's real clock, weather, and seasons. A lofi bed plays while N5 sentences are read aloud and drift by as subtitles — an ambient Japanese study room you just press play into.
 
-2026-08-06 [How to Make a Nintendo 64 Game in 2026](https://phoboslab.org/log/2026/08/xibalba64-making-of) { phoboslab.org }
+2026-08-06 [How to Make a Nintendo 64 Game in 2026](https://phoboslab.org/log/2026/08/xibalba64-making-of) \{ phoboslab.org \}
 
 > ![How to Make a Nintendo 64 Game in 2026](2026-09-20-links-from-my-inbox.assets/image-20260806150548.png)
 >
@@ -486,7 +486,7 @@ categories: links
 >
 > RSS: [Subscribe](https://phoboslab.org/log/feed)
 
-2018-01-09 [The Vintage Beauty Of Soviet Control Rooms](https://designyoutrust.com/2018/01/vintage-beauty-soviet-control-rooms/) { designyoutrust.com }
+2018-01-09 [The Vintage Beauty Of Soviet Control Rooms](https://designyoutrust.com/2018/01/vintage-beauty-soviet-control-rooms/) \{ designyoutrust.com \}
 
 > ![The Vintage Beauty Of Soviet Control Rooms](2026-09-20-links-from-my-inbox.assets/image-20260711065547.png)
 >
@@ -494,7 +494,7 @@ categories: links
 >
 > RSS: [Subscribe](https://designyoutrust.com/feed/)
 
-2026-06-29 [A History of Menus is a Menu of History](https://pudding.cool/2026/06/menu-story/) { pudding.cool }
+2026-06-29 [A History of Menus is a Menu of History](https://pudding.cool/2026/06/menu-story/) \{ pudding.cool \}
 
 > ![A History of Menus is a Menu of History](2026-09-20-links-from-my-inbox.assets/image-20260629035557.png)
 >
@@ -502,7 +502,7 @@ categories: links
 >
 > RSS: [Subscribe](https://pudding.cool/rss.xml)
 
-2026-08-09 [How I use LLMs to learn complex topics · Laurentiu Raducu](https://laurentiugabriel.github.io/blog/articles/how-i-use-llms-to-learn/) { laurentiugabriel.github.io }
+2026-08-09 [How I use LLMs to learn complex topics · Laurentiu Raducu](https://laurentiugabriel.github.io/blog/articles/how-i-use-llms-to-learn/) \{ laurentiugabriel.github.io \}
 
 > ![How I use LLMs to learn complex topics · Laurentiu Raducu](2026-09-20-links-from-my-inbox.assets/image-20260810063332.png)
 >
@@ -510,7 +510,7 @@ categories: links
 >
 > RSS: [Subscribe](https://laurentiugabriel.github.io/blog/feed.xml)
 
-2026-09-04 [Bespoke: A Programming Language for People Who Say Please](https://blog.hofstede.it/bespoke-a-programming-language-for-people-who-say-please/) { blog.hofstede.it }
+2026-09-04 [Bespoke: A Programming Language for People Who Say Please](https://blog.hofstede.it/bespoke-a-programming-language-for-people-who-say-please/) \{ blog.hofstede.it \}
 
 > ![Bespoke: A Programming Language for People Who Say Please](2026-09-20-links-from-my-inbox.assets/image-20260910034945.png)
 >
@@ -624,7 +624,7 @@ categories: links
 >
 > This is structurally equivalent to `try`, `catch`, and `finally`, but it gives the filesystem room to retain its dignity.
 
-2019-08-08 [PlayStation Architecture | A Practical Analysis](https://www.copetti.org/writings/consoles/playstation/) { www.copetti.org }
+2019-08-08 [PlayStation Architecture | A Practical Analysis](https://www.copetti.org/writings/consoles/playstation/) \{ www.copetti.org \}
 
 > ![PlayStation Architecture | A Practical Analysis](2026-09-20-links-from-my-inbox.assets/image-20260604044201.png)
 >
@@ -634,13 +634,13 @@ categories: links
 
 
 
-2026-06-17 [KirklandRoundabouts](https://kirklandroundabouts.com/) { kirklandroundabouts.com }
+2026-06-17 [KirklandRoundabouts](https://kirklandroundabouts.com/) \{ kirklandroundabouts.com \}
 
 > ![KirklandRoundabouts](2026-09-20-links-from-my-inbox.assets/image-20260617043006.png)
 >
 > Navigate the chaos of Kirkland's real roundabouts. A free browser game.
 
-2026-07-13 [Tiny Emulators](https://floooh.github.io/tiny8bit-preview/index.html) { floooh.github.io }
+2026-07-13 [Tiny Emulators](https://floooh.github.io/tiny8bit-preview/index.html) \{ floooh.github.io \}
 
 > ![Tiny Emulators](2026-09-20-links-from-my-inbox.assets/image-20260713043427.png)
 >
@@ -650,7 +650,7 @@ categories: links
 
 ## Dev Tools
 
-2026-09-14 [GitHub - rnwood/smtp4dev: smtp4dev - the fake smtp email server for development and testing](https://github.com/rnwood/smtp4dev) { github.com }
+2026-09-14 [GitHub - rnwood/smtp4dev: smtp4dev - the fake smtp email server for development and testing](https://github.com/rnwood/smtp4dev) \{ github.com \}
 
 > ![GitHub - rnwood/smtp4dev: smtp4dev - the fake smtp email server for development and testing](2026-09-20-links-from-my-inbox.assets/image-20260914032857.png)
 >
@@ -660,7 +660,7 @@ categories: links
 
 ## Web Dev
 
-2018-03-01 [How to Insert Text Into Textarea at Cursor Fast](https://kubyshkin.name/posts/insert-text-into-textarea-at-cursor-position/) { kubyshkin.name }
+2018-03-01 [How to Insert Text Into Textarea at Cursor Fast](https://kubyshkin.name/posts/insert-text-into-textarea-at-cursor-position/) \{ kubyshkin.name \}
 
 > ![How to Insert Text Into Textarea at Cursor Fast](2026-09-20-links-from-my-inbox.assets/image-20260604082046.png)
 >
@@ -679,7 +679,7 @@ function insertAtCursorIE11 (input, textToInsert) {
 }
 ```
 
-2026-09-18 [Better Icon and Label Alignment](https://ishadeed.com/article/aligning-list-icons/) { ishadeed.com }
+2026-09-18 [Better Icon and Label Alignment](https://ishadeed.com/article/aligning-list-icons/) \{ ishadeed.com \}
 
 > ![Better Icon and Label Alignment](2026-09-20-links-from-my-inbox.assets/image-20260918104749.png)
 >
@@ -687,7 +687,7 @@ function insertAtCursorIE11 (input, textToInsert) {
 >
 > RSS: [Subscribe](https://ishadeed.com/feed.xml)
 
-026-08-20 [HTML Can Do That](https://chrisburnell.com/html-can-do-that/) { chrisburnell.com }
+026-08-20 [HTML Can Do That](https://chrisburnell.com/html-can-do-that/) \{ chrisburnell.com \}
 
 > ![HTML Can Do That](2026-09-20-links-from-my-inbox.assets/image-20260822051738.png)
 >
@@ -695,7 +695,7 @@ function insertAtCursorIE11 (input, textToInsert) {
 >
 > Feed: [Subscribe](https://chrisburnell.com/feed.xml)
 
-2026-08-21 [HTMLcat — Compact notes on HTML, CSS, and JavaScript](https://htmlcat.net/) { htmlcat.net }
+2026-08-21 [HTMLcat — Compact notes on HTML, CSS, and JavaScript](https://htmlcat.net/) \{ htmlcat.net \}
 
 > ![HTMLcat — Compact notes on HTML, CSS, and JavaScript](2026-09-20-links-from-my-inbox.assets/image-20260821152404.png)
 >
@@ -705,7 +705,7 @@ function insertAtCursorIE11 (input, textToInsert) {
 
 ## 🤫 Quick shell!
 
-2021-01-07 [Using jq to format JSON on the clipboard](https://chris48s.github.io/blogmarks/posts/2021/jsontidy/) { chris48s.github.io }
+2021-01-07 [Using jq to format JSON on the clipboard](https://chris48s.github.io/blogmarks/posts/2021/jsontidy/) \{ chris48s.github.io \}
 
 > ![Using jq to format JSON on the clipboard](2026-09-20-links-from-my-inbox.assets/image-20260902150514.png)
 >
@@ -717,7 +717,7 @@ function insertAtCursorIE11 (input, textToInsert) {
 xclip -selection clipboard -o | jq '.' | xclip -selection clipboard
 ```
 
-2026-04-16 [Telling a Computer to Do Things](https://will-keleher.com/posts/telling-your-computer-to-do-things/) { will-keleher.com }
+2026-04-16 [Telling a Computer to Do Things](https://will-keleher.com/posts/telling-your-computer-to-do-things/) \{ will-keleher.com \}
 
 > ![Telling a Computer to Do Things](2026-09-20-links-from-my-inbox.assets/image-20260920070428.png)
 >
@@ -739,7 +739,7 @@ xclip -selection clipboard -o | jq '.' | xclip -selection clipboard
 
 ## Big Shell
 
-2026-06-19 [A Practical Guide to SSH Tunnels: Local and Remote Port Forwarding | iximiuz Labs](https://labs.iximiuz.com/tutorials/ssh-tunnels) { labs.iximiuz.com }
+2026-06-19 [A Practical Guide to SSH Tunnels: Local and Remote Port Forwarding | iximiuz Labs](https://labs.iximiuz.com/tutorials/ssh-tunnels) \{ labs.iximiuz.com \}
 
 > ![A Practical Guide to SSH Tunnels: Local and Remote Port Forwarding | iximiuz Labs](2026-09-20-links-from-my-inbox.assets/image-20260625011026.png)
 >
@@ -751,7 +751,7 @@ xclip -selection clipboard -o | jq '.' | xclip -selection clipboard
 
 ## Inspiration
 
-2026-03-04 [Acid Warrior by srtuss | Dittytoy](https://dittytoy.net/ditty/d2801bd785) { dittytoy.net } ⚠️
+2026-03-04 [Acid Warrior by srtuss | Dittytoy](https://dittytoy.net/ditty/d2801bd785) \{ dittytoy.net \} ⚠️
 
 > ![Acid Warrior by srtuss | Dittytoy](2026-09-20-links-from-my-inbox.assets/image-20260710025221.png)
 >
@@ -761,7 +761,7 @@ xclip -selection clipboard -o | jq '.' | xclip -selection clipboard
 
 ## Flashcards and Learning Japanese
 
-2026-05-04 [A Love Letter to Flashcards | Lesley Lai](https://lesleylai.info/en/flashcards/) { lesleylai.info }
+2026-05-04 [A Love Letter to Flashcards | Lesley Lai](https://lesleylai.info/en/flashcards/) \{ lesleylai.info \}
 
 > ![A Love Letter to Flashcards | Lesley Lai](2026-09-20-links-from-my-inbox.assets/image-20260711222243.png)
 >
@@ -769,7 +769,7 @@ xclip -selection clipboard -o | jq '.' | xclip -selection clipboard
 >
 > RSS: [Subscribe](https://lesleylai.info/rss.xml)
 
-2026-05-21 [japanese verb conjugation the simple hard way - underreacted](https://underreacted.leaflet.pub/3mmevu6woys27) { underreacted.leaflet.pub }
+2026-05-21 [japanese verb conjugation the simple hard way - underreacted](https://underreacted.leaflet.pub/3mmevu6woys27) \{ underreacted.leaflet.pub \}
 
 > ![japanese verb conjugation the simple hard way - underreacted](2026-09-20-links-from-my-inbox.assets/image-20260622101743.png)
 >
@@ -781,7 +781,7 @@ xclip -selection clipboard -o | jq '.' | xclip -selection clipboard
 
 ## Weird Projects
 
-2026-06-01 [tools.simonwillison.net](https://tools.simonwillison.net/) { tools.simonwillison.net }
+2026-06-01 [tools.simonwillison.net](https://tools.simonwillison.net/) \{ tools.simonwillison.net \}
 
 > ![tools.simonwillison.net](2026-09-20-links-from-my-inbox.assets/image-20260601145219.png)
 >
@@ -791,13 +791,13 @@ xclip -selection clipboard -o | jq '.' | xclip -selection clipboard
 
 ## Some Pomera
 
-2025-11-01 [PomeraにLinuxを入れてミニノートPCにすると楽しい（Obsidianとの連携メモ）｜koyasako](https://note.com/kysk_/n/n7bd9c5827925) { note.com }
+2025-11-01 [PomeraにLinuxを入れてミニノートPCにすると楽しい（Obsidianとの連携メモ）｜koyasako](https://note.com/kysk_/n/n7bd9c5827925) \{ note.com \}
 
 > ![PomeraにLinuxを入れてミニノートPCにすると楽しい（Obsidianとの連携メモ）｜koyasako](2026-09-20-links-from-my-inbox.assets/image-20260618133801.png)
 >
 > ずっとミニノートPCがほしいと思っていた．Surface Laptopって好きだけどやっぱり重くて，ちょっとした出かけに持っていける小さいやつ，本当は電車の中で編集とかしたい．おそらく現状ではGPDが一番いいんだけど，サブノートにしては値段が結構厳しい（使うかどうかもわからないので）． そんな混迷の時代に颯爽と現れた（正確に言うとずっと昔からそこにいた）のがPomeraである．このポメラ，言わずもがなのノートPCというよりワードプロセッサで，基本的には文字を書く機能だけ存在しているのであるが，先人たちの知恵と努力により，なんとLinuxを起動できるのである．しかももともとのポメラの機能
 
-2026-03-29 [Part 2: Converting Pomera DM250 to Linux and Creating a Slack Bridge](https://zenn.dev/iseebi_cs/articles/5f73db15c93346?locale=en) { zenn.dev }
+2026-03-29 [Part 2: Converting Pomera DM250 to Linux and Creating a Slack Bridge](https://zenn.dev/iseebi_cs/articles/5f73db15c93346?locale=en) \{ zenn.dev \}
 
 > ![Part 2: Converting Pomera DM250 to Linux and Creating a Slack Bridge](2026-09-20-links-from-my-inbox.assets/image-20260618133639.png)
 >
@@ -805,7 +805,7 @@ xclip -selection clipboard -o | jq '.' | xclip -selection clipboard
 >
 > RSS: [Subscribe](https://zenn.dev/feed)
 
-2026-03-29 [Pomera DM250をLinux化してSlackブリッジを作成した話　前編](https://zenn.dev/iseebi_cs/articles/9f600f526f7091) { zenn.dev }
+2026-03-29 [Pomera DM250をLinux化してSlackブリッジを作成した話　前編](https://zenn.dev/iseebi_cs/articles/9f600f526f7091) \{ zenn.dev \}
 
 > ![Pomera DM250をLinux化してSlackブリッジを作成した話　前編](2026-09-20-links-from-my-inbox.assets/image-20260618133734.png)
 >
@@ -813,13 +813,13 @@ xclip -selection clipboard -o | jq '.' | xclip -selection clipboard
 >
 > RSS: [Subscribe](https://zenn.dev/feed)
 
-2026-06-17 [DM30｜デジタルメモ「ポメラ」｜キングジム](https://www.kingjim.co.jp/pomera/dm30/) { www.kingjim.co.jp }
+2026-06-17 [DM30｜デジタルメモ「ポメラ」｜キングジム](https://www.kingjim.co.jp/pomera/dm30/) \{ www.kingjim.co.jp \}
 
 > ![DM30｜デジタルメモ「ポメラ」｜キングジム](2026-09-20-links-from-my-inbox.assets/image-20260617005636.png)
 >
 > DM30｜デジタルメモ「ポメラ」｜キングジム is a broad guide covering 開閉時にキーフットが連動, 電子ペーパーディスプレイ搭載, 確かなキータッチを実現！, アルカリ乾電池で長時間駆動.
 
-2026-06-18 [Debian on Pomera DM200/DM250](https://www.ekesete.net/log/?p=9504) { www.ekesete.net }
+2026-06-18 [Debian on Pomera DM200/DM250](https://www.ekesete.net/log/?p=9504) \{ www.ekesete.net \}
 
 > ![Debian on Pomera DM200/DM250](2026-09-20-links-from-my-inbox.assets/image-20260618133837.png)
 >
@@ -827,7 +827,7 @@ xclip -selection clipboard -o | jq '.' | xclip -selection clipboard
 >
 > RSS: [Subscribe](https://www.ekesete.net/log/?feed=rss2)
 
-2026-06-18 [GitHub - jcs/linux-dm250: Mainline linux kernel for Pomera DM250.](https://github.com/jcs/linux-dm250) { github.com }
+2026-06-18 [GitHub - jcs/linux-dm250: Mainline linux kernel for Pomera DM250.](https://github.com/jcs/linux-dm250) \{ github.com \}
 
 > ![GitHub - jcs/linux-dm250: Mainline linux kernel for Pomera DM250.](2026-09-20-links-from-my-inbox.assets/image-20260618134243.png)
 >
@@ -837,31 +837,31 @@ xclip -selection clipboard -o | jq '.' | xclip -selection clipboard
 
 ## ⌚ Nerd watch!
 
-2026-08-26 [Casey Muratori – The Root of The Root of All Evil – BSC 2026](https://www.youtube.com/watch?v=hpj6r6CjJf8) { www.youtube.com }
+2026-08-26 [Casey Muratori – The Root of The Root of All Evil – BSC 2026](https://www.youtube.com/watch?v=hpj6r6CjJf8) \{ www.youtube.com \}
 
 > ![Casey Muratori – The Root of The Root of All Evil – BSC 2026](2026-09-20-links-from-my-inbox.assets/image-20260827043003.png)
 >
 > Casey Muratori's talk at BSC 2026, delving into root of the root of all evil, premature optimization
 
-2026-09-02 [Things Fall Apart - Architecture to avoid progressive collapse](https://www.youtube.com/watch?v=nkNvVNfp1F0) { www.youtube.com } ⚠️
+2026-09-02 [Things Fall Apart - Architecture to avoid progressive collapse](https://www.youtube.com/watch?v=nkNvVNfp1F0) \{ www.youtube.com \} ⚠️
 
 > ![Things Fall Apart - Architecture to avoid progressive collapse](2026-09-20-links-from-my-inbox.assets/image-20260903042843.png)
 >
 
-2018-02-05 [How To Be a Ventriloquist! Lesson 1 | JEFF DUNHAM](https://www.youtube.com/watch?v=2e0P8TL1PtI) { www.youtube.com }
+2018-02-05 [How To Be a Ventriloquist! Lesson 1 | JEFF DUNHAM](https://www.youtube.com/watch?v=2e0P8TL1PtI) \{ www.youtube.com \}
 
 > ![How To Be a Ventriloquist! Lesson 1 | JEFF DUNHAM](2026-09-20-links-from-my-inbox.assets/image-20260717015731.png)
 >
 
-2021-10-14 [A better way to tie your gym shorts. (Or any drawstring)](https://www.youtube.com/watch?v=3R0Lp86GEBk) { www.youtube.com }
+2021-10-14 [A better way to tie your gym shorts. (Or any drawstring)](https://www.youtube.com/watch?v=3R0Lp86GEBk) \{ www.youtube.com \}
 
 > ![image-20260920193910607](2026-09-20-links-from-my-inbox.assets/image-20260920193910607.png)
 
-2022-05-25 [The Difference Between A Dork And A Nerd. Don McMillan - Full Special](https://www.youtube.com/watch?v=kwz-Md6OoyA) { www.youtube.com }
+2022-05-25 [The Difference Between A Dork And A Nerd. Don McMillan - Full Special](https://www.youtube.com/watch?v=kwz-Md6OoyA) \{ www.youtube.com \}
 
 > ![image-20260920193945354](2026-09-20-links-from-my-inbox.assets/image-20260920193945354.png)
 
-2025-04-07 [Livestream #11: Ventriloquism & My Life (Ft. Special Guest, my Dad!)](https://www.youtube.com/watch?v=dP97uonupHY) { www.youtube.com }
+2025-04-07 [Livestream #11: Ventriloquism & My Life (Ft. Special Guest, my Dad!)](https://www.youtube.com/watch?v=dP97uonupHY) \{ www.youtube.com \}
 
 > ![image-20260920194034885](2026-09-20-links-from-my-inbox.assets/image-20260920194034885.png)
 
@@ -871,8 +871,8 @@ $5 Collection:
 
 > ![image-20260920194143738](2026-09-20-links-from-my-inbox.assets/image-20260920194143738.png)
 >
-> - 2026-04-17 [$5 DTC 16:9](https://www.youtube.com/watch?v=sslhrP2C6rc) { www.youtube.com }
-> - 2026-05-20 [Keep Quick DTC 1:1](https://www.youtube.com/shorts/13q5tnf568I) { www.youtube.com }
-> - 2026-05-20 [Keep Quick DTC 16:9](https://www.youtube.com/watch?v=Wo-j2-vNKzg) { www.youtube.com }
-> - 2026-06-25 [30 Dollars DTC 16:9](https://www.youtube.com/shorts/JjjzABPAmvM) { www.youtube.com }
-> - 2026-07-17 [Lowering My Ask DTC 16:9](https://www.youtube.com/watch?v=7Fw4B5xXZ2A) { www.youtube.com }
+> - 2026-04-17 [$5 DTC 16:9](https://www.youtube.com/watch?v=sslhrP2C6rc) \{ www.youtube.com \}
+> - 2026-05-20 [Keep Quick DTC 1:1](https://www.youtube.com/shorts/13q5tnf568I) \{ www.youtube.com \}
+> - 2026-05-20 [Keep Quick DTC 16:9](https://www.youtube.com/watch?v=Wo-j2-vNKzg) \{ www.youtube.com \}
+> - 2026-06-25 [30 Dollars DTC 16:9](https://www.youtube.com/shorts/JjjzABPAmvM) \{ www.youtube.com \}
+> - 2026-07-17 [Lowering My Ask DTC 16:9](https://www.youtube.com/watch?v=7Fw4B5xXZ2A) \{ www.youtube.com \}

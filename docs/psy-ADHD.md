@@ -11,7 +11,7 @@ Reading, using, or relying on the information on this page is done at your own r
 
 It is your responsibility to evaluate the accuracy, completeness, or usefulness of any information or any content available on this page. Please consult with a qualified healthcare professional for any medical or health-related advice.
 
-2025-07-21 [Leading successful remote teams - Callum Whyte - NDC Oslo 2025 - YouTube](https://www.youtube.com/watch?v=h_WYuphwQ0U) { www.youtube.com }
+2025-07-21 [Leading successful remote teams - Callum Whyte - NDC Oslo 2025 - YouTube](https://www.youtube.com/watch?v=h_WYuphwQ0U) \{ www.youtube.com \}
 
 > ![image-20250721001547985](psy-ADHD.assets/image-20250721001547985.png)
 
@@ -57,7 +57,7 @@ It is your responsibility to evaluate the accuracy, completeness, or usefulness 
 >
 > Nice theory, right? Trouble is, people with ADHD are also [much more likely to develop schizophrenia](https://doi.org/10.1016/j.eurpsy.2013.06.004). So this doesn’t make sense, nothing makes sense.
 
-2025-08-31 [Notes on Managing ADHD](https://borretti.me/article/notes-on-managing-adhd) { borretti.me }
+2025-08-31 [Notes on Managing ADHD](https://borretti.me/article/notes-on-managing-adhd) \{ borretti.me \}
 ![image-20250831115139380](psy-ADHD.assets/image-20250831115139380.png)
 
 > I build external scaffolding so my brain has fewer places to drop things: **memory** lives in a single todo list, and the one meta habit is to open it every morning; projects get their own entries so half-read books and half-built ideas do not evaporate; I keep the list pinned on the left third of the screen so it is always in my **visual field**. I manage **energy** like voltage: early morning is for the thing I dread, mid-day is for creative work, later is for chores; when I feel avoidance, I treat **procrastination** by type—do it scared for anxiety, ask a human to sit with me for accountability, and write to think when choice paralysis hits; **timers** manufacture urgency to start and, importantly, to stop so one project does not eat the day. I practice **journaling** across daily, weekly, monthly, yearly reviews to surface patterns and measure progress; for **time**, I keep a light calendar for social and gym blocks and add explicit **travel time** so I actually leave; the todo list holds the fine-grained work, the calendar holds the big rocks.
@@ -73,7 +73,7 @@ It is your responsibility to evaluate the accuracy, completeness, or usefulness 
 
 Awesome (active 2024-12-28) reddit: https://www.reddit.com/r/ADHD_Programmers
 
-2024-12-29 [For those committed to this path: Any struggle with work/life balance? If you had to start all over, would you try for a different career or go the same route? : r/ADHD_Programmers](https://www.reddit.com/r/ADHD_Programmers/comments/1hogo34/for_those_committed_to_this_path_any_struggle/) {www.reddit.com}
+2024-12-29 [For those committed to this path: Any struggle with work/life balance? If you had to start all over, would you try for a different career or go the same route? : r/ADHD_Programmers](https://www.reddit.com/r/ADHD_Programmers/comments/1hogo34/for_those_committed_to_this_path_any_struggle/) \{www.reddit.com\}
 
 > Question: 
 >

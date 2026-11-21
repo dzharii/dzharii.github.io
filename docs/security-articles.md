@@ -16,7 +16,7 @@
   > This is CS50, Harvard University's introduction to the intellectual enterprises of computer science and the art of programming.
   >
 
-  - 2024-12-26 [CS50 Cybersecurity - Lecture 1 - Securing Data - YouTube](https://www.youtube.com/watch?v=X3DVaMnl5n8) { www.youtube.com } { by David Malan}
+  - 2024-12-26 [CS50 Cybersecurity - Lecture 1 - Securing Data - YouTube](https://www.youtube.com/watch?v=X3DVaMnl5n8) \{ www.youtube.com \} \{ by David Malan \}
 
     > ![image-20241226155537857](security-articles.assets/image-20241226155537857.png)
     > TABLE OF CONTENTS
@@ -34,7 +34,7 @@
     > 01:50:59 - Ransomware
     > 01:52:24 - Quantum Computing
 
-  - 2024-12-26 [CS50 Cybersecurity - Lecture 2 - Securing Systems - YouTube](https://www.youtube.com/watch?v=9phdZjF8qOk) { www.youtube.com }
+  - 2024-12-26 [CS50 Cybersecurity - Lecture 2 - Securing Systems - YouTube](https://www.youtube.com/watch?v=9phdZjF8qOk) \{ www.youtube.com \}
 
     > TABLE OF CONTENTS
     >
@@ -54,7 +54,7 @@
     > 01:12:43 - Antivirus
     > 01:15:19 - Zero-Day Attacks
 
-  - 2024-12-26 [CS50 Cybersecurity - Lecture 3 - Securing Software - YouTube](https://www.youtube.com/watch?v=5rsKrTh3fAo) { www.youtube.com }
+  - 2024-12-26 [CS50 Cybersecurity - Lecture 3 - Securing Software - YouTube](https://www.youtube.com/watch?v=5rsKrTh3fAo) \{ www.youtube.com \}
 
     > TABLE OF CONTENTS
     >

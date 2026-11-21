@@ -5,7 +5,7 @@ Date: 2025-07-19
 
 ## Tools
 
- [Bicep Playground](https://azure.github.io/bicep/) { azure.github.io }
+ [Bicep Playground](https://azure.github.io/bicep/) \{ azure.github.io \}
 
 > I hope it still works! Amazing online tool to learn bicep!
 >
@@ -15,11 +15,11 @@ Date: 2025-07-19
 
 ## Official Reference from MSFT
 
-2025-07-19 [Microsoft.Automation/automationAccounts - Bicep, ARM template & Terraform AzAPI reference | Microsoft Learn](https://learn.microsoft.com/en-us/azure/templates/microsoft.automation/automationaccounts?pivots=deployment-language-bicep) { learn.microsoft.com }
+2025-07-19 [Microsoft.Automation/automationAccounts - Bicep, ARM template & Terraform AzAPI reference | Microsoft Learn](https://learn.microsoft.com/en-us/azure/templates/microsoft.automation/automationaccounts?pivots=deployment-language-bicep) \{ learn.microsoft.com \}
 
 > Yay!
 
-2025-07-20 [azure-docs-bicep-samples/samples/loops/loopproperty.bicep at main · Azure/azure-docs-bicep-samples](https://github.com/Azure/azure-docs-bicep-samples/blob/main/samples/loops/loopproperty.bicep) { github.com }
+2025-07-20 [azure-docs-bicep-samples/samples/loops/loopproperty.bicep at main · Azure/azure-docs-bicep-samples](https://github.com/Azure/azure-docs-bicep-samples/blob/main/samples/loops/loopproperty.bicep) \{ github.com \}
 
 > Maybe okayish, but a bit outdated. Check the recent resource version. 
 >
@@ -29,7 +29,7 @@ Date: 2025-07-19
 
 ## Bicep Guide
 
-[nnellans/bicep-guide: Bicep Guide](https://github.com/nnellans/bicep-guide) { github.com }
+[nnellans/bicep-guide: Bicep Guide](https://github.com/nnellans/bicep-guide) \{ github.com \}
 
 > by Nathan Nellans
 >
@@ -37,9 +37,9 @@ Date: 2025-07-19
 
 # Azure Bicep Cheat Sheet
 
-**Source:**  [johnlokerse/azure-bicep-cheat-sheet: Quick-reference guide on Azure Bicep 💪🏻](https://github.com/johnlokerse/azure-bicep-cheat-sheet) { github.com }
+**Source:**  [johnlokerse/azure-bicep-cheat-sheet: Quick-reference guide on Azure Bicep 💪🏻](https://github.com/johnlokerse/azure-bicep-cheat-sheet) \{ github.com \}
 
-![img](dev-bicep.assets/0RT2wqJCEM23RI7TNDBdRf3mTWoRMC3jvFhU%3D.png)
+![img](dev-bicep.assets/0RT2wqJCEM23RI7TNDBdRf3mTWoRMC3jvFhU=.png)
 
 **This is a copy of the cheat sheet created by [John Lokerse](https://github.com/johnlokerse).** 
 
@@ -1384,7 +1384,7 @@ Each of the above patterns is widely used in production-grade Bicep files. The e
 
 ## Other resources
 
-2025-07-19 [45 days of Azure Bicep Language](https://gist.github.com/daveRendon/6d6d14eb5fcfffc1f07f49b98cc33d9d) { gist.github.com }
+2025-07-19 [45 days of Azure Bicep Language](https://gist.github.com/daveRendon/6d6d14eb5fcfffc1f07f49b98cc33d9d) \{ gist.github.com \}
 
 > Collection of articles on medium 
 
@@ -1392,7 +1392,7 @@ Each of the above patterns is widely used in production-grade Bicep files. The e
 
 ## Inspiration and use-cases
 
-2025-07-19 [Deploying an Automation Account with a Runbook and Schedule Using Bicep - Arinco](https://arinco.com.au/blog/deploying-an-automation-account-with-a-runbook-and-schedule-using-bicep/) { arinco.com.au }
+2025-07-19 [Deploying an Automation Account with a Runbook and Schedule Using Bicep - Arinco](https://arinco.com.au/blog/deploying-an-automation-account-with-a-runbook-and-schedule-using-bicep/) \{ arinco.com.au \}
 
 ```bicep
 resource automationAccountModules 'Microsoft.Automation/automationAccounts/modules@2020-01-13-preview' = [for module in modules: {
@@ -1407,7 +1407,7 @@ resource automationAccountModules 'Microsoft.Automation/automationAccounts/modul
 }]
 ```
 
-2025-07-19 [AKS-Construction/bicep/automationrunbook/automation.bicep at d1a98d0bd12e8d1625f382e93c6478b95f186d31 · Azure/AKS-Construction](https://github.com/Azure/AKS-Construction/blob/d1a98d0bd12e8d1625f382e93c6478b95f186d31/bicep/automationrunbook/automation.bicep) { github.com }
+2025-07-19 [AKS-Construction/bicep/automationrunbook/automation.bicep at d1a98d0bd12e8d1625f382e93c6478b95f186d31 · Azure/AKS-Construction](https://github.com/Azure/AKS-Construction/blob/d1a98d0bd12e8d1625f382e93c6478b95f186d31/bicep/automationrunbook/automation.bicep) \{ github.com \}
 
 > This is what I needed
 
@@ -1475,7 +1475,7 @@ resource automationAccountDiagLogging 'Microsoft.Insights/diagnosticSettings@202
 }
 ```
 
-2025-07-19 [azure-bicep/Maester/WebApp/modules/aa-advanced.bicep at 40b46281ee427fd43fd089c1ce81e52481cb6f5f · brianveldman/azure-bicep](https://github.com/brianveldman/azure-bicep/blob/40b46281ee427fd43fd089c1ce81e52481cb6f5f/Maester/WebApp/modules/aa-advanced.bicep#L74) { github.com }
+2025-07-19 [azure-bicep/Maester/WebApp/modules/aa-advanced.bicep at 40b46281ee427fd43fd089c1ce81e52481cb6f5f · brianveldman/azure-bicep](https://github.com/brianveldman/azure-bicep/blob/40b46281ee427fd43fd089c1ce81e52481cb6f5f/Maester/WebApp/modules/aa-advanced.bicep#L74) \{ github.com \}
 
 > Another good example, but simpler to follow
 

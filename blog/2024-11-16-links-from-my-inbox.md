@@ -11,13 +11,13 @@ In this blog post, I'll be sharing a collection of videos with concise content d
 
 
 
-2024-10-16 [Can Chinese Speakers Read Japanese? - YouTube](https://www.youtube.com/watch?v=ZWsLahVQj9s) { www.youtube.com }
+2024-10-16 [Can Chinese Speakers Read Japanese? - YouTube](https://www.youtube.com/watch?v=ZWsLahVQj9s) \{ www.youtube.com \}
 
 > ![image-20241016003254921](2024-11-16-links-from-my-inbox.assets/image-20241016003254921.png)
 
 > ![image-20241016003344065](2024-11-16-links-from-my-inbox.assets/image-20241016003344065.png)
 
-2024-11-03 [Keynote: Learning Is Teaching Is Sharing: Building a Great Software Development Team - Björn Fahller - YouTube](https://www.youtube.com/watch?v=Cjh73F11EJ4) { www.youtube.com }
+2024-11-03 [Keynote: Learning Is Teaching Is Sharing: Building a Great Software Development Team - Björn Fahller - YouTube](https://www.youtube.com/watch?v=Cjh73F11EJ4) \{ www.youtube.com \}
 
 > ![image-20241102181531241](2024-11-16-links-from-my-inbox.assets/image-20241102181531241.png)
 >
@@ -79,7 +79,7 @@ In this blog post, I'll be sharing a collection of videos with concise content d
 >
 > Fahller’s advice reflected a pragmatic approach to toxicity: address it internally if possible, but recognize when to prioritize personal well-being over enduring a dysfunctional work environment. While leaving a job is often a difficult decision, Fahller's message was clear -- don’t compromise on respect and support. A healthy team environment where people feel safe and valued is essential not just for individual satisfaction but also for collective success.
 
-2024-11-03 [Nikhil Suresh - Skills that programmers need, to defend both their code and their careers - YouTube](https://www.youtube.com/watch?v=xlf4oXoP8qI) { www.youtube.com }
+2024-11-03 [Nikhil Suresh - Skills that programmers need, to defend both their code and their careers - YouTube](https://www.youtube.com/watch?v=xlf4oXoP8qI) \{ www.youtube.com \}
 
 > ![image-20241102200908952](2024-11-16-links-from-my-inbox.assets/image-20241102200908952.png)
 >
@@ -109,7 +109,7 @@ In this blog post, I'll be sharing a collection of videos with concise content d
 >
 > In conclusion, Nikhil urges developers to recognize that **technical skill isn't the main barrier to having a better career**. Factors like communication, strategic thinking, and understanding corporate dynamics play crucial roles. By focusing on these areas, developers can transform their passion into something that has greater value for both themselves and the broader community.
 
-2024-11-02 [Get old, go slow, write code! - Tobias Modig - NDC Oslo 2024 - YouTube](https://www.youtube.com/watch?v=lfCQhiibI5M) { www.youtube.com }
+2024-11-02 [Get old, go slow, write code! - Tobias Modig - NDC Oslo 2024 - YouTube](https://www.youtube.com/watch?v=lfCQhiibI5M) \{ www.youtube.com \}
 
 > ![image-20241116004657646](2024-11-16-links-from-my-inbox.assets/image-20241116004657646.png)
 >
@@ -160,11 +160,11 @@ In this blog post, I'll be sharing a collection of videos with concise content d
 >
 > > "There’s no need to be Usain Bolt in development; be more like a marathon runner. Set a steady, sustainable pace, focus on quality, and enjoy the journey."
 
-2024-10-29 [The Evolution of Functional Programming in C++ - Abel Sen - ACCU 2024 - YouTube](https://www.youtube.com/watch?v=zmOaBT3i_Hc) { www.youtube.com }
+2024-10-29 [The Evolution of Functional Programming in C++ - Abel Sen - ACCU 2024 - YouTube](https://www.youtube.com/watch?v=zmOaBT3i_Hc) \{ www.youtube.com \}
 
 > ![image-20241116004141231](2024-11-16-links-from-my-inbox.assets/image-20241116004141231.png)
 
-2024-11-04 [Functional C++ - Gašper Ažman - C++Now 2024 - YouTube](https://www.youtube.com/watch?v=bHxvfwTnJhg) { www.youtube.com }
+2024-11-04 [Functional C++ - Gašper Ažman - C++Now 2024 - YouTube](https://www.youtube.com/watch?v=bHxvfwTnJhg) \{ www.youtube.com \}
 
 > ![image-20241103203715424](2024-11-16-links-from-my-inbox.assets/image-20241103203715424.png)
 
@@ -194,15 +194,15 @@ auto get_hostname(int argc, char const* const* argv, std::string default_hostnam
 
 Unfortunately, I cannot provide the function version, because I don't understand it. 
 
-2024-11-07 [Reintroduction to Generic Programming for C++ Engineers - Nick DeMarco - C++Now 2024 - YouTube](https://www.youtube.com/watch?v=tt0-7athgrE) { www.youtube.com }
+2024-11-07 [Reintroduction to Generic Programming for C++ Engineers - Nick DeMarco - C++Now 2024 - YouTube](https://www.youtube.com/watch?v=tt0-7athgrE) \{ www.youtube.com \}
 
 > ![image-20241107003250333](2024-11-16-links-from-my-inbox.assets/image-20241107003250333.png)
 
-🔥🔥🔥2024-11-06 [LEADERSHIP LAB: The Craft of Writing Effectively - YouTube](https://www.youtube.com/watch?v=vtIzMaLkCaM) { www.youtube.com }🔥🔥🔥
+🔥🔥🔥2024-11-06 [LEADERSHIP LAB: The Craft of Writing Effectively - YouTube](https://www.youtube.com/watch?v=vtIzMaLkCaM) \{ www.youtube.com \}🔥🔥🔥
 
 > ![image-20241105224810433](2024-11-16-links-from-my-inbox.assets/image-20241105224810433.png)
 
-> found in 2024-11-06 [Blog Writing for Developers](https://rmoff.net/2023/07/19/blog-writing-for-developers/) { rmoff.net }
+> found in 2024-11-06 [Blog Writing for Developers](https://rmoff.net/2023/07/19/blog-writing-for-developers/) \{ rmoff.net \}
 
 > **Introduction**
 > Writing isn’t just about sharing information; it’s about making an impact. In this insightful lecture, a distinguished writing instructor from the University of Chicago's Writing Program emphasizes that effective writing requires understanding your audience, establishing relevance, and creating a compelling narrative. This article captures the speaker’s key advice on improving writing by focusing on purpose, value, and the reader's needs.
@@ -249,7 +249,7 @@ Unfortunately, I cannot provide the function version, because I don't understand
 > - **Advice**: Writing should serve a clear function beyond just following formal rules. Effective writing achieves its purpose by clearly communicating the problem and its significance to readers.
 > - **Application**: Instead of focusing solely on rules or formalities, think about what your writing needs to accomplish for your audience. Make sure that every section and statement reinforces your overall argument and purpose.
 
-2024-11-08 [Developer Joy – How great teams get s%*t done - Sven Peters - NDC Oslo 2024 - YouTube](https://www.youtube.com/watch?v=zqjyPl5ytZc) { www.youtube.com }
+2024-11-08 [Developer Joy – How great teams get s%*t done - Sven Peters - NDC Oslo 2024 - YouTube](https://www.youtube.com/watch?v=zqjyPl5ytZc) \{ www.youtube.com \}
 
 > ![image-20241107182436885](2024-11-16-links-from-my-inbox.assets/image-20241107182436885.png)
 >
@@ -306,7 +306,7 @@ Unfortunately, I cannot provide the function version, because I don't understand
 > - “Code reviews should be about learning, not earning jerk points.”
 > - “Productivity isn’t about lines of code; it’s about finding joy in the code you write.”
 
-2024-11-09 [Herding cats: lessons from 15 years of managing engineers at Microsoft - Kevin Pilch - YouTube](https://www.youtube.com/watch?v=eg8Q8jR6tX4) { www.youtube.com }
+2024-11-09 [Herding cats: lessons from 15 years of managing engineers at Microsoft - Kevin Pilch - YouTube](https://www.youtube.com/watch?v=eg8Q8jR6tX4) \{ www.youtube.com \}
 
 > ![image-20241109130107457](2024-11-16-links-from-my-inbox.assets/image-20241109130107457.png)
 
@@ -342,7 +342,7 @@ Unfortunately, I cannot provide the function version, because I don't understand
 >  **Motivating Different Personality Types**  
 >  The **SCARF model**—Status, Certainty, Autonomy, Relatedness, Fairness—can help recognize **diverse motivators** across the team. Managers should tailor interactions to each team member’s unique motivators, fostering a supportive environment that avoids triggering negative responses.
 
-2024-11-12 [Success On Your Own Terms - Todd Gardner - CPH DevFest 2024 - YouTube](https://www.youtube.com/watch?v=lRXcxTMH7X4) { www.youtube.com }
+2024-11-12 [Success On Your Own Terms - Todd Gardner - CPH DevFest 2024 - YouTube](https://www.youtube.com/watch?v=lRXcxTMH7X4) \{ www.youtube.com \}
 
 > ![image-20241111212449932](2024-11-16-links-from-my-inbox.assets/image-20241111212449932.png)
 >
@@ -410,7 +410,7 @@ Unfortunately, I cannot provide the function version, because I don't understand
 >
 > As I continue on this path, I understand that my definition of success will keep evolving. What's important is to remain true to oneself, prioritize meaningful work, and leverage relationships to create lasting impact.
 
-2024-11-14 [Windows: Under the Covers - From Hello World to Kernel Mode by a Windows Developer - YouTube](https://www.youtube.com/watch?v=Gf-dwrwVcMs) { www.youtube.com }
+2024-11-14 [Windows: Under the Covers - From Hello World to Kernel Mode by a Windows Developer - YouTube](https://www.youtube.com/watch?v=Gf-dwrwVcMs) \{ www.youtube.com \}
 
 > ![image-20241116005812334](2024-11-16-links-from-my-inbox.assets/image-20241116005812334.png)
 >
@@ -448,7 +448,7 @@ Unfortunately, I cannot provide the function version, because I don't understand
 > - *"Calling `printf` is like sending a messenger on a long cross-country journey from high-level code to low-level bits and back again."*
 > - *"When 'Hello World' pops up on the screen, you’re witnessing the endpoint of a complex, coordinated process..."*
 
-2024-11-14 [In Prompts We Trust - Jiaranai Keatnuxsuo - CPH DevFest 2024 - YouTube](https://www.youtube.com/watch?v=QUkrC38v9Rg) { www.youtube.com }
+2024-11-14 [In Prompts We Trust - Jiaranai Keatnuxsuo - CPH DevFest 2024 - YouTube](https://www.youtube.com/watch?v=QUkrC38v9Rg) \{ www.youtube.com \}
 
 > ![image-20241116010954387](2024-11-16-links-from-my-inbox.assets/image-20241116010954387.png)
 > For those diving into AI applications, especially prompt engineering with generative AI, understanding trust-building and prompt precision is key to leveraging AI effectively. If you’re an AI practitioner, developer, or someone interested in optimizing how language models generate outputs, this guide explores techniques to achieve trustworthy and accurate AI responses. By improving prompt engineering skills, you’ll better navigate the complexities of AI interactions and make your AI applications more reliable, relevant, and valuable.
@@ -492,7 +492,7 @@ Unfortunately, I cannot provide the function version, because I don't understand
 >
 > Effective prompt engineering isn’t just about crafting prompts—it’s about understanding trust and precision. Key strategies include role prompting, step-by-step guidance, and adjusting AI parameters to manage reliability and relevance. Remember, the goal is to enhance user trust by ensuring outputs are clear, relevant, and ethically sound. Try implementing these techniques in your next AI project to see how they impact the quality and trustworthiness of your results. 
 
-2024-11-14 [Gwern Branwen - How an Anonymous Researcher Predicted AI's Trajectory](https://www.dwarkeshpatel.com/p/gwern-branwen) { www.dwarkeshpatel.com }
+2024-11-14 [Gwern Branwen - How an Anonymous Researcher Predicted AI's Trajectory](https://www.dwarkeshpatel.com/p/gwern-branwen) \{ www.dwarkeshpatel.com \}
 
 > ![image-20241114141855768](2024-11-16-links-from-my-inbox.assets/image-20241114141855768.png)
 >
@@ -500,7 +500,7 @@ Unfortunately, I cannot provide the function version, because I don't understand
 >
 > In order to protect Gwern's anonymity, I proposed interviewing him in person, and having my friend [Chris Painter](https://x.com/ChrisPainterYup) voice over his words after. This amused him enough that he agreed.
 
-2024-11-16 [Modern & secure adaptive streaming on the Web - Katarzyna Dusza - CPH DevFest 2024 - YouTube](https://www.youtube.com/watch?v=a7SFcDM00vo) { www.youtube.com }
+2024-11-16 [Modern & secure adaptive streaming on the Web - Katarzyna Dusza - CPH DevFest 2024 - YouTube](https://www.youtube.com/watch?v=a7SFcDM00vo) \{ www.youtube.com \}
 
 > ![image-20241115230122104](2024-11-16-links-from-my-inbox.assets/image-20241115230122104.png)
 >
@@ -510,7 +510,7 @@ Unfortunately, I cannot provide the function version, because I don't understand
 > **Who This Guide Is For**
 > This guide is intended for software engineers, streaming platform developers, and media engineers focused on optimizing web streaming quality and security. Those interested in learning about adaptive bitrate streaming, DRM protocols, and encryption processes will find valuable insights and practical applications.
 
-2024-11-16 [Back to Basics: Unit Testing in C++ - Dave Steffen - CppCon 2024 - YouTube](https://www.youtube.com/watch?v=MwoAM3sznS0) { www.youtube.com }
+2024-11-16 [Back to Basics: Unit Testing in C++ - Dave Steffen - CppCon 2024 - YouTube](https://www.youtube.com/watch?v=MwoAM3sznS0) \{ www.youtube.com \}
 
 > ![image-20241116002211334](2024-11-16-links-from-my-inbox.assets/image-20241116002211334.png)
 >

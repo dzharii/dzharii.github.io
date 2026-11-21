@@ -9,7 +9,7 @@ categories: links
 
 ## ⌚ Nice watch!
 
-2025-03-09 [Thinking Like an Architect - Gregor Hohpe - NDC London 2025 - YouTube](https://www.youtube.com/watch?v=xtxfrxf0mfE) { www.youtube.com }
+2025-03-09 [Thinking Like an Architect - Gregor Hohpe - NDC London 2025 - YouTube](https://www.youtube.com/watch?v=xtxfrxf0mfE) \{ www.youtube.com \}
 
 > ![image-20250309161149042](2025-03-09-links-from-my-inbox.assets/image-20250309161149042.png)
 >
@@ -53,7 +53,7 @@ categories: links
 >
 > These insights empower you to build systems that not only meet today’s demands but also thrive in the future.
 
-2025-03-09 [Moved-from Objects in C++ - Jon Kalb - CppCon 2024 - YouTube](https://www.youtube.com/watch?v=FUsQPIoYoRM) { www.youtube.com }
+2025-03-09 [Moved-from Objects in C++ - Jon Kalb - CppCon 2024 - YouTube](https://www.youtube.com/watch?v=FUsQPIoYoRM) \{ www.youtube.com \}
 
 > ![image-20250309005908929](2025-03-09-links-from-my-inbox.assets/image-20250309005908929.png)
 >
@@ -120,11 +120,11 @@ categories: links
 >   - **Real-world Impact:**
 >     Implementations (such as those for vector and list) illustrate that ensuring full functionality of moved-from objects can force extra runtime checks, which undermines the zero overhead promise.
 
-2025-03-07 [Keynote: AI without the BS, for humans - Scott Hanselman - NDC London 2025 - YouTube](https://www.youtube.com/watch?v=kYUicaho5k8) { www.youtube.com }
+2025-03-07 [Keynote: AI without the BS, for humans - Scott Hanselman - NDC London 2025 - YouTube](https://www.youtube.com/watch?v=kYUicaho5k8) \{ www.youtube.com \}
 
 > ![image-20250307143953286](2025-03-09-links-from-my-inbox.assets/image-20250307143953286.png)
 
->  Recommended 2025-03-07 [LM Studio - Discover, download, and run local LLMs](https://lmstudio.ai/) { lmstudio.ai }
+>  Recommended 2025-03-07 [LM Studio - Discover, download, and run local LLMs](https://lmstudio.ai/) \{ lmstudio.ai \}
 >
 >  ![image-20250307144054962](2025-03-09-links-from-my-inbox.assets/image-20250307144054962.png)
 
@@ -134,16 +134,16 @@ categories: links
 >
 > Repo (don't know which one):
 >
-> - 2025-03-07 [Hammster/windows-terminal-shaders: A small collection of terminal shaders](https://github.com/Hammster/windows-terminal-shaders) { github.com } `retro`
-> - 2025-03-07 [rbeesley/windows-terminal-shaders: A small collection of terminal shaders](https://github.com/rbeesley/windows-terminal-shaders) { github.com } `crt`
+> - 2025-03-07 [Hammster/windows-terminal-shaders: A small collection of terminal shaders](https://github.com/Hammster/windows-terminal-shaders) \{ github.com \} `retro`
+> - 2025-03-07 [rbeesley/windows-terminal-shaders: A small collection of terminal shaders](https://github.com/rbeesley/windows-terminal-shaders) \{ github.com \} `crt`
 >
-> - My custom modified theme Amber2 for Windows Terminal. 2025-03-07 [Welding-Torch/Amber2: My custom modified theme Amber2 for Windows Terminal.](https://github.com/Welding-Torch/Amber2) { github.com }
+> - My custom modified theme Amber2 for Windows Terminal. 2025-03-07 [Welding-Torch/Amber2: My custom modified theme Amber2 for Windows Terminal.](https://github.com/Welding-Torch/Amber2) \{ github.com \}
 >
 > > ![image-20250307145749636](2025-03-09-links-from-my-inbox.assets/image-20250307145749636.png)
 > >
 > > ![image-20250307145831986](2025-03-09-links-from-my-inbox.assets/image-20250307145831986.png)
 
-2025-03-06 [Adventures in Spacetime - Kevlin Henney - NDC London 2025 - YouTube](https://www.youtube.com/watch?v=AMkzXZKRlvE) { www.youtube.com }
+2025-03-06 [Adventures in Spacetime - Kevlin Henney - NDC London 2025 - YouTube](https://www.youtube.com/watch?v=AMkzXZKRlvE) \{ www.youtube.com \}
 
 > ![image-20250305210320677](2025-03-09-links-from-my-inbox.assets/image-20250305210320677.png)
 >
@@ -159,7 +159,7 @@ categories: links
 > Software slows down hardware. The speed of light is fast, but software introduces inefficiencies, adding delays beyond physical limits. A distributed system has a "refractive index" like glass slowing down light—it distorts time, making responses slower than ideal. Developers should recognize that their programming environments create a misleading illusion of synchrony and locality. Thinking in terms of partial ordering, network partitions, and failure tolerance leads to better system design. Time is an illusion; software makes it worse.
 > ```
 
-2025-03-04 [You’re Doing Exceptions Wrong - Matt Burke - NDC London 2025 - YouTube](https://www.youtube.com/watch?v=oWvX-hdIAQo) { www.youtube.com }
+2025-03-04 [You’re Doing Exceptions Wrong - Matt Burke - NDC London 2025 - YouTube](https://www.youtube.com/watch?v=oWvX-hdIAQo) \{ www.youtube.com \}
 
 >  `csharp`, `exceptions`, `error-handling`, `best-practices`, `debugging`
 >
@@ -316,7 +316,7 @@ This approach ensures that errors are visible and managed in one place, making s
 
 These principles and code examples are directly derived from the transcript and are supported by the slides, ensuring that they reflect the original content without deviation.
 
-2025-02-08 [3 Ways You’re Screwing up Platform Engineering – And How to Fix It • Steve Smith • GOTO 2024 - YouTube](https://www.youtube.com/watch?v=vQteH0qcVjE) { www.youtube.com }
+2025-02-08 [3 Ways You’re Screwing up Platform Engineering – And How to Fix It • Steve Smith • GOTO 2024 - YouTube](https://www.youtube.com/watch?v=vQteH0qcVjE) \{ www.youtube.com \}
 
 > ![image-20250207202940735](2025-03-09-links-from-my-inbox.assets/image-20250207202940735.png)
 
@@ -340,11 +340,11 @@ These principles and code examples are directly derived from the transcript and 
 > - **Problem:** Teams treat platform engineering as a **project** rather than a **product**, leading to inefficiencies and lack of user focus.
 > - **Solution:** Apply **product management principles**, measure internal customer value, and focus on reducing unplanned work to drive adoption and success.
 
-2025-02-03 [The State of Authentication - YouTube](https://www.youtube.com/watch?v=lxslnp-ZEMw) { www.youtube.com }
+2025-02-03 [The State of Authentication - YouTube](https://www.youtube.com/watch?v=lxslnp-ZEMw) \{ www.youtube.com \}
 
 > ![image-20250202231324514](2025-03-09-links-from-my-inbox.assets/image-20250202231324514.png)
 
-2025-03-05 [Build first, plan second. - YouTube](https://www.youtube.com/watch?v=rosMfs3pZ_0) { www.youtube.com }
+2025-03-05 [Build first, plan second. - YouTube](https://www.youtube.com/watch?v=rosMfs3pZ_0) \{ www.youtube.com \}
 
 > ![image-20250304202326552](2025-03-09-links-from-my-inbox.assets/image-20250304202326552.png)
 >

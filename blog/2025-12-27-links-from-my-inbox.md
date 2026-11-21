@@ -13,7 +13,7 @@ categories: links
 
 ## Good Reads
 
-2025-12-24 [Nobody knows how large software products work](https://www.seangoedecke.com/nobody-knows-how-software-products-work/) { www.seangoedecke.com }
+2025-12-24 [Nobody knows how large software products work](https://www.seangoedecke.com/nobody-knows-how-software-products-work/) \{ www.seangoedecke.com \}
 
 > ![image-20251224141056474](2025-12-27-links-from-my-inbox.assets/image-20251224141056474.png)
 >
@@ -81,11 +81,11 @@ categories: links
 >
 > Finally, accept that some ambiguity is structural, and optimize for fast, reliable rediscovery. If you cannot fully prevent the fog, build systems that let you cut through it quickly: centralized decision logic, reason codes, strong observability, and a habit of writing down answers where they will be reused.
 
-2025-12-20 [abseil / Performance Hints](https://abseil.io/fast/hints.html) { abseil.io }
+2025-12-20 [abseil / Performance Hints](https://abseil.io/fast/hints.html) \{ abseil.io \}
 
 > ![image-20251219212548654](2025-12-27-links-from-my-inbox.assets/image-20251219212548654.png)
 
-2025-12-13 [AI Can Write Your Code. It Cant Do Your Job. Terrible Software](https://terriblesoftware.org/2025/12/11/ai-can-write-your-code-it-cant-do-your-job/) ✨ { terriblesoftware.org } ✨
+2025-12-13 [AI Can Write Your Code. It Cant Do Your Job. Terrible Software](https://terriblesoftware.org/2025/12/11/ai-can-write-your-code-it-cant-do-your-job/) ✨ \{ terriblesoftware.org \} ✨
 
 > ![image-20251212221823279](2025-12-27-links-from-my-inbox.assets/image-20251212221823279.png)
 >
@@ -105,7 +105,7 @@ categories: links
 >
 > **OpenAI and Anthropic could build their own tools. They have the best AI in the world. Instead, they’re spending billions on engineers. That should tell you something.**
 
-2025-12-07 [The Math of Why You Can't Focus at Work | Off by One](https://justoffbyone.com/posts/math-of-why-you-cant-focus-at-work/) { justoffbyone.com }
+2025-12-07 [The Math of Why You Can't Focus at Work | Off by One](https://justoffbyone.com/posts/math-of-why-you-cant-focus-at-work/) \{ justoffbyone.com \}
 
 > ![image-20251207134426233](2025-12-27-links-from-my-inbox.assets/image-20251207134426233.png)
 >
@@ -113,7 +113,7 @@ categories: links
 >
 > > ![image-20251207134528777](2025-12-27-links-from-my-inbox.assets/image-20251207134528777.png)
 
-2025-11-28 [How good engineers write bad code at big companies](https://www.seangoedecke.com/bad-code-at-big-companies/) { www.seangoedecke.com }
+2025-11-28 [How good engineers write bad code at big companies](https://www.seangoedecke.com/bad-code-at-big-companies/) \{ www.seangoedecke.com \}
 
 > ![image-20251128133307489](2025-12-27-links-from-my-inbox.assets/image-20251128133307489.png)
 >
@@ -143,7 +143,7 @@ categories: links
 >
 > Improving quality meaningfully requires leadership to change incentives, stabilize ownership, and prioritize expertise, because simply hiring better engineers cannot overcome a system designed around speed and reassignability.
 
-2025-11-28 [Feedback doesn't scale | Another Rodeo](https://another.rodeo/feedback/) { another.rodeo }
+2025-11-28 [Feedback doesn't scale | Another Rodeo](https://another.rodeo/feedback/) \{ another.rodeo \}
 
 > When you're leading a team of five or 10 people, feedback is pretty easy. It's not even really "feedback”: you’re just talking. You may have hired everyone yourself. You might sit near them (or at least sit near them virtually). Maybe you have lunch with them regularly. You know their kids' names, their coffee preferences, and what they're reading. So when someone has a concern about the direction you're taking things, they just... tell you.
 >
@@ -155,7 +155,7 @@ categories: links
 >
 > ![image-20251127225216543](2025-12-27-links-from-my-inbox.assets/image-20251127225216543.png)
 
-2025-11-28 [Tiger Style](https://tigerstyle.dev/) { tigerstyle.dev }
+2025-11-28 [Tiger Style](https://tigerstyle.dev/) \{ tigerstyle.dev \}
 
 > **Tiger Style** is a coding philosophy focused on **safety**, **performance**, and **developer experience**. Inspired by the practices of TigerBeetle, it focuses on building robust, efficient, and maintainable software through disciplined engineering.
 >
@@ -169,7 +169,7 @@ categories: links
 >
 > ![image-20251127225023662](2025-12-27-links-from-my-inbox.assets/image-20251127225023662.png)
 
-2025-11-09 [To get better at technical writing, lower your expectations](https://www.seangoedecke.com/technical-communication/) { www.seangoedecke.com }
+2025-11-09 [To get better at technical writing, lower your expectations](https://www.seangoedecke.com/technical-communication/) \{ www.seangoedecke.com \}
 
 > ![image-20251108161947048](2025-12-27-links-from-my-inbox.assets/image-20251108161947048.png)
 >
@@ -180,11 +180,11 @@ categories: links
 >
 > Do this because almost nobody will give your writing full attention. Most readers will glance at the first line, skim a bit, then stop. They do not share your context, they do not care as much as you do, and they do not have time. No document will transfer your full understanding or perfectly align everyone. Real understanding comes from working with the system itself. In that reality, a short, front-loaded note that lands a single important idea is far more useful than a long, careful essay that most people never finish.
 
-2025-11-05 [Send this article to your friend who still thinks the cloud is a good idea](https://rameerez.com/send-this-article-to-your-friend-who-still-thinks-the-cloud-is-a-good-idea/) { rameerez.com }
+2025-11-05 [Send this article to your friend who still thinks the cloud is a good idea](https://rameerez.com/send-this-article-to-your-friend-who-still-thinks-the-cloud-is-a-good-idea/) \{ rameerez.com \}
 
 > ![image-20251104195529880](2025-12-27-links-from-my-inbox.assets/image-20251104195529880.png)
 
-2025-11-02 [Your URL Is Your State](https://alfy.blog/2025/10/31/your-url-is-your-state.html) { alfy.blog }
+2025-11-02 [Your URL Is Your State](https://alfy.blog/2025/10/31/your-url-is-your-state.html) \{ alfy.blog \}
 
 > ![image-20251102114702224](2025-12-27-links-from-my-inbox.assets/image-20251102114702224.png)
 >
@@ -202,7 +202,7 @@ categories: links
 >
 > ![image-20251102120457125](2025-12-27-links-from-my-inbox.assets/image-20251102120457125.png)
 
-2025-11-04 [hwayne/awesome-cold-showers: For when people get too hyped up about things](https://github.com/hwayne/awesome-cold-showers) { github.com }
+2025-11-04 [hwayne/awesome-cold-showers: For when people get too hyped up about things](https://github.com/hwayne/awesome-cold-showers) \{ github.com \}
 
 > ![image-20251103200937106](2025-12-27-links-from-my-inbox.assets/image-20251103200937106.png)
 
@@ -210,7 +210,7 @@ categories: links
 
 ## 🪻 Bloom Filter
 
-2025-11-25 [Bloom filters: the niche trick behind a 16× faster API | Blog | incident.io](https://incident.io/blog/bloom-filters/) { incident.io }
+2025-11-25 [Bloom filters: the niche trick behind a 16× faster API | Blog | incident.io](https://incident.io/blog/bloom-filters/) \{ incident.io \}
 
 > ![image-20251124210734023](2025-12-27-links-from-my-inbox.assets/image-20251124210734023.png)
 >
@@ -222,15 +222,15 @@ categories: links
 >
 > > A bloom filter is a compact data structure that lets you test set membership quickly by allowing some false positives but no false negatives.
 
-2025-12-15 [Bloom Filters](https://www.jasondavies.com/bloomfilter/) { www.jasondavies.com }
+2025-12-15 [Bloom Filters](https://www.jasondavies.com/bloomfilter/) \{ www.jasondavies.com \}
 
 > ![image-20251214200242738](2025-12-27-links-from-my-inbox.assets/image-20251214200242738.png)
 >
-> 2025-12-15 [jasondavies/bloomfilter.js: JavaScript bloom filter using FNV for fast hashing](https://github.com/jasondavies/bloomfilter.js) { github.com }
+> 2025-12-15 [jasondavies/bloomfilter.js: JavaScript bloom filter using FNV for fast hashing](https://github.com/jasondavies/bloomfilter.js) \{ github.com \}
 >
 > [FNV Hash](http://www.isthe.com/chongo/tech/comp/fnv/#FNV-reference-source)
 >
-> 2025-12-15 [lcn2/fnv: FNV hash tools](https://github.com/lcn2/fnv) { github.com }
+> 2025-12-15 [lcn2/fnv: FNV hash tools](https://github.com/lcn2/fnv) \{ github.com \}
 >
 > **Fowler/Noll/Vo hash**
 >
@@ -246,29 +246,29 @@ categories: links
 
 ## 😁 Fun / Retro
 
-2025-12-09 [Legacy Update: Get back online, activate, and install updates on your legacy Windows PC](https://legacyupdate.net/) { legacyupdate.net }
+2025-12-09 [Legacy Update: Get back online, activate, and install updates on your legacy Windows PC](https://legacyupdate.net/) \{ legacyupdate.net \}
 
 > ![image-20251208221839451](2025-12-27-links-from-my-inbox.assets/image-20251208221839451.png)
 >
 > ![image-20251209182938697](2025-12-27-links-from-my-inbox.assets/image-20251209182938697.png)
 >
-> 2025-12-09 [Legacy Update](https://github.com/LegacyUpdate) { github.com }
+> 2025-12-09 [Legacy Update](https://github.com/LegacyUpdate) \{ github.com \}
 > ![image-20251208221932089](2025-12-27-links-from-my-inbox.assets/image-20251208221932089.png)
 
-2025-11-29 [Mac OS 9 Images < Mac OS 9 Lives](https://macos9lives.com/downloads-macos9) { macos9lives.com }
+2025-11-29 [Mac OS 9 Images < Mac OS 9 Lives](https://macos9lives.com/downloads-macos9) \{ macos9lives.com \}
 
 > ![image-20251128213821336](2025-12-27-links-from-my-inbox.assets/image-20251128213821336.png)
-> 2025-11-29 [Tiernan's Comms Closet How to Set Up Mac OS 9 on QEMU](https://www.tiernanotoole.ie/2024/12/11/how-to-set-up-mac-os-9-on-qemu.html) { www.tiernanotoole.ie }
+> 2025-11-29 [Tiernan's Comms Closet How to Set Up Mac OS 9 on QEMU](https://www.tiernanotoole.ie/2024/12/11/how-to-set-up-mac-os-9-on-qemu.html) \{ www.tiernanotoole.ie \}
 
 
 
 ## 👂 The Ear of AI (LLMs)
 
-2025-12-24 [Tencent-Hunyuan/AutoCodeBenchmark](https://github.com/Tencent-Hunyuan/AutoCodeBenchmark) { github.com }
+2025-12-24 [Tencent-Hunyuan/AutoCodeBenchmark](https://github.com/Tencent-Hunyuan/AutoCodeBenchmark) \{ github.com \}
 
 > ![image-20251224152333225](2025-12-27-links-from-my-inbox.assets/image-20251224152333225.png)
 
-2025-12-23 [The Illustrated Transformer Jay Alammar Visualizing machine learning one concept at a time.](https://jalammar.github.io/illustrated-transformer/) { jalammar.github.io }
+2025-12-23 [The Illustrated Transformer Jay Alammar Visualizing machine learning one concept at a time.](https://jalammar.github.io/illustrated-transformer/) \{ jalammar.github.io \}
 
 > Discussions: [Hacker News (65 points, 4 comments)](https://news.ycombinator.com/item?id=18351674), [Reddit r/MachineLearning (29 points, 3 comments)](https://www.reddit.com/r/MachineLearning/comments/8uh2yz/p_the_illustrated_transformer_a_visual_look_at/)
 > Translations: [Arabic](https://www.mundhor.site/post/post14), [Chinese (Simplified) 1](https://blog.csdn.net/yujianmin1990/article/details/85221271), [Chinese (Simplified) 2](https://blog.csdn.net/qq_36667170/article/details/124359818), [French 1](https://a-coles.github.io/2020/11/15/transformer-illustre.html), [French 2](https://lbourdois.github.io/blog/nlp/Transformer/), [Italian](https://medium.com/@val.mannucci/il-transformer-illustrato-it-37a78e3e2348), [Japanese](https://tips-memo.com/translation-jayalmmar-transformer), [Korean](https://nlpinkorean.github.io/illustrated-transformer/), [Persian](http://dml.qom.ac.ir/2022/05/17/illustrated-transformer/), [Russian](https://habr.com/ru/post/486358/), [Spanish 1](https://www.ibidemgroup.com/edu/transformer-ilustrado-jay-alammar/), [Spanish 2](https://hackernoon.com/el-transformador-ilustrado-una-traduccion-al-espanol-0y73wwp), [Vietnamese](https://trituenhantao.io/tin-tuc/minh-hoa-transformer/)
@@ -278,7 +278,7 @@ categories: links
 > ![image-20251222213442305](2025-12-27-links-from-my-inbox.assets/image-20251222213442305.png)
 > ![image-20251222213511023](2025-12-27-links-from-my-inbox.assets/image-20251222213511023.png)
 
-2025-12-23 [Scaling LLMs to larger codebases - Kieran Gill](https://blog.kierangill.xyz/oversight-and-guidance) { blog.kierangill.xyz }
+2025-12-23 [Scaling LLMs to larger codebases - Kieran Gill](https://blog.kierangill.xyz/oversight-and-guidance) \{ blog.kierangill.xyz \}
 
 > ![image-20251222212757899](2025-12-27-links-from-my-inbox.assets/image-20251222212757899.png)
 >
@@ -336,7 +336,7 @@ Extend our scheduler to allow for bulk uploads.
 
 > Your prompt should be thorough enough to guide the LLM to the right choices. But verification is required. **Read every line of generated code**. Just because you told an LLM to sanitize inputs, doesn't mean it actually did.
 
-2025-12-09 [Has the cost of building software just dropped 90%? - Martin Alderson](https://martinalderson.com/posts/has-the-cost-of-software-just-dropped-90-percent/) { martinalderson.com }
+2025-12-09 [Has the cost of building software just dropped 90%? - Martin Alderson](https://martinalderson.com/posts/has-the-cost-of-software-just-dropped-90-percent/) \{ martinalderson.com \}
 
 > ![image-20251208220102525](2025-12-27-links-from-my-inbox.assets/image-20251208220102525.png)
 >
@@ -352,17 +352,17 @@ Extend our scheduler to allow for bulk uploads.
 >
 > This combination allows you to iterate incredibly quickly, and software becomes almost disposable - if the direction is bad, then throw it away and start again, using those learnings. This takes a fairly large mindset shift, but the hard work is the *conceptual thinking*, not the typing.
 
-2025-12-09 [AI should only run as fast as we can catch up Higashi.blog](https://higashi.blog/2025/12/07/ai-verification/) { higashi.blog }
+2025-12-09 [AI should only run as fast as we can catch up Higashi.blog](https://higashi.blog/2025/12/07/ai-verification/) \{ higashi.blog \}
 
 > ![image-20251208220410815](2025-12-27-links-from-my-inbox.assets/image-20251208220410815.png)
 
-2025-12-02 [Codex, Opus, Gemini try to build Counter Strike](https://www.instantdb.com/essays/agents_building_counterstrike) { www.instantdb.com }
+2025-12-02 [Codex, Opus, Gemini try to build Counter Strike](https://www.instantdb.com/essays/agents_building_counterstrike) \{ www.instantdb.com \}
 
 > ![image-20251201222631428](2025-12-27-links-from-my-inbox.assets/image-20251201222631428.png)
 >
 > ![image-20251201222543416](2025-12-27-links-from-my-inbox.assets/image-20251201222543416.png)
 
-2025-11-29 [So you wanna build a local RAG?](https://blog.yakkomajuri.com/blog/local-rag) { blog.yakkomajuri.com }
+2025-11-29 [So you wanna build a local RAG?](https://blog.yakkomajuri.com/blog/local-rag) \{ blog.yakkomajuri.com \}
 
 > When we launched [Skald](https://github.com/skaldlabs/skald), we wanted it to not only be self-hostable, but also for one to be able to run it without sending any data to third-parties.
 >
@@ -372,7 +372,7 @@ Extend our scheduler to allow for bulk uploads.
 >
 > ![image-20251128215551615](2025-12-27-links-from-my-inbox.assets/image-20251128215551615.png)
 
-2025-11-28 [InstaVM - Secure Code Execution Platform](https://instavm.io/blog/llm-anti-patterns) { instavm.io }
+2025-11-28 [InstaVM - Secure Code Execution Platform](https://instavm.io/blog/llm-anti-patterns) \{ instavm.io \}
 
 > ![image-20251128135958931](2025-12-27-links-from-my-inbox.assets/image-20251128135958931.png)
 >
@@ -382,7 +382,7 @@ Extend our scheduler to allow for bulk uploads.
 > Models struggle with obscure or rapidly evolving topics unless you supply up-to-date, targeted documentation.
 > AI-generated code remains fallible, requiring disciplined human review to prevent security and correctness issues.
 
-2025-11-27 [addyosmani/gemini-cli-tips: Gemini CLI Tips and Tricks](https://github.com/addyosmani/gemini-cli-tips) { github.com }
+2025-11-27 [addyosmani/gemini-cli-tips: Gemini CLI Tips and Tricks](https://github.com/addyosmani/gemini-cli-tips) \{ github.com \}
 
 > ![image-20251126202046041](2025-12-27-links-from-my-inbox.assets/image-20251126202046041.png)
 > **This guide covers ~30 pro-tips for effectively using Gemini CLI for agentic coding**
@@ -391,13 +391,13 @@ Extend our scheduler to allow for bulk uploads.
 >
 > In practical terms, Gemini CLI acts like a supercharged pair programmer and command-line assistant. It excels at coding tasks, debugging, content generation, and even system automation, all through natural language prompts. Before diving into pro tips, let's quickly recap how to set up Gemini CLI and get it running.
 
-2025-11-15 [Anthropic admits that MCP sucks - YouTube](https://www.youtube.com/watch?v=1piFEKA9XL0) { www.youtube.com }
+2025-11-15 [Anthropic admits that MCP sucks - YouTube](https://www.youtube.com/watch?v=1piFEKA9XL0) \{ www.youtube.com \}
 
 > ![image-20251114190038807](2025-12-27-links-from-my-inbox.assets/image-20251114190038807.png)
 >
 > ![image-20251114193003068](2025-12-27-links-from-my-inbox.assets/image-20251114193003068.png)
 >
-> 2025-11-15 [Code execution with MCP: building more efficient AI agents \ Anthropic](https://www.anthropic.com/engineering/code-execution-with-mcp) { www.anthropic.com }
+> 2025-11-15 [Code execution with MCP: building more efficient AI agents \ Anthropic](https://www.anthropic.com/engineering/code-execution-with-mcp) \{ www.anthropic.com \}
 > The core problem is context bloat. MCP clients typically load all tool definitions into the system prompt, then run multi step flows like gdrive.find_document followed by gdrive.get_document, then another tool, and so on. Every tool definition and every intermediate result lives in the context window, so each new tool call resends the whole history as input tokens. This quickly explodes into hundreds of thousands of tokens, increases latency, raises costs, and raises the chance of mistakes. Real world setups like Trey show agents with dozens of tools, including irrelevant ones like Supabase for users who do not even use it, which only adds noise.
 >
 > Anthropic’s proposed fix is to treat MCP servers as code APIs and let the model write code that calls them from a sandboxed execution environment, usually using TypeScript. Tools become normal functions in a file tree, and the model discovers and imports only what it needs. Most of the heavy lifting happens in code, not in the LLM context. That cuts token usage dramatically, makes workflows faster, and lets the model leverage what it is actually good at, which is writing and navigating code rather than juggling hundreds of tool definitions and transcripts.

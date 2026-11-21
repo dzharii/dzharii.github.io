@@ -62,7 +62,7 @@ void main(void) {
 
 Math references:
 
-- [Is this formula for computing the number of digits of an integer correct? - Mathematics Stack Exchange](https://math.stackexchange.com/questions/5083733/is-this-formula-for-computing-the-number-of-digits-of-an-integer-correct) { math.stackexchange.com } (partial answer)
+- [Is this formula for computing the number of digits of an integer correct? - Mathematics Stack Exchange](https://math.stackexchange.com/questions/5083733/is-this-formula-for-computing-the-number-of-digits-of-an-integer-correct) \{ math.stackexchange.com \} (partial answer)
 
 Or, most fun, is the Christmas tree:
 

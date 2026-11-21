@@ -9,7 +9,7 @@ categories: links
 
 ## ⌚ Nice watch!
 
-2025-11-27 [Platform Engineering is Domain Driven Design - Gregor Hohpe - DDD Europe 2025 - YouTube](https://www.youtube.com/watch?v=5Ai8UGx7QvQ) { www.youtube.com }
+2025-11-27 [Platform Engineering is Domain Driven Design - Gregor Hohpe - DDD Europe 2025 - YouTube](https://www.youtube.com/watch?v=5Ai8UGx7QvQ) \{ www.youtube.com \}
 
 > ![image-20251127095532793](2025-11-30-links-from-my-inbox.assets/image-20251127095532793.png)
 >
@@ -109,9 +109,9 @@ categories: links
 >
 > Finally, illusions in models and diagrams are like visual illusions in geometry: they can be surprisingly convincing, but physical reality eventually wins, so platform engineering has to respect the real constraints and behaviors of systems rather than relying on attractive but unrealistic pictures.
 
-2025-11-23 [Modern Architecture 101 for New Engineers & Forgetful Experts - Jerry Nixon - NDC Copenhagen 2025 - YouTube](https://www.youtube.com/watch?v=WRg13Ze_UpY) { www.youtube.com }
+2025-11-23 [Modern Architecture 101 for New Engineers & Forgetful Experts - Jerry Nixon - NDC Copenhagen 2025 - YouTube](https://www.youtube.com/watch?v=WRg13Ze_UpY) \{ www.youtube.com \}
 
-> Author: Jerry Nixon {MSFT}
+> Author: Jerry Nixon \{MSFT\}
 >
 > ![image-20251122173112292](2025-11-30-links-from-my-inbox.assets/image-20251122173112292.png)
 > ![image-20251122173206297](2025-11-30-links-from-my-inbox.assets/image-20251122173206297.png)
@@ -120,15 +120,15 @@ categories: links
 >
 > Then I use the big architecture picture as a thinking model, not a prescription. I start with the simplest shape – a client, an API, a database – and show how I decide when to layer in new capabilities: separating reads from writes, adding replicas, splitting into services, introducing a service bus so systems can talk, hanging retries, caching and queues around the database so the user has a smooth experience even when the backend is struggling. I generalize patterns like event hubs and functions for reacting to changes, API gateways for versioning and protection, static hosting and CDNs at the edge, different storage patterns inside the database, data lakes and ML for analytics that feed back into the product, and identity with JWTs for access control. The point is to teach a way of reasoning: for each of these pieces, understand what it gives you, understand its caveats, and then deliberately choose what to leave out and what to postpone, because in the end simple, deferrable decisions usually make the strongest architecture.
 
-2025-11-23 [Workflows of Highly Functional App & Data Engineering Teams - Jerry Nixon - YouTube](https://www.youtube.com/watch?v=4F3v1p6lc8E) { www.youtube.com }
+2025-11-23 [Workflows of Highly Functional App & Data Engineering Teams - Jerry Nixon - YouTube](https://www.youtube.com/watch?v=4F3v1p6lc8E) \{ www.youtube.com \}
 
-> Author: Jerry Nixon {MSFT}
+> Author: Jerry Nixon \{MSFT\}
 >
 > ![image-20251123152108766](2025-11-30-links-from-my-inbox.assets/image-20251123152108766.png)
 >
 > ---
 >
-> {2025-11-23 note: LLM transcript test on this talk }
+> \{2025-11-23 note: LLM transcript test on this talk \}
 >
 > There is a common three-layer data model for analytics where data flows from a raw zone to a cleaned zone and finally to a curated zone; this structure helps separate ingestion, cleaning, and business-ready views of data.
 >
@@ -198,7 +198,7 @@ categories: links
 >
 > Even seemingly simple changes like splitting names become complex with real data containing middle names and multiword surnames, so schema evolution requires patience, defensive design, and clear communication about effort and risk to managers who may assume the change is trivial.
 
-2025-11-23 [DORA Report 2024 explained for non-teching | DevOps Research & Assessment - YouTube](https://www.youtube.com/watch?v=Xaa5-s3lhz4) { www.youtube.com }
+2025-11-23 [DORA Report 2024 explained for non-teching | DevOps Research & Assessment - YouTube](https://www.youtube.com/watch?v=Xaa5-s3lhz4) \{ www.youtube.com \}
 
 > ![image-20251122173927672](2025-11-30-links-from-my-inbox.assets/image-20251122173927672.png)
 >
@@ -226,13 +226,13 @@ categories: links
 >
 > Across a decade of data, DORA’s conclusion is that continuous improvement is not optional: organizations that do not keep improving are effectively falling behind, while those that treat transformation as an ongoing practice achieve the best results.
 
-2025-11-23 [Software Engineering at Google • Titus Winters & Matt Kulukundis • GOTO 2022 - YouTube](https://www.youtube.com/watch?v=NNMnbBf0Itw) { www.youtube.com }
+2025-11-23 [Software Engineering at Google • Titus Winters & Matt Kulukundis • GOTO 2022 - YouTube](https://www.youtube.com/watch?v=NNMnbBf0Itw) \{ www.youtube.com \}
 
 > ![image-20251122175056602](2025-11-30-links-from-my-inbox.assets/image-20251122175056602.png)
 >
 > > **Software Engineering at Google**
 > >
-> > **Book** [abseil / Software Engineering at Google](https://abseil.io/resources/swe-book) { abseil.io }
+> > **Book** [abseil / Software Engineering at Google](https://abseil.io/resources/swe-book) \{ abseil.io \}
 > >
 > > In March, 2020, we published a book titled “Software Engineering at Google” curated by Titus Winters, Tom Manshreck and Hyrum Wright.
 > >
@@ -276,7 +276,7 @@ categories: links
 >
 > Large-scale changes (LSCs) across Google’s codebase are only possible because of heavy investment in unified build systems, testing, and a monorepo; trying to do the same over today’s heterogeneous open-source ecosystem (inconsistent builds, many projects already broken) is seen as practically infeasible.
 
-2025-11-20 [Algorithms Demystified - Dylan Beattie - NDC Copenhagen 2025 - YouTube](https://www.youtube.com/watch?v=QJJb7cC3CGs) { www.youtube.com }
+2025-11-20 [Algorithms Demystified - Dylan Beattie - NDC Copenhagen 2025 - YouTube](https://www.youtube.com/watch?v=QJJb7cC3CGs) \{ www.youtube.com \}
 
 > ![image-20251120000410212](2025-11-30-links-from-my-inbox.assets/image-20251120000410212.png)
 >
@@ -288,7 +288,7 @@ categories: links
 >
 > Have you ever got stuck on a coding problem? Maybe you're implementing a feature on one of your projects, maybe you're solving puzzles for something like Advent of Code, and you get stuck. You just can't figure out how to get the result you need. So you head over to Stack Overflow, or Reddit, or ask a colleague for help, and you get an answer like "oh, that's easy, just use Dijkstra's algorithm"... and your brain crashes. Use what? So you go and look it up and discover it's for "finding the shortest paths between nodes in a weighted graph", and now you've got to look up what a "node" is, and what a "weighted graph" is... and then figure out how to turn all that into working code? Nightmare. Well, it doesn't have to be like that. Algorithms are the key to all kinds of features and systems, from networks to autocorrect, and understanding how they work will help you build better software, fix subtle bugs - and solve Advent of Code. In this talk, we'll meet some of his favourite algorithms, explain why they're important, and help you understand what they do, and how they do it.
 
-2025-11-23 [Stoicism as a philosophy for an ordinary life | Massimo Pigliucci | TEDxAthens - YouTube](https://www.youtube.com/watch?v=Yhn1Fe8cT0Q) { www.youtube.com }
+2025-11-23 [Stoicism as a philosophy for an ordinary life | Massimo Pigliucci | TEDxAthens - YouTube](https://www.youtube.com/watch?v=Yhn1Fe8cT0Q) \{ www.youtube.com \}
 
 > ![image-20251123004845461](2025-11-30-links-from-my-inbox.assets/image-20251123004845461.png)
 >
@@ -354,7 +354,7 @@ categories: links
 >
 > Overall, the picture is that we wear many **“masks” or roles** in life and switch among them as things change, and a good life is one where we play all these roles with **skill**, **balance**, **honesty**, and focus on what is truly **under our control**.
 
-2025-11-29 [C++ The worst programming language of all time - YouTube](https://www.youtube.com/watch?v=7fGB-hjc2Gc) { www.youtube.com }
+2025-11-29 [C++ The worst programming language of all time - YouTube](https://www.youtube.com/watch?v=7fGB-hjc2Gc) \{ www.youtube.com \}
 
 > ![image-20251128215827430](2025-11-30-links-from-my-inbox.assets/image-20251128215827430.png)
 >

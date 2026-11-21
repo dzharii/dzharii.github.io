@@ -3,7 +3,7 @@ Date: 2025-10-03
 
 
 
-2025-10-03 [git/banned.h at master · git/git](https://github.com/git/git/blob/master/banned.h) { github.com }
+2025-10-03 [git/banned.h at master · git/git](https://github.com/git/git/blob/master/banned.h) \{ github.com \}
 
 ```c
 #ifndef BANNED_H
@@ -54,7 +54,7 @@ Date: 2025-10-03
 
 See also:
 
-2025-10-03 [x509cert/banned: Banned.h - deprecated C runtime functions](https://github.com/x509cert/banned) { github.com }
+2025-10-03 [x509cert/banned: Banned.h - deprecated C runtime functions](https://github.com/x509cert/banned) \{ github.com \}
 
 ```c
 /***
@@ -219,7 +219,7 @@ See also:
 #endif  // _INC_BANNED 
 ```
 
-2025-10-03 [StarlingX/Security/Banned C Functions - OpenStack](https://wiki.openstack.org/wiki/StarlingX/Security/Banned_C_Functions) { wiki.openstack.org }
+2025-10-03 [StarlingX/Security/Banned C Functions - OpenStack](https://wiki.openstack.org/wiki/StarlingX/Security/Banned_C_Functions) \{ wiki.openstack.org \}
 
 > ![image-20251003120826669](dev-c99-github-banned-h.assets/image-20251003120826669.png)
 

@@ -7,7 +7,7 @@ categories: links
 
 ## Good Reads
 
-2024-12-01 [Legacy Shmegacy - David Reis on Software](https://davidreiscto.substack.com/p/legacy-shmegacy?r=61pbc&triedRedirect=true&_bhlid=7b63148f971a9b1e15a02f9fc79767c0f906af48) { davidreiscto.substack.com }
+2024-12-01 [Legacy Shmegacy - David Reis on Software](https://davidreiscto.substack.com/p/legacy-shmegacy?r=61pbc&triedRedirect=true&_bhlid=7b63148f971a9b1e15a02f9fc79767c0f906af48) \{ davidreiscto.substack.com \}
 
 > ![image-20241201132743791](2024-12-01-links-from-my-inbox.assets/image-20241201132743791.png)
 >
@@ -23,7 +23,7 @@ categories: links
 >
 > The reason legacy code is so prevalent is that most teams are not good enough at all of the above to avoid it, but maybe you can be.
 
-🥒 2024-12-01 [Tech's $90B Ghost Engineer Problem: Stanford Study Finds 9.5...](https://socket.dev/blog/ghost-engineers) { socket.dev }
+🥒 2024-12-01 [Tech's $90B Ghost Engineer Problem: Stanford Study Finds 9.5...](https://socket.dev/blog/ghost-engineers) \{ socket.dev \}
 
 > Beyond the economic and productivity concerns, ghost engineers pose significant security risks. Their lack of meaningful engagement can lead to a few critical issues: unreviewed or improperly tested code changes, unnoticed vulnerabilities, and outdated systems left unpatched. A disengaged engineer might also miss—or deliberately ignore—critical security protocols, creating potential entry points for malicious actors.
 >
@@ -35,7 +35,7 @@ categories: links
 >
 > ![image-20241201002539567](2024-12-01-links-from-my-inbox.assets/image-20241201002539567.png)
 
-2024-11-30 [The deterioration of Google](https://www.baldurbjarnason.com/2024/the-deterioration-of-google/) { www.baldurbjarnason.com }
+2024-11-30 [The deterioration of Google](https://www.baldurbjarnason.com/2024/the-deterioration-of-google/) \{ www.baldurbjarnason.com \}
 
 > I'm Baldur Bjarnason, a web developer and writer. In my latest essay, I wrote about the decline of Google and its impact on independent publishers. 
 >
@@ -49,7 +49,7 @@ categories: links
 > 4. **Algorithm Black Box**: Google's algorithm has become so complex that even their engineers can't fully understand or fix it.
 > 5. **Monopoly Power**: Google's monopoly allows it to capture value without improving product utility, leaving users with fewer alternatives.
 
-2024-11-30 [15 Lessons From 15 Years of Indie App Development](https://lukaspetr.com/15-lessons-from-15-years-of-indie-app-development/) { lukaspetr.com }
+2024-11-30 [15 Lessons From 15 Years of Indie App Development](https://lukaspetr.com/15-lessons-from-15-years-of-indie-app-development/) \{ lukaspetr.com \}
 
 > Hey there, I'm Lukas Petr, an indie iOS app developer from Prague. Over the past 15 years, I've learned a lot about the ups and downs of indie app development. Here are some key takeaways:
 >
@@ -68,7 +68,7 @@ categories: links
 >
 > I hope you find these insights helpful. If you're pursuing any creative endeavor, I'm rooting for you! Feel free to reach out if you have any questions or comments.
 
-2024-11-24 [A career ending mistake — Bitfield Consulting](https://bitfieldconsulting.com/posts/career) { bitfieldconsulting.com }
+2024-11-24 [A career ending mistake — Bitfield Consulting](https://bitfieldconsulting.com/posts/career) \{ bitfieldconsulting.com \}
 
 > A career-ending mistake isn't always a catastrophic error like shutting down a nuclear power station or deleting a production database; it's often subtler, like failing to plan for the end of your career. The article explores how many of us rush through our professional lives without a clear destination, highlighting that "career" itself can mean "to rush about wildly." It asks the critical questions: “Where do you want to end up? And is that where you're currently heading?” Instead of drifting, the piece advises us to define what we truly want, as "The indispensable first step to getting what you want is this: decide what you want." Whether you're content in your current role or seeking something more fulfilling, understanding your end goal and working intentionally toward it is key to avoiding a career that feels out of control.
 >
@@ -80,11 +80,11 @@ categories: links
 >
 > >  That’s quite a sweeping statement, I know. (Prove me wrong, managers, prove me wrong.) But, really, would a car mechanic last long in the job if they couldn’t fit a tyre, or change a spark plug? Would a doctor succeed if they regularly amputated the wrong leg? We would hope not. But many managers are just as incompetent, in their own field, and yet they seem to get away with it.
 
-2024-11-23 [the tech utopia fantasy is over | ava's blog](https://blog.avas.space/tech-utopia-fantasy/) { blog.avas.space }
+2024-11-23 [the tech utopia fantasy is over | ava's blog](https://blog.avas.space/tech-utopia-fantasy/) \{ blog.avas.space \}
 
 > Growing up, I had a positive view of tech, believing it would bring comfort, less work, and personalized assistance. However, the reality has been different, with tech companies failing to deliver on their promises and instead contributing to issues like disinformation, economic inequality, and environmental harm. While there have been some benefits, such as increased political knowledge and social connections, the negatives now overshadow the positives. The tech utopia fantasy is truly dead to me. 
 
-2024-11-18 [Good software development habits | Zarar's blog](https://zarar.dev/good-software-development-habits/) { zarar.dev }
+2024-11-18 [Good software development habits | Zarar's blog](https://zarar.dev/good-software-development-habits/) \{ zarar.dev \}
 
 > 1. **Keep Commits Small**: Keep each commit focused on a single change to make it easier to track and revert issues. Code that compiles should be committable.
 > 2. **Refactor Continuously**: Follow Kent Beck's advice: make changes easy, then make the easy changes. Frequent, small refactorings prevent complex reworks.
@@ -97,7 +97,7 @@ categories: links
 > 9. **Classify Technical Debt**: Recognize three types of technical debt: immediate blockers, future blockers, and potential blockers. Minimize the first, address the second, and deprioritize the third.
 > 10. **Prioritize Testability in Design**: Hard-to-test code hints at design issues. Improve testability through smaller functions or test utilities to avoid skipping tests.
 
-🔥2024-11-14 [Lessons from my First Exit · mtlynch.io](https://mtlynch.io/lessons-from-my-first-exit/) { mtlynch.io }
+🔥2024-11-14 [Lessons from my First Exit · mtlynch.io](https://mtlynch.io/lessons-from-my-first-exit/) \{ mtlynch.io \}
 
 > Selling my first business was a journey filled with excitement, stress, and invaluable lessons. I want to share my experiences to help other entrepreneurs who might be considering a similar path. This post is especially relevant for small business owners and startup founders looking to navigate the complexities of a business exit.
 >
@@ -124,7 +124,7 @@ categories: links
 >
 > I immediately started imagining the worst possible outcome. What if the patent holder realizes they can block the sale, and they demand I pay them $100k? What if the patent holder just can’t be bothered to deal with a tiny business like mine, and they block the sale out of sheer indifference?
 
-🔥 2024-11-08 [Blog Writing for Developers](https://rmoff.net/2023/07/19/blog-writing-for-developers/) { rmoff.net }
+🔥 2024-11-08 [Blog Writing for Developers](https://rmoff.net/2023/07/19/blog-writing-for-developers/) \{ rmoff.net \}
 
 > Like a favourite pair of jeans that’s well-worn, comfy, and slightly saggy round the arse, I have a go-to structure for writing. Come to think of it, I use it for lots of conference talks too. It looks like this:
 >
@@ -152,7 +152,7 @@ categories: links
 >
 >    Either way, you’re going to summarise what you just did and give people something to *do* with it next. Are there code samples they can go and run or inspect? A new service to sign up for? A video to watch? Or just a general life reflection upon which to ponder.
 
-2024-11-07 [Monorepo - Our experience](https://ente.io/blog/monorepo-retrospective/) { ente.io }
+2024-11-07 [Monorepo - Our experience](https://ente.io/blog/monorepo-retrospective/) \{ ente.io \}
 
 > We switched to a monorepo nine months ago, and it’s been working well for us. Before, we had multiple repositories, which made things like managing pull requests or syncing changes a hassle. With everything in one place now, the workflow feels smoother and simpler. It wasn’t a decision we overanalyzed; it just felt like the right time to try it, and we’ve been happy with the results.
 >
@@ -160,13 +160,13 @@ categories: links
 >
 > As for cons, we honestly haven’t found many. A common concern is that monorepos can get messy or slow as they grow, but for our small team, it hasn’t been an issue. We kept it simple—no strict rules, just “don’t touch the root folder”—and it’s been fine. It might not work the same for larger teams or projects with different dynamics, but for us, it’s been a clear win.
 
-2024-10-14 [LogLog Games](https://loglog.games/blog/leaving-rust-gamedev/) { loglog.games }
+2024-10-14 [LogLog Games](https://loglog.games/blog/leaving-rust-gamedev/) \{ loglog.games \}
 
 > I spent three years using Rust for game development, and after shipping a few games and writing over 100,000 lines of code, I’m stepping away from it. Rust has some great qualities—its performance is top-notch, and it often lets you refactor confidently. But for fast, iterative development, which is crucial for indie games, it just doesn't align well. The borrow checker and Rust’s strictness often force unnecessary refactoring, slowing down the process of prototyping and testing new ideas. Tools like hot reloading, essential for quick feedback loops, are either clunky or nonexistent in Rust. And while the language excels in many technical areas, its game development ecosystem is still young, with fragmented solutions and limited support for things like GUI and dynamic workflows.
 >
 > For small teams like ours, the priority is delivering fun, polished games quickly. With Rust, I found myself spending more time fighting the language and its ecosystem than focusing on gameplay. Moving forward, we’re transitioning to tools that better support rapid iteration and creativity, even if they’re less "perfect" on paper.
 
-2024-09-29 [It's hard to write code for computers, but it's even harder to write code for humans · Erik Bernhardsson](https://erikbern.com/2024/09/27/its-hard-to-write-code-for-humans.html) { erikbern.com }
+2024-09-29 [It's hard to write code for computers, but it's even harder to write code for humans · Erik Bernhardsson](https://erikbern.com/2024/09/27/its-hard-to-write-code-for-humans.html) \{ erikbern.com \}
 
 > ![image-20241201135538368](2024-12-01-links-from-my-inbox.assets/image-20241201135538368.png)
 >
@@ -194,7 +194,7 @@ categories: links
 > **Clarity Over Brevity:** Short, clever code is hard to read.
 > **Fix:** Write clear, readable code. Make it easy to follow. I remind myself: people read code far more than they write it.
 
-2024-09-29 [Too much efficiency makes everything worse: overfitting and the strong version of Goodhart’s law | Jascha’s blog](https://sohl-dickstein.github.io/2022/11/06/strong-Goodhart.html) { sohl-dickstein.github.io }
+2024-09-29 [Too much efficiency makes everything worse: overfitting and the strong version of Goodhart’s law | Jascha’s blog](https://sohl-dickstein.github.io/2022/11/06/strong-Goodhart.html) \{ sohl-dickstein.github.io \}
 
 > When you optimize too much, you can make things worse instead of better. This is the essence of the **strong version of Goodhart’s Law**: when a measure becomes the target, over-optimization can degrade what you originally cared about. This principle, often studied as "overfitting" in machine learning, also applies broadly to systems like education, economics, and governance.
 >
@@ -228,9 +228,9 @@ BibTeX entry for post:
 }
 ```
 
-2024-09-29 [Measuring Developers' Jobs-to-be-done - by Abi Noda](https://substack.com/@abinoda/p-148270749) { substack.com }
+2024-09-29 [Measuring Developers' Jobs-to-be-done - by Abi Noda](https://substack.com/@abinoda/p-148270749) \{ substack.com \}
 
-> 2024-09-29 [Measuring Developers' Jobs-to-be-done | Hacker News](https://news.ycombinator.com/item?id=41636761) { news.ycombinator.com }
+> 2024-09-29 [Measuring Developers' Jobs-to-be-done | Hacker News](https://news.ycombinator.com/item?id=41636761) \{ news.ycombinator.com \}
 >
 > Google used to measure how well developer tools worked by evaluating how they supported certain tasks, like "debugging" or "writing code." However, this approach often lacked specificity that would be useful for tooling teams. For instance, "searching for documentation" is a common task, but the reason behind it—whether it's to "explore technical solutions" or "understand the context to complete a work item"—can meaningfully change a developer's experience and how well tools support them in achieving their goal. 
 >
@@ -238,7 +238,7 @@ BibTeX entry for post:
 >
 > ![image-20241201140955980](2024-12-01-links-from-my-inbox.assets/image-20241201140955980.png)
 
-2024-10-05 [Bureaucrat mode - by Andrew Chen - @andrewchen](https://andrewchen.substack.com/p/bureaucrat-mode) { andrewchen.substack.com }
+2024-10-05 [Bureaucrat mode - by Andrew Chen - @andrewchen](https://andrewchen.substack.com/p/bureaucrat-mode) \{ andrewchen.substack.com \}
 
 > As companies scale, they often shift from the agile, conviction-driven "[Founder mode](https://paulgraham.com/foundermode.html)" to "**Bureaucrat Mode**," where decision-making slows, and processes dominate. While startups thrive on speed and direct action, large organizations tend to create committees, expand scopes, and reward consensus over outcomes. These tendencies, while rooted in good intentions like collaboration and stability, can cripple innovation and efficiency when scaled excessively.
 >
@@ -246,7 +246,7 @@ BibTeX entry for post:
 >
 > ![image-20241201141318646](2024-12-01-links-from-my-inbox.assets/image-20241201141318646.png)
 
-2024-10-10 [How to make Product give a shit about your architecture proposal – Andy G's Blog](https://gieseanw.wordpress.com/2024/10/09/how-to-make-product-give-a-shit-about-your-architecture-proposal/) { gieseanw.wordpress.com }
+2024-10-10 [How to make Product give a shit about your architecture proposal – Andy G's Blog](https://gieseanw.wordpress.com/2024/10/09/how-to-make-product-give-a-shit-about-your-architecture-proposal/) \{ gieseanw.wordpress.com \}
 
 > When dealing with Product teams about your architecture proposal, picture yourself as a plumber who's trying to sell different service packages. This analogy highlights how you should present your technical proposals to Product in a way that aligns with their focus on **business value**. They’re not interested in technical jargon; they want to know how your architecture decision translates into a **return on investment**. 
 >
@@ -270,9 +270,9 @@ BibTeX entry for post:
 >
 > Think like a plumber: when you know the value of what you’re selling, it’s easier to convince others to invest in the **right solution** instead of a **quick fix**. Always push for a solution that maintains a minimum level of quality, even if it means delivering less within the same time frame.
 
-2024-11-03 [Get Me Out Of Data Hell — Ludicity](https://ludic.mataroa.blog/blog/get-me-out-of-data-hell/) { ludic.mataroa.blog }
+2024-11-03 [Get Me Out Of Data Hell — Ludicity](https://ludic.mataroa.blog/blog/get-me-out-of-data-hell/) \{ ludic.mataroa.blog \}
 
-> 📹 2024-11-03 [Nikhil Suresh - Skills that programmers need, to defend both their code and their careers - YouTube](https://www.youtube.com/watch?v=xlf4oXoP8qI) { www.youtube.com }
+> 📹 2024-11-03 [Nikhil Suresh - Skills that programmers need, to defend both their code and their careers - YouTube](https://www.youtube.com/watch?v=xlf4oXoP8qI) \{ www.youtube.com \}
 >
 > This blog narrates an engineer's daily struggle with an overly complex and inefficient **data warehouse system**. Despite working within an ostensibly supportive team, the engineer describes their workplace as a **"Pain Zone,"** rife with convoluted processes, unchecked errors, and cultural dissonance. Here’s a detailed breakdown of the main points:
 >
@@ -300,7 +300,7 @@ BibTeX entry for post:
 >
 > This piece is a critique of both **overly complex architectures** and a corporate culture that prioritizes speed over quality. It highlights the importance of valuing craftsmanship and straightforward design in building sustainable and efficient data systems.
 
-2024-11-24 [SciFi book: Manna – Table of Contents | MarshallBrain.com](https://marshallbrain.com/manna) { marshallbrain.com } (RIP Marshall)
+2024-11-24 [SciFi book: Manna – Table of Contents | MarshallBrain.com](https://marshallbrain.com/manna) \{ marshallbrain.com \} (RIP Marshall)
 
 > With half of the jobs eliminated by robots, what happens to all the people who are out of work? The book Manna explores the possibilities and shows two contrasting outcomes, one filled with great hope and the other filled with misery.
 >
@@ -316,36 +316,36 @@ BibTeX entry for post:
 
 ## Newsletters
 
-2024-09-20 [JavaScript Weekly Issue 705: September 19, 2024](https://javascriptweekly.com/issues/705) { javascriptweekly.com }
+2024-09-20 [JavaScript Weekly Issue 705: September 19, 2024](https://javascriptweekly.com/issues/705) \{ javascriptweekly.com \}
 
-2024-09-29 [Digital signatures and how to avoid them](https://newsletter.programmingdigest.net/p/digital-signatures-and-how-to-avoid-them?_bhlid=d956fc343c0a376ef53a64c12ace03ad03dea6ca&) { newsletter.programmingdigest.net }
+2024-09-29 [Digital signatures and how to avoid them](https://newsletter.programmingdigest.net/p/digital-signatures-and-how-to-avoid-them?_bhlid=d956fc343c0a376ef53a64c12ace03ad03dea6ca&) \{ newsletter.programmingdigest.net \}
 
-2024-09-29 [Implementing Blocked Floyd-Warshall algorithm](https://newsletter.csharpdigest.net/p/implementing-blocked-floyd-warshall-algorithm?_bhlid=bb2b186fa8f2cffed4cac429883b645ff9382fec&) { newsletter.csharpdigest.net }
+2024-09-29 [Implementing Blocked Floyd-Warshall algorithm](https://newsletter.csharpdigest.net/p/implementing-blocked-floyd-warshall-algorithm?_bhlid=bb2b186fa8f2cffed4cac429883b645ff9382fec&) \{ newsletter.csharpdigest.net \}
 
-2024-10-18 [JavaScript Weekly Issue 709: October 17, 2024](https://javascriptweekly.com/issues/709) { javascriptweekly.com }
+2024-10-18 [JavaScript Weekly Issue 709: October 17, 2024](https://javascriptweekly.com/issues/709) \{ javascriptweekly.com \}
 
-2024-10-20 [How Discord Reduced Websocket Traffic by 40%](https://newsletter.programmingdigest.net/p/how-discord-reduced-websocket-traffic-by-40?_bhlid=9d1af2512f29ded82d248040489928d97a82d18f&) { newsletter.programmingdigest.net }
+2024-10-20 [How Discord Reduced Websocket Traffic by 40%](https://newsletter.programmingdigest.net/p/how-discord-reduced-websocket-traffic-by-40?_bhlid=9d1af2512f29ded82d248040489928d97a82d18f&) \{ newsletter.programmingdigest.net \}
 
-2024-10-27 [A Brief Introduction to the .NET Muxer](https://newsletter.csharpdigest.net/p/a-brief-introduction-to-the-net-muxer?_bhlid=c324299126697f5f3be40505849280dbd1938ad4&) { newsletter.csharpdigest.net }
+2024-10-27 [A Brief Introduction to the .NET Muxer](https://newsletter.csharpdigest.net/p/a-brief-introduction-to-the-net-muxer?_bhlid=c324299126697f5f3be40505849280dbd1938ad4&) \{ newsletter.csharpdigest.net \}
 
-2024-10-27 [That's Not an Abstraction](https://newsletter.programmingdigest.net/p/that-s-not-an-abstraction?_bhlid=7bbc5a6591ff6e0b3fe85ba93d1d5c3dfbc758c4&) { newsletter.programmingdigest.net }
+2024-10-27 [That's Not an Abstraction](https://newsletter.programmingdigest.net/p/that-s-not-an-abstraction?_bhlid=7bbc5a6591ff6e0b3fe85ba93d1d5c3dfbc758c4&) \{ newsletter.programmingdigest.net \}
 
-2024-11-17 [Exploring the browser rendering process](https://newsletter.programmingdigest.net/p/exploring-the-browser-rendering-process?_bhlid=8f299cd56ad4a96609abae19c3a4be101c99626e&) { newsletter.programmingdigest.net }
+2024-11-17 [Exploring the browser rendering process](https://newsletter.programmingdigest.net/p/exploring-the-browser-rendering-process?_bhlid=8f299cd56ad4a96609abae19c3a4be101c99626e&) \{ newsletter.programmingdigest.net \}
 
-2024-12-01 [Legacy Shmegacy](https://newsletter.programmingdigest.net/p/legacy-shmegacy?_bhlid=bba0aad1e18abffa8615793ad298e9fa1ce7a62c&) { newsletter.programmingdigest.net }
+2024-12-01 [Legacy Shmegacy](https://newsletter.programmingdigest.net/p/legacy-shmegacy?_bhlid=bba0aad1e18abffa8615793ad298e9fa1ce7a62c&) \{ newsletter.programmingdigest.net \}
 
 
 
 ## Working with People
 
-2024-11-23 [Take the Thomas-Kilmann Instrument | Improve How You Resolve Conflict](https://kilmanndiagnostics.com/overview-thomas-kilmann-conflict-mode-instrument-tki/) {kilmanndiagnostics.com}
+2024-11-23 [Take the Thomas-Kilmann Instrument | Improve How You Resolve Conflict](https://kilmanndiagnostics.com/overview-thomas-kilmann-conflict-mode-instrument-tki/) \{kilmanndiagnostics.com\}
 
 > ![image-20241123122604326](2024-12-01-links-from-my-inbox.assets/image-20241123122604326.png)
 >
 > Related:
 >
-> * 2024-11-23 [Guide to the Thomas-Kilmann Conflict Model - My Professional Development](https://mypd.co.uk/guide-to-the-thomas-kilmann-conflict-model/) {mypd.co.uk}
-> * 2024-11-23 [Thomas-Kilmann Conflict Mode Instrument (TKI®) | The Myers-Briggs Company](https://www.themyersbriggs.com/en-US/Products-and-Services/TKI/) {www.themyersbriggs.com}
+> * 2024-11-23 [Guide to the Thomas-Kilmann Conflict Model - My Professional Development](https://mypd.co.uk/guide-to-the-thomas-kilmann-conflict-model/) \{mypd.co.uk\}
+> * 2024-11-23 [Thomas-Kilmann Conflict Mode Instrument (TKI®) | The Myers-Briggs Company](https://www.themyersbriggs.com/en-US/Products-and-Services/TKI/) \{www.themyersbriggs.com\}
 >
 > In conflict situations, individuals often exhibit different **behavioral strategies** based on their approach to managing disagreements. Avoiding is one strategy, and here are four others, alongside avoiding, commonly identified within conflict management models like the **Thomas-Kilmann Conflict Mode Instrument (TKI):**
 >
@@ -395,13 +395,13 @@ BibTeX entry for post:
 
 ## Wellbeing
 
-2024-11-03 [On Burnout, Mental Health, And Not Being Okay — Ludicity](https://ludic.mataroa.blog/blog/on-burnout-mental-health-and-not-being-okay/) { ludic.mataroa.blog }
+2024-11-03 [On Burnout, Mental Health, And Not Being Okay — Ludicity](https://ludic.mataroa.blog/blog/on-burnout-mental-health-and-not-being-okay/) \{ ludic.mataroa.blog \}
 
 > In this deeply personal blog post, the author reflects on the mental health struggles that many people face, sharing candid experiences with burnout and severe depression. They emphasize that everyone will have times when they are "Not Okay," and it's important to acknowledge this without shame. Through their own journey of overcoming hardship—ranging from academic pressures to toxic workplaces—they highlight the significance of seeking help, making lifestyle changes, and understanding that recovery is possible. The author encourages readers to care for themselves and others, reminding us that empathy and support can make a profound difference in navigating life's challenges.
 
 **✨ New wiki category**:
 
-2024-12-01 [Psy-Burnout (mental wellbeing)](https://blog.zharii.com/docs/psy-burnout) { blog.zharii.com }
+2024-12-01 [Psy-Burnout (mental wellbeing)](https://blog.zharii.com/docs/psy-burnout) \{ blog.zharii.com \}
 
 > ![image-20241201143408170](2024-12-01-links-from-my-inbox.assets/image-20241201143408170.png)
 
@@ -528,19 +528,19 @@ BibTeX entry for post:
 
 </details>
 
-2024-11-23 [Rendering “modern” Winamp skins in the browser / Jordan Eldredge](https://jordaneldredge.com/notes/webamp-modern/) { jordaneldredge.com }
+2024-11-23 [Rendering “modern” Winamp skins in the browser / Jordan Eldredge](https://jordaneldredge.com/notes/webamp-modern/) \{ jordaneldredge.com \}
 
 > ![image-20241122173439101](2024-12-01-links-from-my-inbox.assets/image-20241122173439101.png)
 
-2024-11-11 [Pieter.com - Pieter's Official Homepage](https://pieter.com/) { pieter.com }
+2024-11-11 [Pieter.com - Pieter's Official Homepage](https://pieter.com/) \{ pieter.com \}
 
 > ![image-20241110220126116](2024-12-01-links-from-my-inbox.assets/image-20241110220126116.png)
 
-2024-11-07 [MAX SIEDENTOPF — Passport Photos](https://maxsiedentopf.com/passport-photos/) { maxsiedentopf.com }
+2024-11-07 [MAX SIEDENTOPF — Passport Photos](https://maxsiedentopf.com/passport-photos/) \{ maxsiedentopf.com \}
 
 > ![image-20241106225118042](2024-12-01-links-from-my-inbox.assets/image-20241106225118042.png)
 
-2024-10-13 [stenzek/duckstation: Fast PlayStation 1 emulator for x86-64/AArch32/AArch64/RV64](https://github.com/stenzek/duckstation) { github.com }
+2024-10-13 [stenzek/duckstation: Fast PlayStation 1 emulator for x86-64/AArch32/AArch64/RV64](https://github.com/stenzek/duckstation) \{ github.com \}
 
 > DuckStation is an simulator/emulator of the Sony PlayStation(TM) console, focusing on playability, speed, and long-term maintainability. The goal is to be as accurate as possible while maintaining performance suitable for low-end devices. 
 > ![image-20241201135052551](2024-12-01-links-from-my-inbox.assets/image-20241201135052551.png)
@@ -564,17 +564,17 @@ BibTeX entry for post:
 > Advent of Code in Excel
 > ![image-20241201142055161](2024-12-01-links-from-my-inbox.assets/image-20241201142055161.png)
 
-2024-08-29 [Web Design Museum - Discover old websites, apps and software](https://www.webdesignmuseum.org/) { www.webdesignmuseum.org }
+2024-08-29 [Web Design Museum - Discover old websites, apps and software](https://www.webdesignmuseum.org/) \{ www.webdesignmuseum.org \}
 
 > ![image-20241201142134615](2024-12-01-links-from-my-inbox.assets/image-20241201142134615.png)
 
-2024-09-19 [crowdwave.com](https://www.crowdwave.com/) { www.crowdwave.com }
+2024-09-19 [crowdwave.com](https://www.crowdwave.com/) \{ www.crowdwave.com \}
 
 > Show HN: I made crowdwave – imagine Twitter/Reddit but every post is a voicemail
 >
 > ![image-20241201142255701](2024-12-01-links-from-my-inbox.assets/image-20241201142255701.png)
 
-2024-08-28 [Monkeytype | A minimalistic, customizable typing test](https://monkeytype.com/) { monkeytype.com }
+2024-08-28 [Monkeytype | A minimalistic, customizable typing test](https://monkeytype.com/) \{ monkeytype.com \}
 
 ![image-20240827232641786](2024-12-01-links-from-my-inbox.assets/image-20240827232641786.png)
 
@@ -582,57 +582,57 @@ BibTeX entry for post:
 
 ## Inspiration!
 
-> 2024-12-01 [Andrew Ayer in the Fediverse](https://follow.agwa.name/notice/AoZSMI38xcA3TrN1sm) { follow.agwa.name }
+> 2024-12-01 [Andrew Ayer in the Fediverse](https://follow.agwa.name/notice/AoZSMI38xcA3TrN1sm) \{ follow.agwa.name \}
 >
 > I honestly liked the design and layout
 >
 > ![image-20241130200134882](2024-12-01-links-from-my-inbox.assets/image-20241130200134882.png)
 >
-> 2024-12-01 [To the Fediverse!](https://www.fediverse.to/) { www.fediverse.to }
+> 2024-12-01 [To the Fediverse!](https://www.fediverse.to/) \{ www.fediverse.to \}
 > ![image-20241130200321657](2024-12-01-links-from-my-inbox.assets/image-20241130200321657.png)
 
-2024-12-01 [Pleroma — a lightweight fediverse server](https://pleroma.social/) { pleroma.social }
+2024-12-01 [Pleroma — a lightweight fediverse server](https://pleroma.social/) \{ pleroma.social \}
 
 > ![image-20241130200618867](2024-12-01-links-from-my-inbox.assets/image-20241130200618867.png)
 >
-> 2024-12-01 [src/App.scss · develop · Pleroma / pleroma-fe · GitLab](https://git.pleroma.social/pleroma/pleroma-fe/-/blob/develop/src/App.scss?ref_type=heads) { git.pleroma.social }
+> 2024-12-01 [src/App.scss · develop · Pleroma / pleroma-fe · GitLab](https://git.pleroma.social/pleroma/pleroma-fe/-/blob/develop/src/App.scss?ref_type=heads) \{ git.pleroma.social \}
 > Some good examples for using css variables with scss 
 > ![image-20241130201016998](2024-12-01-links-from-my-inbox.assets/image-20241130201016998.png)
 
-2024-11-30 [GitHub - tldraw/make-real: Draw a ui and make it real](https://github.com/tldraw/make-real) {github.com}
+2024-11-30 [GitHub - tldraw/make-real: Draw a ui and make it real](https://github.com/tldraw/make-real) \{github.com\}
 
-> 2024-11-30 [make real • tldraw](https://makereal.tldraw.com/) {makereal.tldraw.com}
+> 2024-11-30 [make real • tldraw](https://makereal.tldraw.com/) \{makereal.tldraw.com\}
 >
-> 2024-11-30 [GitHub - SawyerHood/draw-a-ui: Draw a mockup and generate html for it](https://github.com/SawyerHood/draw-a-ui) {github.com} ✨FORK SOURCE✨
+> 2024-11-30 [GitHub - SawyerHood/draw-a-ui: Draw a mockup and generate html for it](https://github.com/SawyerHood/draw-a-ui) \{github.com\} ✨FORK SOURCE✨
 >
 > ![image-20241130115413381](2024-12-01-links-from-my-inbox.assets/image-20241130115413381.png)
 > ![image-20241130115438468](2024-12-01-links-from-my-inbox.assets/image-20241130115438468.png)
 >
-> 2024-11-30 [tldraw | Steve Ruiz | Substack](https://tldraw.substack.com/) {tldraw.substack.com}
+> 2024-11-30 [tldraw | Steve Ruiz | Substack](https://tldraw.substack.com/) \{tldraw.substack.com\}
 >
 > ![image-20241130151615673](2024-12-01-links-from-my-inbox.assets/image-20241130151615673.png)
 
-2024-11-27 [Text Blaze: Snippets and Templates for Chrome](https://blaze.today/) {blaze.today}
+2024-11-27 [Text Blaze: Snippets and Templates for Chrome](https://blaze.today/) \{blaze.today\}
 
 > ![image-20241127150049722](2024-12-01-links-from-my-inbox.assets/image-20241127150049722.png)
 
-2024-11-26 [Monocle · Access and transform immutable data](https://www.optics.dev/Monocle/) { www.optics.dev }
+2024-11-26 [Monocle · Access and transform immutable data](https://www.optics.dev/Monocle/) \{ www.optics.dev \}
 
 > ![image-20241125204603802](2024-12-01-links-from-my-inbox.assets/image-20241125204603802.png)
 
-2024-08-28 [The Monospace Web](https://owickstrom.github.io/the-monospace-web/) { owickstrom.github.io }
+2024-08-28 [The Monospace Web](https://owickstrom.github.io/the-monospace-web/) \{ owickstrom.github.io \}
 
 > ![image-20241201135223177](2024-12-01-links-from-my-inbox.assets/image-20241201135223177.png)
 >
 > ![image-20241201135322097](2024-12-01-links-from-my-inbox.assets/image-20241201135322097.png)
 
-2024-11-24 [triyanox/lla: A modern alternative to ls](https://github.com/triyanox/lla) { github.com }
+2024-11-24 [triyanox/lla: A modern alternative to ls](https://github.com/triyanox/lla) \{ github.com \}
 
 > aww! ls with plugins! 
 >
 > ![image-20241124135202355](2024-12-01-links-from-my-inbox.assets/image-20241124135202355.png)
 >
-> >2024-11-24 [I made an ls alternative for my personal use | Hacker News](https://news.ycombinator.com/item?id=42229003) { news.ycombinator.com }
+> >2024-11-24 [I made an ls alternative for my personal use | Hacker News](https://news.ycombinator.com/item?id=42229003) \{ news.ycombinator.com \}
 > >[elashri](https://news.ycombinator.com/user?id=elashri) There seems to be a lot of projects that is now competing to replace ls (for people preferences)
 > >
 > >For reference, those are the ones I am familiar with. They are somehow active in contrast to things like exa which is not maintained anymore.
@@ -653,11 +653,11 @@ BibTeX entry for post:
 > >
 > >Personally I prefer eza and wrote a zsh plugin that is basically aliases that matches what I have from my muscle memory.
 
-2024-11-24 [Frosted Glass from Games to the Web - tyleo.com](https://www.tyleo.com/html-glass.html) { www.tyleo.com }
+2024-11-24 [Frosted Glass from Games to the Web - tyleo.com](https://www.tyleo.com/html-glass.html) \{ www.tyleo.com \}
 
 > ![image-20241123212224379](2024-12-01-links-from-my-inbox.assets/image-20241123212224379.png)
 
-2024-11-20 [WebVM - Linux virtualization in WebAssembly](https://webvm.io/) { webvm.io }
+2024-11-20 [WebVM - Linux virtualization in WebAssembly](https://webvm.io/) \{ webvm.io \}
 
 ```
 +~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~+
@@ -679,45 +679,45 @@ BibTeX entry for post:
 +~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~+
 ```
 
-2024-11-08 [Home: Mushroom Color Atlas](https://www.mushroomcoloratlas.com/) { www.mushroomcoloratlas.com }
+2024-11-08 [Home: Mushroom Color Atlas](https://www.mushroomcoloratlas.com/) \{ www.mushroomcoloratlas.com \}
 
 > ![image-20241107222737497](2024-12-01-links-from-my-inbox.assets/image-20241107222737497.png)
 
-2024-11-07 [Your Hacker News](https://yourhackernews.com/) { yourhackernews.com }
+2024-11-07 [Your Hacker News](https://yourhackernews.com/) \{ yourhackernews.com \}
 
 > ![image-20241106225716990](2024-12-01-links-from-my-inbox.assets/image-20241106225716990.png)
 
-2024-11-07 [Aesop's Fables Interactive Book | Read.gov - Library of Congress](https://read.gov/aesop/) { read.gov }
+2024-11-07 [Aesop's Fables Interactive Book | Read.gov - Library of Congress](https://read.gov/aesop/) \{ read.gov \}
 
 > ![image-20241106224639993](2024-12-01-links-from-my-inbox.assets/image-20241106224639993.png)
 >
 > ![image-20241106224700805](2024-12-01-links-from-my-inbox.assets/image-20241106224700805.png)
 
-2024-11-07 [McMaster-Carr](https://www.mcmaster.com/) { www.mcmaster.com }
+2024-11-07 [McMaster-Carr](https://www.mcmaster.com/) \{ www.mcmaster.com \}
 
 > McMaster-Carr’s website, [www.mcmaster.com](http://www.mcmaster.com), is renowned for its speed, achieved through minimalist design, server-side rendering, and strategic use of technology like ASP.NET and JavaScript libraries. Prefetching techniques preload pages as users hover, ensuring near-instant navigation, while CDNs cache content globally to reduce latency. This streamlined, user-focused approach lets customers quickly access and order from McMaster-Carr’s extensive catalog, making it a leader in industrial supply and a favorite for its seamless, efficient experience.
 >
 > ![image-20241106224136854](2024-12-01-links-from-my-inbox.assets/image-20241106224136854.png)
 
-2024-10-05 [Methods of Mandarin](https://isaak.net/mandarinmethods/) { isaak.net }
+2024-10-05 [Methods of Mandarin](https://isaak.net/mandarinmethods/) \{ isaak.net \}
 
 > I got pretty good in Mandarin within 12 months of rigorous part-time study. I'm not even close to perfectly fluent, but I got far into intermediate fluency. Read my personal story of learning Mandarin here: [isaak.net/mandarin](https://isaak.net/mandarin)
 >
 > This post on my Methods of Mandarin (MoM) is for fellow language learners and autodidacts. This isn't a thorough how-to guide. I won't be holding your hand. It's more like a personal notebook of what worked for me. I'm sharing my personal Anki deck and then I'll describe all my methods and tips. People's styles and methods differ.
 
-2024-08-29 [sjpiper145/MakerSkillTree: A repository of Maker Skill Trees and templates to make your own.](https://github.com/sjpiper145/MakerSkillTree) { github.com }
+2024-08-29 [sjpiper145/MakerSkillTree: A repository of Maker Skill Trees and templates to make your own.](https://github.com/sjpiper145/MakerSkillTree) \{ github.com \}
 
 > ![image-20241201134630051](2024-12-01-links-from-my-inbox.assets/image-20241201134630051.png)
 
-2024-09-18 [Dune Shell](https://adam-mcdaniel.github.io/dune-website/) { adam-mcdaniel.github.io }
+2024-09-18 [Dune Shell](https://adam-mcdaniel.github.io/dune-website/) \{ adam-mcdaniel.github.io \}
 
 > ![image-20241201134722315](2024-12-01-links-from-my-inbox.assets/image-20241201134722315.png)
 
-2024-09-19 [Comic Mono | comic-mono-font](https://dtinth.github.io/comic-mono-font/) { dtinth.github.io }
+2024-09-19 [Comic Mono | comic-mono-font](https://dtinth.github.io/comic-mono-font/) \{ dtinth.github.io \}
 
 > ![image-20241201134806840](2024-12-01-links-from-my-inbox.assets/image-20241201134806840.png)
 
-2024-09-20 [Math4Devs: List of mathematical symbols with their JavaScript equivalent.](https://math4devs.com/) { math4devs.com }
+2024-09-20 [Math4Devs: List of mathematical symbols with their JavaScript equivalent.](https://math4devs.com/) \{ math4devs.com \}
 
 > ![image-20241201134847457](2024-12-01-links-from-my-inbox.assets/image-20241201134847457.png)
 

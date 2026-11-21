@@ -7,7 +7,7 @@ categories: links
 
 ## ⌚ Nice watch!
 
-2024-11-24 [Keynote: The Aging Programmer - Kate Gregory - YouTube](https://www.youtube.com/watch?v=LArOT95LTJU) { www.youtube.com }
+2024-11-24 [Keynote: The Aging Programmer - Kate Gregory - YouTube](https://www.youtube.com/watch?v=LArOT95LTJU) \{ www.youtube.com \}
 
 > ![image-20241123231812184](2024-11-24-links-from-my-inbox.assets/image-20241123231812184.png)
 >
@@ -67,7 +67,7 @@ categories: links
 >
 > Kate Gregory’s message emphasizes that aging well—whether as a programmer or in any field—requires proactive effort, adaptability, and a focus on joy and purpose.
 
-2024-11-23 [My Own Nightmare HR Manager Story (Tip: Every Company Has An A-Hole) - YouTube](https://www.youtube.com/watch?v=ltTW5NNTaS4) { www.youtube.com }
+2024-11-23 [My Own Nightmare HR Manager Story (Tip: Every Company Has An A-Hole) - YouTube](https://www.youtube.com/watch?v=ltTW5NNTaS4) \{ www.youtube.com \}
 
 > ![image-20241123000830712](2024-11-24-links-from-my-inbox.assets/image-20241123000830712.png)
 >
@@ -86,7 +86,7 @@ categories: links
 >
 > Corporate jerks are an unavoidable reality in most workplaces, but they don’t have to define your career. Use strategy, stay professional, and remember: you’re in control of your trajectory—not them. When necessary, don’t hesitate to move on to an environment where you can thrive.
 
-2024-11-23 [JavaScript in places you didn’t expect - YouTube](https://www.youtube.com/watch?v=tQ6fB7WClgw) { www.youtube.com }
+2024-11-23 [JavaScript in places you didn’t expect - YouTube](https://www.youtube.com/watch?v=tQ6fB7WClgw) \{ www.youtube.com \}
 
 > ![image-20241122165048524](2024-11-24-links-from-my-inbox.assets/image-20241122165048524.png)
 >
@@ -110,7 +110,7 @@ categories: links
 > **Why JavaScript?**
 > JavaScript enables faster iteration, broader developer accessibility, and reduced specialization needs. Whether it’s GNOME choosing it for extensibility or game studios adopting React for UI efficiency, its ubiquity stems from practical needs.
 
-2024-11-18 [The Most Important API Design Guideline - No, It's Not That One - Jody Hagins - C++Now 2024 - YouTube](https://www.youtube.com/watch?v=xzIeQWLDSu4) { www.youtube.com }
+2024-11-18 [The Most Important API Design Guideline - No, It's Not That One - Jody Hagins - C++Now 2024 - YouTube](https://www.youtube.com/watch?v=xzIeQWLDSu4) \{ www.youtube.com \}
 
 > This talk is fun, but more like theoretical and philosophical. 
 >
@@ -199,11 +199,11 @@ This approach guarantees that the `join` function works as expected across diver
 
 **Links**
 
-2024-11-18 [emil-e/rapidcheck: QuickCheck clone for C++ with the goal of being simple to use with as little boilerplate as possible.](https://github.com/emil-e/rapidcheck) { github.com }
+2024-11-18 [emil-e/rapidcheck: QuickCheck clone for C++ with the goal of being simple to use with as little boilerplate as possible.](https://github.com/emil-e/rapidcheck) \{ github.com \}
 
 ---
 
-2024-11-19 [Stop Solving Problems for Your Development Team! - YouTube](https://www.youtube.com/watch?v=XuCGItsAHXQ) { www.youtube.com }
+2024-11-19 [Stop Solving Problems for Your Development Team! - YouTube](https://www.youtube.com/watch?v=XuCGItsAHXQ) \{ www.youtube.com \}
 
 > ![image-20241118223517019](2024-11-24-links-from-my-inbox.assets/image-20241118223517019.png)
 >
@@ -251,7 +251,7 @@ This approach guarantees that the `join` function works as expected across diver
 >    - **Debugging and Troubleshooting**: When assisting with debugging, ask team members to consider alternative solutions or explain their thought process rather than simply fixing the problem.
 >    - **Project Planning**: Encourage team members to independently explore solutions to potential obstacles by asking them to consider all options and resources available.
 
-2024-11-24 [How regexes got catastrophic - YouTube](https://www.youtube.com/watch?v=gITmP0IWff0) { www.youtube.com }
+2024-11-24 [How regexes got catastrophic - YouTube](https://www.youtube.com/watch?v=gITmP0IWff0) \{ www.youtube.com \}
 
 > ![image-20241124120931384](2024-11-24-links-from-my-inbox.assets/image-20241124120931384.png)
 >

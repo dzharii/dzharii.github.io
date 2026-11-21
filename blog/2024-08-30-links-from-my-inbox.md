@@ -11,7 +11,7 @@ categories: links
 
 ## How the things work
 
-2024-08-31 [Hypervisor From Scratch - Part 1: Basic Concepts & Configure Testing Environment | Rayanfam Blog](https://rayanfam.com/topics/hypervisor-from-scratch-part-1/) { rayanfam.com }
+2024-08-31 [Hypervisor From Scratch - Part 1: Basic Concepts & Configure Testing Environment | Rayanfam Blog](https://rayanfam.com/topics/hypervisor-from-scratch-part-1/) \{ rayanfam.com \}
 
 > # Hypervisor From Scratch
 > 
@@ -28,13 +28,13 @@ categories: links
 >
 > [https://github.com/SinaKarvandi/Hypervisor-From-Scratch/]
 
-2024-08-31 [Reversing Windows Internals (Part 1) - Digging Into Handles, Callbacks & ObjectTypes | Rayanfam Blog](https://rayanfam.com/topics/reversing-windows-internals-part1/) { rayanfam.com }
+2024-08-31 [Reversing Windows Internals (Part 1) - Digging Into Handles, Callbacks & ObjectTypes | Rayanfam Blog](https://rayanfam.com/topics/reversing-windows-internals-part1/) \{ rayanfam.com \}
 
-2024-08-31 [A Tour of Mount in Linux | Rayanfam Blog](https://rayanfam.com/topics/mount-in-linux/) { rayanfam.com }
+2024-08-31 [A Tour of Mount in Linux | Rayanfam Blog](https://rayanfam.com/topics/mount-in-linux/) \{ rayanfam.com \}
 
 > ![image-20240830200258339](./2024-08-30-links-from-my-inbox.assets/image-20240830200258339.png)
 
-2024-09-01 [tandasat/Hypervisor-101-in-Rust: ](https://github.com/tandasat/Hypervisor-101-in-Rust) { github.com } 
+2024-09-01 [tandasat/Hypervisor-101-in-Rust: ](https://github.com/tandasat/Hypervisor-101-in-Rust) \{ github.com \}
 
 > The materials of "Hypervisor 101 in Rust", a one-day long course, to quickly learn hardware-assisted virtualization technology and its application for high-performance fuzzing on Intel/AMD processors.
 >
@@ -46,11 +46,11 @@ categories: links
 
 ## SAML
 
-2024-09-02 [A gentle introduction to SAML | SSOReady](https://ssoready.com/blog/engineering/a-gentle-intro-to-saml/) { ssoready.com }
+2024-09-02 [A gentle introduction to SAML | SSOReady](https://ssoready.com/blog/engineering/a-gentle-intro-to-saml/) \{ ssoready.com \}
 
 > ![image-20240901234406239](./2024-08-30-links-from-my-inbox.assets/image-20240901234406239.png)
 
-2024-09-02 [Visual explanation of SAML authentication](https://www.sheshbabu.com/posts/visual-explanation-of-saml-authentication/) { www.sheshbabu.com }
+2024-09-02 [Visual explanation of SAML authentication](https://www.sheshbabu.com/posts/visual-explanation-of-saml-authentication/) \{ www.sheshbabu.com \}
 
 > ![image-20240901233107815](./2024-08-30-links-from-my-inbox.assets/image-20240901233107815.png)
 
@@ -58,7 +58,7 @@ categories: links
 
 ## :thinking: Tricks! 
 
-2024-09-02 [saving my git email from spam](https://halb.it/posts/github-email/) { halb.it }
+2024-09-02 [saving my git email from spam](https://halb.it/posts/github-email/) \{ halb.it \}
 
 > Github has a cool option that replaces your private email with a noreply github email, which looks like this: `14497532+username@users.noreply.github.com`. You just have to enable “keep my email address private” in the email settings. You can read the details in the github guide for [setting your email privacy](https://docs.github.com/en/account-and-profile/setting-up-and-managing-your-personal-account-on-github/managing-email-preferences/setting-your-commit-email-address).
 >
@@ -68,7 +68,7 @@ categories: links
 
 ## CRDT
 
-2024-09-01 [Movable tree CRDTs and Loro's implementation – Loro](https://loro.dev/blog/movable-tree) { loro.dev }
+2024-09-01 [Movable tree CRDTs and Loro's implementation – Loro](https://loro.dev/blog/movable-tree) \{ loro.dev \}
 
 > This article introduces the implementation difficulties and challenges of Movable Tree CRDTs when collaboration, and how Loro implements it and sorts child nodes. 
 
@@ -76,7 +76,7 @@ categories: links
 
 ## Art and Assets
 
-2024-09-01 [Public Work by Cosmos](https://public.work/) { public.work }
+2024-09-01 [Public Work by Cosmos](https://public.work/) \{ public.work \}
 
 > ![image-20240901005017480](./2024-08-30-links-from-my-inbox.assets/image-20240901005017480.png)
 
@@ -84,11 +84,11 @@ categories: links
 
 ##  Game Theory 101
 
-2024-09-01 ⭐️  [Game Theory 101 (#1): Introduction - YouTube](https://www.youtube.com/watch?v=NSVmOC_5zrE&list=PLKI1h_nAkaQoDzI4xDIXzx6U2ergFmedo) { www.youtube.com }
+2024-09-01 ⭐️  [Game Theory 101 (#1): Introduction - YouTube](https://www.youtube.com/watch?v=NSVmOC_5zrE&list=PLKI1h_nAkaQoDzI4xDIXzx6U2ergFmedo) \{ www.youtube.com \}
 
 > ![image-20240901010905811](./2024-08-30-links-from-my-inbox.assets/image-20240901010905811.png)
 
-2024-09-01 [Finding Nash Equilibria through Simulation](https://coe.psu.ac.th/ad/nashSim/) { coe.psu.ac.th }
+2024-09-01 [Finding Nash Equilibria through Simulation](https://coe.psu.ac.th/ad/nashSim/) \{ coe.psu.ac.th \}
 
 > ![image-20240901011057303](./2024-08-30-links-from-my-inbox.assets/image-20240901011057303.png)
 
@@ -96,31 +96,31 @@ categories: links
 
 ## (Emacs)
 
-2024-09-01 [A Simple Guide to Writing & Publishing Emacs Packages](https://spin.atomicobject.com/write-emacs-package/) { spin.atomicobject.com }
+2024-09-01 [A Simple Guide to Writing & Publishing Emacs Packages](https://spin.atomicobject.com/write-emacs-package/) \{ spin.atomicobject.com \}
 
 > ![image-20240901153404884](./2024-08-30-links-from-my-inbox.assets/image-20240901153404884.png)
 
-2024-09-01 [Emacs starter kit](https://emacs-config-generator.fly.dev/) { emacs-config-generator.fly.dev }
+2024-09-01 [Emacs starter kit](https://emacs-config-generator.fly.dev/) \{ emacs-config-generator.fly.dev \}
 
 > ![image-20240901153233791](./2024-08-30-links-from-my-inbox.assets/image-20240901153233791.png)
 
-2024-09-01 [dot-files/emacs-blog.org at 1b54fe75d74670dc7bcbb6b01ea560c45528c628 · howardabrams/dot-files](https://github.com/howardabrams/dot-files/blob/1b54fe75d74670dc7bcbb6b01ea560c45528c628/emacs-blog.org#L108) { github.com }
+2024-09-01 [dot-files/emacs-blog.org at 1b54fe75d74670dc7bcbb6b01ea560c45528c628 · howardabrams/dot-files](https://github.com/howardabrams/dot-files/blob/1b54fe75d74670dc7bcbb6b01ea560c45528c628/emacs-blog.org#L108) \{ github.com \}
 
 > ![image-20240901152917238](./2024-08-30-links-from-my-inbox.assets/image-20240901152917238.png)
 
-2024-08-31 ⭐️ [The Organized Life - An Expert‘s Guide to Emacs Org-Mode – TheLinuxCode](https://thelinuxcode.com/emacs-org_mode_part1/) { thelinuxcode.com }
+2024-08-31 ⭐️ [The Organized Life - An Expert‘s Guide to Emacs Org-Mode – TheLinuxCode](https://thelinuxcode.com/emacs-org_mode_part1/) \{ thelinuxcode.com \}
 
-2024-08-31 ⭐️ [Mastering Organization with Emacs Org Mode: A Complete Guide for Beginners – TheLinuxCode](https://thelinuxcode.com/emacs-org-mode-tutorial/) { thelinuxcode.com }
+2024-08-31 ⭐️ [Mastering Organization with Emacs Org Mode: A Complete Guide for Beginners – TheLinuxCode](https://thelinuxcode.com/emacs-org-mode-tutorial/) \{ thelinuxcode.com \}
 
 > ![image-20240830193810145](./2024-08-30-links-from-my-inbox.assets/image-20240830193810145.png)
 
 
 
-2024-08-30 [chrisdone-archive/elisp-guide: A quick guide to Emacs Lisp programming](https://github.com/chrisdone-archive/elisp-guide) { github.com }
+2024-08-30 [chrisdone-archive/elisp-guide: A quick guide to Emacs Lisp programming](https://github.com/chrisdone-archive/elisp-guide) \{ github.com \}
 
 > ![image-20240830134758680](./2024-08-30-links-from-my-inbox.assets/image-20240830134758680.png)
 
-2024-08-30 [Getting Started With Emacs Lisp Hands On - A Practical Beginners Tutorial – Ben Windsor – Strat at an investment bank](https://benwindsorcode.github.io/Getting-Started-With-Emacs-Lisp/) { benwindsorcode.github.io }
+2024-08-30 [Getting Started With Emacs Lisp Hands On - A Practical Beginners Tutorial – Ben Windsor – Strat at an investment bank](https://benwindsorcode.github.io/Getting-Started-With-Emacs-Lisp/) \{ benwindsorcode.github.io \}
 
 > ![image-20240830135224690](./2024-08-30-links-from-my-inbox.assets/image-20240830135224690.png)
 
@@ -128,15 +128,15 @@ categories: links
 
 ## Retro / Fun
 
-2024-08-30 [VisiCalc - The Early History - Peter Jennings](https://benlo.com/visicalc/) { benlo.com }
+2024-08-30 [VisiCalc - The Early History - Peter Jennings](https://benlo.com/visicalc/) \{ benlo.com \}
 
 ![image-20240830135448117](./2024-08-30-links-from-my-inbox.assets/image-20240830135448117.png)
 
-2024-09-01 [paperclips](https://www.decisionproblem.com/paperclips/index2.html) { www.decisionproblem.com }
+2024-09-01 [paperclips](https://www.decisionproblem.com/paperclips/index2.html) \{ www.decisionproblem.com \}
 
 > ![image-20240901153052859](./2024-08-30-links-from-my-inbox.assets/image-20240901153052859.png)
 
-2024-09-02 [Seiko Originals: The UC-2000, A Smartwatch from 1984 – namokiMODS](https://www.namokimods.com/blogs/namokitimes/seiko-originals-the-uc-2000-a-smartwatch-from-1984) { www.namokimods.com }
+2024-09-02 [Seiko Originals: The UC-2000, A Smartwatch from 1984 – namokiMODS](https://www.namokimods.com/blogs/namokitimes/seiko-originals-the-uc-2000-a-smartwatch-from-1984) \{ www.namokimods.com \}
 
 > ![image-20240901235821210](./2024-08-30-links-from-my-inbox.assets/image-20240901235821210.png)
 
@@ -144,7 +144,7 @@ categories: links
 
 ## Inspiration
 
-2024-09-02 [Navigating Corporate Giants Jeffrey Snover and the Making of PowerShell - CoRecursive Podcast](https://corecursive.com/building-powershell-with-jeffrey-snover/) { corecursive.com }
+2024-09-02 [Navigating Corporate Giants Jeffrey Snover and the Making of PowerShell - CoRecursive Podcast](https://corecursive.com/building-powershell-with-jeffrey-snover/) \{ corecursive.com \}
 
 > ![image-20240902001457920](./2024-08-30-links-from-my-inbox.assets/image-20240902001457920.png)
 >
@@ -168,39 +168,39 @@ categories: links
 
 
 
-2024-09-02 [Netflix/maestro: Maestro: Netflix’s Workflow Orchestrator](https://github.com/Netflix/maestro) { github.com }
+2024-09-02 [Netflix/maestro: Maestro: Netflix’s Workflow Orchestrator](https://github.com/Netflix/maestro) \{ github.com \}
 
 > ![image-20240901234630103](./2024-08-30-links-from-my-inbox.assets/image-20240901234630103.png)
 
-2024-09-01 [The Scale of Life](https://www.thescaleoflife.com/) { www.thescaleoflife.com }
+2024-09-01 [The Scale of Life](https://www.thescaleoflife.com/) \{ www.thescaleoflife.com \}
 
 > ![image-20240901153703324](./2024-08-30-links-from-my-inbox.assets/image-20240901153703324.png)
 
-2024-09-01 [opslane/opslane: Making on-call suck less for engineers](https://github.com/opslane/opslane) { github.com }
+2024-09-01 [opslane/opslane: Making on-call suck less for engineers](https://github.com/opslane/opslane) \{ github.com \}
 
 > ![image-20240901152737861](./2024-08-30-links-from-my-inbox.assets/image-20240901152737861.png)
 
-2024-09-01 [Azure Quantum | Learn with quantum katas](https://quantum.microsoft.com/en-us/experience/quantum-katas) { quantum.microsoft.com }
+2024-09-01 [Azure Quantum | Learn with quantum katas](https://quantum.microsoft.com/en-us/experience/quantum-katas) \{ quantum.microsoft.com \}
 
 > ![image-20240901152236367](./2024-08-30-links-from-my-inbox.assets/image-20240901152236367.png)
 
->  2024-09-01 [microsoft/QuantumKatas: Tutorials and programming exercises for learning Q# and quantum computing](https://github.com/microsoft/QuantumKatas?tab=readme-ov-file) { github.com }
+>  2024-09-01 [microsoft/QuantumKatas: Tutorials and programming exercises for learning Q# and quantum computing](https://github.com/microsoft/QuantumKatas?tab=readme-ov-file) \{ github.com \}
 
 
 
-2024-09-01 [EP122: API Gateway 101 - ByteByteGo Newsletter](https://blog.bytebytego.com/p/ep122-api-gateway-101) { blog.bytebytego.com }
+2024-09-01 [EP122: API Gateway 101 - ByteByteGo Newsletter](https://blog.bytebytego.com/p/ep122-api-gateway-101) \{ blog.bytebytego.com \}
 
 ![](./2024-08-30-links-from-my-inbox.assets/8725cbb8-4c30-413c-b623-4ca9e235f6d0_1280x1664.webp)
 
 
 
-2024-09-01 [pladams9/hexsheets: A basic spreadsheet application with hexagonal cells inspired by: http://www.secretgeek.net/hexcel.](https://github.com/pladams9/hexsheets) { github.com }
+2024-09-01 [pladams9/hexsheets: A basic spreadsheet application with hexagonal cells inspired by: http://www.secretgeek.net/hexcel.](https://github.com/pladams9/hexsheets) \{ github.com \}
 
 > ![image-20240901010426062](./2024-08-30-links-from-my-inbox.assets/image-20240901010426062.png)
 
 
 
-2024-09-01 [Do Quests, Not Goals](https://www.raptitude.com/2024/08/do-quests-not-goals/) { www.raptitude.com }
+2024-09-01 [Do Quests, Not Goals](https://www.raptitude.com/2024/08/do-quests-not-goals/) \{ www.raptitude.com \}
 
 > The other problem with goals is that, outside of sports, “goal” has become an uninspiring, institutional word. Goals are things your teachers and managers have for you. Goals are made of quotas and Key Performance Indicators. As soon as I write the word “goals” on a sheet of paper I get drowsy.
 
@@ -220,7 +220,7 @@ categories: links
 > - Complete a classical guitar program
 > - Make an “If I get hit by a bus” folder for my family
 
-2024-08-30 [oTranscribe](https://otranscribe.com/) { otranscribe.com }
+2024-08-30 [oTranscribe](https://otranscribe.com/) \{ otranscribe.com \}
 
 ![image-20240830135922316](./2024-08-30-links-from-my-inbox.assets/image-20240830135922316.png)
 
@@ -228,7 +228,7 @@ categories: links
 
 ## Security
 
-2024-08-31 [The State of Application Security 2023 • Sebastian Brandes • GOTO 2023 - YouTube](https://www.youtube.com/watch?v=BX0TVzHOJgQ) { www.youtube.com }
+2024-08-31 [The State of Application Security 2023 • Sebastian Brandes • GOTO 2023 - YouTube](https://www.youtube.com/watch?v=BX0TVzHOJgQ) \{ www.youtube.com \}
 
 ![image-20240830192609064](./2024-08-30-links-from-my-inbox.assets/image-20240830192609064.png)
 
@@ -247,11 +247,11 @@ categories: links
 >
 > > "Web application firewalls can maybe do something, but they’re not going to save you. It’s much, much better to go ahead and fix the actual issues in your application."
 
-2024-08-30 [BeEF - The Browser Exploitation Framework Project](https://beefproject.com/) { beefproject.com }
+2024-08-30 [BeEF - The Browser Exploitation Framework Project](https://beefproject.com/) \{ beefproject.com \}
 
 ![image-20240830140152625](./2024-08-30-links-from-my-inbox.assets/image-20240830140152625.png)
 
-2024-08-31 [stack-auth/stack: Open-source Clerk/Auth0 alternative](https://github.com/stack-auth/stack) { github.com }
+2024-08-31 [stack-auth/stack: Open-source Clerk/Auth0 alternative](https://github.com/stack-auth/stack) \{ github.com \}
 
 > Stack Auth is a managed user authentication solution. It is developer-friendly and fully open-source (licensed under MIT and AGPL).
 >
@@ -262,7 +262,7 @@ categories: links
 
 ## Markdown
 
-2024-09-02 [romansky/dom-to-semantic-markdown: DOM to Semantic-Markdown for use in LLMs](https://github.com/romansky/dom-to-semantic-markdown) { github.com }
+2024-09-02 [romansky/dom-to-semantic-markdown: DOM to Semantic-Markdown for use in LLMs](https://github.com/romansky/dom-to-semantic-markdown) \{ github.com \}
 
 > ![image-20240901232517227](./2024-08-30-links-from-my-inbox.assets/image-20240901232517227.png)
 
@@ -270,11 +270,11 @@ categories: links
 
 ## C || C++
 
-2024-09-02 [Faster Integer Parsing](https://kholdstare.github.io/technical/2020/05/26/faster-integer-parsing.html) { kholdstare.github.io }
+2024-09-02 [Faster Integer Parsing](https://kholdstare.github.io/technical/2020/05/26/faster-integer-parsing.html) \{ kholdstare.github.io \}
 
 > ![image-20240901233314132](./2024-08-30-links-from-my-inbox.assets/image-20240901233314132.png)
 
-2024-09-01 [c++ - What is the curiously recurring template pattern (CRTP)? - Stack Overflow](https://stackoverflow.com/questions/4173254/what-is-the-curiously-recurring-template-pattern-crtp) { stackoverflow.com }
+2024-09-01 [c++ - What is the curiously recurring template pattern (CRTP)? - Stack Overflow](https://stackoverflow.com/questions/4173254/what-is-the-curiously-recurring-template-pattern-crtp) \{ stackoverflow.com \}
 
 > ![image-20240901144719965](./2024-08-30-links-from-my-inbox.assets/image-20240901144719965.png)
 >
@@ -284,13 +284,13 @@ categories: links
 
 ## The Era of AI
 
-2024-09-02 [txtai](https://neuml.github.io/txtai/) { neuml.github.io }
+2024-09-02 [txtai](https://neuml.github.io/txtai/) \{ neuml.github.io \}
 
 > txtai is an all-in-one embeddings database for semantic search, LLM orchestration and language model workflows.
 >
 > ![image-20240901235351463](./2024-08-30-links-from-my-inbox.assets/image-20240901235351463.png)
 
-2024-09-02 [Solving the out-of-context chunk problem for RAG](https://d-star.ai/solving-the-out-of-context-chunk-problem-for-rag) { d-star.ai }
+2024-09-02 [Solving the out-of-context chunk problem for RAG](https://d-star.ai/solving-the-out-of-context-chunk-problem-for-rag) \{ d-star.ai \}
 
 > Many of the problems developers face with RAG come down to this: Individual chunks don’t contain sufficient context to be properly used by the retrieval system or the LLM. This leads to the inability to answer seemingly simple questions and, more worryingly, hallucinations.
 >
@@ -302,15 +302,15 @@ categories: links
 > - Naive chunking can lead to text being split “mid-thought” leaving neither chunk with useful context.
 > - Individual chunks oftentimes only make sense in the context of the entire section or document, and can be misleading when read on their own.
 
-2024-08-30 [MahmoudAshraf97/whisper-diarization: Automatic Speech Recognition with Speaker Diarization based on OpenAI Whisper](https://github.com/MahmoudAshraf97/whisper-diarization) { github.com }
+2024-08-30 [MahmoudAshraf97/whisper-diarization: Automatic Speech Recognition with Speaker Diarization based on OpenAI Whisper](https://github.com/MahmoudAshraf97/whisper-diarization) \{ github.com \}
 
-2024-08-30 [openai/whisper: Robust Speech Recognition via Large-Scale Weak Supervision](https://github.com/openai/whisper) { github.com }
+2024-08-30 [openai/whisper: Robust Speech Recognition via Large-Scale Weak Supervision](https://github.com/openai/whisper) \{ github.com \}
 
-2024-08-30 [ggerganov/whisper.cpp: Port of OpenAI's Whisper model in C/C++](https://github.com/ggerganov/whisper.cpp) { github.com }
+2024-08-30 [ggerganov/whisper.cpp: Port of OpenAI's Whisper model in C/C++](https://github.com/ggerganov/whisper.cpp) \{ github.com \}
 
-2024-09-01 [microsoft/semantic-kernel: Integrate cutting-edge LLM technology quickly and easily into your apps](https://github.com/microsoft/semantic-kernel) { github.com }
+2024-09-01 [microsoft/semantic-kernel: Integrate cutting-edge LLM technology quickly and easily into your apps](https://github.com/microsoft/semantic-kernel) \{ github.com \}
 
-2024-09-01 [How to add genuinely useful AI to your webapp (not just chatbots) - Steve Sanderson - YouTube](https://www.youtube.com/watch?v=TSNAvFJoP4M) { www.youtube.com }
+2024-09-01 [How to add genuinely useful AI to your webapp (not just chatbots) - Steve Sanderson - YouTube](https://www.youtube.com/watch?v=TSNAvFJoP4M) \{ www.youtube.com \}
 
 > ![image-20240901012420483](./2024-08-30-links-from-my-inbox.assets/image-20240901012420483.png)
 >
@@ -347,15 +347,15 @@ categories: links
 
 ## Job interview / Algorithms
 
-2024-09-01 [Understanding B-Trees: The Data Structure Behind Modern Databases - YouTube](https://www.youtube.com/watch?v=K1a2Bk8NrYQ) { www.youtube.com }
+2024-09-01 [Understanding B-Trees: The Data Structure Behind Modern Databases - YouTube](https://www.youtube.com/watch?v=K1a2Bk8NrYQ) \{ www.youtube.com \}
 
 > ![image-20240901011314149](./2024-08-30-links-from-my-inbox.assets/image-20240901011314149.png)
 
 ### Editing Distance
 
-2024-09-02 [Needleman–Wunsch algorithm - Wikipedia](https://en.wikipedia.org/wiki/Needleman%E2%80%93Wunsch_algorithm) { en.wikipedia.org }
+2024-09-02 [Needleman–Wunsch algorithm - Wikipedia](https://en.wikipedia.org/wiki/Needleman%E2%80%93Wunsch_algorithm) \{ en.wikipedia.org \}
 
-2024-09-02 [Levenshtein distance - Wikipedia](https://en.wikipedia.org/wiki/Levenshtein_distance) { en.wikipedia.org }
+2024-09-02 [Levenshtein distance - Wikipedia](https://en.wikipedia.org/wiki/Levenshtein_distance) \{ en.wikipedia.org \}
 
 ```js
 function LevenshteinDistance(char s[1..m], char t[1..n]):

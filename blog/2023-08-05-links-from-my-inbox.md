@@ -184,12 +184,12 @@ categories: links
 > A structure is declared by the keyword **struct** followed by the name of the new structure and a list of its members enclosed in parentheses:
 >
 > ```c
-> struct s {
+> struct s \{
 >     char a;
 >     int b;
 >     double c;
 >     char d[10];
-> };
+> \};
 > ```
 >
 > Here we declared a new structure with the name **s** that has the members **a** (a single character), **b** (an integer), **c** (a double), and **d** (a char array of size 10 which can store up to 9 characters and a terminating null character).

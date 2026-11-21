@@ -1,10 +1,10 @@
 
 
-2024-12-30 [The Data Structures and Algorithms Interview](https://www.dataexpert.io/course/the-data-structures-and-algorithms-interview) { www.dataexpert.io }
+2024-12-30 [The Data Structures and Algorithms Interview](https://www.dataexpert.io/course/the-data-structures-and-algorithms-interview) \{ www.dataexpert.io \}
 
 > Data structures and algorithms interviews make some data engineers scream and others cry. Although there are a rare few who smile when barraged with a list of difficult questions pulled from Leetcode. In this newsletter, I’m not trying to turn you into a masochist who LOVES these types of interviews; I’m trying my best to minimize the fear and uncertainty 
 
-2024-12-30 [data-engineer-handbook/interviews.md at main · DataExpert-io/data-engineer-handbook](https://github.com/DataExpert-io/data-engineer-handbook/blob/main/interviews.md) { github.com }
+2024-12-30 [data-engineer-handbook/interviews.md at main · DataExpert-io/data-engineer-handbook](https://github.com/DataExpert-io/data-engineer-handbook/blob/main/interviews.md) \{ github.com \}
 
 > ![image-20241229193700144](workplace-interview-prep.assets/image-20241229193700144.png)
 

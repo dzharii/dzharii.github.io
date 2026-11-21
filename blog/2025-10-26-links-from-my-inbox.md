@@ -7,7 +7,7 @@ categories: links
 
 ## Good Reads
 
-2025-10-27 [Seeing like a software company](https://www.seangoedecke.com/seeing-like-a-software-company/) { www.seangoedecke.com }
+2025-10-27 [Seeing like a software company](https://www.seangoedecke.com/seeing-like-a-software-company/) \{ www.seangoedecke.com \}
 
 > Legibility is the product large software companies sell. Legible work is estimable, plannable, and explainable, even if it’s less efficient. Illegible work—fast patches, favors, side channels—gets things done but is invisible to executive oversight. Companies value legibility because it enables planning, compliance, and customer trust.
 >
@@ -21,11 +21,11 @@ categories: links
 >
 > ![image-20251026215853892](2025-10-26-links-from-my-inbox.assets/image-20251026215853892.png)
 
-2025-10-27 [Abstraction, not syntax](https://ruudvanasseldonk.com/2025/abstraction-not-syntax) { ruudvanasseldonk.com }
+2025-10-27 [Abstraction, not syntax](https://ruudvanasseldonk.com/2025/abstraction-not-syntax) \{ ruudvanasseldonk.com \}
 
 > ![image-20251026215455550](2025-10-26-links-from-my-inbox.assets/image-20251026215455550.png)
 
-2025-10-10 [My Approach to Building Large Technical Projects – Mitchell Hashimoto](https://mitchellh.com/writing/building-large-technical-projects) { mitchellh.com }
+2025-10-10 [My Approach to Building Large Technical Projects – Mitchell Hashimoto](https://mitchellh.com/writing/building-large-technical-projects) \{ mitchellh.com \}
 
 > ![image-20251009222639033](2025-10-26-links-from-my-inbox.assets/image-20251009222639033.png)
 >
@@ -33,7 +33,7 @@ categories: links
 >
 > Five takeaways: decompose into demoable chunks; write tests to create early wins; build quick demos regularly; adopt your own tool fast; loop back to improve once it works for you. Main advice: **always give myself a good demo**, **do not let perfection block progress**, **optimize for momentum**, **build only what I need now**, **iterate later with purpose**.
 
-2025-10-01 [Stop Avoiding Politics – Terrible Software](https://terriblesoftware.org/2025/10/01/stop-avoiding-politics/) { terriblesoftware.org }
+2025-10-01 [Stop Avoiding Politics – Terrible Software](https://terriblesoftware.org/2025/10/01/stop-avoiding-politics/) \{ terriblesoftware.org \}
 
 > ![image-20251001144303465](2025-10-26-links-from-my-inbox.assets/image-20251001144303465.png)
 >
@@ -45,12 +45,12 @@ categories: links
 > 4. **Creating win-win situations.** Instead of fighting for resources, find ways to help other teams while getting what you need. It doesn’t have to be a zero-sum game.
 > 5. **Being visible.** If you do great work but nobody knows about it, did it really happen? Share your wins, present at all-hands, write those design docs that everyone will reference later.
 
-2025-09-29 [Taking a Look at Compression Algorithms | Moncef Abboud](https://cefboud.com/posts/compression/) { cefboud.com }
+2025-09-29 [Taking a Look at Compression Algorithms | Moncef Abboud](https://cefboud.com/posts/compression/) \{ cefboud.com \}
 
 > ![image-20250929120137987](2025-10-26-links-from-my-inbox.assets/image-20250929120137987.png)
 > The article is a practical tour of lossless compression, focusing on how common schemes balance three levers: compression ratio, compression speed, and decompression speed. It explains core building blocks like LZ77 and Huffman coding, then dives into DEFLATE as used by gzip, before comparing speed and ratio tradeoffs across Snappy, LZ4, Brotli, and Zstandard. It also highlights implementation details from Go’s DEFLATE, and calls out features like dictionary compression in zstd.
 
-💖 2025-09-29 [Keeping Secrets Out of Logs - allan.reyes.sh](https://allan.reyes.sh/posts/keeping-secrets-out-of-logs/#-log-pre-processors) { allan.reyes.sh }
+💖 2025-09-29 [Keeping Secrets Out of Logs - allan.reyes.sh](https://allan.reyes.sh/posts/keeping-secrets-out-of-logs/#-log-pre-processors) \{ allan.reyes.sh \}
 
 > ![image-20250929163228032](2025-10-26-links-from-my-inbox.assets/image-20250929163228032.png)
 >
@@ -84,7 +84,7 @@ categories: links
 >
 > Plan response and recovery. When a leak happens: scope, restrict access, stop the source, clean stores and indexes, restore access, run a post-mortem, and harden to prevent recurrence.
 
-2025-09-29 [The yaml document from hell](https://ruudvanasseldonk.com/2023/01/11/the-yaml-document-from-hell) { ruudvanasseldonk.com }
+2025-09-29 [The yaml document from hell](https://ruudvanasseldonk.com/2023/01/11/the-yaml-document-from-hell) \{ ruudvanasseldonk.com \}
 
 > ![image-20250929121905645](2025-10-26-links-from-my-inbox.assets/image-20250929121905645.png)Ruud van Asseldonk’s article *The YAML Document from Hell* critiques YAML as overly complex and error-prone compared to JSON. Through detailed examples, he shows how YAML’s hidden features, ambiguous syntax, and inconsistent versioning can produce confusing or dangerous outcomes, making it risky for configuration files.
 >
@@ -105,32 +105,32 @@ categories: links
 
 ## 🛠️ How the things work
 
-2025-10-27 [Build Your Own Database](https://www.nan.fyi/database) { www.nan.fyi }
+2025-10-27 [Build Your Own Database](https://www.nan.fyi/database) \{ www.nan.fyi \}
 
 > If you were to build your own database today, not knowing that databases exist already, how would you do it? In this post, we'll explore how to build a **key-value database** from the ground up.
 > ![image-20251026210659851](2025-10-26-links-from-my-inbox.assets/image-20251026210659851.png)
 
-2025-10-27 [An Illustrated Introduction to Linear Algebra](https://www.ducktyped.org/p/an-illustrated-introduction-to-linear) { www.ducktyped.org }
+2025-10-27 [An Illustrated Introduction to Linear Algebra](https://www.ducktyped.org/p/an-illustrated-introduction-to-linear) \{ www.ducktyped.org \}
 
 > ![image-20251026215702717](2025-10-26-links-from-my-inbox.assets/image-20251026215702717.png)
 
 ## Activity tracking
 
-2025-10-06 [GitHub - ActivityWatch/activitywatch: The best free and open-source automated time tracker. Cross-platform, extensible, privacy-focused.](https://github.com/ActivityWatch/activitywatch) {github.com}
+2025-10-06 [GitHub - ActivityWatch/activitywatch: The best free and open-source automated time tracker. Cross-platform, extensible, privacy-focused.](https://github.com/ActivityWatch/activitywatch) \{github.com\}
 
 > ![image-20251005210310484](2025-10-26-links-from-my-inbox.assets/image-20251005210310484.png)
 >
 > Cross-platform automated activity tracker with watchers for active window titles and AFK detection. Data stored locally; JSONL and SQLite via modules. Add aw-watcher-input to count keypresses and mouse movement without recording the actual keys.
 >
-> 🐙🐈 [GitHub - ActivityWatch/activitywatch: The best free and open-source automated time tracker. Cross-platform, extensible, privacy-focused.](https://github.com/ActivityWatch/activitywatch) {github.com}
+> 🐙🐈 [GitHub - ActivityWatch/activitywatch: The best free and open-source automated time tracker. Cross-platform, extensible, privacy-focused.](https://github.com/ActivityWatch/activitywatch) \{github.com\}
 
-2025-10-06 [arbtt: the automatic, rule-based time tracker](https://arbtt.nomeata.de/) {arbtt.nomeata.de}
+2025-10-06 [arbtt: the automatic, rule-based time tracker](https://arbtt.nomeata.de/) \{arbtt.nomeata.de\}
 
 > ![image-20251005210426544](2025-10-26-links-from-my-inbox.assets/image-20251005210426544.png)
 >
-> 🐙🐈 [GitHub - nomeata/arbtt: arbtt, the automatic rule-based time-tracker](https://github.com/nomeata/arbtt) {github.com}
+> 🐙🐈 [GitHub - nomeata/arbtt: arbtt, the automatic rule-based time-tracker](https://github.com/nomeata/arbtt) \{github.com\}
 
-2025-10-06 [GitHub - MayGo/tockler: An application that tracks your time by monitoring your active window title and idle time.](https://github.com/MayGo/tockler/) {github.com}
+2025-10-06 [GitHub - MayGo/tockler: An application that tracks your time by monitoring your active window title and idle time.](https://github.com/MayGo/tockler/) \{github.com\}
 
 > ![image-20251005211424673](2025-10-26-links-from-my-inbox.assets/image-20251005211424673.png)
 >
@@ -150,7 +150,7 @@ categories: links
 > - **Interactive Timeline**: Visualize your computer usage with an interactive chart
 > - **Cross-Platform**: Available for Windows, macOS, and Linux
 
-2025-10-06 [Welcome to Workrave · Workrave](https://workrave.org/) {workrave.org}
+2025-10-06 [Welcome to Workrave · Workrave](https://workrave.org/) \{workrave.org\}
 
 > Take a break and relax
 > Workrave is a free program that assists in the recovery and prevention of Repetitive Strain Injury (RSI). It monitors your keyboard and mouse usage and using this information, it frequently alerts you to take microbreaks, rest breaks and restricts you to your daily computer usage.
@@ -161,15 +161,15 @@ categories: links
 >
 > ![image-20251005211842500](2025-10-26-links-from-my-inbox.assets/image-20251005211842500.png)
 >
-> 🐙🐈 2025-10-06 [GitHub - rcaelers/workrave: ](https://github.com/rcaelers/workrave) {github.com}
+> 🐙🐈 2025-10-06 [GitHub - rcaelers/workrave: ](https://github.com/rcaelers/workrave) \{github.com\}
 
 ## ADHD
 
-2025-10-01 [ADHD wiki — Explaining ADHD with memes](https://romankogan.net/adhd/) { romankogan.net }
+2025-10-01 [ADHD wiki — Explaining ADHD with memes](https://romankogan.net/adhd/) \{ romankogan.net \}
 
 > It’s a personal “ADHD wiki” by Roman Kogan: short, plain-language pages that explain common adult ADHD patterns (e.g., procrastination, perfectionism, prioritizing, planning), with concrete coping tips and meme-style illustrations; sections include ideas like “Body Double” and “False Dependency Chain.”
 >
-> See also: 2025-10-01 [Show HN: Autism Simulator | Hacker News](https://news.ycombinator.com/item?id=45438346) { news.ycombinator.com }
+> See also: 2025-10-01 [Show HN: Autism Simulator | Hacker News](https://news.ycombinator.com/item?id=45438346) \{ news.ycombinator.com \}
 
 > ![img](2025-10-26-links-from-my-inbox.assets/iceberg.jpg)
 
@@ -179,7 +179,7 @@ categories: links
 
 ## 👂 The Ear of AI (LLMs)
 
-2025-10-27 [LLMs Can Get "Brain Rot"!](https://llm-brain-rot.github.io/) { llm-brain-rot.github.io }
+2025-10-27 [LLMs Can Get "Brain Rot"!](https://llm-brain-rot.github.io/) \{ llm-brain-rot.github.io \}
 
 > Low quality data causes measurable cognitive decline in LLMs
 > The authors report that continually pretraining on junk data leads to statistically meaningful performance drops, with Hedges' g > 0.3 across reasoning, long context understanding, and safety.
@@ -187,17 +187,17 @@ categories: links
 >
 > ![image-20251026210759371](2025-10-26-links-from-my-inbox.assets/image-20251026210759371.png)
 
-2025-10-05 [Which Table Format Do LLMs Understand Best? (Results for 11 Formats)](https://www.improvingagents.com/blog/best-input-data-format-for-llms) { www.improvingagents.com }
+2025-10-05 [Which Table Format Do LLMs Understand Best? (Results for 11 Formats)](https://www.improvingagents.com/blog/best-input-data-format-for-llms) \{ www.improvingagents.com \}
 
 > Study tests 11 data formats for LLM table comprehension using GPT-4.1-nano on 1,000 records and 1,000 queries. Accuracy varies by format. Markdown-KV ranks highest at 60.7 percent, CSV and JSONL rank lowest near mid 40s. Higher accuracy costs more tokens, Markdown-KV uses about 2.7 times CSV. Markdown tables offer a balance of readability and cost. Use headers and consider repeating them for long tables. Results are limited to one model and one dataset. Try format transforms in your pipeline to improve accuracy, and validate on your own data.
 >
 > ![image-20251005102907707](2025-10-26-links-from-my-inbox.assets/image-20251005102907707.png)
 
-2025-10-27 [What Actually Happens When You Press ‘Send’ to ChatGPT](https://blog.bytebytego.com/p/what-actually-happens-when-you-press/) { blog.bytebytego.com }
+2025-10-27 [What Actually Happens When You Press ‘Send’ to ChatGPT](https://blog.bytebytego.com/p/what-actually-happens-when-you-press/) \{ blog.bytebytego.com \}
 
 > ![image-20251026205412821](2025-10-26-links-from-my-inbox.assets/image-20251026205412821.png)
 
-2025-10-06 [Stevens: a hackable AI assistant using a single SQLite table and a handful of cron jobs](https://www.geoffreylitt.com/2025/04/12/how-i-made-a-useful-ai-assistant-with-one-sqlite-table-and-a-handful-of-cron-jobs) { www.geoffreylitt.com }
+2025-10-06 [Stevens: a hackable AI assistant using a single SQLite table and a handful of cron jobs](https://www.geoffreylitt.com/2025/04/12/how-i-made-a-useful-ai-assistant-with-one-sqlite-table-and-a-handful-of-cron-jobs) \{ www.geoffreylitt.com \}
 
 > ![image-20251005215743741](2025-10-26-links-from-my-inbox.assets/image-20251005215743741.png)
 >
@@ -211,7 +211,7 @@ categories: links
 > - Instead of starting with a complex agent or RAG setup, I focused on simple, inspectable building blocks, planning to add RAG only when needed.
 > - I shared all the code on Val.town for others to fork, though it’s not a packaged app.
 
-2025-09-30 [2025 AI Darwin Award Nominees - Worst AI Failures of the Year](https://aidarwinawards.org/nominees-2025.html) { aidarwinawards.org }
+2025-09-30 [2025 AI Darwin Award Nominees - Worst AI Failures of the Year](https://aidarwinawards.org/nominees-2025.html) \{ aidarwinawards.org \}
 
 > What Are the AI Darwin Awards?
 > Named after Charles Darwin's theory of natural selection, the original Darwin Awards celebrated those who "improved the gene pool by removing themselves from it" through spectacularly stupid acts. Well, guess what? Humans have evolved! We're now so advanced that we've outsourced our poor decision-making to machines.
@@ -221,16 +221,16 @@ categories: links
 > Because why stop at individual acts of spectacular stupidity when you can scale them to global proportions with machine learning?
 > ![image-20250929221917787](2025-10-26-links-from-my-inbox.assets/image-20250929221917787.png)
 
-2025-09-29 [Varietyz/Disciplined-AI-Software-Development](https://github.com/Varietyz/Disciplined-AI-Software-Development) { github.com }
+2025-09-29 [Varietyz/Disciplined-AI-Software-Development](https://github.com/Varietyz/Disciplined-AI-Software-Development) \{ github.com \}
 
 > ![image-20250929165126218](2025-10-26-links-from-my-inbox.assets/image-20250929165126218.png)
 > This methodology provides a structured approach for collaborating with AI systems on software development projects. It addresses common issues like code bloat, architectural drift, and context dilution through systematic constraints and validation checkpoints.
 
-2025-09-05 [LLM Visualization](https://bbycroft.net/llm) { bbycroft.net }
+2025-09-05 [LLM Visualization](https://bbycroft.net/llm) \{ bbycroft.net \}
 
 > ![image-20250904193058957](2025-10-26-links-from-my-inbox.assets/image-20250904193058957.png)
 
-2025-09-29 [The AI coding trap | Chris Loy](https://chrisloy.dev/post/2025/09/28/the-ai-coding-trap) { chrisloy.dev }
+2025-09-29 [The AI coding trap | Chris Loy](https://chrisloy.dev/post/2025/09/28/the-ai-coding-trap) \{ chrisloy.dev \}
 
 > ![image-20250929120500935](2025-10-26-links-from-my-inbox.assets/image-20250929120500935.png)
 >
@@ -245,7 +245,7 @@ categories: links
 > - Prototyping with AI works well, but complex systems still demand structured human thinking.
 > - The path forward lies in integrating AI into established engineering practices to boost both velocity and quality without sacrificing maintainability.
 
-💖 2025-09-29 [Getting AI to Work in Complex Codebases](https://github.com/humanlayer/advanced-context-engineering-for-coding-agents/blob/main/ace-fca.md) { github.com }
+💖 2025-09-29 [Getting AI to Work in Complex Codebases](https://github.com/humanlayer/advanced-context-engineering-for-coding-agents/blob/main/ace-fca.md) \{ github.com \}
 
 > ![image-20250929122409262](2025-10-26-links-from-my-inbox.assets/image-20250929122409262.png)
 > The writeup explains how to make AI coding agents productive in large, messy codebases by treating context as the main engineering surface. The core method is frequent intentional compaction: repeatedly distilling findings, plans, and decisions into short, structured artifacts, keeping the active window lean, using side processes for noisy exploration, and resetting context to avoid drift. The piece sits alongside a YC talk and HumanLayer tools that operationalize these practices for teams.

@@ -9,21 +9,21 @@ categories: links
 
 ## SQLite
 
-2025-10-06 [SQLite File Format Viewer](https://sqlite-internal.pages.dev/#) { sqlite-internal.pages.dev }
+2025-10-06 [SQLite File Format Viewer](https://sqlite-internal.pages.dev/#) \{ sqlite-internal.pages.dev \}
 
 > SQLite File Format Viewer
 > This tool helps you explore the SQLite file format internals according to the official specification. It's designed for developers and database enthusiasts who want to understand the internal structure of SQLite database files.
 >
-> [invisal/sqlite-internal: Playaround with SQLite internal](https://github.com/invisal/sqlite-internal) { github.com }
+> [invisal/sqlite-internal: Playaround with SQLite internal](https://github.com/invisal/sqlite-internal) \{ github.com \}
 >
 > ![image-20251005214535369](2025-11-24-links-from-my-inbox.assets/image-20251005214535369.png)
 > ![image-20251005214622301](2025-11-24-links-from-my-inbox.assets/image-20251005214622301.png)
 
-2025-10-06 [Download HeidiSQL](https://www.heidisql.com/download.php) { www.heidisql.com }
+2025-10-06 [Download HeidiSQL](https://www.heidisql.com/download.php) \{ www.heidisql.com \}
 
 > ![image-20251005214700240](2025-11-24-links-from-my-inbox.assets/image-20251005214700240.png)
 
-2025-10-06 [How bloom filters made SQLite 10x faster - blag](https://avi.im/blag/2024/sqlite-past-present-future/) { avi.im }
+2025-10-06 [How bloom filters made SQLite 10x faster - blag](https://avi.im/blag/2024/sqlite-past-present-future/) \{ avi.im \}
 
 > That’s what the researchers did! They used a Bloom filter, which is very space efficient and fits in a CPU cache line. It was also easy to implement.
 >
@@ -31,13 +31,13 @@ categories: links
 >
 > During the join operation, we first check if the row exists in the Bloom filter at each stage. If it does, then we do the B-tree probe. This is the `Filter` opcode.
 
-2025-10-06 [SQLiteStudio](https://sqlitestudio.pl/) { sqlitestudio.pl }
+2025-10-06 [SQLiteStudio](https://sqlitestudio.pl/) \{ sqlitestudio.pl \}
 
 > ![image-20251005215049159](2025-11-24-links-from-my-inbox.assets/image-20251005215049159.png)
 
 ## .NET
 
-2025-07-14 [Rejigs: Making Regular Expressions Human-Readable | by Omar | Jul, 2025 | Medium](https://medium.com/@omarzawahry/rejigs-making-regular-expressions-human-readable-1fad37cb3eae) { medium.com }
+2025-07-14 [Rejigs: Making Regular Expressions Human-Readable | by Omar | Jul, 2025 | Medium](https://medium.com/@omarzawahry/rejigs-making-regular-expressions-human-readable-1fad37cb3eae) \{ medium.com \}
 
 ```
 ^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$
@@ -62,13 +62,13 @@ Nice! The improved version at the top looks very concise and clean! 💖 :D
 
 ## C || C++
 
-2025-11-15 [Reallocate memory | Field Guide](https://programmers.guide/book/part-2-organised-code/6-deep-dive-memory/2-trailside/03-4-realloc/) { programmers.guide }
+2025-11-15 [Reallocate memory | Field Guide](https://programmers.guide/book/part-2-organised-code/6-deep-dive-memory/2-trailside/03-4-realloc/) \{ programmers.guide \}
 
 > ![image-20251114192325977](2025-11-24-links-from-my-inbox.assets/image-20251114192325977.png)
 >
 > ![image-20251114192239014](2025-11-24-links-from-my-inbox.assets/image-20251114192239014.png)
 
-2025-11-05 [zserge/grayskull: A tiny, dependency-free computer vision library in C for embedded systems, drones, and robotics.](https://github.com/zserge/grayskull) { github.com }
+2025-11-05 [zserge/grayskull: A tiny, dependency-free computer vision library in C for embedded systems, drones, and robotics.](https://github.com/zserge/grayskull) \{ github.com \}
 
 > **🏰 Grayskull**
 >
@@ -84,7 +84,7 @@ Nice! The improved version at the top looks very concise and clean! 💖 :D
 > - Local binary patterns: LBP cascades to detect faces, vehicles etc
 > - Utilities: PGM read/write
 
-2025-11-05 [By the power of grayscale!](https://zserge.com/posts/grayskull/) { zserge.com }
+2025-11-05 [By the power of grayscale!](https://zserge.com/posts/grayskull/) \{ zserge.com \}
 
 > When people talk about computer vision, they usually think of OpenCV or deep neural networks like YOLO. But in most cases, doing computer vision implies understanding of the core algorithms, so you can use or adapt them for your own needs.
 >
@@ -94,7 +94,7 @@ Nice! The improved version at the top looks very concise and clean! 💖 :D
 >
 > ![image-20251104191746300](2025-11-24-links-from-my-inbox.assets/image-20251104191746300.png)
 
-2025-11-02 [Notes by djb on using Fil-C (2025)](https://cr.yp.to/2025/fil-c.html) { cr.yp.to }
+2025-11-02 [Notes by djb on using Fil-C (2025)](https://cr.yp.to/2025/fil-c.html) \{ cr.yp.to \}
 
 > I'm impressed with the level of compatibility of the new memory-safe C/C++ compiler [Fil-C](https://fil-c.org/) (filcc, fil++). Many libraries and applications that I've tried work under Fil-C without changes, and the exceptions haven't been hard to get working.
 >
@@ -109,7 +109,7 @@ Nice! The improved version at the top looks very concise and clean! 💖 :D
 > - I've posted the start of a [`filian-install-packages`](https://cr.yp.to/2025/20251030-filian-install-packages.sh) script to download+compile+install Debian source packages, using Fil-C as the compiler (after `filian-install-compiler` has finished). This script has various limitations that need fixing, but it does work for a few packages already (e.g., `./filian-install-packages bzip2`), after the installation of `dh-exec` etc. described below.
 > - I've posted a [graph](https://cr.yp.to/2025/20251028-filcc-vs-clang.html) showing nearly 9000 microbenchmarks of Fil-C vs. clang on cryptographic software (each run pinned to 1 core on the same Zen 4). Typically code compiled with Fil-C takes between 1x and 4x as many cycles as the same code compiled with clang.
 
-2025-11-02 [FreeDOS Books](https://www.freedos.org/books/cprogramming/) { www.freedos.org }
+2025-11-02 [FreeDOS Books](https://www.freedos.org/books/cprogramming/) \{ www.freedos.org \}
 
 > ![image-20251102114516953](2025-11-24-links-from-my-inbox.assets/image-20251102114516953.png)
 >
@@ -127,7 +127,7 @@ Nice! The improved version at the top looks very concise and clean! 💖 :D
 > - [Part 9. Putting it Together](https://www.freedos.org/books/cprogramming/part9/) (writing a turn-based game)
 > - [Bonus Programming Videos](https://www.freedos.org/books/cprogramming/bonus/)
 
-2025-10-18 [EbookFoundation/free-programming-books: :books: Freely available programming books](https://github.com/EbookFoundation/free-programming-books/tree/main) { github.com }
+2025-10-18 [EbookFoundation/free-programming-books: :books: Freely available programming books](https://github.com/EbookFoundation/free-programming-books/tree/main) \{ github.com \}
 
 > https://ebookfoundation.github.io/free-programming-books/
 >
@@ -224,21 +224,21 @@ Nice! The improved version at the top looks very concise and clean! 💖 :D
 > - [Thinking in C++, Second Edition, Vol. 1.](https://archive.org/details/TICPP2ndEdVolOne) - Bruce Eckel [(Vol. 2)](https://archive.org/details/TICPP2ndEdVolTwo)
 > - [Working Draft, Standard for Programming Language C++, 2021 Revision](http://www.open-std.org/jtc1/sc22/wg21/docs/papers/2021/n4885.pdf) - Thomas Köppe (PDF) *( 🚧 in process)*
 
-2025-10-07 [Heap based scheme machine. · GitHub](https://gist.github.com/swatson555/8cc36d8d022d7e5cc44a5edb2c4f7d0b) { gist.github.com }
+2025-10-07 [Heap based scheme machine. · GitHub](https://gist.github.com/swatson555/8cc36d8d022d7e5cc44a5edb2c4f7d0b) \{ gist.github.com \}
 
 > as a single C file 
 >
 > ![image-20251006223335240](2025-11-24-links-from-my-inbox.assets/image-20251006223335240.png)
 
-2025-09-27 [Jacob Sorber - YouTube](https://www.youtube.com/@JacobSorber/videos) { www.youtube.com }
+2025-09-27 [Jacob Sorber - YouTube](https://www.youtube.com/@JacobSorber/videos) \{ www.youtube.com \}
 
 > ![image-20250927123455585](2025-11-24-links-from-my-inbox.assets/image-20250927123455585.png)
 
-2025-09-27 [Sean Barrett - YouTube](https://www.youtube.com/@SeanTBarrett/videos) { www.youtube.com }
+2025-09-27 [Sean Barrett - YouTube](https://www.youtube.com/@SeanTBarrett/videos) \{ www.youtube.com \}
 
 > ![image-20250927123557883](2025-11-24-links-from-my-inbox.assets/image-20250927123557883.png)
 
-2025-09-05 [Memory is slow, Disk is fast - Part 2](https://www.bitflux.ai/blog/memory-is-slow-part2/) { www.bitflux.ai }
+2025-09-05 [Memory is slow, Disk is fast - Part 2](https://www.bitflux.ai/blog/memory-is-slow-part2/) \{ www.bitflux.ai \}
 
 > Sourcing data directly from disk *IS* faster than caching in memory. I brought receipts. Because hardware got wider but not faster, the old methods don't get you there. You need new tools to use what is scaling and avoid what isn't.
 >
@@ -258,11 +258,11 @@ Nice! The improved version at the top looks very concise and clean! 💖 :D
 >
 > ![image-20250904193416094](2025-11-24-links-from-my-inbox.assets/image-20250904193416094.png)
 
-2025-10-10 [ashtonjamesd/lavandula: A fast, lightweight web framework in C for building modern web applications](https://github.com/ashtonjamesd/lavandula) { github.com }
+2025-10-10 [ashtonjamesd/lavandula: A fast, lightweight web framework in C for building modern web applications](https://github.com/ashtonjamesd/lavandula) \{ github.com \}
 
 > ![image-20251009213359084](2025-11-24-links-from-my-inbox.assets/image-20251009213359084.png)
 
-> 2025-10-10 [Show HN: I built a web framework in C | Hacker News](https://news.ycombinator.com/item?id=45526890) { news.ycombinator.com }
+> 2025-10-10 [Show HN: I built a web framework in C | Hacker News](https://news.ycombinator.com/item?id=45526890) \{ news.ycombinator.com \}
 >
 > [faxmeyourcode](https://news.ycombinator.com/user?id=faxmeyourcode) [14 hours ago](https://news.ycombinator.com/item?id=45527986) | [next](https://news.ycombinator.com/item?id=45526890#45528218) [[–\]](javascript:void(0))
 >
@@ -274,7 +274,7 @@ Nice! The improved version at the top looks very concise and clean! 💖 :D
 >
 > Happy to see C appreciated for what it is, a very clean and nice/simple language if you stay away from some of the nuts and bolts. Of course, the accessibility of the underlying nuts and bolts is one of the reasons for using C, so there's a balance.
 
-2025-10-10 [Love C, Hate C: Web Framework Memory Problems](https://alew.is/lava.html) { alew.is }
+2025-10-10 [Love C, Hate C: Web Framework Memory Problems](https://alew.is/lava.html) \{ alew.is \}
 
 > ![image-20251009230900726](2025-11-24-links-from-my-inbox.assets/image-20251009230900726.png)
 >
@@ -286,24 +286,24 @@ Nice! The improved version at the top looks very concise and clean! 💖 :D
 
 ## 😁 Fun / Retro
 
-2025-11-15 [DOOMscroll — The Game](https://gisnep.com/doomscroll/) { gisnep.com }
+2025-11-15 [DOOMscroll — The Game](https://gisnep.com/doomscroll/) \{ gisnep.com \}
 
 > ![image-20251114190733129](2025-11-24-links-from-my-inbox.assets/image-20251114190733129.png)
 
-2025-11-04 [When Stick Figures Fought - by Animation Obsessive Staff](https://animationobsessive.substack.com/p/when-stick-figures-fought) { animationobsessive.substack.com }
+2025-11-04 [When Stick Figures Fought - by Animation Obsessive Staff](https://animationobsessive.substack.com/p/when-stick-figures-fought) \{ animationobsessive.substack.com \}
 
 > ![image-20251103200523861](2025-11-24-links-from-my-inbox.assets/image-20251103200523861.png)
 
-2025-10-27 [DOSBox SVN, CPU speed: 3000 cycles, Frameskip 0, Program: MARIO](https://www.myabandonware.com/game/mario-teaches-typing-1gl/play-1gl) { www.myabandonware.com }
+2025-10-27 [DOSBox SVN, CPU speed: 3000 cycles, Frameskip 0, Program: MARIO](https://www.myabandonware.com/game/mario-teaches-typing-1gl/play-1gl) \{ www.myabandonware.com \}
 
 > ![image-20251026214407849](2025-11-24-links-from-my-inbox.assets/image-20251026214407849.png)
 
-2025-09-29 [I'm Not a Robot](https://neal.fun/not-a-robot/) { neal.fun }
+2025-09-29 [I'm Not a Robot](https://neal.fun/not-a-robot/) \{ neal.fun \}
 
 > This is a game!
 > ![image-20250929162638634](2025-11-24-links-from-my-inbox.assets/image-20250929162638634.png)
 
-2025-09-29 [MitchIvin XP](https://mitchivin.com/) { mitchivin.com }
+2025-09-29 [MitchIvin XP](https://mitchivin.com/) \{ mitchivin.com \}
 
 > ![image-20250929164857194](2025-11-24-links-from-my-inbox.assets/image-20250929164857194.png)
 
@@ -311,47 +311,47 @@ Nice! The improved version at the top looks very concise and clean! 💖 :D
 
 ## 💖 Inspiration!
 
-2025-11-13 [Visual Types](https://types.kitlangton.com/) { types.kitlangton.com } **Typescript**
+2025-11-13 [Visual Types](https://types.kitlangton.com/) \{ types.kitlangton.com \} **Typescript**
 
 > ![image-20251112211113670](2025-11-24-links-from-my-inbox.assets/image-20251112211113670.png)
 >
 > ![image-20251112211445604](2025-11-24-links-from-my-inbox.assets/image-20251112211445604.png)
 > Visual Types is an animated, semi-interactive TypeScript curriculum by Kit Langton that teaches the type system through strong visual metaphors and motion rather than walls of text. It presents itself as a "humble collection of semi-interactive TypeScript lessons", focusing on giving newcomers durable mental models for how types behave at compile time and how they relate to runtime values.
 
-2025-11-02 [raine/anki-llm: A CLI toolkit for bulk-processing and generating Anki flashcards with LLMs.](https://github.com/raine/anki-llm) { github.com }
+2025-11-02 [raine/anki-llm: A CLI toolkit for bulk-processing and generating Anki flashcards with LLMs.](https://github.com/raine/anki-llm) \{ github.com \}
 
 > A CLI toolkit for bulk-processing and generating Anki flashcards with LLMs.
 > ![image-20251102115322004](2025-11-24-links-from-my-inbox.assets/image-20251102115322004.png)
 
-2025-10-27 [DeadStack / Technology](https://deadstack.net/recent) { deadstack.net }
+2025-10-27 [DeadStack / Technology](https://deadstack.net/recent) \{ deadstack.net \}
 
 > ![image-20251026212653384](2025-11-24-links-from-my-inbox.assets/image-20251026212653384.png)
 
-2025-10-26 [ZzFX - Zuper Zmall Zound Zynth](https://killedbyapixel.github.io/ZzFX/) {killedbyapixel.github.io}
+2025-10-26 [ZzFX - Zuper Zmall Zound Zynth](https://killedbyapixel.github.io/ZzFX/) \{killedbyapixel.github.io\}
 
 > ![image-20251026112018441](2025-11-24-links-from-my-inbox.assets/image-20251026112018441.png)
 
-2025-10-19 [Notepad.exe - Native macOS Code Editor for Swift & Python](https://notepadexe.com/) { notepadexe.com }
+2025-10-19 [Notepad.exe - Native macOS Code Editor for Swift & Python](https://notepadexe.com/) \{ notepadexe.com \}
 
 > ![image-20251019145620354](2025-11-24-links-from-my-inbox.assets/image-20251019145620354.png)
 > ![image-20251019145638050](2025-11-24-links-from-my-inbox.assets/image-20251019145638050.png)
 
-2025-10-11 [BreadOnPenguins/scripts: my scripts!](https://github.com/BreadOnPenguins/scripts) { github.com }
+2025-10-11 [BreadOnPenguins/scripts: my scripts!](https://github.com/BreadOnPenguins/scripts) \{ github.com \}
 
 > ![image-20251011001955457](2025-11-24-links-from-my-inbox.assets/image-20251011001955457.png)
 >
 > ![image-20251011001823643](2025-11-24-links-from-my-inbox.assets/image-20251011001823643.png)
 
-2025-10-10 [mafik/keyer: Firmware & goodies for making a KEYER (one-handed chorded keyboard).](https://github.com/mafik/keyer) { github.com }
+2025-10-10 [mafik/keyer: Firmware & goodies for making a KEYER (one-handed chorded keyboard).](https://github.com/mafik/keyer) \{ github.com \}
 
 > I've built a tiny hand-held keyboard 
 > ![image-20251009200630319](2025-11-24-links-from-my-inbox.assets/image-20251009200630319.png)
 
-2025-10-04 [Fluid Glass](https://chiuhans111.github.io/fluidglass/) { chiuhans111.github.io }
+2025-10-04 [Fluid Glass](https://chiuhans111.github.io/fluidglass/) \{ chiuhans111.github.io \}
 
 > ![image-20251003185844250](2025-11-24-links-from-my-inbox.assets/image-20251003185844250.png)
 
-2025-09-29 [Handy](https://handy.computer/) { handy.computer }
+2025-09-29 [Handy](https://handy.computer/) \{ handy.computer \}
 
 > ![image-20250929121034886](2025-11-24-links-from-my-inbox.assets/image-20250929121034886.png)
 > Handy is a free, open-source speech-to-text application that runs locally on your computer. It allows users to speak into any text field by pressing a keyboard shortcut, with the app instantly transcribing speech into text. Designed for accessibility, privacy, and simplicity, Handy ensures that transcription happens on-device without sending data to the cloud.
@@ -366,11 +366,11 @@ Nice! The improved version at the top looks very concise and clean! 💖 :D
 >
 > The app emphasizes **accessibility**, making advanced speech tools available for free without a paywall.
 
-2025-09-29 [consumed.today](https://consumed.today/) { consumed.today }
+2025-09-29 [consumed.today](https://consumed.today/) \{ consumed.today \}
 
 > ![image-20250929121433709](2025-11-24-links-from-my-inbox.assets/image-20250929121433709.png)
 
-2025-09-29 [Learning Persian with Anki, ChatGPT and YouTube | Christian Jauvin](https://cjauvin.github.io/posts/learning-persian/) { cjauvin.github.io }
+2025-09-29 [Learning Persian with Anki, ChatGPT and YouTube | Christian Jauvin](https://cjauvin.github.io/posts/learning-persian/) \{ cjauvin.github.io \}
 
 > ![image-20250929121642706](2025-11-24-links-from-my-inbox.assets/image-20250929121642706.png)
 > The article by Christian Jauvin describes his personal journey of learning Persian (Farsi) using a combination of tools and strategies: **Anki** for spaced repetition, **ChatGPT** for clarification and reinforcement, and **YouTube with browser extensions** for immersive listening practice. He emphasizes creating personalized flashcards, integrating visual aids, leveraging dual subtitles, and repeating structured listening exercises to deepen both reading and auditory comprehension.**Anki as the core tool**: Building a continuous deck with grammar-focused phrases, often sourced from YouTube lessons, helps reinforce memory more effectively than single words.
@@ -393,15 +393,15 @@ Nice! The improved version at the top looks very concise and clean! 💖 :D
 >
 > **Practical and replicable system**: The method combines accessible digital tools with structured repetition, offering a practical framework for self-directed language learners.
 
-2025-09-29 [UTF-8 Playground](https://utf8-playground.netlify.app/1F44B) { utf8-playground.netlify.app }
+2025-09-29 [UTF-8 Playground](https://utf8-playground.netlify.app/1F44B) \{ utf8-playground.netlify.app \}
 
 > ![image-20250929163930599](2025-11-24-links-from-my-inbox.assets/image-20250929163930599.png)
 
-2025-09-29 [Why our website looks like an operating system - PostHog](https://posthog.com/blog/why-os) { posthog.com }
+2025-09-29 [Why our website looks like an operating system - PostHog](https://posthog.com/blog/why-os) \{ posthog.com \}
 
 > ![image-20250929164413791](2025-11-24-links-from-my-inbox.assets/image-20250929164413791.png)
 
-2025-09-29 [Elements of Rust – Core Types and Traits](https://rustcurious.com/elements/) { rustcurious.com }
+2025-09-29 [Elements of Rust – Core Types and Traits](https://rustcurious.com/elements/) \{ rustcurious.com \}
 
 > ![image-20250929164546808](2025-11-24-links-from-my-inbox.assets/image-20250929164546808.png)
 

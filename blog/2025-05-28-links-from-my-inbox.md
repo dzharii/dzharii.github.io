@@ -9,7 +9,7 @@ categories: links
 
 ## Good Reads
 
-2025-05-29 [Duplication Is Not the Enemy – Terrible Software](https://terriblesoftware.org/2025/05/28/duplication-is-not-the-enemy/) { terriblesoftware.org }
+2025-05-29 [Duplication Is Not the Enemy – Terrible Software](https://terriblesoftware.org/2025/05/28/duplication-is-not-the-enemy/) \{ terriblesoftware.org \}
 
 > ![image-20250528224343572](2025-05-28-links-from-my-inbox.assets/image-20250528224343572.png)
 >
@@ -19,7 +19,7 @@ categories: links
 >
 > *software design, programming principles, DRY, abstraction, code maintenance, real-world development*
 
-2025-05-10 [The Deathbed Fallacy](https://www.hjorthjort.xyz/2018/02/21/the-deathbed-fallacy.html) { www.hjorthjort.xyz }
+2025-05-10 [The Deathbed Fallacy](https://www.hjorthjort.xyz/2018/02/21/the-deathbed-fallacy.html) \{ www.hjorthjort.xyz \}
 
 > ![image-20250510153246550](2025-05-28-links-from-my-inbox.assets/image-20250510153246550.png)
 >
@@ -29,7 +29,7 @@ categories: links
 >
 > *life-choices, regret, psychology, happiness, decision-making*
 
-2025-05-07 [rate limiter – smudge.ai blog](https://smudge.ai/blog/ratelimit-algorithms) { smudge.ai }
+2025-05-07 [rate limiter – smudge.ai blog](https://smudge.ai/blog/ratelimit-algorithms) \{ smudge.ai \}
 
 > Tags: rate-limiting, fixed windows, sliding windows, token buckets, API-throttling, burst management, traffic smoothing, Redis, HTTP-429
 > ![image-20250506233618121](2025-05-28-links-from-my-inbox.assets/image-20250506233618121.png)
@@ -43,7 +43,7 @@ categories: links
 >
 > This comparative review clarifies how each algorithm manages traffic, aiding developers in selecting and implementing effective throttling mechanisms.
 
-2025-05-03 [Accountability Sinks - by Martin Sustrik - 250bpm](https://250bpm.substack.com/p/accountability-sinks) { 250bpm.substack.com }
+2025-05-03 [Accountability Sinks - by Martin Sustrik - 250bpm](https://250bpm.substack.com/p/accountability-sinks) \{ 250bpm.substack.com \}
 
 > Martin Sustrik explains how bureaucracies often create environments where responsibility becomes untraceable. These “accountability sinks” occur when rigid systems take precedence over individual judgment, making it nearly impossible to determine who made a decision or why. One example is the destruction of a shipment of squirrels at Schiphol Airport in 1999, where strict adherence to policy overrode common sense, and no one could be held directly responsible.
 >
@@ -57,7 +57,7 @@ categories: links
 >
 > In Bulgaria, Jews weren't gathered in ghettos or local "labor camps", but rather sent out to rural areas to help at farms. Once they were dispersed throughout the country there was no way to proceed with the subsequent steps, such as loading them on trains and sending them to the concentration camps...
 
-🔭 2025-04-26 [Observability 2.0 and the Database for It | Greptime](https://greptime.com/blogs/2025-04-25-greptimedb-observability2-new-database) { greptime.com }
+🔭 2025-04-26 [Observability 2.0 and the Database for It | Greptime](https://greptime.com/blogs/2025-04-25-greptimedb-observability2-new-database) \{ greptime.com \}
 
 > Observability 2.0 challenges the traditional three pillars approach by unifying **metrics**, logs, and traces into a single, context-rich data model called **wide events**. Instead of pre-aggregating metrics or parsing logs after the fact, this model treats raw, high-cardinality event data as the **source of truth**—capturing full system context upfront and allowing dynamic, retrospective computation of metrics and traces. This shift addresses key pain points of observability 1.0: data silos, redundant storage, loss of granularity, and the slow feedback loop of static instrumentation.
 >
@@ -67,7 +67,7 @@ categories: links
 >
 > ![image-20250425184704437](2025-05-28-links-from-my-inbox.assets/image-20250425184704437.png)
 
-🔭 2025-04-26 [Observability wide events 101 | Boris Tane](https://boristane.com/blog/observability-wide-events-101/) { boristane.com }
+🔭 2025-04-26 [Observability wide events 101 | Boris Tane](https://boristane.com/blog/observability-wide-events-101/) \{ boristane.com \}
 
 > Tags: observability, wide events, high cardinality, high dimensionality, context-rich logging, distributed tracing, OpenTelemetry, debugging unknown unknowns, structured logging, application monitoring
 >
@@ -82,7 +82,7 @@ categories: links
 >
 > ![image-20250425185634738](2025-05-28-links-from-my-inbox.assets/image-20250425185634738.png)
 
-2025-04-24 [YAGRI: You are gonna read it](https://www.scottantipa.com/yagri) { www.scottantipa.com }
+2025-04-24 [YAGRI: You are gonna read it](https://www.scottantipa.com/yagri) \{ www.scottantipa.com \}
 
 > As an example, this commonly occurs when implementing a feature to let users delete something. The easy way is to just delete the row from the database, and maybe that's all that the current UI design call for. In this situation, regardless of the requested feature set, as engineers we should maintain good data standards and store:
 >
@@ -110,9 +110,9 @@ categories: links
 >   > - Logging. Especially for after-the-fact debugging, and in non-deterministic or hard to reproduce situations, where it is often too late to add it after you become aware of a problem.
 >   > - Timestamps
 
-2025-04-13 [Engineers who won’t commit | sean goedecke](https://www.seangoedecke.com/taking-a-position/) { www.seangoedecke.com }
+2025-04-13 [Engineers who won’t commit | sean goedecke](https://www.seangoedecke.com/taking-a-position/) \{ www.seangoedecke.com \}
 
-> found in 2025-04-13 [Microsoft's original source code](https://programmingdigest.net/newsletters/2035?sid=4763653b-6857-490b-8590-516ddcbc8318) { programmingdigest.net }
+> found in 2025-04-13 [Microsoft's original source code](https://programmingdigest.net/newsletters/2035?sid=4763653b-6857-490b-8590-516ddcbc8318) \{ programmingdigest.net \}
 >
 > Tags: #EngineeringLeadership #DecisionMaking #TechnicalResponsibility #SoftwareEngineering #TeamDynamics #ProfessionalGrowth #RiskManagement #WorkplaceCulture #ManagerExpectations #ConfidenceInTech
 >
@@ -128,11 +128,11 @@ categories: links
 >
 > ![image-20250413132035594](2025-05-28-links-from-my-inbox.assets/image-20250413132035594.png)
 
-2025-04-12 [But what if I really want a faster horse? | exotext](https://rakhim.exotext.com/but-what-if-i-really-want-a-faster-horse) { rakhim.exotext.com }
+2025-04-12 [But what if I really want a faster horse? | exotext](https://rakhim.exotext.com/but-what-if-i-really-want-a-faster-horse) \{ rakhim.exotext.com \}
 
 > ![image-20250412003043346](2025-05-28-links-from-my-inbox.assets/image-20250412003043346.png)
 
-2025-04-08 [Why Companies Don’t Fix Bugs](https://idiallo.com/blog/companies-dont-fix-bugs) { idiallo.com }
+2025-04-08 [Why Companies Don’t Fix Bugs](https://idiallo.com/blog/companies-dont-fix-bugs) \{ idiallo.com \}
 
 > Tags: corporate bureaucracy, bug fixing, software development, technical debt, product management, legacy code, developer priorities, user experience, corporate inertia, software maintenance
 >
@@ -150,7 +150,7 @@ categories: links
 
 ## 🛠️ How the things work
 
-2025-04-15 [MCCC: Probability - Monte Carlo Crash Course](https://thenumb.at/Probability/) { thenumb.at }
+2025-04-15 [MCCC: Probability - Monte Carlo Crash Course](https://thenumb.at/Probability/) \{ thenumb.at \}
 
 > Tags: Probability, Random Variables, PMF, PDF, CDF, Joint Distributions, Expectation, Variance, Covariance, Dirac Delta
 >
@@ -167,7 +167,7 @@ categories: links
 >
 > ![image-20250415005242436](2025-05-28-links-from-my-inbox.assets/image-20250415005242436.png)
 
-2025-04-14 [jlevy/og-equity-compensation: Stock options, RSUs, taxes — read the latest edition: www.holloway.com/ec](https://github.com/jlevy/og-equity-compensation) { github.com }
+2025-04-14 [jlevy/og-equity-compensation: Stock options, RSUs, taxes — read the latest edition: www.holloway.com/ec](https://github.com/jlevy/og-equity-compensation) \{ github.com \}
 
 > Tags: #EquityCompensation #StockOptions #RestrictedStockUnits #TaxImplications #StartupEquity #EmployeeOwnership #VestingSchedules #83bElection #Dilution #PrivateCompanies
 >
@@ -188,7 +188,7 @@ categories: links
 
 ## 👂 The Ear of AI (LLMs)
 
-2025-05-28 [How I used o3 to find CVE-2025-37899, a remote zeroday vulnerability in the Linux kernel’s SMB implementation – Sean Heelan's Blog](https://sean.heelan.io/2025/05/22/how-i-used-o3-to-find-cve-2025-37899-a-remote-zeroday-vulnerability-in-the-linux-kernels-smb-implementation/) { sean.heelan.io }
+2025-05-28 [How I used o3 to find CVE-2025-37899, a remote zeroday vulnerability in the Linux kernel’s SMB implementation – Sean Heelan's Blog](https://sean.heelan.io/2025/05/22/how-i-used-o3-to-find-cve-2025-37899-a-remote-zeroday-vulnerability-in-the-linux-kernels-smb-implementation/) \{ sean.heelan.io \}
 
 > ![image-20250528000557175](2025-05-28-links-from-my-inbox.assets/image-20250528000557175.png)
 >
@@ -204,14 +204,14 @@ categories: links
 >
 > *LLM vulnerability research, Linux kernel, ksmbd, CVE-2025-37899, use-after-free, concurrency, o3 model, SMB protocol*
 
-2025-05-23 [The /llms.txt file – llms-txt](https://llmstxt.org/) { llmstxt.org }
+2025-05-23 [The /llms.txt file – llms-txt](https://llmstxt.org/) \{ llmstxt.org \}
 
 > A proposal to standardise on using an /llms.txt file to provide information to help LLMs use a website at inference time.
 > ![image-20250522223151483](2025-05-28-links-from-my-inbox.assets/image-20250522223151483.png)
 >
 > 
 
-2025-05-23 [https://svelte.dev/llms.txt](https://svelte.dev/llms.txt) { svelte.dev }
+2025-05-23 [https://svelte.dev/llms.txt](https://svelte.dev/llms.txt) \{ svelte.dev \}
 
 > ```
 > # Svelte Documentation for LLMs
@@ -238,11 +238,11 @@ categories: links
 > - The content is automatically generated from the same source as the official documentation
 > ```
 
-2025-05-04 [Time saved by AI offset by new work created, study suggests - Ars Technica](https://arstechnica.com/ai/2025/05/time-saved-by-ai-offset-by-new-work-created-study-suggests/) { arstechnica.com }
+2025-05-04 [Time saved by AI offset by new work created, study suggests - Ars Technica](https://arstechnica.com/ai/2025/05/time-saved-by-ai-offset-by-new-work-created-study-suggests/) \{ arstechnica.com \}
 
 > The study revealed that AI chatbots actually **created new job tasks for 8.4 percent of workers**, including some who did not use the tools themselves, offsetting potential time savings. For example, many teachers now spend time detecting whether students use ChatGPT for homework, while other workers review AI output quality or attempt to craft effective prompts.
 
-2025-04-30 [PhialsBasement/Chain-of-Recursive-Thoughts](https://github.com/PhialsBasement/Chain-of-Recursive-Thoughts) { github.com }
+2025-04-30 [PhialsBasement/Chain-of-Recursive-Thoughts](https://github.com/PhialsBasement/Chain-of-Recursive-Thoughts) \{ github.com \}
 
 > Tags: #AIReasoning #RecursiveThinking #SelfEvaluation #CoRT #Mistral3.1 #OpenSourceAI #PromptEngineering #AIEnhancement #IterativeRefinement #AIProgramming
 >
@@ -257,7 +257,7 @@ categories: links
 >
 > ![image-20250429205818050](2025-05-28-links-from-my-inbox.assets/image-20250429205818050.png)
 
-2025-04-24 [Pete Koomen](https://koomen.dev/essays/horseless-carriages/) { koomen.dev }
+2025-04-24 [Pete Koomen](https://koomen.dev/essays/horseless-carriages/) \{ koomen.dev \}
 
 > *Tags: AI, software design, system prompts, user prompts, agent builders, automation, AI-native applications, email assistants, generative AI, prompt engineering, product design, LLM agents, user customization, productivity tools, software paradigms, AI integration, old world thinking, AI Slop, horseless carriages, agent tools, security models, prompt injection, user experience, task automation, personalization*
 >
@@ -273,13 +273,13 @@ categories: links
 >
 > ![image-20250423205321400](2025-05-28-links-from-my-inbox.assets/image-20250423205321400.png)
 
-2025-04-22 [matthewsinclair.com · Intelligence. Innovation. Leadership. Influence.](https://matthewsinclair.com/blog/0178-why-llm-powered-programming-is-more-mech-suit-than-artificial-human) { matthewsinclair.com }
+2025-04-22 [matthewsinclair.com · Intelligence. Innovation. Leadership. Influence.](https://matthewsinclair.com/blog/0178-why-llm-powered-programming-is-more-mech-suit-than-artificial-human) \{ matthewsinclair.com \}
 
 > ![image-20250421205653772](2025-05-28-links-from-my-inbox.assets/image-20250421205653772.png)
 >
 > LLM powered coding tools are not replacements for developers but powerful exoskeletons that shift focus from mechanical typing to strategic vision: they shrink weeks of implementation into minutes while making clear that defining business intent and rigorous architectural oversight have never mattered more. In my view seasoned engineers who treat AI as a collaborative partner (delegating boilerplate patterns while personally steering novel or high stakes components) will outperform both solo humans and stand alone AI by harnessing combined strategic judgment and computational horsepower. This centaur style collaboration proves that tomorrow’s top developers will distinguish themselves not by typing speed but by architectural thinking, pattern recognition and the confidence to scrap and rewrite code whenever required.
 
-2025-04-20 [Vibe Coding is not an excuse for low-quality work](https://addyo.substack.com/p/vibe-coding-is-not-an-excuse-for) { addyo.substack.com }
+2025-04-20 [Vibe Coding is not an excuse for low-quality work](https://addyo.substack.com/p/vibe-coding-is-not-an-excuse-for) \{ addyo.substack.com \}
 
 > Tags: #AI_Coding #Vibe_Coding #Code_Quality #Technical_Debt #Software_Maintenance #AI_Generated_Code #Developer_Responsibility #Code_Review #Software_Engineering #AI_Tools
 >
@@ -294,7 +294,7 @@ categories: links
 >
 > ![image-20250420004506365](2025-05-28-links-from-my-inbox.assets/image-20250420004506365.png)
 
-2025-04-20 [Claude Code Best Practices \ Anthropic](https://www.anthropic.com/engineering/claude-code-best-practices) { www.anthropic.com }
+2025-04-20 [Claude Code Best Practices \ Anthropic](https://www.anthropic.com/engineering/claude-code-best-practices) \{ www.anthropic.com \}
 
 > Tags: Claude Code, agentic coding, best practices, CLAUDE.md, prompt engineering, context management, tool configuration, iterative workflows, AI coding assistants, Anthropic
 >
@@ -312,14 +312,14 @@ categories: links
 >
 > ![image-20250420003957149](2025-05-28-links-from-my-inbox.assets/image-20250420003957149.png)
 
-2025-04-20 [Celery App | Codebase2Tutorial](https://the-pocket.github.io/Tutorial-Codebase-Knowledge/Celery/01_celery_app.html) { the-pocket.github.io }
+2025-04-20 [Celery App | Codebase2Tutorial](https://the-pocket.github.io/Tutorial-Codebase-Knowledge/Celery/01_celery_app.html) \{ the-pocket.github.io \}
 
 > Turns Codebase into Easy Tutorial
 > Ever stared at a new codebase written by others feeling completely lost? This project analyzes GitHub repositories and creates beginner-friendly tutorials explaining exactly how the code works - all powered by AI! Our intelligent system automatically breaks down complex codebases into digestible explanations
 >
 > ![image-20250420004120852](2025-05-28-links-from-my-inbox.assets/image-20250420004120852.png)
 
-2025-04-15 [Stevens: a hackable AI assistant using a single SQLite table and a handful of cron jobs](https://www.geoffreylitt.com/2025/04/12/how-i-made-a-useful-ai-assistant-with-one-sqlite-table-and-a-handful-of-cron-jobs) { www.geoffreylitt.com }
+2025-04-15 [Stevens: a hackable AI assistant using a single SQLite table and a handful of cron jobs](https://www.geoffreylitt.com/2025/04/12/how-i-made-a-useful-ai-assistant-with-one-sqlite-table-and-a-handful-of-cron-jobs) \{ www.geoffreylitt.com \}
 
 > Tags: #AI_Assistant #SQLite #Cron_Jobs #ValTown #LLM_Integration #Telegram_Bot #Personal_Productivity #Simple_AI_Architecture #Data_Aggregation #Custom_Tools
 >
@@ -338,7 +338,7 @@ categories: links
 >
 > ![image-20250415004356546](2025-05-28-links-from-my-inbox.assets/image-20250415004356546.png)
 
-2025-04-07 [Recent AI model progress feels mostly like bullshit — LessWrong](https://www.lesswrong.com/posts/4mvphwx5pdsZLMmpY/recent-ai-model-progress-feels-mostly-like-bullshit) { www.lesswrong.com }
+2025-04-07 [Recent AI model progress feels mostly like bullshit — LessWrong](https://www.lesswrong.com/posts/4mvphwx5pdsZLMmpY/recent-ai-model-progress-feels-mostly-like-bullshit) \{ www.lesswrong.com \}
 
 > ![image-20250407001511141](2025-05-28-links-from-my-inbox.assets/image-20250407001511141.png)
 >
@@ -362,15 +362,15 @@ categories: links
 
 ## 🗿 X-Files: The Monolith 
 
-2025-05-10 [Monolith Tracker | Monolith Tracker](https://monolithtracker.com/) { monolithtracker.com }
+2025-05-10 [Monolith Tracker | Monolith Tracker](https://monolithtracker.com/) \{ monolithtracker.com \}
 
 > ![image-20250510115841139](2025-05-28-links-from-my-inbox.assets/image-20250510115841139.png)
 
-2025-05-10 [The Mystery Of The Utah Monolith - YouTube](https://www.youtube.com/watch?v=GZqTWtAvPB4) { www.youtube.com }
+2025-05-10 [The Mystery Of The Utah Monolith - YouTube](https://www.youtube.com/watch?v=GZqTWtAvPB4) \{ www.youtube.com \}
 
 > ![image-20250510115928250](2025-05-28-links-from-my-inbox.assets/image-20250510115928250.png)
 
-2025-05-10 [Maps Show Where Mysterious Monoliths Have Popped Up Around World - Newsweek](https://www.newsweek.com/mysterious-monolith-colorado-las-vegas-map-1918391) { www.newsweek.com }
+2025-05-10 [Maps Show Where Mysterious Monoliths Have Popped Up Around World - Newsweek](https://www.newsweek.com/mysterious-monolith-colorado-las-vegas-map-1918391) \{ www.newsweek.com \}
 
 > ![image-20250510120107760](2025-05-28-links-from-my-inbox.assets/image-20250510120107760-1748497891351-11.png)
 
@@ -378,7 +378,7 @@ categories: links
 
 ## Fun / Retro
 
-2025-05-23 [Building and using GCC 0.9 aka the first public version | Virtually Fun](https://virtuallyfun.com/2016/12/01/building-using-gcc-0-90-aka-first-public-version/) { virtuallyfun.com }
+2025-05-23 [Building and using GCC 0.9 aka the first public version | Virtually Fun](https://virtuallyfun.com/2016/12/01/building-using-gcc-0-90-aka-first-public-version/) \{ virtuallyfun.com \}
 
 > In my quest for old software, I’ve seen this file in multiple searches, [gcc-0.9.tar.bz2](http://ftp.vim.org/languages/gcc/old-releases/gcc-1/gcc-0.9.tar.bz2), which is the first version of GCC!
 >
@@ -390,29 +390,29 @@ categories: links
 >
 > ![image-20250522222036894](2025-05-28-links-from-my-inbox.assets/image-20250522222036894.png)
 
-2025-05-03 [Home - Marketoonist | Tom Fishburne](https://marketoonist.com/) { marketoonist.com }
+2025-05-03 [Home - Marketoonist | Tom Fishburne](https://marketoonist.com/) \{ marketoonist.com \}
 
 ![img](2025-05-28-links-from-my-inbox.assets/230605.n.aipowered.jpg)
 
 ![Humanize the Brand cartoon](2025-05-28-links-from-my-inbox.assets/250421.n.humanize.jpg)
 
-2025-04-22 [maurymarkowitz/101-BASIC-Computer-Games](https://github.com/maurymarkowitz/101-BASIC-Computer-Games) { github.com }
+2025-04-22 [maurymarkowitz/101-BASIC-Computer-Games](https://github.com/maurymarkowitz/101-BASIC-Computer-Games) \{ github.com \}
 
 > Type-in programs from the original 101 BASIC Computer Games, in their original DEC and Dartmouth dialects. No, this is *not* the same as BASIC Computer Games.
 >
 > ![image-20250421225522852](2025-05-28-links-from-my-inbox.assets/image-20250421225522852.png)
 >
-> 2025-04-22 [maurymarkowitz/RetroBASIC: BASIC interpreter in lex/yacc/c, designed to run practically any early program no matter the dialect - HP, DEC, Dartmouth and others will all run in RetroBASIC.](https://github.com/maurymarkowitz/RetroBASIC) { github.com }
+> 2025-04-22 [maurymarkowitz/RetroBASIC: BASIC interpreter in lex/yacc/c, designed to run practically any early program no matter the dialect - HP, DEC, Dartmouth and others will all run in RetroBASIC.](https://github.com/maurymarkowitz/RetroBASIC) \{ github.com \}
 
-2025-04-15 [tariff · PyPI](https://pypi.org/project/tariff/) { pypi.org }
+2025-04-15 [tariff · PyPI](https://pypi.org/project/tariff/) \{ pypi.org \}
 
 > Make importing great again! A parody package that imposes tariffs on Python imports.
 
 > ![image-20250415005435624](2025-05-28-links-from-my-inbox.assets/image-20250415005435624.png)
 
-See also:  [samshadwell/TrumpScript: Make Python great again](https://github.com/samshadwell/TrumpScript) { github.com }
+See also:  [samshadwell/TrumpScript: Make Python great again](https://github.com/samshadwell/TrumpScript) \{ github.com \}
 
-2025-04-15 [JSLinux](https://www.bellard.org/jslinux/) { www.bellard.org }
+2025-04-15 [JSLinux](https://www.bellard.org/jslinux/) \{ www.bellard.org \}
 
 > Run Linux or other Operating Systems in your browser!
 >
@@ -431,9 +431,9 @@ See also:  [samshadwell/TrumpScript: Make Python great again](https://github.com
 
 > ![image-20250415003949862](2025-05-28-links-from-my-inbox.assets/image-20250415003949862.png)
 
-2025-04-14 [ZXSpectrumVault/zx-fonts: Bitmap fonts extracted from ZX Spectrum games](https://github.com/ZXSpectrumVault/zx-fonts) { github.com }
+2025-04-14 [ZXSpectrumVault/zx-fonts: Bitmap fonts extracted from ZX Spectrum games](https://github.com/ZXSpectrumVault/zx-fonts) \{ github.com \}
 
-> 2025-04-14 [GitHub - damieng/pixelworld: ZX Spectrum bitmap font tools.](https://github.com/damieng/pixelworld) {github.com}
+> 2025-04-14 [GitHub - damieng/pixelworld: ZX Spectrum bitmap font tools.](https://github.com/damieng/pixelworld) \{github.com\}
 >
 > Nice, the command pw.exe chead "Ace of Aces (1986)(U.S.ch8"
 >
@@ -461,17 +461,17 @@ See also:  [samshadwell/TrumpScript: Make Python great again](https://github.com
 
 ```
 
-2025-04-11 [🚨🚨 That's a lot of YAML 🚨🚨](https://noyaml.com/) { noyaml.com }
+2025-04-11 [🚨🚨 That's a lot of YAML 🚨🚨](https://noyaml.com/) \{ noyaml.com \}
 
 > ![image-20250410233403230](2025-05-28-links-from-my-inbox.assets/image-20250410233403230.png)
 
-2025-03-30 [Claim for a missing tooth](https://tf230.matteason.co.uk/) { tf230.matteason.co.uk }
+2025-03-30 [Claim for a missing tooth](https://tf230.matteason.co.uk/) \{ tf230.matteason.co.uk \}
 
 > ![image-20250330165740538](2025-05-28-links-from-my-inbox.assets/image-20250330165740538.png)
 
 > ![image-20250330165634672](2025-05-28-links-from-my-inbox.assets/image-20250330165634672.png)
 
-2025-03-30 [winblues/blue95: A desktop for your childhood home's computer room](https://github.com/winblues/blue95) { github.com }
+2025-03-30 [winblues/blue95: A desktop for your childhood home's computer room](https://github.com/winblues/blue95) \{ github.com \}
 
 > Blue95 is a modern and lightweight desktop experience that is reminiscent of a bygone era of computing. Based on Fedora Atomic Xfce with the [Chicago95](https://github.com/grassmunk/Chicago95) theme.
 >
@@ -479,7 +479,7 @@ See also:  [samshadwell/TrumpScript: Make Python great again](https://github.com
 >
 > ![image-20250330123955549](2025-05-28-links-from-my-inbox.assets/image-20250330123955549.png)
 
-2025-03-20 [ading2210/doompdf: A port of Doom (1993) that runs inside a PDF file](https://github.com/ading2210/doompdf) { github.com }
+2025-03-20 [ading2210/doompdf: A port of Doom (1993) that runs inside a PDF file](https://github.com/ading2210/doompdf) \{ github.com \}
 
 > This is a Doom source port that runs inside a PDF file.
 >
@@ -487,7 +487,7 @@ See also:  [samshadwell/TrumpScript: Make Python great again](https://github.com
 >
 > ![image-20250319203248017](2025-05-28-links-from-my-inbox.assets/image-20250319203248017.png)
 
-2025-03-20 [cznic / doomgeneric · GitLab](https://gitlab.com/cznic/doomgeneric/) { gitlab.com }
+2025-03-20 [cznic / doomgeneric · GitLab](https://gitlab.com/cznic/doomgeneric/) \{ gitlab.com \}
 
 > After [DOOM](https://en.wikipedia.org/wiki/Doom_(1993_video_game)) was ported to [javascript](https://github.com/Technochips/jsdoom) and even made to run inside a [PDF document](https://github.com/ading2210/doompdf), the time has come for a Go port, don't you think?
 >
@@ -495,15 +495,15 @@ See also:  [samshadwell/TrumpScript: Make Python great again](https://github.com
 >
 > It is just a proof of concept. Supports only a few Linux/X11 targets. No sound. No plans to work on it more. Merge requests are welcome, though!
 
-2025-02-28 [Michigan TypeScript Founder Successfully Runs Doom Inside Ty...](https://socket.dev/blog/typescript-types-running-doom) { socket.dev }
+2025-02-28 [Michigan TypeScript Founder Successfully Runs Doom Inside Ty...](https://socket.dev/blog/typescript-types-running-doom) \{ socket.dev \}
 
 > ![image-20250228141652495](2025-05-28-links-from-my-inbox.assets/image-20250228141652495.png)
 >
-> (found in  [JavaScript Weekly Issue 725: February 28, 2025](https://javascriptweekly.com/issues/725) { javascriptweekly.com })
+> (found in  [JavaScript Weekly Issue 725: February 28, 2025](https://javascriptweekly.com/issues/725) \{ javascriptweekly.com \})
 >
 > A curious quirk of TypeScript’s type system is that [it is Turing-complete](https://javascriptweekly.com/link/166289/web) which has led some developers to implement apps entirely *in* the type system. One such developer has spent eighteen months producing 177 *terabytes* of types to get 1993’s Doom running with them. Ridiculous and amazing in equal measure, he [▶️ explains the project in this widely lauded 7-minute video.](https://javascriptweekly.com/link/166290/web) 
 
-2025-02-23 [CEO Simulator: Startup Edition](https://ceosimulator.vercel.app/) { ceosimulator.vercel.app }
+2025-02-23 [CEO Simulator: Startup Edition](https://ceosimulator.vercel.app/) \{ ceosimulator.vercel.app \}
 
 > ![image-20250223144310854](2025-05-28-links-from-my-inbox.assets/image-20250223144310854.png)
 

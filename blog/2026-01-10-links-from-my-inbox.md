@@ -11,7 +11,7 @@ categories: links
 
 ## CRDT
 
-🏵️ 2025-11-29 [The CRDT Dictionary: A Field Guide to Conflict-Free Replicated Data Types - Ian Duncan - Ian Duncan](https://www.iankduncan.com/engineering/2025-11-27-crdt-dictionary/) { www.iankduncan.com }
+🏵️ 2025-11-29 [The CRDT Dictionary: A Field Guide to Conflict-Free Replicated Data Types - Ian Duncan - Ian Duncan](https://www.iankduncan.com/engineering/2025-11-27-crdt-dictionary/) \{ www.iankduncan.com \}
 
 > ![image-20251129110810492](2026-01-10-links-from-my-inbox.assets/image-20251129110810492.png)
 > ![image-20251129112659154](2026-01-10-links-from-my-inbox.assets/image-20251129112659154.png)
@@ -71,7 +71,7 @@ categories: links
 > 18. [Redis Enterprise’s CRDT support](https://redis.io/docs/latest/operate/rc/databases/configuration/active-active-redis/) (Active-Active deployment) uses operation-based CRDTs with causal consistency. It supports strings, hashes, sets, and sorted sets with CRDT semantics, enabling multi-master Redis deployments.
 > 19. [AntidoteDB](https://www.antidotedb.eu/) is a research database from the [SyncFree project](https://syncfree.lip6.fr/) that makes CRDTs the primary abstraction. Unlike other databases where CRDTs are a feature, AntidoteDB is designed from the ground up around CRDT semantics, providing highly available transactions over CRDTs.
 
-2025-12-06 [Martin Kleppmann CRDTs: The hard parts - YouTube](https://www.youtube.com/watch?v=PMVBuMK_pJY) { www.youtube.com }
+2025-12-06 [Martin Kleppmann CRDTs: The hard parts - YouTube](https://www.youtube.com/watch?v=PMVBuMK_pJY) \{ www.youtube.com \}
 
 >![image-20251206120639388](2026-01-10-links-from-my-inbox.assets/image-20251206120639388.png)The talk introduces conflict free replicated data types as a way to build collaboration software where several people can edit shared state, such as documents, graphics, or task boards, even while offline, and then have all changes merged automatically without manual conflict resolution.
 >
@@ -177,11 +177,11 @@ categories: links
 >
 >Throughout the answers, the speaker emphasizes that beyond formal convergence, the ultimate test for a merging strategy in editors is whether it matches human expectations in real use, and that much of the ongoing research is about refining the behavior of these replicated data types until they converge not just to a single state, but to one that users experience as natural and correct.
 
-2025-11-30 [dotJS 2019 - James Long - CRDTs for Mortals - YouTube](https://www.youtube.com/watch?v=DEcwa68f-jY) { www.youtube.com }
+2025-11-30 [dotJS 2019 - James Long - CRDTs for Mortals - YouTube](https://www.youtube.com/watch?v=DEcwa68f-jY) \{ www.youtube.com \}
 
 > ![image-20251130105613938](2026-01-10-links-from-my-inbox.assets/image-20251130105613938.png)
 >
-> 2025-11-30 [jlongster/crdt-example-app: A full implementation of CRDTs using hybrid logical clocks and a demo app that uses it](https://github.com/jlongster/crdt-example-app) { github.com }
+> 2025-11-30 [jlongster/crdt-example-app: A full implementation of CRDTs using hybrid logical clocks and a demo app that uses it](https://github.com/jlongster/crdt-example-app) \{ github.com \}
 >
 > > This is a demo app used for my dotJS 2019 talk ["CRDTs for Mortals"](https://www.youtube.com/watch?v=DEcwa68f-jY)
 > >
@@ -279,7 +279,7 @@ categories: links
 >
 > The conclusion is that fully local applications provide a far superior experience in speed, offline behavior, privacy, and flexibility, and developers are encouraged to explore this direction using CRDTs, simple logical clocks, and deliberately small implementations instead of relying on complex, heavyweight systems.
 
-2025-11-30 [John Mumm - A CRDT Primer: Defanging Order Theory - YouTube](https://www.youtube.com/watch?v=OOlnp2bZVRs) { www.youtube.com }
+2025-11-30 [John Mumm - A CRDT Primer: Defanging Order Theory - YouTube](https://www.youtube.com/watch?v=OOlnp2bZVRs) \{ www.youtube.com \}
 
 > ![image-20251129235241699](2026-01-10-links-from-my-inbox.assets/image-20251129235241699.png)
 >
@@ -347,13 +347,13 @@ categories: links
 >
 > Putting all of this together, the structure works because of a very tight alignment between these three parts. The state space with its order is a join-semilattice. Merge computes joins in that semilattice and so has the algebraic properties that tolerate arbitrary gossip. Update is monotone in that same order, so it moves states up without breaking the lattice structure. Value is also monotone, so as states climb, observable values climb too. Given those three conditions, no matter how many nodes you have, no matter how messages are reordered, delayed, or duplicated, all replicas are always climbing toward the same upper bound, and all clients see counters that only move forward.
 
-2025-12-02 [Conflict-Free Replicated Data Types (CRDT) for Distributed JavaScript Apps. - YouTube](https://www.youtube.com/watch?v=M8-WFTjZoA0) { www.youtube.com }
+2025-12-02 [Conflict-Free Replicated Data Types (CRDT) for Distributed JavaScript Apps. - YouTube](https://www.youtube.com/watch?v=M8-WFTjZoA0) \{ www.youtube.com \}
 
 > Speaker: https://jonathanleemartin.com/
 >
-> 2025-12-02 [coast-team/dotted-logootsplit: A delta-state block-wise sequence CRDT](https://github.com/coast-team/dotted-logootsplit) { github.com }
+> 2025-12-02 [coast-team/dotted-logootsplit: A delta-state block-wise sequence CRDT](https://github.com/coast-team/dotted-logootsplit) \{ github.com \}
 >
-> 2025-12-02 [automerge/automerge: A JSON-like data structure (a CRDT) that can be modified concurrently by different users, and merged again automatically.](https://github.com/automerge/automerge) { github.com }
+> 2025-12-02 [automerge/automerge: A JSON-like data structure (a CRDT) that can be modified concurrently by different users, and merged again automatically.](https://github.com/automerge/automerge) \{ github.com \}
 
 > ![image-20251201233349962](2026-01-10-links-from-my-inbox.assets/image-20251201233349962.png)
 > ![image-20251201233518746](2026-01-10-links-from-my-inbox.assets/image-20251201233518746.png)
@@ -512,12 +512,12 @@ categories: links
 >
 > So the recipe is: design ids as immutable tuples that include a path, a globally unique replica identifier, and a per-replica counter; define a deterministic lexicographic comparison over those fields; implement a “pick a path between two paths” function that can always find a new path by going deeper when necessary and that tends to keep the tree balanced. With those three pieces in place, the ids are naturally immutable, unique, and sufficient to drive convergence.
 
-2025-12-02 [CRDT Papers Conflict-free Replicated Data Types](https://crdt.tech/papers.html) { crdt.tech }
+2025-12-02 [CRDT Papers Conflict-free Replicated Data Types](https://crdt.tech/papers.html) \{ crdt.tech \}
 
 > This page contains a comprehensive list of research publications on CRDTs. The data is available [in BibTeX format](https://crdt.tech/papers_bib.html). If you have anything to add or correct, please [edit the file on GitHub](https://github.com/ept/crdt-website/edit/gh-pages/papers.bib) and send us a pull request.
 > ![image-20251201235239094](2026-01-10-links-from-my-inbox.assets/image-20251201235239094.png)
 
-2025-10-27 [Conflict-Free Replicated Data Types (CRDTs): Convergence Without Coordination](https://read.thecoder.cafe/p/crdt) { read.thecoder.cafe }
+2025-10-27 [Conflict-Free Replicated Data Types (CRDTs): Convergence Without Coordination](https://read.thecoder.cafe/p/crdt) \{ read.thecoder.cafe \}
 
 > ☕ *Welcome to The Coder Cafe! Today, we will explore CRDTs, why they matter in distributed systems, and how they keep nodes in sync. Get cozy, grab a coffee, and let’s begin!*
 >
@@ -564,7 +564,7 @@ categories: links
 >  CRDTs naturally support devices that store local state and sync later, like IoT or CDN edge caches.
 >  **Action:** Consider CRDTs in environments where connectivity is intermittent or decentralized coordination is impractical.
 
-2025-12-06 [Microsoft Research Video 153540 Strong Eventual Consistency and Conflict free Replicated Data Types - YouTube](https://www.youtube.com/watch?v=QmSeClNY4Yw) { www.youtube.com }
+2025-12-06 [Microsoft Research Video 153540 Strong Eventual Consistency and Conflict free Replicated Data Types - YouTube](https://www.youtube.com/watch?v=QmSeClNY4Yw) \{ www.youtube.com \}
 
 > ![image-20251206114520819](2026-01-10-links-from-my-inbox.assets/image-20251206114520819.png)
 >
@@ -672,7 +672,7 @@ categories: links
 >
 > In such cases, some form of synchronization, transactions, or centralized computation on consistent snapshots is still required, and the lesson is that CRDTs and strong eventual consistency are powerful for a wide class of problems but do not replace consensus-based mechanisms for all data types or invariants.
 
-2025-09-29 [Why Local-First Apps Haven’t Become Popular?](https://marcobambini.substack.com/p/why-local-first-apps-havent-become) { marcobambini.substack.com }
+2025-09-29 [Why Local-First Apps Haven’t Become Popular?](https://marcobambini.substack.com/p/why-local-first-apps-havent-become) \{ marcobambini.substack.com \}
 
 > ![image-20250929162449926](2026-01-10-links-from-my-inbox.assets/image-20250929162449926.png)
 > Local-first apps promise instant load times, resilience to flaky networks, and better privacy, but they remain rare because sync is hard. The article frames local-first as a distributed-systems problem: multiple devices mutate the same data while offline, then must converge to one state without losing intent. Two core challenges block adoption. First, unreliable ordering: operations arrive out of order, so naïve “last write wins” produces surprising losses. Second, conflicts: concurrent edits require semantics that match user expectations, not just technical convergence.

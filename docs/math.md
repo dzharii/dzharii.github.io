@@ -1,6 +1,6 @@
 # math and stats
 
-2025-10-27 [An Illustrated Introduction to Linear Algebra](https://www.ducktyped.org/p/an-illustrated-introduction-to-linear) { www.ducktyped.org }
+2025-10-27 [An Illustrated Introduction to Linear Algebra](https://www.ducktyped.org/p/an-illustrated-introduction-to-linear) \{ www.ducktyped.org \}
 
 > ![image-20251026215702717](math.assets/image-20251026215702717.png)
 

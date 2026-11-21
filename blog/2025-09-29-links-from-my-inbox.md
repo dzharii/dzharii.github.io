@@ -7,7 +7,7 @@ categories: links
 
 ## ⌚ Nice watch!
 
-2025-09-17 [Sam H. Smith – Parsing without ASTs and Optimizing with Sea of Nodes – BSC 2025 - YouTube](https://www.youtube.com/watch?v=NxiKlnUtyio) { www.youtube.com }
+2025-09-17 [Sam H. Smith – Parsing without ASTs and Optimizing with Sea of Nodes – BSC 2025 - YouTube](https://www.youtube.com/watch?v=NxiKlnUtyio) \{ www.youtube.com \}
 
 > ![image-20250916232906913](2025-09-29-links-from-my-inbox.assets/image-20250916232906913.png)
 
@@ -175,7 +175,7 @@ rule mul(x, lit(0)) -> lit(0);
 - Keep memory simple first; add sophistication only when the rest is solid.
 - Prefer local, incremental rewrites and measure.
 
-2025-09-03 [Please stop vibe coding like this - YouTube](https://www.youtube.com/watch?v=6TMPWvPG5GA) { www.youtube.com }
+2025-09-03 [Please stop vibe coding like this - YouTube](https://www.youtube.com/watch?v=6TMPWvPG5GA) \{ www.youtube.com \}
 
 > ![image-20250902230358413](2025-09-29-links-from-my-inbox.assets/image-20250902230358413.png)
 >
@@ -200,7 +200,7 @@ rule mul(x, lit(0)) -> lit(0);
 > ***"Vibe coding isn't about replacing engineers. Its about replacing engineering."***
 >  I aim AI at the **low-value engineering** I never wanted to do: a quick SVG->PNG converter in the browser, a square image maker for YouTube previews, lightweight benchmarking harnesses. These are small, tailor-made tools that unlock output with near-zero ceremony. Experts remain essential for the hard parts; AI just clears the gravel so we can climb.
 
-2025-08-30 [Burnout from the Top – A Story of Falling, Learning, and Rising Again - Tom Erik Rozmara Frydenlund - YouTube](https://www.youtube.com/watch?v=i2juiR8Xvk0) { www.youtube.com }
+2025-08-30 [Burnout from the Top – A Story of Falling, Learning, and Rising Again - Tom Erik Rozmara Frydenlund - YouTube](https://www.youtube.com/watch?v=i2juiR8Xvk0) \{ www.youtube.com \}
 
 > burnout, leadership, mental health, recovery, resilience, psychological safety, work culture, boundaries, calendar management![image-20250830161310226](2025-09-29-links-from-my-inbox.assets/image-20250830161310226.png)
 >
@@ -230,7 +230,7 @@ rule mul(x, lit(0)) -> lit(0);
 >
 > If you are early on this path, take these moves now. Notice the signs. Talk sooner. Cut the always-on loop. Define good enough. Pace like Amundsen. If you are coming back, ramp slowly and let others help. If you lead, design conditions for health: time to think, time to rest, time to do quality work. Own the calendar. Guard the buffers. Reward preparation. Thank people. And remember the simplest goal. Wake up. You are here. Build from there.
 
-2025-08-10 [You're using AI coding tools wrong - YouTube](https://www.youtube.com/watch?v=i44jQvcDARo) { www.youtube.com }
+2025-08-10 [You're using AI coding tools wrong - YouTube](https://www.youtube.com/watch?v=i44jQvcDARo) \{ www.youtube.com \}
 
 > ![image-20250810150835021](2025-09-29-links-from-my-inbox.assets/image-20250810150835021.png)
 > **Key Takeaways – The Real Bottleneck in Software Development (and How AI Should Actually Help)**
@@ -249,7 +249,7 @@ rule mul(x, lit(0)) -> lit(0);
 >
 > **Source article:**
 >
-> 2025-08-10 [Writing Code Was Never The Bottleneck - ordep.dev](https://ordep.dev/posts/writing-code-was-never-the-bottleneck) { ordep.dev }
+> 2025-08-10 [Writing Code Was Never The Bottleneck - ordep.dev](https://ordep.dev/posts/writing-code-was-never-the-bottleneck) \{ ordep.dev \}
 >
 > > The actual bottlenecks were, and still are, 
 > >
@@ -263,7 +263,7 @@ rule mul(x, lit(0)) -> lit(0);
 >
 > ![image-20250810150922779](2025-09-29-links-from-my-inbox.assets/image-20250810150922779.png)
 
-2025-09-17 [10 Things I Do On Every .NET App - Scott Sauber - NDC Oslo 2025 - YouTube](https://www.youtube.com/watch?v=SvcRvolP2NE) { www.youtube.com }
+2025-09-17 [10 Things I Do On Every .NET App - Scott Sauber - NDC Oslo 2025 - YouTube](https://www.youtube.com/watch?v=SvcRvolP2NE) \{ www.youtube.com \}
 
 > ![image-20250916224718622](2025-09-29-links-from-my-inbox.assets/image-20250916224718622.png)
 
@@ -543,7 +543,7 @@ Reference: [EF Core Logging and Events](https://learn.microsoft.com/en-us/ef/cor
 
 Reference: [DORA: Trunk-Based Development](https://dora.dev/capabilities/trunk-based-development/)
 
-2025-09-28 [Programming in Modern C with a Sneak Peek into C23 - Dawid Zalewski - ACCU 2023 - YouTube](https://www.youtube.com/watch?v=lLv1s7rKeCM) { www.youtube.com }
+2025-09-28 [Programming in Modern C with a Sneak Peek into C23 - Dawid Zalewski - ACCU 2023 - YouTube](https://www.youtube.com/watch?v=lLv1s7rKeCM) \{ www.youtube.com \}
 
 > ![image-20250928150824455](2025-09-29-links-from-my-inbox.assets/image-20250928150824455.png)
 >
@@ -577,7 +577,7 @@ Reference: [DORA: Trunk-Based Development](https://dora.dev/capabilities/trunk-b
 > **C23 highlights**
 > New keywords for `bool`, `true`, and `false`, the `nullptr` constant, `auto` type inference in specific contexts, a note on `constexpr`, and current compiler support caveats.
 
-2025-09-27 [Advice for Writing Small Programs in C - YouTube](https://www.youtube.com/watch?v=eAhWIO1Ra6M) { www.youtube.com }
+2025-09-27 [Advice for Writing Small Programs in C - YouTube](https://www.youtube.com/watch?v=eAhWIO1Ra6M) \{ www.youtube.com \}
 
 > ![image-20250927123639285](2025-09-29-links-from-my-inbox.assets/image-20250927123639285.png)Main point
 >

@@ -9,11 +9,11 @@ categories: links
 
 ## Good Reads
 
-2025-02-22 [AI Killed The Tech Interview. Now What? | Kane Narraway](https://kanenarraway.com/posts/ai-killed-the-tech-interview-now-what/) { kanenarraway.com }
+2025-02-22 [AI Killed The Tech Interview. Now What? | Kane Narraway](https://kanenarraway.com/posts/ai-killed-the-tech-interview-now-what/) \{ kanenarraway.com \}
 
 > With the rise of AI, companies need to rethink their interview processes. Simply asking candidates to complete coding tests isn't enough anymore. Some options include stopping remote interviews, requiring spyware during interviews, or allowing AI use and focusing on how well candidates can prompt and refactor AI outputs. Ultimately, companies may need to adopt a hybrid approach, combining remote and in-person interviews to evaluate both coding skills and AI proficiency. Regardless, the nature of tech interviews is set to change drastically in the coming years.
 
-2025-02-17 [Finding Flow: Escaping Digital Distractions Through Deep Work and Slow Living | ssp.sh](https://www.ssp.sh/blog/finding-flow/) { www.ssp.sh }
+2025-02-17 [Finding Flow: Escaping Digital Distractions Through Deep Work and Slow Living | ssp.sh](https://www.ssp.sh/blog/finding-flow/) \{ www.ssp.sh \}
 
 > Johann Hari says in [Stolen Focus](https://www.goodreads.com/book/show/57933306-stolen-focus) that rats and pigeons can be manipulated as we want. Just give them food whenever they do what you want them to. And shortly after, they will repeat that over and over again.
 >
@@ -25,7 +25,7 @@ categories: links
 > ![image-20250217130732910](2025-02-22-links-from-my-inbox.assets/image-20250217130732910.png)
 > ![image-20250217130801182](2025-02-22-links-from-my-inbox.assets/image-20250217130801182.png)
 
-2025-02-17 [The Quest to Understand Metric Movements | by Pinterest Engineering | Pinterest Engineering Blog | Feb, 2025 | Medium](https://medium.com/pinterest-engineering/the-quest-to-understand-metric-movements-8ab12ae97cda) { medium.com }
+2025-02-17 [The Quest to Understand Metric Movements | by Pinterest Engineering | Pinterest Engineering Blog | Feb, 2025 | Medium](https://medium.com/pinterest-engineering/the-quest-to-understand-metric-movements-8ab12ae97cda) \{ medium.com \}
 
 > %metrics %rootcause %analytics
 >
@@ -69,7 +69,7 @@ categories: links
 >   > "Scuba is Facebook's platform for real-time monitoring and log analytics at scale."  
 >   > [Watch on YouTube](https://www.youtube.com/watch?v=5XvzuFbKuOc)
 
-2025-02-17 [calculator-app - Chad Nauseam Home](https://chadnauseam.com/coding/random/calculator-app) { chadnauseam.com }
+2025-02-17 [calculator-app - Chad Nauseam Home](https://chadnauseam.com/coding/random/calculator-app) \{ chadnauseam.com \}
 
 > Creating a calculator app with precise results is challenging because floating point numbers can't represent all numbers accurately. Hans-J. Boehm experimented with various methods like bignums and algebraic equations but had to find a balance between precision and practicality.
 >
@@ -78,7 +78,7 @@ categories: links
 > This approach allowed them to develop a calculator app that delivers accurate answers without compromising user experience. Their work highlights the complexity and creativity required to solve seemingly simple problems in software development.
 > ![image-20250217130426867](2025-02-22-links-from-my-inbox.assets/image-20250217130426867.png)
 
-2025-01-25 [Life Lessons from the First Half-Century of My Career – Communications of the ACM](https://cacm.acm.org/opinion/life-lessons-from-the-first-half-century-of-my-career/) { cacm.acm.org }
+2025-01-25 [Life Lessons from the First Half-Century of My Career – Communications of the ACM](https://cacm.acm.org/opinion/life-lessons-from-the-first-half-century-of-my-career/) \{ cacm.acm.org \}
 
 > I started my career at Hughes Aircraft in 1972 while working on my Ph.D. at the University of California, Los Angeles (UCLA). After designing airborne computers for four years, I graduated and then taught and did systems research at UC Berkeley for the next 40. Since 2016, I’ve helped Google with hardware that accelerates artificial intelligence (AI).
 >
@@ -100,7 +100,7 @@ categories: links
 | **13**. “Audentes Fortuna iuvat.” (Fortune favors the bold). | **14**. Culture matters.                                     |
 | **15**. It’s not how many projects you start; it’s how many you finish. | **16**. Look for the positive opportunities.                 |
 
-2025-02-06 [Software development topics I've changed my mind on after 10 years in the industry - Blogomatano](https://chriskiehl.com/article/thoughts-after-10-years) { chriskiehl.com }
+2025-02-06 [Software development topics I've changed my mind on after 10 years in the industry - Blogomatano](https://chriskiehl.com/article/thoughts-after-10-years) \{ chriskiehl.com \}
 
 > ![image-20250205205619928](2025-02-22-links-from-my-inbox.assets/image-20250205205619928.png)
 >
@@ -154,11 +154,11 @@ categories: links
 >
 > We'll see which of these have flipped at year 15.
 
-2025-01-18 [The documentation problem in development | Rowsana](https://rowsana.bearblog.dev/the-documentation-problem/) { rowsana.bearblog.dev }
+2025-01-18 [The documentation problem in development | Rowsana](https://rowsana.bearblog.dev/the-documentation-problem/) \{ rowsana.bearblog.dev \}
 
 > ![image-20250118155926635](2025-02-22-links-from-my-inbox.assets/image-20250118155926635.png)
 
-2025-01-18 [Everything I Know About Shipping Code Faster](https://www.developing.dev/p/everything-i-know-about-shipping/) { www.developing.dev }
+2025-01-18 [Everything I Know About Shipping Code Faster](https://www.developing.dev/p/everything-i-know-about-shipping/) \{ www.developing.dev \}
 
 > Two weeks ago, I shared Evan’s writing on [what helped him grow from Junior to Staff at Meta in 3 years](https://www.developing.dev/p/new-grad-to-staff-at-meta-in-3-years). His entire post hinges on that you need to blaze through your core responsibilities to free up time for growth.
 >
@@ -176,9 +176,9 @@ categories: links
 >
 > **Flow state** is key. Eliminate distractions with **noise-canceling headphones**, **cluster meetings** to maximize focus time, and **work during hours when interruptions are minimal**. Turn off **noisy notifications** and **audit your workflow** for inefficiencies. While waiting on builds or tests, knock out **quick tasks** to keep momentum. Freeing up that extra time lets you tackle **growth opportunities** and build a **career trajectory** like Evan’s.
 >
-> (found in 2025-01-18 [Everything I Know About Shipping Code Faster](https://programmingdigest.net/newsletters/1802) { programmingdigest.net })
+> (found in 2025-01-18 [Everything I Know About Shipping Code Faster](https://programmingdigest.net/newsletters/1802) \{ programmingdigest.net \})
 
-2025-01-16 [Nobody Cares](https://grantslatton.com/nobody-cares) { grantslatton.com }
+2025-01-16 [Nobody Cares](https://grantslatton.com/nobody-cares) \{ grantslatton.com \}
 
 > At work the junior engineer sends you some code to review. The code was clearly written in a first draft, and then just iteratively patched until the tests passed, then immediately sent to you to review without any further improvement. They do not care.
 >
@@ -190,13 +190,13 @@ categories: links
 >
 > ![image-20250115221627898](2025-02-22-links-from-my-inbox.assets/image-20250115221627898.png)
 
-2025-01-09 [28h Days](https://sidhion.com/blog/28h_days/) { sidhion.com }
+2025-01-09 [28h Days](https://sidhion.com/blog/28h_days/) \{ sidhion.com \}
 
-> 2025-01-09 [28h Days: year 1 update](https://sidhion.com/blog/28h_days_update_1/) { sidhion.com }
+> 2025-01-09 [28h Days: year 1 update](https://sidhion.com/blog/28h_days_update_1/) \{ sidhion.com \}
 >
 > ![image-20250108225900954](2025-02-22-links-from-my-inbox.assets/image-20250108225900954.png)
 
-2025-01-08 [Laid Off for the First Time In My Career, and Twice In One Year - Dillon Shook](https://dillonshook.com/laid-off/) { dillonshook.com }
+2025-01-08 [Laid Off for the First Time In My Career, and Twice In One Year - Dillon Shook](https://dillonshook.com/laid-off/) \{ dillonshook.com \}
 
 > Based on my N=2 experience and the posts I’ve read here are some warning signs to look out for:
 >
@@ -209,7 +209,7 @@ categories: links
 >
 > - There’s a “company update” meeting unexpectedly scheduled four hours from now
 
-2024-12-31 [How I got promoted to staff engineer twice | sean goedecke](https://www.seangoedecke.com/staff-engineer-promotions/) { www.seangoedecke.com }
+2024-12-31 [How I got promoted to staff engineer twice | sean goedecke](https://www.seangoedecke.com/staff-engineer-promotions/) \{ www.seangoedecke.com \}
 
 > First, we need to understand why senior-to-staff promotions happen in tech companies. They happen for two reasons:
 >
@@ -218,7 +218,7 @@ categories: links
 >
 > Promotions do not happen because a particular engineer is really technically strong and ready for the next level. They do not happen because an engineer has been mentoring a lot and is ticking the boxes on the engineering ladder description. They are a tool for *retaining* or for *empowering* valued engineers. So to be promoted to staff, **you must be known and valued by your organization**.
 
-2024-12-31 [225. Systems Ideas that Sound Good But Almost Never Work—"Let's just…"](https://hardcoresoftware.learningbyshipping.com/p/225-systems-ideas-that-sound-good) { hardcoresoftware.learningbyshipping.com }
+2024-12-31 [225. Systems Ideas that Sound Good But Almost Never Work—"Let's just…"](https://hardcoresoftware.learningbyshipping.com/p/225-systems-ideas-that-sound-good) \{ hardcoresoftware.learningbyshipping.com \}
 
 > ![image-20241231140632945](2025-02-22-links-from-my-inbox.assets/image-20241231140632945.png)
 
@@ -232,55 +232,55 @@ categories: links
 
 ## Fun / Retro
 
-2025-02-18 [dinosaur couch (@dinosaurcouch) • Instagram photos and videos](https://www.instagram.com/dinosaurcouch/) { www.instagram.com }
+2025-02-18 [dinosaur couch (@dinosaurcouch) • Instagram photos and videos](https://www.instagram.com/dinosaurcouch/) \{ www.instagram.com \}
 
 > ![image-20250217180902047](2025-02-22-links-from-my-inbox.assets/image-20250217180902047.png)
 
 More Windows 3.11 CSS:
 
-- 2025-02-08 [nielssp/classic-stylesheets: Classic stylesheets for web applications.](https://github.com/nielssp/classic-stylesheets) { github.com }
+- 2025-02-08 [nielssp/classic-stylesheets: Classic stylesheets for web applications.](https://github.com/nielssp/classic-stylesheets) \{ github.com \}
 
   > ![image-20250208152302156](2025-02-22-links-from-my-inbox.assets/image-20250208152302156.png)
   > ![image-20250208152335602](2025-02-22-links-from-my-inbox.assets/image-20250208152335602.png)
 
-- 2025-02-08 [Windows 3.1](https://karol-kiersnowski.github.io/win31/) {karol-kiersnowski.github.io}
+- 2025-02-08 [Windows 3.1](https://karol-kiersnowski.github.io/win31/) \{karol-kiersnowski.github.io\}
 
-  > 2025-02-08 [GitHub - karol-kiersnowski/win31: Simple simulator of Windows 3.1 (it's just a toy)](https://github.com/karol-kiersnowski/win31) {github.com}
+  > 2025-02-08 [GitHub - karol-kiersnowski/win31: Simple simulator of Windows 3.1 (it's just a toy)](https://github.com/karol-kiersnowski/win31) \{github.com\}
   > ![image-20250208152513396](2025-02-22-links-from-my-inbox.assets/image-20250208152513396.png)
 
-- 2025-02-08 [GitHub - sleepybuildings/vuedows: A reimplementation of the Windows 3.11 shell in CSS, Typescript and Vue](https://github.com/sleepybuildings/vuedows) {github.com}
+- 2025-02-08 [GitHub - sleepybuildings/vuedows: A reimplementation of the Windows 3.11 shell in CSS, Typescript and Vue](https://github.com/sleepybuildings/vuedows) \{github.com\}
 
   > ![image-20250208152604869](2025-02-22-links-from-my-inbox.assets/image-20250208152604869.png)
 
 
 
-2025-02-06 [A computer can never be held accountable](https://simonwillison.net/2025/Feb/3/a-computer-can-never-be-held-accountable/) { simonwillison.net }
+2025-02-06 [A computer can never be held accountable](https://simonwillison.net/2025/Feb/3/a-computer-can-never-be-held-accountable/) \{ simonwillison.net \}
 
 > ![image-20250205204648990](2025-02-22-links-from-my-inbox.assets/image-20250205204648990.png)
 
-2025-01-25 [cs16.css](https://cs16.samke.me/) { cs16.samke.me }
+2025-01-25 [cs16.css](https://cs16.samke.me/) \{ cs16.samke.me \}
 
 > CSS library based on Counter Strike 1.6 UI.
 >
 > ![image-20250124205811399](2025-02-22-links-from-my-inbox.assets/image-20250124205811399.png)
 
-2025-01-07 [Neal.fun](https://neal.fun/) { neal.fun }
+2025-01-07 [Neal.fun](https://neal.fun/) \{ neal.fun \}
 
 > The website Neal.fun is a creative space where Neal shares his projects and games. It's a fun and interactive site with various activities and experiments. 
 
 > ![image-20250106235402860](2025-02-22-links-from-my-inbox.assets/image-20250106235402860.png)
 
-2025-01-07 [Stimulation Clicker](https://neal.fun/stimulation-clicker/) { neal.fun } Wow!!!
+2025-01-07 [Stimulation Clicker](https://neal.fun/stimulation-clicker/) \{ neal.fun \} Wow!!!
 
 > ![image-20250106235129909](2025-02-22-links-from-my-inbox.assets/image-20250106235129909.png)
 
-2025-01-02 [ASCII Porn Predates the Internet But It’s Still Everywhere](https://www.vice.com/en/article/ascii-pr0n-porn-predates-the-internet-but-its-still-everywhere-rule-34/) { www.vice.com }
+2025-01-02 [ASCII Porn Predates the Internet But It’s Still Everywhere](https://www.vice.com/en/article/ascii-pr0n-porn-predates-the-internet-but-its-still-everywhere-rule-34/) \{ www.vice.com \}
 
 > ![image-20250101225332746](2025-02-22-links-from-my-inbox.assets/image-20250101225332746.png)
 
 ## Inspiration!
 
-2025-02-22 [A system to organise your life • Johnny.Decimal](https://johnnydecimal.com/) { johnnydecimal.com }
+2025-02-22 [A system to organise your life • Johnny.Decimal](https://johnnydecimal.com/) \{ johnnydecimal.com \}
 
 > A system to organise your life. 
 > **Johnny.Decimal** is designed to help you find things quickly, with more confidence, and less stress.
@@ -294,7 +294,7 @@ More Windows 3.11 CSS:
 >
 > ![image-20250221172604553](2025-02-22-links-from-my-inbox.assets/image-20250221172604553.png)
 
-2025-02-22 [Removing Jeff Bezos From My Bed ◆ Truffle Security Co.](https://trufflesecurity.com/blog/removing-jeff-bezos-from-my-bed) { trufflesecurity.com }
+2025-02-22 [Removing Jeff Bezos From My Bed ◆ Truffle Security Co.](https://trufflesecurity.com/blog/removing-jeff-bezos-from-my-bed) \{ trufflesecurity.com \}
 
 > SSH access to the bed!
 > What Can They Do with This Access?
@@ -311,23 +311,23 @@ More Windows 3.11 CSS:
 >
 > ![image-20250221165944948](2025-02-22-links-from-my-inbox.assets/image-20250221165944948.png)![image-20250221165751662](2025-02-22-links-from-my-inbox.assets/image-20250221165751662.png)
 
-2025-02-11 [Orange Guidance Soapstone](https://leshuguita.github.io/orange%20soapstone/) {leshuguita.github.io}
+2025-02-11 [Orange Guidance Soapstone](https://leshuguita.github.io/orange%20soapstone/) \{leshuguita.github.io\}
 
 > ![image-20250210223958535](2025-02-22-links-from-my-inbox.assets/image-20250210223958535.png)
 
-2025-02-11 [Project Aria FAQ | Project Aria Docs](https://facebookresearch.github.io/projectaria_tools/docs/faq) { facebookresearch.github.io }
+2025-02-11 [Project Aria FAQ | Project Aria Docs](https://facebookresearch.github.io/projectaria_tools/docs/faq) \{ facebookresearch.github.io \}
 
 > Oh, the quality of documentation!
 
 > ![image-20250210223739128](2025-02-22-links-from-my-inbox.assets/image-20250210223739128.png)
 
-2025-02-08 [FreeDemandLetter - Get What You Deserve](https://www.freedemandletter.com/) { www.freedemandletter.com }
+2025-02-08 [FreeDemandLetter - Get What You Deserve](https://www.freedemandletter.com/) \{ www.freedemandletter.com \}
 
 > ![image-20250208111737746](2025-02-22-links-from-my-inbox.assets/image-20250208111737746.png)
 >
 > ![image-20250208111710320](2025-02-22-links-from-my-inbox.assets/image-20250208111710320.png)
 
-2025-02-08 [Do-nothing scripting: the key to gradual automation – Dan Slimmon](https://blog.danslimmon.com/2019/07/15/do-nothing-scripting-the-key-to-gradual-automation/) { blog.danslimmon.com }
+2025-02-08 [Do-nothing scripting: the key to gradual automation – Dan Slimmon](https://blog.danslimmon.com/2019/07/15/do-nothing-scripting-the-key-to-gradual-automation/) \{ blog.danslimmon.com \}
 
 > ![image-20250208093704291](2025-02-22-links-from-my-inbox.assets/image-20250208093704291.png)
 > At first glance, it might not be obvious that this script provides value. Maybe it looks like all we’ve done is make the instructions harder to read. But the value of a do-nothing script is immense:
@@ -338,7 +338,7 @@ More Windows 3.11 CSS:
 >
 > A do-nothing script doesn’t save your team any manual effort. It lowers the activation energy for automating tasks, which allows the team to eliminate toil over time.
 >
-> Suggestions from 2025-02-08 [Do-nothing scripting: the key to gradual automation (2019) | Hacker News](https://news.ycombinator.com/item?id=42976698) { news.ycombinator.com }
+> Suggestions from 2025-02-08 [Do-nothing scripting: the key to gradual automation (2019) | Hacker News](https://news.ycombinator.com/item?id=42976698) \{ news.ycombinator.com \}
 >
 > > 
 
@@ -347,29 +347,29 @@ More Windows 3.11 CSS:
 >  You can try it out on [this playground](https://javascriptweekly.com/link/165149/ccd9409267), which provides the option to download the diagram as PNG, or use it in an app with customizable styles.
 >  ![image-20250207145139315](2025-02-22-links-from-my-inbox.assets/image-20250207145139315.png)
 >
->  (🟠 Found in JavaScript Weekly:  [JavaScript Weekly Issue 721: January 31, 2025](https://javascriptweekly.com/issues/721) { javascriptweekly.com })
+>  (🟠 Found in JavaScript Weekly:  [JavaScript Weekly Issue 721: January 31, 2025](https://javascriptweekly.com/issues/721) \{ javascriptweekly.com \})
 
-2025-01-31 [mathesar-foundation/mathesar: An intuitive spreadsheet-like interface that lets users of all technical skill levels view, edit, query, and collaborate on Postgres data directly—100% open source and self hosted, with native Postgres access control.](https://github.com/mathesar-foundation/mathesar) { github.com }
+2025-01-31 [mathesar-foundation/mathesar: An intuitive spreadsheet-like interface that lets users of all technical skill levels view, edit, query, and collaborate on Postgres data directly—100% open source and self hosted, with native Postgres access control.](https://github.com/mathesar-foundation/mathesar) \{ github.com \}
 
 > Intuitive spreadsheet-like interface that lets users of all technical skill levels view, edit, query, and collaborate on Postgres data directly—self hosted, with native Postgres access control.
 >
 > ![image-20250130203421654](2025-02-22-links-from-my-inbox.assets/image-20250130203421654.png)
 
-2025-01-27 [Simple Search - Just a list of search bars](https://simplesearch.info/) { simplesearch.info }
+2025-01-27 [Simple Search - Just a list of search bars](https://simplesearch.info/) \{ simplesearch.info \}
 
 > ![image-20250126234916455](2025-02-22-links-from-my-inbox.assets/image-20250126234916455.png)
 
-2025-01-27 [Compare Search Engines - Gnod Search](https://www.gnod.com/search/) { www.gnod.com }
+2025-01-27 [Compare Search Engines - Gnod Search](https://www.gnod.com/search/) \{ www.gnod.com \}
 
 > ![image-20250126234939856](2025-02-22-links-from-my-inbox.assets/image-20250126234939856.png)
 
-2025-01-27 [YC Graveyard](https://ycgraveyard.iamwillwang.com/) { ycgraveyard.iamwillwang.com }
+2025-01-27 [YC Graveyard](https://ycgraveyard.iamwillwang.com/) \{ ycgraveyard.iamwillwang.com \}
 
 > YC Graveyard: 821 inactive Y Combinator startups
 >
 > ![image-20250126234052210](2025-02-22-links-from-my-inbox.assets/image-20250126234052210.png)
 
-2025-01-26 [SQLook - SQLite Database Viewer and Generator](https://sqlook.com/) { sqlook.com }
+2025-01-26 [SQLook - SQLite Database Viewer and Generator](https://sqlook.com/) \{ sqlook.com \}
 
 > And so... they changed UI to a more modern Bootstrap version... oh... 
 > SQLook – A free online SQLite database manager with a Windows 2000 interface 
@@ -377,7 +377,7 @@ More Windows 3.11 CSS:
 > ![image-20250125234154485](2025-02-22-links-from-my-inbox.assets/image-20250125234154485.png)
 > ![image-20250125234326306](2025-02-22-links-from-my-inbox.assets/image-20250125234326306.png)
 
-2025-01-25 [synth-inc/onit: Onit MacOS client](https://github.com/synth-inc/onit) { github.com }
+2025-01-25 [synth-inc/onit: Onit MacOS client](https://github.com/synth-inc/onit) \{ github.com \}
 
 > ![image-20250124210144222](2025-02-22-links-from-my-inbox.assets/image-20250124210144222.png)
 >
@@ -389,14 +389,14 @@ More Windows 3.11 CSS:
 > 4. **Customizability:** Onit is your assistant. You should be able to configure it to your liking.
 > 5. **Extensibility:** Onit should allow the community to build and share extensions, making it more useful for everyone.
 
-2025-01-23 [Master the Art of the Product Manager 'No'](https://letsnotdothat.com/) { letsnotdothat.com }
+2025-01-23 [Master the Art of the Product Manager 'No'](https://letsnotdothat.com/) \{ letsnotdothat.com \}
 
 > Master the Art of the Product Manager "No"
 >
 > ![image-20250123115940330](2025-02-22-links-from-my-inbox.assets/image-20250123115940330.png)
 >
 > See also: 
-> 2025-01-23 [How to professionally say?  The Complete Guide 2024 ](https://www.corporatereplies.com/blog/corporate-communication/how-to-professionally-say-the-complete-guide-2024) { www.corporatereplies.com }
+> 2025-01-23 [How to professionally say?  The Complete Guide 2024 ](https://www.corporatereplies.com/blog/corporate-communication/how-to-professionally-say-the-complete-guide-2024) \{ www.corporatereplies.com \}
 >
 > > **Just shut up!**
 > >
@@ -408,15 +408,15 @@ More Windows 3.11 CSS:
 >
 > > I am observing that your current performance is not meeting the expected standards. Could you please elaborate on the challenges you are facing to assist in finding potential solutions?
 >
-> 2025-01-23 [AkashRajpurohit/howtoprofessionallysay: 📖 A guide for your daily "professional" interactions](https://github.com/AkashRajpurohit/howtoprofessionallysay) { github.com }
+> 2025-01-23 [AkashRajpurohit/howtoprofessionallysay: 📖 A guide for your daily "professional" interactions](https://github.com/AkashRajpurohit/howtoprofessionallysay) \{ github.com \}
 >
-> > 2025-01-23 [How to professionally say](https://howtoprofessionallysay.akashrajpurohit.com/) { howtoprofessionallysay.akashrajpurohit.com }
+> > 2025-01-23 [How to professionally say](https://howtoprofessionallysay.akashrajpurohit.com/) \{ howtoprofessionallysay.akashrajpurohit.com \}
 > >
 > > How to professionally say
 > > A guide for your daily "professional" interactions
 > > ![image-20250123120435894](2025-02-22-links-from-my-inbox.assets/image-20250123120435894.png)
 
-2025-01-23 [itamarom/notepadjs](https://github.com/itamarom/notepadjs) { github.com }
+2025-01-23 [itamarom/notepadjs](https://github.com/itamarom/notepadjs) \{ github.com \}
 
 > https://itamarom.github.io/notepadjs/
 >
@@ -425,7 +425,7 @@ More Windows 3.11 CSS:
 >
 > ![image-20250122202537639](2025-02-22-links-from-my-inbox.assets/image-20250122202537639.png)
 
-2025-01-19 [jjcm/llmpeg: Uses an llm to generate ffmpeg commands](https://github.com/jjcm/llmpeg) { github.com }
+2025-01-19 [jjcm/llmpeg: Uses an llm to generate ffmpeg commands](https://github.com/jjcm/llmpeg) \{ github.com \}
 
 > Allows for simple usage of ffmpeg via an llm. BASH 
 >
@@ -433,11 +433,11 @@ More Windows 3.11 CSS:
 >
 > ![image-20250118173733013](2025-02-22-links-from-my-inbox.assets/image-20250118173733013.png)
 
-2025-01-16 [FFmpeg By Example](https://ffmpegbyexample.com/) { ffmpegbyexample.com }
+2025-01-16 [FFmpeg By Example](https://ffmpegbyexample.com/) \{ ffmpegbyexample.com \}
 
 > ![image-20250115234556455](2025-02-22-links-from-my-inbox.assets/image-20250115234556455.png)
 
-2025-01-15 [jesseduffield/lazygit: simple terminal UI for git commands](https://github.com/jesseduffield/lazygit) { github.com }
+2025-01-15 [jesseduffield/lazygit: simple terminal UI for git commands](https://github.com/jesseduffield/lazygit) \{ github.com \}
 
 > Elevator Pitch
 >
@@ -447,16 +447,16 @@ More Windows 3.11 CSS:
 
 > ![image-20250114203523051](2025-02-22-links-from-my-inbox.assets/image-20250114203523051.png)
 
-2025-01-10 [I’ve acquired a new superpower – Daniel Wirtz](https://danielwirtz.com/blog/spot-the-difference-superpower) { danielwirtz.com }
+2025-01-10 [I’ve acquired a new superpower – Daniel Wirtz](https://danielwirtz.com/blog/spot-the-difference-superpower) \{ danielwirtz.com \}
 
 > ![image-20250110112806271](2025-02-22-links-from-my-inbox.assets/image-20250110112806271.png)
 
-2025-01-08 [Fontjoy - Generate font pairings in one click](https://fontjoy.com/) { fontjoy.com }
+2025-01-08 [Fontjoy - Generate font pairings in one click](https://fontjoy.com/) \{ fontjoy.com \}
 
 > ![image-20250107233509669](2025-02-22-links-from-my-inbox.assets/image-20250107233509669.png)
 > The goal of font pairing is to select fonts that share an overarching theme yet have a pleasing contrast. Which fonts work together is largely a matter of intuition, but we approach this problem with a neural net. See GitHub for more technical details.
 
-2025-01-05 [Self-driving 1993 Volvo 940 (part 1: actuators) – PracticApp – Hardware / Software Engineering](https://practicapp.com/carbagepilot-part1/) { practicapp.com }
+2025-01-05 [Self-driving 1993 Volvo 940 (part 1: actuators) – PracticApp – Hardware / Software Engineering](https://practicapp.com/carbagepilot-part1/) \{ practicapp.com \}
 
 > Together with some friends, I decided earlier this year to particpate in the [Carbage run 2025 Winter edition](https://www.carbagerun.nl/event/winter-editie-2025-naar-helsinki/). This is a 6-day journey in winter all the way through Sweden to the polar circle, and back down to Helsinki in a group of roughly 400 cars.
 >
@@ -464,13 +464,13 @@ More Windows 3.11 CSS:
 >
 > ![image-20250104221838151](2025-02-22-links-from-my-inbox.assets/image-20250104221838151.png)
 
-2025-01-02 [lighting-ai/web-piano: This project is a playable piano keyboard developed using Bolt.DIY + DeepSeekV3. It supports both mouse clicks and keyboard input, with a MacBook-style touchbar for visual feedback.](https://github.com/lighting-ai/web-piano) { github.com }
+2025-01-02 [lighting-ai/web-piano: This project is a playable piano keyboard developed using Bolt.DIY + DeepSeekV3. It supports both mouse clicks and keyboard input, with a MacBook-style touchbar for visual feedback.](https://github.com/lighting-ai/web-piano) \{ github.com \}
 
->  ➡️ 2025-01-02 [stackblitz-labs/bolt.diy: Prompt, run, edit, and deploy full-stack web applications using any LLM you want!](https://github.com/stackblitz-labs/bolt.diy) { github.com }
+>  ➡️ 2025-01-02 [stackblitz-labs/bolt.diy: Prompt, run, edit, and deploy full-stack web applications using any LLM you want!](https://github.com/stackblitz-labs/bolt.diy) \{ github.com \}
 >
->  ➡️ 2025-01-02 [deepseek-ai/DeepSeek-Coder: DeepSeek Coder: Let the Code Write Itself](https://github.com/deepseek-ai/DeepSeek-Coder) { github.com }
+>  ➡️ 2025-01-02 [deepseek-ai/DeepSeek-Coder: DeepSeek Coder: Let the Code Write Itself](https://github.com/deepseek-ai/DeepSeek-Coder) \{ github.com \}
 
-2025-01-02 [API Parrot](https://apiparrot.com/) { apiparrot.com }
+2025-01-02 [API Parrot](https://apiparrot.com/) \{ apiparrot.com \}
 
 > API Parrot is the tool specifically designed to reverse engineer the HTTP APIs of any website. Making life easier for developers looking to automate, integrate or scrape websites without public APIs.
 >
@@ -478,68 +478,68 @@ More Windows 3.11 CSS:
 
 ## 👂 The Ear of AI
 
-2025-02-20 [Animate Anyone 2](https://humanaigc.github.io/animate-anyone-2/) { humanaigc.github.io }
+2025-02-20 [Animate Anyone 2](https://humanaigc.github.io/animate-anyone-2/) \{ humanaigc.github.io \}
 
 > ![image-20250219181227167](2025-02-22-links-from-my-inbox.assets/image-20250219181227167.png)
 
-2025-02-20 [Accelerating scientific breakthroughs with an AI co-scientist](https://research.google/blog/accelerating-scientific-breakthroughs-with-an-ai-co-scientist/) { research.google }
+2025-02-20 [Accelerating scientific breakthroughs with an AI co-scientist](https://research.google/blog/accelerating-scientific-breakthroughs-with-an-ai-co-scientist/) \{ research.google \}
 
 > ![image-20250219180439269](2025-02-22-links-from-my-inbox.assets/image-20250219180439269.png)
 
-2025-02-11 [Tech's Dumbest Mistake: Why Firing Programmers for AI Will Destroy Everything](https://defragzone.substack.com/p/techs-dumbest-mistake-why-firing) { defragzone.substack.com }
+2025-02-11 [Tech's Dumbest Mistake: Why Firing Programmers for AI Will Destroy Everything](https://defragzone.substack.com/p/techs-dumbest-mistake-why-firing) \{ defragzone.substack.com \}
 
-> [Firing programmers for AI is a mistake | Hacker News](https://news.ycombinator.com/item?id=43010814) { news.ycombinator.com }![image-20250211150348741](2025-02-22-links-from-my-inbox.assets/image-20250211150348741.png)
+> [Firing programmers for AI is a mistake | Hacker News](https://news.ycombinator.com/item?id=43010814) \{ news.ycombinator.com \}![image-20250211150348741](2025-02-22-links-from-my-inbox.assets/image-20250211150348741.png)
 >
 > The next generation of programmers will grow up expecting AI to do the hard parts for them. They won’t know why an algorithm is slow, they won’t be able to debug cryptic race conditions (provided they are familiar with the concept), and they certainly won’t know how to build resilient systems that survive real-world chaos.
 >
 > The result? We’ll have a whole wave of programmers who are more like AI operators than real engineers. And when companies realize AI isn't magic, being just a bunch of tokenized words in line (prove me wrong on that), they'll scramble to find actual programmers who know what they're doing. Too bad they spent years not hiring them.
 
-2025-02-07 [Understanding Reasoning LLMs - by Sebastian Raschka, PhD](https://magazine.sebastianraschka.com/p/understanding-reasoning-llms) { magazine.sebastianraschka.com }
+2025-02-07 [Understanding Reasoning LLMs - by Sebastian Raschka, PhD](https://magazine.sebastianraschka.com/p/understanding-reasoning-llms) \{ magazine.sebastianraschka.com \}
 
 > ![image-20250206195243220](2025-02-22-links-from-my-inbox.assets/image-20250206195243220.png)
 
-2025-01-31 [Jailbreaking DeepSeek R1 - Prompt Injection Using Charcodes](https://substack.com/home/post/p-156004330) { substack.com }
+2025-01-31 [Jailbreaking DeepSeek R1 - Prompt Injection Using Charcodes](https://substack.com/home/post/p-156004330) \{ substack.com \}
 
 > Bypass DeepSeek censorship by speaking in hex
 
-2025-01-29 [DeepSeek's Multi-Head Latent Attention and Other KV Cache Tricks | PySpur](https://www.pyspur.dev/blog/multi-head-latent-attention-kv-cache-paper-list) { www.pyspur.dev }
+2025-01-29 [DeepSeek's Multi-Head Latent Attention and Other KV Cache Tricks | PySpur](https://www.pyspur.dev/blog/multi-head-latent-attention-kv-cache-paper-list) \{ www.pyspur.dev \}
 
 > ![image-20250128222148104](2025-02-22-links-from-my-inbox.assets/image-20250128222148104.png)
 
-2025-01-29 [How has DeepSeek improved the Transformer architecture? | Epoch AI](https://epoch.ai/gradient-updates/how-has-deepseek-improved-the-transformer-architecture) { epoch.ai }
+2025-01-29 [How has DeepSeek improved the Transformer architecture? | Epoch AI](https://epoch.ai/gradient-updates/how-has-deepseek-improved-the-transformer-architecture) \{ epoch.ai \}
 
 > ![image-20250128212137722](2025-02-22-links-from-my-inbox.assets/image-20250128212137722.png)
 
-2025-01-28 [17-445 Machine Learning in Production / AI Engineering](https://mlip-cmu.github.io/s2025/) { mlip-cmu.github.io }
+2025-01-28 [17-445 Machine Learning in Production / AI Engineering](https://mlip-cmu.github.io/s2025/) \{ mlip-cmu.github.io \}
 
-> * 2025-01-28 [Syllabus | Large Language Model Systems](https://llmsystem.github.io/llmsystem2024spring/docs/Syllabus/) { llmsystem.github.io }
+> * 2025-01-28 [Syllabus | Large Language Model Systems](https://llmsystem.github.io/llmsystem2024spring/docs/Syllabus/) \{ llmsystem.github.io \}
 
 > ![image-20250127231003884](2025-02-22-links-from-my-inbox.assets/image-20250127231003884.png)
 
-2025-01-21 [AI Model & API Providers Analysis | Artificial Analysis](https://artificialanalysis.ai/) { artificialanalysis.ai }
+2025-01-21 [AI Model & API Providers Analysis | Artificial Analysis](https://artificialanalysis.ai/) \{ artificialanalysis.ai \}
 
 > Independent analysis of AI models and API providers
 > Understand the AI landscape to choose the best model and provider for your use-case
 >
 > ![image-20250120200947027](2025-02-22-links-from-my-inbox.assets/image-20250120200947027.png)
 
-2025-01-18 [Don't use cosine similarity carelessly](https://p.migdal.pl/blog/2025/01/dont-use-cosine-similarity/) { p.migdal.pl }
+2025-01-18 [Don't use cosine similarity carelessly](https://p.migdal.pl/blog/2025/01/dont-use-cosine-similarity/) \{ p.migdal.pl \}
 
 > ![image-20250118154932911](2025-02-22-links-from-my-inbox.assets/image-20250118154932911.png)
 
-2025-01-17 [📚 Convert E-books into audiobooks with Kokoro - Claudio Santini](https://claudio.uk/posts/epub-to-audiobook.html) { claudio.uk }
+2025-01-17 [📚 Convert E-books into audiobooks with Kokoro - Claudio Santini](https://claudio.uk/posts/epub-to-audiobook.html) \{ claudio.uk \}
 
 > ![image-20250116205209603](2025-02-22-links-from-my-inbox.assets/image-20250116205209603.png)
 
-2025-01-13 [The 2025 AI Engineering Reading List - Latent Space](https://www.latent.space/p/2025-papers) { www.latent.space }
+2025-01-13 [The 2025 AI Engineering Reading List - Latent Space](https://www.latent.space/p/2025-papers) \{ www.latent.space \}
 
 > ![image-20250113152420066](2025-02-22-links-from-my-inbox.assets/image-20250113152420066.png)
 
-2025-01-06 [Killed by LLM](https://r0bk.github.io/killedbyllm/) { r0bk.github.io }
+2025-01-06 [Killed by LLM](https://r0bk.github.io/killedbyllm/) \{ r0bk.github.io \}
 
 > ![image-20250105181245914](2025-02-22-links-from-my-inbox.assets/image-20250105181245914.png)
 
-2024-12-31 [Things we learned about LLMs in 2024](https://simonwillison.net/2024/Dec/31/llms-in-2024/) { simonwillison.net }
+2024-12-31 [Things we learned about LLMs in 2024](https://simonwillison.net/2024/Dec/31/llms-in-2024/) \{ simonwillison.net \}
 
 > In 2024, the field of Large Language Models (LLMs) saw significant advancements. The GPT-4 barrier was broken, with 18 organizations now having models that outperform the original GPT-4. Notably, Google's Gemini 1.5 Pro introduced new capabilities like a 2 million token input context length and video input. Additionally, LLM prices dropped dramatically due to increased competition and efficiency, making these models more accessible.
 >
@@ -547,7 +547,7 @@ More Windows 3.11 CSS:
 >
 > Overall, 2024 was marked by rapid progress in LLM capabilities, reduced costs, and the rise of multimodal and real-time interaction features. However, challenges like the environmental impact and the practical implementation of autonomous agents still need to be addressed.
 
-2025-01-04 [Can LLMs write better code if you keep asking them to “write better code”? | Max Woolf's Blog](https://minimaxir.com/2025/01/write-better-code/) { minimaxir.com }
+2025-01-04 [Can LLMs write better code if you keep asking them to “write better code”? | Max Woolf's Blog](https://minimaxir.com/2025/01/write-better-code/) \{ minimaxir.com \}
 
 > This article investigates whether large language models (LLMs) like Claude 3.5 Sonnet or GPT can iteratively improve code when asked to "make it better." Using a Python coding problem as a test, the author demonstrates that LLMs can optimize performance over iterations, improving speed and efficiency. However, vague prompts often lead to overengineering, such as unnecessary "enterprise-level features," without clear benefits. Despite these issues, iterative prompting can yield faster, more efficient code.
 >
@@ -555,7 +555,7 @@ More Windows 3.11 CSS:
 >
 > The findings highlight the potential and limitations of using LLMs for coding. While they can provide significant speed-ups and novel ideas, they often miss important optimizations, such as deduplication or statistical shortcuts. The article emphasizes that LLMs are valuable tools for accelerating development when used thoughtfully but require careful guidance and validation from skilled developers to produce effective, reliable results.
 
-2025-01-05 [What we learned copying all the best code assistants](https://blog.val.town/blog/fast-follow/) { blog.val.town }
+2025-01-05 [What we learned copying all the best code assistants](https://blog.val.town/blog/fast-follow/) \{ blog.val.town \}
 
 > Since the beginning of Val Town, our users have been clamouring for the state-of-the-art LLM code generation experience. When we launched our code hosting service in 2022, the state-of-the-art was GitHub Copilot. But soon it was ChatGPT, then Claude Artifacts, and now Bolt, Cursor, and Windsurf. We’ve been trying our best to keep up. Looking back over 2024, our efforts have mostly been a series of fast-follows, copying the innovation of others. Some have been successful, and others false-starts. This article is a historical account of our efforts, giving credit where it is due.
 
@@ -563,7 +563,7 @@ More Windows 3.11 CSS:
 
 ## Research 🤖 LLM vs 🧠 Brain: Cognitive Impact
 
-2025-02-04 [I Taught for Most of My Career. I Quit Because of ChatGPT | TIME](https://time.com/7026050/chatgpt-quit-teaching-ai-essay/) { time.com }
+2025-02-04 [I Taught for Most of My Career. I Quit Because of ChatGPT | TIME](https://time.com/7026050/chatgpt-quit-teaching-ai-essay/) \{ time.com \}
 
 > Virtually all experienced scholars know that writing, as historian [Lynn Hunt](https://www.historians.org/perspectives-article/how-writing-leads-to-thinking-february-2010/) has argued, is “not the transcription of thoughts already consciously present in [the writer’s] mind.” Rather, writing is a process closely tied to thinking. In graduate school, I spent months trying to fit pieces of my dissertation together in my mind and eventually found **I could solve the puzzle only through writing**. Writing is hard work. It is sometimes frightening. With the easy temptation of AI, many—possibly most—of my students were no longer willing to push through discomfort.
 >
@@ -574,7 +574,7 @@ More Windows 3.11 CSS:
 >
 > 
 
-2025-02-04 [(PDF) Investigating How Frequent Interactions with AI Technologies Impact Cognitive and Emotional Processes](https://www.researchgate.net/publication/384458671_Investigating_How_Frequent_Interactions_with_AI_Technologies_Impact_Cognitive_and_Emotional_Processes) { www.researchgate.net }
+2025-02-04 [(PDF) Investigating How Frequent Interactions with AI Technologies Impact Cognitive and Emotional Processes](https://www.researchgate.net/publication/384458671_Investigating_How_Frequent_Interactions_with_AI_Technologies_Impact_Cognitive_and_Emotional_Processes) \{ www.researchgate.net \}
 
 > Of course I did not read the original article and asked ChatGPT to create a digest
 >
@@ -652,7 +652,7 @@ More Windows 3.11 CSS:
 > 3. "Make the TED-style presentation, where the people share their opinions" -- led to good initial structure with emojis, which I like! 
 >    1. "Add evidence for each point"   -- finalized the result, not bad, I wonder if the numbers and conclusions are correct. 
 
-2025-02-22 [Microsoft Study Finds Relying on AI Kills Your Critical Thinking Skills](https://gizmodo.com/microsoft-study-finds-relying-on-ai-kills-your-critical-thinking-skills-2000561788) { gizmodo.com }
+2025-02-22 [Microsoft Study Finds Relying on AI Kills Your Critical Thinking Skills](https://gizmodo.com/microsoft-study-finds-relying-on-ai-kills-your-critical-thinking-skills-2000561788) \{ gizmodo.com \}
 
 > A [new study](https://www.microsoft.com/en-us/research/uploads/prod/2025/01/lee_2025_ai_critical_thinking_survey.pdf) published by researchers at Microsoft and Carnegie Mellon University found that the more humans lean on AI tools to complete their tasks, the less critical thinking they do, making it more difficult to call upon the skills when they are needed.
 >

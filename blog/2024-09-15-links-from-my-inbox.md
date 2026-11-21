@@ -9,7 +9,7 @@ categories: links
 
 ## Good Reads
 
-2024-08-27 [Four Lessons from 2023 That Forever Changes My Software Engineering Career | by Yifeng Liu | Medium | Medium](https://medium.com/@HobokenDays/four-career-lessons-learned-in-2023-that-forever-changed-my-software-engineering-career-52e577b05435) { medium.com }
+2024-08-27 [Four Lessons from 2023 That Forever Changes My Software Engineering Career | by Yifeng Liu | Medium | Medium](https://medium.com/@HobokenDays/four-career-lessons-learned-in-2023-that-forever-changed-my-software-engineering-career-52e577b05435) \{ medium.com \}
 
 > This past year, four key lessons transformed my approach to software engineering.
 >
@@ -23,7 +23,7 @@ categories: links
 >
 > These lessons have reshaped my career and how I approach my role as an engineer.
 
-2024-08-28 [Just use fucking paper, man - Andy Bell](https://andy-bell.co.uk/just-fucking-use-paper-man/) { andy-bell.co.uk }
+2024-08-28 [Just use fucking paper, man - Andy Bell](https://andy-bell.co.uk/just-fucking-use-paper-man/) \{ andy-bell.co.uk \}
 
 > 27th of August 2024
 >
@@ -33,7 +33,7 @@ categories: links
 >
 > I’m in an ultra busy period right now so for future me when you inevitably get back to this situation: just. use. fucking. paper.
 
-2024-08-29 [The slow evaporation of the free/open source surplus – Baldur Bjarnason](https://www.baldurbjarnason.com/2024/the-slow-evaporation-of-the-foss-surplus/) { www.baldurbjarnason.com }
+2024-08-29 [The slow evaporation of the free/open source surplus – Baldur Bjarnason](https://www.baldurbjarnason.com/2024/the-slow-evaporation-of-the-foss-surplus/) \{ www.baldurbjarnason.com \}
 
 > I've been thinking a lot about the state of Free and Open Source Software (FOSS) lately. My concern is that FOSS thrives on surplus—both from the software industry and the labor of developers. This surplus has been fueled by high margins in the tech industry, easy access to investment, and developers who have the time and financial freedom to contribute to FOSS projects. However, I'm worried that these resources are drying up.
 >
@@ -43,11 +43,11 @@ categories: links
 >
 > My fear is that FOSS is entering a period of decline. As the industry and labor surpluses shrink, FOSS projects might suffer from neglect, security issues, or even collapse. While some of this decline might be a necessary correction, it's hard not to worry about the future of the FOSS ecosystem, especially when we don't know which parts are sustainable and which are not.
 
-2024-08-29 [Why does getting a job in tech suck right now? (Is it AI?!?) – r y x, r](https://ryxcommar.com/2024/08/17/why-does-getting-a-job-in-tech-suck-right-now-is-it-ai/) { ryxcommar.com }
+2024-08-29 [Why does getting a job in tech suck right now? (Is it AI?!?) – r y x, r](https://ryxcommar.com/2024/08/17/why-does-getting-a-job-in-tech-suck-right-now-is-it-ai/) \{ ryxcommar.com \}
 
 > ![image-20240915141710361](2024-09-15-links-from-my-inbox.assets/image-20240915141710361.png)
 
-2024-08-31 [Using Fibonacci Numbers to Convert from Miles to Kilometers and Vice Versa](https://catonmat.net/fibonacci-miles-kilometers) { catonmat.net }
+2024-08-31 [Using Fibonacci Numbers to Convert from Miles to Kilometers and Vice Versa](https://catonmat.net/fibonacci-miles-kilometers) \{ catonmat.net \}
 
 > Take two consecutive Fibonacci numbers, for example 5 and 8.
 >
@@ -59,7 +59,7 @@ categories: links
 >
 > Mind = blown. Completely.
 
-2024-09-11 [The Art of Finishing | ByteDrum](https://www.bytedrum.com/posts/art-of-finishing/) { www.bytedrum.com }
+2024-09-11 [The Art of Finishing | ByteDrum](https://www.bytedrum.com/posts/art-of-finishing/) \{ www.bytedrum.com \}
 
 > The article explores the **challenge of unfinished projects** and the cycle of starting with enthusiasm but failing to complete them. The author describes this as the **Hydra Effect**—each task completed leads to new challenges. Unfinished projects feel full of potential, but **fear of imperfection** or even **success** prevents many developers from finishing.
 >
@@ -73,7 +73,7 @@ categories: links
 >
 > The article emphasizes that overcoming the Hydra Effect requires **discipline** but leads to personal and professional growth.
 
-2024-09-11 [Improving Application Availability: The Basics | by Mario Bittencourt | SSENSE-TECH | Aug, 2024 | Medium](https://medium.com/ssense-tech/improving-application-availability-the-basics-f6c3365235fc) { medium.com }
+2024-09-11 [Improving Application Availability: The Basics | by Mario Bittencourt | SSENSE-TECH | Aug, 2024 | Medium](https://medium.com/ssense-tech/improving-application-availability-the-basics-f6c3365235fc) \{ medium.com \}
 
 > In this article, I introduce the essentials of **application availability** and how to approach **high availability**. High availability is measured by **uptime percentage**. Achieving **99.999%** availability (five nines) means accepting no more than **5 minutes of downtime** per year, which requires **automation** to detect and fix issues fast.
 >
@@ -94,7 +94,7 @@ categories: links
 >
 > This sets the stage for future discussions on **graceful degradation**, **asynchronous processing**, and **disaster recovery** strategies.
 
-2024-09-12 [A Bunch of Programming Advice I’d Give To Myself 15 Years Ago Marcus' Blog](https://mbuffett.com/posts/programming-advice-younger-self/) { mbuffett.com }
+2024-09-12 [A Bunch of Programming Advice I’d Give To Myself 15 Years Ago Marcus' Blog](https://mbuffett.com/posts/programming-advice-younger-self/) \{ mbuffett.com \}
 
 > If the team is constantly tripping over a recurring issue, it's crucial to **fix the root cause**, rather than repeatedly patching symptoms. The author mentions, "I decided to fix it, and it took ten minutes to update our subscription layer to call subscribers on the main thread instead," thereby removing the cause of crashes, streamlining the codebase, and reducing mental overhead.
 >
@@ -119,9 +119,9 @@ categories: links
 >
 > This article reaction and discussion on youtube: 
 >
-> 2024-09-12 [ Theo Unexpected Lessons I've Learned After 15 Years Of Coding - YouTube](https://www.youtube.com/watch?v=3h7Lc85RDLo) { www.youtube.com }
+> 2024-09-12 [ Theo Unexpected Lessons I've Learned After 15 Years Of Coding - YouTube](https://www.youtube.com/watch?v=3h7Lc85RDLo) \{ www.youtube.com \}
 
-2024-09-14 [We need to talk about "founder mode" - YouTube](https://www.youtube.com/watch?v=tDWs3XU3ESo) { www.youtube.com }
+2024-09-14 [We need to talk about "founder mode" - YouTube](https://www.youtube.com/watch?v=tDWs3XU3ESo) \{ www.youtube.com \}
 
 > "Stop hiring for the things you don't want to do. Hire for the things you **love** to do so you're forced to deal with the things you don't want to do.
 >
@@ -133,7 +133,7 @@ categories: links
 >
 > Don't make the mistake of hiring to avoid work. Embrace what you love, and let it force you to grow in areas you might be neglecting."
 >
-> Original post: 2024-09-14 [Founder Mode](https://paulgraham.com/foundermode.html) { paulgraham.com }
+> Original post: 2024-09-14 [Founder Mode](https://paulgraham.com/foundermode.html) \{ paulgraham.com \}
 
 > Theo 
 >
@@ -162,7 +162,7 @@ categories: links
 > - **Best Case:** You successfully collaborate to solve problems, driving innovation and making a real impact.
 > - **Worst Case:** Even if you face pushback, you've connected with someone valuable. If either of you moves on, that relationship could lead to exciting opportunities down the line.
 
-2024-09-15 [Why Scrum is Stressing You Out - by Adam Ard](https://rethinkingsoftware.substack.com/p/why-scrum-is-stressing-you-out) { rethinkingsoftware.substack.com }
+2024-09-15 [Why Scrum is Stressing You Out - by Adam Ard](https://rethinkingsoftware.substack.com/p/why-scrum-is-stressing-you-out) \{ rethinkingsoftware.substack.com \}
 
 > 📌 Sprints never stop. Sprints in **Scrum** are constant, unlike the traditional **Waterfall** model where high-pressure periods are followed by low-pressure times. Sprints create ongoing, medium-level **stress**, which is more damaging long-term than short-term, intense stress. Long-term stress harms both **mental** and **physical health**.
 > **Advice**: Build in deliberate **breaks** between sprints. Allow teams time to recover, reflect, and recalibrate before the next sprint. Introduce **buffer periods** for less intense work or creative activities.
@@ -176,7 +176,7 @@ categories: links
 > 🍷 Most Scrum implementations devolve into **“Scrumfall.”** Scrum is often mixed with **Waterfall-like** big-deadline pressures, which cancel out the benefits of sprints and increase stress. When major **deadlines** approach, Scrum practices are suspended, leading to a high-stress environment combining the worst aspects of both methodologies.
 > **Advice**: Resist combining Waterfall-style big **deadlines** with Scrum. Manage **stakeholder expectations** upfront and break larger goals into smaller deliverables aligned with sprint cycles. Stick to **Agile principles** and avoid falling back into the big-bang, all-at-once delivery mode.
 
-2024-09-15 [HOW TO SUCCEED IN MRBEAST PRODUCTION (leaked PDF)](https://simonwillison.net/2024/Sep/15/how-to-succeed-in-mrbeast-production/) { simonwillison.net }
+2024-09-15 [HOW TO SUCCEED IN MRBEAST PRODUCTION (leaked PDF)](https://simonwillison.net/2024/Sep/15/how-to-succeed-in-mrbeast-production/) \{ simonwillison.net \}
 
 > The MrBeast definition of A, B and C-team players is one I haven’t heard before:
 >
@@ -188,6 +188,6 @@ categories: links
 
 ## Newsletters 
 
-2024-09-11 [The web's clipboard](https://newsletter.programmingdigest.net/p/webs-clipboard?_bhlid=39409c8f37352f1a8329d34a9e329e8cf7332fec) { newsletter.programmingdigest.net }
+2024-09-11 [The web's clipboard](https://newsletter.programmingdigest.net/p/webs-clipboard?_bhlid=39409c8f37352f1a8329d34a9e329e8cf7332fec) \{ newsletter.programmingdigest.net \}
 
-2024-09-12 [JavaScript Weekly Issue 704: September 12, 2024](https://javascriptweekly.com/issues/704) { javascriptweekly.com }
+2024-09-12 [JavaScript Weekly Issue 704: September 12, 2024](https://javascriptweekly.com/issues/704) \{ javascriptweekly.com \}

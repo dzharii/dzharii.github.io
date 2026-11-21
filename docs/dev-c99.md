@@ -52,7 +52,7 @@ This compiles main.c as C99 with TCC. -Wall enables its warnings and -Werror tre
 
 ## Video
 
-2025-08-01 [How I program C - YouTube](https://www.youtube.com/watch?v=443UNeGrFoM) { www.youtube.com }
+2025-08-01 [How I program C - YouTube](https://www.youtube.com/watch?v=443UNeGrFoM) \{ www.youtube.com \}
 
 > ![image-20250801102620753](dev-c99.assets/image-20250801102620753.png)
 > **Speaker** Eskil Steenberg – game-engine and tools developer (Quel Solaar)
@@ -86,25 +86,25 @@ This compiles main.c as C99 with TCC. -Wall enables its warnings and -Werror tre
 > - Build-your-own-tools mindset; “build a mountain” analogy
 > - Closing resources and project links
 
-2025-08-01 [C Programming Full Course for free ⚙️ (2025) - YouTube](https://www.youtube.com/watch?v=xND0t1pr3KY) {www.youtube.com}
+2025-08-01 [C Programming Full Course for free ⚙️ (2025) - YouTube](https://www.youtube.com/watch?v=xND0t1pr3KY) \{www.youtube.com\}
 
 > ![image-20250801103430609](dev-c99.assets/image-20250801103430609.png)
 
-2025-08-02 [Go from mid-level to advanced C programmer in two hours - YouTube](https://www.youtube.com/watch?v=eh8zBTTgRn4) {www.youtube.com}
+2025-08-02 [Go from mid-level to advanced C programmer in two hours - YouTube](https://www.youtube.com/watch?v=eh8zBTTgRn4) \{www.youtube.com\}
 
 > ![image-20250801230639700](dev-c99.assets/image-20250801230639700.png)
 
-2025-08-02 [C Programming and Memory Management - Full Course - YouTube](https://www.youtube.com/watch?v=rJrd2QMVbGM) {www.youtube.com}
+2025-08-02 [C Programming and Memory Management - Full Course - YouTube](https://www.youtube.com/watch?v=rJrd2QMVbGM) \{www.youtube.com\}
 
 > Interesting, "Boot Dev", known for very annoying ads, also have some quality content
 >
 > ![image-20250801230857693](dev-c99.assets/image-20250801230857693.png)
 
-2025-08-02 [I'm Building C with C without CMake - YouTube](https://www.youtube.com/watch?v=D1bsg8wkZzo) {www.youtube.com}
+2025-08-02 [I'm Building C with C without CMake - YouTube](https://www.youtube.com/watch?v=D1bsg8wkZzo) \{www.youtube.com\}
 
 > ![image-20250801233701958](dev-c99.assets/image-20250801233701958.png)
 
-2025-08-02 [Tips for C Programming - YouTube](https://www.youtube.com/watch?v=9UIIMBqq1D4) {www.youtube.com}
+2025-08-02 [Tips for C Programming - YouTube](https://www.youtube.com/watch?v=9UIIMBqq1D4) \{www.youtube.com\}
 
 > ![image-20250802105718241](dev-c99.assets/image-20250802105718241.png)
 
@@ -129,7 +129,7 @@ This compiles main.c as C99 with TCC. -Wall enables its warnings and -Werror tre
 * Compiler flags: -std=c99, -Wall, -Werror, -save-temps, -fsanitize=address
 * Include behavior: literal paste, unity build via including .c files
 * Segfault demo: dereference NULL, debugger halts on exact line
-* Off-by-one bug: i <= count - 1 writes 1 past end, ASan catches
+* Off-by-one bug: `i <= count - 1` writes 1 past end, ASan catches
 * Bounds-checked array: struct with length and capacity, get function
 * Strings with length: slice without copying, avoid strlen pitfalls
 * Indices not pointers: smaller references, resize-safe, serialize-friendly
@@ -246,7 +246,7 @@ draw_point((Pt){ .x = 10, .y = 20 });
 
 > C is loadbearing tech. C99 removes unnecessary pain. I lock the compiler down with -Wall and -Werror. I keep builds simple with a unity build when it fits. I never chase blind crashes; I run a debugger and ASan so memory bugs surface at the line, not in production. I wrap arrays with length and bounds, and I carry string lengths so slices are cheap and safe. I store indices instead of pointers so my data survives resizes and serializes cleanly. I allocate by lifetime and free by lifetime with arenas. With these habits, C turns from scary to sharp.
 
-2025-09-28 [Programming in Modern C with a Sneak Peek into C23 - Dawid Zalewski - ACCU 2023 - YouTube](https://www.youtube.com/watch?v=lLv1s7rKeCM) { www.youtube.com }
+2025-09-28 [Programming in Modern C with a Sneak Peek into C23 - Dawid Zalewski - ACCU 2023 - YouTube](https://www.youtube.com/watch?v=lLv1s7rKeCM) \{ www.youtube.com \}
 
 > ![image-20250928150824455](dev-c99.assets/image-20250928150824455.png)
 >
@@ -549,7 +549,7 @@ Simulates overloading. Pure preprocessor trick, no type checking.
 - Use designated initializers for public config structs.
 - Use macro overlays for defaults.
 
-2025-07-13 [Parse, Don’t Validate AKA Some C Safety Tips](https://www.lelanthran.com/chap13/content.html) { www.lelanthran.com }
+2025-07-13 [Parse, Don’t Validate AKA Some C Safety Tips](https://www.lelanthran.com/chap13/content.html) \{ www.lelanthran.com \}
 
 > The article "Parse, Don’t Validate AKA Some C Safety Tips" by Lelanthran expands on the concept of converting input into strong types rather than merely validating it as plain strings. It demonstrates how this approach, when applied in C, reduces error-prone code and security risks. The post outlines three practical benefits: boundary handling with opaque types, safer memory cleanup via pointer‑setting destructors, and compile‑time type safety that prevents misuse deeper in the codebase.
 >
@@ -573,7 +573,7 @@ Simulates overloading. Pure preprocessor trick, no type checking.
 >
 > ![image-20250713115328366](dev-c99.assets/image-20250713115328366.png)
 
-2025-11-16 [Introduction to "Fun" C (using GCC)](https://gist.github.com/eatonphil/21b3d6569f24ad164365) { gist.github.com }
+2025-11-16 [Introduction to "Fun" C (using GCC)](https://gist.github.com/eatonphil/21b3d6569f24ad164365) \{ gist.github.com \}
 
 ```c
 /**
@@ -645,7 +645,7 @@ int main() {
 }
 ```
 
-2025-11-16 [Introduction to "Fun" C (using GCC)](https://gist.github.com/eatonphil/21b3d6569f24ad164365) { gist.github.com }
+2025-11-16 [Introduction to "Fun" C (using GCC)](https://gist.github.com/eatonphil/21b3d6569f24ad164365) \{ gist.github.com \}
 
 ```c
 /**
@@ -723,7 +723,7 @@ int main() {
 
 
 
-2026-05-23 [tspader/sp: A modern C standard library](https://github.com/tspader/sp) { github.com }
+2026-05-23 [tspader/sp: A modern C standard library](https://github.com/tspader/sp) \{ github.com \}
 
 > ![image-20260523115310539](dev-c99.assets/image-20260523115310539.png)
 
@@ -790,9 +790,9 @@ s32 main(void) {
 
 
 
-2025-10-03 [Klib — a generic library in C](https://attractivechaos.github.io/klib/#About) { attractivechaos.github.io }
+2025-10-03 [Klib — a generic library in C](https://attractivechaos.github.io/klib/#About) \{ attractivechaos.github.io \}
 
-> [attractivechaos/klib: A standalone and lightweight C library](https://github.com/attractivechaos/klib) { github.com }
+> [attractivechaos/klib: A standalone and lightweight C library](https://github.com/attractivechaos/klib) \{ github.com \}
 >
 > Klib shows how to build fast, low-overhead “standard library” pieces in plain C without templates or `void*` indirection. The core pattern is macro-based generics: you instantiate a container or algorithm with a type name macro, and the preprocessor generates type-specialized code. That keeps binaries small, avoids runtime casts, and stays competitive with handwritten, type-specific containers. The README and docs stress this trade-off explicitly and show the macro expansion style with `khash.h` as the teaching example.
 >
@@ -808,11 +808,11 @@ s32 main(void) {
 > - kvec.h: generic dynamic array.
 > - [kdq.h](https://attractivechaos.github.io/klib/#Kdq%3A double-ended queue): generic double-ended queue (de-queue).
 > - klist.h: generic single-linked list and memory pool.
-> - kstring.{h,c}: basic string library.
+> - kstring.\{h,c\}: basic string library.
 > - [ketopt.h](https://attractivechaos.github.io/klib/#Ketopt%3A parsing command-line arguments): command-line argument parser, similar to [getopt_long](https://linux.die.net/man/3/getopt_long).
-> - kmath.{h,c}: numerical routines including basic nonlinear programming and a few special math functions.
-> - [kson.{h,c}](https://attractivechaos.github.io/klib/#Kson%3A simple JSON parser): simple [JSON](http://www.json.org/) parser (no streaming)
-> - [kthread.{h,c}](https://attractivechaos.github.io/klib/#Kthread%3A simple threading models): simple multi-threading models.
+> - kmath.\{h,c\}: numerical routines including basic nonlinear programming and a few special math functions.
+> - [kson.\{h,c\}](https://attractivechaos.github.io/klib/#Kson%3A simple JSON parser): simple [JSON](http://www.json.org/) parser (no streaming)
+> - [kthread.\{h,c\}](https://attractivechaos.github.io/klib/#Kthread%3A simple threading models): simple multi-threading models.
 
 Samples:
 
@@ -831,9 +831,9 @@ int main() {
 }
 ```
 
-2025-10-03 [C Interfaces and Implementations](https://drh.github.io/cii/toc.html) { drh.github.io }
+2025-10-03 [C Interfaces and Implementations](https://drh.github.io/cii/toc.html) \{ drh.github.io \}
 
-> [drh/cii: C Interfaces and Implementations](https://github.com/drh/cii) { github.com }
+> [drh/cii: C Interfaces and Implementations](https://github.com/drh/cii) \{ github.com \}
 >
 > David R. Hanson’s C Interfaces and Implementations (CII) is both a textbook and a production-grade library. The repository contains the complete source for the book’s 24 interfaces and implementations. The code favors clarity and pedagogical structure over clever micro-optimizations. It’s rich with reusable idioms: strict interface/implementation separation, minimal public surface area, explicit memory-management modules, compact yet complete data-structure implementations, and a small set of concurrency primitives with hand-written context switching.
 >
@@ -843,7 +843,7 @@ int main() {
 
 ## Dev C Articles
 
-- 2025-10-03 [Beej's Guides](https://beej.us/guide/) {beej.us}
+- 2025-10-03 [Beej's Guides](https://beej.us/guide/) \{beej.us\}
 
 > ![image-20251003160532500](dev-c99.assets/image-20251003160532500.png)
 
@@ -940,7 +940,7 @@ int main() {
 
 ## Books
 
-2025-10-18 [Free C Programming Book](https://goalkicker.com/CBook/) { goalkicker.com }
+2025-10-18 [Free C Programming Book](https://goalkicker.com/CBook/) \{ goalkicker.com \}
 
 > ![image-20251018124405108](dev-c99.assets/image-20251018124405108.png)
 
@@ -968,7 +968,7 @@ int main() {
 >
 > ![image-20230629003429585](dev-c99.assets/image-20230629003429585.png)
 
-2025-10-18 [free-programming-books/books/free-programming-books-langs.md at main · EbookFoundation/free-programming-books](https://github.com/EbookFoundation/free-programming-books/blob/main/books/free-programming-books-langs.md#c) { github.com }
+2025-10-18 [free-programming-books/books/free-programming-books-langs.md at main · EbookFoundation/free-programming-books](https://github.com/EbookFoundation/free-programming-books/blob/main/books/free-programming-books-langs.md#c) \{ github.com \}
 
 > - [256-Color VGA Programming in C](http://www.brackeen.com/vga/) - David Brackeen
 > - [A Tutorial on Pointers and Arrays in C](https://web.archive.org/web/20180827131006/http://home.earthlink.net/~momotuk/pointers.pdf) - Ted Jensen (PDF) *( 🗃️ archived)*
@@ -1017,7 +1017,7 @@ int main() {
 
 > TODO List to review later
 
-2025-10-03 [Prospecting for Hash Functions](https://nullprogram.com/blog/2018/07/31/) { nullprogram.com }
+2025-10-03 [Prospecting for Hash Functions](https://nullprogram.com/blog/2018/07/31/) \{ nullprogram.com \}
 
 
 

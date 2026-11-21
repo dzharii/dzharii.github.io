@@ -17,7 +17,7 @@ While I hope the information here provides some helpful perspectives, please don
 
 ## About: Well-being
 
-[The Science of Well-Being by Yale University](https://www.coursera.org/learn/the-science-of-well-being)  { www.coursera.org }
+[The Science of Well-Being by Yale University](https://www.coursera.org/learn/the-science-of-well-being)  \{ www.coursera.org \}
 
 > ![image-20241103184523442](psy-burnout.assets/image-20241103184523442.png)
 >
@@ -34,7 +34,7 @@ While I hope the information here provides some helpful perspectives, please don
 
 ## Tech worker burnout: What it is, and how to deal with it
 
-2025-07-21 [Tech worker burnout: What it is, and how to deal with it](https://www.pluralsight.com/resources/blog/cloud/tech-it-worker-burnout) {www.pluralsight.com}
+2025-07-21 [Tech worker burnout: What it is, and how to deal with it](https://www.pluralsight.com/resources/blog/cloud/tech-it-worker-burnout) \{www.pluralsight.com\}
 
 > ![image-20250720235539073](psy-burnout.assets/image-20250720235539073.png)
 
@@ -110,7 +110,7 @@ Here’s some things you should try to find out about your new workplace:
 
 ## About: burnout (burnout stories)
 
-[On Burnout, Mental Health, And Not Being Okay — Ludicity](https://ludic.mataroa.blog/blog/on-burnout-mental-health-and-not-being-okay/) { ludic.mataroa.blog }
+[On Burnout, Mental Health, And Not Being Okay — Ludicity](https://ludic.mataroa.blog/blog/on-burnout-mental-health-and-not-being-okay/) \{ ludic.mataroa.blog \}
 
 > In the blog post "On Burnout, Mental Health, And Not Being Okay," the author shares personal experiences with burnout and mental health challenges, emphasizing that it's normal to feel "Not Okay" at times. They recount three significant episodes:
 >
@@ -122,7 +122,7 @@ Here’s some things you should try to find out about your new workplace:
 
 > The author, a remote junior Javascript developer, shares her struggles with remote work. Despite the appeal of flexibility, she faced challenges including the reality of spending all day at home, the loneliness that resulted from missing office interactions, and mental exhaustion from a lack of routine and breaks. The continuous focus on work led to near burnout, making her consider a hybrid work model that combines remote work with office days for better work-life balance and social interaction.
 
-2024-11-04 [A Programmers Guide to Stress](https://blog.zharii.com/docs/psy-saved-articles/a-programmers-guide-to-stress) { blog.zharii.com } 
+2024-11-04 [A Programmers Guide to Stress](https://blog.zharii.com/docs/psy-saved-articles/a-programmers-guide-to-stress) \{ blog.zharii.com \}
 
 > by Daragh Byrne discusses recognizing and managing stress unique to developers.
 >
@@ -132,7 +132,7 @@ Here’s some things you should try to find out about your new workplace:
 >
 > I was super, super stressed.
 
-2024-08-18 [Burnout - When does work start feeling pointless? | DW Documentary - YouTube](https://www.youtube.com/watch?v=raVms8w61No) { www.youtube.com }
+2024-08-18 [Burnout - When does work start feeling pointless? | DW Documentary - YouTube](https://www.youtube.com/watch?v=raVms8w61No) \{ www.youtube.com \}
 
 > ![image-20241103211628867](psy-burnout.assets/image-20241103211628867.png)
 >
@@ -144,7 +144,7 @@ Here’s some things you should try to find out about your new workplace:
 >
 > The most critical issues are **employee burnout** and the **disconnect between management and workers**, both of which contribute to widespread dissatisfaction and inefficiency in workplaces. Addressing these through better leadership training, reducing unnecessary work, and improving workplace communication can lead to healthier, more engaged employees.
 
-2024-11-04 [Burnout](https://gist.github.com/stormwild/d8e33879a08a2b6351563d986afc1a7b) { gist.github.com }
+2024-11-04 [Burnout](https://gist.github.com/stormwild/d8e33879a08a2b6351563d986afc1a7b) \{ gist.github.com \}
 
 Stress vs. Burnout
 
@@ -158,7 +158,7 @@ Stress vs. Burnout
 | Primary damage is physical.         | Primary damage is emotional.            |
 | May kill you prematurely.           | May make life seem not worth living.    |
 
-[Understanding Job Burnout - Dr. Christina Maslach - YouTube](https://www.youtube.com/watch?v=gRPBkCW0R5E) { www.youtube.com }
+[Understanding Job Burnout - Dr. Christina Maslach - YouTube](https://www.youtube.com/watch?v=gRPBkCW0R5E) \{ www.youtube.com \}
 
 > ![image-20241103212828872](psy-burnout.assets/image-20241103212828872.png)
 
@@ -172,7 +172,7 @@ Stress vs. Burnout
 > - increased mental distance from one’s job, or feelings of negativism or cynicism related to one's job; and
 > - reduced professional efficacy.
 
-2024-12-21 [Burnout ≠ Working Too Much – Terrible Software](https://terriblesoftware.org/2024/12/20/burnout-%e2%89%a0-working-too-much/) { terriblesoftware.org }
+2024-12-21 [Burnout ≠ Working Too Much – Terrible Software](https://terriblesoftware.org/2024/12/20/burnout-%e2%89%a0-working-too-much/) \{ terriblesoftware.org \}
 
 > If burnout was a natural byproduct of working too much (or too hard, or for too many hours), we’d see every founder/C-level suffering from it. And yet… they’re generally doing just fine; ICs and middle managers, on the other hand, are usually taking the biggest hit.
 >
@@ -186,7 +186,7 @@ Stress vs. Burnout
 > - **Clean-up period**: After wrapping up a project, we set aside two weeks for engineers to choose what they want to work on—refactoring messy code, experimenting with new technologies, improving internal tooling, or tackling long-ignored bugs. This autonomy gives them a sense of ownership and keeps intrinsic motivation high.
 > - **Impact** **reminders**: Every now and then, I’ll show how the team’s work connects back to the company’s objectives. If you use OKRs (or any similar goal-setting framework), tie their efforts to those key outcomes. By repeatedly highlighting the real-world impact they’ve had—like improving user satisfaction scores, reducing operational costs, or enabling a new product launch—you reinforce the purpose behind their day-to-day tasks.
 
-2025-01-13 [Tech Burnout - YouTube](https://www.youtube.com/watch?v=dEnH69thZm0) { www.youtube.com }
+2025-01-13 [Tech Burnout - YouTube](https://www.youtube.com/watch?v=dEnH69thZm0) \{ www.youtube.com \}
 
 > > "Kronos, a large human resource software company, came out with a report called the employee burnout crisis. They surveyed 614 HR leaders and 95% of them report that employee burnout is one of the leading causes why people are quitting their jobs."
 >
@@ -247,7 +247,7 @@ Reach out to trusted friends or family members for emotional support. Sharing yo
 > - The new engineers had a great source of first tasks.
 > - We rolled out the refactor gradually, making it easier to QA, and reducing bugs.
 
-[Beating Burnout: A guide for supporting mental health at work](https://almanac.io/docs/beating-burnout-a-guide-for-supporting-mental-health-at-work-yDLKVF3uJtMdshcZG37HP7OHpAczogYX) { almanac.io }
+[Beating Burnout: A guide for supporting mental health at work](https://almanac.io/docs/beating-burnout-a-guide-for-supporting-mental-health-at-work-yDLKVF3uJtMdshcZG37HP7OHpAczogYX) \{ almanac.io \}
 
 >  Are you...
 >  - Burned out by constant meetings?
@@ -289,7 +289,7 @@ Develop organizational skills to balance work and personal life effectively, set
 
 Establish clear limits between professional and personal time to ensure adequate rest and leisure.
 
-[psy-2022-07-28-BoundariesMeeting](https://blog.zharii.com/docs/psy-2022-07-28-BoundariesMeeting) { blog.zharii.com }
+[psy-2022-07-28-BoundariesMeeting](https://blog.zharii.com/docs/psy-2022-07-28-BoundariesMeeting) \{ blog.zharii.com \}
 
 > Setting personal boundaries is essential for preventing burnout and fostering self-respect. This guide emphasizes the importance of boundaries to protect time, space, and mental bandwidth. Poor boundaries can lead to resentment, stress, and unintentional messages like undervaluing personal needs. Practical tips include defining work hours, reducing constant availability, and using tools like "Out of Office" settings. It's up to each individual to set, communicate, and model these boundaries clearly to ensure a balanced and sustainable approach to work and life.
 
@@ -305,7 +305,7 @@ Pursue enjoyable activities that provide fulfillment and a sense of accomplishme
 
 ## Quotes
 
-2024-11-04 [How to be a -10x Engineer](https://taylor.town/-10x) { taylor.town }
+2024-11-04 [How to be a -10x Engineer](https://taylor.town/-10x) \{ taylor.town \}
 
 > **Minus** 10x! 
 >
@@ -318,7 +318,7 @@ Pursue enjoyable activities that provide fulfillment and a sense of accomplishme
 >
 > Also: Ignoring Team Input Lack of Empathy, Setting Unrealistic Deadlines, Unclear Goals, Not Tracking Progress, Resisting Innovation, Creating Isolated Teams, Micro-management
 
-2024-11-04 [Developers experience burnout, but 70% of them code on weekends : r/programming](https://www.reddit.com/r/programming/comments/18sn8f8/comment/kf95pwx/) { www.reddit.com } (**code therapy**)
+2024-11-04 [Developers experience burnout, but 70% of them code on weekends : r/programming](https://www.reddit.com/r/programming/comments/18sn8f8/comment/kf95pwx/) \{ www.reddit.com \} (**code therapy**)
 
 >  Exactly. I work on [my open source project](https://thomasmertes.github.io/Seed7Home) **to stay mentally healthy**.
 > 
@@ -352,7 +352,7 @@ Pursue enjoyable activities that provide fulfillment and a sense of accomplishme
 
 ## Awesome Link collections
 
-2024-11-04 [Awesome Mental Health](https://dreamingechoes.github.io/awesome-mental-health/#/) { dreamingechoes.github.io }
+2024-11-04 [Awesome Mental Health](https://dreamingechoes.github.io/awesome-mental-health/#/) \{ dreamingechoes.github.io \}
 
 > ![image-20241103213152080](psy-burnout.assets/image-20241103213152080.png)
 

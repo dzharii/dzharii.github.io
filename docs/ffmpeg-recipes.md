@@ -4112,7 +4112,7 @@ for file in *.mxf; do ffmpeg -i "$file" -map 0 -c copy "${file%.mxf}.mov"; done
 
   enable stream copy (no re-encode)
 
-- "${file%.mxf}.mov";
+- "$\{file%.mxf\}.mov";
 
   retaining the original file name, set the output file wrapper as .mov
 
@@ -4160,7 +4160,7 @@ $inputfiles = ls *.mp4 foreach ($file in $inputfiles) { $output = [io.path]::Cha
 
   Creates a loop and states the subsequent code block will be applied to each file listed in `$inputfiles`. `$file` is an arbitrary variable which will represent each .mp4 file in turn as it is looped over.
 
-- {
+- \{
 
   Opens the code block.
 
@@ -4184,7 +4184,7 @@ $inputfiles = ls *.mp4 foreach ($file in $inputfiles) { $output = [io.path]::Cha
 
   The output file is set to the value of the `$output` variable declared above: i.e., the current file name with an .mkv extension.
 
-- }
+- \}
 
   Closes the code block.
 
@@ -4976,7 +4976,7 @@ ffplay input_file -vf "ocr,drawtext=fontfile=/Library/Fonts/Andale Mono.ttf:text
 
   indicates there’s another parameter coming
 
-- text=%{metadata\\\:lavfi.ocr.text}
+- text=%\{metadata\\\:lavfi.ocr.text\}
 
   tells ffplay what text to use when playing. In this case, calls for metadata that lives in the lavfi.ocr.text library
 
@@ -5405,7 +5405,7 @@ The input will be scaled to 1280px width, maintaining height. Also the stream wi
 
   Two audio channels
 
-- -t ${STREAMDURATION}
+- -t $\{STREAMDURATION\}
 
   Time (in seconds) after which the stream should automatically end.
 

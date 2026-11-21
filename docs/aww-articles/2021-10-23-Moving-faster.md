@@ -39,7 +39,7 @@ I wrote already about [setting goals](https://www.scattered-thoughts.net/writing
 - Do I have enough information? No, I don't know what performance I need.
   - Looking at all the text files in my home directory I find one 2mb file and no others over 200kb. Most are closer to 1kb.
   - On my laptop it takes ~0.5us to copy 1kb and ~0.5ms to copy 1mb. So if I just use an array of bytes the worst-case insert time on my 2mb file is 1ms.
-  - My target is 60fps which means I have a budget of 16.6ms per frame. Rendering takes <<1ms so I have plenty left over.
+  - My target is 60fps which means I have a budget of 16.6ms per frame. Rendering takes `<<1ms` so I have plenty left over.
 - Which choice moves me closer to my goal?
   - Any of the choices will be fast enough.
   - An array of bytes is the easiest to implement.

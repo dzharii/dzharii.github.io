@@ -267,7 +267,7 @@ categories: links
 >
 >Despite powerful capabilities with many tasks, Large Language Models (LLMs) are not know-it-alls. If you've used ChatGPT or other models, you'll have experienced how they can’t reasonably answer questions about proprietary information. What’s worse, it isn’t just that they don't know about proprietary information, they are unaware of their own limitations and, even if they were aware, they don’t have access to proprietary information. That's where options like Retrieval Augmented Generation (RAG) come in and give LLMs the ability to incorporate new and proprietary information into their answers.
 
-2024-06-18 [What Is ChatGPT Doing … and Why Does It Work?—Stephen Wolfram Writings](https://writings.stephenwolfram.com/2023/02/what-is-chatgpt-doing-and-why-does-it-work/) { writings.stephenwolfram.com }
+2024-06-18 [What Is ChatGPT Doing … and Why Does It Work?—Stephen Wolfram Writings](https://writings.stephenwolfram.com/2023/02/what-is-chatgpt-doing-and-why-does-it-work/) \{ writings.stephenwolfram.com \}
 
 > ![image-20240806230337671](./2024-08-06-links-from-my-inbox.assets/image-20240806230337671.png)
 >

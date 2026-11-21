@@ -3,7 +3,7 @@ Date: 2025-11-23
 
 
 
-## 2025-11-23 [Modern Architecture 101 for New Engineers & Forgetful Experts - Jerry Nixon - NDC Copenhagen 2025 - YouTube](https://www.youtube.com/watch?v=WRg13Ze_UpY) { www.youtube.com }
+## 2025-11-23 [Modern Architecture 101 for New Engineers & Forgetful Experts - Jerry Nixon - NDC Copenhagen 2025 - YouTube](https://www.youtube.com/watch?v=WRg13Ze_UpY) \{ www.youtube.com \}
 
 > Speaker: Jerry Nixon
 >

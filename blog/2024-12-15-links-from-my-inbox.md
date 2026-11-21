@@ -7,7 +7,7 @@ categories: links
 
 ## ⌚ Nice watch!
 
-2024-12-15 [Dependency Injection in C++ - A Practical Guide - Peter Muldoon - C++Now 2024 - YouTube](https://www.youtube.com/watch?v=kCYo2gJ3Y38) { www.youtube.com }
+2024-12-15 [Dependency Injection in C++ - A Practical Guide - Peter Muldoon - C++Now 2024 - YouTube](https://www.youtube.com/watch?v=kCYo2gJ3Y38) \{ www.youtube.com \}
 
 > ![image-20241215015248533](2024-12-15-links-from-my-inbox.assets/image-20241215015248533.png)
 
@@ -51,7 +51,7 @@ categories: links
 >   - Using supplier functions to control dependency injection
 >   - How dependency suppliers differ from service locators
 
-2024-12-14 [Master Tailwind CSS Crash Course 2024 | not a tutorial - YouTube](https://www.youtube.com/watch?v=coMJ4R8GzEA) { www.youtube.com }
+2024-12-14 [Master Tailwind CSS Crash Course 2024 | not a tutorial - YouTube](https://www.youtube.com/watch?v=coMJ4R8GzEA) \{ www.youtube.com \}
 
 > by Ankita Kulkarni
 >
@@ -189,12 +189,12 @@ categories: links
 </div>
 ```
 
-2024-12-10 [What's a Tensor? - YouTube](https://www.youtube.com/watch?v=f5liqUk0ZTw) { www.youtube.com }
+2024-12-10 [What's a Tensor? - YouTube](https://www.youtube.com/watch?v=f5liqUk0ZTw) \{ www.youtube.com \}
 
 > ![image-20241209163109409](2024-12-15-links-from-my-inbox.assets/image-20241209163109409.png)
 > ![image-20241209163220854](2024-12-15-links-from-my-inbox.assets/image-20241209163220854.png)
 
-> 2024-11-28 [Playing Game on the Mall Wall: Japanese Man's Super-sized Adventure! - YouTube](https://www.youtube.com/watch?v=48blVuWT6rU&list=PL0PEDK73vwEgjUi57EL_XHON8Ro6Etd1z&index=7) { www.youtube.com }
+> 2024-11-28 [Playing Game on the Mall Wall: Japanese Man's Super-sized Adventure! - YouTube](https://www.youtube.com/watch?v=48blVuWT6rU&list=PL0PEDK73vwEgjUi57EL_XHON8Ro6Etd1z&index=7) \{ www.youtube.com \}
 > ![image-20241127171556754](2024-12-15-links-from-my-inbox.assets/image-20241127171556754.png)
 
 > Nomad Push is a 38-year-old Japanese man who’s homeless and travels all over Japan. On his YouTube channel, he shares his daily life in a really honest and down-to-earth way. You’ll see him doing things like:
@@ -209,7 +209,7 @@ categories: links
 >
 > Nomad Push’s channel is like a window into his life and a journey across Japan at the same time. It’s simple, real, and worth checking out if you’re curious about a different way of seeing the world.
 
-2024-12-02 [A Day in the Life of a Japanese Hikikomori (Shut In) - YouTube](https://www.youtube.com/watch?v=pu9Ty9fxTHE) { www.youtube.com }
+2024-12-02 [A Day in the Life of a Japanese Hikikomori (Shut In) - YouTube](https://www.youtube.com/watch?v=pu9Ty9fxTHE) \{ www.youtube.com \}
 
 > ![image-20241201211155692](2024-12-15-links-from-my-inbox.assets/image-20241201211155692.png)
 >
@@ -232,7 +232,7 @@ categories: links
 >
 > ![image-20241201211045494](2024-12-15-links-from-my-inbox.assets/image-20241201211045494.png)
 
-> 2024-11-30 [10% Of Engineers Should Get Fired - YouTube](https://www.youtube.com/watch?v=m9Rvg5zAfT4) { www.youtube.com }
+> 2024-11-30 [10% Of Engineers Should Get Fired - YouTube](https://www.youtube.com/watch?v=m9Rvg5zAfT4) \{ www.youtube.com \}
 >
 > ![image-20241129170004213](2024-12-15-links-from-my-inbox.assets/image-20241129170004213.png)
 >
@@ -258,11 +258,11 @@ categories: links
 >
 > Sources:
 >
-> 2024-11-30 [Yegor Denisov-Blanch on X: "I’m at Stanford and I research software engineering productivity. We have data on the performance of &gt;50k engineers from 100s of companies. Inspired by @deedydas, our research shows: ~9.5% of software engineers do virtually nothing: Ghost Engineers (0.1x-ers) https://t.co/uygyfhK2BW" / X](https://x.com/yegordb/status/1859290734257635439) { x.com }
+> 2024-11-30 [Yegor Denisov-Blanch on X: "I’m at Stanford and I research software engineering productivity. We have data on the performance of &gt;50k engineers from 100s of companies. Inspired by @deedydas, our research shows: ~9.5% of software engineers do virtually nothing: Ghost Engineers (0.1x-ers) https://t.co/uygyfhK2BW" / X](https://x.com/yegordb/status/1859290734257635439) \{ x.com \}
 >
 > > ![image-20241129171111447](2024-12-15-links-from-my-inbox.assets/image-20241129171111447.png)
 >
-> 2024-11-30 [Tech's $90B Ghost Engineer Problem: Stanford Study Finds 9.5...](https://socket.dev/blog/ghost-engineers) { socket.dev }
+> 2024-11-30 [Tech's $90B Ghost Engineer Problem: Stanford Study Finds 9.5...](https://socket.dev/blog/ghost-engineers) \{ socket.dev \}
 >
 > > Das [highlighted](https://twitter.com/deedydas/status/1858933470296252575) a few tools of the trade from the “quiet quitting” playbook:
 > >
@@ -278,7 +278,7 @@ categories: links
 > > - will take time bcuz obscure tech reason like “race condition”
 > > - “can you create a jira for that?”
 
-2024-12-07 [Keynote: Advent of Code, Behind the Scenes - Eric Wastl - YouTube](https://www.youtube.com/watch?v=uZ8DcbhojOw) { www.youtube.com }
+2024-12-07 [Keynote: Advent of Code, Behind the Scenes - Eric Wastl - YouTube](https://www.youtube.com/watch?v=uZ8DcbhojOw) \{ www.youtube.com \}
 
 > ![image-20241206204142279](2024-12-15-links-from-my-inbox.assets/image-20241206204142279.png)
 >
@@ -286,7 +286,7 @@ categories: links
 >
 > Hello friends! My name is Eric Wasel, and Advent of Code is a project I created to help programmers improve their skills through small, self-contained challenges. The puzzles start easy and get progressively harder, helping you learn new techniques and develop problem-solving skills. I believe the best way to learn is by solving specific problems, and this project reflects that. We even have C++ in Advent of Code, and I’ll touch on where and how during the talk. Drawing from my experience designing systems for ISPs, auction infrastructure, and marketplaces, Advent of Code is all about celebrating learning, curiosity, and the joy of programming for everyone, no matter their level.
 
-2024-12-07 [To Int or To Uint - Alex Dathskovsky - YouTube](https://www.youtube.com/watch?v=F_peBmYPRYw) { www.youtube.com } {C++}
+2024-12-07 [To Int or To Uint - Alex Dathskovsky - YouTube](https://www.youtube.com/watch?v=F_peBmYPRYw) \{ www.youtube.com \} \{C++\}
 
 > ![image-20241206224226483](2024-12-15-links-from-my-inbox.assets/image-20241206224226483.png)
 
@@ -324,9 +324,9 @@ categories: links
 >
 > **Author:**  Alex Dathskovsky
 >
-> 2024-12-07 [Demystifying CRTP in C++: What, Why, and How](https://www.cppnext.com/post/demystifying-crtp-in-c-what-why-and-how) { www.cppnext.com }
+> 2024-12-07 [Demystifying CRTP in C++: What, Why, and How](https://www.cppnext.com/post/demystifying-crtp-in-c-what-why-and-how) \{ www.cppnext.com \}
 
-2024-12-07 [Exposing the not-so-secret practices of the cult of DDD - Chris Klug - - YouTube](https://www.youtube.com/watch?v=ucGhUU7KuaY) { www.youtube.com }
+2024-12-07 [Exposing the not-so-secret practices of the cult of DDD - Chris Klug - - YouTube](https://www.youtube.com/watch?v=ucGhUU7KuaY) \{ www.youtube.com \}
 
 > ![image-20241207150005664](2024-12-15-links-from-my-inbox.assets/image-20241207150005664.png)
 > ![image-20241207151010087](2024-12-15-links-from-my-inbox.assets/image-20241207151010087.png)
@@ -335,8 +335,8 @@ categories: links
 
 > ![image-20241207151910484](2024-12-15-links-from-my-inbox.assets/image-20241207151910484.png)
 
-2024-12-07 [Bosses Are FIRING Gen Z Workers Just Months After Hiring Them. - YouTube](https://www.youtube.com/watch?v=tvCPjOxJClg) { www.youtube.com }
+2024-12-07 [Bosses Are FIRING Gen Z Workers Just Months After Hiring Them. - YouTube](https://www.youtube.com/watch?v=tvCPjOxJClg) \{ www.youtube.com \}
 
 > ![image-20241207154832440](2024-12-15-links-from-my-inbox.assets/image-20241207154832440.png)
 
-> Source: 2024-12-07 [1 in 6 Companies Are Hesitant To Hire Recent College Graduates - Intelligent](https://www.intelligent.com/1-in-6-companies-are-hesitant-to-hire-recent-college-graduates/) { www.intelligent.com }
+> Source: 2024-12-07 [1 in 6 Companies Are Hesitant To Hire Recent College Graduates - Intelligent](https://www.intelligent.com/1-in-6-companies-are-hesitant-to-hire-recent-college-graduates/) \{ www.intelligent.com \}
