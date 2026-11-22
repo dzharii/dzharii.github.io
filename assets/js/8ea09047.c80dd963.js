@@ -1,1 +1,0 @@
-"use strict";(Array.isArray(globalThis.webpackChunkzharii)?globalThis.webpackChunkzharii:globalThis.webpackChunkzharii=[]).push([[9385],{40600(a){a.exports=JSON.parse('{"metadata":{"permalink":"/blog/page/2","page":2,"postsPerPage":10,"totalPages":10,"totalCount":91,"previousPage":"/blog","nextPage":"/blog/page/3","blogDescription":"Blog","blogTitle":"Blog"}}')}}]);
