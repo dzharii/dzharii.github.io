@@ -83,6 +83,7 @@ function localBuildTargetExists(rawURL: string, sourceRoute: string): boolean {
   return (
     existsSync(direct) ||
     existsSync(resolve(direct, 'index.html')) ||
+    existsSync(`${direct}.html`) ||
     (statExists(direct) && statSync(direct).isFile())
   );
 }
