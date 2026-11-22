@@ -11,7 +11,7 @@ Dates marked *saved* come from Telegram.
 
 ## Good Reads
 
-2026-09-25 [You Should All Be Asking Way More Questions](https://www.seangoedecke.com/you-should-all-be-asking-way-more-questions/) { seangoedecke.com }
+2026-09-25 [You Should All Be Asking Way More Questions](https://www.seangoedecke.com/you-should-all-be-asking-way-more-questions/) \{ seangoedecke.com \}
 
 > ![Several people study the same mechanism while another person sketches it.](2026-11-21-links-from-my-inbox.assets/1495-you-should-all-be-asking-way-more-questions.jpg)
 >
@@ -19,7 +19,7 @@ Dates marked *saved* come from Telegram.
 >
 > In his own work, about half of such questions lead him to conclude the model made a mistake. He notes that this frequency may vary by domain or language.
 
-2026-09-26 [Advice to a Beginning Software Engineer](https://www.seangoedecke.com/advice-to-a-beginning-software-engineer/) { seangoedecke.com }
+2026-09-26 [Advice to a Beginning Software Engineer](https://www.seangoedecke.com/advice-to-a-beginning-software-engineer/) \{ seangoedecke.com \}
 
 > ![Two engineers work together on a row of test fixtures.](2026-11-21-links-from-my-inbox.assets/1497-advice-to-a-beginning-software-engineer.jpg)
 >
@@ -27,7 +27,7 @@ Dates marked *saved* come from Telegram.
 >
 > Goedecke expects the role to change as models improve. His advice is to learn to use AI while continuing to form and defend your own technical opinions. He treats the advice about organizational politics as his judgment; his edit records disagreement from other engineers.
 
-2026-09-22 [A Staff Engineer's Guide to Inventing Work](https://sujithjay.com/inventing-work) { sujithjay.com }
+2026-09-22 [A Staff Engineer's Guide to Inventing Work](https://sujithjay.com/inventing-work) \{ sujithjay.com \}
 
 > ![Symbols for platform signals converge in a funnel and emerge as one small project.](2026-11-21-links-from-my-inbox.assets/1528-a-staff-engineer-s-guide-to-inventing-work.jpg)
 >
@@ -35,7 +35,7 @@ Dates marked *saved* come from Telegram.
 >
 > Nair ranks signals by whether they lead or lag demand and how much of the case for action they make on their own. A postmortem or bill is easy to justify and comes after the problem. Conversations with users can surface a need sooner but leave the engineer to make the case.
 
-2026-10-06 [The Slow Formation of Durable Software](https://newsletter.dancohen.org/archive/the-slow-formation-of-durable-software/) { newsletter.dancohen.org }
+2026-10-06 [The Slow Formation of Durable Software](https://newsletter.dancohen.org/archive/the-slow-formation-of-durable-software/) \{ newsletter.dancohen.org \}
 
 > ![Original editorial illustration for The Slow Formation of Durable Software](2026-11-21-links-from-my-inbox.assets/1589-the-slow-formation-of-durable-software.jpg)
 >
@@ -43,7 +43,7 @@ Dates marked *saved* come from Telegram.
 >
 > Cohen reports that Zotero reached more than 20 million users and attributes its durability to a long communal design process. The origin story is evidence of how this product formed, rather than a general measurement of the ideal time to spend prototyping.
 
-2026-10-19 [Your .md File Is Not a Specification](https://blog.fizzbee.ai/formal-analysis-in-requirements-specification/) { blog.fizzbee.ai }
+2026-10-19 [Your .md File Is Not a Specification](https://blog.fizzbee.ai/formal-analysis-in-requirements-specification/) \{ blog.fizzbee.ai \}
 
 > ![Original illustration of a coral appointment ticket sliding over a previously booked slot](2026-11-21-links-from-my-inbox.assets/1590-your-md-file-is-not-a-specification.jpg)
 >
@@ -53,7 +53,7 @@ Dates marked *saved* come from Telegram.
 >
 > Use the executable specification as a test oracle. Replay a path to a model state, perform the action on the implementation, and check both that a successful transition is permitted and that a rejected action is disabled. Checking only successes would let software that rejects every action pass.
 
-2026-11-07 [Writing as a Thinking Tool](https://muratbuffalo.blogspot.com/2026/11/writing-as-thinking-tool.html) { muratbuffalo.blogspot.com }
+2026-11-07 [Writing as a Thinking Tool](https://muratbuffalo.blogspot.com/2026/11/writing-as-thinking-tool.html) \{ muratbuffalo.blogspot.com \}
 
 > ![Original editorial illustration for Writing as a Thinking Tool](2026-11-21-links-from-my-inbox.assets/1722-writing-as-a-thinking-tool.jpg)
 >
@@ -61,7 +61,7 @@ Dates marked *saved* come from Telegram.
 >
 > He separates exploratory writing from cleanup. First write freely, then organize and simplify the result. He also recommends writing on a schedule and without putting pressure on a draft to be good during discovery.
 
-2026-11-06 [Bad Ideas That Aren't Bad Anymore](https://devonestes.com/bad-ideas-that-arent-bad-anymore) { devonestes.com }
+2026-11-06 [Bad Ideas That Aren't Bad Anymore](https://devonestes.com/bad-ideas-that-arent-bad-anymore) \{ devonestes.com \}
 
 > ![Original editorial illustration for Bad Ideas That Aren't Bad Anymore](2026-11-21-links-from-my-inbox.assets/1755-bad-ideas-that-aren-t-bad-anymore.jpg)
 >
@@ -69,7 +69,7 @@ Dates marked *saved* come from Telegram.
 >
 > This is an early report from one team. Its broader argument is that guidelines encode costs: poor visibility makes silos risky, scarce knowledge rewards deep specialization, and reviewing another person's change takes time. Tools can alter some of those costs while leaving others.
 
-2026-11-14 [The Software Job Title Family Tree](https://ianmiell.github.io/sw-job-title-family-tree/#observability) { ianmiell.github.io } *saved*
+2026-11-14 [The Software Job Title Family Tree](https://ianmiell.github.io/sw-job-title-family-tree/#observability) \{ ianmiell.github.io \} *saved*
 
 > ![Original editorial illustration for The Software Job Title Family Tree](2026-11-21-links-from-my-inbox.assets/1778-the-software-job-title-family-tree.jpg)
 >
@@ -77,7 +77,7 @@ Dates marked *saved* come from Telegram.
 >
 > The author describes the dates as estimates of adoption, not first recorded appearances. The notes are editable and the graph is a model of the industry's vocabulary.
 
-2026-11-20 [Ask HN: I've Been Unemployed for Two Years. What Should I Do?](https://news.ycombinator.com/item?id=50583761) { news.ycombinator.com }
+2026-11-20 [Ask HN: I've Been Unemployed for Two Years. What Should I Do?](https://news.ycombinator.com/item?id=50583761) \{ news.ycombinator.com \}
 
 > ![Original editorial illustration for Ask HN: I've Been Unemployed for Two Years. What Should I Do?](2026-11-21-links-from-my-inbox.assets/1809-ask-hn-i-ve-been-unemployed-for-two-years-what-should-i-do.jpg)
 >
@@ -91,7 +91,7 @@ Dates marked *saved* come from Telegram.
 
 ## 🤖 The Era of AI
 
-2026-09-20 [I Don't Want to Read What You Didn't Write](https://blog.colinbreck.com/i-dont-want-to-read-what-you-didnt-write/) { blog.colinbreck.com }
+2026-09-20 [I Don't Want to Read What You Didn't Write](https://blog.colinbreck.com/i-dont-want-to-read-what-you-didnt-write/) \{ blog.colinbreck.com \}
 
 > ![Blue editing marks connect handwritten drafts to a clean typeset page.](2026-11-21-links-from-my-inbox.assets/1482-i-don-t-want-to-read-what-you-didn-t-write.jpg)
 >
@@ -99,7 +99,7 @@ Dates marked *saved* come from Telegram.
 >
 > Asking the model to draft technical passages from the same context produced text he found inaccurate or difficult to read. A notable exception was the abstract, which he says the model drafted and he kept unchanged. The result describes his own work rather than a general evaluation of model writing.
 
-2026-09-21 [SimpleEnglish](https://github.com/AminBlg/SimpleEnglish) { github.com } *saved*
+2026-09-21 [SimpleEnglish](https://github.com/AminBlg/SimpleEnglish) \{ github.com \} *saved*
 
 > ![Four printed repair panels show a bolt being inserted and tightened.](2026-11-21-links-from-my-inbox.assets/1484-simpleenglish.jpg)
 >
@@ -107,7 +107,7 @@ Dates marked *saved* come from Telegram.
 >
 > In one reported chat exercise, visible formatting defects fell from 218 to 11 across sixteen replies. A separate evaluation reported 81.3% fewer mechanical linter violations across nine Claude models. The audit says these counts measure rule compliance; the basic linter cannot assess word choice.
 
-2026-09-26 [agent-browser](https://www.skills.sh/vercel-labs/agent-browser/agent-browser) { skills.sh } *saved*
+2026-09-26 [agent-browser](https://www.skills.sh/vercel-labs/agent-browser/agent-browser) \{ skills.sh \} *saved*
 
 > ![A telescope highlights specific elements in a browser-shaped stack of acrylic panes.](2026-11-21-links-from-my-inbox.assets/1500-agent-browser.jpg)
 >
@@ -115,7 +115,7 @@ Dates marked *saved* come from Telegram.
 >
 > The page distinguishes the short core workflow from a much longer all-references option. Browser capabilities depend on the installed CLI and the page's accessibility structure.
 
-2026-09-27 [What Would a Serious AI Product Look Like?](https://blog.glyph.im/2026/09/serious-ai-product.html) { blog.glyph.im }
+2026-09-27 [What Would a Serious AI Product Look Like?](https://blog.glyph.im/2026/09/serious-ai-product.html) \{ blog.glyph.im \}
 
 > ![A miniature product workbench is lined with switches, checklists, provenance markers, and a magnifier.](2026-11-21-links-from-my-inbox.assets/1520-what-would-a-serious-ai-product-look-like.jpg)
 >
@@ -123,7 +123,7 @@ Dates marked *saved* come from Telegram.
 >
 > The article pairs product changes with human processes such as reviewer rotation and skill practice. Its questions concern research and software workflows where a plausible answer can create expensive follow-up work.
 
-2026-10-02 [The Brain Sandwich](https://terriblesoftware.org/2026/10/02/the-brain-sandwich/) { terriblesoftware.org }
+2026-10-02 [The Brain Sandwich](https://terriblesoftware.org/2026/10/02/the-brain-sandwich/) \{ terriblesoftware.org \}
 
 > ![Two human review steps bracket a sandwich containing a tiny robot.](2026-11-21-links-from-my-inbox.assets/1541-the-brain-sandwich.jpg)
 >
@@ -131,7 +131,7 @@ Dates marked *saved* come from Telegram.
 >
 > The author relays a colleague's working rule rather than a measured effect on skill retention. The rule is to explain what changed and why before sending it to another person to review.
 
-2026-10-03 [Agents Don't Need Memory. They Need Documentation.](https://liao.gg/blog/agents-dont-need-memory) { liao.gg }
+2026-10-03 [Agents Don't Need Memory. They Need Documentation.](https://liao.gg/blog/agents-dont-need-memory) \{ liao.gg \}
 
 > ![A robot annotates a project notebook beside a queue of loose conversation fragments.](2026-11-21-links-from-my-inbox.assets/1550-agents-don-t-need-memory-they-need-documentation.jpg)
 >
@@ -139,7 +139,7 @@ Dates marked *saved* come from Telegram.
 >
 > Liao identifies document bloat as the major failure mode. Agents may summarize generated material, log unimportant tweaks, or invent requirements. Even with instructions to trim and split documents, he still intervenes manually.
 
-2026-10-18 [Will It Be a Golden Age or a Dark Age for Mathematics (and Science)?](https://terrytao.wordpress.com/2026/10/18/will-it-be-a-golden-age-or-a-dark-age-for-mathematics-and-science/) { terrytao.wordpress.com }
+2026-10-18 [Will It Be a Golden Age or a Dark Age for Mathematics (and Science)?](https://terrytao.wordpress.com/2026/10/18/will-it-be-a-golden-age-or-a-dark-age-for-mathematics-and-science/) \{ terrytao.wordpress.com \}
 
 > ![Original editorial illustration for Will It Be a Golden Age or a Dark Age for Mathematics (and Science)?](2026-11-21-links-from-my-inbox.assets/1630-will-it-be-a-golden-age-or-a-dark-age-for-mathematics-and-sci.jpg)
 >
@@ -147,7 +147,7 @@ Dates marked *saved* come from Telegram.
 >
 > Maggi recognizes recent proposed and formal advances and calls for continued scrutiny, interpretation, and assimilation by mathematicians. The contrasting scenarios are prospective and the essay is his guest contribution on Terence Tao's site.
 
-2026-06-26 [Anthropic Economic Index: Cadences](https://www.anthropic.com/research/economic-index-june-2026-report) { anthropic.com }
+2026-06-26 [Anthropic Economic Index: Cadences](https://www.anthropic.com/research/economic-index-june-2026-report) \{ anthropic.com \}
 
 > ![Original editorial illustration for Anthropic Economic Index: Cadences](2026-11-21-links-from-my-inbox.assets/1643-anthropic-economic-index-cadences.jpg)
 >
@@ -157,7 +157,7 @@ Dates marked *saved* come from Telegram.
 >
 > The unit of analysis matters. A transcript can miss tool work and leave very different levels of delegation looking alike. Compare the artifact, product context, and amount of human input before drawing conclusions about what has been automated.
 
-2026-06-17 [Americans and AI 2026: Chatbots, Smart Devices and Views on Impact](https://www.pewresearch.org/internet/2026/06/17/americans-and-ai-2026-chatbots-smart-devices-and-views-on-impact/) { pewresearch.org }
+2026-06-17 [Americans and AI 2026: Chatbots, Smart Devices and Views on Impact](https://www.pewresearch.org/internet/2026/06/17/americans-and-ai-2026-chatbots-smart-devices-and-views-on-impact/) \{ pewresearch.org \}
 
 > ![Original editorial illustration for Americans and AI 2026: Chatbots, Smart Devices and Views on Impact](2026-11-21-links-from-my-inbox.assets/1644-americans-and-ai-2026-chatbots-smart-devices-and-views-on-imp.jpg)
 >
@@ -167,7 +167,7 @@ Dates marked *saved* come from Telegram.
 >
 > The survey separates behavior from opinion. Higher use among younger groups does not translate into greater optimism. Read the percentages as survey responses, including predictions and self-reported usage, rather than observed effects of AI.
 
-2026-02-28 [AI Isn't Replacing SREs. It's Deskilling Them.](https://newsletter.signoz.io/p/ai-isnt-replacing-sres-its-deskilling) { newsletter.signoz.io }
+2026-02-28 [AI Isn't Replacing SREs. It's Deskilling Them.](https://newsletter.signoz.io/p/ai-isnt-replacing-sres-its-deskilling) \{ newsletter.signoz.io \}
 
 > ![Original editorial illustration for AI Isn't Replacing SREs. It's Deskilling Them.](2026-11-21-links-from-my-inbox.assets/1689-ai-isn-t-replacing-sres-it-s-deskilling-them.jpg)
 >
@@ -175,7 +175,7 @@ Dates marked *saved* come from Telegram.
 >
 > The opening 95/5 split is a framing example rather than a survey finding. The author proposes using some incidents as deliberate manual practice and designing tools that keep the human involved in reasoning. Both can trade a faster routine response for experience in handling exceptions.
 
-2026-10-31 [How I Use AI (October 2026)](https://ben.stolovitz.com/posts/how-use-ai-oct-2026/) { ben.stolovitz.com }
+2026-10-31 [How I Use AI (October 2026)](https://ben.stolovitz.com/posts/how-use-ai-oct-2026/) \{ ben.stolovitz.com \}
 
 > ![Original editorial illustration for How I Use AI (October 2026)](2026-11-21-links-from-my-inbox.assets/1703-how-i-use-ai-october-2026.jpg)
 >
@@ -183,7 +183,7 @@ Dates marked *saved* come from Telegram.
 >
 > He reports prototypes often arrive in about 20 minutes, but argues that an unsupervised agent can produce unreadable and overbuilt software. The essay records a personal workflow, with separate policies for writing and other creative work.
 
-2026-11-06 [The End of AI Frontiers](https://hunch.net/?p=13764006) { hunch.net }
+2026-11-06 [The End of AI Frontiers](https://hunch.net/?p=13764006) \{ hunch.net \}
 
 > ![Original editorial illustration for The End of AI Frontiers](2026-11-21-links-from-my-inbox.assets/1720-the-end-of-ai-frontiers.jpg)
 >
@@ -191,7 +191,7 @@ Dates marked *saved* come from Telegram.
 >
 > After a reorganization into Microsoft AI, Langford says research ideas had no workable path to adoption and that he left. The depiction of priorities is his account of the reorganization, not a statement of every participant's view.
 
-2026-11-08 [How I'm Fighting the AI Brain Fry](https://sergeykuhne.com/blog/fighting-ai-brain-fry) { sergeykuhne.com }
+2026-11-08 [How I'm Fighting the AI Brain Fry](https://sergeykuhne.com/blog/fighting-ai-brain-fry) \{ sergeykuhne.com \}
 
 > ![Original editorial illustration for How I'm Fighting the AI Brain Fry](2026-11-21-links-from-my-inbox.assets/1730-how-i-m-fighting-the-ai-brain-fry.jpg)
 >
@@ -199,7 +199,7 @@ Dates marked *saved* come from Telegram.
 >
 > Sensitive changes go on a branch and require a decision. The author retains production deployment. The process still feels tiring, and the remaining bottlenecks are assembling usable review context and preventing blocked work from cycling endlessly.
 
-2026-11-11 [Why Am I So Tired If AI Is Doing All the Work?](https://terriblesoftware.org/2026/11/11/why-am-i-so-tired-if-ai-is-doing-all-the-work/) { terriblesoftware.org }
+2026-11-11 [Why Am I So Tired If AI Is Doing All the Work?](https://terriblesoftware.org/2026/11/11/why-am-i-so-tired-if-ai-is-doing-all-the-work/) \{ terriblesoftware.org \}
 
 > ![Original editorial illustration for Why Am I So Tired If AI Is Doing All the Work?](2026-11-21-links-from-my-inbox.assets/1743-why-am-i-so-tired-if-ai-is-doing-all-the-work.jpg)
 >
@@ -207,7 +207,7 @@ Dates marked *saved* come from Telegram.
 >
 > The OS comparison is an analogy, not a productivity measurement. The practical changes are to budget reviewer time when starting a task, decide whether it belongs in progress now, and finish open reviews before starting more runs.
 
-2026-11-12 [Jane Street's Socratic Tutor Agent Skill](https://github.com/janestreet/agent_skills/blob/master/socratic-tutor/SKILL.md) { github.com } *saved*
+2026-11-12 [Jane Street's Socratic Tutor Agent Skill](https://github.com/janestreet/agent_skills/blob/master/socratic-tutor/SKILL.md) \{ github.com \} *saved*
 
 > ![Original editorial illustration for Jane Street's Socratic Tutor Agent Skill](2026-11-21-links-from-my-inbox.assets/1754-jane-street-s-socratic-tutor-agent-skill.jpg)
 >
@@ -215,7 +215,7 @@ Dates marked *saved* come from Telegram.
 >
 > The instructions distinguish being able to follow an explanation from solving independently. A rating is a session aid based on observed work, not a standardized exam score.
 
-2026-11-20 [If You Stop Writing Code, You Also Get Worse at Reviewing It](https://cekrem.github.io/posts/if-you-stop-writing-code-you-also-get-worse-at-reviewing-it/) { cekrem.github.io }
+2026-11-20 [If You Stop Writing Code, You Also Get Worse at Reviewing It](https://cekrem.github.io/posts/if-you-stop-writing-code-you-also-get-worse-at-reviewing-it/) \{ cekrem.github.io \}
 
 > ![Original editorial illustration for If You Stop Writing Code, You Also Get Worse at Reviewing It](2026-11-21-links-from-my-inbox.assets/1811-if-you-stop-writing-code-you-also-get-worse-at-reviewing-it.jpg)
 >
@@ -225,7 +225,7 @@ Dates marked *saved* come from Telegram.
 
 ## 🔫 C || C++ / Systems
 
-2013-04-01 [Writing Efficient C++ Code](https://asawicki.info/articles/writing_efficient_cpp_code.php) { asawicki.info }
+2013-04-01 [Writing Efficient C++ Code](https://asawicki.info/articles/writing_efficient_cpp_code.php) \{ asawicki.info \}
 
 > ![Trays of mixed-color objects are reorganized into separate rows grouped by color.](2026-11-21-links-from-my-inbox.assets/1506-writing-efficient-c-code.jpg)
 >
@@ -233,7 +233,7 @@ Dates marked *saved* come from Telegram.
 >
 > The tutorial also discusses allocations, operation costs, and compiler options. This material was originally published in 2013, so compiler and hardware assumptions in individual examples should be read in that context.
 
-2026-10-03 [komihash](https://github.com/avaneev/komihash) { github.com } *saved*
+2026-10-03 [komihash](https://github.com/avaneev/komihash) \{ github.com \} *saved*
 
 > ![An engraved machine takes blocks of input and stamps out one short row of squares.](2026-11-21-links-from-my-inbox.assets/1545-komihash.jpg)
 >
@@ -241,7 +241,7 @@ Dates marked *saved* come from Telegram.
 >
 > The reported throughput is platform-specific. The author says 32-bit systems are considerably slower, and byte-swapping can reduce large-block throughput on big-endian platforms. These are data-structure hash results rather than a cryptographic security evaluation.
 
-2026-10-03 [C++ Insights](https://github.com/andreasfertig/cppinsights) { github.com } *saved*
+2026-10-03 [C++ Insights](https://github.com/andreasfertig/cppinsights) \{ github.com \} *saved*
 
 > ![A closed gift box opens to reveal a foldout of operations hidden inside.](2026-11-21-links-from-my-inbox.assets/1547-c-insights.jpg)
 >
@@ -249,7 +249,7 @@ Dates marked *saved* come from Telegram.
 >
 > The output is an explanatory view of compilation decisions. The project tracks recent Clang versions, so its online and local tooling can have different support for new language features.
 
-2025-06-25 [Type Safe Generic Data Structures in C](https://danielchasehooper.com/posts/typechecked-generic-c-data-structures/) { danielchasehooper.com }
+2025-06-25 [Type Safe Generic Data Structures in C](https://danielchasehooper.com/posts/typechecked-generic-c-data-structures/) \{ danielchasehooper.com \}
 
 > ![One insertion tool passes a red cube through a sequence of matching storage containers.](2026-11-21-links-from-my-inbox.assets/1558-type-safe-generic-data-structures-in-c.jpg)
 >
@@ -257,7 +257,7 @@ Dates marked *saved* come from Telegram.
 >
 > Separately expanding an anonymous union macro creates distinct types even when the expanded shapes match. Use a named typedef if lists have to be assigned or passed across a function boundary. The inline example also needs appropriate alignment for element data.
 
-2025-08-05 [A Fast, Growable Array With Stable Pointers in C](https://danielchasehooper.com/posts/segment_array/) { danielchasehooper.com }
+2025-08-05 [A Fast, Growable Array With Stable Pointers in C](https://danielchasehooper.com/posts/segment_array/) \{ danielchasehooper.com \}
 
 > ![A steel pin holds its position while new storage segments extend the array.](2026-11-21-links-from-my-inbox.assets/1559-a-fast-growable-array-with-stable-pointers-in-c.jpg)
 >
@@ -265,7 +265,7 @@ Dates marked *saved* come from Telegram.
 >
 > The array is not physically contiguous across segments. The author estimates average memory efficiency at 75%, versus 83% for a dynamic array growing by 1.5×. An array built on reserved virtual address space can retain contiguity, but requires a compatible platform.
 
-2025-08-12 [How I Do (Type-Safe) Container Types in C](https://louissven.xyz/article/how_I_do_container_types_in_C.md) { louissven.xyz }
+2025-08-12 [How I Do (Type-Safe) Container Types in C](https://louissven.xyz/article/how_I_do_container_types_in_C.md) \{ louissven.xyz \}
 
 > ![A typed basket accepts numbered tiles and rejects a letter tile.](2026-11-21-links-from-my-inbox.assets/1563-how-i-do-type-safe-container-types-in-c.jpg)
 >
@@ -275,7 +275,7 @@ Dates marked *saved* come from Telegram.
 >
 > See also [C Generics Gist: vec.c](https://gist.github.com/lorlouis/ba227cf544fe917aae0365b41e8c2d04). The author's companion gist puts the vector declarations, access macros, and rejected assignments in one file.
 
-2022-07-22 [Templates in C](https://www.davidpriver.com/ctemplates.html) { davidpriver.com }
+2022-07-22 [Templates in C](https://www.davidpriver.com/ctemplates.html) \{ davidpriver.com \}
 
 > ![Two type tags feed one template that produces differently shaped containers.](2026-11-21-links-from-my-inbox.assets/1564-templates-in-c.jpg)
 >
@@ -283,7 +283,7 @@ Dates marked *saved* come from Telegram.
 >
 > The preprocessor still generates separate code for each type. The caller manages instantiation and macro configuration. This is a different tradeoff from sharing an untyped implementation behind a checked façade.
 
-2026-10-07 [C for Rust Programmers](https://bd103.dev/blog/2026-10-07-c-for-rust-programmers/) { bd103.dev }
+2026-10-07 [C for Rust Programmers](https://bd103.dev/blog/2026-10-07-c-for-rust-programmers/) \{ bd103.dev \}
 
 > ![Original editorial illustration for C for Rust Programmers](2026-11-21-links-from-my-inbox.assets/1578-c-for-rust-programmers.jpg)
 >
@@ -291,7 +291,7 @@ Dates marked *saved* come from Telegram.
 >
 > The pointer size belongs to the author's 64-bit environment. Language features such as the C23 boolean changes also depend on compiler support.
 
-2026-01-30 [Compiling Rust to Readable C with Eurydice](https://lwn.net/Articles/1055211/) { lwn.net }
+2026-01-30 [Compiling Rust to Readable C with Eurydice](https://lwn.net/Articles/1055211/) \{ lwn.net \}
 
 > ![Original editorial illustration for Compiling Rust to Readable C with Eurydice](2026-11-21-links-from-my-inbox.assets/1602-compiling-rust-to-readable-c-with-eurydice.jpg)
 >
@@ -299,7 +299,7 @@ Dates marked *saved* come from Telegram.
 >
 > The author found that Charon frequently failed on newer features, including const generics. The strongest use case is regenerating C from a Rust source that will continue to evolve; a small one-off program might cost less to port once.
 
-2026-10-13 [Fun Extending the C Preprocessor](https://www.davidpriver.com/Fun-Extending-the-C-Preprocessor.html) { davidpriver.com }
+2026-10-13 [Fun Extending the C Preprocessor](https://www.davidpriver.com/Fun-Extending-the-C-Preprocessor.html) \{ davidpriver.com \}
 
 > ![Original editorial illustration for Fun Extending the C Preprocessor](2026-11-21-links-from-my-inbox.assets/1632-fun-extending-the-c-preprocessor.jpg)
 >
@@ -307,7 +307,7 @@ Dates marked *saved* come from Telegram.
 >
 > The count-and-dispatch example has an upper bound; the experiment's built-ins are author proposals or local extensions, rather than features of a standard C compiler.
 
-2026-10-17 [One Hash Bloom Filters](https://calabro.io/ohbf) { calabro.io }
+2026-10-17 [One Hash Bloom Filters](https://calabro.io/ohbf) \{ calabro.io \}
 
 > ![Original illustration of an arrow selecting a single orange memory block, with three marked cells inside it](2026-11-21-links-from-my-inbox.assets/1640-one-hash-bloom-filters.jpg)
 >
@@ -317,7 +317,7 @@ Dates marked *saved* come from Telegram.
 >
 > Profile synchronization before optimizing the hash. Concurrent startup loads and incoming firehose events both write the same filters, so a low-contention insertion path made more difference than arithmetic savings.
 
-2026-10-12 [C vs C#: Racing VLC's Gaussian Blur](https://martinfinkel.com/blog/gaussian-blur-c-vs-csharp/) { martinfinkel.com }
+2026-10-12 [C vs C#: Racing VLC's Gaussian Blur](https://martinfinkel.com/blog/gaussian-blur-c-vs-csharp/) \{ martinfinkel.com \}
 
 > ![Original editorial illustration for C vs C#: Racing VLC's Gaussian Blur](2026-11-21-links-from-my-inbox.assets/1655-c-vs-c-racing-vlc-s-gaussian-blur.jpg)
 >
@@ -327,7 +327,7 @@ Dates marked *saved* come from Telegram.
 >
 > Match output and benchmark the same algorithm before attributing a gap to the language. The near tie applies to the author's most heavily tuned pair and hardware, while also showing how memory layout and compiler code generation can dominate this workload.
 
-2026-10-26 [SIMD-Accelerated Computer Vision on a $2 Microcontroller](https://shraiwi.com/blog/simd-fast-esp32s3/) { shraiwi.com } *saved*
+2026-10-26 [SIMD-Accelerated Computer Vision on a $2 Microcontroller](https://shraiwi.com/blog/simd-fast-esp32s3/) \{ shraiwi.com \} *saved*
 
 > ![Original editorial illustration for SIMD-Accelerated Computer Vision on a $2 Microcontroller](2026-11-21-links-from-my-inbox.assets/1665-simd-accelerated-computer-vision-on-a-2-microcontroller.jpg)
 >
@@ -337,7 +337,7 @@ Dates marked *saved* come from Telegram.
 >
 > Identify an early rejection step where the same computation can be applied to many pixels. The most reusable part is the technique for gathering shifted neighborhoods from aligned loads.
 
-2026-11-02 [x64 Linux System Call Table](https://syscall.sh/x64/) { syscall.sh } *saved*
+2026-11-02 [x64 Linux System Call Table](https://syscall.sh/x64/) \{ syscall.sh \} *saved*
 
 > ![Original editorial illustration for x64 Linux System Call Table](2026-11-21-links-from-my-inbox.assets/1699-x64-linux-system-call-table.jpg)
 >
@@ -345,7 +345,7 @@ Dates marked *saved* come from Telegram.
 >
 > This is the Linux x86-64 system-call convention. It differs from an ordinary function calling convention and from conventions on architectures such as AArch64.
 
-2026-10-29 [The Lost malloc()](https://napcakes.nekoweb.org/posts/malloc/) { napcakes.nekoweb.org }
+2026-10-29 [The Lost malloc()](https://napcakes.nekoweb.org/posts/malloc/) \{ napcakes.nekoweb.org \}
 
 > ![Generated museum-style illustration of a magnetic tape reel with a loose ribbon, evoking the recovered UNIX archive](2026-11-21-links-from-my-inbox.assets/1702-the-lost-malloc.jpg)
 >
@@ -353,7 +353,7 @@ Dates marked *saved* come from Telegram.
 >
 > The author's explanation of why the simpler process-wide interface won is a hypothesis. Unix V7 also documented a garbage-collected allocator, and the article shows a contemporary use in Sam. That history complicates the idea that early C programmers always wanted explicit per-object frees.
 
-2026-11-16 [C's Designated Initializers Give Us Named Arguments](https://quuxplusone.github.io/blog/2026/11/16/named-arguments-in-c/) { quuxplusone.github.io }
+2026-11-16 [C's Designated Initializers Give Us Named Arguments](https://quuxplusone.github.io/blog/2026/11/16/named-arguments-in-c/) \{ quuxplusone.github.io \}
 
 > ![Original editorial illustration for C's Designated Initializers Give Us Named Arguments](2026-11-21-links-from-my-inbox.assets/1802-c-s-designated-initializers-give-us-named-arguments.jpg)
 >
@@ -363,7 +363,7 @@ Dates marked *saved* come from Telegram.
 
 ## Web / Browsers / Frontend
 
-2026-09-02 [New Things You Should Know About HTML Here in Mid-2026](https://blog.master.dev/new-things-you-should-know-about-html-here-in-mid-2026/) { blog.master.dev }
+2026-09-02 [New Things You Should Know About HTML Here in Mid-2026](https://blog.master.dev/new-things-you-should-know-about-html-here-in-mid-2026/) \{ blog.master.dev \}
 
 > ![Orange stage curtains frame a paper browser with popovers and stacked components.](2026-11-21-links-from-my-inbox.assets/1486-new-things-you-should-know-about-html-here-in-mid-2026.jpg)
 >
@@ -371,7 +371,7 @@ Dates marked *saved* come from Telegram.
 >
 > Commands and invokers let one element trigger another's built-in action. Other examples include a search-revealable `hidden="until-found"` region and `sizes="auto"` on lazy-loaded images. Support varies across the features and proposed elements.
 
-2026-10-01 [CSS Bed](https://www.cssbed.com/) { cssbed.com } *saved*
+2026-10-01 [CSS Bed](https://www.cssbed.com/) \{ cssbed.com \} *saved*
 
 > ![One neutral form design branches into three differently colored themes.](2026-11-21-links-from-my-inbox.assets/1535-css-bed.jpg)
 >
@@ -379,7 +379,7 @@ Dates marked *saved* come from Telegram.
 >
 > The gallery shows styles on one representative test document. An application still needs to test its own layout, spacing, modes, and accessibility requirements.
 
-2026-10-04 [CSS field-sizing](https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/field-sizing) { developer.mozilla.org } *saved*
+2026-10-04 [CSS field-sizing](https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/field-sizing) \{ developer.mozilla.org \} *saved*
 
 > ![Three outlined form fields grow to different widths beneath drawn measurement arrows.](2026-11-21-links-from-my-inbox.assets/1548-css-field-sizing.jpg)
 >
@@ -387,7 +387,7 @@ Dates marked *saved* come from Telegram.
 >
 > Effects differ by element type, including text fields, textareas, and selects. Fixed width or height styles can override the size the control would derive from its content.
 
-2013-02-26 [Secrets of Awesome JavaScript API Design](https://webstandardssherpa.com/reviews/secrets-of-awesome-javascript-api-design.html) { webstandardssherpa.com }
+2013-02-26 [Secrets of Awesome JavaScript API Design](https://webstandardssherpa.com/reviews/secrets-of-awesome-javascript-api-design.html) \{ webstandardssherpa.com \}
 
 > ![Original editorial illustration for Secrets of Awesome JavaScript API Design](2026-11-21-links-from-my-inbox.assets/1670-secrets-of-awesome-javascript-api-design.jpg)
 >
@@ -395,7 +395,7 @@ Dates marked *saved* come from Telegram.
 >
 > The examples are from 2013 and their libraries are historical context. The design principle is about how naming, return shapes, and defaults fit together rather than adopting those libraries today.
 
-2026-09-08 [Using Maths to Balance Your Heading Styles](https://www.craigabbott.co.uk/blog/2026/using-maths-to-balance-your-heading-styles/) { craigabbott.co.uk }
+2026-09-08 [Using Maths to Balance Your Heading Styles](https://www.craigabbott.co.uk/blog/2026/using-maths-to-balance-your-heading-styles/) \{ craigabbott.co.uk \}
 
 > ![Original editorial illustration for Using Maths to Balance Your Heading Styles](2026-11-21-links-from-my-inbox.assets/1673-using-maths-to-balance-your-heading-styles.jpg)
 >
@@ -403,7 +403,7 @@ Dates marked *saved* come from Telegram.
 >
 > The post suggests making size changes first, then grouping with spacing, then adjusting weight. The intermediate size preserves the overall scale rather than forcing a different ratio on every heading.
 
-2026-11-05 [Nordstjernen Web Browser](https://nordstjernen.org/) { nordstjernen.org } *saved*
+2026-11-05 [Nordstjernen Web Browser](https://nordstjernen.org/) \{ nordstjernen.org \} *saved*
 
 > ![Original editorial illustration for Nordstjernen Web Browser](2026-11-21-links-from-my-inbox.assets/1709-nordstjernen-web-browser.jpg)
 >
@@ -411,7 +411,7 @@ Dates marked *saved* come from Telegram.
 >
 > For the October 2026 snapshot, the project reports 91.5% of tests passing in the combined HTML, DOM, and URL groups and 73.2% in CSS. These are selected Web Platform Tests results, rather than the share of all websites the browser can load successfully.
 
-2026-11-03 [Tasfer: A Text Editor Drawn on a 2D Canvas](https://www.hamza.se/blog/tasfer) { hamza.se }
+2026-11-03 [Tasfer: A Text Editor Drawn on a 2D Canvas](https://www.hamza.se/blog/tasfer) \{ hamza.se \}
 
 > ![Original editorial illustration for Tasfer: A Text Editor Drawn on a 2D Canvas](2026-11-21-links-from-my-inbox.assets/1723-tasfer-a-text-editor-drawn-on-a-2d-canvas.jpg)
 >
@@ -421,7 +421,7 @@ Dates marked *saved* come from Telegram.
 >
 > See also the [Tasfer repository and headless editor package](https://github.com/tasferlabs/tasfer).
 
-2026-11-08 [A Critique of GPUI](https://blog.zortax.de/posts/a-critique-of-gpui) { blog.zortax.de }
+2026-11-08 [A Critique of GPUI](https://blog.zortax.de/posts/a-critique-of-gpui) \{ blog.zortax.de \}
 
 > ![Original editorial illustration for A Critique of GPUI](2026-11-21-links-from-my-inbox.assets/1726-a-critique-of-gpui.jpg)
 >
@@ -429,7 +429,7 @@ Dates marked *saved* come from Telegram.
 >
 > In the author's 3,000-row test, Iced's whole-view update was 7.3 ms and virtualization brought its case to 0.19 ms. Floem spent about 0.01 ms on reactive work and roughly 14 ms in layout in a case that did not repaint. The author works on a competing framework. Medians came from one Linux machine and the adapters lacked maintainer review.
 
-2026-11-11 [zxing-wasm](https://www.npmjs.com/package/zxing-wasm) { npmjs.com } *saved*
+2026-11-11 [zxing-wasm](https://www.npmjs.com/package/zxing-wasm) \{ npmjs.com \} *saved*
 
 > ![Original editorial illustration for zxing-wasm](2026-11-21-links-from-my-inbox.assets/1750-zxing-wasm.jpg)
 >
@@ -439,7 +439,7 @@ Dates marked *saved* come from Telegram.
 >
 > See also the [live barcode demo](https://sec-ant.github.io/zxing-wasm-demo/).
 
-2026-11-17 [Ledger: An Alloy CSS Example](https://alloyhtml.com/example.html#) { alloyhtml.com } *saved*
+2026-11-17 [Ledger: An Alloy CSS Example](https://alloyhtml.com/example.html#) \{ alloyhtml.com \} *saved*
 
 > ![Original editorial illustration for Ledger: An Alloy CSS Example](2026-11-21-links-from-my-inbox.assets/1792-ledger-an-alloy-css-example.jpg)
 >
@@ -447,7 +447,7 @@ Dates marked *saved* come from Telegram.
 >
 > The discussion also separates basic form behavior from richer needs like changing only one region after a request. The preview is an interface example, and its mock invoice data is not a working backend.
 
-2026-11-18 [onehtml: HTML, CSS, and Accessibility for .NET](https://recursiveai.org/onehtml/) { recursiveai.org } *saved*
+2026-11-18 [onehtml: HTML, CSS, and Accessibility for .NET](https://recursiveai.org/onehtml/) \{ recursiveai.org \} *saved*
 
 > ![Original editorial illustration for onehtml: HTML, CSS, and Accessibility for .NET](2026-11-21-links-from-my-inbox.assets/1794-onehtml-html-css-and-accessibility-for-net.jpg)
 >
@@ -455,7 +455,7 @@ Dates marked *saved* come from Telegram.
 >
 > The publisher reports a byte-identical round trip for all 18,330 pages and stylesheets in its corpus. A 100-page, 36 MB parsing run took 116.1 ms, versus 345.4 ms for AngleSharp 1.8.6 and 286.7 ms for HtmlAgilityPack 1.13.1 on the reported .NET 10 benchmark. That comparison was run with version 1.0.0.
 
-2026-11-18 [Web Browser Engineering](https://browser.engineering/) { browser.engineering } *saved*
+2026-11-18 [Web Browser Engineering](https://browser.engineering/) \{ browser.engineering \} *saved*
 
 > ![Original cut-paper illustration of marked-up documents, a branching tree, and a rendered browser page](2026-11-21-links-from-my-inbox.assets/1797-web-browser-engineering.jpg)
 >
@@ -465,7 +465,7 @@ Dates marked *saved* come from Telegram.
 
 ## How the things work
 
-2026-10-01 [Building Reliable Directory Sync](https://www.firezone.dev/blog/building-reliable-directory-sync) { firezone.dev }
+2026-10-01 [Building Reliable Directory Sync](https://www.firezone.dev/blog/building-reliable-directory-sync) \{ firezone.dev \}
 
 > ![A conveyor processes a flow of identity cards while a scanner reconciles the line.](2026-11-21-links-from-my-inbox.assets/1537-building-reliable-directory-sync.jpg)
 >
@@ -473,7 +473,7 @@ Dates marked *saved* come from Telegram.
 >
 > The authors explain why chasing deltas alone is brittle: provider rules differ for deletes, nested groups need transitive membership recomputed, and saved delta tokens may expire. A full sweep still has a consistency window because the remote directory can change partway through it.
 
-2026-10-06 [A Terminal Protocol for Program Status (OSC 7501)](https://mitchellh.com/writing/program-status-osc7501) { mitchellh.com }
+2026-10-06 [A Terminal Protocol for Program Status (OSC 7501)](https://mitchellh.com/writing/program-status-osc7501) \{ mitchellh.com \}
 
 > ![Original editorial illustration for A Terminal Protocol for Program Status (OSC 7501)](2026-11-21-links-from-my-inbox.assets/1581-a-terminal-protocol-for-program-status-osc-7501.jpg)
 >
@@ -481,7 +481,7 @@ Dates marked *saved* come from Telegram.
 >
 > The post includes a POSIX shell wrapper for rsync and describes implementations in libghostty and Rex and proof-of-concept emitters in several programs. A terminal has to support the proposal to present the emitted status.
 
-2026-10-10 [What I Self-Host, What I Don't, and Why](https://viceconsole.fyi/blog/2026/10/10/what-i-self-host/) { viceconsole.fyi }
+2026-10-10 [What I Self-Host, What I Don't, and Why](https://viceconsole.fyi/blog/2026/10/10/what-i-self-host/) \{ viceconsole.fyi \}
 
 > ![Original editorial illustration for What I Self-Host, What I Don't, and Why](2026-11-21-links-from-my-inbox.assets/1623-what-i-self-host-what-i-don-t-and-why.jpg)
 >
@@ -489,7 +489,7 @@ Dates marked *saved* come from Telegram.
 >
 > The essay explains what stayed outside the setup, too. A network share and local LibreOffice made a hosted office suite unnecessary for most documents, and Actual Budget was simpler for this household than a multi-container Firefly III setup.
 
-2026-10-28 [Smart Home Devices Should Work Without the Internet](https://docodethatmatters.com/home-automation-overnight-success/) { docodethatmatters.com }
+2026-10-28 [Smart Home Devices Should Work Without the Internet](https://docodethatmatters.com/home-automation-overnight-success/) \{ docodethatmatters.com \}
 
 > ![Original editorial illustration for Smart Home Devices Should Work Without the Internet](2026-11-21-links-from-my-inbox.assets/1742-smart-home-devices-should-work-without-the-internet.jpg)
 >
@@ -497,7 +497,7 @@ Dates marked *saved* come from Telegram.
 >
 > The essay treats local operation as a design criterion rather than a single brand choice. It acknowledges that some integrations are hard to replace and includes two slide decks, reader feedback, and practical counterpoints.
 
-2026-11-13 [Terminal Borders That Don't Cost a Cell](https://www.joshka.net/cell-borders/) { joshka.net }
+2026-11-13 [Terminal Borders That Don't Cost a Cell](https://www.joshka.net/cell-borders/) \{ joshka.net \}
 
 > ![Original editorial illustration for Terminal Borders That Don't Cost a Cell](2026-11-21-links-from-my-inbox.assets/1761-terminal-borders-that-don-t-cost-a-cell.jpg)
 >
@@ -505,7 +505,7 @@ Dates marked *saved* come from Telegram.
 >
 > A capability query allows applications to fall back to box-drawing characters. The author implemented the protocol in a Ghostty patch and demonstrated it with Ratatui, and describes the protocol draft as early.
 
-2026-11-13 [Lonewolf: XMPP with Teeth 🐺](https://github.com/lonewolf-im/lonewolf) { github.com } *saved*
+2026-11-13 [Lonewolf: XMPP with Teeth 🐺](https://github.com/lonewolf-im/lonewolf) \{ github.com \} *saved*
 
 > ![Original editorial illustration for Lonewolf: XMPP with Teeth 🐺](2026-11-21-links-from-my-inbox.assets/1762-lonewolf-xmpp-with-teeth.jpg)
 >
@@ -513,7 +513,7 @@ Dates marked *saved* come from Telegram.
 >
 > The project calls itself pre-1.0. It discusses future clustering, but the current documented deployment is a single server.
 
-2026-11-16 [Garage Door Spam](https://blog.harrison.page/garage-door-spam/) { blog.harrison.page }
+2026-11-16 [Garage Door Spam](https://blog.harrison.page/garage-door-spam/) \{ blog.harrison.page \}
 
 > ![Original editorial illustration for Garage Door Spam](2026-11-21-links-from-my-inbox.assets/1803-garage-door-spam.jpg)
 >
@@ -521,7 +521,7 @@ Dates marked *saved* come from Telegram.
 >
 > The boards cost about $62 each in the write-up. The setup describes these specific openers and reports better alert attribution for this household. It does not establish compatibility with every garage-door model.
 
-2026-10-27 [OpenAI Still Has a WebRTC Problem](https://moq.dev/blog/webrtc-is-still-the-problem/) { moq.dev }
+2026-10-27 [OpenAI Still Has a WebRTC Problem](https://moq.dev/blog/webrtc-is-still-the-problem/) \{ moq.dev \}
 
 > ![Original editorial illustration for OpenAI Still Has a WebRTC Problem](2026-11-21-links-from-my-inbox.assets/1804-openai-still-has-a-webrtc-problem.jpg)
 >
@@ -529,7 +529,7 @@ Dates marked *saved* come from Telegram.
 >
 > The author presents the buffering behavior as specific to the moq.dev client and Pipecat integration. The article explores design tradeoffs and future prioritization ideas; it supplies no controlled cross-protocol latency benchmark.
 
-2026-11-19 [Do Not Buy RAM, Compress!](https://curiousbits.nl/blog/do-not-buy-ram-compress/) { curiousbits.nl }
+2026-11-19 [Do Not Buy RAM, Compress!](https://curiousbits.nl/blog/do-not-buy-ram-compress/) \{ curiousbits.nl \}
 
 > ![Original editorial illustration for Do Not Buy RAM, Compress!](2026-11-21-links-from-my-inbox.assets/1806-do-not-buy-ram-compress.jpg)
 >
@@ -541,7 +541,7 @@ Dates marked *saved* come from Telegram.
 
 ## Data Engineering
 
-2026-07-09 [PostgreSQL Partition Pruning on Non-Partition Key Columns](https://hakibenita.com/postgresql-partition-pruning) { hakibenita.com }
+2026-07-09 [PostgreSQL Partition Pruning on Non-Partition Key Columns](https://hakibenita.com/postgresql-partition-pruning) \{ hakibenita.com \}
 
 > ![Original editorial illustration for PostgreSQL Partition Pruning on Non-Partition Key Columns](2026-11-21-links-from-my-inbox.assets/1635-postgresql-partition-pruning-on-non-partition-key-columns.jpg)
 >
@@ -549,7 +549,7 @@ Dates marked *saved* come from Telegram.
 >
 > A long-lived session that spans years can introduce a session ID outside an otherwise narrow range. Enlarging a range to fit such an outlier weakens pruning. The article separates exceptional ranges from ordinary ones and uses a gaps-and-islands approach to reason about their boundaries.
 
-2026-11-19 [Distributed, High-Performance Blob Storage on SQLite](https://zerodha.tech/blog/high-performance-distributed-blob-storage/) { zerodha.tech }
+2026-11-19 [Distributed, High-Performance Blob Storage on SQLite](https://zerodha.tech/blog/high-performance-distributed-blob-storage/) \{ zerodha.tech \}
 
 > ![Original illustration of a brass conveyor routing packets to separate turquoise drawers, representing independent SQLite shards](2026-11-21-links-from-my-inbox.assets/1801-distributed-high-performance-blob-storage-on-sqlite.jpg)
 >
@@ -561,7 +561,7 @@ Dates marked *saved* come from Telegram.
 
 ## 🕸 Network and Security
 
-2026-09-21 [SAML: A Fractal of Bad Design](https://blog.trailofbits.com/2026/09/21/saml-a-fractal-of-bad-design/) { blog.trailofbits.com }
+2026-09-21 [SAML: A Fractal of Bad Design](https://blog.trailofbits.com/2026/09/21/saml-a-fractal-of-bad-design/) \{ blog.trailofbits.com \}
 
 > ![A red wax seal holds several offset translucent envelopes.](2026-11-21-links-from-my-inbox.assets/1488-saml-a-fractal-of-bad-design.jpg)
 >
@@ -571,7 +571,7 @@ Dates marked *saved* come from Telegram.
 
 ## 📀 Backup (Research)
 
-2026-10-03 [Holocron: The Backup of Last Resort](https://smyck.net/2026/10/03/holocron-the-backup-of-last-resort/) { smyck.net }
+2026-10-03 [Holocron: The Backup of Last Resort](https://smyck.net/2026/10/03/holocron-the-backup-of-last-resort/) \{ smyck.net \}
 
 > ![Optical discs beside a lockbox branch out toward three people.](2026-11-21-links-from-my-inbox.assets/1568-holocron-the-backup-of-last-resort.jpg)
 >
@@ -581,7 +581,7 @@ Dates marked *saved* come from Telegram.
 
 ## Usual ML
 
-2026-10-02 [Whistle: Speech to Text in 16.9 MB](https://cactuscompute.com/blog/whistle) { cactuscompute.com }
+2026-10-02 [Whistle: Speech to Text in 16.9 MB](https://cactuscompute.com/blog/whistle) \{ cactuscompute.com \}
 
 > ![Original editorial illustration for Whistle: Speech to Text in 16.9 MB](2026-11-21-links-from-my-inbox.assets/1579-whistle-speech-to-text-in-16-9-mb.jpg)
 >
@@ -589,7 +589,7 @@ Dates marked *saved* come from Telegram.
 >
 > On an Apple M4 Pro CPU, the authors report first-token times of 5.9, 11.1, and 36.3 ms for clips of 5, 10, and 30 seconds. They report lower word error than Whisper Base on LibriSpeech and FLEURS averages, while Whisper Base leads on TED-LIUM and the MLS average. The reported AMI subsets differ.
 
-2026-10-10 [Build Your Own Decision Model](https://nishtahir.com/build-your-own-decision-model/) { nishtahir.com }
+2026-10-10 [Build Your Own Decision Model](https://nishtahir.com/build-your-own-decision-model/) \{ nishtahir.com \}
 
 > ![Original editorial illustration for Build Your Own Decision Model](2026-11-21-links-from-my-inbox.assets/1610-build-your-own-decision-model.jpg)
 >
@@ -597,7 +597,7 @@ Dates marked *saved* come from Telegram.
 >
 > After scaling, the 90–100% bin averages 93.3% confidence and 95.4% accuracy, with 109 predictions instead of 809. The bin membership changed, so the figures do not imply those same 809 answers became more accurate. The fitted temperature belongs to this model and evaluation.
 
-2026-10-24 [Building Reasoning Models from the Ground Up](https://magazine.sebastianraschka.com/p/building-reasoning-models) { magazine.sebastianraschka.com }
+2026-10-24 [Building Reasoning Models from the Ground Up](https://magazine.sebastianraschka.com/p/building-reasoning-models) \{ magazine.sebastianraschka.com \}
 
 > ![Original editorial illustration for Building Reasoning Models from the Ground Up](2026-11-21-links-from-my-inbox.assets/1664-building-reasoning-models-from-the-ground-up.jpg)
 >
@@ -605,7 +605,7 @@ Dates marked *saved* come from Telegram.
 >
 > There are over eleven hours of material. The verifier and exercises give the course a common evaluation setup, and the page lists its prerequisites and companion reading separately.
 
-2026-11-09 [LLM Inference from Scratch with samir-vllm](https://github.com/samir-sarwar/samir-vllm) { github.com } *saved*
+2026-11-09 [LLM Inference from Scratch with samir-vllm](https://github.com/samir-sarwar/samir-vllm) \{ github.com \} *saved*
 
 > ![Original editorial illustration for LLM Inference from Scratch with samir-vllm](2026-11-21-links-from-my-inbox.assets/1729-llm-inference-from-scratch-with-samir-vllm.jpg)
 >
@@ -613,7 +613,7 @@ Dates marked *saved* come from Telegram.
 >
 > The code targets the fixed weight layout of Llama 3.2 1B Instruct. It demonstrates continuous batching and paged attention concepts in a learning implementation rather than serving as a generic replacement for a production engine.
 
-2026-11-09 [e-means: Outperforming k-means in One-Tenth the Epochs](https://e-means.github.io/) { e-means.github.io } *saved*
+2026-11-09 [e-means: Outperforming k-means in One-Tenth the Epochs](https://e-means.github.io/) \{ e-means.github.io \} *saved*
 
 > ![Original editorial illustration for e-means: Outperforming k-means in One-Tenth the Epochs](2026-11-21-links-from-my-inbox.assets/1731-e-means-outperforming-k-means-in-one-tenth-the-epochs.jpg)
 >
@@ -623,7 +623,7 @@ Dates marked *saved* come from Telegram.
 >
 > For comparisons, read test mean squared error against wall-clock time and hold the dataset and center count fixed. Faster convergence does not directly measure downstream retrieval quality. SuperEMeans separately tests that question.
 
-2026-11-13 [Watch a Brain Learn](https://aatishb.com/myriad/how-brains-learn/) { aatishb.com }
+2026-11-13 [Watch a Brain Learn](https://aatishb.com/myriad/how-brains-learn/) \{ aatishb.com \}
 
 > ![Original editorial illustration for Watch a Brain Learn](2026-11-21-links-from-my-inbox.assets/1776-watch-a-brain-learn.jpg)
 >
@@ -631,7 +631,7 @@ Dates marked *saved* come from Telegram.
 >
 > In the illustrated run, the creature is still meandering at around 50 tries and follows the light closely after 2,000. Different starting points take different paths and some take thousands of trials. The toy's size is what lets the full search space be shown.
 
-2026-11-17 [SuperEMeans: Making e-means 3× Faster](https://www.lkuffo.com/superemeans/) { lkuffo.com }
+2026-11-17 [SuperEMeans: Making e-means 3× Faster](https://www.lkuffo.com/superemeans/) \{ lkuffo.com \}
 
 > ![Original editorial illustration for SuperEMeans: Making e-means 3× Faster](2026-11-21-links-from-my-inbox.assets/1796-superemeans-making-e-means-3-faster.jpg)
 >
@@ -643,7 +643,7 @@ Dates marked *saved* come from Telegram.
 
 ## Learning
 
-2018-07-03 [Competitive Programmer's Handbook](https://cses.fi/book/book.pdf) { cses.fi }
+2018-07-03 [Competitive Programmer's Handbook](https://cses.fi/book/book.pdf) \{ cses.fi \}
 
 > ![A programming handbook sits between blocks that represent growth rates and small data structure models.](2026-11-21-links-from-my-inbox.assets/1560-competitive-programmer-s-handbook.jpg)
 >
@@ -651,7 +651,7 @@ Dates marked *saved* come from Telegram.
 >
 > This is a handbook of techniques, so its examples illustrate algorithmic decisions rather than performance on a specific modern machine. The saved PDF is the free edition.
 
-2026-10-12 [Calculus with Julia: From Calculator to Computer](https://jverzani.github.io/CalculusWithJuliaNotes.jl/basics/calculator.html) { jverzani.github.io } *saved*
+2026-10-12 [Calculus with Julia: From Calculator to Computer](https://jverzani.github.io/CalculusWithJuliaNotes.jl/basics/calculator.html) \{ jverzani.github.io \} *saved*
 
 > ![Original editorial illustration for Calculus with Julia: From Calculator to Computer](2026-11-21-links-from-my-inbox.assets/1615-calculus-with-julia-from-calculator-to-computer.jpg)
 >
@@ -659,7 +659,7 @@ Dates marked *saved* come from Telegram.
 >
 > This is a foundational chapter of a larger text. Its examples build comfort with the programming representation before using it for differentiation, integration, or other calculus topics.
 
-2026-11-17 [CS Learn: Free Carnegie Mellon Computer Science Lectures](https://www.cs.cmu.edu/learn/) { cs.cmu.edu } *saved*
+2026-11-17 [CS Learn: Free Carnegie Mellon Computer Science Lectures](https://www.cs.cmu.edu/learn/) \{ cs.cmu.edu \} *saved*
 
 > ![Original editorial illustration for CS Learn: Free Carnegie Mellon Computer Science Lectures](2026-11-21-links-from-my-inbox.assets/1789-cs-learn-free-carnegie-mellon-computer-science-lectures.jpg)
 >
@@ -669,7 +669,7 @@ Dates marked *saved* come from Telegram.
 
 ## Emacs
 
-2021-04-12 [Moving Text Around in Emacs Using move-text](https://www.philnewton.net/blog/moving-text-in-emacs/) { philnewton.net }
+2021-04-12 [Moving Text Around in Emacs Using move-text](https://www.philnewton.net/blog/moving-text-in-emacs/) \{ philnewton.net \}
 
 > ![Original editorial illustration for Moving Text Around in Emacs Using move-text](2026-11-21-links-from-my-inbox.assets/1609-moving-text-around-in-emacs-using-move-text.jpg)
 >
@@ -679,7 +679,7 @@ Dates marked *saved* come from Telegram.
 
 ## 🛜 RSS
 
-2026-09-29 [NetNewsWire](https://netnewswire.com/) { netnewswire.com } *saved*
+2026-09-29 [NetNewsWire](https://netnewswire.com/) \{ netnewswire.com \} *saved*
 
 > ![Paper RSS cards flow into a reading list that synchronizes with a cloud.](2026-11-21-links-from-my-inbox.assets/1525-netnewswire.jpg)
 >
@@ -687,7 +687,7 @@ Dates marked *saved* come from Telegram.
 >
 > Direct downloads and third-party synchronization are separate account choices. The publisher lists macOS 15 or later and iOS 26 or later for the featured release.
 
-2022-05-06 [RSS Feed Best Practices](https://kevincox.ca/2022/05/06/rss-feed-best-practices/) { kevincox.ca }
+2022-05-06 [RSS Feed Best Practices](https://kevincox.ca/2022/05/06/rss-feed-best-practices/) \{ kevincox.ca \}
 
 > ![A tagged article passes through an RSS symbol into an indexed feed tray.](2026-11-21-links-from-my-inbox.assets/1546-rss-feed-best-practices.jpg)
 >
@@ -697,7 +697,7 @@ Dates marked *saved* come from Telegram.
 
 ## 📺 ffmpeg and media
 
-2026-10-13 [You Should Absolutely Download Your Favourite YouTube Videos](https://criminallyvulgar.dev/you-should-absolutely-download-your-favourite-youtube-videos/) { criminallyvulgar.dev }
+2026-10-13 [You Should Absolutely Download Your Favourite YouTube Videos](https://criminallyvulgar.dev/you-should-absolutely-download-your-favourite-youtube-videos/) \{ criminallyvulgar.dev \}
 
 > ![Original editorial illustration for You Should Absolutely Download Your Favourite YouTube Videos](2026-11-21-links-from-my-inbox.assets/1708-you-should-absolutely-download-your-favourite-youtube-videos.jpg)
 >
@@ -707,7 +707,7 @@ Dates marked *saved* come from Telegram.
 
 ## 🌈 Recreational Programming
 
-2026-09-05 [Bespoke: A Programming Language for People Who Say Please](https://blog.hofstede.it/bespoke-a-programming-language-for-people-who-say-please/) { blog.hofstede.it }
+2026-09-05 [Bespoke: A Programming Language for People Who Say Please](https://blog.hofstede.it/bespoke-a-programming-language-for-people-who-say-please/) \{ blog.hofstede.it \}
 
 > ![A formal handwritten request arrives on a silver tray beside a beige computer.](2026-11-21-links-from-my-inbox.assets/1498-bespoke-a-programming-language-for-people-who-say-please.jpg)
 >
@@ -715,7 +715,7 @@ Dates marked *saved* come from Telegram.
 >
 > Its joke is applied consistently across the language. The page uses forms of address to distinguish effects that usually share a short command syntax.
 
-2026-02-15 [Solving Factorio Quality](https://exyr.org/2026/solving-factorio-quality/) { exyr.org }
+2026-02-15 [Solving Factorio Quality](https://exyr.org/2026/solving-factorio-quality/) \{ exyr.org \}
 
 > ![A factory conveyor sorts colored blocks and loops rejected material through a recycler.](2026-11-21-links-from-my-inbox.assets/1531-solving-factorio-quality.jpg)
 >
@@ -723,7 +723,7 @@ Dates marked *saved* come from Telegram.
 >
 > With the best modules in a self-recycling example, the model needs about 2,727 normal items per legendary output. Reprocessing asteroid chunks can yield one legendary chunk of a chosen type per 71.5 fresh chunks in the article's setup. These are long-run expectations for distinct recipes and filters.
 
-2026-09-22 [We ported the original Doom to SQL](https://cedardb.com/blog/sqldoom/) { cedardb.com }
+2026-09-22 [We ported the original Doom to SQL](https://cedardb.com/blog/sqldoom/) \{ cedardb.com \}
 
 > ![A controller sends input through a database symbol to a stylized rendered corridor.](2026-11-21-links-from-my-inbox.assets/1557-we-ported-the-original-doom-to-sql.jpg)
 >
@@ -733,7 +733,7 @@ Dates marked *saved* come from Telegram.
 >
 > For an unusual database example, the strongest use of relational semantics is the shared, transactionally consistent world. It is an experiment with a particular execution engine and rendering path, not a reason to move arbitrary games into SQL.
 
-2026-03-18 [Fancy Curl Sites](https://nytpu.com/gemlog/2026-03-18) { nytpu.com }
+2026-03-18 [Fancy Curl Sites](https://nytpu.com/gemlog/2026-03-18) \{ nytpu.com \}
 
 > ![Original editorial illustration for Fancy Curl Sites](2026-11-21-links-from-my-inbox.assets/1619-fancy-curl-sites.jpg)
 >
@@ -741,7 +741,7 @@ Dates marked *saved* come from Telegram.
 >
 > The author's setup worked because the site already targeted HTTP, Gemini, and Gopher. Sites without a multi-output generator can start with a few handwritten text pages. Terminal support affects how the ANSI output appears.
 
-2026-10-18 [Teal: A Typed Dialect of Lua](https://teal-language.org/) { teal-language.org } *saved*
+2026-10-18 [Teal: A Typed Dialect of Lua](https://teal-language.org/) \{ teal-language.org \} *saved*
 
 > ![Original editorial illustration for Teal: A Typed Dialect of Lua](2026-11-21-links-from-my-inbox.assets/1631-teal-a-typed-dialect-of-lua.jpg)
 >
@@ -749,7 +749,7 @@ Dates marked *saved* come from Telegram.
 >
 > Types catch errors during checking. The generated output remains Lua, so adoption still has to account for the host's runtime and the declarations available for existing code.
 
-2026-10-18 [Regex Marble Run](https://www.regexmarblerun.com/#p=PC4rPg&f=&s=PGI-Ym9sZDwvYj4&preset=greedy) { regexmarblerun.com } *saved*
+2026-10-18 [Regex Marble Run](https://www.regexmarblerun.com/#p=PC4rPg&f=&s=PGI-Ym9sZDwvYj4&preset=greedy) \{ regexmarblerun.com \} *saved*
 
 > ![Original illustration of a glass marble about to take one of two routes through a wooden machine](2026-11-21-links-from-my-inbox.assets/1638-regex-marble-run.jpg)
 >
@@ -757,7 +757,7 @@ Dates marked *saved* come from Telegram.
 >
 > Secondary coverage describes the animation as a teaching model. It is useful for watching a match or backtrack in one implementation, while regex engines and supported features can differ.
 
-2018-04-12 [The 128-Language Quine Relay](https://esoteric.codes/blog/the-128-language-quine-relay) { esoteric.codes }
+2018-04-12 [The 128-Language Quine Relay](https://esoteric.codes/blog/the-128-language-quine-relay) \{ esoteric.codes \}
 
 > ![Original editorial illustration for The 128-Language Quine Relay](2026-11-21-links-from-my-inbox.assets/1658-the-128-language-quine-relay.jpg)
 >
@@ -765,7 +765,7 @@ Dates marked *saved* come from Telegram.
 >
 > The result is a property of the complete execution cycle. Each intermediate program outputs the next source, which relies on the corresponding language environment being available.
 
-2026-11-18 [Type Fighter II](https://typefighter2.com/) { typefighter2.com } *saved*
+2026-11-18 [Type Fighter II](https://typefighter2.com/) \{ typefighter2.com \} *saved*
 
 > ![Original pixel-art illustration of the F and J keyboard keys colliding in a burst of arcade sparks](2026-11-21-links-from-my-inbox.assets/1795-type-fighter-ii.jpg)
 >
@@ -775,7 +775,7 @@ Dates marked *saved* come from Telegram.
 
 ## 😁 Fun / Retro
 
-2026-09-25 [Ten Lines of Code That Changed My World](https://pixelambacht.nl/2026/ten-lines-of-code/) { pixelambacht.nl }
+2026-09-25 [Ten Lines of Code That Changed My World](https://pixelambacht.nl/2026/ten-lines-of-code/) \{ pixelambacht.nl \}
 
 > ![An open notebook shows ten short lines, a loop, and a grid drawing.](2026-11-21-links-from-my-inbox.assets/1507-ten-lines-of-code-that-changed-my-world.jpg)
 >
@@ -783,7 +783,7 @@ Dates marked *saved* come from Telegram.
 >
 > The fragments are autobiographical. Their significance comes from what each let the author see or do, rather than from an argument that the techniques all belong in current software.
 
-2026-10-04 [Visual Basic Browser Studio](https://wieslawsoltes.github.io/VB6/) { wieslawsoltes.github.io } *saved*
+2026-10-04 [Visual Basic Browser Studio](https://wieslawsoltes.github.io/VB6/) \{ wieslawsoltes.github.io \} *saved*
 
 > ![A miniature development environment contains a form designer, editor, and run button.](2026-11-21-links-from-my-inbox.assets/1551-visual-basic-browser-studio.jpg)
 >
@@ -791,7 +791,7 @@ Dates marked *saved* come from Telegram.
 >
 > The project is a browser implementation of a classic workflow, with virtual project files and platform-specific limits. The documentation separates validation of the emitted HTML from browser launch probes that were blocked in its test environment.
 
-2026-10-07 [Margaret Hamilton and the Software Behind Apollo](https://news.mit.edu/2026/margaret-hamilton-computing-pioneer-dies-1007) { news.mit.edu }
+2026-10-07 [Margaret Hamilton and the Software Behind Apollo](https://news.mit.edu/2026/margaret-hamilton-computing-pioneer-dies-1007) \{ news.mit.edu \}
 
 > ![Original editorial illustration for Margaret Hamilton and the Software Behind Apollo](2026-11-21-links-from-my-inbox.assets/1576-margaret-hamilton-and-the-software-behind-apollo.jpg)
 >
@@ -799,7 +799,7 @@ Dates marked *saved* come from Telegram.
 >
 > The article credits Hamilton and the Apollo software team. It follows her work after Apollo, including companies focused on fault tolerance and the Universal Systems Language for system modeling.
 
-2026-10-13 [I Love Software Rendering](https://www.jamesfmackenzie.com/2026/10/13/i-love-software-rendering/) { jamesfmackenzie.com }
+2026-10-13 [I Love Software Rendering](https://www.jamesfmackenzie.com/2026/10/13/i-love-software-rendering/) \{ jamesfmackenzie.com \}
 
 > ![Original editorial illustration for I Love Software Rendering](2026-11-21-links-from-my-inbox.assets/1627-i-love-software-rendering.jpg)
 >
@@ -807,7 +807,7 @@ Dates marked *saved* come from Telegram.
 >
 > Mackenzie prefers Blood's VESA software modes to its 3dfx look, but likes the accelerated version of Tomb Raider's underwater sections. Software rendering at high resolutions also requires enough CPU power for the selected game.
 
-2026-10-23 [Windows NT 3.x Mouse Driver for QEMU and VMware](https://github.com/rhargreaves/vmmouse-nt3) { github.com } *saved*
+2026-10-23 [Windows NT 3.x Mouse Driver for QEMU and VMware](https://github.com/rhargreaves/vmmouse-nt3) \{ github.com \} *saved*
 
 > ![Original editorial illustration for Windows NT 3.x Mouse Driver for QEMU and VMware](2026-11-21-links-from-my-inbox.assets/1649-windows-nt-3-x-mouse-driver-for-qemu-and-vmware.jpg)
 >
@@ -815,7 +815,7 @@ Dates marked *saved* come from Telegram.
 >
 > The author confirms only Intel Windows NT 3.51 Service Pack 5. Treat other NT 3.x releases or virtual-machine combinations as unverified by the README.
 
-2026-10-26 [Switzerland at 1:1 in Minecraft](https://blocks.manifold3d.ch/) { blocks.manifold3d.ch } *saved*
+2026-10-26 [Switzerland at 1:1 in Minecraft](https://blocks.manifold3d.ch/) \{ blocks.manifold3d.ch \} *saved*
 
 > ![Generated voxel diorama of the Aletsch Glacier, with visibly stepped Alpine ridges and two dark bands winding through the ice](2026-11-21-links-from-my-inbox.assets/1667-switzerland-at-1-1-in-minecraft.jpg)
 >
@@ -823,7 +823,7 @@ Dates marked *saved* come from Telegram.
 >
 > A one-meter grid describes the model's scale, not survey accuracy for every feature. The project pins an older Minecraft version and specific tooling to represent the terrain.
 
-2026-10-29 [Sixteen Colors: ANSI and ASCII Art Archive](https://16colo.rs/) { 16colo.rs } *saved*
+2026-10-29 [Sixteen Colors: ANSI and ASCII Art Archive](https://16colo.rs/) \{ 16colo.rs \} *saved*
 
 > ![Original editorial illustration for Sixteen Colors: ANSI and ASCII Art Archive](2026-11-21-links-from-my-inbox.assets/1688-sixteen-colors-ansi-and-ascii-art-archive.jpg)
 >
@@ -831,7 +831,7 @@ Dates marked *saved* come from Telegram.
 >
 > The site traces the decline of dial-up bulletin boards separately from the artists who continued producing packs afterward. Its collection is a way to see that work in context.
 
-2026-11-14 [The Secret of Monkey Island: All 13 Versions Side by Side](https://monkeyisland.pages.dev/) { monkeyisland.pages.dev } *saved*
+2026-11-14 [The Secret of Monkey Island: All 13 Versions Side by Side](https://monkeyisland.pages.dev/) \{ monkeyisland.pages.dev \} *saved*
 
 > ![Original editorial illustration for The Secret of Monkey Island: All 13 Versions Side by Side](2026-11-21-links-from-my-inbox.assets/1775-the-secret-of-monkey-island-all-13-versions-side-by-side.jpg)
 >
@@ -839,7 +839,7 @@ Dates marked *saved* come from Telegram.
 >
 > The PC sixteen-color capture is from a Spanish copy and the monochrome Atari ST capture is from a French copy. The source and capture notes make it possible to distinguish hardware differences from differences in the chosen release.
 
-2026-11-15 [25 of My Favourite Modern NES Games](https://jordi.inversethought.com/blog/25-of-my-favourite-modern-nes-games/) { jordi.inversethought.com }
+2026-11-15 [25 of My Favourite Modern NES Games](https://jordi.inversethought.com/blog/25-of-my-favourite-modern-nes-games/) \{ jordi.inversethought.com \}
 
 > ![Original editorial illustration for 25 of My Favourite Modern NES Games](2026-11-21-links-from-my-inbox.assets/1783-25-of-my-favourite-modern-nes-games.jpg)
 >
@@ -849,7 +849,7 @@ Dates marked *saved* come from Telegram.
 
 ## 💖 Inspiration!
 
-2026-09-24 [Bastardica](https://bastardica.mitpit.com/) { bastardica.mitpit.com } *saved*
+2026-09-24 [Bastardica](https://bastardica.mitpit.com/) \{ bastardica.mitpit.com \} *saved*
 
 > ![Blue and yellow letters A alternate between two distinct typefaces.](2026-11-21-links-from-my-inbox.assets/1492-bastardica.jpg)
 >
@@ -857,7 +857,7 @@ Dates marked *saved* come from Telegram.
 >
 > The project describes the substituted font as a derivative. Which uses are allowed depends on the source fonts' licenses, and applications with ligatures disabled may show the base face instead.
 
-2026-10-02 [Book of Shapes](https://bookofshapes.com/) { bookofshapes.com } *saved*
+2026-10-02 [Book of Shapes](https://bookofshapes.com/) \{ bookofshapes.com \} *saved*
 
 > ![Slider controls and a book of geometric patterns lead to an exported chevron sheet.](2026-11-21-links-from-my-inbox.assets/1538-book-of-shapes.jpg)
 >
@@ -865,7 +865,7 @@ Dates marked *saved* come from Telegram.
 >
 > The interface separates the pattern family from its settings. A custom reuse license applies, so check the terms for the particular pattern before publishing an export.
 
-2026-10-14 [Iosevka](https://typeof.net/Iosevka/) { typeof.net } *saved*
+2026-10-14 [Iosevka](https://typeof.net/Iosevka/) \{ typeof.net \} *saved*
 
 > ![Original editorial illustration for Iosevka](2026-11-21-links-from-my-inbox.assets/1620-iosevka.jpg)
 >
@@ -873,7 +873,7 @@ Dates marked *saved* come from Telegram.
 >
 > The font choice affects what the editor or terminal can render, including ligatures and cell alignment. The source documents different variants rather than a single setting that suits both.
 
-2026-10-15 [DEsk: A Skeuomorphic Wayland Desktop](https://github.com/fyzugx/DEsk) { github.com } *saved*
+2026-10-15 [DEsk: A Skeuomorphic Wayland Desktop](https://github.com/fyzugx/DEsk) \{ github.com \} *saved*
 
 > ![Original editorial illustration for DEsk: A Skeuomorphic Wayland Desktop](2026-11-21-links-from-my-inbox.assets/1624-desk-a-skeuomorphic-wayland-desktop.jpg)
 >
@@ -881,7 +881,7 @@ Dates marked *saved* come from Telegram.
 >
 > It is an early release of a Linux desktop environment with its own applications and input behavior. The interactive demo illustrates the design without promising the same behavior as an installed compositor.
 
-2026-10-27 [Nogon, Formerly Hister: Your Own Search Engine](https://hister.org/) { hister.org } *saved*
+2026-10-27 [Nogon, Formerly Hister: Your Own Search Engine](https://hister.org/) \{ hister.org \} *saved*
 
 > ![Original editorial illustration for Nogon, Formerly Hister: Your Own Search Engine](2026-11-21-links-from-my-inbox.assets/1674-nogon-formerly-hister-your-own-search-engine.jpg)
 >
@@ -889,7 +889,7 @@ Dates marked *saved* come from Telegram.
 >
 > The operator chooses where the server runs. The project says it needs no cloud service or telemetry, but the index and stored pages remain data that the server owner has to manage.
 
-2026-11-09 [Declarative Dragging](https://declarative-dragging.github.io/) { declarative-dragging.github.io } *saved*
+2026-11-09 [Declarative Dragging](https://declarative-dragging.github.io/) \{ declarative-dragging.github.io \} *saved*
 
 > ![Original editorial illustration for Declarative Dragging](2026-11-21-links-from-my-inbox.assets/1727-declarative-dragging.jpg)
 >
@@ -897,7 +897,7 @@ Dates marked *saved* come from Telegram.
 >
 > The library targets web interfaces drawn in SVG. The authors find the method particularly useful when several views show the same model, because a change can update all representations coherently.
 
-2026-11-09 [Someone Was Here](https://someonewashere.app/) { someonewashere.app } *saved*
+2026-11-09 [Someone Was Here](https://someonewashere.app/) \{ someonewashere.app \} *saved*
 
 > ![Original editorial illustration for Someone Was Here](2026-11-21-links-from-my-inbox.assets/1734-someone-was-here.jpg)
 >
@@ -905,7 +905,7 @@ Dates marked *saved* come from Telegram.
 >
 > The publisher requires macOS 14 or later, describes the free local behavior, and asks users in shared spaces to tell people the app is present. Phone alerts change where information is sent.
 
-2026-11-20 [Slopstrap](https://slopstrap.mikelacher.com/) { slopstrap.mikelacher.com } *saved*
+2026-11-20 [Slopstrap](https://slopstrap.mikelacher.com/) \{ slopstrap.mikelacher.com \} *saved*
 
 > ![Original editorial illustration for Slopstrap](2026-11-21-links-from-my-inbox.assets/1808-slopstrap.jpg)
 >
@@ -915,7 +915,7 @@ Dates marked *saved* come from Telegram.
 
 ## Really, other
 
-2026-09-29 [Americans' Social Activity Has Steeply Declined in the Past 30 Years](https://www.dataforprogress.org/blog/2026/9/29/americans-social-activity-has-steeply-declined-in-the-past-30-years) { dataforprogress.org }
+2026-09-29 [Americans' Social Activity Has Steeply Declined in the Past 30 Years](https://www.dataforprogress.org/blog/2026/9/29/americans-social-activity-has-steeply-declined-in-the-past-30-years) \{ dataforprogress.org \}
 
 > ![Original editorial illustration for Americans' Social Activity Has Steeply Declined in the Past 30 Years](2026-11-21-links-from-my-inbox.assets/1621-americans-social-activity-has-steeply-declined-in-the-past-30.jpg)
 >
@@ -923,7 +923,7 @@ Dates marked *saved* come from Telegram.
 >
 > Home entertaining fell from 88% in 1995 to 67% in 2026, church attendance from 74% to 54%, picnics from 58% to 39%, and club meetings from 45% to 26%. A separate survey found that the share reporting at least five close friends declined from 63% in 1990 to 38% in 2021.
 
-2026-10-20 [How Japanese Dried Bonito Is Made](https://kottke.org/26/10/how-japanese-dried-bonito-is-made) { kottke.org }
+2026-10-20 [How Japanese Dried Bonito Is Made](https://kottke.org/26/10/how-japanese-dried-bonito-is-made) \{ kottke.org \}
 
 > ![Original editorial illustration for How Japanese Dried Bonito Is Made](2026-11-21-links-from-my-inbox.assets/1657-how-japanese-dried-bonito-is-made.jpg)
 >
@@ -935,7 +935,7 @@ Dates marked *saved* come from Telegram.
 
 ### Good Reads
 
-2026-09-22 [Work-to-rule](https://www.wikiwand.com/en/Work-to-rule) { wikiwand.com } *saved*
+2026-09-22 [Work-to-rule](https://www.wikiwand.com/en/Work-to-rule) \{ wikiwand.com \} *saved*
 
 > ![A time clock and a row of checked work cards sit beside a conveyor.](2026-11-21-links-from-my-inbox.assets/1487-005.jpg)
 >
@@ -943,7 +943,7 @@ Dates marked *saved* come from Telegram.
 >
 > The examples cover several occupations and historical disputes. Workplace contracts and local rules matter, so the examples identify the mechanism without establishing its legal status everywhere.
 
-2026-09-27 [When an Editor Loses Your Undo History](https://unsung.aresluna.org/they-had-no-concept-of-a-duty-of-care-to-their-users/) { unsung.aresluna.org } *saved*
+2026-09-27 [When an Editor Loses Your Undo History](https://unsung.aresluna.org/they-had-no-concept-of-a-duty-of-care-to-their-users/) \{ unsung.aresluna.org \} *saved*
 
 > ![A stack of paper records ends at a ragged blue tear.](2026-11-21-links-from-my-inbox.assets/1505-021.jpg)
 >
@@ -951,7 +951,7 @@ Dates marked *saved* come from Telegram.
 >
 > Chisnall says the project treated the format as unstable, a response he took as evidence he could not trust its handling of his files. Unsung connects that response to Jef Raskin's principle that software must protect a user's work. The account concerns an early Neovim version.
 
-2026-10-31 [Fast and Slow Ways to Improve Your Reputation](https://www.seangoedecke.com/how-to-get-assigned-interesting-work/) { seangoedecke.com } *saved*
+2026-10-31 [Fast and Slow Ways to Improve Your Reputation](https://www.seangoedecke.com/how-to-get-assigned-interesting-work/) \{ seangoedecke.com \} *saved*
 
 > ![Original editorial illustration for Fast and Slow Ways to Improve Your Reputation](2026-11-21-links-from-my-inbox.assets/1692-182.jpg)
 >
@@ -961,7 +961,7 @@ Dates marked *saved* come from Telegram.
 
 ### 🤖 The Era of AI
 
-2026-09-28 [design-taste-frontend Agent Skill](https://www.skills.sh/leonxlnx/taste-skill/design-taste-frontend) { skills.sh } *saved*
+2026-09-28 [design-taste-frontend Agent Skill](https://www.skills.sh/leonxlnx/taste-skill/design-taste-frontend) \{ skills.sh \} *saved*
 
 > ![A small robot compares website designs beside print samples and a review checklist.](2026-11-21-links-from-my-inbox.assets/1524-034.jpg)
 >
@@ -969,7 +969,7 @@ Dates marked *saved* come from Telegram.
 >
 > The author says the library draws on 247 sites. Its list of prohibited patterns is a style preference suited to its goals, rather than a neutral standard for every design system.
 
-2026-10-01 [Ledge: Runnable Markdown notes](https://ledge.sh/) { ledge.sh } *saved*
+2026-10-01 [Ledge: Runnable Markdown notes](https://ledge.sh/) \{ ledge.sh \} *saved*
 
 > ![A terminal-shaped coffee mug links to a notebook of command blocks.](2026-11-21-links-from-my-inbox.assets/1533-042.jpg)
 >
@@ -977,7 +977,7 @@ Dates marked *saved* come from Telegram.
 >
 > The repeated-shell example is persistence within a note. Features such as running blocks on another machine rely on additional setup. Keeping a secret outside the file does not make arbitrary commands safe to run.
 
-2026-10-12 [Atticus Mac](https://github.com/SaarthurR/atticus-mac) { github.com } *saved*
+2026-10-12 [Atticus Mac](https://github.com/SaarthurR/atticus-mac) \{ github.com \} *saved*
 
 > ![Original editorial illustration for Atticus Mac](2026-11-21-links-from-my-inbox.assets/1616-113.jpg)
 >
@@ -985,7 +985,7 @@ Dates marked *saved* come from Telegram.
 >
 > The app itself is free and open source, but it requires macOS 26 and a supported AI client or local model. Provider permissions and any subscription are separate from installing the app.
 
-2026-10-18 [Agent Skills · A directory of agent skills for everyone — not just developers.](https://agent-skills.market/) { agent-skills.market } *saved*
+2026-10-18 [Agent Skills · A directory of agent skills for everyone — not just developers.](https://agent-skills.market/) \{ agent-skills.market \} *saved*
 
 > ![Original editorial illustration for Agent Skills · A directory of agent skills for everyone — not just developers.](2026-11-21-links-from-my-inbox.assets/1636-131.jpg)
 >
@@ -993,7 +993,7 @@ Dates marked *saved* come from Telegram.
 >
 > The index aggregates different authors and services. The availability, terms, output, and permissions of an individual skill depend on its publisher and workflow.
 
-2026-10-18 [Superlite: hand an agent a spec, come back to tested work](https://contextfirst.blog/superlite-hand-an-agent-a-spec/) { contextfirst.blog }
+2026-10-18 [Superlite: hand an agent a spec, come back to tested work](https://contextfirst.blog/superlite-hand-an-agent-a-spec/) \{ contextfirst.blog \}
 
 > ![Original editorial illustration for Superlite: hand an agent a spec, come back to tested work](2026-11-21-links-from-my-inbox.assets/1637-132.jpg)
 >
@@ -1001,7 +1001,7 @@ Dates marked *saved* come from Telegram.
 >
 > On a static-site generator plus spreadsheet project, one recent run finished in 16.1 minutes and passed all 177 hidden tests. Earlier three-run means on the same machine were 33.6 minutes for stock Superpowers and 23.5 for its orchestrated version. The 16.1-minute number is a single project run, not a general speedup.
 
-2026-07-31 [tmux + Claude Code: Sessions, send-keys, and the Ceiling](https://crystl.dev/guides/tmux-for-ai-agents/) { crystl.dev }
+2026-07-31 [tmux + Claude Code: Sessions, send-keys, and the Ceiling](https://crystl.dev/guides/tmux-for-ai-agents/) \{ crystl.dev \}
 
 > ![Original editorial illustration for tmux + Claude Code: Sessions, send-keys, and the Ceiling](2026-11-21-links-from-my-inbox.assets/1639-134.jpg)
 >
@@ -1009,7 +1009,7 @@ Dates marked *saved* come from Telegram.
 >
 > The output is formatted terminal text, so an idle agent, an approval prompt, and a finished task can be difficult to distinguish. Screen scraping breaks when the agent interface changes, and sessions themselves do not survive a reboot.
 
-2026-10-24 [reddit-automation — flowkit-labs/skills](https://www.skills.sh/flowkit-labs/skills/reddit-automation) { skills.sh } *saved*
+2026-10-24 [reddit-automation — flowkit-labs/skills](https://www.skills.sh/flowkit-labs/skills/reddit-automation) \{ skills.sh \} *saved*
 
 > ![Original editorial illustration for reddit-automation — flowkit-labs/skills](2026-11-21-links-from-my-inbox.assets/1653-147.jpg)
 >
@@ -1017,7 +1017,7 @@ Dates marked *saved* come from Telegram.
 >
 > The skill is associated with a commercial scheduling service. Its public instructions describe the workflow and disclosure norm, and give no evidence that following them improves sales or avoids each community's moderation rules.
 
-2026-10-25 [ChatGPT Chat Exporter](https://github.com/rashidazarang/chatgpt-chat-exporter) { github.com } *saved*
+2026-10-25 [ChatGPT Chat Exporter](https://github.com/rashidazarang/chatgpt-chat-exporter) \{ github.com \} *saved*
 
 > ![Original editorial illustration for ChatGPT Chat Exporter](2026-11-21-links-from-my-inbox.assets/1659-153.jpg)
 >
@@ -1025,7 +1025,7 @@ Dates marked *saved* come from Telegram.
 >
 > Its metadata support depends on what the interface makes visible. HTML and PDF-ready exports embed images while Markdown can reference the files in the companion folder.
 
-2026-10-26 [Anthropic, PBC - SEC S-1 filing](https://www.sec.gov/Archives/edgar/data/2130357/000162828026067168/anthropicpbc-sx1.htm) { sec.gov }
+2026-10-26 [Anthropic, PBC - SEC S-1 filing](https://www.sec.gov/Archives/edgar/data/2130357/000162828026067168/anthropicpbc-sx1.htm) \{ sec.gov \}
 
 > ![Original editorial illustration for Anthropic, PBC - SEC S-1 filing](2026-11-21-links-from-my-inbox.assets/1666-158.jpg)
 >
@@ -1033,7 +1033,7 @@ Dates marked *saved* come from Telegram.
 >
 > The filing also describes voting rights separated by share class. The Long-Term Benefit Trust's Class T shares elect a majority of directors, and Class F has 50.1% of outstanding voting power on matters where it votes. The figures and governance terms are for the linked filing version.
 
-2026-10-28 [Getting Good at AI Takes Time and Practice](https://www.seangoedecke.com/getting-good-at-ai-takes-time-and-practice/) { seangoedecke.com } *saved*
+2026-10-28 [Getting Good at AI Takes Time and Practice](https://www.seangoedecke.com/getting-good-at-ai-takes-time-and-practice/) \{ seangoedecke.com \} *saved*
 
 > ![Original editorial illustration for Getting Good at AI Takes Time and Practice](2026-11-21-links-from-my-inbox.assets/1678-169.jpg)
 >
@@ -1041,7 +1041,7 @@ Dates marked *saved* come from Telegram.
 >
 > The author expects some capabilities to change across releases. He treats these as learned judgments from his work, rather than as a benchmark ranking models or a permanent list of their weaknesses.
 
-2026-11-15 [turbo-browser-mcp](https://github.com/Tthanh2k6/turbo-browser-mcp) { github.com } *saved*
+2026-11-15 [turbo-browser-mcp](https://github.com/Tthanh2k6/turbo-browser-mcp) \{ github.com \} *saved*
 
 > ![Original editorial illustration for turbo-browser-mcp](2026-11-21-links-from-my-inbox.assets/1787-253.jpg)
 >
@@ -1049,7 +1049,7 @@ Dates marked *saved* come from Telegram.
 >
 > In a local headless fixture, the README reports 11 calls and 12,197 direct output tokens for a ten-field form in its baseline, against one call and 811 tokens with the combined form tool. These figures measure tool output and browser time only and do not measure model reasoning or end-to-end accuracy.
 
-2026-11-17 [OpenCode Browse: Real Browser for Coding Agents](https://opencode.ai/product/browse) { opencode.ai } *saved*
+2026-11-17 [OpenCode Browse: Real Browser for Coding Agents](https://opencode.ai/product/browse) \{ opencode.ai \} *saved*
 
 > ![Original editorial illustration for OpenCode Browse: Real Browser for Coding Agents](2026-11-21-links-from-my-inbox.assets/1790-256.jpg)
 >
@@ -1059,7 +1059,7 @@ Dates marked *saved* come from Telegram.
 
 ### 🔫 C || C++ / Systems
 
-2026-10-05 [noplate: Generic Data Structures in C](https://codeberg.org/uecker/noplate/) { codeberg.org } *saved*
+2026-10-05 [noplate: Generic Data Structures in C](https://codeberg.org/uecker/noplate/) \{ codeberg.org \} *saved*
 
 > ![Nested painted dolls carry symbols for containers and type tags.](2026-11-21-links-from-my-inbox.assets/1565-070.jpg)
 >
@@ -1067,7 +1067,7 @@ Dates marked *saved* come from Telegram.
 >
 > A preorder tree traversal uses a typed vector for its explicit stack. The repository is a collection of implementation examples, with no performance comparison in the README.
 
-2026-10-05 [Calling a Function in C Without Naming It](https://wiro.world/posts/calling-c-func-without-naming-it/) { wiro.world }
+2026-10-05 [Calling a Function in C Without Naming It](https://wiro.world/posts/calling-c-func-without-naming-it/) \{ wiro.world \}
 
 > ![Original editorial illustration for Calling a Function in C Without Naming It](2026-11-21-links-from-my-inbox.assets/1591-092.jpg)
 >
@@ -1077,7 +1077,7 @@ Dates marked *saved* come from Telegram.
 
 ### Web / Browsers / Frontend
 
-2026-10-01 [How to Make a Text Box: A Crash Course in Unicode and OpenType](https://www.youtube.com/watch?v=7Tr0ty9-yeQ) { youtube.com }
+2026-10-01 [How to Make a Text Box: A Crash Course in Unicode and OpenType](https://www.youtube.com/watch?v=7Tr0ty9-yeQ) \{ youtube.com \}
 
 > ![Generated illustration of separate f and i metal printing sorts beside a single fi ligature sort](2026-11-21-links-from-my-inbox.assets/1543-052.jpg)
 >
@@ -1087,7 +1087,7 @@ Dates marked *saved* come from Telegram.
 >
 > See also the [chapter guide](https://lectern.tv/watch/how-to-make-a-text-box-a-crash-course-in-unicode-and-opentype).
 
-2026-10-21 [The Future of CSS ✨](https://www.joshwcomeau.com/css/interop-2027/) { joshwcomeau.com } *saved*
+2026-10-21 [The Future of CSS ✨](https://www.joshwcomeau.com/css/interop-2027/) \{ joshwcomeau.com \} *saved*
 
 > ![Original editorial illustration for The Future of CSS ✨](2026-11-21-links-from-my-inbox.assets/1641-136.jpg)
 >
@@ -1095,7 +1095,7 @@ Dates marked *saved* come from Telegram.
 >
 > The roundup also demos animating a disclosure from zero height to an intrinsic size, clipping or shaping borders, and using reading-flow to align keyboard navigation with visual arrangement. It is a wish list for interoperability, so inclusion and cross-browser support vary.
 
-2026-10-23 [kb - GitHub Project](https://github.com/JimmyLefevre/kb) { github.com } *saved*
+2026-10-23 [kb - GitHub Project](https://github.com/JimmyLefevre/kb) \{ github.com \} *saved*
 
 > ![Original editorial illustration for kb - GitHub Project](2026-11-21-links-from-my-inbox.assets/1648-143.jpg)
 >
@@ -1103,7 +1103,7 @@ Dates marked *saved* come from Telegram.
 >
 > The caller still supplies fonts, lays out paragraphs, and rasterizes glyphs. The library is a boundary between text and glyph placement on an unbounded line, rather than a complete text box.
 
-2026-11-18 [Vreeman Personal Site](https://vreeman.com/) { vreeman.com } *saved*
+2026-11-18 [Vreeman Personal Site](https://vreeman.com/) \{ vreeman.com \} *saved*
 
 > ![Original editorial illustration for Vreeman Personal Site](2026-11-21-links-from-my-inbox.assets/1799-265.jpg)
 >
@@ -1113,7 +1113,7 @@ Dates marked *saved* come from Telegram.
 
 ### How the things work
 
-2026-11-10 [pigshell 0.6.4](http://pigshell.com/v/0.6.4/) { pigshell.com } *saved*
+2026-11-10 [pigshell 0.6.4](http://pigshell.com/v/0.6.4/) \{ pigshell.com \} *saved*
 
 > ![Original editorial illustration for pigshell 0.6.4](2026-11-21-links-from-my-inbox.assets/1739-223.jpg)
 >
@@ -1121,7 +1121,7 @@ Dates marked *saved* come from Telegram.
 >
 > The saved URL is for version 0.6.4. Many listed service integrations were documented for that release and may depend on legacy authentication. Their present availability was not independently tested.
 
-2026-11-19 [Lastbook: An Offline Reference Library](https://lastbook.org/) { lastbook.org } *saved*
+2026-11-19 [Lastbook: An Offline Reference Library](https://lastbook.org/) \{ lastbook.org \} *saved*
 
 > ![Original editorial illustration for Lastbook: An Offline Reference Library](2026-11-21-links-from-my-inbox.assets/1800-266.jpg)
 >
@@ -1129,7 +1129,7 @@ Dates marked *saved* come from Telegram.
 >
 > The app supports Mac, Windows, and Linux with platform requirements. The project says its health library pulls from published guides and that Lastbook itself is not clinically reviewed.
 
-2026-11-19 [Rebuilding My Voice Assistant Pipeline](https://blog.platypush.tech/article/Rewriting-my-voice-assistant-pipeline#wake-word-detection-a-new-assistantmicrowakeword-plugin) { blog.platypush.tech }
+2026-11-19 [Rebuilding My Voice Assistant Pipeline](https://blog.platypush.tech/article/Rewriting-my-voice-assistant-pipeline#wake-word-detection-a-new-assistantmicrowakeword-plugin) \{ blog.platypush.tech \}
 
 > ![Original editorial illustration for Rebuilding My Voice Assistant Pipeline](2026-11-21-links-from-my-inbox.assets/1805-271.jpg)
 >
@@ -1139,7 +1139,7 @@ Dates marked *saved* come from Telegram.
 
 ### Data Engineering
 
-2026-10-24 [bbtree: An Ordered Rust Map](https://bbtree.xiangpeng.systems/post/) { bbtree.xiangpeng.systems } *saved*
+2026-10-24 [bbtree: An Ordered Rust Map](https://bbtree.xiangpeng.systems/post/) \{ bbtree.xiangpeng.systems \} *saved*
 
 > ![Original editorial illustration for bbtree: An Ordered Rust Map](2026-11-21-links-from-my-inbox.assets/1652-146.jpg)
 >
@@ -1147,7 +1147,7 @@ Dates marked *saved* come from Telegram.
 >
 > Hao tests operations against Rust's standard BTreeMap and checks tree invariants afterward. Verus checks properties such as key-order preservation under inlining. A deterministic concurrency test found a race that another scheduler's tests had missed, and the project added a regression case.
 
-2026-10-29 [Flint: A Chart Compiler with Semantic Types](https://microsoft.github.io/flint-chart/#/interactions) { microsoft.github.io } *saved*
+2026-10-29 [Flint: A Chart Compiler with Semantic Types](https://microsoft.github.io/flint-chart/#/interactions) \{ microsoft.github.io \} *saved*
 
 > ![Original editorial illustration for Flint: A Chart Compiler with Semantic Types](2026-11-21-links-from-my-inbox.assets/1687-177.jpg)
 >
@@ -1157,7 +1157,7 @@ Dates marked *saved* come from Telegram.
 
 ### 🕸 Network and Security
 
-2026-10-10 [Passkeys Are a Trap. Do Not Use Them.](https://nonfunctional.substack.com/p/passkeys-are-a-trap-do-not-use-them) { nonfunctional.substack.com }
+2026-10-10 [Passkeys Are a Trap. Do Not Use Them.](https://nonfunctional.substack.com/p/passkeys-are-a-trap-do-not-use-them) \{ nonfunctional.substack.com \}
 
 > ![Original editorial illustration for Passkeys Are a Trap. Do Not Use Them.](2026-11-21-links-from-my-inbox.assets/1612-109.jpg)
 >
@@ -1167,7 +1167,7 @@ Dates marked *saved* come from Telegram.
 >
 > See also [Scott Helme's response](https://scotthelme.co.uk/passkeys-are-not-a-trap/) and the [Hacker News discussion](https://news.ycombinator.com/item?id=50048312).
 
-2026-10-22 [Debug Access on a Brother Printer via Telnet](https://inventor7777.github.io/blog/2026/10/22/debug-access-on-brother/) { inventor7777.github.io }
+2026-10-22 [Debug Access on a Brother Printer via Telnet](https://inventor7777.github.io/blog/2026/10/22/debug-access-on-brother/) \{ inventor7777.github.io \}
 
 > ![Original editorial illustration for Debug Access on a Brother Printer via Telnet](2026-11-21-links-from-my-inbox.assets/1682-173.jpg)
 >
@@ -1175,7 +1175,7 @@ Dates marked *saved* come from Telegram.
 >
 > The findings are specific to the device and firmware the author examined. The author did not fully investigate the additional wireless modes and warns that changing low-level settings can damage the configuration.
 
-2026-11-03 [North Korean fake job interview led to $6.3B Binance heist](https://www.theregister.com/security/2026/11/03/north-korean-fake-job-interview-led-to-63b-binance-heist/5307398) { theregister.com }
+2026-11-03 [North Korean fake job interview led to $6.3B Binance heist](https://www.theregister.com/security/2026/11/03/north-korean-fake-job-interview-led-to-63b-binance-heist/5307398) \{ theregister.com \}
 
 > ![An anonymous video-call silhouette and a job application sit beside a sealed vault.](2026-11-21-links-from-my-inbox.assets/1704-194.jpg)
 >
@@ -1188,7 +1188,7 @@ Dates marked *saved* come from Telegram.
 
 ### Learning
 
-2026-11-01 [Hacker Books](https://hackerbooks.org/) { hackerbooks.org } *saved*
+2026-11-01 [Hacker Books](https://hackerbooks.org/) \{ hackerbooks.org \} *saved*
 
 > ![Original editorial illustration for Hacker Books](2026-11-21-links-from-my-inbox.assets/1697-187.jpg)
 >
@@ -1200,13 +1200,13 @@ Dates marked *saved* come from Telegram.
 
 ### Emacs
 
-2026-10-20 [EMACS Turns 50](https://www.technologyreview.com/2026/10/20/1145399/emacs-turns-50/) { technologyreview.com }
+2026-10-20 [EMACS Turns 50](https://www.technologyreview.com/2026/10/20/1145399/emacs-turns-50/) \{ technologyreview.com \}
 
 > ![Original editorial illustration for EMACS Turns 50](2026-11-21-links-from-my-inbox.assets/1685-175.jpg)
 >
 > EMACS began in 1976 at MIT as a collection of editor macros on top of TECO. Its history ties an editable programming environment to a community that shared improvements. Carl Mikkelsen's Control-R mode let a video terminal show changes as they were made instead of printing out a line. TECO had already evolved into a language for defining new editing commands. Developers used those two ingredients to turn editing into a programmable, interactive activity. Simson Garfinkel traces how EMACS was reimplemented for new machines and how the code-sharing community helped shape the free software movement.
 
-2026-04-20 [Emacs Is My Browser](https://joshblais.com/blog/emacs-as-my-browser/) { joshblais.com }
+2026-04-20 [Emacs Is My Browser](https://joshblais.com/blog/emacs-as-my-browser/) \{ joshblais.com \}
 
 > ![Original editorial illustration for Emacs Is My Browser](2026-11-21-links-from-my-inbox.assets/1784-250.jpg)
 >
@@ -1214,7 +1214,7 @@ Dates marked *saved* come from Telegram.
 >
 > The workflow depends on the named external programs and Emacs packages being installed. It is focused on reading rather than reproducing a full browser runtime inside Emacs.
 
-2026-10-31 [HackerTube](https://karpathy.bearblog.dev/hacker-tube/) { karpathy.bearblog.dev }
+2026-10-31 [HackerTube](https://karpathy.bearblog.dev/hacker-tube/) \{ karpathy.bearblog.dev \}
 
 > ![Original editorial illustration for HackerTube](2026-11-21-links-from-my-inbox.assets/1694-184.jpg)
 >
@@ -1226,7 +1226,7 @@ Dates marked *saved* come from Telegram.
 
 ### 😁 Fun / Retro
 
-2026-10-09 [Fleeting — Sorry, I'm in a meeting](https://iminafleeting.com/?v=en-US) { iminafleeting.com } *saved*
+2026-10-09 [Fleeting — Sorry, I'm in a meeting](https://iminafleeting.com/?v=en-US) \{ iminafleeting.com \} *saved*
 
 > ![Original editorial illustration for Fleeting — Sorry, I'm in a meeting](2026-11-21-links-from-my-inbox.assets/1603-102.jpg)
 >
@@ -1236,13 +1236,13 @@ Dates marked *saved* come from Telegram.
 
 ### 💖 Inspiration!
 
-2026-09-29 [Xournal++](https://github.com/xournalpp/xournalpp) { github.com } *saved*
+2026-09-29 [Xournal++](https://github.com/xournalpp/xournalpp) \{ github.com \} *saved*
 
 > ![A stylus circles and marks up a page before it branches into output formats.](2026-11-21-links-from-my-inbox.assets/1526-036.jpg)
 >
 > Xournal++ lets you write with a pressure-sensitive stylus and annotate PDFs in the same notebook. You can still select text and follow links in the original PDF while drawing on top. Its C++ code reuses parts of Xournal and adds page backgrounds, stroke styles, and drawing tools. It can export the annotated results as PDF, SVG, or PNG from the app or the command line. The documented input includes pressure-sensitive tablets. A source PDF with selectable text retains that capability in the background layer.
 
-2026-09-28 [Clipboard Normalizer in Mac App Store](https://www.jefftk.com/p/clipboard-normalizer-in-mac-app-store) { jefftk.com }
+2026-09-28 [Clipboard Normalizer in Mac App Store](https://www.jefftk.com/p/clipboard-normalizer-in-mac-app-store) \{ jefftk.com \}
 
 > ![A clipboard passes through a small cleaning machine and emerges with Markdown-style formatting.](2026-11-21-links-from-my-inbox.assets/1532-041.jpg)
 >
@@ -1250,7 +1250,7 @@ Dates marked *saved* come from Telegram.
 >
 > The author set the line on what formatting to preserve and found conversion bugs during review. The write-up also describes getting through App Store review after the first submission omitted a demo video.
 
-2026-10-09 [I Hired an Illustrator to Draw My House. Now It's My Home Assistant Dashboard.](https://antonfrolov.substack.com/p/i-hired-an-illustrator-to-draw-my) { antonfrolov.substack.com } *saved*
+2026-10-09 [I Hired an Illustrator to Draw My House. Now It's My Home Assistant Dashboard.](https://antonfrolov.substack.com/p/i-hired-an-illustrator-to-draw-my) \{ antonfrolov.substack.com \} *saved*
 
 > ![Original editorial illustration for I Hired an Illustrator to Draw My House. Now It's My Home Assistant Dashboard.](2026-11-21-links-from-my-inbox.assets/1588-089.jpg)
 >
@@ -1260,7 +1260,7 @@ Dates marked *saved* come from Telegram.
 >
 > See also [Adafruit's write-up and the dashboard image](https://blog.adafruit.com/2026/10/07/i-hired-an-illustrator-to-draw-my-house-now-its-my-home-assistant-dashboard/).
 
-2026-10-14 [Tiny Little Office](https://tinylittleoffice.com/) { tinylittleoffice.com } *saved*
+2026-10-14 [Tiny Little Office](https://tinylittleoffice.com/) \{ tinylittleoffice.com \} *saved*
 
 > ![Original editorial illustration for Tiny Little Office](2026-11-21-links-from-my-inbox.assets/1618-115.jpg)
 >
@@ -1268,7 +1268,7 @@ Dates marked *saved* come from Telegram.
 >
 > The little apps illustrate what happens when each document type has a portable text representation. The home page is a catalog and format entry point; it makes no claim about compatibility with traditional office files.
 
-2026-10-18 [Michelangelus Font](https://learn.microsoft.com/en-us/typography/font-list/michelangelus) { learn.microsoft.com } *saved*
+2026-10-18 [Michelangelus Font](https://learn.microsoft.com/en-us/typography/font-list/michelangelus) \{ learn.microsoft.com \} *saved*
 
 > ![Original editorial illustration for Michelangelus Font](2026-11-21-links-from-my-inbox.assets/1633-129.jpg)
 >
@@ -1276,7 +1276,7 @@ Dates marked *saved* come from Telegram.
 >
 > The font is available to download from the entry. Its copyright and redistribution information are separate from download access.
 
-2026-10-23 [Localpedia: An Encyclopedia of What Is Nearby](https://edjefferson.com/localwiki/) { edjefferson.com } *saved*
+2026-10-23 [Localpedia: An Encyclopedia of What Is Nearby](https://edjefferson.com/localwiki/) \{ edjefferson.com \} *saved*
 
 > ![Original editorial illustration for Localpedia: An Encyclopedia of What Is Nearby](2026-11-21-links-from-my-inbox.assets/1645-140.jpg)
 >
@@ -1284,13 +1284,13 @@ Dates marked *saved* come from Telegram.
 >
 > The publisher says a shared article link does not include the user's location. The saved URL redirects to the current project page.
 
-2026-11-13 [Isometric SF](https://isometricsf.com/v/9/27.7/18.9) { isometricsf.com } *saved*
+2026-11-13 [Isometric SF](https://isometricsf.com/v/9/27.7/18.9) \{ isometricsf.com \} *saved*
 
 > ![Original editorial illustration for Isometric SF](2026-11-21-links-from-my-inbox.assets/1767-240.jpg)
 >
 > Isometric SF redraws the Bay Area as a zoomable, searchable pixel-art map, from the Golden Gate Bridge to San Jose. The project's author says the artwork for each tile was generated by an AI model from Google Maps 3D captures. The map credits OpenStreetMap data, Copernicus elevation, and separate land-cover and place datasets. The site lists the tile art under Creative Commons Attribution–NonCommercial 4.0. Its data and imagery have separate credits.
 
-2026-11-14 [Why Get an Expensive Pi When I Have an Old Phone?](https://so.long.thanks.fish/why-pi-when-i-have-an-old-phone/) { so.long.thanks.fish } *saved*
+2026-11-14 [Why Get an Expensive Pi When I Have an Old Phone?](https://so.long.thanks.fish/why-pi-when-i-have-an-old-phone/) \{ so.long.thanks.fish \} *saved*
 
 > ![Original editorial illustration for Why Get an Expensive Pi When I Have an Old Phone?](2026-11-21-links-from-my-inbox.assets/1774-243.jpg)
 >
@@ -1300,7 +1300,7 @@ Dates marked *saved* come from Telegram.
 
 ### Really, other
 
-2026-10-24 [No Signs of AI Payoff Outside the Tech Sector](https://www.apollo.com/wealth/insights-news/insights/daily-spark/no-signs-of-ai-payoff-outside-the-tech-sector) { apollo.com } *saved*
+2026-10-24 [No Signs of AI Payoff Outside the Tech Sector](https://www.apollo.com/wealth/insights-news/insights/daily-spark/no-signs-of-ai-payoff-outside-the-tech-sector) \{ apollo.com \} *saved*
 
 > ![Original editorial illustration for No Signs of AI Payoff Outside the Tech Sector](2026-11-21-links-from-my-inbox.assets/1654-148.jpg)
 >
@@ -1310,7 +1310,7 @@ Dates marked *saved* come from Telegram.
 
 ### 🏛️ Stoicism
 
-2002-05-14 [📘 Meditations by Marcus Aurelius](https://vreeman.com/meditations/) { vreeman.com }
+2002-05-14 [📘 Meditations by Marcus Aurelius](https://vreeman.com/meditations/) \{ vreeman.com \}
 
 > ![Original editorial illustration for 📘 Meditations by Marcus Aurelius](2026-11-21-links-from-my-inbox.assets/1798-264.jpg)
 >

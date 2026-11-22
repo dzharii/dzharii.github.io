@@ -9,6 +9,7 @@ const expectedRoutes = JSON.parse(
   readFileSync(resolve('tests/expected-routes.json'), 'utf8'),
 ) as string[];
 const expectedRouteSet = new Set(expectedRoutes);
+const productionRoutes = buildRoutes();
 
 function buildRoutes(directory = buildDirectory): string[] {
   const routes: string[] = [];
@@ -95,11 +96,15 @@ function statExists(path: string): boolean {
   }
 }
 
-test('production route manifest matches the legacy URL set', () => {
-  expect(buildRoutes().sort()).toEqual([...expectedRoutes].sort());
+test('production route manifest preserves every legacy URL', () => {
+  const productionRouteSet = new Set(productionRoutes);
+  const removedRoutes = expectedRoutes.filter(
+    (route) => !productionRouteSet.has(route),
+  );
+  expect(removedRoutes).toEqual([]);
 });
 
-for (const route of expectedRoutes) {
+for (const route of productionRoutes) {
   test(`page ${route}`, async ({page}) => {
     const runtimeErrors: string[] = [];
     page.on('pageerror', (error) =>
